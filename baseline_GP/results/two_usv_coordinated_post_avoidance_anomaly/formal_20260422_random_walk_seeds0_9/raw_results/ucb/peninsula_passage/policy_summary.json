@@ -1,0 +1,36 @@
+{
+  "system_name": "two_usv_coordinated",
+  "assignment_mode": "coordinated",
+  "target_motion_mode": "random_walk",
+  "clue_acquisition_mode": "ucb",
+  "map_kind": "peninsula_passage",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.5,
+    "assignment_modes": [
+      "coordinated"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "ucb"
+    ],
+    "time_to_first_detection_mean": 82.11111111111111,
+    "time_to_all_found_mean": 159.4,
+    "detection_rate_mean": 0.7333333333333333,
+    "found_count_mean": 2.2,
+    "known_free_observation_ratio_final_mean": 0.7434651977966951,
+    "planning_time_ms_mean_mean": 155.1389378845637,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.2406390867243859,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.03108264269209569,
+    "duplicate_viewpoint_ratio_mean": 0.0,
+    "cross_region_assignment_ratio_mean": 0.08300750833557377,
+    "conflict_intervention_count_mean": 0.0,
+    "wait_count_total_mean": 0.0,
+    "wait_count_by_usv_mean": [
+      0.0,
+      0.0
+    ]
+  }
+}

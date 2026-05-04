@@ -1,0 +1,47 @@
+{
+  "experiment": "kappa_ablation_single_usv_anomaly",
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "planner_adaptation_modes": [
+    "adaptive",
+    "no_kappa"
+  ],
+  "target_motion_modes": [
+    "static",
+    "random_walk"
+  ],
+  "map_kinds": [
+    "open_water",
+    "harbor_cove",
+    "peninsula_passage"
+  ],
+  "episode_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_iters": 240,
+  "map_height_cells": 40,
+  "map_width_cells": 60,
+  "n_targets": 3,
+  "target_count_upper_bound": 3,
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "anomaly_tail_quantile": 0.9,
+  "anomaly_weight_lambda": 1.0,
+  "clue_sigma_m": 15.0,
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "safe_nav_inflation_radius_cells": 0,
+  "safe_nav_soft_clearance_radius_cells": 1,
+  "safe_nav_lambda_clearance": 1.0,
+  "score_weights": {
+    "search_info_gain_norm": 6.5,
+    "recency_bias_norm": 2.0,
+    "exec_cost_norm": -0.35
+  }
+}

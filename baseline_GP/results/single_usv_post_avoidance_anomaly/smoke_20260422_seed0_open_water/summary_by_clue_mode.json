@@ -1,0 +1,110 @@
+{
+  "ucb": {
+    "overall": {
+      "n_episodes": 1,
+      "policy_names": [
+        "marine_knownmap_path_v2_infosampled"
+      ],
+      "clue_acquisition_modes": [
+        "ucb"
+      ],
+      "path_safety_modes": [
+        "soft_clearance_astar_v1"
+      ],
+      "time_to_first_detection_mean": null,
+      "time_to_all_found_mean": null,
+      "detection_rate_mean": 0.0,
+      "found_count_mean": 0.0,
+      "known_free_observation_ratio_final_mean": 0.02365163572060124,
+      "planning_time_ms_mean_mean": 55.63215000006494,
+      "path_length_mean": 12.0,
+      "clearance_penalty_raw_mean_mean": 0.052083333333333336,
+      "near_obstacle_step_ratio_mean": 0.052083333333333336,
+      "min_clearance_cells_mean_mean": 1.5833333333333333,
+      "path_invalidations_per_episode_mean": 0.0,
+      "anomaly_top_band_selection_ratio_pre_first_detection_mean": 1.0,
+      "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.01966204474648868
+    },
+    "mapwise": {
+      "open_water": {
+        "n_episodes": 1,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "ucb"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "time_to_first_detection_mean": null,
+        "time_to_all_found_mean": null,
+        "detection_rate_mean": 0.0,
+        "found_count_mean": 0.0,
+        "known_free_observation_ratio_final_mean": 0.02365163572060124,
+        "planning_time_ms_mean_mean": 55.63215000006494,
+        "path_length_mean": 12.0,
+        "clearance_penalty_raw_mean_mean": 0.052083333333333336,
+        "near_obstacle_step_ratio_mean": 0.052083333333333336,
+        "min_clearance_cells_mean_mean": 1.5833333333333333,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 1.0,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.01966204474648868
+      }
+    }
+  },
+  "anomaly_upper_tail": {
+    "overall": {
+      "n_episodes": 1,
+      "policy_names": [
+        "marine_knownmap_path_v2_infosampled"
+      ],
+      "clue_acquisition_modes": [
+        "anomaly_upper_tail"
+      ],
+      "path_safety_modes": [
+        "soft_clearance_astar_v1"
+      ],
+      "time_to_first_detection_mean": null,
+      "time_to_all_found_mean": null,
+      "detection_rate_mean": 0.0,
+      "found_count_mean": 0.0,
+      "known_free_observation_ratio_final_mean": 0.02365163572060124,
+      "planning_time_ms_mean_mean": 53.76135000005888,
+      "path_length_mean": 12.0,
+      "clearance_penalty_raw_mean_mean": 0.052083333333333336,
+      "near_obstacle_step_ratio_mean": 0.052083333333333336,
+      "min_clearance_cells_mean_mean": 1.5833333333333333,
+      "path_invalidations_per_episode_mean": 0.0,
+      "anomaly_top_band_selection_ratio_pre_first_detection_mean": 1.0,
+      "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.01966204474648868
+    },
+    "mapwise": {
+      "open_water": {
+        "n_episodes": 1,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "anomaly_upper_tail"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "time_to_first_detection_mean": null,
+        "time_to_all_found_mean": null,
+        "detection_rate_mean": 0.0,
+        "found_count_mean": 0.0,
+        "known_free_observation_ratio_final_mean": 0.02365163572060124,
+        "planning_time_ms_mean_mean": 53.76135000005888,
+        "path_length_mean": 12.0,
+        "clearance_penalty_raw_mean_mean": 0.052083333333333336,
+        "near_obstacle_step_ratio_mean": 0.052083333333333336,
+        "min_clearance_cells_mean_mean": 1.5833333333333333,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 1.0,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.01966204474648868
+      }
+    }
+  }
+}

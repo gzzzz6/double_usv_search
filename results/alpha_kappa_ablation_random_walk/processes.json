@@ -1,0 +1,30 @@
+﻿[
+    {
+        "mode":  "adaptive",
+        "pid":  3796,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\adaptive",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\adaptive.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\adaptive.err.log"
+    },
+    {
+        "mode":  "no_alpha",
+        "pid":  5696,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha.err.log"
+    },
+    {
+        "mode":  "no_kappa",
+        "pid":  11728,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_kappa",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_kappa.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_kappa.err.log"
+    },
+    {
+        "mode":  "no_alpha_kappa",
+        "pid":  3180,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa.err.log"
+    }
+]

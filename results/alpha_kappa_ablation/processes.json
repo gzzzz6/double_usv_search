@@ -1,0 +1,30 @@
+﻿[
+    {
+        "mode":  "adaptive",
+        "pid":  32532,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\adaptive",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\adaptive.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\adaptive.err.log"
+    },
+    {
+        "mode":  "no_alpha",
+        "pid":  19740,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha.err.log"
+    },
+    {
+        "mode":  "no_kappa",
+        "pid":  22600,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_kappa",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_kappa.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_kappa.err.log"
+    },
+    {
+        "mode":  "no_alpha_kappa",
+        "pid":  35716,
+        "out_dir":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha_kappa",
+        "log":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha_kappa.log",
+        "err":  "F:\\pythonprojects\\results\\alpha_kappa_ablation\\no_alpha_kappa.err.log"
+    }
+]

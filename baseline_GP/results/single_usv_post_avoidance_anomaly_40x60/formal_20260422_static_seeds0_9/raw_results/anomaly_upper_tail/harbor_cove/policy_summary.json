@@ -1,0 +1,32 @@
+{
+  "system_name": "single_usv_infosampled",
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "map_kind": "harbor_cove",
+  "summary": {
+    "n_episodes": 10,
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled"
+    ],
+    "clue_acquisition_modes": [
+      "anomaly_upper_tail"
+    ],
+    "path_safety_modes": [
+      "soft_clearance_astar_v1"
+    ],
+    "time_to_first_detection_mean": 34.8,
+    "time_to_all_found_mean": 165.75,
+    "detection_rate_mean": 0.8,
+    "found_count_mean": 2.4,
+    "known_free_observation_ratio_final_mean": 0.6951576576576576,
+    "planning_time_ms_mean_mean": 24.184398728047665,
+    "path_length_mean": 210.3,
+    "clearance_penalty_raw_mean_mean": 0.003176337579498504,
+    "near_obstacle_step_ratio_mean": 0.003176337579498504,
+    "min_clearance_cells_mean_mean": 5.33932037210046,
+    "path_invalidations_per_episode_mean": 0.0,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.2850049162849419,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.06476673986453466
+  }
+}

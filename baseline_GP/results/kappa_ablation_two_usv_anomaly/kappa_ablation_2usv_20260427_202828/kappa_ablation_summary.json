@@ -1,0 +1,6 @@
+{
+  "output_dir": "baseline_GP\\results\\kappa_ablation_two_usv_anomaly\\kappa_ablation_2usv_20260427_202828",
+  "n_episode_rows": 120,
+  "n_summary_rows": 12,
+  "n_delta_rows": 6
+}

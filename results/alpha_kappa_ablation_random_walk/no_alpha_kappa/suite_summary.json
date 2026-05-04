@@ -1,0 +1,79 @@
+{
+  "output_dir": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa",
+  "config_snapshot": {
+    "map_kinds": [
+      "open_water",
+      "harbor_cove",
+      "peninsula_passage"
+    ],
+    "episode_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "max_iters": 240,
+    "target_motion_mode": "random_walk",
+    "planner_adaptation_mode": "no_alpha_kappa",
+    "clue_acquisition_modes": [
+      "ucb",
+      "anomaly_upper_tail"
+    ],
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "safe_nav_config": {
+      "path_safety_mode": "soft_clearance_astar_v1",
+      "safe_nav_inflation_radius_cells": 0,
+      "safe_nav_soft_clearance_radius_cells": 1,
+      "safe_nav_lambda_clearance": 1.0
+    },
+    "single_contract_revision_id": "knownmap_phase0_contract_20260405",
+    "single_contract_schema_version": "knownmap_phase0_v1",
+    "base_episode_kwargs": {
+      "n_targets": 3,
+      "target_count_mode": "upper_bound",
+      "target_count_upper_bound": 4,
+      "staleness_tau_steps": 12,
+      "resolution_m": 5.0,
+      "sensor_range_m": 25.0,
+      "min_target_separation_m": 30.0,
+      "min_start_distance_m": 40.0,
+      "gp_length_scale_m": 20.0,
+      "gp_noise_std": 0.03,
+      "gp_prior_mean": 0.0,
+      "gp_beta": 0.5,
+      "gp_fit_every": 5,
+      "gp_optimize_hyperparams": false,
+      "gp_max_points": 128,
+      "clue_samples_per_step": 12,
+      "clue_sigma_m": 15.0,
+      "clue_amplitude": 2.0,
+      "clue_noise_std": 0.03,
+      "constraint_mode": "hard",
+      "lambda_u_turn": 2.0,
+      "gamma": 0.95,
+      "search_commit_window": 4,
+      "search_commit_max_window": 10,
+      "search_commit_path_divisor": 2,
+      "segment_horizon": 8,
+      "top_k_anchors": 6,
+      "viewpoints_per_anchor": 6,
+      "r_hit": 1,
+      "map_height_cells": 60,
+      "map_width_cells": 80
+    }
+  },
+  "output_files": {
+    "episode_results.csv": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\episode_results.csv",
+    "main_results_by_map.csv": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\main_results_by_map.csv",
+    "anomaly_aux_metrics_by_map.csv": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\anomaly_aux_metrics_by_map.csv",
+    "delta_anomaly_vs_ucb.csv": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\delta_anomaly_vs_ucb.csv",
+    "summary_by_clue_mode.json": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\summary_by_clue_mode.json",
+    "config_snapshot.json": "F:\\pythonprojects\\results\\alpha_kappa_ablation_random_walk\\no_alpha_kappa\\config_snapshot.json"
+  }
+}

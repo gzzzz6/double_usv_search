@@ -1,0 +1,234 @@
+{
+  "ucb": {
+    "overall": {
+      "n_episodes": 30,
+      "policy_names": [
+        "marine_knownmap_path_v2_infosampled"
+      ],
+      "clue_acquisition_modes": [
+        "ucb"
+      ],
+      "path_safety_modes": [
+        "soft_clearance_astar_v1"
+      ],
+      "planner_adaptation_modes": [
+        "no_alpha_kappa"
+      ],
+      "time_to_first_detection_mean": 62.68181818181818,
+      "time_to_all_found_mean": 195.0,
+      "detection_rate_mean": 0.3444444444444444,
+      "found_count_mean": 1.0333333333333334,
+      "known_free_observation_ratio_final_mean": 0.35912933844590866,
+      "planning_time_ms_mean_mean": 46.17932716092438,
+      "path_length_mean": 238.5,
+      "clearance_penalty_raw_mean_mean": 0.008619569088319089,
+      "near_obstacle_step_ratio_mean": 0.008619569088319089,
+      "min_clearance_cells_mean_mean": 10.086260683760681,
+      "path_invalidations_per_episode_mean": 0.0,
+      "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.3886427223612575,
+      "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.026400801794932947
+    },
+    "mapwise": {
+      "open_water": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "ucb"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 52.857142857142854,
+        "time_to_all_found_mean": 195.0,
+        "detection_rate_mean": 0.3,
+        "found_count_mean": 0.9,
+        "known_free_observation_ratio_final_mean": 0.3196507515473033,
+        "planning_time_ms_mean_mean": 44.303726601028565,
+        "path_length_mean": 235.5,
+        "clearance_penalty_raw_mean_mean": 0.0026642628205128206,
+        "near_obstacle_step_ratio_mean": 0.0026642628205128206,
+        "min_clearance_cells_mean_mean": 16.702115384615382,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.3297824074421819,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.02252844748189676
+      },
+      "harbor_cove": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "ucb"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 76.77777777777777,
+        "time_to_all_found_mean": null,
+        "detection_rate_mean": 0.4333333333333333,
+        "found_count_mean": 1.3,
+        "known_free_observation_ratio_final_mean": 0.43815789473684214,
+        "planning_time_ms_mean_mean": 48.744595031429654,
+        "path_length_mean": 240.0,
+        "clearance_penalty_raw_mean_mean": 0.002604166666666667,
+        "near_obstacle_step_ratio_mean": 0.002604166666666667,
+        "min_clearance_cells_mean_mean": 9.5125,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.37945634996030003,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.030612255212459534
+      },
+      "peninsula_passage": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "ucb"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 53.0,
+        "time_to_all_found_mean": null,
+        "detection_rate_mean": 0.3,
+        "found_count_mean": 0.9,
+        "known_free_observation_ratio_final_mean": 0.31957936905358036,
+        "planning_time_ms_mean_mean": 45.489659850314965,
+        "path_length_mean": 240.0,
+        "clearance_penalty_raw_mean_mean": 0.020590277777777777,
+        "near_obstacle_step_ratio_mean": 0.020590277777777777,
+        "min_clearance_cells_mean_mean": 4.0441666666666665,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.45668940968129074,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.02606170269044255
+      }
+    }
+  },
+  "anomaly_upper_tail": {
+    "overall": {
+      "n_episodes": 30,
+      "policy_names": [
+        "marine_knownmap_path_v2_infosampled"
+      ],
+      "clue_acquisition_modes": [
+        "anomaly_upper_tail"
+      ],
+      "path_safety_modes": [
+        "soft_clearance_astar_v1"
+      ],
+      "planner_adaptation_modes": [
+        "no_alpha_kappa"
+      ],
+      "time_to_first_detection_mean": 75.1923076923077,
+      "time_to_all_found_mean": 226.4,
+      "detection_rate_mean": 0.45555555555555555,
+      "found_count_mean": 1.3666666666666667,
+      "known_free_observation_ratio_final_mean": 0.37552788041342733,
+      "planning_time_ms_mean_mean": 43.32904408926255,
+      "path_length_mean": 237.73333333333332,
+      "clearance_penalty_raw_mean_mean": 0.0038132694784599724,
+      "near_obstacle_step_ratio_mean": 0.0038132694784599724,
+      "min_clearance_cells_mean_mean": 9.496714187465477,
+      "path_invalidations_per_episode_mean": 0.0,
+      "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.4125677366787836,
+      "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.027179741602869775
+    },
+    "mapwise": {
+      "open_water": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "anomaly_upper_tail"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 90.11111111111111,
+        "time_to_all_found_mean": 219.0,
+        "detection_rate_mean": 0.4666666666666666,
+        "found_count_mean": 1.4,
+        "known_free_observation_ratio_final_mean": 0.3483863837312113,
+        "planning_time_ms_mean_mean": 46.01794082732472,
+        "path_length_mean": 235.8,
+        "clearance_penalty_raw_mean_mean": 0.002657172553540859,
+        "near_obstacle_step_ratio_mean": 0.002657172553540859,
+        "min_clearance_cells_mean_mean": 14.607032194389125,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.3363938656920684,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.02231862051672149
+      },
+      "harbor_cove": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "anomaly_upper_tail"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 72.22222222222223,
+        "time_to_all_found_mean": 230.0,
+        "detection_rate_mean": 0.4999999999999999,
+        "found_count_mean": 1.5,
+        "known_free_observation_ratio_final_mean": 0.4627741228070176,
+        "planning_time_ms_mean_mean": 43.31751832910657,
+        "path_length_mean": 238.0,
+        "clearance_penalty_raw_mean_mean": 0.0026276450393482144,
+        "near_obstacle_step_ratio_mean": 0.0026276450393482144,
+        "min_clearance_cells_mean_mean": 9.779018487665423,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.44520657841140004,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.03222242329009412
+      },
+      "peninsula_passage": {
+        "n_episodes": 10,
+        "policy_names": [
+          "marine_knownmap_path_v2_infosampled"
+        ],
+        "clue_acquisition_modes": [
+          "anomaly_upper_tail"
+        ],
+        "path_safety_modes": [
+          "soft_clearance_astar_v1"
+        ],
+        "planner_adaptation_modes": [
+          "no_alpha_kappa"
+        ],
+        "time_to_first_detection_mean": 61.75,
+        "time_to_all_found_mean": 234.0,
+        "detection_rate_mean": 0.4,
+        "found_count_mean": 1.2,
+        "known_free_observation_ratio_final_mean": 0.3154231347020531,
+        "planning_time_ms_mean_mean": 40.651673111356374,
+        "path_length_mean": 239.4,
+        "clearance_penalty_raw_mean_mean": 0.006154990842490842,
+        "near_obstacle_step_ratio_mean": 0.006154990842490842,
+        "min_clearance_cells_mean_mean": 4.104091880341881,
+        "path_invalidations_per_episode_mean": 0.0,
+        "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.45610276593288235,
+        "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.026998181001793704
+      }
+    }
+  }
+}

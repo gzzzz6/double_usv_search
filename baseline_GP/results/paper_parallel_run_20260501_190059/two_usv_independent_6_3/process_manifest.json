@@ -1,0 +1,14 @@
+﻿[
+    {
+        "motion_mode":  "static",
+        "pid":  41636,
+        "stdout":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\two_usv_independent_6_3\\logs\\two_usv_independent_static.out.log",
+        "stderr":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\two_usv_independent_6_3\\logs\\two_usv_independent_static.err.log"
+    },
+    {
+        "motion_mode":  "random_walk",
+        "pid":  44852,
+        "stdout":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\two_usv_independent_6_3\\logs\\two_usv_independent_random_walk.out.log",
+        "stderr":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\two_usv_independent_6_3\\logs\\two_usv_independent_random_walk.err.log"
+    }
+]

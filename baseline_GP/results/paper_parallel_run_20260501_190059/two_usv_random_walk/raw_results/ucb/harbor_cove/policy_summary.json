@@ -1,0 +1,36 @@
+{
+  "system_name": "two_usv_coordinated",
+  "assignment_mode": "coordinated",
+  "target_motion_mode": "random_walk",
+  "clue_acquisition_mode": "ucb",
+  "map_kind": "harbor_cove",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.6,
+    "assignment_modes": [
+      "coordinated"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "ucb"
+    ],
+    "time_to_first_detection_mean": 53.1,
+    "time_to_all_found_mean": 159.16666666666666,
+    "detection_rate_mean": 0.8333333333333334,
+    "found_count_mean": 2.5,
+    "known_free_observation_ratio_final_mean": 0.7740679824561403,
+    "planning_time_ms_mean_mean": 116.36367670592577,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.26218859870032807,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.034438033388422766,
+    "duplicate_viewpoint_ratio_mean": 0.0,
+    "cross_region_assignment_ratio_mean": 0.014235347985347984,
+    "conflict_intervention_count_mean": 0.0,
+    "wait_count_total_mean": 0.0,
+    "wait_count_by_usv_mean": [
+      0.0,
+      0.0
+    ]
+  }
+}

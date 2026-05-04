@@ -1,0 +1,132 @@
+{
+  "template_only": true,
+  "template_status": "phase1_phase2_runtime_skeleton",
+  "baseline_revision_id": "knownmap_2usv_largegrid_sigma15_60x80_template_20260408",
+  "schema_version": "knownmap_2usv_largegrid_template_v1",
+  "official_entrypoints": {
+    "wrapper_file": "baseline_GP/runner_two_usv_search.py",
+    "evaluation": "run_evaluation_two_usv_search_knownmap",
+    "paired_comparison": "summarize_two_usv_knownmap_policy_comparison",
+    "comparison_matrix": "summarize_two_usv_knownmap_policy_comparison_matrix",
+    "cli_dispatch": "python baseline_GP/runner_two_usv_search.py eval_knownmap_2usv"
+  },
+  "notes": [
+    "Template only: Phase 1 + Phase 2 runtime skeleton exists, but the benchmark contract and metrics are not frozen yet.",
+    "This file fixes the intended 60x80 + sigma15 benchmark semantics for the future two-USV line.",
+    "Reserved placeholder policy names below should be implemented before treating this contract as executable."
+  ],
+  "frozen_policy_set": [
+    "known_map_greedy_viewpoint_2usv",
+    "marine_search_soft_knownmap_2usv",
+    "marine_knownmap_path_v2_infofused_2usv",
+    "marine_knownmap_path_v2_infosampled_2usv"
+  ],
+  "frozen_config": {
+    "map_kind": "harbor_cove",
+    "map_height_cells": 60,
+    "map_width_cells": 80,
+    "n_usvs": 2,
+    "episode_seeds": [0, 1, 2, 3, 4],
+    "max_iters": 240,
+    "n_targets": 3,
+    "target_motion_mode": "random_walk",
+    "target_count_mode": "upper_bound",
+    "target_count_upper_bound": 4,
+    "staleness_tau_steps": 12,
+    "resolution_m": 5.0,
+    "sensor_range_m": 25.0,
+    "min_target_separation_m": 30.0,
+    "min_start_distance_m": 40.0,
+    "gp_length_scale_m": 20.0,
+    "gp_noise_std": 0.03,
+    "gp_prior_mean": 0.0,
+    "gp_beta": 0.5,
+    "gp_fit_every": 5,
+    "gp_optimize_hyperparams": false,
+    "gp_max_points": 128,
+    "clue_samples_per_step": 12,
+    "clue_sigma_m": 15.0,
+    "clue_amplitude": 2.0,
+    "clue_noise_std": 0.03,
+    "search_info_clue_weight": 0.5,
+    "search_info_intensity_weight": 0.5,
+    "constraint_mode": "hard",
+    "lambda_u_turn": 2.0,
+    "gamma": 0.95,
+    "search_commit_window": 4,
+    "search_commit_max_window": 10,
+    "search_commit_path_divisor": 2,
+    "segment_horizon": 8,
+    "top_k_anchors": 6,
+    "viewpoints_per_anchor": 6,
+    "r_hit": 1
+  },
+  "frozen_summary_keys": [
+    "time_to_first_detection",
+    "time_to_all_found",
+    "time_to_next_detection",
+    "detection_rate",
+    "found_count",
+    "planning_time_ms_mean",
+    "known_free_observation_ratio_final",
+    "same_anchor_segment_ratio",
+    "viewpoint_drift_under_same_anchor",
+    "path_invalidations_per_episode"
+  ],
+  "frozen_policy_summary_keys": [
+    "time_to_first_detection_mean",
+    "time_to_all_found_mean",
+    "time_to_next_detection_mean",
+    "detection_rate_mean",
+    "found_count_mean",
+    "planning_time_ms_mean",
+    "known_free_observation_ratio_final_mean",
+    "same_anchor_segment_ratio_mean",
+    "viewpoint_drift_under_same_anchor_mean",
+    "path_invalidations_per_episode_mean"
+  ],
+  "frozen_trace_keys": [
+    "step",
+    "policy_name",
+    "robot_cell",
+    "viewpoint_cell",
+    "anchor_cell",
+    "replanned_this_step",
+    "planned_commit_window",
+    "segment_path_length",
+    "path_safety_mode",
+    "team_path_avoidance_mode",
+    "reservation_priority_rank",
+    "reservation_soft_penalty_raw",
+    "exec_cost_raw",
+    "total_score",
+    "detected_count_this_step"
+  ],
+  "current_runtime_semantics": {
+    "main_policy": "marine_knownmap_path_v2_infosampled_2usv",
+    "semantic_label": "infosampled + soft responsibility prior + sequential allocation-lite + soft-clearance safe path generation + reservation-based conflict-safe execution",
+    "template_caveat": "Template only; knownmap_experiment_contract_2usv_v1.json is the maintained 2-USV contract.",
+    "post_avoidance_runtime_config": {
+      "assignment_mode": "coordinated",
+      "path_safety_mode": "soft_clearance_astar_v1",
+      "safe_nav_inflation_radius_cells": 0,
+      "safe_nav_soft_clearance_radius_cells": 1,
+      "safe_nav_lambda_clearance": 1.0,
+      "team_path_avoidance_mode": "reservation_v1",
+      "team_reservation_safety_distance_cells": 1.5,
+      "team_reservation_lambda": 1.0,
+      "planner_adaptation_mode": "adaptive"
+    },
+    "deprecated_compatibility_fields": {
+      "alpha_focus": "retained in trace/schema, fixed to 0.0, no longer affects runtime decisions",
+      "kappa_commit": "retained in trace/schema, fixed to 0.0, no longer affects scoring or commit-window decisions"
+    }
+  },
+  "frozen_paired_comparison_keys": [
+    "found_count_delta",
+    "known_free_observation_ratio_final_delta",
+    "same_anchor_segment_ratio_delta",
+    "viewpoint_drift_under_same_anchor_delta",
+    "time_to_first_detection_delta"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "stage": "stage2_ws_wr_grid",
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "map_height_cells": 40,
+  "map_width_cells": 60,
+  "map_kinds": [
+    "open_water",
+    "harbor_cove",
+    "peninsula_passage"
+  ],
+  "episode_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_iters": 240,
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "ucb",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "safe_nav_inflation_radius_cells": 0,
+  "safe_nav_soft_clearance_radius_cells": 1,
+  "safe_nav_lambda_clearance": 1.0,
+  "target_count_upper_bound": 3,
+  "clue_sigma_m": 15.0,
+  "current_weights": {
+    "w_s": 6.5,
+    "w_r": 3.0,
+    "w_e": -0.35
+  },
+  "weight_configs": [
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 4.5,
+      "w_r": 2.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 4.5,
+      "w_r": 3.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 4.5,
+      "w_r": 4.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 5.5,
+      "w_r": 2.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 5.5,
+      "w_r": 3.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 5.5,
+      "w_r": 4.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 6.5,
+      "w_r": 2.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 6.5,
+      "w_r": 3.0,
+      "w_e": -0.35
+    },
+    {
+      "stage": "stage2_ws_wr_grid",
+      "w_s": 6.5,
+      "w_r": 4.0,
+      "w_e": -0.35
+    }
+  ],
+  "selection_rule": [
+    "success_all_found_rate desc",
+    "time_to_all_found_censored_mean asc",
+    "detection_rate_mean desc",
+    "time_to_first_detection_censored_mean asc",
+    "planning_time_ms_mean asc"
+  ]
+}

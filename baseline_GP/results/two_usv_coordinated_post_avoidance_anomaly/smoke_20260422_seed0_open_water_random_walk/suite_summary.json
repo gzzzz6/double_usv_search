@@ -1,0 +1,74 @@
+{
+  "output_dir": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk",
+  "config_snapshot": {
+    "map_kinds": [
+      "open_water"
+    ],
+    "episode_seeds": [
+      0
+    ],
+    "max_iters": 12,
+    "assignment_mode": "coordinated",
+    "target_motion_mode": "random_walk",
+    "clue_acquisition_modes": [
+      "ucb",
+      "anomaly_upper_tail"
+    ],
+    "safe_nav_config": {
+      "path_safety_mode": "soft_clearance_astar_v1",
+      "safe_nav_inflation_radius_cells": 0,
+      "safe_nav_soft_clearance_radius_cells": 1,
+      "safe_nav_lambda_clearance": 1.0,
+      "team_path_avoidance_mode": "reservation_v1",
+      "team_reservation_safety_distance_cells": 1.5,
+      "team_reservation_lambda": 1.0
+    },
+    "two_usv_contract_revision_id": "knownmap_2usv_responsibility_v1_20260410",
+    "two_usv_contract_schema_version": "knownmap_2usv_v1",
+    "base_episode_kwargs": {
+      "map_height_cells": 60,
+      "map_width_cells": 80,
+      "n_targets": 3,
+      "target_count_mode": "upper_bound",
+      "target_count_upper_bound": 4,
+      "staleness_tau_steps": 12,
+      "resolution_m": 5.0,
+      "sensor_range_m": 25.0,
+      "min_target_separation_m": 30.0,
+      "min_start_distance_m": 40.0,
+      "gp_length_scale_m": 20.0,
+      "gp_noise_std": 0.03,
+      "gp_prior_mean": 0.0,
+      "gp_beta": 0.5,
+      "gp_fit_every": 5,
+      "gp_optimize_hyperparams": false,
+      "gp_max_points": 128,
+      "clue_samples_per_step": 12,
+      "clue_sigma_m": 15.0,
+      "clue_amplitude": 2.0,
+      "clue_noise_std": 0.03,
+      "search_info_clue_weight": 0.5,
+      "search_info_intensity_weight": 0.5,
+      "constraint_mode": "hard",
+      "lambda_u_turn": 2.0,
+      "gamma": 0.95,
+      "search_commit_window": 4,
+      "search_commit_max_window": 10,
+      "search_commit_path_divisor": 2,
+      "segment_horizon": 8,
+      "top_k_anchors": 6,
+      "viewpoints_per_anchor": 6,
+      "infosampled_inspected_limit_multiplier": 3.0,
+      "infosampled_inspected_limit_floor": 4,
+      "r_hit": 1
+    }
+  },
+  "output_files": {
+    "episode_results.csv": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\episode_results.csv",
+    "main_results_by_map.csv": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\main_results_by_map.csv",
+    "anomaly_aux_metrics_by_map.csv": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\anomaly_aux_metrics_by_map.csv",
+    "delta_anomaly_vs_ucb.csv": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\delta_anomaly_vs_ucb.csv",
+    "summary_by_clue_mode.json": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\summary_by_clue_mode.json",
+    "config_snapshot.json": "F:\\pythonprojects\\baseline_GP\\results\\two_usv_coordinated_post_avoidance_anomaly\\smoke_20260422_seed0_open_water_random_walk\\config_snapshot.json"
+  }
+}

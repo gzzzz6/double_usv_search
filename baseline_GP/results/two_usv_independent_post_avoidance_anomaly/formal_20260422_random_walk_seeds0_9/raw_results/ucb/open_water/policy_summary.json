@@ -1,0 +1,36 @@
+{
+  "system_name": "two_usv_independent",
+  "assignment_mode": "independent",
+  "target_motion_mode": "random_walk",
+  "clue_acquisition_mode": "ucb",
+  "map_kind": "open_water",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.6,
+    "assignment_modes": [
+      "independent"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "ucb"
+    ],
+    "time_to_first_detection_mean": 84.6,
+    "time_to_all_found_mean": 177.66666666666666,
+    "detection_rate_mean": 0.8333333333333333,
+    "found_count_mean": 2.5,
+    "known_free_observation_ratio_final_mean": 0.6508178603006188,
+    "planning_time_ms_mean_mean": 98.99249163896789,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.2334123427527613,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.024364233747735515,
+    "duplicate_viewpoint_ratio_mean": 0.024308809470099793,
+    "cross_region_assignment_ratio_mean": 0.3168222969933435,
+    "conflict_intervention_count_mean": 0.0,
+    "wait_count_total_mean": 0.0,
+    "wait_count_by_usv_mean": [
+      0.0,
+      0.0
+    ]
+  }
+}

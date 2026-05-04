@@ -1,0 +1,58 @@
+Figure 1 panel: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\figure1_scene_maps.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\open_water.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\harbor_cove.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\peninsula_passage.png
+Additional structured scene maps added on 2026-04-20:
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\benchmark.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\sparse_platforms.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\island_channel.png
+Map: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\scene_maps\breakwater_inlet.png
+Note: random maps are not exported here because they do not correspond to one fixed canonical scene.
+
+Figure 2 qualitative triptychs:
+known_map_greedy_viewpoint: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\qualitative\figure2_known_map_greedy_viewpoint_triptych.png
+marine_search_soft_knownmap: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\qualitative\figure2_marine_search_soft_knownmap_triptych.png
+marine_knownmap_path_v2: F:\pythonprojects\baseline_GP\results\midterm_figures\20260405_173509\qualitative\figure2_marine_knownmap_path_v2_triptych.png
+
+Key steps:
+{'policy_name': 'known_map_greedy_viewpoint', 'label': 'early', 'step': 10, 'found_count': 0, 'time_to_first_detection_full_run': 52, 'time_to_all_found_full_run': 187, 'known_free_observation_ratio_final': 0.04842342342342342}
+{'policy_name': 'known_map_greedy_viewpoint', 'label': 'pre_detection', 'step': 51, 'found_count': 0, 'time_to_first_detection_full_run': 52, 'time_to_all_found_full_run': 187, 'known_free_observation_ratio_final': 0.23704954954954954}
+{'policy_name': 'known_map_greedy_viewpoint', 'label': 'mid_or_post', 'step': 93, 'found_count': 2, 'time_to_first_detection_full_run': 52, 'time_to_all_found_full_run': 187, 'known_free_observation_ratio_final': 0.32263513513513514}
+{'policy_name': 'marine_search_soft_knownmap', 'label': 'early', 'step': 10, 'found_count': 0, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.04842342342342342}
+{'policy_name': 'marine_search_soft_knownmap', 'label': 'pre_detection', 'step': 21, 'found_count': 0, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.1097972972972973}
+{'policy_name': 'marine_search_soft_knownmap', 'label': 'mid_or_post', 'step': 42, 'found_count': 2, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.21565315315315314}
+{'policy_name': 'marine_knownmap_path_v2', 'label': 'early', 'step': 10, 'found_count': 0, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.04842342342342342}
+{'policy_name': 'marine_knownmap_path_v2', 'label': 'pre_detection', 'step': 21, 'found_count': 0, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.1097972972972973}
+{'policy_name': 'marine_knownmap_path_v2', 'label': 'mid_or_post', 'step': 42, 'found_count': 2, 'time_to_first_detection_full_run': 22, 'time_to_all_found_full_run': 81, 'known_free_observation_ratio_final': 0.21565315315315314}
+图 1：场景地图图
+三联图总面板：
+
+figure1_scene_maps.png
+单张地图：
+
+open_water.png
+harbor_cove.png
+peninsula_passage.png
+图 2：定性搜索过程图
+我用 harbor_cove、seed=0，给三个策略各导出了一张三联图，分别对应：
+
+初期 early
+检测前 pre_detection
+中期/检测后 mid_or_post
+三张总图：
+
+figure2_known_map_greedy_viewpoint_triptych.png
+figure2_marine_search_soft_knownmap_triptych.png
+figure2_marine_knownmap_path_v2_triptych.png
+这次选的关键时刻是：
+
+known_map_greedy_viewpoint：step 10 / 51 / 93
+marine_search_soft_knownmap：step 10 / 21 / 42
+marine_knownmap_path_v2：step 10 / 21 / 42
+说明文件也给你写好了：
+
+figure_manifest.txt
+补一句，当前图里的黄叉在 V2 语义下其实是 Viewpoint，不是旧名字里的 Goal。你写图注时建议直接写成：
+
+黄叉：Viewpoint
+紫菱形：Anchor

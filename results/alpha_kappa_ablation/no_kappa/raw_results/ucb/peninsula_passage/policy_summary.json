@@ -1,0 +1,36 @@
+{
+  "system_name": "single_usv_infosampled",
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "ucb",
+  "planner_adaptation_mode": "no_kappa",
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "map_kind": "peninsula_passage",
+  "summary": {
+    "n_episodes": 10,
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled"
+    ],
+    "clue_acquisition_modes": [
+      "ucb"
+    ],
+    "path_safety_modes": [
+      "soft_clearance_astar_v1"
+    ],
+    "planner_adaptation_modes": [
+      "no_kappa"
+    ],
+    "time_to_first_detection_mean": 53.0,
+    "time_to_all_found_mean": null,
+    "detection_rate_mean": 0.3,
+    "found_count_mean": 0.9,
+    "known_free_observation_ratio_final_mean": 0.32643965948923387,
+    "planning_time_ms_mean_mean": 46.05118361321497,
+    "path_length_mean": 240.0,
+    "clearance_penalty_raw_mean_mean": 0.02212301587301587,
+    "near_obstacle_step_ratio_mean": 0.02212301587301587,
+    "min_clearance_cells_mean_mean": 4.0200000000000005,
+    "path_invalidations_per_episode_mean": 0.0,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.4446060763479574,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.026063362446504017
+  }
+}

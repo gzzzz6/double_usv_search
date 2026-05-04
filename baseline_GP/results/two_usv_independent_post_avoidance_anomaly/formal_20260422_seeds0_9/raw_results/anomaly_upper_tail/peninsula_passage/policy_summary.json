@@ -1,0 +1,36 @@
+{
+  "system_name": "two_usv_independent",
+  "assignment_mode": "independent",
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "map_kind": "peninsula_passage",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.2,
+    "assignment_modes": [
+      "independent"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "anomaly_upper_tail"
+    ],
+    "time_to_first_detection_mean": 106.7,
+    "time_to_all_found_mean": 161.5,
+    "detection_rate_mean": 0.7,
+    "found_count_mean": 2.1,
+    "known_free_observation_ratio_final_mean": 0.6829744616925388,
+    "planning_time_ms_mean_mean": 117.69372793004973,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.2865996666731073,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.026815679708460743,
+    "duplicate_viewpoint_ratio_mean": 0.007661368015414259,
+    "cross_region_assignment_ratio_mean": 0.42354166666666665,
+    "conflict_intervention_count_mean": 0.4,
+    "wait_count_total_mean": 0.4,
+    "wait_count_by_usv_mean": [
+      0.2,
+      0.2
+    ]
+  }
+}

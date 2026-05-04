@@ -1,0 +1,38 @@
+[
+  {
+    "map_kind": "ALL",
+    "clue_acquisition_mode": "ucb_anomaly_conditional",
+    "episode_count": 10,
+    "success_all_found_mean": 0.7,
+    "time_to_first_detection_mean": 65.2,
+    "time_to_all_found_mean": 161.42857142857142,
+    "detection_rate_mean": 0.9,
+    "found_count_mean": 2.7,
+    "known_free_observation_ratio_final_mean": 0.63921308576481,
+    "path_length_mean": null,
+    "path_length_total_mean": 370.0,
+    "duplicate_viewpoint_ratio_mean": 0.0,
+    "cross_region_assignment_ratio_mean": 0.015446343879440303,
+    "reservation_wait_fallback_count_mean": 0.0,
+    "anomaly_conditional_alpha_mean_mean": 0.0,
+    "anomaly_conditional_trigger_rate_mean": 0.0
+  },
+  {
+    "map_kind": "open_water",
+    "clue_acquisition_mode": "ucb_anomaly_conditional",
+    "episode_count": 10,
+    "success_all_found_mean": 0.7,
+    "time_to_first_detection_mean": 65.2,
+    "time_to_all_found_mean": 161.42857142857142,
+    "detection_rate_mean": 0.9,
+    "found_count_mean": 2.7,
+    "known_free_observation_ratio_final_mean": 0.63921308576481,
+    "path_length_mean": null,
+    "path_length_total_mean": 370.0,
+    "duplicate_viewpoint_ratio_mean": 0.0,
+    "cross_region_assignment_ratio_mean": 0.015446343879440303,
+    "reservation_wait_fallback_count_mean": 0.0,
+    "anomaly_conditional_alpha_mean_mean": 0.0,
+    "anomaly_conditional_trigger_rate_mean": 0.0
+  }
+]
