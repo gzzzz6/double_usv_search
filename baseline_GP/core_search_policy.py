@@ -44,6 +44,8 @@ SUPPORTED_LEGACY_POLICIES = LEGACY_POLICIES
 SUPPORTED_UNKNOWNMAP_POLICIES = LEGACY_POLICIES + MARINE_POLICIES
 SUPPORTED_KNOWNMAP_POLICIES = KNOWNMAP_POLICIES
 SUPPORTED_PATH_SAFETY_MODES = ("off", "soft_clearance_astar_v1")
+SUPPORTED_VIEWPOINT_GENERATION_MODES = ("infosampled_pool_v1", "simple_ring_v1")
+DEFAULT_VIEWPOINT_GENERATION_MODE = "simple_ring_v1"
 
 # Backward-compatible alias for the historical unknown-map entrypoints.
 SUPPORTED_POLICIES = SUPPORTED_UNKNOWNMAP_POLICIES
@@ -1907,6 +1909,188 @@ def _knownmap_viewpoint_cells_for_anchor(
     return candidates
 
 
+def _knownmap_simple_ring_viewpoint_pool_for_anchor(
+    nav_map_prior: np.ndarray,
+    anchor_cluster: dict[str, object],
+    sensor_range: int,
+    max_pool_size: int,
+) -> list[dict[str, object]]:
+    if max_pool_size <= 0:
+        return []
+    anchor_cell = tuple(int(v) for v in anchor_cluster["anchor_cell"])
+    anchor_centroid_cell = tuple(int(v) for v in anchor_cluster["anchor_centroid_cell"])
+    preferred_radius = max(1.0, 0.75 * float(sensor_range))
+    min_radius = max(1.0, 0.30 * float(sensor_range))
+    max_radius = max(preferred_radius + 2.0, float(sensor_range))
+    local_free_cells = [
+        cell
+        for cell in _knownmap_local_free_cells(nav_map_prior, anchor_centroid_cell, max_radius=max_radius)
+        if min_radius <= _cells_distance(anchor_cell, cell) <= float(sensor_range)
+    ]
+    if not local_free_cells:
+        nearest_free = _knownmap_nearest_free_cell(nav_map_prior, anchor_centroid_cell)
+        if nearest_free is None:
+            return []
+        return [{"viewpoint_cell": nearest_free, "viewpoint_sampling_mode": "simple_nearest_free"}]
+    local_free_cells.sort(
+        key=lambda cell: (
+            abs(_cells_distance(anchor_cell, cell) - preferred_radius),
+            _knownmap_neighbor_obstacle_count(nav_map_prior, cell),
+            cell[0],
+            cell[1],
+        )
+    )
+    return [
+        {
+            "viewpoint_cell": cell,
+            "viewpoint_sampling_mode": "simple_ring",
+        }
+        for cell in local_free_cells[:max_pool_size]
+    ]
+
+
+def _simple_ring_priority_breakdown(
+    viewpoint_cell: tuple[int, int],
+    *,
+    nav_map_prior: np.ndarray,
+    robot_pos: tuple[int, int],
+    anchor_cell: tuple[int, int],
+    sensor_range: int,
+    search_info_flat: np.ndarray | None,
+    geometry_cache: dict[str, object] | None,
+) -> dict[str, object] | None:
+    visible_flat_indices = _knownmap_visible_flat_indices_for_cell(
+        viewpoint_cell,
+        nav_map_prior,
+        sensor_range,
+        geometry_cache,
+    )
+    if visible_flat_indices.size == 0:
+        return None
+    search_info_coverage = 0.0
+    if search_info_flat is not None:
+        search_info_coverage = float(np.mean(search_info_flat[visible_flat_indices]))
+    preferred_radius = max(1.0, 0.75 * float(sensor_range))
+    anchor_dist = _cells_distance(anchor_cell, viewpoint_cell)
+    anchor_distance_match = max(0.0, 1.0 - abs(anchor_dist - preferred_radius) / preferred_radius)
+    obstacle_penalty = (
+        float(geometry_cache["obstacle_neighbor_count_map"][viewpoint_cell])
+        if geometry_cache is not None
+        else float(_knownmap_neighbor_obstacle_count(nav_map_prior, viewpoint_cell))
+    )
+    path_cost_proxy = float(
+        abs(int(viewpoint_cell[0]) - int(robot_pos[0]))
+        + abs(int(viewpoint_cell[1]) - int(robot_pos[1]))
+    )
+    priority_raw = (
+        1.80 * search_info_coverage
+        + 0.60 * anchor_distance_match
+        - 0.05 * path_cost_proxy
+        - 0.10 * obstacle_penalty
+    )
+    return {
+        "viewpoint_cell": viewpoint_cell,
+        "sampling_priority_raw": float(priority_raw),
+        "path_cost_proxy": float(path_cost_proxy),
+        "search_info_coverage": float(search_info_coverage),
+        "stale_bias": 0.0,
+        "anchor_distance_match": float(anchor_distance_match),
+        "continuity_bonus": 0.0,
+        "overlap_penalty": 0.0,
+        "obstacle_penalty": float(obstacle_penalty),
+    }
+
+
+def _rank_simple_ring_viewpoints(
+    sample_pool: list[dict[str, object]],
+    *,
+    nav_map_prior: np.ndarray,
+    robot_pos: tuple[int, int],
+    anchor_cluster: dict[str, object],
+    sensor_range: int,
+    search_info_map: np.ndarray | None,
+    sssp_tree: dict[str, object] | None,
+    geometry_cache: dict[str, object] | None,
+    top_k: int,
+) -> tuple[list[dict[str, object]], dict[str, float]]:
+    if top_k <= 0 or not sample_pool:
+        return [], {"priority_feature_time_ms": 0.0, "path_reconstruct_time_ms": 0.0}
+    search_info_flat = None if search_info_map is None else np.ravel(search_info_map)
+    ranked_pool: list[dict[str, object]] = []
+    priority_feature_time_ms = 0.0
+    for sampled in sample_pool:
+        viewpoint_cell = tuple(int(v) for v in sampled["viewpoint_cell"])
+        t0 = time.perf_counter()
+        breakdown = _simple_ring_priority_breakdown(
+            viewpoint_cell,
+            nav_map_prior=nav_map_prior,
+            robot_pos=robot_pos,
+            anchor_cell=tuple(int(v) for v in anchor_cluster["anchor_cell"]),
+            sensor_range=sensor_range,
+            search_info_flat=search_info_flat,
+            geometry_cache=geometry_cache,
+        )
+        priority_feature_time_ms += (time.perf_counter() - t0) * 1000.0
+        if breakdown is None:
+            continue
+        ranked_pool.append({**sampled, **breakdown})
+    if not ranked_pool:
+        return [], {
+            "priority_feature_time_ms": float(priority_feature_time_ms),
+            "path_reconstruct_time_ms": 0.0,
+        }
+    norm_values = _normalize_term([float(item["sampling_priority_raw"]) for item in ranked_pool])
+    for item, norm_value in zip(ranked_pool, norm_values):
+        item["sampling_priority_norm"] = float(norm_value)
+    ranked_pool.sort(
+        key=lambda item: (
+            float(item["sampling_priority_raw"]),
+            -float(item["path_cost_proxy"]),
+        ),
+        reverse=True,
+    )
+    pool_cells = [tuple(int(v) for v in sampled["viewpoint_cell"]) for sampled in sample_pool]
+    if sssp_tree is None:
+        sssp_tree = _knownmap_single_source_shortest_path_tree(nav_map_prior, robot_pos)
+    reachable_free_mask = np.asarray(sssp_tree["reachable_free_mask"], dtype=bool)
+    parent_row_map = np.asarray(sssp_tree["parent_row_map"])
+    parent_col_map = np.asarray(sssp_tree["parent_col_map"])
+    reachable_pool_size = int(sum(1 for cell in pool_cells if bool(reachable_free_mask[cell])))
+    selected: list[dict[str, object]] = []
+    reconstruct_time_ms = 0.0
+    for rank_idx, item in enumerate(ranked_pool, start=1):
+        viewpoint_cell = tuple(int(v) for v in item["viewpoint_cell"])
+        if not bool(reachable_free_mask[viewpoint_cell]):
+            continue
+        t0 = time.perf_counter()
+        full_path = _knownmap_reconstruct_path_from_tree(
+            parent_row_map,
+            parent_col_map,
+            robot_pos,
+            viewpoint_cell,
+        )
+        reconstruct_time_ms += (time.perf_counter() - t0) * 1000.0
+        if full_path is None or len(full_path) <= 1:
+            continue
+        selected.append(
+            {
+                **item,
+                "selected_viewpoint_rank": int(rank_idx),
+                "path_to_viewpoint": list(full_path),
+                "candidate_pool_size": int(len(sample_pool)),
+                "reachable_pool_size": reachable_pool_size,
+                "a_star_checked_pool_size": reachable_pool_size,
+                "sampled_viewpoint_pool_cells": list(pool_cells),
+            }
+        )
+        if len(selected) >= top_k:
+            break
+    return selected, {
+        "priority_feature_time_ms": float(priority_feature_time_ms),
+        "path_reconstruct_time_ms": float(reconstruct_time_ms),
+    }
+
+
 def _knownmap_local_free_cells(
     nav_map_prior: np.ndarray,
     center: tuple[int, int],
@@ -2716,6 +2900,7 @@ def _knownmap_fallback_local_segments(
     safe_nav_inflation_radius_cells: int = 0,
     reservation_table: dict[str, object] | None = None,
     team_reservation_lambda: float = 1.0,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
 ) -> list[dict[str, object]]:
     free_cells = np.argwhere(nav_map_prior == FREE)
     if free_cells.size == 0:
@@ -2784,6 +2969,7 @@ def _knownmap_candidate_space(
     sampling_seed_base: int = 0,
     infosampled_inspected_limit_multiplier: float = 3.0,
     infosampled_inspected_limit_floor: int = 4,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     geometry_cache: dict[str, object] | None = None,
     path_safety_mode: str = "off",
     inflated_nav_map: np.ndarray | None = None,
@@ -2892,33 +3078,54 @@ def _knownmap_candidate_space(
     for anchor_cluster in deduped_anchors:
         if _knownmap_is_infosampled_family(policy_name):
             t0 = time.perf_counter()
-            sample_pool = _sample_viewpoint_pool_for_anchor(
-                nav_map_prior,
-                anchor_cluster,
-                sensor_range=sensor_range,
-                max_pool_size=max(8, 4 * max(1, viewpoints_per_anchor)),
-                sampling_seed_base=sampling_seed_base,
-                search_info_map=search_info_map,
-                current_viewpoint=current_viewpoint,
-                current_segment_endpoint=current_segment_endpoint,
-                geometry_cache=geometry_cache,
-            )
+            if viewpoint_generation_mode == "simple_ring_v1":
+                sample_pool = _knownmap_simple_ring_viewpoint_pool_for_anchor(
+                    nav_map_prior,
+                    anchor_cluster,
+                    sensor_range=sensor_range,
+                    max_pool_size=max(8, 4 * max(1, viewpoints_per_anchor)),
+                )
+            else:
+                sample_pool = _sample_viewpoint_pool_for_anchor(
+                    nav_map_prior,
+                    anchor_cluster,
+                    sensor_range=sensor_range,
+                    max_pool_size=max(8, 4 * max(1, viewpoints_per_anchor)),
+                    sampling_seed_base=sampling_seed_base,
+                    search_info_map=search_info_map,
+                    current_viewpoint=current_viewpoint,
+                    current_segment_endpoint=current_segment_endpoint,
+                    geometry_cache=geometry_cache,
+                )
             sampling_pool_build_time_ms += (time.perf_counter() - t0) * 1000.0
-            ranked_viewpoints, ranking_profile = _rank_infosampled_viewpoints(
-                sample_pool,
-                nav_map_prior=nav_map_prior,
-                robot_pos=robot_pos,
-                anchor_cluster=anchor_cluster,
-                sensor_range=sensor_range,
-                search_info_map=search_info_map,
-                staleness_map=staleness_map,
-                current_viewpoint=current_viewpoint,
-                sssp_tree=sssp_tree,
-                geometry_cache=geometry_cache,
-                top_k=max(1, viewpoints_per_anchor),
-                inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
-                inspected_limit_floor=infosampled_inspected_limit_floor,
-            )
+            if viewpoint_generation_mode == "simple_ring_v1":
+                ranked_viewpoints, ranking_profile = _rank_simple_ring_viewpoints(
+                    sample_pool,
+                    nav_map_prior=nav_map_prior,
+                    robot_pos=robot_pos,
+                    anchor_cluster=anchor_cluster,
+                    sensor_range=sensor_range,
+                    search_info_map=search_info_map,
+                    sssp_tree=sssp_tree,
+                    geometry_cache=geometry_cache,
+                    top_k=max(1, viewpoints_per_anchor),
+                )
+            else:
+                ranked_viewpoints, ranking_profile = _rank_infosampled_viewpoints(
+                    sample_pool,
+                    nav_map_prior=nav_map_prior,
+                    robot_pos=robot_pos,
+                    anchor_cluster=anchor_cluster,
+                    sensor_range=sensor_range,
+                    search_info_map=search_info_map,
+                    staleness_map=staleness_map,
+                    current_viewpoint=current_viewpoint,
+                    sssp_tree=sssp_tree,
+                    geometry_cache=geometry_cache,
+                    top_k=max(1, viewpoints_per_anchor),
+                    inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
+                    inspected_limit_floor=infosampled_inspected_limit_floor,
+                )
             path_reconstruct_time_ms += float(ranking_profile.get("path_reconstruct_time_ms", 0.0))
             priority_feature_time_ms += float(ranking_profile.get("priority_feature_time_ms", 0.0))
             for ranked in ranked_viewpoints:
@@ -2928,9 +3135,14 @@ def _knownmap_candidate_space(
                     nav_map_prior,
                     robot_pos,
                     segment_horizon=segment_horizon,
-                    viewpoint_rule="infosampled_priority",
+                    viewpoint_rule=(
+                        "simple_ring_priority"
+                        if viewpoint_generation_mode == "simple_ring_v1"
+                        else "infosampled_priority"
+                    ),
                     precomputed_path=list(ranked["path_to_viewpoint"]),
                     candidate_metadata={
+                        "viewpoint_generation_mode": str(viewpoint_generation_mode),
                         "candidate_pool_size": int(ranked.get("candidate_pool_size", 0)),
                         "reachable_pool_size": int(ranked.get("reachable_pool_size", 0)),
                         "a_star_checked_pool_size": int(ranked.get("a_star_checked_pool_size", 0)),
@@ -3115,6 +3327,7 @@ def _select_knownmap_infosampled_tree_d2(
     sampling_seed_base: int,
     infosampled_inspected_limit_multiplier: float,
     infosampled_inspected_limit_floor: int,
+    viewpoint_generation_mode: str,
     geometry_cache: dict[str, object] | None,
     tree_first_layer_top_m: int,
     tree_second_layer_top_n: int,
@@ -3152,6 +3365,7 @@ def _select_knownmap_infosampled_tree_d2(
         sampling_seed_base=sampling_seed_base,
         infosampled_inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
         infosampled_inspected_limit_floor=infosampled_inspected_limit_floor,
+        viewpoint_generation_mode=viewpoint_generation_mode,
         geometry_cache=geometry_cache,
         path_safety_mode=path_safety_mode,
         inflated_nav_map=inflated_nav_map,
@@ -3231,6 +3445,7 @@ def _select_knownmap_infosampled_tree_d2(
             ),
             infosampled_inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
             infosampled_inspected_limit_floor=infosampled_inspected_limit_floor,
+            viewpoint_generation_mode=viewpoint_generation_mode,
             geometry_cache=geometry_cache,
             path_safety_mode=path_safety_mode,
             inflated_nav_map=inflated_nav_map,
@@ -4016,6 +4231,7 @@ def select_knownmap_path_segment_policy(
     sampling_seed_base: int = 0,
     infosampled_inspected_limit_multiplier: float = 3.0,
     infosampled_inspected_limit_floor: int = 4,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     geometry_cache: dict[str, object] | None = None,
     tree_first_layer_top_m: int = KNOWNMAP_ACTIVE_TREE_FIRST_LAYER_TOP_M,
     tree_second_layer_top_n: int = KNOWNMAP_ACTIVE_TREE_SECOND_LAYER_TOP_N,
@@ -4038,6 +4254,11 @@ def select_knownmap_path_segment_policy(
     if path_safety_mode not in SUPPORTED_PATH_SAFETY_MODES:
         raise ValueError(
             f"path_safety_mode must be one of {SUPPORTED_PATH_SAFETY_MODES}, got '{path_safety_mode}'"
+        )
+    if viewpoint_generation_mode not in SUPPORTED_VIEWPOINT_GENERATION_MODES:
+        raise ValueError(
+            "viewpoint_generation_mode must be one of "
+            f"{SUPPORTED_VIEWPOINT_GENERATION_MODES}, got '{viewpoint_generation_mode}'"
         )
     if path_safety_mode == "soft_clearance_astar_v1":
         if inflated_nav_map is None or clearance_cost_map is None:
@@ -4077,6 +4298,7 @@ def select_knownmap_path_segment_policy(
             sampling_seed_base=sampling_seed_base,
             infosampled_inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
             infosampled_inspected_limit_floor=infosampled_inspected_limit_floor,
+            viewpoint_generation_mode=viewpoint_generation_mode,
             geometry_cache=geometry_cache,
             tree_first_layer_top_m=tree_first_layer_top_m,
             tree_second_layer_top_n=tree_second_layer_top_n,
@@ -4115,6 +4337,7 @@ def select_knownmap_path_segment_policy(
         sampling_seed_base=sampling_seed_base,
         infosampled_inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
         infosampled_inspected_limit_floor=infosampled_inspected_limit_floor,
+        viewpoint_generation_mode=viewpoint_generation_mode,
         geometry_cache=geometry_cache,
         path_safety_mode=path_safety_mode,
         inflated_nav_map=inflated_nav_map,
@@ -4212,6 +4435,9 @@ def select_knownmap_path_segment_policy(
         "anchor_info_intensity_share": float(best.get("anchor_info_intensity_share", 0.0)),
         "viewpoint_cell": best.get("viewpoint_cell"),
         "viewpoint_rule": best.get("viewpoint_rule"),
+        "viewpoint_generation_mode": str(
+            best.get("viewpoint_generation_mode", viewpoint_generation_mode)
+        ),
         "candidate_pool_size": int(best.get("candidate_pool_size", 0)),
         "reachable_pool_size": int(best.get("reachable_pool_size", 0)),
         "a_star_checked_pool_size": int(best.get("a_star_checked_pool_size", 0)),
@@ -4291,6 +4517,7 @@ def rebuild_knownmap_segment_to_fixed_viewpoint(
     safe_nav_soft_clearance_radius_cells: int = 0,
     reservation_table: dict[str, object] | None = None,
     team_reservation_lambda: float = 1.0,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     anchor_cell: tuple[int, int] | None = None,
     anchor_source: str | None = None,
     anchor_centroid_cell: tuple[int, int] | None = None,

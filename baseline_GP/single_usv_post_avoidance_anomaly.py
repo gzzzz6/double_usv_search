@@ -41,6 +41,7 @@ POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE = 0.90
 POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA = 1.25
 DEFAULT_POST_AVOIDANCE_MOTION_MODE = "static"
 POST_AVOIDANCE_POLICY_NAME = "marine_knownmap_path_v2_infosampled"
+POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE = "simple_ring_v1"
 POST_AVOIDANCE_SAFE_NAV_KWARGS = {
     "path_safety_mode": "soft_clearance_astar_v1",
     "safe_nav_inflation_radius_cells": 0,
@@ -110,6 +111,7 @@ def _summary_row(
         "clue_acquisition_mode": clue_acquisition_mode,
         "planner_adaptation_mode": str(planner_adaptation_mode),
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
         "anomaly_tail_quantile": (
             float(anomaly_tail_quantile)
@@ -146,6 +148,7 @@ def _aux_row(
         "clue_acquisition_mode": clue_acquisition_mode,
         "planner_adaptation_mode": str(planner_adaptation_mode),
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
         "anomaly_tail_quantile": (
             float(anomaly_tail_quantile)
@@ -174,6 +177,7 @@ def _episode_result_row(result: dict[str, object]) -> dict[str, object]:
         "clue_acquisition_mode": result.get("clue_acquisition_mode"),
         "planner_adaptation_mode": result.get("planner_adaptation_mode"),
         "policy_name": result.get("policy_name"),
+        "viewpoint_generation_mode": result.get("viewpoint_generation_mode"),
         "path_safety_mode": result.get("path_safety_mode"),
         "anomaly_tail_quantile": result.get("anomaly_tail_quantile"),
         "anomaly_weight_lambda": result.get("anomaly_weight_lambda"),
@@ -245,6 +249,13 @@ def _summary_payload(results: list[dict[str, object]]) -> dict[str, object]:
                 str(result["planner_adaptation_mode"])
                 for result in results
                 if result.get("planner_adaptation_mode") is not None
+            }
+        ),
+        "viewpoint_generation_modes": sorted(
+            {
+                str(result["viewpoint_generation_mode"])
+                for result in results
+                if result.get("viewpoint_generation_mode") is not None
             }
         ),
     }
@@ -344,6 +355,7 @@ def _delta_rows(
             "target_motion_mode": str(target_motion_mode),
             "planner_adaptation_mode": str(planner_adaptation_mode),
             "policy_name": POST_AVOIDANCE_POLICY_NAME,
+            "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
             "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
         }
         row.update(delta_means)
@@ -378,6 +390,7 @@ def _write_raw_results(
                             "clue_acquisition_mode": clue_acquisition_mode,
                             "planner_adaptation_mode": str(planner_adaptation_mode),
                             "policy_name": POST_AVOIDANCE_POLICY_NAME,
+                            "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
                             "map_kind": map_kind,
                             "summary": _summary_payload(map_results),
                         }
@@ -415,6 +428,7 @@ def _write_raw_result_group(
                     "clue_acquisition_mode": clue_acquisition_mode,
                     "planner_adaptation_mode": str(planner_adaptation_mode),
                     "policy_name": POST_AVOIDANCE_POLICY_NAME,
+                    "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
                     "map_kind": map_kind,
                     "summary": _summary_payload(map_results),
                 }
@@ -513,6 +527,7 @@ def run_single_usv_post_avoidance_anomaly_comparison(
     base_episode_kwargs["resolution_m"] = 5.0
     base_episode_kwargs["anomaly_tail_quantile"] = float(anomaly_tail_quantile)
     base_episode_kwargs["anomaly_weight_lambda"] = float(anomaly_weight_lambda)
+    base_episode_kwargs["viewpoint_generation_mode"] = POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE
 
     config_snapshot = {
         "map_kinds": list(resolved_map_kinds),
@@ -534,6 +549,7 @@ def run_single_usv_post_avoidance_anomaly_comparison(
             ),
         },
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "safe_nav_config": dict(POST_AVOIDANCE_SAFE_NAV_KWARGS),
         "single_contract_revision_id": contract["baseline_revision_id"],
         "single_contract_schema_version": contract["schema_version"],

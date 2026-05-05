@@ -46,8 +46,10 @@ try:
         inflate_occupancy_map,
     )
     from .core_search_policy import (
+        DEFAULT_VIEWPOINT_GENERATION_MODE,
         SUPPORTED_KNOWNMAP_POLICIES,
         SUPPORTED_PATH_SAFETY_MODES,
+        SUPPORTED_VIEWPOINT_GENERATION_MODES,
         _knownmap_precompute_viewpoint_geometry_cache,
         _knownmap_single_source_shortest_path_tree,
         _knownmap_visible_free_cells,
@@ -123,8 +125,10 @@ except ImportError:
         inflate_occupancy_map,
     )
     from core_search_policy import (
+        DEFAULT_VIEWPOINT_GENERATION_MODE,
         SUPPORTED_KNOWNMAP_POLICIES,
         SUPPORTED_PATH_SAFETY_MODES,
+        SUPPORTED_VIEWPOINT_GENERATION_MODES,
         _knownmap_precompute_viewpoint_geometry_cache,
         _knownmap_single_source_shortest_path_tree,
         _knownmap_visible_free_cells,
@@ -722,6 +726,9 @@ def _plan_for_usv(
         "lambda_u_turn": team_state["lambda_u_turn"],
         "gamma": team_state["gamma"],
         "segment_horizon": team_state["segment_horizon"],
+        "viewpoint_generation_mode": team_state.get(
+            "viewpoint_generation_mode", DEFAULT_VIEWPOINT_GENERATION_MODE
+        ),
         "geometry_cache": team_state["knownmap_geometry_cache"],
         "path_safety_mode": team_state["path_safety_mode"],
         "inflated_nav_map": team_state.get("safe_nav_inflated_nav_map"),
@@ -2187,6 +2194,9 @@ def _summarize_two_usv_result(state: dict, policy_name: str) -> dict[str, object
         "planner_adaptation_mode": str(state.get("planner_adaptation_mode", "adaptive")),
         "clue_acquisition_mode": str(state.get("clue_acquisition_mode", "ucb")),
         "path_safety_mode": str(state.get("path_safety_mode", "off")),
+        "viewpoint_generation_mode": str(
+            state.get("viewpoint_generation_mode", DEFAULT_VIEWPOINT_GENERATION_MODE)
+        ),
         "team_path_avoidance_mode": str(state.get("team_path_avoidance_mode", "off")),
         "safe_nav_inflation_radius_cells": int(state.get("safe_nav_inflation_radius_cells", 0)),
         "safe_nav_soft_clearance_radius_cells": int(
@@ -2308,6 +2318,13 @@ def _two_usv_policy_summary_rows(policy_results: list[dict[str, object]]) -> dic
                 str(result.get("path_safety_mode", "off"))
                 for result in policy_results
                 if result.get("path_safety_mode") is not None
+            }
+        ),
+        "viewpoint_generation_modes": sorted(
+            {
+                str(result.get("viewpoint_generation_mode", DEFAULT_VIEWPOINT_GENERATION_MODE))
+                for result in policy_results
+                if result.get("viewpoint_generation_mode") is not None
             }
         ),
         "team_path_avoidance_modes": sorted(
@@ -2441,6 +2458,13 @@ def _phase7_system_summary(results: list[dict[str, object]]) -> dict[str, object
                 str(result["clue_acquisition_mode"])
                 for result in results
                 if result.get("clue_acquisition_mode") is not None
+            }
+        ),
+        "viewpoint_generation_modes": sorted(
+            {
+                str(result["viewpoint_generation_mode"])
+                for result in results
+                if result.get("viewpoint_generation_mode") is not None
             }
         ),
     }
@@ -2789,6 +2813,7 @@ def run_episode_two_usv_search_knownmap(
     viewpoints_per_anchor: int = 6,
     infosampled_inspected_limit_multiplier: float = 3.0,
     infosampled_inspected_limit_floor: int = 4,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     path_safety_mode: str = "off",
     safe_nav_inflation_radius_cells: int = 0,
     safe_nav_soft_clearance_radius_cells: int = 1,
@@ -2827,6 +2852,11 @@ def run_episode_two_usv_search_knownmap(
         raise ValueError(
             "planner_adaptation_mode must be one of "
             f"{SUPPORTED_TWO_USV_PLANNER_ADAPTATION_MODES}, got '{planner_adaptation_mode}'"
+        )
+    if viewpoint_generation_mode not in SUPPORTED_VIEWPOINT_GENERATION_MODES:
+        raise ValueError(
+            "viewpoint_generation_mode must be one of "
+            f"{SUPPORTED_VIEWPOINT_GENERATION_MODES}, got '{viewpoint_generation_mode}'"
         )
 
     try:
@@ -2900,6 +2930,7 @@ def run_episode_two_usv_search_knownmap(
     state["viewpoints_per_anchor"] = int(viewpoints_per_anchor)
     state["infosampled_inspected_limit_multiplier"] = float(infosampled_inspected_limit_multiplier)
     state["infosampled_inspected_limit_floor"] = int(infosampled_inspected_limit_floor)
+    state["viewpoint_generation_mode"] = str(viewpoint_generation_mode)
     state["assignment_mode"] = str(assignment_mode)
     state["planner_adaptation_mode"] = str(planner_adaptation_mode)
 

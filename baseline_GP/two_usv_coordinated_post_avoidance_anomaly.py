@@ -38,6 +38,7 @@ POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE = 0.90
 POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA = 1.25
 DEFAULT_POST_AVOIDANCE_MOTION_MODE = "static"
 POST_AVOIDANCE_ASSIGNMENT_MODE = "coordinated"
+POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE = "simple_ring_v1"
 POST_AVOIDANCE_SAFE_NAV_KWARGS = {
     "path_safety_mode": "soft_clearance_astar_v1",
     "safe_nav_inflation_radius_cells": 0,
@@ -102,6 +103,7 @@ def _summary_row(
         "map_kind": map_kind,
         "system_name": PHASE7_SYSTEM_TWO_USV_COORDINATED,
         "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "target_motion_mode": str(target_motion_mode),
         "clue_acquisition_mode": clue_acquisition_mode,
         "anomaly_tail_quantile": (
@@ -137,6 +139,7 @@ def _aux_row(
         "map_kind": map_kind,
         "system_name": PHASE7_SYSTEM_TWO_USV_COORDINATED,
         "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "target_motion_mode": str(target_motion_mode),
         "clue_acquisition_mode": clue_acquisition_mode,
         "anomaly_tail_quantile": (
@@ -165,6 +168,7 @@ def _episode_result_row(result: dict[str, object]) -> dict[str, object]:
         "map_kind": result.get("map_kind"),
         "system_name": PHASE7_SYSTEM_TWO_USV_COORDINATED,
         "assignment_mode": result.get("assignment_mode"),
+        "viewpoint_generation_mode": result.get("viewpoint_generation_mode"),
         "target_motion_mode": result.get("target_motion_mode"),
         "clue_acquisition_mode": result.get("clue_acquisition_mode"),
         "anomaly_tail_quantile": result.get("anomaly_tail_quantile"),
@@ -211,6 +215,7 @@ def _delta_rows(
             "baseline_clue_acquisition_mode": "ucb",
             "challenger_clue_acquisition_mode": "anomaly_upper_tail",
             "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+            "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
             "target_motion_mode": str(target_motion_mode),
             "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
             "team_path_avoidance_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["team_path_avoidance_mode"],
@@ -243,6 +248,7 @@ def _write_raw_results(
                         {
                             "system_name": PHASE7_SYSTEM_TWO_USV_COORDINATED,
                             "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+                            "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
                             "target_motion_mode": str(target_motion_mode),
                             "clue_acquisition_mode": clue_acquisition_mode,
                             "map_kind": map_kind,
@@ -278,6 +284,7 @@ def _write_raw_result_group(
                 {
                     "system_name": PHASE7_SYSTEM_TWO_USV_COORDINATED,
                     "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+                    "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
                     "target_motion_mode": str(target_motion_mode),
                     "clue_acquisition_mode": clue_acquisition_mode,
                     "map_kind": map_kind,
@@ -353,12 +360,14 @@ def run_two_usv_coordinated_post_avoidance_anomaly_comparison(
     base_episode_kwargs["clue_sigma_m"] = 15.0
     base_episode_kwargs["anomaly_tail_quantile"] = float(anomaly_tail_quantile)
     base_episode_kwargs["anomaly_weight_lambda"] = float(anomaly_weight_lambda)
+    base_episode_kwargs["viewpoint_generation_mode"] = POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE
 
     config_snapshot = {
         "map_kinds": list(resolved_map_kinds),
         "episode_seeds": list(resolved_episode_seeds),
         "max_iters": int(resolved_max_iters),
         "assignment_mode": POST_AVOIDANCE_ASSIGNMENT_MODE,
+        "viewpoint_generation_mode": POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE,
         "target_motion_mode": resolved_motion_mode,
         "clue_acquisition_modes": list(POST_AVOIDANCE_CLUE_MODES),
         "anomaly_upper_tail_config": {

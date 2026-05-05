@@ -837,6 +837,7 @@ def test_infosampled_policy_is_deterministic_for_same_sampling_seed() -> None:
         top_k_anchors=3,
         viewpoints_per_anchor=4,
         sampling_seed_base=20260405,
+        viewpoint_generation_mode="infosampled_pool_v1",
     )
     segment_a, details_a = select_knownmap_path_segment_policy(**kwargs)
     segment_b, details_b = select_knownmap_path_segment_policy(**kwargs)
@@ -866,6 +867,7 @@ def test_infosampled_policy_exposes_sampling_trace_fields() -> None:
 
     result = results["marine_knownmap_path_v2_infosampled"][0]
     assert result["policy_name"] == "marine_knownmap_path_v2_infosampled"
+    assert result["viewpoint_generation_mode"] == "simple_ring_v1"
     assert "candidate_pool_size_mean" in result
     assert "reachable_pool_size_mean" in result
     assert "a_star_checked_pool_size_mean" in result

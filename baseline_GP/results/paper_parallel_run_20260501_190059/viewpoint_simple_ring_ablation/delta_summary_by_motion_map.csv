@@ -1,0 +1,7 @@
+﻿target_motion_mode,map_kind,n,time_to_first_detection_mean,time_to_first_detection_std,time_to_all_found_mean,time_to_all_found_std,success_all_found_mean,success_all_found_std,detection_rate_mean,detection_rate_std,found_count_mean,found_count_std,known_free_observation_ratio_final_mean,known_free_observation_ratio_final_std,path_length_mean,path_length_std,planning_time_ms_mean_mean,planning_time_ms_mean_std,candidate_pool_size_mean_mean,candidate_pool_size_mean_std,reachable_pool_size_mean_mean,reachable_pool_size_mean_std,a_star_checked_pool_size_mean_mean,a_star_checked_pool_size_mean_std,selected_viewpoint_rank_mean_mean,selected_viewpoint_rank_mean_std
+random_walk,harbor_cove,10,,,,,,,,,,,,,,,,,,,,,,,,
+random_walk,open_water,10,,,,,,,,,,,,,,,,,,,,,,,,
+random_walk,peninsula_passage,10,,,,,,,,,,,,,,,,,,,,,,,,
+static,harbor_cove,10,,,,,,,,,,,,,,,,,,,,,,,,
+static,open_water,10,,,,,,,,,,,,,,,,,,,,,,,,
+static,peninsula_passage,10,,,,,,,,,,,,,,,,,,,,,,,,

@@ -42,11 +42,13 @@ try:
         inflate_occupancy_map,
     )
     from .core_search_policy import (
+        DEFAULT_VIEWPOINT_GENERATION_MODE,
         KNOWNMAP_ACTIVE_TREE_FIRST_LAYER_TOP_M,
         KNOWNMAP_ACTIVE_TREE_SECOND_LAYER_TOP_N,
         KNOWNMAP_SIDE_BRANCH_TREE_SECOND_LAYER_TOP_N,
         SUPPORTED_KNOWNMAP_POLICIES,
         SUPPORTED_PATH_SAFETY_MODES,
+        SUPPORTED_VIEWPOINT_GENERATION_MODES,
         _knownmap_precompute_viewpoint_geometry_cache,
         _knownmap_visible_free_cells,
         select_knownmap_path_segment_policy,
@@ -93,11 +95,13 @@ except ImportError:
         inflate_occupancy_map,
     )
     from core_search_policy import (
+        DEFAULT_VIEWPOINT_GENERATION_MODE,
         KNOWNMAP_ACTIVE_TREE_FIRST_LAYER_TOP_M,
         KNOWNMAP_ACTIVE_TREE_SECOND_LAYER_TOP_N,
         KNOWNMAP_SIDE_BRANCH_TREE_SECOND_LAYER_TOP_N,
         SUPPORTED_KNOWNMAP_POLICIES,
         SUPPORTED_PATH_SAFETY_MODES,
+        SUPPORTED_VIEWPOINT_GENERATION_MODES,
         _knownmap_precompute_viewpoint_geometry_cache,
         _knownmap_visible_free_cells,
         select_knownmap_path_segment_policy,
@@ -1453,6 +1457,9 @@ def _summarize_result(state: dict, policy_name: str) -> dict:
         "search_info_map_peak_final": float(state.get("search_info_map_peak", 0.0)),
         "search_info_map_mean_final": float(state.get("search_info_map_mean", 0.0)),
         "path_safety_mode": str(state.get("path_safety_mode", "off")),
+        "viewpoint_generation_mode": str(
+            state.get("viewpoint_generation_mode", DEFAULT_VIEWPOINT_GENERATION_MODE)
+        ),
         "planner_adaptation_mode": str(state.get("planner_adaptation_mode", "adaptive")),
         "safe_nav_inflation_radius_cells": int(state.get("safe_nav_inflation_radius_cells", 0)),
         "safe_nav_soft_clearance_radius_cells": int(
@@ -1694,6 +1701,13 @@ def _policy_summary_rows(policy_results: list[dict]) -> dict:
                 str(result.get("path_safety_mode", "off"))
                 for result in policy_results
                 if result.get("path_safety_mode") is not None
+            }
+        ),
+        "viewpoint_generation_modes": sorted(
+            {
+                str(result.get("viewpoint_generation_mode", DEFAULT_VIEWPOINT_GENERATION_MODE))
+                for result in policy_results
+                if result.get("viewpoint_generation_mode") is not None
             }
         ),
         "anomaly_top_band_selection_ratio_pre_first_detection_mean": _mean_or_default(
@@ -2130,6 +2144,7 @@ def _init_knownmap_state(
     safe_nav_inflation_radius_cells: int = 0,
     safe_nav_soft_clearance_radius_cells: int = 1,
     safe_nav_lambda_clearance: float = 1.0,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     planner_adaptation_mode: str = "adaptive",
 ) -> dict:
     if target_motion_mode not in {"static", "random_walk"}:
@@ -2149,6 +2164,11 @@ def _init_knownmap_state(
         raise ValueError(
             "path_safety_mode must be one of "
             f"{SUPPORTED_PATH_SAFETY_MODES}, got '{path_safety_mode}'"
+        )
+    if viewpoint_generation_mode not in SUPPORTED_VIEWPOINT_GENERATION_MODES:
+        raise ValueError(
+            "viewpoint_generation_mode must be one of "
+            f"{SUPPORTED_VIEWPOINT_GENERATION_MODES}, got '{viewpoint_generation_mode}'"
         )
     if planner_adaptation_mode not in SUPPORTED_PLANNER_ADAPTATION_MODES:
         raise ValueError(
@@ -2232,6 +2252,7 @@ def _init_knownmap_state(
             sensor_range_cells,
         ),
         "path_safety_mode": str(path_safety_mode),
+        "viewpoint_generation_mode": str(viewpoint_generation_mode),
         "planner_adaptation_mode": str(planner_adaptation_mode),
         "safe_nav_inflation_radius_cells": int(safe_nav_inflation_radius_cells),
         "safe_nav_soft_clearance_radius_cells": int(safe_nav_soft_clearance_radius_cells),
@@ -2471,6 +2492,7 @@ def run_episode_single_usv_search_knownmap(
     safe_nav_inflation_radius_cells: int = 0,
     safe_nav_soft_clearance_radius_cells: int = 1,
     safe_nav_lambda_clearance: float = 1.0,
+    viewpoint_generation_mode: str = DEFAULT_VIEWPOINT_GENERATION_MODE,
     planner_adaptation_mode: str = "adaptive",
     r_hit: int = 1,
     render: bool = False,
@@ -2490,6 +2512,11 @@ def run_episode_single_usv_search_knownmap(
         raise ValueError(
             "planner_adaptation_mode must be one of "
             f"{SUPPORTED_PLANNER_ADAPTATION_MODES}, got '{planner_adaptation_mode}'"
+        )
+    if viewpoint_generation_mode not in SUPPORTED_VIEWPOINT_GENERATION_MODES:
+        raise ValueError(
+            "viewpoint_generation_mode must be one of "
+            f"{SUPPORTED_VIEWPOINT_GENERATION_MODES}, got '{viewpoint_generation_mode}'"
         )
 
     try:
@@ -2535,6 +2562,7 @@ def run_episode_single_usv_search_knownmap(
             safe_nav_inflation_radius_cells=safe_nav_inflation_radius_cells,
             safe_nav_soft_clearance_radius_cells=safe_nav_soft_clearance_radius_cells,
             safe_nav_lambda_clearance=safe_nav_lambda_clearance,
+            viewpoint_generation_mode=viewpoint_generation_mode,
             planner_adaptation_mode=planner_adaptation_mode,
         )
     except PlacementInfeasibleError:
@@ -2672,6 +2700,7 @@ def run_episode_single_usv_search_knownmap(
                 sampling_seed_base=int(episode_seed) * 1000003 + int(step) * 9176,
                 infosampled_inspected_limit_multiplier=infosampled_inspected_limit_multiplier,
                 infosampled_inspected_limit_floor=infosampled_inspected_limit_floor,
+                viewpoint_generation_mode=state["viewpoint_generation_mode"],
                 geometry_cache=state["knownmap_geometry_cache"],
                 tree_first_layer_top_m=tree_first_layer_top_m,
                 tree_second_layer_top_n=tree_second_layer_top_n,
