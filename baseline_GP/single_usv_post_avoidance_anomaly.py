@@ -37,6 +37,8 @@ POST_AVOIDANCE_CLUE_MODES = ("ucb", "anomaly_upper_tail")
 POST_AVOIDANCE_MAP_HEIGHT_CELLS = 40
 POST_AVOIDANCE_MAP_WIDTH_CELLS = 60
 POST_AVOIDANCE_CLUE_SIGMA_M = 15.0
+POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE = 0.90
+POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA = 1.25
 DEFAULT_POST_AVOIDANCE_MOTION_MODE = "static"
 POST_AVOIDANCE_POLICY_NAME = "marine_knownmap_path_v2_infosampled"
 POST_AVOIDANCE_SAFE_NAV_KWARGS = {
@@ -97,6 +99,8 @@ def _summary_row(
     target_motion_mode: str,
     clue_acquisition_mode: str,
     planner_adaptation_mode: str,
+    anomaly_tail_quantile: float,
+    anomaly_weight_lambda: float,
     results: list[dict[str, object]],
 ) -> dict[str, object]:
     row: dict[str, object] = {
@@ -107,6 +111,16 @@ def _summary_row(
         "planner_adaptation_mode": str(planner_adaptation_mode),
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
         "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
+        "anomaly_tail_quantile": (
+            float(anomaly_tail_quantile)
+            if clue_acquisition_mode == "anomaly_upper_tail"
+            else None
+        ),
+        "anomaly_weight_lambda": (
+            float(anomaly_weight_lambda)
+            if clue_acquisition_mode == "anomaly_upper_tail"
+            else None
+        ),
     }
     for metric_name in SUMMARY_METRICS:
         values = _metric_values(results, metric_name)
@@ -121,6 +135,8 @@ def _aux_row(
     target_motion_mode: str,
     clue_acquisition_mode: str,
     planner_adaptation_mode: str,
+    anomaly_tail_quantile: float,
+    anomaly_weight_lambda: float,
     results: list[dict[str, object]],
 ) -> dict[str, object]:
     row: dict[str, object] = {
@@ -131,6 +147,16 @@ def _aux_row(
         "planner_adaptation_mode": str(planner_adaptation_mode),
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
         "path_safety_mode": POST_AVOIDANCE_SAFE_NAV_KWARGS["path_safety_mode"],
+        "anomaly_tail_quantile": (
+            float(anomaly_tail_quantile)
+            if clue_acquisition_mode == "anomaly_upper_tail"
+            else None
+        ),
+        "anomaly_weight_lambda": (
+            float(anomaly_weight_lambda)
+            if clue_acquisition_mode == "anomaly_upper_tail"
+            else None
+        ),
     }
     for metric_name in AUX_METRICS:
         values = _metric_values(results, metric_name)
@@ -149,6 +175,8 @@ def _episode_result_row(result: dict[str, object]) -> dict[str, object]:
         "planner_adaptation_mode": result.get("planner_adaptation_mode"),
         "policy_name": result.get("policy_name"),
         "path_safety_mode": result.get("path_safety_mode"),
+        "anomaly_tail_quantile": result.get("anomaly_tail_quantile"),
+        "anomaly_weight_lambda": result.get("anomaly_weight_lambda"),
         "safe_nav_lambda_clearance": result.get("safe_nav_lambda_clearance"),
     }
     for metric_name in PAIRWISE_METRICS:
@@ -428,6 +456,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
     max_iters: int | None = None,
     motion_mode: str = DEFAULT_POST_AVOIDANCE_MOTION_MODE,
     planner_adaptation_mode: str = "adaptive",
+    anomaly_tail_quantile: float = POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE,
+    anomaly_weight_lambda: float = POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA,
     output_dir: str | None = None,
     save_artifacts: bool = True,
     resume_if_available: bool = True,
@@ -481,6 +511,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
     base_episode_kwargs["map_width_cells"] = POST_AVOIDANCE_MAP_WIDTH_CELLS
     base_episode_kwargs["clue_sigma_m"] = POST_AVOIDANCE_CLUE_SIGMA_M
     base_episode_kwargs["resolution_m"] = 5.0
+    base_episode_kwargs["anomaly_tail_quantile"] = float(anomaly_tail_quantile)
+    base_episode_kwargs["anomaly_weight_lambda"] = float(anomaly_weight_lambda)
 
     config_snapshot = {
         "map_kinds": list(resolved_map_kinds),
@@ -492,6 +524,15 @@ def run_single_usv_post_avoidance_anomaly_comparison(
         "target_motion_mode": resolved_motion_mode,
         "planner_adaptation_mode": resolved_planner_adaptation_mode,
         "clue_acquisition_modes": list(resolved_clue_modes),
+        "anomaly_upper_tail_config": {
+            "anomaly_tail_quantile": float(anomaly_tail_quantile),
+            "anomaly_weight_lambda": float(anomaly_weight_lambda),
+            "selection_note": (
+                "lambda=1.25 is the thesis formal setting selected from "
+                "post-avoidance lambda sensitivity experiments; UCB ignores "
+                "this anomaly weighting parameter."
+            ),
+        },
         "policy_name": POST_AVOIDANCE_POLICY_NAME,
         "safe_nav_config": dict(POST_AVOIDANCE_SAFE_NAV_KWARGS),
         "single_contract_revision_id": contract["baseline_revision_id"],
@@ -618,6 +659,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
                 target_motion_mode=resolved_motion_mode,
                 clue_acquisition_mode=clue_acquisition_mode,
                 planner_adaptation_mode=resolved_planner_adaptation_mode,
+                anomaly_tail_quantile=float(anomaly_tail_quantile),
+                anomaly_weight_lambda=float(anomaly_weight_lambda),
                 results=flattened_results,
             )
         )
@@ -627,6 +670,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
                 target_motion_mode=resolved_motion_mode,
                 clue_acquisition_mode=clue_acquisition_mode,
                 planner_adaptation_mode=resolved_planner_adaptation_mode,
+                anomaly_tail_quantile=float(anomaly_tail_quantile),
+                anomaly_weight_lambda=float(anomaly_weight_lambda),
                 results=flattened_results,
             )
         )
@@ -638,6 +683,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
                     target_motion_mode=resolved_motion_mode,
                     clue_acquisition_mode=clue_acquisition_mode,
                     planner_adaptation_mode=resolved_planner_adaptation_mode,
+                    anomaly_tail_quantile=float(anomaly_tail_quantile),
+                    anomaly_weight_lambda=float(anomaly_weight_lambda),
                     results=map_results,
                 )
             )
@@ -647,6 +694,8 @@ def run_single_usv_post_avoidance_anomaly_comparison(
                     target_motion_mode=resolved_motion_mode,
                     clue_acquisition_mode=clue_acquisition_mode,
                     planner_adaptation_mode=resolved_planner_adaptation_mode,
+                    anomaly_tail_quantile=float(anomaly_tail_quantile),
+                    anomaly_weight_lambda=float(anomaly_weight_lambda),
                     results=map_results,
                 )
             )
@@ -752,6 +801,21 @@ if __name__ == "__main__":
         ),
     )
     parser.add_argument(
+        "--anomaly_tail_quantile",
+        type=float,
+        default=POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE,
+        help="Upper-tail quantile for anomaly_upper_tail. Defaults to thesis formal q=0.90.",
+    )
+    parser.add_argument(
+        "--anomaly_weight_lambda",
+        type=float,
+        default=POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA,
+        help=(
+            "Weight lambda for anomaly_upper_tail. Defaults to thesis formal "
+            "lambda=1.25 selected by sensitivity experiments."
+        ),
+    )
+    parser.add_argument(
         "--no_resume",
         action="store_true",
         help="Disable resume_if_available and rerun from scratch inside the target output_dir.",
@@ -769,6 +833,8 @@ if __name__ == "__main__":
         clue_modes=tuple(args.clue_modes) if args.clue_modes is not None else POST_AVOIDANCE_CLUE_MODES,
         motion_mode=args.motion_mode,
         planner_adaptation_mode=args.planner_adaptation_mode,
+        anomaly_tail_quantile=args.anomaly_tail_quantile,
+        anomaly_weight_lambda=args.anomaly_weight_lambda,
         resume_if_available=not bool(args.no_resume),
     )
     print(f"single_post_avoidance_output_dir={result.get('output_dir')}")

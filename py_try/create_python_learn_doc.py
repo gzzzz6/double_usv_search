@@ -314,6 +314,139 @@ def build_doc():
         run = paragraph.add_run(question)
         set_font(run)
 
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第二阶段 · 第二节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：字典 dict")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、字典 dict 是什么")
+    add_body(
+        doc,
+        "字典用来保存“带标签的数据”。列表主要靠位置访问元素，字典主要靠键 key 访问对应的值 value。",
+    )
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}')
+    add_body(doc, '这里 "name"、"age"、"score" 是键；"张三"、20、88 是对应的值。')
+    add_key(doc, "核心理解：字典保存的是 key: value 这样的键值对。通过 key 可以快速找到 value。")
+
+    add_heading(doc, "二、列表和字典的区别")
+    add_body(doc, "列表适合保存一组同类数据，字典适合描述一个对象的多个属性。")
+    add_code(doc, 'scores = [88, 92, 75]\n\nstudent = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}')
+    add_body(doc, "scores 是一组成绩；student 是一个学生的信息。")
+
+    table = doc.add_table(rows=1, cols=4)
+    table.style = "Table Grid"
+    for i, text in enumerate(["结构", "访问方式", "适合场景", "示例"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("list", "通过下标访问", "一组有顺序的数据", "scores[0]"),
+        ("dict", "通过键访问", "一个对象的多项信息", 'student["name"]'),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "三、读取字典中的值")
+    add_body(doc, "读取字典时，用中括号加 key。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}\n\nprint(student["name"])\nprint(student["age"])\nprint(student["score"])')
+    add_key(doc, "注意：字典不能像列表那样用 student[0] 访问。字典要用 key 访问。")
+
+    add_heading(doc, "四、修改字典中的值")
+    add_body(doc, "如果 key 已经存在，对它重新赋值就会修改原来的 value。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}\n\nstudent["score"] = 95\nprint(student)')
+    add_body(doc, '执行后，"score" 对应的值会从 88 改成 95。')
+
+    add_heading(doc, "五、添加新的键值对")
+    add_body(doc, "如果 key 不存在，对它赋值就会添加一组新的键值对。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20\n}\n\nstudent["score"] = 88\nprint(student)')
+    add_key(doc, "同样是 student[key] = value：key 存在时是修改，key 不存在时是添加。")
+
+    add_heading(doc, "六、删除键值对 pop()")
+    add_body(doc, "pop() 可以根据 key 删除一组键值对。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}\n\nstudent.pop("age")\nprint(student)')
+    add_body(doc, '执行后，"age": 20 会被删除。')
+
+    add_heading(doc, "七、判断 key 是否存在")
+    add_body(doc, "使用 in 可以判断某个 key 是否在字典中。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20\n}\n\nprint("name" in student)\nprint("score" in student)')
+    add_body(doc, '输出结果是 True 和 False，因为 "name" 存在，"score" 不存在。')
+    add_code(doc, 'if "score" in student:\n    print(student["score"])\nelse:\n    print("没有成绩")')
+
+    add_heading(doc, "八、get() 安全读取")
+    add_body(doc, "如果直接读取不存在的 key，会出现 KeyError。get() 可以更安全地读取字典。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20\n}\n\nprint(student.get("score"))\nprint(student.get("phone", "暂无手机号"))')
+    add_key(doc, 'get(key, 默认值) 的含义是：如果 key 存在，返回对应的值；如果不存在，返回默认值。')
+
+    add_heading(doc, "九、遍历字典")
+    add_body(doc, "遍历字典常见有三种方式：遍历 key、遍历 value、同时遍历 key 和 value。")
+    add_code(doc, 'student = {\n    "name": "张三",\n    "age": 20,\n    "score": 88\n}\n\nfor key in student:\n    print(key)')
+    add_code(doc, 'for value in student.values():\n    print(value)')
+    add_code(doc, 'for key, value in student.items():\n    print(f"{key}: {value}")')
+    add_key(doc, "最常用的是 items()，因为它可以同时拿到 key 和 value。")
+
+    add_heading(doc, "十、列表里面放字典")
+    add_body(doc, "真实程序中，经常用“列表 + 字典”保存一组对象。列表表示多个对象，字典表示每个对象的详细信息。")
+    add_code(doc, 'students = [\n    {"name": "张三", "score": 88},\n    {"name": "李四", "score": 92},\n    {"name": "王五", "score": 75}\n]')
+    add_body(doc, "students 是一个列表，列表里的每个元素都是一个字典。每个字典代表一个学生。")
+    add_code(doc, 'for student in students:\n    print(f\'{student["name"]}的成绩是：{student["score"]}\')')
+
+    add_heading(doc, "十一、多个学生统计平均分")
+    add_body(doc, "统计多个学生平均分时，可以遍历学生列表，把每个学生字典里的 score 累加起来。")
+    add_code(doc, 'students = [\n    {"name": "张三", "score": 88},\n    {"name": "李四", "score": 92},\n    {"name": "王五", "score": 75}\n]\n\ntotal = 0\nfor student in students:\n    total = total + student["score"]\n\naverage = total / len(students)\nprint(f"平均分：{average}")')
+    add_key(doc, "建议使用 len(students)，不要把人数写死成 3。这样学生数量变化时，代码仍然正确。")
+
+    add_heading(doc, "十二、常见错误")
+    add_body(doc, "1. 把数字写成字符串。年龄应该写成 20，而不是 \"20\"，除非你明确只想把它当文本。")
+    add_code(doc, '"age": 20      # 推荐\n"age": "20"    # 这是字符串，不适合计算')
+    add_body(doc, "2. 直接读取不存在的 key。")
+    add_code(doc, 'print(student["phone"])  # 如果 phone 不存在，会报 KeyError')
+    add_body(doc, "更稳妥的写法：")
+    add_code(doc, 'print(student.get("phone", "暂无手机号"))')
+    add_body(doc, "3. f-string 中引号混乱。")
+    add_code(doc, 'print(f\'{student["name"]}的成绩是：{student["score"]}\')')
+
+    add_heading(doc, "十三、本节小结")
+    for item in [
+        "字典 dict 用于保存 key: value 键值对。",
+        "列表靠下标访问，字典靠 key 访问。",
+        "student['name'] 可以读取 name 对应的值。",
+        "key 存在时赋值是修改，key 不存在时赋值是添加。",
+        "pop(key) 可以删除键值对。",
+        "in 可以判断 key 是否存在。",
+        "get() 可以安全读取不存在的 key，并提供默认值。",
+        "items() 可以同时遍历 key 和 value。",
+        "列表中可以放多个字典，用来表示多个对象。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十四、复习题")
+    for question in [
+        "字典中的 key 和 value 分别是什么意思？",
+        "student['score'] 的作用是什么？",
+        "student['city'] = '北京' 在 city 不存在时会发生什么？",
+        "pop('age') 的作用是什么？",
+        "student.get('phone', '暂无手机号') 的含义是什么？",
+        "for key, value in student.items() 中，key 和 value 每次分别代表什么？",
+        "为什么多个学生适合用“列表里面放字典”的结构？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
     section = doc.sections[0]
     section.top_margin = Pt(54)
     section.bottom_margin = Pt(54)
