@@ -1,0 +1,5 @@
+﻿map_kind,delta_time_to_first_detection_mean,delta_time_to_all_found_mean,delta_success_all_found_mean,delta_detection_rate_mean,delta_found_count_mean,delta_duplicate_viewpoint_ratio_mean,delta_cross_region_assignment_ratio_mean,delta_wait_count_total_mean
+ALL,-24.821,12.600,0.133,0.133,0.400,-0.032,-0.285,-0.300
+open_water,-23.000,-3.000,0.000,0.100,0.300,-0.009,-0.251,-0.600
+harbor_cove,-10.800,36.000,0.000,0.000,0.000,-0.028,-0.197,0.000
+peninsula_passage,-40.300,N/A,0.400,0.300,0.900,-0.060,-0.407,-0.300

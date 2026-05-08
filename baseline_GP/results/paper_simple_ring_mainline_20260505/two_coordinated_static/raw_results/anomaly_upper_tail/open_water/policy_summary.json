@@ -1,0 +1,40 @@
+{
+  "system_name": "two_usv_coordinated",
+  "assignment_mode": "coordinated",
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "map_kind": "open_water",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.4,
+    "assignment_modes": [
+      "coordinated"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "anomaly_upper_tail"
+    ],
+    "viewpoint_generation_modes": [
+      "simple_ring_v1"
+    ],
+    "time_to_first_detection_mean": 63.0,
+    "time_to_all_found_mean": 110.5,
+    "detection_rate_mean": 0.7333333333333333,
+    "found_count_mean": 2.2,
+    "known_free_observation_ratio_final_mean": 0.6395225464190981,
+    "planning_time_ms_mean_mean": 127.26926815584912,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.2667597857666577,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.026794956994664394,
+    "duplicate_viewpoint_ratio_mean": 0.0,
+    "cross_region_assignment_ratio_mean": 0.01097601323407775,
+    "conflict_intervention_count_mean": 0.0,
+    "wait_count_total_mean": 0.0,
+    "wait_count_by_usv_mean": [
+      0.0,
+      0.0
+    ]
+  }
+}

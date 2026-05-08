@@ -1,0 +1,40 @@
+{
+  "system_name": "two_usv_independent",
+  "assignment_mode": "independent",
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "target_motion_mode": "random_walk",
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "map_kind": "peninsula_passage",
+  "summary": {
+    "n_episodes": 10,
+    "success_all_found_mean": 0.3,
+    "assignment_modes": [
+      "independent"
+    ],
+    "policy_names": [
+      "marine_knownmap_path_v2_infosampled_2usv"
+    ],
+    "clue_acquisition_modes": [
+      "anomaly_upper_tail"
+    ],
+    "viewpoint_generation_modes": [
+      "simple_ring_v1"
+    ],
+    "time_to_first_detection_mean": 72.0,
+    "time_to_all_found_mean": 179.33333333333334,
+    "detection_rate_mean": 0.7666666666666667,
+    "found_count_mean": 2.3,
+    "known_free_observation_ratio_final_mean": 0.706184276414622,
+    "planning_time_ms_mean_mean": 59.65321947924393,
+    "anomaly_top_band_selection_ratio_pre_first_detection_mean": 0.34719264125833693,
+    "unfound_target_neighborhood_anomaly_mass_ratio_pre_first_detection_mean": 0.02905773919590953,
+    "duplicate_viewpoint_ratio_mean": 0.04900684059088073,
+    "cross_region_assignment_ratio_mean": 0.42389259940276147,
+    "conflict_intervention_count_mean": 0.3,
+    "wait_count_total_mean": 0.3,
+    "wait_count_by_usv_mean": [
+      0.0,
+      0.3
+    ]
+  }
+}

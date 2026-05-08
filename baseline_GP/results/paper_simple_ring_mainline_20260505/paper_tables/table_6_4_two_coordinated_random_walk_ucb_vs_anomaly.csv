@@ -1,0 +1,9 @@
+﻿map_kind,clue_acquisition_mode,n,n_first_detected,n_all_found,time_to_first_detection_mean,time_to_all_found_mean,success_all_found_mean,detection_rate_mean,found_count_mean,known_free_observation_ratio_final_mean
+ALL,ucb,30,30,14,60.500,171.071,0.467,0.811,2.433,0.756
+open_water,ucb,10,10,6,64.700,180.833,0.600,0.833,2.500,0.734
+harbor_cove,ucb,10,10,3,51.200,163.333,0.300,0.767,2.300,0.815
+peninsula_passage,ucb,10,10,5,65.600,164.000,0.500,0.833,2.500,0.718
+ALL,anomaly_upper_tail,30,30,20,62.967,157.100,0.667,0.856,2.567,0.697
+open_water,anomaly_upper_tail,10,10,8,63.700,141.125,0.800,0.933,2.800,0.616
+harbor_cove,anomaly_upper_tail,10,10,6,44.400,178.333,0.600,0.867,2.600,0.794
+peninsula_passage,anomaly_upper_tail,10,10,6,80.800,157.167,0.600,0.767,2.300,0.682

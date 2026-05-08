@@ -1,0 +1,5 @@
+﻿map_kind,n,n_first_detected,n_all_found,time_to_first_detection_mean,time_to_first_detection_std,time_to_all_found_mean,time_to_all_found_std,success_all_found_mean,detection_rate_mean,found_count_mean,known_free_observation_ratio_final_mean,path_length_mean
+ALL,30,30,17,53.167,35.817,153.059,55.433,0.567,0.856,2.567,0.648,190.733
+open_water,10,10,7,71.100,50.065,125.429,58.460,0.700,0.900,2.700,0.536,159.800
+harbor_cove,10,10,4,32.600,14.645,166.000,61.725,0.400,0.800,2.400,0.725,210.400
+peninsula_passage,10,10,6,55.800,24.031,176.667,39.677,0.600,0.867,2.600,0.684,202.000

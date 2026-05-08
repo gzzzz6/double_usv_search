@@ -1,0 +1,9 @@
+﻿target_motion_mode,map_kind,assignment_mode,n,n_first_detected,n_all_found,time_to_first_detection_mean,time_to_all_found_mean,success_all_found_mean,detection_rate_mean,found_count_mean,known_free_observation_ratio_final_mean,duplicate_viewpoint_ratio_mean,cross_region_assignment_ratio_mean,wait_count_total_mean,reservation_wait_fallback_count_mean
+static,ALL,independent,30,28,9,83.036,142.778,0.300,0.611,1.833,0.595,0.032,0.304,0.300,0.000
+static,open_water,independent,10,8,4,76.875,141.750,0.400,0.600,1.800,0.496,0.009,0.281,0.600,0.000
+static,harbor_cove,independent,10,10,4,59.100,126.500,0.400,0.700,2.100,0.685,0.028,0.211,0.000,0.000
+static,peninsula_passage,independent,10,10,1,111.900,212.000,0.100,0.533,1.600,0.605,0.060,0.421,0.300,0.000
+static,ALL,coordinated,30,30,13,64.533,159.231,0.433,0.744,2.233,0.699,0.000,0.019,0.000,0.000
+static,open_water,coordinated,10,10,4,73.700,128.750,0.400,0.700,2.100,0.659,0.000,0.030,0.000,0.000
+static,harbor_cove,coordinated,10,10,4,48.300,128.500,0.400,0.700,2.100,0.706,0.000,0.014,0.000,0.000
+static,peninsula_passage,coordinated,10,10,5,71.600,208.200,0.500,0.833,2.500,0.732,0.000,0.014,0.000,0.000

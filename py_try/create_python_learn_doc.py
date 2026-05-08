@@ -447,6 +447,149 @@ def build_doc():
         run = paragraph.add_run(question)
         set_font(run)
 
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第二阶段 · 第三节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：元组 tuple 和集合 set")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、元组 tuple 是什么")
+    add_body(doc, "元组和列表类似，都可以保存一组有顺序的数据。区别是：列表可以修改，元组不能修改。")
+    add_code(doc, 'names_list = ["张三", "李四", "王五"]\nnames_tuple = ("张三", "李四", "王五")')
+    add_body(doc, "列表使用中括号 []，元组使用小括号 ()。")
+    add_key(doc, "核心理解：tuple 是有顺序、不可修改的数据容器。")
+
+    add_heading(doc, "二、访问元组元素")
+    add_body(doc, "元组和列表一样，可以通过下标访问元素，下标也从 0 开始。")
+    add_code(doc, 'point = (10, 20)\n\nprint(point[0])\nprint(point[1])')
+    add_body(doc, "point[0] 是 10，point[1] 是 20。")
+
+    add_heading(doc, "三、元组不可修改")
+    add_body(doc, "元组创建后，里面的元素不能被重新赋值。")
+    add_code(doc, 'names = ("张三", "李四", "王五")\nnames[1] = "赵六"  # 这会报错')
+    add_body(doc, "这类错误通常是 TypeError，因为 tuple 不支持元素修改。")
+    add_key(doc, "当一组数据不希望被程序意外改动时，可以考虑用元组。")
+
+    add_heading(doc, "四、元组的常见使用场景")
+    add_body(doc, "元组常用于表达固定不变的一组值，例如坐标、颜色、固定配置等。")
+    add_code(doc, 'point = (10, 20)\ncolor = (255, 0, 0)\nweekdays = ("周一", "周二", "周三", "周四", "周五")')
+
+    add_heading(doc, "五、单元素元组")
+    add_body(doc, "只有一个元素的元组必须写逗号。这个点很容易出错。")
+    add_code(doc, 'a = (10)\nb = (10,)\n\nprint(type(a))\nprint(type(b))')
+    add_body(doc, "a 的类型是 int，b 的类型才是 tuple。")
+    add_key(doc, "判断单元素元组的关键不是小括号，而是逗号。")
+
+    add_heading(doc, "六、遍历元组")
+    add_body(doc, "元组也可以使用 for 循环遍历。")
+    add_code(doc, 'weekdays = ("周一", "周二", "周三", "周四", "周五")\n\nfor day in weekdays:\n    print(day)')
+
+    add_heading(doc, "七、集合 set 是什么")
+    add_body(doc, "集合用来保存一组不重复的数据。集合使用大括号 {}，但它不是字典，因为集合里面没有 key: value。")
+    add_code(doc, 'numbers = {1, 2, 3, 4}\nwords = {"Python", "Java", "C++"}')
+    add_key(doc, "核心理解：set 是无顺序、不重复的数据容器。")
+
+    add_heading(doc, "八、集合自动去重")
+    add_body(doc, "集合最常见的用途是去重。重复元素放进集合后，只会保留一份。")
+    add_code(doc, 'numbers = {1, 2, 2, 3, 3, 4}\nprint(numbers)')
+    add_body(doc, "输出结果会类似 {1, 2, 3, 4}。重复的 2 和 3 被自动去掉了。")
+    add_code(doc, 'names = ["张三", "李四", "张三", "王五", "李四"]\nunique_names = set(names)\nprint(unique_names)')
+    add_key(doc, "注意：集合无顺序，所以去重后的输出顺序不一定和原列表一致。")
+
+    add_heading(doc, "九、集合添加和删除")
+    add_body(doc, "add() 用于添加元素，remove() 和 discard() 都可以删除元素。")
+    add_code(doc, 'numbers = {1, 2, 3}\nnumbers.add(4)\nnumbers.remove(2)\nprint(numbers)')
+    add_body(doc, "remove() 删除不存在的元素会报错，discard() 删除不存在的元素不会报错。")
+    add_code(doc, 'numbers = {1, 2, 3}\nnumbers.discard(100)\nprint(numbers)')
+    add_key(doc, "不确定元素是否存在时，优先使用 discard()。")
+
+    add_heading(doc, "十、集合运算")
+    add_body(doc, "集合支持交集、并集、差集等数学集合运算。")
+    add_code(doc, 'a = {1, 2, 3, 4}\nb = {3, 4, 5, 6}\n\nprint(a & b)  # 交集：两个集合都有的元素\nprint(a | b)  # 并集：两个集合合并后的全部元素\nprint(a - b)  # 差集：a 有，b 没有的元素')
+
+    table = doc.add_table(rows=1, cols=4)
+    table.style = "Table Grid"
+    for i, text in enumerate(["运算", "符号", "含义", "示例结果"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("交集", "&", "两个集合都有的元素", "{3, 4}"),
+        ("并集", "|", "两个集合合并后的全部元素", "{1, 2, 3, 4, 5, 6}"),
+        ("差集", "-", "左边集合有、右边集合没有的元素", "{1, 2}"),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "十一、空集合")
+    add_body(doc, "空集合不能写成 {}，因为 {} 表示空字典。")
+    add_code(doc, 'empty_dict = {}\nempty_set = set()\n\nprint(type(empty_dict))\nprint(type(empty_set))')
+    add_key(doc, "创建空集合必须使用 set()。")
+
+    add_heading(doc, "十二、list、tuple、dict、set 对比")
+    table = doc.add_table(rows=1, cols=5)
+    table.style = "Table Grid"
+    for i, text in enumerate(["结构", "中文名", "是否有顺序", "是否可修改", "主要特点"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("list", "列表", "是", "是", "按下标访问，适合一组数据"),
+        ("tuple", "元组", "是", "否", "适合固定不变的数据"),
+        ("dict", "字典", "按 key 管理", "是", "key-value 键值对"),
+        ("set", "集合", "否", "是", "不重复，适合去重和集合运算"),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "十三、本节小结")
+    for item in [
+        "元组 tuple 和列表类似，但元组不可修改。",
+        "元组可以通过下标访问，也可以用 for 遍历。",
+        "单元素元组必须写成 (10,)，逗号不能省略。",
+        "集合 set 用于保存不重复的数据。",
+        "集合是无顺序的，不能依赖输出顺序。",
+        "set(list) 可以快速去重。",
+        "add() 添加集合元素，remove() 和 discard() 删除集合元素。",
+        "discard() 删除不存在的元素不会报错。",
+        "集合支持交集 &、并集 |、差集 -。",
+        "空集合必须写 set()，{} 是空字典。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十四、复习题")
+    for question in [
+        "tuple 和 list 最大的区别是什么？",
+        "为什么 (10) 不是元组，而 (10,) 是元组？",
+        "什么时候适合用 tuple？",
+        "set 的两个核心特点是什么？",
+        "为什么 set(names) 可以去重？",
+        "remove() 和 discard() 删除集合元素时有什么区别？",
+        "a & b、a | b、a - b 分别表示什么？",
+        "{} 和 set() 分别创建什么对象？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
     section = doc.sections[0]
     section.top_margin = Pt(54)
     section.bottom_margin = Pt(54)
