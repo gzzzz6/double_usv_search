@@ -1,0 +1,7 @@
+Found 102 JSON files
+Found 18 config_snapshot.json files
+Found 36 episode_results.json files
+Paper tables dir exists: True, files: 15
+Wrote F:\pythonprojects\baseline_GP\results\holoocean_bridge_v1\phase0_freeze\manifests\phase0_config_audit.json
+Wrote F:\pythonprojects\baseline_GP\results\holoocean_bridge_v1\phase0_freeze\reports\phase0_config_audit.md
+Done.

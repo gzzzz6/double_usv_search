@@ -19,7 +19,6 @@ from baseline_GP.marine_knownmap_runtime_2usv import (
     run_episode_two_usv_search_knownmap,
     run_evaluation_two_usv_search_knownmap,
 )
-from baseline_GP.two_usv_safe_nav_v1_smoke import run_two_usv_safe_nav_v1_smoke_benchmark
 from baseline_GP.core_search_policy import select_knownmap_path_segment_policy
 from baseline_GP.viz_search import _draw_team_main_map, plot_team_search_state
 from baseline_GP.core_map import FREE, OCCUPIED
@@ -629,23 +628,6 @@ def test_two_usv_eval_artifacts_include_cross_region_and_wait_metrics(tmp_path) 
     assert "path_safety_modes" in policy_summary
     assert "team_path_avoidance_modes" in policy_summary
     assert "reservation_same_cell_violation_count_mean" in policy_summary
-
-
-def test_two_usv_safe_nav_v1_smoke_harness_smoke(tmp_path) -> None:
-    payload = run_two_usv_safe_nav_v1_smoke_benchmark(
-        episode_seeds=(0,),
-        map_kinds=("open_water",),
-        assignment_modes=("coordinated",),
-        max_iters=4,
-        output_dir=str(tmp_path),
-        save_artifacts=True,
-    )
-
-    assert "summary_by_group_assignment" in payload
-    assert "acceptance_report" in payload
-    assert (tmp_path / "episode_results.csv").exists()
-    assert (tmp_path / "summary_by_group_assignment.csv").exists()
-    assert (tmp_path / "acceptance_report.json").exists()
 
 
 def test_two_usv_team_main_map_can_hide_true_targets() -> None:

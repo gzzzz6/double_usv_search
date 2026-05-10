@@ -200,7 +200,7 @@ SUPPORTED_TEAM_PATH_AVOIDANCE_MODES = ("off", "reservation_v1")
 PHASE7_SYSTEM_SINGLE = "single_usv_infosampled"
 PHASE7_SYSTEM_TWO_USV_INDEPENDENT = "two_usv_independent"
 PHASE7_SYSTEM_TWO_USV_COORDINATED = "two_usv_coordinated"
-PHASE7_DEFAULT_MAP_KINDS = ("open_water", "harbor_cove", "peninsula_passage")
+PHASE7_DEFAULT_MAP_KINDS = ("open_water", "benchmark", "peninsula_passage")
 PHASE7_SHARED_METRICS = (
     "time_to_first_detection",
     "time_to_all_found",

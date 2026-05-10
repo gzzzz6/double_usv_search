@@ -3174,7 +3174,7 @@ def run_knownmap_tree_budget_oracle_validation(
     *,
     output_dir: str | None = None,
     save_artifacts: bool = True,
-    map_kinds: tuple[str, ...] | list[str] = ("open_water", "harbor_cove", "peninsula_passage"),
+    map_kinds: tuple[str, ...] | list[str] = ("open_water", "benchmark", "peninsula_passage"),
     episode_seeds: tuple[int, ...] | list[int] = (0, 1, 2, 3, 4),
     max_iters: int = 220,
     n_targets: int = 3,

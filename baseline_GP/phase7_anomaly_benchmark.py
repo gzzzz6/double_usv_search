@@ -33,7 +33,7 @@ except ImportError:
     )
 
 
-PHASE7_FORMAL_MAP_KINDS = ("open_water", "harbor_cove", "peninsula_passage")
+PHASE7_FORMAL_MAP_KINDS = ("open_water", "benchmark", "peninsula_passage")
 PHASE7_FORMAL_EPISODE_SEEDS = tuple(range(10))
 PHASE7_FORMAL_MOTION_MODES = ("static", "random_walk")
 PHASE7_FORMAL_CLUE_MODES = ("ucb", "anomaly_upper_tail")

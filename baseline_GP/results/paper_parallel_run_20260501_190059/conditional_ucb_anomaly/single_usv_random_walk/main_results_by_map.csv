@@ -1,5 +1,0 @@
-map_kind,clue_acquisition_mode,episode_count,success_all_found_mean,time_to_first_detection_mean,time_to_all_found_mean,detection_rate_mean,found_count_mean,known_free_observation_ratio_final_mean,path_length_mean,path_length_total_mean,duplicate_viewpoint_ratio_mean,cross_region_assignment_ratio_mean,reservation_wait_fallback_count_mean,anomaly_conditional_alpha_mean_mean,anomaly_conditional_trigger_rate_mean
-ALL,ucb_anomaly_conditional,30,0.6333333333333333,45.96551724137931,165.68421052631578,0.8555555555555555,2.566666666666667,0.6898102607630211,192.93333333333334,,,,,0.0,0.0
-open_water,ucb_anomaly_conditional,10,0.7,55.666666666666664,156.57142857142858,0.8333333333333334,2.5,0.6416969147005445,181.6,,,,,0.0,0.0
-harbor_cove,ucb_anomaly_conditional,10,0.7,30.3,158.71428571428572,0.9,2.7,0.6809121621621621,183.1,,,,,0.0,0.0
-peninsula_passage,ucb_anomaly_conditional,10,0.5,52.9,188.2,0.8333333333333333,2.5,0.7468217054263566,214.1,,,,,0.0,0.0

@@ -1,7 +1,0 @@
-﻿{
-    "name":  "single_usv_random_walk",
-    "pid":  35640,
-    "output_dir":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\single_usv_random_walk",
-    "stdout":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\logs\\single_usv_random_walk.out.log",
-    "stderr":  "F:\\pythonprojects\\baseline_GP\\results\\paper_parallel_run_20260501_190059\\logs\\single_usv_random_walk.err.log"
-}

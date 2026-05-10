@@ -590,6 +590,248 @@ def build_doc():
         run = paragraph.add_run(question)
         set_font(run)
 
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第二阶段 · 第四节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：切片、排序、列表推导式")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、切片 slice 是什么")
+    add_body(doc, "切片用于从列表、字符串、元组等序列中取出一部分数据。")
+    add_code(doc, "序列[start:end]")
+    add_body(doc, "含义是：从 start 开始取，到 end 之前结束。包含 start，不包含 end。")
+    add_code(doc, "nums = [10, 20, 30, 40, 50]\nprint(nums[1:4])")
+    add_body(doc, "输出结果是 [20, 30, 40]，因为取到了下标 1、2、3，没有取下标 4。")
+    add_key(doc, "核心理解：切片左闭右开，也就是包含左边界，不包含右边界。")
+
+    add_heading(doc, "二、切片常见写法")
+    add_body(doc, "切片可以省略 start 或 end。省略 start 表示从开头开始，省略 end 表示取到最后。")
+    add_code(doc, "nums = [10, 20, 30, 40, 50, 60]\n\nprint(nums[:3])   # [10, 20, 30]\nprint(nums[3:])   # [40, 50, 60]\nprint(nums[:])    # 复制整个列表")
+    add_body(doc, "负数下标可以从右往左数。")
+    add_code(doc, "print(nums[-1])   # 最后一个元素\nprint(nums[-2])   # 倒数第二个元素")
+    add_body(doc, "倒序列表可以使用 [::-1]。")
+    add_code(doc, "print(nums[::-1])")
+
+    add_heading(doc, "三、切片步长")
+    add_body(doc, "完整切片语法是：")
+    add_code(doc, "序列[start:end:step]")
+    add_body(doc, "step 表示步长，也就是每隔几个位置取一次。")
+    add_code(doc, "nums = [10, 20, 30, 40, 50, 60]\n\nprint(nums[::2])   # [10, 30, 50]\nprint(nums[1::2])  # [20, 40, 60]")
+    add_key(doc, "step 为 2 时，表示每隔 2 个下标取一个元素。step 为 -1 时，常用于倒序。")
+
+    add_heading(doc, "四、sorted() 排序")
+    add_body(doc, "sorted() 会返回一个排序后的新列表，不会修改原列表。")
+    add_code(doc, "scores = [88, 60, 100, 75, 92]\n\nnew_scores = sorted(scores)\n\nprint(scores)\nprint(new_scores)")
+    add_body(doc, "scores 仍然是原来的顺序，new_scores 是升序排序后的新列表。")
+    add_key(doc, "当你想保留原列表时，优先使用 sorted()。")
+
+    add_heading(doc, "五、sort() 排序")
+    add_body(doc, "列表自身的 .sort() 方法会直接修改原列表，不会返回一个新列表。")
+    add_code(doc, "scores = [88, 60, 100, 75, 92]\n\nscores.sort()\nprint(scores)")
+    add_body(doc, "执行后，scores 自己变成 [60, 75, 88, 92, 100]。")
+    add_key(doc, "sort() 是原地排序，会改变原列表。")
+
+    add_heading(doc, "六、降序排序")
+    add_body(doc, "无论是 sorted() 还是 sort()，都可以通过 reverse=True 实现降序。")
+    add_code(doc, "scores = [88, 60, 100, 75, 92]\n\nprint(sorted(scores, reverse=True))\n\nscores.sort(reverse=True)\nprint(scores)")
+    add_body(doc, "reverse=True 表示反向排序，也就是从大到小。")
+
+    add_heading(doc, "七、按字典字段排序")
+    add_body(doc, "列表中放字典时，经常需要按字典里的某个字段排序，例如按学生成绩排序。")
+    add_code(doc, 'students = [\n    {"name": "张三", "score": 88},\n    {"name": "李四", "score": 92},\n    {"name": "王五", "score": 75}\n]\n\nstudents_sorted = sorted(students, key=lambda student: student["score"], reverse=True)\nprint(students_sorted)')
+    add_body(doc, '这里 key=lambda student: student["score"] 的意思是：排序时，每个学生用 score 作为排序依据。')
+    add_key(doc, "lambda 现在可以先理解为一个临时小函数，用来告诉 sorted() 按什么规则排序。")
+
+    add_heading(doc, "八、列表推导式")
+    add_body(doc, "列表推导式用于快速生成新列表。它常常可以替代“创建空列表 + for 循环 + append”的写法。")
+    add_code(doc, "nums = [1, 2, 3, 4, 5]\n\nsquares = []\nfor n in nums:\n    squares.append(n * n)\n\nprint(squares)")
+    add_body(doc, "上面的普通循环可以改写成列表推导式：")
+    add_code(doc, "nums = [1, 2, 3, 4, 5]\nsquares = [n * n for n in nums]\nprint(squares)")
+    add_key(doc, "核心格式：[新元素表达式 for 临时变量 in 原列表]")
+
+    add_heading(doc, "九、带条件的列表推导式")
+    add_body(doc, "列表推导式可以加 if 条件，用来筛选元素。")
+    add_code(doc, "nums = [1, 2, 3, 4, 5, 6]\n\neven_nums = [n for n in nums if n % 2 == 0]\nprint(even_nums)")
+    add_body(doc, "意思是：从 nums 中依次取出 n，如果 n 是偶数，就把 n 放进新列表。")
+    add_code(doc, "scores = [88, 45, 92, 59, 76, 100]\nqualified = [score for score in scores if score >= 60]\nprint(qualified)")
+    add_key(doc, "带条件的核心格式：[新元素表达式 for 临时变量 in 原列表 if 条件]")
+
+    add_heading(doc, "十、普通循环和列表推导式对比")
+    table = doc.add_table(rows=1, cols=3)
+    table.style = "Table Grid"
+    for i, text in enumerate(["目标", "普通循环", "列表推导式"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("生成平方数", "for n in nums: append(n*n)", "[n * n for n in nums]"),
+        ("筛选偶数", "if n % 2 == 0: append(n)", "[n for n in nums if n % 2 == 0]"),
+        ("筛选及格成绩", "if score >= 60: append(score)", "[score for score in scores if score >= 60]"),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "十一、常见错误")
+    add_body(doc, "1. 切片右边界不包含。")
+    add_code(doc, "nums = [10, 20, 30, 40, 50]\nprint(nums[1:4])  # 取到 40，不取 50")
+    add_body(doc, "2. 混淆 sorted() 和 sort()。")
+    add_code(doc, "new_scores = sorted(scores)  # 返回新列表，不改原列表\nscores.sort()               # 修改原列表")
+    add_body(doc, "3. 题目要求列表推导式时，不要再写普通 for append。")
+    add_code(doc, "qualified = [score for score in scores if score >= 60]")
+
+    add_heading(doc, "十二、本节小结")
+    for item in [
+        "切片用于从序列中取出一部分数据。",
+        "切片语法是 sequence[start:end:step]。",
+        "切片包含 start，不包含 end。",
+        "nums[:3] 从开头取到下标 3 之前，nums[3:] 从下标 3 取到最后。",
+        "nums[::-1] 可以倒序。",
+        "sorted() 返回新列表，不修改原列表。",
+        "list.sort() 会直接修改原列表。",
+        "reverse=True 表示降序排序。",
+        "排序字典列表时，可以使用 key=lambda student: student['score']。",
+        "列表推导式可以简洁生成新列表。",
+        "带条件的列表推导式可以筛选数据。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十三、复习题")
+    for question in [
+        "nums[1:4] 会取到哪些下标？",
+        "为什么切片说“包含 start，不包含 end”？",
+        "nums[:3]、nums[3:]、nums[::-1] 分别是什么意思？",
+        "sorted(scores) 和 scores.sort() 的区别是什么？",
+        "reverse=True 的作用是什么？",
+        "sorted(students, key=lambda student: student['score']) 中 key 的作用是什么？",
+        "[n * n for n in nums] 这句代码的含义是什么？",
+        "[score for score in scores if score >= 60] 这句代码如何理解？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第三阶段 · 第一节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：函数基础")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、函数是什么")
+    add_body(doc, "函数可以理解为“给一段代码起名字”。把一段经常使用的逻辑封装成函数后，需要时直接调用它。")
+    add_code(doc, "def add(a, b):\n    return a + b\n\nresult = add(10, 20)\nprint(result)")
+    add_body(doc, "这里 add 是函数名，a 和 b 是参数，return a + b 会把计算结果返回给调用者。")
+    add_key(doc, "核心理解：函数用于封装重复逻辑，让代码更清晰、更容易复用。")
+
+    add_heading(doc, "二、函数基本语法")
+    add_body(doc, "定义函数使用 def，函数体必须缩进。")
+    add_code(doc, "def 函数名(参数):\n    函数体\n    return 返回值")
+    add_code(doc, 'def say_hello():\n    print("你好，Python")\n\nsay_hello()')
+    add_body(doc, "调用函数时必须写括号。say_hello() 会执行函数；只写 say_hello 不会执行函数。")
+    add_key(doc, "缩进属于函数体的一部分。缩进结束后，就回到函数外部。")
+
+    add_heading(doc, "三、无参数函数")
+    add_body(doc, "如果函数不需要外部输入，可以不写参数。")
+    add_code(doc, 'def say_hello():\n    print("你好，Python")\n\nsay_hello()')
+    add_body(doc, "这个函数每次调用都会输出固定内容。")
+
+    add_heading(doc, "四、参数是什么")
+    add_body(doc, "参数是函数接收的输入。调用函数时传入不同参数，函数就可以处理不同数据。")
+    add_code(doc, 'def greet(name):\n    print(f"你好，{name}")\n\ngreet("张三")\ngreet("李四")')
+    add_body(doc, '第一次调用时，name 是 "张三"；第二次调用时，name 是 "李四"。')
+    add_key(doc, "参数让函数从“只能做固定事情”变成“可以处理不同数据”。")
+
+    add_heading(doc, "五、多个参数")
+    add_body(doc, "函数可以接收多个参数，参数之间用逗号分隔。")
+    add_code(doc, "def add(a, b):\n    return a + b\n\nprint(add(10, 20))\nprint(add(3, 5))")
+    add_body(doc, "调用函数时，实参会按顺序传给形参。")
+
+    add_heading(doc, "六、return 返回值")
+    add_body(doc, "return 用来把函数的计算结果返回给调用者。返回后的结果可以继续保存、计算或传给其他函数。")
+    add_code(doc, "def add(a, b):\n    return a + b\n\nresult = add(10, 20)\nprint(result)")
+    add_key(doc, "print() 是显示给人看；return 是返回给程序继续用。")
+    add_body(doc, "如果函数没有 return，它默认返回 None。")
+    add_code(doc, "def add(a, b):\n    print(a + b)\n\nresult = add(10, 20)\nprint(result)  # None")
+
+    add_heading(doc, "七、函数处理列表")
+    add_body(doc, "函数的参数也可以是列表。比如计算平均分、统计及格人数。")
+    add_code(doc, "def calc_average(scores):\n    return sum(scores) / len(scores)\n\nscores = [88, 92, 75]\naverage = calc_average(scores)\nprint(average)")
+    add_code(doc, "def count_pass(scores):\n    count = 0\n    for score in scores:\n        if score >= 60:\n            count = count + 1\n    return count\n\nscores = [88, 45, 92, 59, 76]\nprint(count_pass(scores))")
+    add_body(doc, "这类函数的优点是：以后换一组成绩，也可以直接复用函数。")
+
+    add_heading(doc, "八、默认参数")
+    add_body(doc, "参数可以设置默认值。调用时如果没有传这个参数，就使用默认值。")
+    add_code(doc, 'def introduce(name, city="北京"):\n    print(f"我叫{name}，来自{city}")\n\nintroduce("张三")\nintroduce("李四", "上海")')
+    add_body(doc, '第一次调用没有传 city，所以使用默认值 "北京"；第二次传了 "上海"，所以使用传入值。')
+
+    add_heading(doc, "九、关键字参数")
+    add_body(doc, "调用函数时可以指定参数名，这种方式叫关键字参数。使用关键字参数时，参数顺序可以打乱。")
+    add_code(doc, 'def show_info(name, age, score):\n    print(f"姓名：{name}，年龄：{age}，成绩：{score}")\n\nshow_info(score=88, name="张三", age=20)')
+    add_key(doc, "关键字参数能让调用更清楚，也能减少参数顺序写错的风险。")
+
+    add_heading(doc, "十、局部变量")
+    add_body(doc, "函数内部定义的变量通常只在函数内部有效，这种变量叫局部变量。")
+    add_code(doc, "def test():\n    x = 10\n    print(x)\n\ntest()\nprint(x)  # 函数外部无法直接访问 x")
+    add_body(doc, "如果需要把函数内部的结果拿到外面使用，应该用 return 返回。")
+
+    add_heading(doc, "十一、常见错误")
+    add_body(doc, "1. 定义了函数但忘记调用。")
+    add_code(doc, 'def say_hello():\n    print("你好，Python")\n\nsay_hello   # 不会执行\nsay_hello() # 会执行')
+    add_body(doc, "2. 把 print() 当成 return。")
+    add_code(doc, "def add(a, b):\n    print(a + b)\n\nresult = add(10, 20)  # result 是 None")
+    add_body(doc, "3. 函数名拼写不清晰。函数名应该表达它做什么，比如 calc_average 表示计算平均值。")
+    add_code(doc, "def calc_average(scores):\n    return sum(scores) / len(scores)")
+
+    add_heading(doc, "十二、本节小结")
+    for item in [
+        "函数用于封装一段代码，让代码可以复用。",
+        "定义函数使用 def，调用函数需要写函数名和括号。",
+        "参数是函数的输入。",
+        "函数可以有多个参数。",
+        "return 会把结果返回给程序继续使用。",
+        "print() 只是把结果显示出来，不等于返回值。",
+        "没有 return 的函数默认返回 None。",
+        "默认参数可以在调用时省略。",
+        "关键字参数可以指定参数名，调用顺序可以打乱。",
+        "函数内部定义的变量通常是局部变量。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十三、复习题")
+    for question in [
+        "函数的作用是什么？",
+        "def say_hello(): 中 def 表示什么？",
+        "参数的作用是什么？",
+        "print() 和 return 的区别是什么？",
+        "没有 return 的函数默认返回什么？",
+        "默认参数 introduce(name, city='北京') 如何理解？",
+        "关键字参数 show_info(score=88, name='张三', age=20) 有什么好处？",
+        "为什么函数内部的局部变量不能直接在函数外部使用？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
     section = doc.sections[0]
     section.top_margin = Pt(54)
     section.bottom_margin = Pt(54)

@@ -31,7 +31,7 @@ except ImportError:
     )
 
 
-POST_AVOIDANCE_MAP_KINDS = ("open_water", "harbor_cove", "peninsula_passage")
+POST_AVOIDANCE_MAP_KINDS = ("open_water", "benchmark", "peninsula_passage")
 POST_AVOIDANCE_EPISODE_SEEDS = tuple(range(10))
 POST_AVOIDANCE_CLUE_MODES = ("ucb", "anomaly_upper_tail")
 POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE = 0.90

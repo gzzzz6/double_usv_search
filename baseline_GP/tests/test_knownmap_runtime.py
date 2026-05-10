@@ -9,7 +9,7 @@ from baseline_GP import core_map
 from baseline_GP.core_anomaly_acquisition import build_knownmap_anomaly_acquisition_maps
 from baseline_GP.core_intensity import remaining_intensity_mass
 from baseline_GP.core_map import FREE, OCCUPIED, UNKNOWN
-from baseline_GP.core_planner import a_star_nav
+from baseline_GP.core_nav import a_star_nav
 from baseline_GP.core_search_policy import (
     SUPPORTED_KNOWNMAP_POLICIES,
     SUPPORTED_UNKNOWNMAP_POLICIES,
