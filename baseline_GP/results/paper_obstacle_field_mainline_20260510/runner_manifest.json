@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-10T17:38:35.803124",
+  "output_root": "F:\\pythonprojects\\baseline_GP\\results\\paper_obstacle_field_mainline_20260510",
+  "run_mode": "full",
+  "groups": {
+    "two_coordinated_static": {
+      "group_name": "two_coordinated_static",
+      "total_episodes": 20,
+      "completed_episodes": 20,
+      "output_path": "F:\\pythonprojects\\baseline_GP\\results\\paper_obstacle_field_mainline_20260510\\two_coordinated_static",
+      "run_mode": "full"
+    },
+    "two_coordinated_random_walk": {
+      "group_name": "two_coordinated_random_walk",
+      "total_episodes": 20,
+      "completed_episodes": 20,
+      "output_path": "F:\\pythonprojects\\baseline_GP\\results\\paper_obstacle_field_mainline_20260510\\two_coordinated_random_walk",
+      "run_mode": "full"
+    }
+  }
+}

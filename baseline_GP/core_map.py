@@ -14,8 +14,8 @@ SEA_STYLE_MAP_KINDS = (
     "breakwater_inlet",
     "peninsula_passage",
 )
-STRUCTURED_MAP_KINDS = ("benchmark",) + SEA_STYLE_MAP_KINDS
-SUPPORTED_MAP_KINDS = ("benchmark", "random") + SEA_STYLE_MAP_KINDS
+STRUCTURED_MAP_KINDS = ("obstacle_field", "benchmark") + SEA_STYLE_MAP_KINDS
+SUPPORTED_MAP_KINDS = ("obstacle_field", "benchmark", "random") + SEA_STYLE_MAP_KINDS
 
 _BENCHMARK_RECTS = (
     (8, 12, 10, 25),
@@ -120,6 +120,14 @@ def create_benchmark_world(
     return true_map
 
 
+def create_obstacle_field_world(
+    h: int = DEFAULT_MAP_HEIGHT_CELLS,
+    w: int = DEFAULT_MAP_WIDTH_CELLS,
+) -> np.ndarray:
+    """Create the obstacle_field map (identical to the legacy benchmark map)."""
+    return create_benchmark_world(h=h, w=w)
+
+
 def create_open_water_world(
     h: int = DEFAULT_MAP_HEIGHT_CELLS,
     w: int = DEFAULT_MAP_WIDTH_CELLS,
@@ -209,10 +217,11 @@ def create_world(
     w: int = DEFAULT_MAP_WIDTH_CELLS,
     obstacle_prob: float = 0.18,
     seed: int = 1,
-    map_kind: str = "benchmark",
+    map_kind: str = "obstacle_field",
 ) -> np.ndarray:
     """Backward-compatible wrapper around the explicit map constructors."""
     builders = {
+        "obstacle_field": create_obstacle_field_world,
         "benchmark": create_benchmark_world,
         "open_water": create_open_water_world,
         "sparse_platforms": create_sparse_platforms_world,

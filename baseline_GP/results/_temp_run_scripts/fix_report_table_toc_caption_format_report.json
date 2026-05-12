@@ -1,0 +1,118 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "backup": "F:\\pythonprojects\\my_report_backup_before_table_toc_caption_format_20260512_000546.docx",
+  "moved_table_captions": [
+    {
+      "caption": "表5-1 评价指标",
+      "from_block_index": 639,
+      "to_before_table_index": 638
+    },
+    {
+      "caption": "表5-2 单艇实验参数设置",
+      "from_block_index": 646,
+      "to_before_table_index": 645
+    },
+    {
+      "caption": "表5-3 静态目标模式下单艇 UCB 搜索结果",
+      "from_block_index": 650,
+      "to_before_table_index": 649
+    },
+    {
+      "caption": "表5-4 随机游走目标模式下单艇 UCB 搜索结果",
+      "from_block_index": 655,
+      "to_before_table_index": 654
+    },
+    {
+      "caption": "表5-5 双艇协同实验参数设置",
+      "from_block_index": 666,
+      "to_before_table_index": 665
+    },
+    {
+      "caption": "表5-6 静态目标模式下搜索任务完成程度的差值结果",
+      "from_block_index": 670,
+      "to_before_table_index": 669
+    },
+    {
+      "caption": "表5-7 静态目标模式下协同行为指标的差值结果",
+      "from_block_index": 673,
+      "to_before_table_index": 672
+    },
+    {
+      "caption": "表5-8 随机游走目标模式下 coordinated - independent 差值结果",
+      "from_block_index": 679,
+      "to_before_table_index": 678
+    },
+    {
+      "caption": "表5-9 随机游走目标模式下 coordinated - independent 差值结果",
+      "from_block_index": 682,
+      "to_before_table_index": 681
+    },
+    {
+      "caption": "表5-10 单艇 anomaly_upper_tail - UCB 差值结果",
+      "from_block_index": 694,
+      "to_before_table_index": 693
+    },
+    {
+      "caption": "表5-11 双艇anomaly_upper_tail - UCB 差值结果",
+      "from_block_index": 699,
+      "to_before_table_index": 698
+    },
+    {
+      "caption": "表5-12 不同地图中单艇 anomaly_upper_tail - UCB 差值结果",
+      "from_block_index": 705,
+      "to_before_table_index": 704
+    },
+    {
+      "caption": "表5-13 不同地图中双艇anomaly_upper_tail - UCB 差值结果",
+      "from_block_index": 707,
+      "to_before_table_index": 706
+    },
+    {
+      "caption": "表5-5 静态目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "from_block_index": 775,
+      "to_before_table_index": 774
+    },
+    {
+      "caption": "表5-5续 静态目标模式下双艇 UCB independent 与 coordinated 对比统计",
+      "from_block_index": 777,
+      "to_before_table_index": 776
+    },
+    {
+      "caption": "表5-7 随机游走目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "from_block_index": 779,
+      "to_before_table_index": 778
+    },
+    {
+      "caption": "表5-7续 随机游走目标模式下双艇 UCB independent 与 coordinated 对比样本统计",
+      "from_block_index": 781,
+      "to_before_table_index": 780
+    },
+    {
+      "caption": "表5-10 单艇 static 模式下 UCB 与 anomaly_upper_tail 对比",
+      "from_block_index": 783,
+      "to_before_table_index": 782
+    },
+    {
+      "caption": "表5-11 单艇 random_walk 模式下 UCB 与 anomaly_upper_tail 对比",
+      "from_block_index": 785,
+      "to_before_table_index": 784
+    },
+    {
+      "caption": "表5-13 双艇 coordinated static 模式下 UCB 与 anomaly_upper_tail 对比",
+      "from_block_index": 787,
+      "to_before_table_index": 786
+    },
+    {
+      "caption": "表5-14 双艇 coordinated random_walk 模式下 UCB 与 anomaly_upper_tail 对比",
+      "from_block_index": 790,
+      "to_before_table_index": 789
+    }
+  ],
+  "moved_table_caption_count": 21,
+  "toc_paragraphs_touched": 201,
+  "figure_caption_count": 9,
+  "table_caption_count": 23,
+  "table_position_missing_after": [],
+  "toc_direct_indent_bad_after": [],
+  "caption_style_bad_after": []
+}

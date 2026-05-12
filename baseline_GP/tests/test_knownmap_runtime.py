@@ -133,6 +133,15 @@ def test_knownmap_init_respects_explicit_large_grid_shape() -> None:
 
 def test_structured_knownmap_worlds_scale_to_large_grid() -> None:
     cases = {
+        "obstacle_field": (
+            (
+                (8, 12, 10, 25),
+                (18, 22, 30, 45),
+                (26, 34, 20, 24),
+                (10, 18, 48, 52),
+            ),
+            (20, 10),
+        ),
         "benchmark": (
             (
                 (8, 12, 10, 25),

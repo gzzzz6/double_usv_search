@@ -1,0 +1,75 @@
+{
+  "figure": "F:\\pythonprojects\\images\\fig4_1_static_responsibility_prior_current_maps.png",
+  "method": "runtime _build_responsibility_maps over current formal map kinds",
+  "maps": [
+    {
+      "map_kind": "open_water",
+      "shape": [
+        60,
+        80
+      ],
+      "starts_row_col": [
+        [
+          25,
+          2
+        ],
+        [
+          35,
+          2
+        ]
+      ],
+      "sensor_range_cells": 5,
+      "buffer_band_width_cells": 4,
+      "free_cells": 4524,
+      "buffer_band_cells": 390,
+      "score0_min": -1.0,
+      "score0_max": 1.0
+    },
+    {
+      "map_kind": "obstacle_field",
+      "shape": [
+        60,
+        80
+      ],
+      "starts_row_col": [
+        [
+          25,
+          2
+        ],
+        [
+          35,
+          2
+        ]
+      ],
+      "sensor_range_cells": 5,
+      "buffer_band_width_cells": 4,
+      "free_cells": 4164,
+      "buffer_band_cells": 290,
+      "score0_min": -1.0,
+      "score0_max": 1.0
+    },
+    {
+      "map_kind": "peninsula_passage",
+      "shape": [
+        60,
+        80
+      ],
+      "starts_row_col": [
+        [
+          25,
+          2
+        ],
+        [
+          35,
+          2
+        ]
+      ],
+      "sensor_range_cells": 5,
+      "buffer_band_width_cells": 4,
+      "free_cells": 3994,
+      "buffer_band_cells": 350,
+      "score0_min": -1.0,
+      "score0_max": 1.0
+    }
+  ]
+}

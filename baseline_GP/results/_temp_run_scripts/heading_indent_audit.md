@@ -1,0 +1,170 @@
+# Heading indent audit
+
+- spec: `F:\pythonprojects\readme\论文写作规范.docx`
+- report: `F:\pythonprojects\my_report.docx`
+- heading_count: 196
+- suspicious_count: 0
+
+## Report Styles
+- Normal: {'style_name': 'Normal', 'base_style': None, 'left_indent_cm': None, 'first_line_indent_cm': None, 'space_before_pt': 0.0, 'space_after_pt': 0.0, 'line_spacing': 254000, 'alignment': 'JUSTIFY', 'font_name': None, 'font_size_pt': 12.0, 'bold': None}
+- 一级标题: {'style_name': '一级标题', 'base_style': 'Heading 1', 'left_indent_cm': 0.0, 'first_line_indent_cm': 0.0, 'space_before_pt': 24.0, 'space_after_pt': 18.0, 'line_spacing': 1.0, 'alignment': 'CENTER', 'font_name': '黑体', 'font_size_pt': 16.0, 'bold': True}
+- 二级标题: {'style_name': '二级标题', 'base_style': 'Heading 2', 'left_indent_cm': 0.0, 'first_line_indent_cm': 0.0, 'space_before_pt': 24.0, 'space_after_pt': 6.0, 'line_spacing': 1.0, 'alignment': 'LEFT', 'font_name': '黑体', 'font_size_pt': 14.0, 'bold': False}
+- 三级标题: {'style_name': '三级标题', 'base_style': '二级标题', 'left_indent_cm': 0.0, 'first_line_indent_cm': None, 'space_before_pt': 12.0, 'space_after_pt': 6.0, 'line_spacing': 1.0, 'alignment': 'LEFT', 'font_name': '黑体', 'font_size_pt': 12.0, 'bold': False}
+- Heading 1: {'style_name': 'Heading 1', 'base_style': 'Normal', 'left_indent_cm': 0.0, 'first_line_indent_cm': 0.0, 'space_before_pt': 24.0, 'space_after_pt': 18.0, 'line_spacing': 1.0, 'alignment': 'CENTER', 'font_name': '黑体', 'font_size_pt': 16.0, 'bold': True}
+- Heading 2: {'style_name': 'Heading 2', 'base_style': 'Normal', 'left_indent_cm': 0.0, 'first_line_indent_cm': 0.0, 'space_before_pt': 24.0, 'space_after_pt': 6.0, 'line_spacing': 1.0, 'alignment': 'LEFT', 'font_name': '黑体', 'font_size_pt': 14.0, 'bold': False}
+- Heading 3: {'style_name': 'Heading 3', 'base_style': 'Normal', 'left_indent_cm': 0.0, 'first_line_indent_cm': None, 'space_before_pt': 12.0, 'space_after_pt': 6.0, 'line_spacing': 1.0, 'alignment': 'LEFT', 'font_name': '黑体', 'font_size_pt': 12.0, 'bold': False}
+- 图目录项: {'style_name': '图目录项', 'base_style': 'Normal', 'left_indent_cm': None, 'first_line_indent_cm': None, 'space_before_pt': None, 'space_after_pt': None, 'line_spacing': None, 'alignment': None, 'font_name': '宋体', 'font_size_pt': 10.5, 'bold': None}
+- 表目录项: {'style_name': '表目录项', 'base_style': 'Normal', 'left_indent_cm': None, 'first_line_indent_cm': None, 'space_before_pt': None, 'space_after_pt': None, 'line_spacing': None, 'alignment': None, 'font_name': '宋体', 'font_size_pt': 10.5, 'bold': None}
+
+## Spec Text
+- P000 [Normal] 附件2
+- P001 [Normal] 兰州大学本科毕业论文（设计）写作规范
+- P002 [Normal] 为规范我校本科毕业论文（设计）写作，结合学校实际，制定本写作规范。
+- P003 [Normal] 一、毕业论文（设计）组成
+- P004 [Normal] 毕业论文（设计）由前置、主体和结尾三部分组成。
+- P005 [Normal] （一）前置部分
+- P006 [Normal] 1.封面包括：毕业论文（设计）中英文题目、学生姓名、指导教师、学院、专业、年级。
+- P007 [Normal] 2.诚信责任书。关于毕业论文（设计）学术诚信声明和承诺。
+- P008 [Normal] 3.使用授权的声明。关于毕业论文（设计）保存、使用、知识产权归属等声明和承诺。
+- P009 [Normal] 4.摘要包括：毕业论文（设计）中文题目、中文摘要、中文关键词，毕业论文（设计）英文题目、英文摘要、英文关键词。
+- P010 [Normal] 摘要是对毕业论文（设计）的内容不加注释和评论的简短陈述，应包含研究目的、方法、结论等。关键词是为了满足文献标引或检索工作的需要，从毕业论文（设计）中摘选出用以表示全文主题内容信息的词或词组。
+- P011 [Normal] 5.序言或前言。通常用来说明作者撰写毕业论文（设计）的目的、背景、意义及对毕业论文（设计）作简要介绍。此部分内容也可在绪论（引言）中说明。
+- P012 [Normal] 6.目录包括：毕业论文（设计）目录、图或表的目录。
+- P013 [Normal] 毕业论文（设计）目录是指毕业论文（设计）正文前所载的目次，按照一定的次序编排而成，为反映论文的内容标题。论文中若附图、附表较多，可以在目录后单独列出附图、附表目录。
+- P014 [Normal] （二）主体部分
+- P015 [Normal] 1.绪论（引言）。包括毕业论文（设计）的研究目的、意义、范围等；还包括毕业论文（设计）研究问题的历史回顾、文献追溯、理论分析等内容。
+- P016 [Normal] 2.正文。是毕业论文（设计）的核心部分，包括研究背景、立论根据、研究内容、研究方法与过程、研究结果与分析、研究结论及其意义。要求论述正确、逻辑严密、层次分明、文字流畅简练、公式图表清晰规范、数据真实可靠，公式推导和计算结果正确无误。毕业论文（设计）中如出现非通用性新名词、新术语、新概念，应作相应解释。
+- P017 [Normal] 3.结论。为毕业论文（设计）论述的核心论点，得出的研究性结果、讨论或调研结果等，研究中存在的、产生的问题，及未来的研究空间、可行性分析、意见或建议等。
+- P018 [Normal] （三）结尾部分
+- P019 [Normal] 1.参考文献。是毕业论文（设计）的重要组成部分，是毕业论文（设计）作者亲自阅读过的对毕业论文（设计）有参考价值的文献。所有被引用文献均要录入参考文献中。
+- P020 [Normal] 2.附录。是附在正文后面与正文有关的文章或参考资料，是毕业论文的补充说明部分。例如，详细的研究方法、技术等，对于了解正文内容具有重要的参考意义；篇幅过大或取材于复制品而不便编入正文的材料；某些重要的原始数据、数学推导、计算程序、注释、框图、统计表、结构图等。附录内容要精简，不要把与正文没有直接联系或不重要的信息放在里面。附录并不是必须的，可根据需要编写。
+- P021 [Normal] 3.分类索引、关键词索引（可根据需要编写）。
+- P022 [Normal] 4.致谢。向本研究提供过资金、设备、人力，以及文献资料等支持和帮助的团体和个人表示感谢。
+- P023 [Normal] 二、毕业论文（设计）的排版
+- P024 [Normal] （一）毕业论文（设计）版式
+- P025 [Normal] 版面为A4白纸（210mm×297mm）纵向，文字从左至右通栏横排，论文统一按照以上（毕业论文（设计）组成）顺序左装订。
+- P026 [Normal] （二）页面设置
+- P027 [Normal] 页边距为上2.5cm，下2.5cm，左2.5cm，右2cm，页眉边距为1.5cm，页脚边距为1.5cm。行间距为固定值20磅。
+- P028 [Normal] （三）页眉及页码
+- P029 [Normal] 1.页眉。“兰州大学本科毕业论文（设计）”字居左排，毕业论文（设计）题目居右排，字体为宋体，小五号；页眉与正文之间用下划线分隔。
+- P030 [Normal] 2.页码。页脚居中排，字体为宋体，五号。封面、目录不编排页码，中英文摘要页用罗马数字单独连续编号，引言、正文用阿拉伯数字连续编号，附录可不编排页码。
+- P031 [Normal] 三、写作规范与格式要求
+- P032 [Normal] （一）封面
+- P033 [Normal] 1.毕业论文（设计）题目。要求简明扼要，核心内容明确。中文题目一般不超过25个字，字体为宋体，三号；英文题目一般不超过150个字母，字体为Times New Roman，三号。根据论文内容，可以加副标题。
+- P034 [Normal] 2.学生姓名、指导教师、学院、专业、年级字体为宋体，三号。
+- P035 [Normal] （二）摘要
+- P036 [Normal] 1.中英文摘要。（1）中文摘要以300-400字为宜。毕业论文（设计）题目字体为宋体，二号，加粗，段前24磅，段后18磅；“中文摘要”居中，字体为黑体，三号；摘要正文字体为宋体，小四号。行间距为固定值20磅。（2）英文摘要实际单词在300个左右，应与中文摘要内容一致。毕业论文（设计）英文题目字体为Times New Roman，二号，段前24磅，段后18磅；“英文摘要”为“Abstract”，字体为Arial，三号，加粗居中；英文摘要正文每段开头空4个字符间隙，字体为Times New Roman，小四号。行间距为固定值20磅。
+- P037 [Normal] 2.中英文关键词。毕业论文（设计）中应列出3～8个关键词，关键词与摘要之间空1行，置于摘要之后。中文关键词字体为宋体，小四号，加粗置顶格；英文关键词含义与中文关键词须一致。“关键词”为“Keywords”，字体为Times New Roman，小四号，加粗，置顶格。
+- P038 [Normal] （三）目录
+- P039 [Normal] 1.“目录”两字间空1个字符间隙，字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅；目录中标题不能超过三级，一级标题字体为宋体，四号，加粗；二级标题字体为宋体，四号；三级标题字体为宋体，小四号。
+- P040 [Normal] 2.标题文字居左，页码居右，之间用连续点连接。标题需转行的，转行后的标题文字应缩进一字。
+- P041 [Normal] 3.图或表的目录。图和表应有序号，序号与名称之间空1个字符间隙，并与正文保持一致。“图/表目录”三个字字体为黑体，三号，居中；标题字体为宋体，四号，如“图1.1本科生总体数据分析”。标题文字居左，页码居右，之间用连续点连接。
+- P042 [Normal] （四）绪论（引言）
+- P043 [Normal] “绪论”两字间空1个字符间隙，字体为黑体，三号居中，正文字体为宋体，小四号。
+- P044 [Normal] （五）毕业论文（设计）正文
+- P045 [Normal] 1.正文结构。分别以“第一章”、“1”、“1.1”、“1.1.1”….等树层次格式依次标出。章的编号居中，字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅，如“第一章”；节的编号置顶格，按顺序分层，如“1”，“1.1”，“1.1.1”，层次以少为宜，编号与标题之间空1个字符间隙，如“1.1本科生资料使用”、“1.1.1本科生数据分析”，字体依次为二级标题黑体，四号，顶左，单倍行距，段前24磅，段后6磅；三级标题黑体，小四号，首行缩进2个汉字符，单倍行距，段前12磅，段后6磅。各层次标题用阿拉伯数字连续编号，数字之间用实心圆点“.”相隔。正文另起一行。正文字体为宋体，小四（英文用Times New Roman字体，12磅），两端对齐，段落首行左缩进2个汉字符，行间距为固定值20磅，段前段后0磅。
+- P046 [Normal] 2.图和表。包括各类图、照片，各类表等。图应有名称，编号置于图下方；照片必须清晰，如有需要照片上应有标识尺寸的标度。表的编排建议采用国际通行的三线表。如某个表需要转页，在之后的各页上应重复表的编号，其后跟表题（可省略）。图和表的编号用阿拉伯数字依序连续编排，如“图本科生 l.1”、“表本科生 2.2”，编号及标题之间空1个字符间隙，字体为宋体，五号。
+- P047 [Normal] 图：图名置于图的下方，五号字，宋体，居中（英文用Times New Roman体10.5磅），单倍行距，段前6磅，段后12磅，图序与图名之间空1个汉字符。
+- P048 [Normal] 表：表名置于表的上方，五号字，宋体，居中（英文用Times New Roman体10.5磅），单倍行距，段前6磅，段后6磅，表序与表名之间空1个汉字符。
+- P049 [Normal] 图和表下方的注释为五号字，宋体，居左（英文用Times New Roman体10.5磅），单倍行距。
+- P050 [Normal] 3.公式。毕业论文（设计）中的公式应另起一行，并缩格书写。如有两个以上公式，应用从“1”开始的阿拉伯数字进行编号，并将编号置于括号内，如“（1）”。公式需要转行时，应尽可能在“＝”、“+”、“－”、“×”、“/”等记号处转行。编号及标题字体为宋体，五号。
+- P051 [Normal] （1. 公式对齐方式：居中公式 + 右对齐编号
+- P052 [Normal] 规范只说"缩格书写"，实际是通过段落内两个制表位实现：
+- P053 [Normal] 居中制表位（center tab，位置 4153 EMU）
+- P054 [Normal] 右对齐制表位（right tab，位置 8306 EMU）
+- P055 [Normal] 段落排版结构为：
+- P056 [Normal] [tab→居中]  [公式内容]  [tab→右对齐]  （编号）
+- P057 [Normal] 即公式居中显示，编号靠右对齐，而非简单的缩格。
+- P058 [Normal] 2. 编号位置
+- P059 [Normal] 编号必须放在公式后面（右对齐），不能放在公式前面。
+- P060 [Normal] 3. 编号文本不可拆分
+- P061 [Normal] 编号 （48） 应作为一个完整的文本 run 与前置 tab 在同一 run 内，格式为 \t（N）。不能被拆成 （ 48 ） 三个独立 run，否则可能引发渲染不一致。
+- P062 [Normal] 4. 公式段落样式
+- P063 [Normal] 公式段落应使用专用样式 公式目录项（而非 Normal），该样式定义了上述两个制表位。
+- P064 [Normal] 5. 公式目录域代码
+- P065 [Normal] 每个公式段落需包含隐藏的 TOC 域代码，用于自动生成公式目录：
+- P066 [Normal] TC "公式（N）" \f E \l 1
+- P067 [Normal] 格式为：w:instrText（<w:vanish/> 隐藏），配合 w:bookmarkStart/w:bookmarkEnd 书签定位页码。
+- P068 [Normal] 6. 编号连续性
+- P069 [Normal] 公式编号为全文顺序编号（从1开始），非按章编号。当增删公式时，后续编号需手动调整，Word 不会自动更新。）
+- P070 [Normal] 4.引文标注。正文中引用他人的观点、原话、主要数据等，必须注明出处，有需要解释的内容，可以加注说明。引用文献的标注方法可采用顺序编号制，也可采用著者－出版年制，但体例必须统一。引用采用阿拉伯数字编号加“脚注”的方式。
+- P071 [Normal] （1）所引用著作需注明：作者、著作名、出版单位和出版年号、页码。
+- P072 [Normal] （2）所引资料来自刊物需注明：作者、篇名、发表的刊物名、出版年号、期号、页码。
+- P073 [Normal] 5.注释。毕业论文（设计）中如有词、词组、其他内容等需要进一步说明，用注释。注释采用阿拉伯数字编号加“脚注”的方式。
+- P074 [Normal] （六）参考文献
+- P075 [Normal] 具体录入格式要求如下：
+- P076 [Normal] （1）顺序编号须按照正文（包括图、表的说明）引用文献的先后顺序连续编排。编号置于方括号中，并与参考文献空1个字符间隙。“参考文献”四个字字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅；中文参考文献字体为宋体，五号，行间距为固定值16磅；英文参考文献字体为Times New Roman，五号。
+- P077 [Normal] （2）各项目之间用间隔号“.”间隔，文献末加“.”。外文参考文献名首字母和每个实词首字母大写，其余为小写。编著者不超过三位时，可全部录入；超过三位时，录“三位等”。参考文献著录式样：
+- P078 [Normal] ①专著、论文集、学位论文、报告：［序号］主要责任者.文献题名［文献类型标识M/C/D/R］.出版地:出版者，出版年.起止页码(任选).
+- P079 [Normal] ②学术期刊：［序号］主要责任者.文献题名［J］.刊名，年，卷(期):起止页码.
+- P080 [Normal] ③报纸文章：［序号］主要责任者.文献题名［N］.报纸名，出版日期(版次).
+- P081 [Normal] ④专利：［序号］专利所有者.专利题名［P］.专利国别:专利号，授权日期.
+- P082 [Normal] ⑤技术标准：［序号］标准编号，标准名称［S］.
+- P083 [Normal] ⑥电子文献：［序号］主要责任者.电子文献题名［电子文献和载体类型标识］.电子文献的出处或可获得地址，发表或更新日期/引用日期(任选).
+- P084 [Normal] 例如：
+- P085 [Normal] ［1］颉茂华,王瑾,刘冬梅.环境规制、技术创新与企业经营绩效[J].南开管理评论,2014,17(06):106-113.
+- P086 [Normal] ［2］Palmer K,Oates E W,Portney P R.Tightening Environmental Standard: the Benefit－Cost or the No－cost Paradigm［J］．Journal of Economic Perspectives，1995，9(4):97－118．
+- P087 [Normal] （3）如有正文中未被引用，但对毕业论文（设计）具有参考和补充作用的文献，需录入附录中，标题为“参考书目”，字体、格式等要求同上。
+- P088 [Normal] （七）附录
+- P089 [Normal] 附录中的插图、表格、公式、参考文献等的序号需与正文区分，另行编制，如编为“图1”、“表1”、“式（1）”、“文献[1]”等。“附录”两字间空2个汉字间隙，三号字，黑体，加粗，居中，单倍行距，段前24磅，段后18磅。附录的内容字体为宋体，五号（英文用Times New Roman体，10.5磅），行间距为固定值20磅。
+- P090 [Normal] （八）致谢
+- P091 [Normal] “致谢”两字间空2个字符间隙，字体为黑体，三号字，加粗居中。单倍行距，段前24磅，段后18磅。正文部分首行缩进两个汉字符，小四号字，仿宋，行距20磅。
+
+## Heading Samples
+### level1
+- P0048 [toc 1] 1 绪 论	1 | direct first=0.0 style first=0.0 left=None
+- P0052 [toc 1] 2 场建模	3 | direct first=0.0 style first=0.0 left=None
+- P0067 [toc 1] 3 信息型路径规划	13 | direct first=0.0 style first=0.0 left=None
+- P0097 [toc 1] 4 多USV协同搜索决策方法及双艇实现	26 | direct first=0.0 style first=0.0 left=None
+- P0118 [toc 1] 5 实验设计与结果分析	33 | direct first=0.0 style first=0.0 left=None
+- P0145 [toc 1] 6 总结与展望	40 | direct first=0.0 style first=0.0 left=None
+- P0258 [一级标题] 1 绪 论 | direct first=0.0 style first=0.0 left=0.0
+- P0272 [一级标题] 2 场建模 | direct first=0.0 style first=0.0 left=0.0
+- P0395 [一级标题] 3 信息型路径规划 | direct first=0.0 style first=0.0 left=0.0
+- P0525 [一级标题] 4 多USV协同搜索决策方法及双艇实现 | direct first=0.0 style first=0.0 left=0.0
+- P0619 [一级标题] 5 实验设计与结果分析 | direct first=0.0 style first=0.0 left=0.0
+- P0695 [一级标题] 6 总结与展望 | direct first=0.0 style first=0.0 left=0.0
+### level2
+- P0049 [toc 2] 1.1 研究背景及意义	1 | direct first=0.0 style first=0.0 left=0.741
+- P0050 [toc 2] 1.2 国内外研究现状	1 | direct first=0.0 style first=0.0 left=0.741
+- P0051 [toc 2] 1.3 研究内容及论文结构	2 | direct first=0.0 style first=0.0 left=0.741
+- P0053 [toc 2] 2.1 高斯过程回归	3 | direct first=0.0 style first=0.0 left=0.741
+- P0060 [toc 2] 2.2 目标Intensity场建模	8 | direct first=0.0 style first=0.0 left=0.741
+- P0065 [toc 2] 2.3 观测时效性	10 | direct first=0.0 style first=0.0 left=0.741
+- P0066 [toc 2] 2.4 综合信息价值场	11 | direct first=0.0 style first=0.0 left=0.741
+- P0068 [toc 2] 3.1 信息型路径规划理论基础	13 | direct first=0.0 style first=0.0 left=0.741
+- P0074 [toc 2] 3.2 问题定义	15 | direct first=0.0 style first=0.0 left=0.741
+- P0078 [toc 2] 3.3 热点区域提取	16 | direct first=0.0 style first=0.0 left=0.741
+- P0082 [toc 2] 3.4 观测点选择	18 | direct first=0.0 style first=0.0 left=0.741
+- P0086 [toc 2] 3.5 短时域路径段生成	20 | direct first=0.0 style first=0.0 left=0.741
+- P0091 [toc 2] 3.6 短路径段综合评分函数	22 | direct first=0.0 style first=0.0 left=0.741
+- P0096 [toc 2] 3.7 在线滚动执行与重规划机制	24 | direct first=0.0 style first=0.0 left=0.741
+- P0098 [toc 2] 4.1 多艇协同信息型路径规划原理	26 | direct first=0.0 style first=0.0 left=0.741
+- P0102 [toc 2] 4.2 双艇已知地图搜索问题定义	27 | direct first=0.0 style first=0.0 left=0.741
+- P0105 [toc 2] 4.3 静态责任区先验	28 | direct first=0.0 style first=0.0 left=0.741
+- P0109 [toc 2] 4.4 顺序分配式双艇协同路径规划	29 | direct first=0.0 style first=0.0 left=0.741
+- P0112 [toc 2] 4.5 艇间冲突代价与reservation table	30 | direct first=0.0 style first=0.0 left=0.741
+- P0113 [toc 2] 4.6 团队联合评分与双路径段选择	31 | direct first=0.0 style first=0.0 left=0.741
+### level3
+- P0054 [toc 3] 2.1.1 回归问题	3 | direct first=None style first=0.0 left=1.481
+- P0055 [toc 3] 2.1.2 多元高斯分布	3 | direct first=None style first=0.0 left=1.481
+- P0056 [toc 3] 2.1.3 核函数	4 | direct first=None style first=0.0 left=1.481
+- P0057 [toc 3] 2.1.4 后验预测	5 | direct first=None style first=0.0 left=1.481
+- P0058 [toc 3] 2.1.5 采集函数	6 | direct first=None style first=0.0 left=1.481
+- P0059 [toc 3] 2.1.6 Anomaly变体	7 | direct first=None style first=0.0 left=1.481
+- P0061 [toc 3] 2.2.1 初始化	8 | direct first=None style first=0.0 left=1.481
+- P0062 [toc 3] 2.2.2 目标运动预测	9 | direct first=None style first=0.0 left=1.481
+- P0063 [toc 3] 2.2.3 未命中观测更新	9 | direct first=None style first=0.0 left=1.481
+- P0064 [toc 3] 2.2.4 命中观测更新	9 | direct first=None style first=0.0 left=1.481
+- P0069 [toc 3] 3.1.1 从几何路径规划到主动感知路径规划	13 | direct first=None style first=0.0 left=1.481
+- P0070 [toc 3] 3.1.2 EPP与IPP的区别	13 | direct first=None style first=0.0 left=1.481
+- P0071 [toc 3] 3.1.3 信息收益、运动代价与预算约束的一般形式	13 | direct first=None style first=0.0 left=1.481
+- P0072 [toc 3] 3.1.4 在线自适应信息型路径规划	14 | direct first=None style first=0.0 left=1.481
+- P0073 [toc 3] 3.1.5 本文方法定位	14 | direct first=None style first=0.0 left=1.481
+- P0075 [toc 3] 3.2.1 静态地图定义	15 | direct first=None style first=0.0 left=1.481
+- P0076 [toc 3] 3.2.2 USV状态与传感器	16 | direct first=None style first=0.0 left=1.481
+- P0077 [toc 3] 3.2.3 问题表述	16 | direct first=None style first=0.0 left=1.481
+- P0079 [toc 3] 3.3.1 热点阈值与热点簇定义	16 | direct first=None style first=0.0 left=1.481
+- P0080 [toc 3] 3.3.2 热点簇评分	17 | direct first=None style first=0.0 left=1.481
+
+## Suspicious

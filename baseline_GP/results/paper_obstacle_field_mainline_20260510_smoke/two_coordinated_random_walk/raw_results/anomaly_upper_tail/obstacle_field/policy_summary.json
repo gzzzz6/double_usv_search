@@ -1,0 +1,8 @@
+{
+  "group_name": "two_coordinated_random_walk",
+  "system_type": "two_coordinated",
+  "motion_mode": "random_walk",
+  "clue_acquisition_mode": "anomaly_upper_tail",
+  "map_kind": "obstacle_field",
+  "n_episodes": 1
+}

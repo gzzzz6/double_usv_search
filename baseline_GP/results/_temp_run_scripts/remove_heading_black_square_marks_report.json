@@ -1,0 +1,20 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "backup": "F:\\pythonprojects\\my_report_backup_before_remove_heading_black_square_marks_20260511_212145.docx",
+  "touched_styles": {
+    "一级标题": [
+      "base:keepNext",
+      "base:keepLines"
+    ],
+    "二级标题": [
+      "base:keepNext",
+      "base:keepLines"
+    ],
+    "Heading 3": [
+      "keepNext",
+      "keepLines"
+    ]
+  },
+  "touched_paragraph_count": 0,
+  "touched_paragraphs": []
+}

@@ -1,0 +1,3 @@
+backup=F:\pythonprojects\my_report_backup_before_ch4_figures_20260512_003641.docx
+{'caption': '图4-1 静态软责任区先验可视化', 'caption_paragraph_index': 569, 'image_paragraph_index': 568, 'image_paragraph_had_drawing': True, 'explanation_paragraph_index': 570, 'image_path': 'F:\\pythonprojects\\images\\fig4_1_static_responsibility_prior_current_maps.png'}
+{'caption': '图4-2 residual_map 顺序分配过程', 'caption_paragraph_index': 588, 'image_paragraph_index': 587, 'image_paragraph_had_drawing': True, 'explanation_paragraph_index': 589, 'image_path': 'F:\\pythonprojects\\images\\fig4_2_residual_map_sequential_allocation_obstacle_field.png'}

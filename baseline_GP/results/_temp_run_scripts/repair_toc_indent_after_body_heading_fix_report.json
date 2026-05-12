@@ -1,0 +1,1064 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "backup": "F:\\pythonprojects\\my_report_backup_before_toc_indent_repair_20260511_211715.docx",
+  "touched_styles": [
+    "toc 1",
+    "toc 2",
+    "toc 3"
+  ],
+  "touched_toc_paragraph_count": 201,
+  "samples": [
+    {
+      "index": 48,
+      "style": "toc 1",
+      "text": "1 绪 论\t1",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0"
+      }
+    },
+    {
+      "index": 49,
+      "style": "toc 2",
+      "text": "1.1 研究背景及意义\t1",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 50,
+      "style": "toc 2",
+      "text": "1.2 国内外研究现状\t1",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 51,
+      "style": "toc 2",
+      "text": "1.3 研究内容及论文结构\t2",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 52,
+      "style": "toc 1",
+      "text": "2 场建模\t3",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0"
+      }
+    },
+    {
+      "index": 53,
+      "style": "toc 2",
+      "text": "2.1 高斯过程回归\t3",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 54,
+      "style": "toc 3",
+      "text": "2.1.1 回归问题\t3",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 55,
+      "style": "toc 3",
+      "text": "2.1.2 多元高斯分布\t3",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 56,
+      "style": "toc 3",
+      "text": "2.1.3 核函数\t4",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 57,
+      "style": "toc 3",
+      "text": "2.1.4 后验预测\t5",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 58,
+      "style": "toc 3",
+      "text": "2.1.5 采集函数\t6",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 59,
+      "style": "toc 3",
+      "text": "2.1.6 Anomaly变体\t7",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 60,
+      "style": "toc 2",
+      "text": "2.2 目标Intensity场建模\t8",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 61,
+      "style": "toc 3",
+      "text": "2.2.1 初始化\t8",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 62,
+      "style": "toc 3",
+      "text": "2.2.2 目标运动预测\t9",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 63,
+      "style": "toc 3",
+      "text": "2.2.3 未命中观测更新\t9",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 64,
+      "style": "toc 3",
+      "text": "2.2.4 命中观测更新\t9",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 65,
+      "style": "toc 2",
+      "text": "2.3 观测时效性\t10",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 66,
+      "style": "toc 2",
+      "text": "2.4 综合信息价值场\t11",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 67,
+      "style": "toc 1",
+      "text": "3 信息型路径规划\t13",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0"
+      }
+    },
+    {
+      "index": 68,
+      "style": "toc 2",
+      "text": "3.1 信息型路径规划理论基础\t13",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 69,
+      "style": "toc 3",
+      "text": "3.1.1 从几何路径规划到主动感知路径规划\t13",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 70,
+      "style": "toc 3",
+      "text": "3.1.2 EPP与IPP的区别\t13",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 71,
+      "style": "toc 3",
+      "text": "3.1.3 信息收益、运动代价与预算约束的一般形式\t13",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 72,
+      "style": "toc 3",
+      "text": "3.1.4 在线自适应信息型路径规划\t14",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 73,
+      "style": "toc 3",
+      "text": "3.1.5 本文方法定位\t14",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 74,
+      "style": "toc 2",
+      "text": "3.2 问题定义\t15",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 75,
+      "style": "toc 3",
+      "text": "3.2.1 静态地图定义\t15",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 76,
+      "style": "toc 3",
+      "text": "3.2.2 USV状态与传感器\t16",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 77,
+      "style": "toc 3",
+      "text": "3.2.3 问题表述\t16",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 78,
+      "style": "toc 2",
+      "text": "3.3 热点区域提取\t16",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 79,
+      "style": "toc 3",
+      "text": "3.3.1 热点阈值与热点簇定义\t16",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 80,
+      "style": "toc 3",
+      "text": "3.3.2 热点簇评分\t17",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 81,
+      "style": "toc 3",
+      "text": "3.3.3 Anchor代表点选取\t17",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 82,
+      "style": "toc 2",
+      "text": "3.4 观测点选择\t18",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 83,
+      "style": "toc 3",
+      "text": "3.4.1 Viewpoint定义\t18",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 84,
+      "style": "toc 3",
+      "text": "3.4.2 环形观测点生成\t19",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 85,
+      "style": "toc 3",
+      "text": "3.4.3 观测点的观测价值排序\t19",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 86,
+      "style": "toc 2",
+      "text": "3.5 短时域路径段生成\t20",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 87,
+      "style": "toc 3",
+      "text": "3.5.1 到候选观测点的路径生成\t20",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 88,
+      "style": "toc 3",
+      "text": "3.5.2 栅格地图下的A*路径生成\t20",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 89,
+      "style": "toc 3",
+      "text": "3.5.3 障碍安全膨胀后的A*安全路径生成\t21",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 90,
+      "style": "toc 3",
+      "text": "3.5.4 短时域路径段截断\t22",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 91,
+      "style": "toc 2",
+      "text": "3.6 短路径段综合评分函数\t22",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 92,
+      "style": "toc 3",
+      "text": "3.6.1 短路径段评分计算\t22",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 93,
+      "style": "toc 3",
+      "text": "3.6.2 探索收益、搜索信息收益与观测刷新收益\t23",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 94,
+      "style": "toc 3",
+      "text": "3.6.3 执行代价\t23",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 95,
+      "style": "toc 3",
+      "text": "3.6.4 最终综合评分\t23",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 96,
+      "style": "toc 2",
+      "text": "3.7 在线滚动执行与重规划机制\t24",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 97,
+      "style": "toc 1",
+      "text": "4 多USV协同搜索决策方法及双艇实现\t26",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0"
+      }
+    },
+    {
+      "index": 98,
+      "style": "toc 2",
+      "text": "4.1 多艇协同信息型路径规划原理\t26",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 99,
+      "style": "toc 3",
+      "text": "4.1.1 从单艇信息型路径规划到多艇协同规划\t26",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 100,
+      "style": "toc 3",
+      "text": "4.1.2 团队信息收益\t26",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 101,
+      "style": "toc 3",
+      "text": "4.1.3 多艇协同中的分工、冗余与冲突\t26",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 102,
+      "style": "toc 2",
+      "text": "4.2 双艇已知地图搜索问题定义\t27",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 103,
+      "style": "toc 3",
+      "text": "4.2.1 已知静态地图与双艇搜索任务\t27",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 104,
+      "style": "toc 3",
+      "text": "4.2.2集中式编队共享状态\t27",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 105,
+      "style": "toc 2",
+      "text": "4.3 静态责任区先验\t28",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 106,
+      "style": "toc 3",
+      "text": "4.3.1 基于固定起点的可达距离责任先验\t28",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 107,
+      "style": "toc 3",
+      "text": "4.3.2 缓冲带与责任分数定义\t28",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 108,
+      "style": "toc 3",
+      "text": "4.3.3 综合信息价值场的责任区偏置\t29",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 109,
+      "style": "toc 2",
+      "text": "4.4 顺序分配式双艇协同路径规划\t29",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 110,
+      "style": "toc 3",
+      "text": "4.4.1 顺序分配\t29",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 111,
+      "style": "toc 3",
+      "text": "4.4.2 residual_map与重叠区域定义\t29",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 112,
+      "style": "toc 2",
+      "text": "4.5 艇间冲突代价与reservation table\t30",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 113,
+      "style": "toc 2",
+      "text": "4.6 团队联合评分与双路径段选择\t31",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 114,
+      "style": "toc 3",
+      "text": "4.6.1 单艇短路径段评分的沿用\t31",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 115,
+      "style": "toc 3",
+      "text": "4.6.2 同观测点冲突抑制\t31",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 116,
+      "style": "toc 3",
+      "text": "4.6.3 重复观测惩罚\t31",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 117,
+      "style": "toc 3",
+      "text": "4.6.4 最优双路径段选择\t31",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 118,
+      "style": "toc 1",
+      "text": "5 实验设计与结果分析\t33",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0"
+      }
+    },
+    {
+      "index": 119,
+      "style": "toc 2",
+      "text": "5.1 实验设置\t33",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 120,
+      "style": "toc 3",
+      "text": "5.1.1 仿真环境与地图设置\t33",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 121,
+      "style": "toc 3",
+      "text": "5.1.2 目标与线索场设置\t33",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 122,
+      "style": "toc 3",
+      "text": "5.1.3 评价指标\t34",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 123,
+      "style": "toc 2",
+      "text": "5.2 单 USV 已知地图搜索任务实验\t34",
+      "direct": {
+        "firstLine": "0",
+        "left": "480"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "420",
+        "leftChars": "200"
+      }
+    },
+    {
+      "index": 124,
+      "style": "toc 3",
+      "text": "5.2.1 实验概述\t34",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 125,
+      "style": "toc 3",
+      "text": "5.2.2 实验设置\t34",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 126,
+      "style": "toc 3",
+      "text": "5.2.3 静态目标模式下的单艇搜索结果\t34",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    },
+    {
+      "index": 127,
+      "style": "toc 3",
+      "text": "5.2.4 随机游走目标模式下的单艇搜索结果\t35",
+      "direct": {
+        "firstLine": "0"
+      },
+      "style_indent": {
+        "firstLine": "0",
+        "left": "840",
+        "leftChars": "400"
+      }
+    }
+  ]
+}

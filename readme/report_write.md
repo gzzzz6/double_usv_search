@@ -163,3 +163,79 @@ Alt+F9：切换域代码 / 域结果
 凡是写“本文方法”的地方，最终判断标准是代码 runtime 主链，不是文字设想。
 
 如果论文表述、trace 字段、summary 字段、实验配置和代码行为不一致，以代码当前主线为准修改论文。
+
+**13. Word 脚本定位规则：避免误命中目录**
+
+`python-docx` 读取 `.docx` 时，目录项也是普通段落。目录中的：
+
+```text
+6.1 课题总结    40
+```
+
+和正文中的：
+
+```text
+6.1 课题总结
+```
+
+在脚本中都会被读成 `paragraph.text`。由于目录位于正文之前，如果只按文本匹配：
+
+```python
+if paragraph.text.strip().startswith("6.1 课题总结"):
+    ...
+```
+
+脚本会优先命中目录，而不是正文标题。这是最常见的 Word 自动写入错误来源之一。
+
+以后写 Word 脚本时，定位标题必须同时检查：
+
+- 文本内容；
+- 段落样式；
+- 所在范围。
+
+例如，正文标题应匹配：
+
+```python
+if (
+    paragraph.text.strip().startswith("6.1 课题总结")
+    and paragraph.style.name == "二级标题"
+):
+    ...
+```
+
+目录项通常是：
+
+```text
+toc 1
+toc 2
+toc 3
+```
+
+正文标题通常是：
+
+```text
+一级标题
+二级标题
+三级标题
+```
+
+更稳妥的做法是先定位正文章标题，再在该范围之后查找子标题：
+
+```python
+# 先找到正文中的章标题，跳过目录
+if text.startswith("6 总结与展望") and paragraph.style.name == "一级标题":
+    chapter_start = idx
+
+# 再只在 chapter_start 之后查找 6.1 / 6.2
+if idx > chapter_start and text.startswith("6.1 课题总结") and paragraph.style.name == "二级标题":
+    ...
+```
+
+如果要替换某一节内容，必须先确认起点和终点都在正文区域内，不能跨过 `参考文献`、`附录` 或目录区域。
+
+安全检查：
+
+- 替换前打印命中的段落 index、style、text；
+- 若命中段落样式为 `toc 1 / toc 2 / toc 3`，立即停止；
+- 删除或替换段落前，统计待删除段落数量，数量异常时停止；
+- 写入后读取回检查目标章节、参考文献、附录是否仍存在。

@@ -1,0 +1,2 @@
+[2026-05-10T17:06:34.314496] group=two_independent_static start, motion=static, system=two_independent, max_iters=240, run_mode=full, resumed=0/20
+[2026-05-10T17:21:13.708625] group=two_independent_static done, episodes=20/20

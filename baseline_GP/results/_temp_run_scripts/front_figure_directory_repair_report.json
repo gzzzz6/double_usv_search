@@ -1,0 +1,19 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "backup": "F:\\pythonprojects\\my_report_backup_before_front_figure_directory_repair_20260511_175433.docx",
+  "figure_directory_range": [
+    229,
+    237
+  ],
+  "entries": [
+    "图2-1 已知静态地图下多源搜索场可视化\t12",
+    "图3-1 单艇信息驱动安全路径规划总体流程图\t15",
+    "图3-2 Anchor 与 Viewpoint 的空间语义区分示意图\t19",
+    "图3-3 A*算法在栅格地图中的搜索过程示意图\t21",
+    "图3-4 候选路径段评分与最优路径段选择流程图\t24",
+    "图4-1 静态软责任区先验可视化\t28",
+    "图4-2 residual_map 顺序分配过程\t30",
+    "图5-1 实验采用的三类已知静态障碍地图\t33",
+    "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹\t35"
+  ]
+}

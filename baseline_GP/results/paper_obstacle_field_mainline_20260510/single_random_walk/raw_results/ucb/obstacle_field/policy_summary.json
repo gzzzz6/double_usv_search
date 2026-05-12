@@ -1,0 +1,8 @@
+{
+  "group_name": "single_random_walk",
+  "system_type": "single",
+  "motion_mode": "random_walk",
+  "clue_acquisition_mode": "ucb",
+  "map_kind": "obstacle_field",
+  "n_episodes": 10
+}

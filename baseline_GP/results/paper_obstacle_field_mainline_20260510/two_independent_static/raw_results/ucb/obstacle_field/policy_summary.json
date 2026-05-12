@@ -1,0 +1,8 @@
+{
+  "group_name": "two_independent_static",
+  "system_type": "two_independent",
+  "motion_mode": "static",
+  "clue_acquisition_mode": "ucb",
+  "map_kind": "obstacle_field",
+  "n_episodes": 10
+}

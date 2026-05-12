@@ -1,0 +1,1313 @@
+{
+  "spec_docx": "F:\\pythonprojects\\readme\\论文写作规范.docx",
+  "report_docx": "F:\\pythonprojects\\my_report.docx",
+  "spec_text": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "附件2"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "兰州大学本科毕业论文（设计）写作规范"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "为规范我校本科毕业论文（设计）写作，结合学校实际，制定本写作规范。"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "一、毕业论文（设计）组成"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "毕业论文（设计）由前置、主体和结尾三部分组成。"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "（一）前置部分"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "1.封面包括：毕业论文（设计）中英文题目、学生姓名、指导教师、学院、专业、年级。"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "2.诚信责任书。关于毕业论文（设计）学术诚信声明和承诺。"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "3.使用授权的声明。关于毕业论文（设计）保存、使用、知识产权归属等声明和承诺。"
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "4.摘要包括：毕业论文（设计）中文题目、中文摘要、中文关键词，毕业论文（设计）英文题目、英文摘要、英文关键词。"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "摘要是对毕业论文（设计）的内容不加注释和评论的简短陈述，应包含研究目的、方法、结论等。关键词是为了满足文献标引或检索工作的需要，从毕业论文（设计）中摘选出用以表示全文主题内容信息的词或词组。"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "5.序言或前言。通常用来说明作者撰写毕业论文（设计）的目的、背景、意义及对毕业论文（设计）作简要介绍。此部分内容也可在绪论（引言）中说明。"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "6.目录包括：毕业论文（设计）目录、图或表的目录。"
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "毕业论文（设计）目录是指毕业论文（设计）正文前所载的目次，按照一定的次序编排而成，为反映论文的内容标题。论文中若附图、附表较多，可以在目录后单独列出附图、附表目录。"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "（二）主体部分"
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "1.绪论（引言）。包括毕业论文（设计）的研究目的、意义、范围等；还包括毕业论文（设计）研究问题的历史回顾、文献追溯、理论分析等内容。"
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "2.正文。是毕业论文（设计）的核心部分，包括研究背景、立论根据、研究内容、研究方法与过程、研究结果与分析、研究结论及其意义。要求论述正确、逻辑严密、层次分明、文字流畅简练、公式图表清晰规范、数据真实可靠，公式推导和计算结果正确无误。毕业论文（设计）中如出现非通用性新名词、新术语、新概念，应作相应解释。"
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "3.结论。为毕业论文（设计）论述的核心论点，得出的研究性结果、讨论或调研结果等，研究中存在的、产生的问题，及未来的研究空间、可行性分析、意见或建议等。"
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "（三）结尾部分"
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "1.参考文献。是毕业论文（设计）的重要组成部分，是毕业论文（设计）作者亲自阅读过的对毕业论文（设计）有参考价值的文献。所有被引用文献均要录入参考文献中。"
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "2.附录。是附在正文后面与正文有关的文章或参考资料，是毕业论文的补充说明部分。例如，详细的研究方法、技术等，对于了解正文内容具有重要的参考意义；篇幅过大或取材于复制品而不便编入正文的材料；某些重要的原始数据、数学推导、计算程序、注释、框图、统计表、结构图等。附录内容要精简，不要把与正文没有直接联系或不重要的信息放在里面。附录并不是必须的，可根据需要编写。"
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "3.分类索引、关键词索引（可根据需要编写）。"
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "4.致谢。向本研究提供过资金、设备、人力，以及文献资料等支持和帮助的团体和个人表示感谢。"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "二、毕业论文（设计）的排版"
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "（一）毕业论文（设计）版式"
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "版面为A4白纸（210mm×297mm）纵向，文字从左至右通栏横排，论文统一按照以上（毕业论文（设计）组成）顺序左装订。"
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "（二）页面设置"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "页边距为上2.5cm，下2.5cm，左2.5cm，右2cm，页眉边距为1.5cm，页脚边距为1.5cm。行间距为固定值20磅。"
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "（三）页眉及页码"
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "1.页眉。“兰州大学本科毕业论文（设计）”字居左排，毕业论文（设计）题目居右排，字体为宋体，小五号；页眉与正文之间用下划线分隔。"
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "2.页码。页脚居中排，字体为宋体，五号。封面、目录不编排页码，中英文摘要页用罗马数字单独连续编号，引言、正文用阿拉伯数字连续编号，附录可不编排页码。"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "三、写作规范与格式要求"
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "（一）封面"
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "1.毕业论文（设计）题目。要求简明扼要，核心内容明确。中文题目一般不超过25个字，字体为宋体，三号；英文题目一般不超过150个字母，字体为Times New Roman，三号。根据论文内容，可以加副标题。"
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "2.学生姓名、指导教师、学院、专业、年级字体为宋体，三号。"
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "（二）摘要"
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "1.中英文摘要。（1）中文摘要以300-400字为宜。毕业论文（设计）题目字体为宋体，二号，加粗，段前24磅，段后18磅；“中文摘要”居中，字体为黑体，三号；摘要正文字体为宋体，小四号。行间距为固定值20磅。（2）英文摘要实际单词在300个左右，应与中文摘要内容一致。毕业论文（设计）英文题目字体为Times New Roman，二号，段前24磅，段后18磅；“英文摘要”为“Abstract”，字体为Arial，三号，加粗居中；英文摘要正文每段开头空4个字符间隙，字体为Times New Roman，小四号。行间距为固定值20磅。"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "2.中英文关键词。毕业论文（设计）中应列出3～8个关键词，关键词与摘要之间空1行，置于摘要之后。中文关键词字体为宋体，小四号，加粗置顶格；英文关键词含义与中文关键词须一致。“关键词”为“Keywords”，字体为Times New Roman，小四号，加粗，置顶格。"
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "（三）目录"
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "1.“目录”两字间空1个字符间隙，字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅；目录中标题不能超过三级，一级标题字体为宋体，四号，加粗；二级标题字体为宋体，四号；三级标题字体为宋体，小四号。"
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "2.标题文字居左，页码居右，之间用连续点连接。标题需转行的，转行后的标题文字应缩进一字。"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "3.图或表的目录。图和表应有序号，序号与名称之间空1个字符间隙，并与正文保持一致。“图/表目录”三个字字体为黑体，三号，居中；标题字体为宋体，四号，如“图1.1本科生总体数据分析”。标题文字居左，页码居右，之间用连续点连接。"
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "（四）绪论（引言）"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "“绪论”两字间空1个字符间隙，字体为黑体，三号居中，正文字体为宋体，小四号。"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "（五）毕业论文（设计）正文"
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "1.正文结构。分别以“第一章”、“1”、“1.1”、“1.1.1”….等树层次格式依次标出。章的编号居中，字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅，如“第一章”；节的编号置顶格，按顺序分层，如“1”，“1.1”，“1.1.1”，层次以少为宜，编号与标题之间空1个字符间隙，如“1.1本科生资料使用”、“1.1.1本科生数据分析”，字体依次为二级标题黑体，四号，顶左，单倍行距，段前24磅，段后6磅；三级标题黑体，小四号，首行缩进2个汉字符，单倍行距，段前12磅，段后6磅。各层次标题用阿拉伯数字连续编号，数字之间用实心圆点“.”相隔。正文另起一行。正文字体为宋体，小四（英文用Times New Roman字体，12磅），两端对齐，段落首行左缩进2个汉字符，行间距为固定值20磅，段前段后0磅。"
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "2.图和表。包括各类图、照片，各类表等。图应有名称，编号置于图下方；照片必须清晰，如有需要照片上应有标识尺寸的标度。表的编排建议采用国际通行的三线表。如某个表需要转页，在之后的各页上应重复表的编号，其后跟表题（可省略）。图和表的编号用阿拉伯数字依序连续编排，如“图本科生 l.1”、“表本科生 2.2”，编号及标题之间空1个字符间隙，字体为宋体，五号。"
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "图：图名置于图的下方，五号字，宋体，居中（英文用Times New Roman体10.5磅），单倍行距，段前6磅，段后12磅，图序与图名之间空1个汉字符。"
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "表：表名置于表的上方，五号字，宋体，居中（英文用Times New Roman体10.5磅），单倍行距，段前6磅，段后6磅，表序与表名之间空1个汉字符。"
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "图和表下方的注释为五号字，宋体，居左（英文用Times New Roman体10.5磅），单倍行距。"
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "3.公式。毕业论文（设计）中的公式应另起一行，并缩格书写。如有两个以上公式，应用从“1”开始的阿拉伯数字进行编号，并将编号置于括号内，如“（1）”。公式需要转行时，应尽可能在“＝”、“+”、“－”、“×”、“/”等记号处转行。编号及标题字体为宋体，五号。"
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "（1. 公式对齐方式：居中公式 + 右对齐编号"
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "规范只说\"缩格书写\"，实际是通过段落内两个制表位实现："
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "居中制表位（center tab，位置 4153 EMU）"
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "右对齐制表位（right tab，位置 8306 EMU）"
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "段落排版结构为："
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "[tab→居中]  [公式内容]  [tab→右对齐]  （编号）"
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "即公式居中显示，编号靠右对齐，而非简单的缩格。"
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "2. 编号位置"
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "编号必须放在公式后面（右对齐），不能放在公式前面。"
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "3. 编号文本不可拆分"
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "编号 （48） 应作为一个完整的文本 run 与前置 tab 在同一 run 内，格式为 \\t（N）。不能被拆成 （ 48 ） 三个独立 run，否则可能引发渲染不一致。"
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "4. 公式段落样式"
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "公式段落应使用专用样式 公式目录项（而非 Normal），该样式定义了上述两个制表位。"
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "5. 公式目录域代码"
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "每个公式段落需包含隐藏的 TOC 域代码，用于自动生成公式目录："
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "TC \"公式（N）\" \\f E \\l 1"
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "格式为：w:instrText（<w:vanish/> 隐藏），配合 w:bookmarkStart/w:bookmarkEnd 书签定位页码。"
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "6. 编号连续性"
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "公式编号为全文顺序编号（从1开始），非按章编号。当增删公式时，后续编号需手动调整，Word 不会自动更新。）"
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "4.引文标注。正文中引用他人的观点、原话、主要数据等，必须注明出处，有需要解释的内容，可以加注说明。引用文献的标注方法可采用顺序编号制，也可采用著者－出版年制，但体例必须统一。引用采用阿拉伯数字编号加“脚注”的方式。"
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "（1）所引用著作需注明：作者、著作名、出版单位和出版年号、页码。"
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "（2）所引资料来自刊物需注明：作者、篇名、发表的刊物名、出版年号、期号、页码。"
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "5.注释。毕业论文（设计）中如有词、词组、其他内容等需要进一步说明，用注释。注释采用阿拉伯数字编号加“脚注”的方式。"
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "（六）参考文献"
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "具体录入格式要求如下："
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "（1）顺序编号须按照正文（包括图、表的说明）引用文献的先后顺序连续编排。编号置于方括号中，并与参考文献空1个字符间隙。“参考文献”四个字字体为黑体，三号，加粗，居中，单倍行距，段前24磅，段后18磅；中文参考文献字体为宋体，五号，行间距为固定值16磅；英文参考文献字体为Times New Roman，五号。"
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "（2）各项目之间用间隔号“.”间隔，文献末加“.”。外文参考文献名首字母和每个实词首字母大写，其余为小写。编著者不超过三位时，可全部录入；超过三位时，录“三位等”。参考文献著录式样："
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "①专著、论文集、学位论文、报告：［序号］主要责任者.文献题名［文献类型标识M/C/D/R］.出版地:出版者，出版年.起止页码(任选)."
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "②学术期刊：［序号］主要责任者.文献题名［J］.刊名，年，卷(期):起止页码."
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "③报纸文章：［序号］主要责任者.文献题名［N］.报纸名，出版日期(版次)."
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "④专利：［序号］专利所有者.专利题名［P］.专利国别:专利号，授权日期."
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "⑤技术标准：［序号］标准编号，标准名称［S］."
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "⑥电子文献：［序号］主要责任者.电子文献题名［电子文献和载体类型标识］.电子文献的出处或可获得地址，发表或更新日期/引用日期(任选)."
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "例如："
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "［1］颉茂华,王瑾,刘冬梅.环境规制、技术创新与企业经营绩效[J].南开管理评论,2014,17(06):106-113."
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "［2］Palmer K,Oates E W,Portney P R.Tightening Environmental Standard: the Benefit－Cost or the No－cost Paradigm［J］．Journal of Economic Perspectives，1995，9(4):97－118．"
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "（3）如有正文中未被引用，但对毕业论文（设计）具有参考和补充作用的文献，需录入附录中，标题为“参考书目”，字体、格式等要求同上。"
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "（七）附录"
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "附录中的插图、表格、公式、参考文献等的序号需与正文区分，另行编制，如编为“图1”、“表1”、“式（1）”、“文献[1]”等。“附录”两字间空2个汉字间隙，三号字，黑体，加粗，居中，单倍行距，段前24磅，段后18磅。附录的内容字体为宋体，五号（英文用Times New Roman体，10.5磅），行间距为固定值20磅。"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "（八）致谢"
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "“致谢”两字间空2个字符间隙，字体为黑体，三号字，加粗居中。单倍行距，段前24磅，段后18磅。正文部分首行缩进两个汉字符，小四号字，仿宋，行距20磅。"
+    }
+  ],
+  "spec_styles": {
+    "Normal": {
+      "style_name": "Normal",
+      "base_style": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "alignment": null,
+      "font_name": "Calibri",
+      "font_size_pt": 10.5,
+      "bold": null
+    },
+    "Heading 1": {
+      "style_name": "Heading 1",
+      "base_style": "Normal",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": 17.0,
+      "space_after_pt": 16.5,
+      "line_spacing": 2.408333333333333,
+      "alignment": "JUSTIFY",
+      "font_name": null,
+      "font_size_pt": 22.0,
+      "bold": true
+    },
+    "Heading 3": {
+      "style_name": "Heading 3",
+      "base_style": "Normal",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": 13.0,
+      "space_after_pt": 13.0,
+      "line_spacing": 1.7333333333333334,
+      "alignment": null,
+      "font_name": null,
+      "font_size_pt": 16.0,
+      "bold": true
+    }
+  },
+  "report_styles": {
+    "Normal": {
+      "style_name": "Normal",
+      "base_style": null,
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 254000,
+      "alignment": "JUSTIFY",
+      "font_name": null,
+      "font_size_pt": 12.0,
+      "bold": null
+    },
+    "一级标题": {
+      "style_name": "一级标题",
+      "base_style": "Heading 1",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": 24.0,
+      "space_after_pt": 18.0,
+      "line_spacing": 1.0,
+      "alignment": "CENTER",
+      "font_name": "黑体",
+      "font_size_pt": 16.0,
+      "bold": true
+    },
+    "二级标题": {
+      "style_name": "二级标题",
+      "base_style": "Heading 2",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": 24.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0,
+      "alignment": "LEFT",
+      "font_name": "黑体",
+      "font_size_pt": 14.0,
+      "bold": false
+    },
+    "三级标题": {
+      "style_name": "三级标题",
+      "base_style": "二级标题",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0,
+      "alignment": "LEFT",
+      "font_name": "黑体",
+      "font_size_pt": 12.0,
+      "bold": false
+    },
+    "Heading 1": {
+      "style_name": "Heading 1",
+      "base_style": "Normal",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": 24.0,
+      "space_after_pt": 18.0,
+      "line_spacing": 1.0,
+      "alignment": "CENTER",
+      "font_name": "黑体",
+      "font_size_pt": 16.0,
+      "bold": true
+    },
+    "Heading 2": {
+      "style_name": "Heading 2",
+      "base_style": "Normal",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": 0.0,
+      "space_before_pt": 24.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0,
+      "alignment": "LEFT",
+      "font_name": "黑体",
+      "font_size_pt": 14.0,
+      "bold": false
+    },
+    "Heading 3": {
+      "style_name": "Heading 3",
+      "base_style": "Normal",
+      "left_indent_cm": 0.0,
+      "first_line_indent_cm": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0,
+      "alignment": "LEFT",
+      "font_name": "黑体",
+      "font_size_pt": 12.0,
+      "bold": false
+    },
+    "图目录项": {
+      "style_name": "图目录项",
+      "base_style": "Normal",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "alignment": null,
+      "font_name": "宋体",
+      "font_size_pt": 10.5,
+      "bold": null
+    },
+    "表目录项": {
+      "style_name": "表目录项",
+      "base_style": "Normal",
+      "left_indent_cm": null,
+      "first_line_indent_cm": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "alignment": null,
+      "font_name": "宋体",
+      "font_size_pt": 10.5,
+      "bold": null
+    }
+  },
+  "heading_count": 196,
+  "level_samples": {
+    "level1": [
+      {
+        "index": 48,
+        "text": "1 绪 论\t1",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 52,
+        "text": "2 场建模\t3",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 67,
+        "text": "3 信息型路径规划\t13",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 97,
+        "text": "4 多USV协同搜索决策方法及双艇实现\t26",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 118,
+        "text": "5 实验设计与结果分析\t33",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 145,
+        "text": "6 总结与展望\t40",
+        "style": "toc 1",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": null,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": 6.0,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 258,
+        "text": "1 绪 论",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      },
+      {
+        "index": 272,
+        "text": "2 场建模",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      },
+      {
+        "index": 395,
+        "text": "3 信息型路径规划",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      },
+      {
+        "index": 525,
+        "text": "4 多USV协同搜索决策方法及双艇实现",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      },
+      {
+        "index": 619,
+        "text": "5 实验设计与结果分析",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      },
+      {
+        "index": 695,
+        "text": "6 总结与展望",
+        "style": "一级标题",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "CENTER",
+        "style_left_indent_cm": 0.0,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": "CENTER",
+        "style_space_before_pt": 24.0,
+        "style_space_after_pt": 18.0
+      }
+    ],
+    "level2": [
+      {
+        "index": 49,
+        "text": "1.1 研究背景及意义\t1",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 50,
+        "text": "1.2 国内外研究现状\t1",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 51,
+        "text": "1.3 研究内容及论文结构\t2",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 53,
+        "text": "2.1 高斯过程回归\t3",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 60,
+        "text": "2.2 目标Intensity场建模\t8",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 65,
+        "text": "2.3 观测时效性\t10",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 66,
+        "text": "2.4 综合信息价值场\t11",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 68,
+        "text": "3.1 信息型路径规划理论基础\t13",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 74,
+        "text": "3.2 问题定义\t15",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 78,
+        "text": "3.3 热点区域提取\t16",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 82,
+        "text": "3.4 观测点选择\t18",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 86,
+        "text": "3.5 短时域路径段生成\t20",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 91,
+        "text": "3.6 短路径段综合评分函数\t22",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 96,
+        "text": "3.7 在线滚动执行与重规划机制\t24",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 98,
+        "text": "4.1 多艇协同信息型路径规划原理\t26",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 102,
+        "text": "4.2 双艇已知地图搜索问题定义\t27",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 105,
+        "text": "4.3 静态责任区先验\t28",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 109,
+        "text": "4.4 顺序分配式双艇协同路径规划\t29",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 112,
+        "text": "4.5 艇间冲突代价与reservation table\t30",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 113,
+        "text": "4.6 团队联合评分与双路径段选择\t31",
+        "style": "toc 2",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": 0.0,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 0.741,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      }
+    ],
+    "level3": [
+      {
+        "index": 54,
+        "text": "2.1.1 回归问题\t3",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 55,
+        "text": "2.1.2 多元高斯分布\t3",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 56,
+        "text": "2.1.3 核函数\t4",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 57,
+        "text": "2.1.4 后验预测\t5",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 58,
+        "text": "2.1.5 采集函数\t6",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 59,
+        "text": "2.1.6 Anomaly变体\t7",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 61,
+        "text": "2.2.1 初始化\t8",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 62,
+        "text": "2.2.2 目标运动预测\t9",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 63,
+        "text": "2.2.3 未命中观测更新\t9",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 64,
+        "text": "2.2.4 命中观测更新\t9",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 69,
+        "text": "3.1.1 从几何路径规划到主动感知路径规划\t13",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 70,
+        "text": "3.1.2 EPP与IPP的区别\t13",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 71,
+        "text": "3.1.3 信息收益、运动代价与预算约束的一般形式\t13",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 72,
+        "text": "3.1.4 在线自适应信息型路径规划\t14",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 73,
+        "text": "3.1.5 本文方法定位\t14",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 75,
+        "text": "3.2.1 静态地图定义\t15",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 76,
+        "text": "3.2.2 USV状态与传感器\t16",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 77,
+        "text": "3.2.3 问题表述\t16",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 79,
+        "text": "3.3.1 热点阈值与热点簇定义\t16",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      },
+      {
+        "index": 80,
+        "text": "3.3.2 热点簇评分\t17",
+        "style": "toc 3",
+        "direct_left_indent_cm": 0.0,
+        "direct_first_line_indent_cm": null,
+        "direct_alignment": "LEFT",
+        "style_left_indent_cm": 1.481,
+        "style_first_line_indent_cm": 0.0,
+        "style_alignment": null,
+        "style_space_before_pt": null,
+        "style_space_after_pt": null
+      }
+    ]
+  },
+  "suspicious_count": 0,
+  "suspicious_heading_indent": []
+}

@@ -1,0 +1,166 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "backup": "F:\\pythonprojects\\my_report_backup_before_chapter_shift_numbering_fix_20260511_175332.docx",
+  "changed_paragraph_count": 26,
+  "figure_replacement_count_including_placeholders": 46,
+  "text_replacement_count": 6,
+  "inserted_front_figure_directory_entries": [],
+  "changed_paragraphs": [
+    {
+      "paragraph_index": 229,
+      "style": "toc 1",
+      "before": "图3-1 已知静态地图下多源搜索场可视化\t12",
+      "after": "图2-1 已知静态地图下多源搜索场可视化\t12"
+    },
+    {
+      "paragraph_index": 230,
+      "style": "toc 1",
+      "before": "图4-1 单艇信息驱动安全路径规划总体流程图\t15",
+      "after": "图3-1 单艇信息驱动安全路径规划总体流程图\t15"
+    },
+    {
+      "paragraph_index": 231,
+      "style": "toc 1",
+      "before": "图4-3 Anchor 与 Viewpoint 的空间语义区分示意图\t19",
+      "after": "图3-2 Anchor 与 Viewpoint 的空间语义区分示意图\t19"
+    },
+    {
+      "paragraph_index": 232,
+      "style": "toc 1",
+      "before": "图4-4 A*算法在栅格地图中的搜索过程示意图\t21",
+      "after": "图3-3 A*算法在栅格地图中的搜索过程示意图\t21"
+    },
+    {
+      "paragraph_index": 233,
+      "style": "toc 1",
+      "before": "图4-5 候选路径段评分与最优路径段选择流程图\t24",
+      "after": "图3-4 候选路径段评分与最优路径段选择流程图\t24"
+    },
+    {
+      "paragraph_index": 234,
+      "style": "toc 1",
+      "before": "图5-2 静态软责任区先验可视化\t28",
+      "after": "图4-1 静态软责任区先验可视化\t28"
+    },
+    {
+      "paragraph_index": 235,
+      "style": "toc 1",
+      "before": "图5-3 residual_map 顺序分配过程\t30",
+      "after": "图4-2 residual_map 顺序分配过程\t30"
+    },
+    {
+      "paragraph_index": 390,
+      "style": "Normal",
+      "before": "    图3-1 给出了单艇主线在 harbor_cove 已知静态地图下某一运行时刻的多源场可视化结果。图中未显示目标真实位置，仅展示规划器可使用的在线状态。可以看到，GP clue 场、target intensity 场和综合信息价值场的空间分布存在差异；recency / staleness 场单独反映观测刷新需求，并不作为综合信息价值场的直接组成部分。",
+      "after": "    图2-1 给出了单艇主线在 harbor_cove 已知静态地图下某一运行时刻的多源场可视化结果。图中未显示目标真实位置，仅展示规划器可使用的在线状态。可以看到，GP clue 场、target intensity 场和综合信息价值场的空间分布存在差异；recency / staleness 场单独反映观测刷新需求，并不作为综合信息价值场的直接组成部分。"
+    },
+    {
+      "paragraph_index": 392,
+      "style": "图目录项",
+      "before": "图3-1 已知静态地图下多源搜索场可视化",
+      "after": "图2-1 已知静态地图下多源搜索场可视化"
+    },
+    {
+      "paragraph_index": 417,
+      "style": "Normal",
+      "before": "图4-1 给出了本文单艇信息驱动安全路径规划的总体流程。该流程以第3章构建的综合信息价值场和观测时效性场为输入，在已知静态地图约束下依次完成热点区域提取、候选观测点生成、安全路径生成、短时域路径段评分与滚动执行。",
+      "after": "图3-1 给出了本文单艇信息驱动安全路径规划的总体流程。该流程以第2章构建的综合信息价值场和观测时效性场为输入，在已知静态地图约束下依次完成热点区域提取、候选观测点生成、安全路径生成、短时域路径段评分与滚动执行。"
+    },
+    {
+      "paragraph_index": 419,
+      "style": "图目录项",
+      "before": "图4-1 单艇信息驱动安全路径规划总体流程图",
+      "after": "图3-1 单艇信息驱动安全路径规划总体流程图"
+    },
+    {
+      "paragraph_index": 430,
+      "style": "Normal",
+      "before": "在单艇已知地图搜索中，路径规划器首先需要从当前搜索信息场中确定若干值得优先关注的候选搜索区域。第3章中构建的search_info_map综合了anomaly-aware GP clue场与目标intensity场，能够反映各free格从线索和剩余目标质量所具有的搜索价值。为了避免直接在全图所有自由格点上生成候选观测点，本文首先从search_info_map中提取高值区域。",
+      "after": "在单艇已知地图搜索中，路径规划器首先需要从当前搜索信息场中确定若干值得优先关注的候选搜索区域。第2章中构建的search_info_map综合了anomaly-aware GP clue场与目标intensity场，能够反映各free格从线索和剩余目标质量所具有的搜索价值。为了避免直接在全图所有自由格点上生成候选观测点，本文首先从search_info_map中提取高值区域。"
+    },
+    {
+      "paragraph_index": 457,
+      "style": "Normal",
+      "before": "图4-3 展示了anchor与viewpoint的空间语义差异。左侧为harbor_cove场景下的真实运行主图，右侧为 anchor 与 viewpoint 附近的局部放大图。anchor 表示需要被观察的热点区域代表点，而 viewpoint 表示 USV 实际前往的可执行观测位置；只要viewpoint的传感器覆盖范围能够覆盖热点区域，USV 并不需要直接驶入 anchor。",
+      "after": "图3-2 展示了anchor与viewpoint的空间语义差异。左侧为harbor_cove场景下的真实运行主图，右侧为 anchor 与 viewpoint 附近的局部放大图。anchor 表示需要被观察的热点区域代表点，而 viewpoint 表示 USV 实际前往的可执行观测位置；只要viewpoint的传感器覆盖范围能够覆盖热点区域，USV 并不需要直接驶入 anchor。"
+    },
+    {
+      "paragraph_index": 459,
+      "style": "图目录项",
+      "before": "图4-3 Anchor 与 Viewpoint 的空间语义区分示意图",
+      "after": "图3-2 Anchor 与 Viewpoint 的空间语义区分示意图"
+    },
+    {
+      "paragraph_index": 485,
+      "style": "图目录项",
+      "before": "图4-4 A*算法在栅格地图中的搜索过程示意图",
+      "after": "图3-3 A*算法在栅格地图中的搜索过程示意图"
+    },
+    {
+      "paragraph_index": 519,
+      "style": "图目录项",
+      "before": "图4-5 候选路径段评分与最优路径段选择流程图",
+      "after": "图3-4 候选路径段评分与最优路径段选择流程图"
+    },
+    {
+      "paragraph_index": 569,
+      "style": "图目录项",
+      "before": "图5-2 静态软责任区先验可视化",
+      "after": "图4-1 静态软责任区先验可视化"
+    },
+    {
+      "paragraph_index": 570,
+      "style": "Normal",
+      "before": "图5-2给出了三张正式实验地图上的静态软责任区先验。左：开放水域；中：海港地图；右：狭窄通道地图。可以看到，责任边界由两艇固定起点到自由格的已知地图可达距离决定；在障碍或通道结构存在时，责任区域随可航空间发生变形，而不是简单的欧氏直线分割。",
+      "after": "图4-1给出了三张正式实验地图上的静态软责任区先验。左：开放水域；中：海港地图；右：狭窄通道地图。可以看到，责任边界由两艇固定起点到自由格的已知地图可达距离决定；在障碍或通道结构存在时，责任区域随可航空间发生变形，而不是简单的欧氏直线分割。"
+    },
+    {
+      "paragraph_index": 588,
+      "style": "图目录项",
+      "before": "图5-3 residual_map 顺序分配过程",
+      "after": "图4-2 residual_map 顺序分配过程"
+    },
+    {
+      "paragraph_index": 589,
+      "style": "Normal",
+      "before": "图5-3给出了 harbor_cove 场景下一次 coordinated 分配中的 residual_map 变化。第一艇在共享综合信息价值场上规划后，其可见区域被从临时残差信息图中扣除；第二艇随后在残差信息图上规划，从而降低对已分配观测区域的重复关注。 ",
+      "after": "图4-2给出了 harbor_cove 场景下一次 coordinated 分配中的 residual_map 变化。第一艇在共享综合信息价值场上规划后，其可见区域被从临时残差信息图中扣除；第二艇随后在残差信息图上规划，从而降低对已分配观测区域的重复关注。 "
+    },
+    {
+      "paragraph_index": 621,
+      "style": "Normal",
+      "before": "    单艇实验与双艇实验采用了不同的地图尺寸，因此第 6.2 节与第 6.3 节不进行单艇和双艇的直接数值比较；第 6.4 节则在相同系统结构内比较 UCB 与 anomaly_upper_tail 采集函数的各项指标。",
+      "after": "    单艇实验与双艇实验采用了不同的地图尺寸，因此第 5.2 节与第 5.3 节不进行单艇和双艇的直接数值比较；第 5.4 节则在相同系统结构内比较 UCB 与 anomaly_upper_tail 采集函数的各项指标。"
+    },
+    {
+      "paragraph_index": 627,
+      "style": "图目录项",
+      "before": "图5-4 实验采用的三类已知静态障碍地图",
+      "after": "图5-1 实验采用的三类已知静态障碍地图"
+    },
+    {
+      "paragraph_index": 628,
+      "style": "Normal",
+      "before": "图5-4为本文实验采用的三类已知静态障碍地图。三类地图均由自由水域与静态障碍物组成，其中白色区域表示 USV 可通行的 free 区域，黑色区域表示静态障碍物或地图边界。open_water 仅包含边界约束，用于表示障碍较少、路径可达性较高的开阔水域场景；obstacle_field 在水域中布置多个离散矩形障碍物，用于检验搜索策略在局部绕行下的执行能力；peninsula_passage 包含半岛式障碍和局部通道结构，用于构造更明显的拓扑约束和绕行代价。",
+      "after": "图5-1为本文实验采用的三类已知静态障碍地图。三类地图均由自由水域与静态障碍物组成，其中白色区域表示 USV 可通行的 free 区域，黑色区域表示静态障碍物或地图边界。open_water 仅包含边界约束，用于表示障碍较少、路径可达性较高的开阔水域场景；obstacle_field 在水域中布置多个离散矩形障碍物，用于检验搜索策略在局部绕行下的执行能力；peninsula_passage 包含半岛式障碍和局部通道结构，用于构造更明显的拓扑约束和绕行代价。"
+    },
+    {
+      "paragraph_index": 651,
+      "style": "图目录项",
+      "before": "图5-5 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹",
+      "after": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹"
+    },
+    {
+      "paragraph_index": 652,
+      "style": "Normal",
+      "before": "图5-5给出了单 USV 在 UCB 采集函数下的六组典型运行轨迹，其中三列分别对应 open_water、obstacle_field 和 peninsula_passage 三类已知静态地图，上下两行分别对应 static 和 random_walk 两类目标运动模式。图中青色折线表示 USV 已执行轨迹，绿色线段表示当前提交执行的短时域路径段，蓝色圆点表示 USV 当前所在位置，黄色叉号表示当前选定的viewpoint，紫色菱形表示对应 anchor，星形符号表示目标状态。",
+      "after": "图5-2给出了单 USV 在 UCB 采集函数下的六组典型运行轨迹，其中三列分别对应 open_water、obstacle_field 和 peninsula_passage 三类已知静态地图，上下两行分别对应 static 和 random_walk 两类目标运动模式。图中青色折线表示 USV 已执行轨迹，绿色线段表示当前提交执行的短时域路径段，蓝色圆点表示 USV 当前所在位置，黄色叉号表示当前选定的viewpoint，紫色菱形表示对应 anchor，星形符号表示目标状态。"
+    },
+    {
+      "paragraph_index": 657,
+      "style": "Normal",
+      "before": "本节实验用于验证第 5 章提出的双 USV 协同搜索决策机制是否能够在相同双艇平台与相同已知静态地图设置下提高团队搜索效果。由于单艇实验采用 60×40 地图，而双艇实验采用 60×80 地图，二者搜索面积和目标分布空间不同，因此本节不将单 USV 与双 USV 进行直接数值比较。",
+      "after": "本节实验用于验证第 4 章提出的双 USV 协同搜索决策机制是否能够在相同双艇平台与相同已知静态地图设置下提高团队搜索效果。由于单艇实验采用 60×40 地图，而双艇实验采用 60×80 地图，二者搜索面积和目标分布空间不同，因此本节不将单 USV 与双 USV 进行直接数值比较。"
+    }
+  ]
+}

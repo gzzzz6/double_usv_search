@@ -1,0 +1,111 @@
+{
+  "figure": "F:\\pythonprojects\\images\\fig4_2_residual_map_sequential_allocation_obstacle_field.png",
+  "method": "runtime coordinated assignment capture; residual_map cells zeroed by visible_cells",
+  "episode_seed": 0,
+  "map_kind": "obstacle_field",
+  "target_motion_mode": "static",
+  "clue_acquisition_mode": "ucb",
+  "policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "assignment_mode": "coordinated",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "team_path_avoidance_mode": "reservation_v1",
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "captured_step": 20,
+  "assignment_order": [
+    0,
+    1
+  ],
+  "joint_assignment_score": 0.0,
+  "joint_overlap_penalty": 0.0,
+  "first_usv": 0,
+  "second_usv": 1,
+  "first_visible_cells": 116,
+  "second_visible_cells": 161,
+  "overlap_visible_cells": 0,
+  "first_segment_path": [
+    [
+      19,
+      15
+    ],
+    [
+      19,
+      16
+    ],
+    [
+      19,
+      17
+    ],
+    [
+      19,
+      18
+    ],
+    [
+      19,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      19,
+      22
+    ],
+    [
+      19,
+      23
+    ]
+  ],
+  "second_segment_path": [
+    [
+      35,
+      21
+    ],
+    [
+      35,
+      22
+    ],
+    [
+      35,
+      23
+    ],
+    [
+      35,
+      24
+    ],
+    [
+      35,
+      25
+    ],
+    [
+      35,
+      26
+    ],
+    [
+      35,
+      27
+    ],
+    [
+      35,
+      28
+    ],
+    [
+      35,
+      29
+    ]
+  ],
+  "first_viewpoint_cell": [
+    19,
+    34
+  ],
+  "second_viewpoint_cell": [
+    43,
+    33
+  ],
+  "result_completed_steps": 20,
+  "result_found_count": 0
+}

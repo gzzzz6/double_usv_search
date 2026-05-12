@@ -1,0 +1,41 @@
+{
+  "run_mode": "full",
+  "group_name": "single_random_walk",
+  "map_kinds": [
+    "obstacle_field"
+  ],
+  "episode_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_iters": 240,
+  "target_motion_mode": "random_walk",
+  "clue_acquisition_modes": [
+    "ucb",
+    "anomaly_upper_tail"
+  ],
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "safe_nav_kwargs": {
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "safe_nav_inflation_radius_cells": 0,
+    "safe_nav_soft_clearance_radius_cells": 1,
+    "safe_nav_lambda_clearance": 1.0
+  },
+  "anomaly_upper_tail_config": {
+    "anomaly_tail_quantile": 0.9,
+    "anomaly_weight_lambda": 1.25
+  },
+  "map_height_cells": 40,
+  "map_width_cells": 60,
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "clue_sigma_m": 20.0
+}

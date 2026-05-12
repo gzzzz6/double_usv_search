@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-05-12T13:15:47.167128",
+  "map_kind": "harbor_cove",
+  "map_shape": [
+    60,
+    80
+  ],
+  "config": {
+    "cell_size_m": 5.0,
+    "origin_world_xy": [
+      0.0,
+      0.0
+    ],
+    "water_surface_z": 0.0
+  },
+  "two_usv_start_checks": [
+    {
+      "cell": [
+        25,
+        2
+      ],
+      "world_xyz": [
+        10.0,
+        -125.0,
+        0.0
+      ],
+      "round_trip_cell": [
+        25,
+        2
+      ],
+      "projected_free_cell": [
+        25,
+        2
+      ],
+      "round_trip_ok": true,
+      "projected_is_free": true
+    },
+    {
+      "cell": [
+        35,
+        2
+      ],
+      "world_xyz": [
+        10.0,
+        -175.0,
+        0.0
+      ],
+      "round_trip_cell": [
+        35,
+        2
+      ],
+      "projected_free_cell": [
+        35,
+        2
+      ],
+      "round_trip_ok": true,
+      "projected_is_free": true
+    }
+  ],
+  "all_round_trips_ok": true,
+  "all_projected_cells_free": true
+}

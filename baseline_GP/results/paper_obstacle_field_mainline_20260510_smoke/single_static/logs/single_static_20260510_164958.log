@@ -1,0 +1,2 @@
+[2026-05-10T16:49:56.567765] group=single_static start, motion=static, system=single, max_iters=20, run_mode=smoke, resumed=0/2
+[2026-05-10T16:49:58.075862] group=single_static done, episodes=2/2

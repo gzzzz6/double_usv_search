@@ -1,0 +1,2 @@
+[2026-05-10T17:06:39.957702] group=two_coordinated_static start, motion=static, system=two_coordinated, max_iters=240, run_mode=full, resumed=0/20
+[2026-05-10T17:24:28.023296] group=two_coordinated_static done, episodes=20/20
