@@ -1,0 +1,88 @@
+{
+  "figure": "F:\\pythonprojects\\images\\fig_anchor_cluster_process_obstacle_field_runtime.png",
+  "map_kind": "obstacle_field",
+  "map_height_cells": 40,
+  "map_width_cells": 60,
+  "episode_seed": 3,
+  "policy_name": "marine_knownmap_path_v2_infosampled",
+  "clue_acquisition_mode": "ucb",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "captured_record_index": 103,
+  "captured_replan_index_in_episode": 13,
+  "threshold": 0.85,
+  "n_components": 5,
+  "n_retained_clusters": 5,
+  "clusters": [
+    {
+      "anchor_cell": [
+        29,
+        25
+      ],
+      "anchor_centroid_cell": [
+        29,
+        25
+      ],
+      "anchor_cluster_size": 47,
+      "anchor_cluster_peak": 1.0,
+      "anchor_cluster_mean": 0.9574048245853812,
+      "anchor_value": 1.2743415484664036
+    },
+    {
+      "anchor_cell": [
+        6,
+        43
+      ],
+      "anchor_centroid_cell": [
+        6,
+        43
+      ],
+      "anchor_cluster_size": 26,
+      "anchor_cluster_peak": 0.9489161696215573,
+      "anchor_cluster_mean": 0.8968044481767479,
+      "anchor_value": 1.1679747228263917
+    },
+    {
+      "anchor_cell": [
+        17,
+        17
+      ],
+      "anchor_centroid_cell": [
+        17,
+        17
+      ],
+      "anchor_cluster_size": 16,
+      "anchor_cluster_peak": 1.0,
+      "anchor_cluster_mean": 0.9251759626758784,
+      "anchor_value": 1.160874123208385
+    },
+    {
+      "anchor_cell": [
+        29,
+        19
+      ],
+      "anchor_centroid_cell": [
+        29,
+        19
+      ],
+      "anchor_cluster_size": 9,
+      "anchor_cluster_peak": 1.0,
+      "anchor_cluster_mean": 0.9347836879987548,
+      "anchor_value": 1.110693615699031
+    },
+    {
+      "anchor_cell": [
+        14,
+        43
+      ],
+      "anchor_centroid_cell": [
+        14,
+        43
+      ],
+      "anchor_cluster_size": 4,
+      "anchor_cluster_peak": 0.8692730061896277,
+      "anchor_cluster_mean": 0.8657446278471271,
+      "anchor_value": 0.9422309833113247
+    }
+  ]
+}

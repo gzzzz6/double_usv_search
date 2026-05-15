@@ -1,2 +1,0 @@
-[2026-05-10T16:29:15.871303] group=two_coordinated_static start, motion=static, system=two_coordinated, max_iters=20, smoke=True, resumed=2/2
-[2026-05-10T16:29:15.871318] group=two_coordinated_static done, episodes=2/2

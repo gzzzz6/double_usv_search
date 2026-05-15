@@ -36,7 +36,7 @@ def main() -> None:
     MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
 
     config = CoordinateAdapterConfig(cell_size_m=5.0)
-    nav_map_prior = create_world(h=60, w=80, map_kind="harbor_cove")
+    nav_map_prior = create_world(h=60, w=80, map_kind="obstacle_field")
     starts = [(25, 2), (35, 2)]
 
     start_checks = []
@@ -57,7 +57,7 @@ def main() -> None:
 
     checks = {
         "generated_at": datetime.now().isoformat(),
-        "map_kind": "harbor_cove",
+        "map_kind": "obstacle_field",
         "map_shape": list(nav_map_prior.shape),
         "config": {
             "cell_size_m": config.cell_size_m,

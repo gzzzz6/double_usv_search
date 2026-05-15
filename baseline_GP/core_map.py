@@ -60,7 +60,7 @@ def _fill_rect(grid: np.ndarray, r0: int, r1: int, c0: int, c1: int) -> None:
     if r0 < r1 and c0 < c1:
         grid[r0:r1, c0:c1] = OCCUPIED
 
-
+#chuang jian di tu bian jie
 def _empty_bounded_world(h: int, w: int) -> np.ndarray:
     true_map = np.zeros((h, w), dtype=int)
     true_map[0, :] = OCCUPIED
@@ -69,7 +69,7 @@ def _empty_bounded_world(h: int, w: int) -> np.ndarray:
     true_map[:, -1] = OCCUPIED
     return true_map
 
-
+#ditu shifou hefa
 def _validate_world_shape(h: int, w: int) -> tuple[int, int]:
     h = int(h)
     w = int(w)
@@ -277,13 +277,7 @@ def neighbors4(pos, grid):
     return [p for p in cands if in_bounds(p, grid)]
 
 
-def reveal_cells(true_map, known_map, robot_pos, sensor_range=4):
-    rx, ry = robot_pos
-    h, w = true_map.shape
-    for x in range(max(0, rx - sensor_range), min(h, rx + sensor_range + 1)):
-        for y in range(max(0, ry - sensor_range), min(w, ry + sensor_range + 1)):
-            if (x - rx) ** 2 + (y - ry) ** 2 <= sensor_range**2:
-                known_map[x, y] = true_map[x, y]
+
 
 
 def sensor_cells(center, shape, sensor_range):
@@ -297,33 +291,4 @@ def sensor_cells(center, shape, sensor_range):
     return cells
 
 
-def is_frontier(cell, known_map):
-    x, y = cell
-    if known_map[x, y] != FREE:
-        return False
-    for nx, ny in neighbors4(cell, known_map):
-        if known_map[nx, ny] == UNKNOWN:
-            return True
-    return False
 
-
-def find_frontiers(known_map):
-    frontiers = []
-    h, w = known_map.shape
-    for x in range(h):
-        for y in range(w):
-            if is_frontier((x, y), known_map):
-                frontiers.append((x, y))
-    return frontiers
-
-
-def frontier_gain(pos, known_map, radius=3):
-    fx, fy = pos
-    h, w = known_map.shape
-    gain = 0
-    for x in range(max(0, fx - radius), min(h, fx + radius + 1)):
-        for y in range(max(0, fy - radius), min(w, fy + radius + 1)):
-            if (x - fx) ** 2 + (y - fy) ** 2 <= radius**2:
-                if known_map[x, y] == UNKNOWN:
-                    gain += 1
-    return gain

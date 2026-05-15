@@ -476,19 +476,7 @@ def _clue_heatmap_title(clue_acquisition_mode: str | None) -> str:
 
 def _fixed_clue_heatmap_limits(state: dict) -> tuple[float, float]:
     """Return a display-only fixed absolute scale for the clue heatmap."""
-    lower = 0.0
-    prior_mean = float(state.get("gp_prior_mean", getattr(state.get("gp_field"), "prior_mean", 0.0)))
-    signal_ceiling = max(0.0, prior_mean) + max(0, int(state.get("target_count_upper_bound", 1))) * max(
-        0.0,
-        float(state.get("clue_amplitude", 0.0)),
-    )
-    uncertainty_ceiling = max(0.0, float(state.get("gp_beta", 0.0)))
-    upper = signal_ceiling + uncertainty_ceiling
-    if str(state.get("clue_acquisition_mode", "ucb")) == "anomaly_upper_tail":
-        upper *= 1.0 + max(0.0, float(state.get("anomaly_weight_lambda", 0.0)))
-    if not np.isfinite(upper) or upper <= lower:
-        upper = lower + 1.0
-    return (lower, float(upper))
+    return (0.0, 4.0)
 
 
 def _remaining_target_intensity_mass(state: dict) -> float:

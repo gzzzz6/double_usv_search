@@ -205,7 +205,7 @@ def main() -> None:
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
     config = CoordinateAdapterConfig(cell_size_m=5.0)
-    nav_map = create_world(h=60, w=80, map_kind="harbor_cove")
+    nav_map = create_world(h=60, w=80, map_kind="obstacle_field")
     global_path = _save_global_overlay(nav_map, config)
     local_path = _save_local_round_trip(config)
 

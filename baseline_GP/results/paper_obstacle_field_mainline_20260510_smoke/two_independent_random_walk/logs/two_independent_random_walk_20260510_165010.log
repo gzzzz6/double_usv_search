@@ -1,2 +1,0 @@
-[2026-05-10T16:50:04.857112] group=two_independent_random_walk start, motion=random_walk, system=two_independent, max_iters=20, run_mode=smoke, resumed=0/2
-[2026-05-10T16:50:10.424952] group=two_independent_random_walk done, episodes=2/2

@@ -1,0 +1,137 @@
+{
+  "output_path": "F:\\pythonprojects\\images\\fig_anchor_viewpoint_runtime_geometry_obstacle_field.png",
+  "map_kind": "obstacle_field",
+  "map_height_cells": 40,
+  "map_width_cells": 60,
+  "episode_seed": 0,
+  "target_motion_mode": "static",
+  "policy": "marine_knownmap_path_v2_infosampled",
+  "clue_acquisition_mode": "ucb",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "step": 56,
+  "robot_pos_before_replan": [
+    14,
+    43
+  ],
+  "viewpoint_cell": [
+    25,
+    44
+  ],
+  "anchor_cell": [
+    26,
+    40
+  ],
+  "segment_path": [
+    [
+      14,
+      43
+    ],
+    [
+      14,
+      44
+    ],
+    [
+      15,
+      44
+    ],
+    [
+      16,
+      44
+    ],
+    [
+      16,
+      45
+    ],
+    [
+      17,
+      45
+    ],
+    [
+      17,
+      46
+    ],
+    [
+      18,
+      46
+    ],
+    [
+      19,
+      46
+    ]
+  ],
+  "full_path_to_viewpoint": [
+    [
+      14,
+      43
+    ],
+    [
+      14,
+      44
+    ],
+    [
+      15,
+      44
+    ],
+    [
+      16,
+      44
+    ],
+    [
+      16,
+      45
+    ],
+    [
+      17,
+      45
+    ],
+    [
+      17,
+      46
+    ],
+    [
+      18,
+      46
+    ],
+    [
+      19,
+      46
+    ],
+    [
+      20,
+      46
+    ],
+    [
+      21,
+      46
+    ],
+    [
+      22,
+      46
+    ],
+    [
+      22,
+      45
+    ],
+    [
+      23,
+      45
+    ],
+    [
+      23,
+      44
+    ],
+    [
+      24,
+      44
+    ],
+    [
+      25,
+      44
+    ]
+  ],
+  "candidate_viewpoint_pool_size": 24,
+  "selected_viewpoint_rank": 5,
+  "planned_viewpoint_path_length": 16,
+  "segment_path_length": 8
+}

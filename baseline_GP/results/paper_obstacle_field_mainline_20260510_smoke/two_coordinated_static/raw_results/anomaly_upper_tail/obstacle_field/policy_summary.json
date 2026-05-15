@@ -1,8 +1,0 @@
-{
-  "group_name": "two_coordinated_static",
-  "system_type": "two_coordinated",
-  "motion_mode": "static",
-  "clue_acquisition_mode": "anomaly_upper_tail",
-  "map_kind": "obstacle_field",
-  "n_episodes": 1
-}

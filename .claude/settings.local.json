@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /e/EVE/)",
+      "Read(//e/EVE//**)"
+    ]
+  }
+}

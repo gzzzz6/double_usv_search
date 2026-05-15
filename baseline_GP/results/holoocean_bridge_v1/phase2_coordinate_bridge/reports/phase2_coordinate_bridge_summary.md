@@ -1,12 +1,12 @@
 # Phase 2 Coordinate Bridge Smoke Summary
 
-**Generated at:** 2026-05-12T13:15:47.167128
+**Generated at:** 2026-05-12T13:27:02.044150
 
 ## Configuration
 
 | Item | Value |
 |------|-------|
-| Map kind | `harbor_cove` |
+| Map kind | `obstacle_field` |
 | Map shape | `(60, 80)` |
 | cell_size_m | `5.0` |
 | origin_world_xy | `(0.0, 0.0)` |
