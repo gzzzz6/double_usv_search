@@ -1,0 +1,189 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "markers": {
+    "中文摘要": 36,
+    "Abstract": 42,
+    "目录": 50,
+    "1绪论": 51,
+    "6总结与展望": 143,
+    "图目录": 148,
+    "表目录": 158,
+    "参考文献": 628,
+    "附录": 667,
+    "致谢": 679
+  },
+  "sections": [
+    {
+      "section": 1,
+      "startParagraph": 0,
+      "endParagraph": 34,
+      "endText": "日        期：                           日    期：",
+      "headers": [
+        {
+          "type": "even",
+          "rId": "rId10",
+          "part": "word/header1.xml"
+        },
+        {
+          "type": "default",
+          "rId": "rId11",
+          "part": "word/header2.xml"
+        },
+        {
+          "type": "first",
+          "rId": "rId14",
+          "part": "word/header3.xml"
+        }
+      ],
+      "footers": [
+        {
+          "type": "even",
+          "rId": "rId12",
+          "part": "word/footer1.xml"
+        },
+        {
+          "type": "default",
+          "rId": "rId13",
+          "part": "word/footer2.xml"
+        },
+        {
+          "type": "first",
+          "rId": "rId15",
+          "part": "word/footer3.xml"
+        }
+      ],
+      "pgNumType": {
+        "fmt": null,
+        "start": "1"
+      },
+      "titlePg": false
+    },
+    {
+      "section": 2,
+      "startParagraph": 35,
+      "endParagraph": 172,
+      "endText": "",
+      "headers": [],
+      "footers": [],
+      "pgNumType": null,
+      "titlePg": false
+    },
+    {
+      "section": 3,
+      "startParagraph": 173,
+      "endParagraph": 679,
+      "endText": "致谢",
+      "headers": [],
+      "footers": [
+        {
+          "type": "default",
+          "rId": "rId24",
+          "part": "word/footer4.xml"
+        }
+      ],
+      "pgNumType": {
+        "fmt": null,
+        "start": "1"
+      },
+      "titlePg": false
+    }
+  ],
+  "header_footer_parts": {
+    "word/header1.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": "ab",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/header2.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": null,
+          "text": "",
+          "jc": null,
+          "bottomBorder": {
+            "val": "none",
+            "sz": "0",
+            "space": "1",
+            "color": "auto"
+          },
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/footer1.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": "a9",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/footer2.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": "a9",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/header3.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": "ab",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/footer3.xml": {
+      "text": "",
+      "paragraphs": [
+        {
+          "style": "a9",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    },
+    "word/footer4.xml": {
+      "text": "<fldChar:begin><instr:PAGE   \\* MERGEFORMAT><fldChar:separate>2<fldChar:end>",
+      "paragraphs": [
+        {
+          "style": "a9",
+          "text": "",
+          "jc": null,
+          "bottomBorder": null,
+          "tabs": [],
+          "runs": []
+        }
+      ]
+    }
+  }
+}

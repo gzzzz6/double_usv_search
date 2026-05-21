@@ -1,0 +1,674 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "sections": [
+    {
+      "section": 1,
+      "startAdjustedPage": 1,
+      "endAdjustedPage": 2,
+      "startPhysicalPage": 1,
+      "endPhysicalPage": 2,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 2,
+      "startAdjustedPage": 2,
+      "endAdjustedPage": 4,
+      "startPhysicalPage": 2,
+      "endPhysicalPage": 5,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+          "paragraph": {
+            "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+            "alignment": "left",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 1,
+            "bottomBorderLineWidth": 4
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "i",
+          "paragraph": {
+            "text": "i",
+            "alignment": "center",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 10.5,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": [
+            {
+              "type": 33,
+              "code": "PAGE",
+              "result": "i",
+              "isPage": true
+            }
+          ]
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 1,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "lowerRoman",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "lowerRoman",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "lowerRoman",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 3,
+      "startAdjustedPage": 5,
+      "endAdjustedPage": 9,
+      "startPhysicalPage": 6,
+      "endPhysicalPage": 10,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+          "paragraph": {
+            "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+            "alignment": "left",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 1,
+            "bottomBorderLineWidth": 4
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "center",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 10.5,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 4,
+      "startAdjustedPage": 9,
+      "endAdjustedPage": 46,
+      "startPhysicalPage": 10,
+      "endPhysicalPage": 55,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+          "paragraph": {
+            "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+            "alignment": "left",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 1,
+            "bottomBorderLineWidth": 4
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "1",
+          "paragraph": {
+            "text": "1",
+            "alignment": "center",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 10.5,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": [
+            {
+              "type": 33,
+              "code": "PAGE",
+              "result": "1",
+              "isPage": true
+            }
+          ]
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 1,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 5,
+      "startAdjustedPage": 47,
+      "endAdjustedPage": 50,
+      "startPhysicalPage": 56,
+      "endPhysicalPage": 59,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+          "paragraph": {
+            "text": "兰州大学本科毕业论文（设计）\t面向海上可疑目标搜索任务的多USV决策优化方法研究",
+            "alignment": "left",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 1,
+            "bottomBorderLineWidth": 4
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "center",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 10.5,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    }
+  ]
+}

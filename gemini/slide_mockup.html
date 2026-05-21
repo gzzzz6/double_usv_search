@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+    body {
+        font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f4f8; /* Soft background */
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .slide-canvas {
+        background-color: #ffffff;
+        width: 1200px;
+        height: 675px; /* 16:9 ratio */
+        box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .header {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .header h2 {
+        margin: 0;
+        color: #1a365d;
+        font-size: 28px;
+        font-weight: bold;
+        border-left: 6px solid #3182ce;
+        padding-left: 15px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        gap: 30px;
+        position: relative;
+    }
+    
+    .phase {
+        flex: 1;
+        background: #fafcff;
+        border-radius: 16px;
+        box-shadow: inset 0 0 0 1px #e2e8f0, 0 4px 6px rgba(0,0,0,0.02);
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        position: relative;
+    }
+    
+    .phase-title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 25px;
+        color: #2d3748;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phase-title span {
+        font-size: 14px;
+        font-weight: normal;
+        color: #718096;
+        margin-top: 5px;
+    }
+    
+    .phase-1 .phase-title { color: #2b6cb0; }
+    .phase-2 .phase-title { color: #2f855a; }
+    .phase-3 .phase-title { color: #c05621; }
+    
+    .box {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 18px;
+        margin-bottom: 12px;
+        text-align: center;
+        font-size: 16px;
+        color: #4a5568;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+        transition: transform 0.2s;
+    }
+    
+    .box b {
+        color: #2d3748;
+    }
+    
+    .box-highlight {
+        background: linear-gradient(135deg, #ebf8ff, #bee3f8);
+        border: 1px solid #90cdf4;
+        color: #2a4365;
+        font-weight: bold;
+        font-size: 18px;
+        box-shadow: 0 4px 12px rgba(66, 153, 225, 0.15);
+    }
+    
+    .box-decision {
+        background: linear-gradient(135deg, #f0fff4, #c6f6d5);
+        border: 1px solid #9ae6b4;
+        color: #22543d;
+        font-weight: bold;
+        box-shadow: 0 4px 12px rgba(72, 187, 120, 0.15);
+    }
+    
+    .box-exec {
+        background: linear-gradient(135deg, #fffaf0, #feebc8);
+        border: 1px solid #fbd38d;
+        color: #7b341e;
+        font-weight: bold;
+    }
+    
+    .arrow-down {
+        text-align: center;
+        color: #a0aec0;
+        font-size: 20px;
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    
+    .row {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .col {
+        flex: 1;
+    }
+    
+    .footer {
+        margin-top: 25px;
+        font-size: 15px;
+        color: #718096;
+        font-style: italic;
+        background: #f7fafc;
+        padding: 12px 20px;
+        border-radius: 8px;
+        border-left: 4px solid #cbd5e0;
+    }
+    
+    .loop-box {
+        text-align: center;
+        margin-top: auto;
+        padding: 15px;
+        border: 2px dashed #ed8936;
+        background-color: #fffaf0;
+        border-radius: 10px;
+        color: #dd6b20;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* Process connectors */
+    .arrow-right {
+        position: absolute;
+        top: 50%;
+        right: -22px;
+        color: #cbd5e0;
+        font-size: 30px;
+        z-index: 10;
+        font-weight: 300;
+    }
+</style>
+</head>
+<body>
+
+<div class="slide-canvas">
+    <div class="header">
+        <h2>系统架构与 Runtime 主链</h2>
+    </div>
+
+    <div class="container">
+        <!-- Phase 1 -->
+        <div class="phase phase-1">
+            <div class="phase-title">1. 状态建模 <span>(更新信息场)</span></div>
+            <div class="box">
+                <b>known_map</b><br><span style="color:#a0aec0;font-size:14px;">+</span><br><b>observation</b>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="box">
+                <b>多源更新</b><br>
+                <span style="font-size: 14px;">GP Clue / Intensity / Recency</span>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="box box-highlight" style="padding: 22px 10px; margin-top: auto;">
+                search_info_map<br><span style="font-size: 13px; font-weight: normal; color: #4a5568;">(综合信息价值场)</span>
+            </div>
+            <div class="arrow-right">➔</div>
+        </div>
+        
+        <!-- Phase 2 -->
+        <div class="phase phase-2">
+            <div class="phase-title">2. 决策层 <span>(规划与协同)</span></div>
+            <div class="box">
+                <b>viewpoint 采样</b><br>
+                <span style="font-size: 13px; color: #718096;">(simple_ring_v1)</span>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="box">
+                <b>A* 寻路</b><br>
+                <span style="font-size: 13px; color: #718096;">截取 segment_path (horizon=8)</span>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="box box-decision">
+                Coordinated 协同分配
+            </div>
+            <div class="row" style="margin-top: auto;">
+                <div class="col">
+                    <div class="box" style="font-size: 14px; padding: 12px 5px; height: 100%; box-sizing: border-box;">
+                        <b>USV 0</b><br><span style="font-size: 12px; color: #718096;">独立路径评分</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box" style="font-size: 14px; padding: 12px 5px; height: 100%; box-sizing: border-box;">
+                        <b>USV 1</b><br><span style="font-size: 12px; color: #718096;">residual_map<br>重叠惩罚</span>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-right">➔</div>
+        </div>
+        
+        <!-- Phase 3 -->
+        <div class="phase phase-3">
+            <div class="phase-title">3. 执行层 <span>(安全与滚动)</span></div>
+            
+            <div class="box box-exec">
+                <b>reservation_v1</b><br>
+                <span style="font-size: 13px; color: #9c4221;">时空冲突校验与规避</span>
+            </div>
+            <div class="arrow-down">↓</div>
+            <div class="box" style="background: #ed8936; color: white; border: none; font-weight: bold; box-shadow: 0 4px 15px rgba(237, 137, 54, 0.3);">
+                沿 segment 移动
+            </div>
+            
+            <div class="loop-box">
+                <span>↻</span> 获取新观测<br>触发 Replanning
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <b>边界说明：</b>系统决策严格围绕左侧的信息场滚动。右侧的避障与 reservation 属于安全执行层，不干扰搜索目标的信念状态。
+    </div>
+</div>
+
+</body>
+</html>

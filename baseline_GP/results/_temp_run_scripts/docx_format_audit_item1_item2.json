@@ -1,0 +1,2226 @@
+{
+  "docx_path": "F:\\pythonprojects\\my_report.docx",
+  "sections": [
+    {
+      "index": 1,
+      "top": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "bottom": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "left": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "right": {
+        "twips": 1134,
+        "cm": 2.0
+      },
+      "header": {
+        "twips": 851,
+        "cm": 1.501
+      },
+      "footer": {
+        "twips": 850,
+        "cm": 1.499
+      }
+    },
+    {
+      "index": 2,
+      "top": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "bottom": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "left": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "right": {
+        "twips": 1134,
+        "cm": 2.0
+      },
+      "header": {
+        "twips": 851,
+        "cm": 1.501
+      },
+      "footer": {
+        "twips": 850,
+        "cm": 1.499
+      }
+    },
+    {
+      "index": 3,
+      "top": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "bottom": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "left": {
+        "twips": 1417,
+        "cm": 2.499
+      },
+      "right": {
+        "twips": 1134,
+        "cm": 2.0
+      },
+      "header": {
+        "twips": 851,
+        "cm": 1.501
+      },
+      "footer": {
+        "twips": 850,
+        "cm": 1.499
+      }
+    }
+  ],
+  "paragraph_count": 1568,
+  "nonempty_paragraph_count": 1525,
+  "line_spacing_distribution": [
+    {
+      "line": "400",
+      "lineRule": "exact",
+      "linePt": 20.0,
+      "count": 1291
+    },
+    {
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "count": 128
+    },
+    {
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "count": 46
+    },
+    {
+      "line": "320",
+      "lineRule": "exact",
+      "linePt": 16.0,
+      "count": 37
+    },
+    {
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "count": 9
+    },
+    {
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "count": 5
+    },
+    {
+      "line": "480",
+      "lineRule": "auto",
+      "linePt": 24.0,
+      "count": 4
+    },
+    {
+      "line": "360",
+      "lineRule": "atLeast",
+      "linePt": 18.0,
+      "count": 2
+    },
+    {
+      "line": "367",
+      "lineRule": "auto",
+      "linePt": 18.35,
+      "count": 1
+    },
+    {
+      "line": "377",
+      "lineRule": "auto",
+      "linePt": 18.85,
+      "count": 1
+    },
+    {
+      "line": "500",
+      "lineRule": "exact",
+      "linePt": 25.0,
+      "count": 1
+    }
+  ],
+  "bad_line_examples": [
+    {
+      "paragraph_index": 5,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "本科毕业论文（设计）"
+    },
+    {
+      "paragraph_index": 9,
+      "style": "a7",
+      "line": "367",
+      "lineRule": "auto",
+      "linePt": 18.35,
+      "source": "direct",
+      "text": "论文题目（中文）面向海上可疑目标搜索任务的多USV决策优化方法研究"
+    },
+    {
+      "paragraph_index": 10,
+      "style": "a7",
+      "line": "377",
+      "lineRule": "auto",
+      "linePt": 18.85,
+      "source": "direct",
+      "text": "论文题目（英文） Research on Human-Machine Collaborative Decision-Making Optimization for Multi-USV in Maritime Suspicious Targe"
+    },
+    {
+      "paragraph_index": 11,
+      "style": null,
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "source": "direct",
+      "text": "学生姓名: 郭一泽"
+    },
+    {
+      "paragraph_index": 12,
+      "style": null,
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "source": "direct",
+      "text": "指导教师: 汤书森"
+    },
+    {
+      "paragraph_index": 13,
+      "style": null,
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "source": "direct",
+      "text": "学院: 信息科学与工程学院"
+    },
+    {
+      "paragraph_index": 14,
+      "style": null,
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "source": "direct",
+      "text": "专业: 电子信息科学与技术"
+    },
+    {
+      "paragraph_index": 15,
+      "style": null,
+      "line": "600",
+      "lineRule": "auto",
+      "linePt": 30.0,
+      "source": "direct",
+      "text": "年级: 2022"
+    },
+    {
+      "paragraph_index": 17,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "兰州大学教务处"
+    },
+    {
+      "paragraph_index": 19,
+      "style": null,
+      "line": "480",
+      "lineRule": "auto",
+      "linePt": 24.0,
+      "source": "direct",
+      "text": "诚信责任书"
+    },
+    {
+      "paragraph_index": 20,
+      "style": "a8",
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "本人郑重声明：本人所呈交的毕业论文（设计），是在导师的指导下独立进行研究所取得的成果。毕业论文（设计）中凡引用他人已经发表或未发表的成果、数据、观点等，均已明确注明出处。除文中已经注明引用的内容外，不包含任何其他个人、集体已经发表或未发表的"
+    },
+    {
+      "paragraph_index": 21,
+      "style": "a8",
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "本声明的法律责任由本人承担。"
+    },
+    {
+      "paragraph_index": 24,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "论文作者签名： 日 期："
+    },
+    {
+      "paragraph_index": 26,
+      "style": null,
+      "line": "480",
+      "lineRule": "auto",
+      "linePt": 24.0,
+      "source": "direct",
+      "text": "关于毕业论文（设计）使用授权的声明"
+    },
+    {
+      "paragraph_index": 27,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "本人在导师指导下所完成的论文及相关的职务作品，知识产权归属兰州大学。本人完全了解兰州大学有关保存、使用毕业论文（设计）的规定，同意学校保存或向国家有关部门或机构送交论文的纸质版和电子版，允许论文被查阅和借阅；本人授权兰州大学可以将本毕业论文"
+    },
+    {
+      "paragraph_index": 28,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "本毕业论文（设计）研究内容："
+    },
+    {
+      "paragraph_index": 29,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "□可以公开"
+    },
+    {
+      "paragraph_index": 30,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "□不宜公开，已在学位办公室办理保密申请，解密后适用本授权书。"
+    },
+    {
+      "paragraph_index": 31,
+      "style": null,
+      "line": "360",
+      "lineRule": "auto",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "（请在以上选项内选择其中一项打“√”）"
+    },
+    {
+      "paragraph_index": 34,
+      "style": null,
+      "line": "480",
+      "lineRule": "auto",
+      "linePt": 24.0,
+      "source": "direct",
+      "text": "论文作者签名： 导师签名："
+    },
+    {
+      "paragraph_index": 35,
+      "style": null,
+      "line": "480",
+      "lineRule": "auto",
+      "linePt": 24.0,
+      "source": "direct",
+      "text": "日 期： 日 期："
+    },
+    {
+      "paragraph_index": 40,
+      "style": null,
+      "line": "500",
+      "lineRule": "exact",
+      "linePt": 25.0,
+      "source": "direct",
+      "text": "Abstract"
+    },
+    {
+      "paragraph_index": 158,
+      "style": "TOC1",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹35"
+    },
+    {
+      "paragraph_index": 183,
+      "style": "af6",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "1 绪 论"
+    },
+    {
+      "paragraph_index": 184,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "1.1 研究背景及意义"
+    },
+    {
+      "paragraph_index": 187,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "1.2 国内外研究现状"
+    },
+    {
+      "paragraph_index": 192,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "1.3 研究内容及论文结构"
+    },
+    {
+      "paragraph_index": 197,
+      "style": "af6",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2 场建模"
+    },
+    {
+      "paragraph_index": 198,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1 高斯过程回归"
+    },
+    {
+      "paragraph_index": 201,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.1 回归问题"
+    },
+    {
+      "paragraph_index": 206,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.2 多元高斯分布"
+    },
+    {
+      "paragraph_index": 213,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（4）"
+    },
+    {
+      "paragraph_index": 215,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（5）"
+    },
+    {
+      "paragraph_index": 216,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（6）"
+    },
+    {
+      "paragraph_index": 217,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "即当一部分变量被观测后，另一部分变量的分布能够通过协方差结构进行更新：条件均值反映观测信息对未观测变量估计的修正，条件协方差则反映在引入观测信息后不确定性的降低。高斯过程正是将这一思想推广到函数空间中，即假设任意有限个输入点对应的函数值都服"
+    },
+    {
+      "paragraph_index": 218,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.3 核函数"
+    },
+    {
+      "paragraph_index": 226,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（9）"
+    },
+    {
+      "paragraph_index": 227,
+      "style": null,
+      "line": "360",
+      "lineRule": "atLeast",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "其中，长度尺度 控制空间相关性的衰减速度。若 很小，则核函数值随距离快速衰减，即非常靠近的点才相似；若 很大，则距离远的点也会相似。为信号方差，控制总体波动幅度。 大，则函数值会在均值附近大幅震荡；小，则函数值波动很小。 为Kronecke"
+    },
+    {
+      "paragraph_index": 228,
+      "style": null,
+      "line": "360",
+      "lineRule": "atLeast",
+      "linePt": 18.0,
+      "source": "direct",
+      "text": "RBF（又称 squared exponential）是高斯过程建模中最经典且最常用的核函数之一，它表示连续空间中的平滑相关性。当两个位置距离较近时，较小，核函数值较大，表示两点函数值更相似；当距离增大时，核函数值会随之平滑衰减，表示相关性"
+    },
+    {
+      "paragraph_index": 231,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.4 后验预测"
+    },
+    {
+      "paragraph_index": 245,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.5 采集函数"
+    },
+    {
+      "paragraph_index": 257,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.1.6 Anomaly变体"
+    },
+    {
+      "paragraph_index": 264,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（19）"
+    },
+    {
+      "paragraph_index": 265,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中，表示位置x处属于当前高值上尾区域的概率，其值越大，说明该位置越可能属于当前后验分布中的异常偏高区域。将异常上尾概率转化为UCB采集图的加权因子："
+    },
+    {
+      "paragraph_index": 266,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（20）"
+    },
+    {
+      "paragraph_index": 267,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中，λ为异常强调系数。最终得到的anomaly-aware采集函数为："
+    },
+    {
+      "paragraph_index": 268,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（21）"
+    },
+    {
+      "paragraph_index": 269,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（22）"
+    },
+    {
+      "paragraph_index": 270,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "用此方法构造的anomaly权重保留了UCB在“高均值利用”与“不确定性探索”之间的基本平衡，同时对更可能属于高值上尾的区域给予额外强调，从而提升搜索策略对潜在异常热点的敏感性。"
+    },
+    {
+      "paragraph_index": 271,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.2 目标Intensity场建模"
+    },
+    {
+      "paragraph_index": 274,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（23）"
+    },
+    {
+      "paragraph_index": 275,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中 表示可通行自由区域， 表示时刻 的剩余未发现目标数。由此可见，强度场的总质量并不任意变化，而是与当前剩余目标数量保持一致；其作用主要在于描述这些剩余目标在空间上的相对分布。"
+    },
+    {
+      "paragraph_index": 276,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "与GP clue场主要依赖带噪观测进行回归不同，Intensity场的更新依赖于搜索过程中的行为与观测结果，即目标运动预测、未命中观测更新以及命中后质量移除。因而，Intensity场承担的是“剩余目标空间分布信念”的建模角色，而不是环境线"
+    },
+    {
+      "paragraph_index": 277,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.2.1 初始化"
+    },
+    {
+      "paragraph_index": 279,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（24）"
+    },
+    {
+      "paragraph_index": 280,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中 表示障碍区域， 表示自由栅格总数。该初始化方式表达的先验含义是：在缺乏任何位置信息时，所有可通行区域对于目标存在具有相同的初始可能性，而障碍区域不分配任何目标质量。"
+    },
+    {
+      "paragraph_index": 281,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.2.2 目标运动预测"
+    },
+    {
+      "paragraph_index": 282,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "从递推贝叶斯滤波角度看，目标状态估计通常由预测和更新两个步骤组成：预测步骤依据运动模型传播先验分布，更新步骤则利用新观测修正预测分布[22]。在本文中，目标运动状态分为静态和随机游走；其中在动态目标场景下，系统会进一步对强度场执行一步运动预"
+    },
+    {
+      "paragraph_index": 283,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（25）"
+    },
+    {
+      "paragraph_index": 284,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "即预测前后保持不变；若目标运动模式为随机游走，则将每个栅格上的质量平均分配到该栅格自身及其四邻域中所有可达的非障碍位置，从而得到一步预测强度场："
+    },
+    {
+      "paragraph_index": 285,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（26）"
+    },
+    {
+      "paragraph_index": 286,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中 表示位置 的有效随机游走邻域， 为从 转移到 的一步运动概率。在当前实现中，若目标处于随机游走模式，则其质量会在“原地、上、下、左、右”五个候选位置中，对所有合法可达位置进行均匀分配；若某些邻居为障碍或越界，则仅在剩余合法位置之间重新"
+    },
+    {
+      "paragraph_index": 287,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.2.3 未命中观测更新"
+    },
+    {
+      "paragraph_index": 290,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（27）"
+    },
+    {
+      "paragraph_index": 291,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中为位置与USV位置之间的欧氏距离，为传感器作用半径。由此，未命中更新可写为"
+    },
+    {
+      "paragraph_index": 292,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（28）"
+    },
+    {
+      "paragraph_index": 293,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "上述公式表明，若某位置位于当前传感器 footprint 内而仍未发现目标，则该位置继续存在目标的可信度应被削弱；且离 USV 越近、理论上越容易被探测到的位置，其强度衰减应越明显。这样，Intensity 场就能根据“未发现目标”这一负观"
+    },
+    {
+      "paragraph_index": 294,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "但公式（28）会导致强度场总质量的压缩，于是需要在衰减之后对强度场重新归一化，使其总质量仍保持为当前剩余目标数。"
+    },
+    {
+      "paragraph_index": 295,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.2.4 命中观测更新"
+    },
+    {
+      "paragraph_index": 302,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.3 观测时效性"
+    },
+    {
+      "paragraph_index": 305,
+      "style": "aff4",
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "（31）"
+    },
+    {
+      "paragraph_index": 306,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "其中， 为时效性增长尺度， 用于将数值限制在 范围内。当某一区域刚被观测时， 接近 0；随着该区域长时间未被重新覆盖， 逐渐增大并趋近于 1。对于障碍区域，观测时效性设为 0。持续监视问题通常将重访时间或观测间隔作为衡量监视质量的重要因素["
+    },
+    {
+      "paragraph_index": 307,
+      "style": null,
+      "line": "240",
+      "lineRule": "atLeast",
+      "linePt": 12.0,
+      "source": "direct",
+      "text": "在候选路径评价中，系统根据路径传感器覆盖范围内的观测时效性场计算刷新收益。若一条路径能够覆盖较长时间未被观测的区域，则其观测时效性收益较高；若路径主要覆盖刚刚观测过的区域，则该项收益较低。通过该机制，USV不会机械地重复访问刚搜索过的位置，"
+    },
+    {
+      "paragraph_index": 308,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "2.4 综合信息价值场"
+    },
+    {
+      "paragraph_index": 317,
+      "style": "aff5",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "图2-1 已知静态地图下多源搜索场可视化"
+    },
+    {
+      "paragraph_index": 320,
+      "style": "af6",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "3 信息型路径规划"
+    },
+    {
+      "paragraph_index": 321,
+      "style": "af7",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "3.1 信息型路径规划理论基础"
+    },
+    {
+      "paragraph_index": 322,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "3.1.1 从几何路径规划到主动感知路径规划"
+    },
+    {
+      "paragraph_index": 325,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "3.1.2 EPP与IPP的区别"
+    },
+    {
+      "paragraph_index": 329,
+      "style": "afa",
+      "line": "240",
+      "lineRule": "auto",
+      "linePt": 12.0,
+      "source": "style/default",
+      "text": "3.1.3 信息收益、运动代价与预算约束的一般形式"
+    }
+  ],
+  "first_nonempty_paragraphs": [
+    {
+      "paragraph_index": 5,
+      "style": null,
+      "text": "本科毕业论文（设计）",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": null,
+        "line": "240",
+        "lineRule": "atLeast",
+        "linePt": 12.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "本科毕业论文（设计）",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体",
+            "cs": "宋体"
+          },
+          "sizePt": 26.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 9,
+      "style": "a7",
+      "text": "论文题目（中文）面向海上可疑目标搜索任务的多USV决策优化方法研究",
+      "char_count_no_space": 33,
+      "spacing": {
+        "style": "a7",
+        "line": "367",
+        "lineRule": "auto",
+        "linePt": 18.35,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "论文题目（中文）",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "面向海上可疑目标搜索任务的多",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "USV",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "决策优化方法研究",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 10,
+      "style": "a7",
+      "text": "论文题目（英文） Research on Human-Machine Collaborative Decision-Making Optimization for Multi-USV in Maritime Suspicious Target Search Missions",
+      "char_count_no_space": 123,
+      "spacing": {
+        "style": "a7",
+        "line": "377",
+        "lineRule": "auto",
+        "linePt": 18.85,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "论文题目（英文）",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Research on Human-Machine Collaborative Decision-Making Optimization for Multi-U",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 11,
+      "style": null,
+      "text": "学生姓名: 郭一泽",
+      "char_count_no_space": 8,
+      "spacing": {
+        "style": null,
+        "line": "600",
+        "lineRule": "auto",
+        "linePt": 30.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "学生姓名:",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "郭一泽",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 12,
+      "style": null,
+      "text": "指导教师: 汤书森",
+      "char_count_no_space": 8,
+      "spacing": {
+        "style": null,
+        "line": "600",
+        "lineRule": "auto",
+        "linePt": 30.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "指导教师:",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "汤书森",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 13,
+      "style": null,
+      "text": "学院: 信息科学与工程学院",
+      "char_count_no_space": 12,
+      "spacing": {
+        "style": null,
+        "line": "600",
+        "lineRule": "auto",
+        "linePt": 30.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "学",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "院",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": ":",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "信息科学与工程学院",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 14,
+      "style": null,
+      "text": "专业: 电子信息科学与技术",
+      "char_count_no_space": 12,
+      "spacing": {
+        "style": null,
+        "line": "600",
+        "lineRule": "auto",
+        "linePt": 30.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "专",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "业",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": ":",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "电子信息科学与技术",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 15,
+      "style": null,
+      "text": "年级: 2022",
+      "char_count_no_space": 7,
+      "spacing": {
+        "style": null,
+        "line": "600",
+        "lineRule": "auto",
+        "linePt": 30.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "年",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "级",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": ":",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "2022",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 17,
+      "style": null,
+      "text": "兰州大学教务处",
+      "char_count_no_space": 7,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "兰州大学教务处",
+          "fonts": {
+            "ascii": "黑体",
+            "hAnsi": "黑体",
+            "eastAsia": "黑体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 19,
+      "style": null,
+      "text": "诚信责任书",
+      "char_count_no_space": 5,
+      "spacing": {
+        "style": null,
+        "line": "480",
+        "lineRule": "auto",
+        "linePt": 24.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "诚信责任书",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 20,
+      "style": "a8",
+      "text": "本人郑重声明：本人所呈交的毕业论文（设计），是在导师的指导下独立进行研究所取得的成果。毕业论文（设计）中凡引用他人已经发表或未发表的成果、数据、观点等，均已明确注明出处。除文中已经注明引用的内容外，不包含任何其他个人、集体已经发表或未发表的论文。",
+      "char_count_no_space": 123,
+      "spacing": {
+        "style": "a8",
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "本人郑重声明：本人所呈交的毕业论文（设计），是在导师的指导下独立进行研究所取得的成果。毕业论文（设计）中凡引用他人已经发表或未发表的成果、数据、观点等，均已明确",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 21,
+      "style": "a8",
+      "text": "本声明的法律责任由本人承担。",
+      "char_count_no_space": 14,
+      "spacing": {
+        "style": "a8",
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "本声明的法律责任由本人承担。",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 24,
+      "style": null,
+      "text": "论文作者签名： 日 期：",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "论文作者签名：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "日",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "期：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 26,
+      "style": null,
+      "text": "关于毕业论文（设计）使用授权的声明",
+      "char_count_no_space": 17,
+      "spacing": {
+        "style": null,
+        "line": "480",
+        "lineRule": "auto",
+        "linePt": 24.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "关于",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "毕业论文（设计）",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        },
+        {
+          "text": "使用授权的声明",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 27,
+      "style": null,
+      "text": "本人在导师指导下所完成的论文及相关的职务作品，知识产权归属兰州大学。本人完全了解兰州大学有关保存、使用毕业论文（设计）的规定，同意学校保存或向国家有关部门或机构送交论文的纸质版和电子版，允许论文被查阅和借阅；本人授权兰州大学可以将本毕业论文（设计）的全部或部分内容编入有关数据库进行检索，可以采用任何复制手段保存和汇编本毕业论文（设计）。本人离校后发表、使用毕业论文（设计）或与该毕业论文（设计）直接",
+      "char_count_no_space": 226,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "本人在导师指导下所完成的论文及相关的职务作品，知识产权归属兰州大学。",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "本人完全了解兰州大学有关保存、使用毕业论文（设计）的规定，同意学校保存或向国家有关部门或机构送交论文的",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "纸质版",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "和电子版，允许论文被查阅和借阅；本人授权兰州大学可以将本毕业论文（设计）的全部或部分内容编入有关数据库进行检索，可以采用任何复制手段保存和汇编本毕业论文（设计）",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "本人离校后发表、使用毕业论文（设计）或与该毕业论文（设计）直接相关的学术论文或成果时，第一署名单位仍然为兰州大学。",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 28,
+      "style": null,
+      "text": "本毕业论文（设计）研究内容：",
+      "char_count_no_space": 14,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "本毕业论文（设计）研究内容：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 29,
+      "style": null,
+      "text": "□可以公开",
+      "char_count_no_space": 5,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "□可以公开",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 30,
+      "style": null,
+      "text": "□不宜公开，已在学位办公室办理保密申请，解密后适用本授权书。",
+      "char_count_no_space": 30,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "□不宜公开，已在学位办公室办理保密申请，解密后适用本授权书。",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 31,
+      "style": null,
+      "text": "（请在以上选项内选择其中一项打“√”）",
+      "char_count_no_space": 19,
+      "spacing": {
+        "style": null,
+        "line": "360",
+        "lineRule": "auto",
+        "linePt": 18.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "（请在以上选项内选择其中一项打“",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "√",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "”）",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 34,
+      "style": null,
+      "text": "论文作者签名： 导师签名：",
+      "char_count_no_space": 12,
+      "spacing": {
+        "style": null,
+        "line": "480",
+        "lineRule": "auto",
+        "linePt": 24.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "论文作者签名：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "导师签名：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 35,
+      "style": null,
+      "text": "日 期： 日 期：",
+      "char_count_no_space": 6,
+      "spacing": {
+        "style": null,
+        "line": "480",
+        "lineRule": "auto",
+        "linePt": 24.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "日",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "期：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "日",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "期：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 36,
+      "style": null,
+      "text": "中文摘要",
+      "char_count_no_space": 4,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "中文摘要",
+          "fonts": {
+            "eastAsia": "黑体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 37,
+      "style": null,
+      "text": "海上可疑目标搜索任务通常面临目标位置未知、线索观测稀疏、障碍环境约束明显以及多艇协同关系复杂等问题。针对上述特点，本文研究已知静态障碍地图下的多无人艇信息驱动搜索决策方法，并以单艇搜索和双艇协同搜索作为主要研究对象。首先，本文构建由高斯过程线索场、目标强度场和观测时效性场组成的多源搜索状态表示，并进一步融合得到综合信息价值场，用于刻画当前海域中不同位置的搜索价值。在此基础上，本文提出单 USV 信",
+      "char_count_no_space": 730,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "海上可疑目标搜索任务通常面临目标位置未知、线索观测稀疏、障碍环境约束明显以及多艇协同关系复杂等问题。针对上述特点，本文研究已知静态障碍地图下的多无人艇信息驱动搜",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "USV",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "信息驱动安全路径规划方法，通过热点区域提取、",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Anchor",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "代表点选取、环形候选",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Viewpoint",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "生成、",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Safe A*",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "路径生成和短时域路径段评分，实现从搜索信息场到可执行路径段的闭环决策。进一步地，本文将单艇方法扩展到双",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "USV",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 38,
+      "style": null,
+      "text": "关键词：海上可疑目标搜索；信息驱动路径规划；高斯过程；综合信息价值场；双艇协同搜索；",
+      "char_count_no_space": 42,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "关键词：",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "海上可疑目标搜索；信息驱动路径规划；高斯过程；综合信息价值场；双艇协同搜索；",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 40,
+      "style": null,
+      "text": "Abstract",
+      "char_count_no_space": 8,
+      "spacing": {
+        "style": null,
+        "line": "500",
+        "lineRule": "exact",
+        "linePt": 25.0,
+        "source": "direct"
+      },
+      "runs": [
+        {
+          "text": "Abstract",
+          "fonts": {
+            "ascii": "Arial",
+            "hAnsi": "Arial",
+            "eastAsia": "仿宋_GB2312",
+            "cs": "Arial"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 41,
+      "style": null,
+      "text": "The search task for suspicious maritime targets typically faces challenges such as unknown target positions, sparse clue observations, significant environmental constraints from obstacles, and complex",
+      "char_count_no_space": 467,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "The search task for suspicious maritime targets typically faces challenges such ",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 42,
+      "style": null,
+      "text": "First, this paper constructs a multi-source search state representation consisting of a Gaussian process clue field, a target intensity field, and an observation timeliness field, which are further in",
+      "char_count_no_space": 604,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "First, this paper constructs a multi-source search state representation consisti",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 43,
+      "style": null,
+      "text": "Furthermore, this paper extends the single-USV method to the dual-USV cooperative search scenario, introducing a centralized shared team state, static soft responsibility zone priors, residual map seq",
+      "char_count_no_space": 359,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "Furthermore, this paper extends the single-USV method to the dual-USV cooperativ",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 44,
+      "style": null,
+      "text": "Experiments are conducted on three types of known static maps: open water, obstacle field, and peninsula passage, examining both static targets and random-walk targets. The results show that the singl",
+      "char_count_no_space": 870,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "Experiments are conducted on three types of known static maps: open water, obsta",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "anomaly_aware",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "acquisition function is performed, and the results show that it can improve disc",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 46,
+      "style": null,
+      "text": "Key words: Suspicious Maritime Target Search; Information-Driven Path Planning; Gaussian Process (GP); Comprehensive Information Value Field; Dual-USV Cooperative Search;",
+      "char_count_no_space": 152,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "Key words:",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Suspicious Maritime Target Search; Information-Driven Path Planning;",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        },
+        {
+          "text": "Gaussian Process (GP); Comprehensive Information Value Field; Dual-USV Cooperati",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 12.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 50,
+      "style": null,
+      "text": "目 录",
+      "char_count_no_space": 2,
+      "spacing": {
+        "style": null,
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": [
+        {
+          "text": "目 录",
+          "fonts": {
+            "ascii": "宋体",
+            "hAnsi": "宋体"
+          },
+          "sizePt": 16.0
+        }
+      ]
+    },
+    {
+      "paragraph_index": 51,
+      "style": "TOC1",
+      "text": "1 绪 论1",
+      "char_count_no_space": 4,
+      "spacing": {
+        "style": "TOC1",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 52,
+      "style": "TOC2",
+      "text": "1.1 研究背景及意义1",
+      "char_count_no_space": 11,
+      "spacing": {
+        "style": "TOC2",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 53,
+      "style": "TOC2",
+      "text": "1.2 国内外研究现状1",
+      "char_count_no_space": 11,
+      "spacing": {
+        "style": "TOC2",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 54,
+      "style": "TOC2",
+      "text": "1.3 研究内容及论文结构2",
+      "char_count_no_space": 13,
+      "spacing": {
+        "style": "TOC2",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 55,
+      "style": "TOC1",
+      "text": "2 场建模3",
+      "char_count_no_space": 5,
+      "spacing": {
+        "style": "TOC1",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 56,
+      "style": "TOC2",
+      "text": "2.1 高斯过程回归3",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": "TOC2",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 57,
+      "style": "TOC3",
+      "text": "2.1.1 回归问题3",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 58,
+      "style": "TOC3",
+      "text": "2.1.2 多元高斯分布3",
+      "char_count_no_space": 12,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 59,
+      "style": "TOC3",
+      "text": "2.1.3 核函数4",
+      "char_count_no_space": 9,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 60,
+      "style": "TOC3",
+      "text": "2.1.4 后验预测5",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 61,
+      "style": "TOC3",
+      "text": "2.1.5 采集函数6",
+      "char_count_no_space": 10,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 62,
+      "style": "TOC3",
+      "text": "2.1.6 Anomaly变体7",
+      "char_count_no_space": 15,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 63,
+      "style": "TOC2",
+      "text": "2.2 目标Intensity场建模8",
+      "char_count_no_space": 18,
+      "spacing": {
+        "style": "TOC2",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    },
+    {
+      "paragraph_index": 64,
+      "style": "TOC3",
+      "text": "2.2.1 初始化8",
+      "char_count_no_space": 9,
+      "spacing": {
+        "style": "TOC3",
+        "line": "400",
+        "lineRule": "exact",
+        "linePt": 20.0,
+        "source": "style/default"
+      },
+      "runs": []
+    }
+  ]
+}

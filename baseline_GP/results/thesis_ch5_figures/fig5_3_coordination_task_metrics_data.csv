@@ -1,0 +1,13 @@
+﻿Figure,Mode,Map,Method,Success (%),Detection (%)
+fig5_3_task,static,open_water,independent,40.0,60.0
+fig5_3_task,static,open_water,coordinated,40.0,70.0
+fig5_3_task,static,obstacle_field,independent,30.0,70.0
+fig5_3_task,static,obstacle_field,coordinated,50.0,80.0
+fig5_3_task,static,peninsula_passage,independent,10.0,53.3
+fig5_3_task,static,peninsula_passage,coordinated,50.0,83.3
+fig5_3_task,random_walk,open_water,independent,50.0,76.7
+fig5_3_task,random_walk,open_water,coordinated,60.0,83.3
+fig5_3_task,random_walk,obstacle_field,independent,30.0,73.3
+fig5_3_task,random_walk,obstacle_field,coordinated,50.0,83.3
+fig5_3_task,random_walk,peninsula_passage,independent,50.0,76.7
+fig5_3_task,random_walk,peninsula_passage,coordinated,50.0,83.3

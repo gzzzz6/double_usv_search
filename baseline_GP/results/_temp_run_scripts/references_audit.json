@@ -1,0 +1,2675 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "reference_region": {
+    "title_index": 632,
+    "end_index": 671
+  },
+  "title": {
+    "index": 632,
+    "text": "参考文献",
+    "format": {
+      "style": null,
+      "line": "240",
+      "lineRule": "auto",
+      "beforePt": 24.0,
+      "afterPt": 18.0,
+      "jc": "center",
+      "linePt": 12.0
+    },
+    "runs": [
+      {
+        "text": "参考文献",
+        "fonts": {
+          "eastAsia": "黑体"
+        },
+        "sizePt": 16.0,
+        "bold": true
+      }
+    ]
+  },
+  "references": [
+    {
+      "index": 633,
+      "text": "Liu Z, Zhang Y, Yu X, Yuan C. Unmanned surface vehicles: An overview of developments and challenges[J]. Annual Reviews in Control, 2016, 41: 71-93.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Liu Z, Zhang Y, Yu X, Yuan C. Unmanned surface vehicles: An overview of developments and challenges[J]. Annual Reviews in Control, 2016, 41: 71-93.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 634,
+      "text": "Manley J E. Unmanned surface vehicles, 15 years of development[C]//OCEANS 2008. IEEE, 2008: 1-4.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Manley J E. Unmanned surface vehicles, 15 years of development[C]//OCEANS 2008. IEEE, 2008: 1-4.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 635,
+      "text": "Chung T H, Hollinger G A, Isler V. Search and pursuit-evasion in mobile robotics[J]. Autonomous Robots, 2011, 31(4): 299-316.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Chung T H, Hollinger G A, Isler V. Search and pursuit-evasion in mobile robotics[J]. Autonomous Robots, 2011, 31(4): 299-316.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 636,
+      "text": "Elfes A. Using occupancy grids for mobile robot perception and navigation[J]. Computer, 1989, 22(6): 46-57.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Elfes",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "A. Using occupancy grids for mobile robot perception and navigation[J]. Computer, 1989, 22(6): 46-57.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 637,
+      "text": "Yamauchi B. A frontier-based approach for autonomous exploration[C]//Proceedings 1997 IEEE International Symposium on Computational Intelligence in Robotics and Automation. 1997: 146-151.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Yamauchi B. A frontier-based approach for autonomous exploration[C]//Proceedings 1997 IEEE International Symposium on Computational Intelligence in Robotics and Automation. 1997: 146-151.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 638,
+      "text": "Bai S, Shan T, Chen F, Liu L, Englot B. Information-driven path planning[J]. Current Robotics Reports, 2021, 2: 177-188.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Bai S, Shan T, Chen F, Liu L,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Englot",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "B. Information-driven path planning[J]. Current Robotics Reports, 2021, 2: 177-188.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 5,
+        "too_many_authors_without_et_al_or_deng": true
+      }
+    },
+    {
+      "index": 639,
+      "text": "Hollinger G A, Sukhatme G S. Sampling-based robotic information gathering algorithms[J]. The International Journal of Robotics Research, 2014, 33(9): 1271-1287.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Hollinger G A,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Sukhatme",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "G S. Sampling-based robotic information gathering algorithms[J]. The International Journal of Robotics Research, 2014, 33(9): 1271-1287.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 640,
+      "text": "Popović M, Ott J, Rückin J, Kochenderfer M J. Learning-based methods for adaptive informative path planning[J]. Robotics and Autonomous Systems, 2024, 179: 104727.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Popović M, Ott J,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Rückin",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "J, Kochenderfer M J. Learning-based methods for adaptive informative path planning[J]. Robotics and Autonomous Systems, 2024, 179: 104727.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 641,
+      "text": "Rasmussen C E, Williams C K I. Gaussian Processes for Machine Learning[M]. Cambridge, MA: MIT Press, 2006.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Rasmussen C E, Williams C K I. Gaussian Processes for Machine Learning[M]. Cambridge, MA: MIT Press, 2006.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 642,
+      "text": "Srinivas N, Krause A, Kakade S M, Seeger M. Gaussian process optimization in the bandit setting: No regret and experimental design[C]//Proceedings of the 27th International Conference on Machine Learning. 2010: 1015-1022.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Srinivas N, Krause A, Kakade S M, Seeger M. Gaussian process optimization in the bandit setting: No regret and experimental design[C]//Proceedings of the 27th International Conference on Machine Learning. 2010: 1015-1022.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 643,
+      "text": "Blanchard A, Sapsis T. Informative path planning for anomaly detection in environment exploration and monitoring[J]. Ocean Engineering, 2022, 243: 110242.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Blanchard A,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Sapsis",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "T. Informative path planning for anomaly detection in environment exploration and monitoring[J]. Ocean Engineering, 2022, 243: 110242.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 644,
+      "text": "Rayas Fernández I M, Denniston C E, Caron D A, Sukhatme G S. Informative Path Planning to Estimate Quantiles for Environmental Analysis[J]. IEEE Robotics and Automation Letters, 2022, 7(4): 10280-10287.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Rayas Fernández I M, Denniston C E, Caron D A,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Sukhatme",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "G S. Informative Path Planning to Estimate Quantiles for Environmental Analysis[J]. IEEE Robotics and Automation Letters, 2022, 7(4): 10280-10287.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 645,
+      "text": "Burgard W, Moors M, Stachniss C, Schneider F E. Coordinated multi-robot exploration[J]. IEEE Transactions on Robotics, 2005, 21(3): 376-386.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Burgard W, Moors M,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Stachniss",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "C, Schneider F E. Coordinated multi-robot exploration[J]. IEEE Transactions on Robotics, 2005, 21(3): 376-386.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 646,
+      "text": "Singh A, Krause A, Guestrin C, Kaiser W J. Efficient informative sensing using multiple robots[J]. Journal of Artificial Intelligence Research, 2009, 34: 707-755.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Singh A, Krause A,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Guestrin",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "C, Kaiser W J. Efficient informative sensing using multiple robots[J]. Journal of Artificial Intelligence Research, 2009, 34: 707-755.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 647,
+      "text": "Gerkey B P, Matarić M J. A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems[J]. The International Journal of Robotics Research, 2004, 23(9): 939-954.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Gerkey B P,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Matarić",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "M J. A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems[J]. The International Journal of Robotics Research, 2004, 23(9): 939-954.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 648,
+      "text": "Sharon G, Stern R, Felner A, Sturtevant N R. Conflict-Based Search for Optimal Multi-Agent Pathfinding[J]. Artificial Intelligence, 2015, 219: 40-66.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Sharon G, Stern R, Felner A, Sturtevant N R. Conflict-Based Search for Optimal Multi-Agent Pathfinding[J]. Artificial Intelligence, 2015, 219: 40-66.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 649,
+      "text": "Silver D. Cooperative pathfinding[C]//Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment. 2005.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Silver D. Cooperative pathfinding[C]//Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment. 2005.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 650,
+      "text": "Auer P, Cesa-Bianchi N, Fischer P. Finite-time analysis of the multiarmed bandit problem[J]. Machine Learning, 2002, 47(2-3): 235-256.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Auer P,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Cesa",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "-Bianchi N, Fischer P. Finite-time analysis of the multiarmed bandit problem[J]. Machine Learning, 2002, 47(2-3): 235-256.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 651,
+      "text": "Fossum T O, Travelletti C, Eidsvik J, Ginsbourger D, Rajan K. Learning excursion sets of vector-valued Gaussian random fields for autonomous ocean sampling[J]. The Annals of Applied Statistics, 2021, 15(2).",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Fossum T O,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Travelletti",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "C, Eidsvik J,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Ginsbourger",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "D, Rajan K. Learning excursion sets of vector-valued Gaussian random fields for autonomous ocean sampling[J]. The Annals of Applied Statistics,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "2021, 15(2).",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 5,
+        "too_many_authors_without_et_al_or_deng": true
+      }
+    },
+    {
+      "index": 652,
+      "text": "Gotovos A, Casati N, Hitz G, Krause A. Active Learning for Level Set Estimation[C]//IJCAI. 2013: 1344-1350.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Gotovos",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "A, Casati N, Hitz G, Krause A. Active Learning for Level Set Estimation[C]//IJCAI. 2013: 1344-1350.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 653,
+      "text": "Mahler R P S. Multitarget Bayes filtering via first-order multitarget moments[J]. IEEE Transactions on Aerospace and Electronic Systems, 2003, 39(4): 1152-1178.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Mahler R P S. Multitarget Bayes filtering via first-order multitarget moments[J]. IEEE Transactions on Aerospace and Electronic Systems, 2003, 39(4): 1152-1178.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 654,
+      "text": "Särkkä S. Bayesian Filtering and Smoothing[M]. Cambridge: Cambridge University Press, 2013.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Särkkä",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "S. Bayesian Filtering and Smoothing[M]. Cambridge: Cambridge University Press, 2013.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 655,
+      "text": "Smith S L, Schwager M, Rus D. Persistent robotic tasks: Monitoring and sweeping in changing environments[J]. IEEE Transactions on Robotics, 2012, 28(2): 410-426.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Smith S L, Schwager M, Rus D. Persistent robotic tasks: Monitoring and sweeping in changing environments[J]. IEEE Transactions on Robotics, 2012, 28(2): 410-426.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 656,
+      "text": "Nigam N. The multiple unmanned air vehicle persistent surveillance problem: A review[J]. Machines, 2014, 2(1): 13-72.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Nigam N. The multiple unmanned air vehicle persistent surveillance problem: A review[J]. Machines, 2014, 2(1): 13-72.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 657,
+      "text": "Vivaldini K C T, Pěnička R, Saska M. Decision-Making-Based Path Planning for Autonomous UAVs: A Survey[EB/OL]. arXiv:2508.09304, 2025.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Vivaldini",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "K C T,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Pěnička",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "R, Saska M. Decision-Making-Based Path Planning for Autonomous UAVs: A Survey[EB/OL]. arXiv:2508.09304, 2025.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 658,
+      "text": "Cortes J, Martinez S, Karatas T, Bullo F. Coverage control for mobile sensing networks[J]. IEEE Transactions on Robotics and Automation, 2004, 20(2): 243-255.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Cortes J, Martinez S, Karatas T, Bullo F. Coverage control for mobile sensing networks[J]. IEEE Transactions on Robotics and Automation, 2004, 20(2): 243-255.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 659,
+      "text": "Zeng R, Wen Y, Zhao W, Liu Y J. View planning in robot active vision: A survey of systems, algorithms, and applications[J]. Computational Visual Media, 2020, 6: 225-245.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Zeng R, Wen Y, Zhao W, Liu Y J. View planning in robot active vision: A survey of systems, algorithms, and applications[J]. Computational Visual Media, 2020, 6: 225-245.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 660,
+      "text": "Chen S, Li Y F, Zhang J, Wang W. Active Sensor Planning for Multiview Vision Tasks[M]. Berlin, Heidelberg: Springer, 2008.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Chen S, Li Y F, Zhang J, Wang W. Active Sensor Planning for Multiview Vision Tasks[M]. Berlin, Heidelberg: Springer, 2008.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 4,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 661,
+      "text": "Potthast C, Sukhatme G S. A probabilistic framework for next best view estimation in a cluttered environment[J]. Journal of Visual Communication and Image Representation, 2014, 25(1): 148-164.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Potthast C,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Sukhatme",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "G S. A probabilistic framework for next best view estimation in a cluttered environment[J]. Journal of Visual Communication and Image Representation, 2014, 25(1): 148-164.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 662,
+      "text": "Bircher A, Kamel M, Alexis K, Oleynikova H, Siegwart R. Receding horizon Next-Best-View planner for 3D exploration[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2016: 1462-1468.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Bircher A, Kamel M, Alexis K,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Oleynikova",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "H, Siegwart R. Receding horizon Next-Best-View planner for 3D exploration[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2016: 1462-1468.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 5,
+        "too_many_authors_without_et_al_or_deng": true
+      }
+    },
+    {
+      "index": 663,
+      "text": "Thrun S, Burgard W, Fox D. Probabilistic Robotics[M]. Cambridge, MA: MIT Press, 2005.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Thrun S, Burgard W, Fox D. Probabilistic Robotics[M]. Cambridge, MA: MIT Press, 2005.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 664,
+      "text": "Hart P E, Nilsson N J, Raphael B. A formal basis for the heuristic determination of minimum cost paths[J]. IEEE Transactions on Systems Science and Cybernetics, 1968, 4(2): 100-107.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Hart P E, Nilsson N J, Raphael B. A formal basis for the heuristic determination of minimum cost paths[J]. IEEE Transactions on Systems Science and Cybernetics, 1968, 4(2): 100-107.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 3,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 665,
+      "text": "Russell S J, Norvig P. Artificial Intelligence: A Modern Approach[M]. 4th ed. Pearson, 2021.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Russell S J, Norvig P. Artificial Intelligence: A Modern Approach[M]. 4th ed. Pearson, 2021.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 666,
+      "text": "LaValle S M. Planning Algorithms[M]. Cambridge: Cambridge University Press, 2006.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "LaValle S M. Planning Algorithms[M]. Cambridge: Cambridge University Press, 2006.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 1,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 667,
+      "text": "Binney J, Sukhatme G S. Branch and bound for informative path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2012: 2147-2154.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Binney J,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Sukhatme",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "G S. Branch and bound for informative path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2012: 2147-2154.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 668,
+      "text": "Krause A, Guestrin C. Submodularity and its applications in optimized information gathering[J]. ACM Transactions on Intelligent Systems and Technology, 2011, 2(4): Article 32.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Krause A,",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Guestrin",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "C.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "Submodularity",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "and its applications in optimized information gathering[J]. ACM Transactions on Intelligent Systems and Technology, 2011, 2(4): Article 32.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    },
+    {
+      "index": 669,
+      "text": "Marchant R, Ramos F. Bayesian optimisation for informative continuous path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2014: 6136-6143.",
+      "language_guess": "en",
+      "format": {
+        "style": "af5",
+        "line": "320",
+        "lineRule": "exact",
+        "beforePt": null,
+        "afterPt": null,
+        "jc": "both",
+        "linePt": 16.0
+      },
+      "runs": [
+        {
+          "text": "Marchant R, Ramos F. Bayesian",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "optimisation",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        },
+        {
+          "text": "for informative continuous path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2014: 6136-6143.",
+          "fonts": {
+            "ascii": "Times New Roman",
+            "hAnsi": "Times New Roman",
+            "eastAsia": "宋体",
+            "cs": "Times New Roman"
+          },
+          "sizePt": 10.5,
+          "bold": null
+        }
+      ],
+      "checks": {
+        "number": null,
+        "bracket_number_ok": false,
+        "gap_after_number_ok": false,
+        "ends_with_period": true,
+        "has_literature_type": true,
+        "has_interval_dot": true,
+        "contains_chinese_comma": false,
+        "contains_chinese_semicolon": false,
+        "author_count_hint": 2,
+        "too_many_authors_without_et_al_or_deng": false
+      }
+    }
+  ],
+  "numbering_summary": {
+    "item_count": 37,
+    "numbered_count": 0,
+    "numbers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expected_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "continuous_from_1": false,
+    "missing_bracket_number_count": 37
+  },
+  "citation_summary": {
+    "occurrence_count": 65,
+    "unique_cited_numbers_in_first_appearance_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      35,
+      37,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      36
+    ],
+    "unique_cited_count": 36,
+    "cited_set_sorted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "citation_occurrences_sample": [
+      {
+        "paragraph_index": 179,
+        "number": 1,
+        "context": "随着海洋资源开发、近岸安防、海上交通监管和应急处置任务的复杂化，无人艇（Unmanned Surface Vehicle, USV）因其机动部署、长时巡航和低人员风险等特点，逐渐成为海洋智能装备体系的重要组成部分。已有研究表明，USV的发展已经从早期平台控制和航迹跟踪扩展到自主感知、路径规划和多平台协同等方向[1][2]。在可疑目标搜索任务中，USV不仅需要在复杂海域中保持安全航行，还需要在目标位置、线索状态和观测结果均不完全确定的条件下持续选择有价值的观测区域。"
+      },
+      {
+        "paragraph_index": 179,
+        "number": 2,
+        "context": "随着海洋资源开发、近岸安防、海上交通监管和应急处置任务的复杂化，无人艇（Unmanned Surface Vehicle, USV）因其机动部署、长时巡航和低人员风险等特点，逐渐成为海洋智能装备体系的重要组成部分。已有研究表明，USV的发展已经从早期平台控制和航迹跟踪扩展到自主感知、路径规划和多平台协同等方向[1][2]。在可疑目标搜索任务中，USV不仅需要在复杂海域中保持安全航行，还需要在目标位置、线索状态和观测结果均不完全确定的条件下持续选择有价值的观测区域。"
+      },
+      {
+        "paragraph_index": 182,
+        "number": 3,
+        "context": "从问题本质上看，海上可疑目标搜索并不是一个已知终点的导航问题，而是一个受运动预算、传感器覆盖范围和观测不确定性共同约束的信息获取问题。移动机器人搜索研究通常将搜索任务建模为搜索平台、目标状态与环境约束共同作用下的决策问题，其中目标存在概率、探测模型和资源分配是影响搜索策略的重要因素[3]。与完全未知环境探索不同，本文研究的场景中静态障碍地图在任务开始前已经给定，任务的不确定性主要来自目标状态、弱线索分布以及观测信息随时间产生的失效风险。因此，路径规划的核心不再是探索地图边界，"
+      },
+      {
+        "paragraph_index": 183,
+        "number": 4,
+        "context": "移动机器人探索研究较早采用占据栅格地图和 frontier-based exploration 等方法，通过识别未知区域边界来驱动机器人扩展地图[4][5]。这类方法适合未知环境建图和覆盖探索，但在已知地图条件下的目标搜索任务中，仅以几何未知区域作为路径价值来源容易造成路径预算浪费。对于海上可疑目标搜索而言，规划器更需要回答的是“哪些区域最可能带来目标相关观测”，而不是“哪些区域尚未被建图”。"
+      },
+      {
+        "paragraph_index": 183,
+        "number": 5,
+        "context": "移动机器人探索研究较早采用占据栅格地图和 frontier-based exploration 等方法，通过识别未知区域边界来驱动机器人扩展地图[4][5]。这类方法适合未知环境建图和覆盖探索，但在已知地图条件下的目标搜索任务中，仅以几何未知区域作为路径价值来源容易造成路径预算浪费。对于海上可疑目标搜索而言，规划器更需要回答的是“哪些区域最可能带来目标相关观测”，而不是“哪些区域尚未被建图”。"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 6,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 7,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 8,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 9,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 10,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 11,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 184,
+        "number": 12,
+        "context": "信息型路径规划（Informative Path Planning, IPP）为该类问题提供了更合适的理论视角。IPP 通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而 GP-UCB 等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常"
+      },
+      {
+        "paragraph_index": 185,
+        "number": 13,
+        "context": "多机器人协同进一步提高了搜索系统的潜在效率，但也引入了单机器人场景中不存在的团队分配、重复观测和路径冲突问题。已有研究从多机器人协同探索、多机器人信息采集和任务分配等角度讨论了团队路径规划中的互补覆盖与资源分配问[13][14][15]；多智能体路径规划研究则系统讨论了同格占用、对向换位和时空冲突等执行安全问题[16][17]。对于多 USV 可疑目标搜索，仅将单艇路径规划器简单复制到多艘艇上并不能保证协同收益，必须显式处理共享状态、信息分配和艇间冲突。基于这一认识，本文将研"
+      },
+      {
+        "paragraph_index": 185,
+        "number": 14,
+        "context": "多机器人协同进一步提高了搜索系统的潜在效率，但也引入了单机器人场景中不存在的团队分配、重复观测和路径冲突问题。已有研究从多机器人协同探索、多机器人信息采集和任务分配等角度讨论了团队路径规划中的互补覆盖与资源分配问[13][14][15]；多智能体路径规划研究则系统讨论了同格占用、对向换位和时空冲突等执行安全问题[16][17]。对于多 USV 可疑目标搜索，仅将单艇路径规划器简单复制到多艘艇上并不能保证协同收益，必须显式处理共享状态、信息分配和艇间冲突。基于这一认识，本文将研"
+      },
+      {
+        "paragraph_index": 185,
+        "number": 15,
+        "context": "多机器人协同进一步提高了搜索系统的潜在效率，但也引入了单机器人场景中不存在的团队分配、重复观测和路径冲突问题。已有研究从多机器人协同探索、多机器人信息采集和任务分配等角度讨论了团队路径规划中的互补覆盖与资源分配问[13][14][15]；多智能体路径规划研究则系统讨论了同格占用、对向换位和时空冲突等执行安全问题[16][17]。对于多 USV 可疑目标搜索，仅将单艇路径规划器简单复制到多艘艇上并不能保证协同收益，必须显式处理共享状态、信息分配和艇间冲突。基于这一认识，本文将研"
+      },
+      {
+        "paragraph_index": 185,
+        "number": 16,
+        "context": "多机器人协同进一步提高了搜索系统的潜在效率，但也引入了单机器人场景中不存在的团队分配、重复观测和路径冲突问题。已有研究从多机器人协同探索、多机器人信息采集和任务分配等角度讨论了团队路径规划中的互补覆盖与资源分配问[13][14][15]；多智能体路径规划研究则系统讨论了同格占用、对向换位和时空冲突等执行安全问题[16][17]。对于多 USV 可疑目标搜索，仅将单艇路径规划器简单复制到多艘艇上并不能保证协同收益，必须显式处理共享状态、信息分配和艇间冲突。基于这一认识，本文将研"
+      },
+      {
+        "paragraph_index": 185,
+        "number": 17,
+        "context": "多机器人协同进一步提高了搜索系统的潜在效率，但也引入了单机器人场景中不存在的团队分配、重复观测和路径冲突问题。已有研究从多机器人协同探索、多机器人信息采集和任务分配等角度讨论了团队路径规划中的互补覆盖与资源分配问[13][14][15]；多智能体路径规划研究则系统讨论了同格占用、对向换位和时空冲突等执行安全问题[16][17]。对于多 USV 可疑目标搜索，仅将单艇路径规划器简单复制到多艘艇上并不能保证协同收益，必须显式处理共享状态、信息分配和艇间冲突。基于这一认识，本文将研"
+      },
+      {
+        "paragraph_index": 216,
+        "number": 9,
+        "context": "核函数的本质是定义任意两个输入点处潜在函数值之间的协方差结构，即它决定了模型如何刻画空间相关性、平滑性以及观测之间的相互影响关系。Rasmussen和Williams指出，在高斯过程模型中，协方差函数或核函数直接编码了对未知函数形态的先验假设，因此核函数的选择会显著影响后验预测结果[9]。"
+      },
+      {
+        "paragraph_index": 241,
+        "number": 18,
+        "context": "上置信界（Upper Confidence Bound, UCB）方法最早来源于多臂赌博机问题，其基本思想是在当前收益估计项之外加入不确定性补偿项，从而在“利用当前较优选择”和“探索不确定选择”之间取得平衡[18]。在高斯过程建模场景中，Srinivas 等将该思想扩展为 GP-UCB 方法，利用高斯过程后验均值与后验标准差构造采集函数，使采样点选择同时考虑预测值大小和模型不确定性[10]。本文采用的基础采集函数为 GP-UCB 的工程化形式，即"
+      },
+      {
+        "paragraph_index": 241,
+        "number": 10,
+        "context": "上置信界（Upper Confidence Bound, UCB）方法最早来源于多臂赌博机问题，其基本思想是在当前收益估计项之外加入不确定性补偿项，从而在“利用当前较优选择”和“探索不确定选择”之间取得平衡[18]。在高斯过程建模场景中，Srinivas 等将该思想扩展为 GP-UCB 方法，利用高斯过程后验均值与后验标准差构造采集函数，使采样点选择同时考虑预测值大小和模型不确定性[10]。本文采用的基础采集函数为 GP-UCB 的工程化形式，即"
+      },
+      {
+        "paragraph_index": 252,
+        "number": 11,
+        "context": "在基于高斯过程（GP）的环境建模中，标准采集函数通常根据后验均值与后验不确定性构造，如上置信界形式（UCB）。此类方法能够在高均值区域利用与高不确定区域探索之间取得平衡。然而，在可疑目标搜索任务中，系统关注的往往不只是整体线索场的平滑估计，也包括对异常偏高线索区域、局部高响应区域和潜在可疑热点的敏感性。Blanchard和Sapsis指出，在环境探索与监测任务中，信息型路径规划可以显式面向异常检测目标，而不只是最大化一般意义上的环境信息收益[11]。受此思想启发，本文在标准U"
+      },
+      {
+        "paragraph_index": 253,
+        "number": 12,
+        "context": "高值上尾区域可通过分位数进行刻画。Rayas Fernández等在面向环境分析的信息路径规划研究中指出，当任务关注环境变量的高响应或极端区域时，高分位数可以作为重要估计对象[12]。与此相关，Fossum等在自主海洋采样研究中关注高斯随机场超过阈值的excursion set学习问题[19]，Gotovos等则研究了高斯过程模型下通过主动采样识别函数值超过给定阈值区域的level set estimation问题[20]。这类研究表明，在空间环境建模中，超过某一阈值的区域本"
+      },
+      {
+        "paragraph_index": 253,
+        "number": 19,
+        "context": "高值上尾区域可通过分位数进行刻画。Rayas Fernández等在面向环境分析的信息路径规划研究中指出，当任务关注环境变量的高响应或极端区域时，高分位数可以作为重要估计对象[12]。与此相关，Fossum等在自主海洋采样研究中关注高斯随机场超过阈值的excursion set学习问题[19]，Gotovos等则研究了高斯过程模型下通过主动采样识别函数值超过给定阈值区域的level set estimation问题[20]。这类研究表明，在空间环境建模中，超过某一阈值的区域本"
+      },
+      {
+        "paragraph_index": 253,
+        "number": 20,
+        "context": "高值上尾区域可通过分位数进行刻画。Rayas Fernández等在面向环境分析的信息路径规划研究中指出，当任务关注环境变量的高响应或极端区域时，高分位数可以作为重要估计对象[12]。与此相关，Fossum等在自主海洋采样研究中关注高斯随机场超过阈值的excursion set学习问题[19]，Gotovos等则研究了高斯过程模型下通过主动采样识别函数值超过给定阈值区域的level set estimation问题[20]。这类研究表明，在空间环境建模中，超过某一阈值的区域本"
+      },
+      {
+        "paragraph_index": 266,
+        "number": 21,
+        "context": "除基于高斯过程的clue场外，本文还引入目标强度场（Intensity Field）来显式表示剩余未发现目标在空间上的分布性信念。与clue场不同，clue场描述的是目标诱导环境线索的连续强弱，而强度场则直接描述“某位置仍可能存在多少剩余目标”的期望分布。这种以空间强度函数表示目标存在期望数的思想，与多目标贝叶斯滤波中的probability hypothesis density（PHD）或一阶多目标矩思想具有相似性；PHD在某一区域上的积分可解释为该区域内目标数量的期望值["
+      },
+      {
+        "paragraph_index": 272,
+        "number": 3,
+        "context": "在搜索任务开始前，系统已知目标总数N，但对目标的具体位置无任何先验信息。在贝叶斯搜索理论中，目标位置通常首先由先验概率分布描述，并根据搜索过程中的观测结果逐步更新；当缺乏额外空间先验时，在可搜索区域内采用均匀先验是一种自然的初始化方式[3]。因此，本文将强度场初始化为在所有已知自由栅格上的均匀分布："
+      },
+      {
+        "paragraph_index": 276,
+        "number": 22,
+        "context": "从递推贝叶斯滤波角度看，目标状态估计通常由预测和更新两个步骤组成：预测步骤依据运动模型传播先验分布，更新步骤则利用新观测修正预测分布[22]。在本文中，目标运动状态分为静态和随机游走；其中在动态目标场景下，系统会进一步对强度场执行一步运动预测。若目标运动模式为静态，则有"
+      },
+      {
+        "paragraph_index": 282,
+        "number": 3,
+        "context": "在得到一步预测强度场后，系统根据当前时刻USV的观测结果对其进行更新。若USV在当前传感器覆盖范围内未发现目标，则意味着该区域内目标存在的可能性应当下降。在贝叶斯搜索问题中，未发现目标并不等价于目标不存在，但会根据传感器探测概率降低被搜索区域的后验目标存在概率；本文的未命中更新正是对这一负观测信息的离散栅格化实现[3]。为此，本文对传感器覆盖区域内的强度质量进行衰减更新。"
+      },
+      {
+        "paragraph_index": 297,
+        "number": 23,
+        "context": "在可疑目标搜索过程中，USV的传感器观测并不能被视为永久有效。持续监测与持久覆盖研究通常指出，机器人在动态或不确定环境中并非只需一次性完成区域覆盖，而是需要根据环境变化和信息陈旧程度反复刷新观测；长期未被访问的区域往往具有更高的不确定性或更低的信息可靠性[23]。一方面，传感器存在漏检可能，即某一区域虽然被传感器覆盖，但目标仍可能未被发现；另一方面，在动态目标场景中，目标位置会随时间发生变化，使得早期观测结果对当前状态的解释能力逐渐下降。因此，仅记录某一区域“是否曾被观测”是"
+      },
+      {
+        "paragraph_index": 300,
+        "number": 24,
+        "context": "其中， 为时效性增长尺度， 用于将数值限制在 范围内。当某一区域刚被观测时， 接近 0；随着该区域长时间未被重新覆盖， 逐渐增大并趋近于 1。对于障碍区域，观测时效性设为 0。持续监视问题通常将重访时间或观测间隔作为衡量监视质量的重要因素[24]，本文的观测时效性场则将这一思想转化为路径规划阶段可使用的局部刷新收益。"
+      },
+      {
+        "paragraph_index": 318,
+        "number": 6,
+        "context": "信息驱动路径规划（Information-Driven Path Planning）或信息型路径规划（Informative Path Planning, IPP）正是在这一背景下形成的研究方向。由于机器人平台通常受到时间、能量或行驶距离等预算限制，所以需要在有限预算内规划能够最大化信息获取的路径[6]。这类方法的关注点不是单纯缩短路径，而是使路径服务于环境建模、目标搜索、状态估计或任务决策。"
+      },
+      {
+        "paragraph_index": 321,
+        "number": 25,
+        "context": "Informative Path Planning则强调在已有模型、部分模型或任务相关先验的基础上，选择能够产生高价值观测的路径。其目标不一定是最大化未知区域覆盖，而是最大化与任务有关的信息收益，例如降低目标状态不确定性、提高环境场估计精度、增加目标发现概率或改善后续决策质量。近年的决策型路径规划综述也将Exploration Path Planning与Informative Path Planning作为两类重要研究脉络进行区分[25]。"
+      },
+      {
+        "paragraph_index": 328,
+        "number": 8,
+        "context": "上述形式表明，信息型路径规划的关键不在于某一种固定的信息指标，而在于把感知收益和运动成本放在同一决策目标中。Popović 等关于自适应信息型路径规划的综述也指出，AIPP 问题通常需要在机器人应用背景下统一描述环境模型、观测模型、信息目标和规划约束[8]。"
+      },
+      {
+        "paragraph_index": 329,
+        "number": 7,
+        "context": "在机器人信息采集研究中，也常将路径产生的观测集合视为信息目标的输入，并在有限预算内选择能够带来最大边际信息收益的路径；例如分支定界式信息路径规划、采样式信息采集算法和贝叶斯优化式连续路径规划均采用了类似的问题组织方式[7][35][37]。"
+      },
+      {
+        "paragraph_index": 329,
+        "number": 35,
+        "context": "在机器人信息采集研究中，也常将路径产生的观测集合视为信息目标的输入，并在有限预算内选择能够带来最大边际信息收益的路径；例如分支定界式信息路径规划、采样式信息采集算法和贝叶斯优化式连续路径规划均采用了类似的问题组织方式[7][35][37]。"
+      },
+      {
+        "paragraph_index": 329,
+        "number": 37,
+        "context": "在机器人信息采集研究中，也常将路径产生的观测集合视为信息目标的输入，并在有限预算内选择能够带来最大边际信息收益的路径；例如分支定界式信息路径规划、采样式信息采集算法和贝叶斯优化式连续路径规划均采用了类似的问题组织方式[7][35][37]。"
+      },
+      {
+        "paragraph_index": 332,
+        "number": 8,
+        "context": "近年来，学习型方法被用于提高自适应信息型路径规划的效率、泛化能力和复杂场景适应性[8]。但从问题结构上看，在线自适应并不必然要求采用强化学习或端到端学习策略；它也可以通过显式环境模型、观测更新和启发式或优化式规划器实现。对于需要语义清晰、可解释性较强的搜索基线方法，基于显式信息场和滚动重规划的设计仍然具有直接的工程意义。"
+      },
+      {
+        "paragraph_index": 364,
+        "number": 26,
+        "context": "得到热点簇后，系统需要为每个热点簇选取一个代表性位置，作为后续观测点生成的 anchor。受 Cortes 等在 Coverage Control for Mobile Sensing Networks 中以空间密度加权质心表征感知区域代表位置的思想启发[26]，本文并不简单选取热点簇中的最大值格点，而是先计算热点簇的加权中心。本系统将其中的密度函数替换为本文热点簇内的搜索信息权重。对于簇内任一格点 ，其权重定义为："
+      },
+      {
+        "paragraph_index": 371,
+        "number": 27,
+        "context": "在主动视觉、主动传感器规划和 Next-Best-View 研究中，待观测对象或高价值区域通常并不直接等同于机器人需要到达的位置。由于传感器存在有限视场、有效作用距离、遮挡和可达性约束，规划器通常需要在可达空间中选择能够有效观测目标区域的观测点，而不是简单导航至目标区域中心[27][28][29]。同时，滚动时域观测点规划通常只执行当前阶段最有价值的观测动作，并在获得新观测后重新评估后续观测点[30]。"
+      },
+      {
+        "paragraph_index": 371,
+        "number": 28,
+        "context": "在主动视觉、主动传感器规划和 Next-Best-View 研究中，待观测对象或高价值区域通常并不直接等同于机器人需要到达的位置。由于传感器存在有限视场、有效作用距离、遮挡和可达性约束，规划器通常需要在可达空间中选择能够有效观测目标区域的观测点，而不是简单导航至目标区域中心[27][28][29]。同时，滚动时域观测点规划通常只执行当前阶段最有价值的观测动作，并在获得新观测后重新评估后续观测点[30]。"
+      },
+      {
+        "paragraph_index": 371,
+        "number": 29,
+        "context": "在主动视觉、主动传感器规划和 Next-Best-View 研究中，待观测对象或高价值区域通常并不直接等同于机器人需要到达的位置。由于传感器存在有限视场、有效作用距离、遮挡和可达性约束，规划器通常需要在可达空间中选择能够有效观测目标区域的观测点，而不是简单导航至目标区域中心[27][28][29]。同时，滚动时域观测点规划通常只执行当前阶段最有价值的观测动作，并在获得新观测后重新评估后续观测点[30]。"
+      },
+      {
+        "paragraph_index": 371,
+        "number": 30,
+        "context": "在主动视觉、主动传感器规划和 Next-Best-View 研究中，待观测对象或高价值区域通常并不直接等同于机器人需要到达的位置。由于传感器存在有限视场、有效作用距离、遮挡和可达性约束，规划器通常需要在可达空间中选择能够有效观测目标区域的观测点，而不是简单导航至目标区域中心[27][28][29]。同时，滚动时域观测点规划通常只执行当前阶段最有价值的观测动作，并在获得新观测后重新评估后续观测点[30]。"
+      },
+      {
+        "paragraph_index": 389,
+        "number": 7,
+        "context": "在候选 viewpoint 生成后，系统需要将离散观测点转换为 USV 可执行的运动路径。在信息采集路径规划中，候选观测点通常只是后续轨迹生成的目标或中间约束，最终仍需要通过可执行路径来评价观测收益与运动代价[7][35]。本文采用滚动时域优化思想，即在每一轮只基于当前状态求解有限时域计划，并在执行部分计划后重新更新系统状态与规划结果。因此，本文采用“先生成可达路径，再截断为短时域路径段”的方式。对于每个候选 viewpoint，规划器首先从 USV 当前位置到该 viewp"
+      },
+      {
+        "paragraph_index": 389,
+        "number": 35,
+        "context": "在候选 viewpoint 生成后，系统需要将离散观测点转换为 USV 可执行的运动路径。在信息采集路径规划中，候选观测点通常只是后续轨迹生成的目标或中间约束，最终仍需要通过可执行路径来评价观测收益与运动代价[7][35]。本文采用滚动时域优化思想，即在每一轮只基于当前状态求解有限时域计划，并在执行部分计划后重新更新系统状态与规划结果。因此，本文采用“先生成可达路径，再截断为短时域路径段”的方式。对于每个候选 viewpoint，规划器首先从 USV 当前位置到该 viewp"
+      },
+      {
+        "paragraph_index": 392,
+        "number": 32,
+        "context": "A* 算法是经典的启发式路径搜索方法，其基本思想是在搜索过程中同时考虑从起点到当前节点的已累积路径代价，以及从当前节点到目标节点的启发式估计代价[32][33][34]。设当前扩展节点为 n，A* 算法对节点的评价函数为："
+      },
+      {
+        "paragraph_index": 392,
+        "number": 33,
+        "context": "A* 算法是经典的启发式路径搜索方法，其基本思想是在搜索过程中同时考虑从起点到当前节点的已累积路径代价，以及从当前节点到目标节点的启发式估计代价[32][33][34]。设当前扩展节点为 n，A* 算法对节点的评价函数为："
+      },
+      {
+        "paragraph_index": 392,
+        "number": 34,
+        "context": "A* 算法是经典的启发式路径搜索方法，其基本思想是在搜索过程中同时考虑从起点到当前节点的已累积路径代价，以及从当前节点到目标节点的启发式估计代价[32][33][34]。设当前扩展节点为 n，A* 算法对节点的评价函数为："
+      },
+      {
+        "paragraph_index": 417,
+        "number": 7,
+        "context": "从机器人信息采集角度看，该类评分可以理解为在有限运动预算下对感知收益与执行代价进行统一权衡，其基本思想与信息采集路径规划中的收益最大化和冗余控制问题一致[7][35][36]。"
+      },
+      {
+        "paragraph_index": 417,
+        "number": 35,
+        "context": "从机器人信息采集角度看，该类评分可以理解为在有限运动预算下对感知收益与执行代价进行统一权衡，其基本思想与信息采集路径规划中的收益最大化和冗余控制问题一致[7][35][36]。"
+      },
+      {
+        "paragraph_index": 417,
+        "number": 36,
+        "context": "从机器人信息采集角度看，该类评分可以理解为在有限运动预算下对感知收益与执行代价进行统一权衡，其基本思想与信息采集路径规划中的收益最大化和冗余控制问题一致[7][35][36]。"
+      },
+      {
+        "paragraph_index": 450,
+        "number": 14,
+        "context": "多机器人信息采集研究中，已有工作通过 sequential allocation 等方式将单机器人信息路径规划算法扩展到多机器人场景[14]；从更一般的角度看，多机器人任务分配也常被建模为任务、平台与收益之间的组合优化问题[15]。"
+      },
+      {
+        "paragraph_index": 450,
+        "number": 15,
+        "context": "多机器人信息采集研究中，已有工作通过 sequential allocation 等方式将单机器人信息路径规划算法扩展到多机器人场景[14]；从更一般的角度看，多机器人任务分配也常被建模为任务、平台与收益之间的组合优化问题[15]。"
+      },
+      {
+        "paragraph_index": 452,
+        "number": 7,
+        "context": "多艇信息收益通常不是各艇局部收益的简单相加。原因在于，两条路径段可能覆盖同一片区域，而同一区域被重复观察并不会带来等量新增信息。信息采集问题中，多个观测位置或多条路径之间常存在信息冗余，团队收益更接近于对观测集合并集的评价，而不是各单体收益的简单求和[7][14][35]，其一般形式可概括为："
+      },
+      {
+        "paragraph_index": 452,
+        "number": 14,
+        "context": "多艇信息收益通常不是各艇局部收益的简单相加。原因在于，两条路径段可能覆盖同一片区域，而同一区域被重复观察并不会带来等量新增信息。信息采集问题中，多个观测位置或多条路径之间常存在信息冗余，团队收益更接近于对观测集合并集的评价，而不是各单体收益的简单求和[7][14][35]，其一般形式可概括为："
+      },
+      {
+        "paragraph_index": 452,
+        "number": 35,
+        "context": "多艇信息收益通常不是各艇局部收益的简单相加。原因在于，两条路径段可能覆盖同一片区域，而同一区域被重复观察并不会带来等量新增信息。信息采集问题中，多个观测位置或多条路径之间常存在信息冗余，团队收益更接近于对观测集合并集的评价，而不是各单体收益的简单求和[7][14][35]，其一般形式可概括为："
+      },
+      {
+        "paragraph_index": 456,
+        "number": 15,
+        "context": "多机器人系统中的协同通常涉及任务分配、资源竞争和路径冲突等问题[15]。本文的多艇协同搜索同时处理了三类问题。第一类是分工问题，即如何使不同 USV 自然倾向不同区域，避免所有平台被同一局部热点吸引。第二类是冗余问题，即当多个路径段的传感器覆盖范围重叠时，如何在团队评分中降低重复覆盖的优先级。第三类是冲突问题，同格占用和路径换位冲突也是多智能体路径规划研究中的典型冲突形式[16]，即多艘艇在同一地图中同步运动时，如何避免同一时刻占据同一位置、对向换位或近距离擦碰。"
+      },
+      {
+        "paragraph_index": 456,
+        "number": 16,
+        "context": "多机器人系统中的协同通常涉及任务分配、资源竞争和路径冲突等问题[15]。本文的多艇协同搜索同时处理了三类问题。第一类是分工问题，即如何使不同 USV 自然倾向不同区域，避免所有平台被同一局部热点吸引。第二类是冗余问题，即当多个路径段的传感器覆盖范围重叠时，如何在团队评分中降低重复覆盖的优先级。第三类是冲突问题，同格占用和路径换位冲突也是多智能体路径规划研究中的典型冲突形式[16]，即多艘艇在同一地图中同步运动时，如何避免同一时刻占据同一位置、对向换位或近距离擦碰。"
+      },
+      {
+        "paragraph_index": 473,
+        "number": 26,
+        "context": "为鼓励两艇形成自然分散的搜索趋势，本文在任务初始化阶段构造静态软责任区先验。受移动传感网络覆盖控制中基于空间划分和责任区域形成协同覆盖的思想启发[26]，本文将该先验定为基于两艇固定起点到地图各自由栅格的已知地图最短路距离。对第 i 艘 USV，其到自由格 x 的责任距离定义为："
+      },
+      {
+        "paragraph_index": 490,
+        "number": 1,
+        "context": "其中，S(x) 表示共享综合信息价值场， 表示第 i 艘艇的责任分数。由于责任分数被限制在 [-1,1]，该乘性调制最多将局部搜索价值放大到 1.25 倍或压低到 0.75 倍。该设置只改变当前 USV 内部候选路径段的排序倾向，不修改共享 本身。"
+      },
+      {
+        "paragraph_index": 494,
+        "number": 14,
+        "context": "Sequential allocation 是多机器人信息路径规划中常用的轻量级协同思想，其基本做法是依次为机器人分配路径，并在后续分配中考虑已分配路径带来的边际信息变化[14]。在中心化团队状态下，一种直接但有效的协同方式是顺序分配。其基本思想是：先为一艘艇分配路径段，再将该路径段计划观察的区域从剩余信息收益中扣除，随后为下一艘艇在剩余信息图上规划路径。该方法能够以较低计算复杂度表达“先分配区域不应被后续路径重复争夺”的边际收益思想。"
+      },
+      {
+        "paragraph_index": 509,
+        "number": 17,
+        "context": "Reservation table 是 cooperative pathfinding 中常见的时空占用记录方式，用于使后规划个体避开优先个体已经预约的位置或边[17]，此外还包括同格冲突和对向换位冲突[16]，三者均为多智能体路径规划中的典型冲突类型。"
+      },
+      {
+        "paragraph_index": 509,
+        "number": 16,
+        "context": "Reservation table 是 cooperative pathfinding 中常见的时空占用记录方式，用于使后规划个体避开优先个体已经预约的位置或边[17]，此外还包括同格冲突和对向换位冲突[16]，三者均为多智能体路径规划中的典型冲突类型。"
+      },
+      {
+        "paragraph_index": 524,
+        "number": 7,
+        "context": "从信息采集角度看，重复观测同一区域通常只能带来有限的新增信息，因此团队评分中需要体现边际收益下降或冗余抑制机制[7][14][35]。为了避免两艇重复观察同一区域，团队分配层对每艘艇的路径段计算观测覆盖区域重叠比例。设 为第 i 艘艇路径段的可见区域， 为在该艇之前已经分配的可见区域集合，则："
+      },
+      {
+        "paragraph_index": 524,
+        "number": 14,
+        "context": "从信息采集角度看，重复观测同一区域通常只能带来有限的新增信息，因此团队评分中需要体现边际收益下降或冗余抑制机制[7][14][35]。为了避免两艇重复观察同一区域，团队分配层对每艘艇的路径段计算观测覆盖区域重叠比例。设 为第 i 艘艇路径段的可见区域， 为在该艇之前已经分配的可见区域集合，则："
+      },
+      {
+        "paragraph_index": 524,
+        "number": 35,
+        "context": "从信息采集角度看，重复观测同一区域通常只能带来有限的新增信息，因此团队评分中需要体现边际收益下降或冗余抑制机制[7][14][35]。为了避免两艇重复观察同一区域，团队分配层对每艘艇的路径段计算观测覆盖区域重叠比例。设 为第 i 艘艇路径段的可见区域， 为在该艇之前已经分配的可见区域集合，则："
+      }
+    ],
+    "first_appearance_matches_1_to_n": false,
+    "uncited_reference_numbers": [],
+    "cited_numbers_without_reference": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  "format_findings": [],
+  "item_findings": [
+    {
+      "index": 633,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Liu Z, Zhang Y, Yu X, Yuan C. Unmanned surface vehicles: An overview of developments and challenges[J]. Annual Reviews in Control, 2016, 41: 71-93."
+    },
+    {
+      "index": 634,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Manley J E. Unmanned surface vehicles, 15 years of development[C]//OCEANS 2008. IEEE, 2008: 1-4."
+    },
+    {
+      "index": 635,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Chung T H, Hollinger G A, Isler V. Search and pursuit-evasion in mobile robotics[J]. Autonomous Robots, 2011, 31(4): 299-316."
+    },
+    {
+      "index": 636,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Elfes A. Using occupancy grids for mobile robot perception and navigation[J]. Computer, 1989, 22(6): 46-57."
+    },
+    {
+      "index": 637,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Yamauchi B. A frontier-based approach for autonomous exploration[C]//Proceedings 1997 IEEE International Symposium on Computational Intelligence in Robotics and Automation. 1997: 146-151."
+    },
+    {
+      "index": 638,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Bai S, Shan T, Chen F, Liu L, Englot B. Information-driven path planning[J]. Current Robotics Reports, 2021, 2: 177-188."
+    },
+    {
+      "index": 638,
+      "issue": "作者数疑似超过三位但未使用等/et al.",
+      "text": "Bai S, Shan T, Chen F, Liu L, Englot B. Information-driven path planning[J]. Current Robotics Reports, 2021, 2: 177-188."
+    },
+    {
+      "index": 639,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Hollinger G A, Sukhatme G S. Sampling-based robotic information gathering algorithms[J]. The International Journal of Robotics Research, 2014, 33(9): 1271-1287."
+    },
+    {
+      "index": 640,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Popović M, Ott J, Rückin J, Kochenderfer M J. Learning-based methods for adaptive informative path planning[J]. Robotics and Autonomous Systems, 2024, 179: 104727."
+    },
+    {
+      "index": 641,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Rasmussen C E, Williams C K I. Gaussian Processes for Machine Learning[M]. Cambridge, MA: MIT Press, 2006."
+    },
+    {
+      "index": 642,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Srinivas N, Krause A, Kakade S M, Seeger M. Gaussian process optimization in the bandit setting: No regret and experimental design[C]//Proceedings of the 27th International Conference on Machine Learning. 2010: 1015-1022."
+    },
+    {
+      "index": 643,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Blanchard A, Sapsis T. Informative path planning for anomaly detection in environment exploration and monitoring[J]. Ocean Engineering, 2022, 243: 110242."
+    },
+    {
+      "index": 644,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Rayas Fernández I M, Denniston C E, Caron D A, Sukhatme G S. Informative Path Planning to Estimate Quantiles for Environmental Analysis[J]. IEEE Robotics and Automation Letters, 2022, 7(4): 10280-10287."
+    },
+    {
+      "index": 645,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Burgard W, Moors M, Stachniss C, Schneider F E. Coordinated multi-robot exploration[J]. IEEE Transactions on Robotics, 2005, 21(3): 376-386."
+    },
+    {
+      "index": 646,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Singh A, Krause A, Guestrin C, Kaiser W J. Efficient informative sensing using multiple robots[J]. Journal of Artificial Intelligence Research, 2009, 34: 707-755."
+    },
+    {
+      "index": 647,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Gerkey B P, Matarić M J. A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems[J]. The International Journal of Robotics Research, 2004, 23(9): 939-954."
+    },
+    {
+      "index": 648,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Sharon G, Stern R, Felner A, Sturtevant N R. Conflict-Based Search for Optimal Multi-Agent Pathfinding[J]. Artificial Intelligence, 2015, 219: 40-66."
+    },
+    {
+      "index": 649,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Silver D. Cooperative pathfinding[C]//Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment. 2005."
+    },
+    {
+      "index": 650,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Auer P, Cesa-Bianchi N, Fischer P. Finite-time analysis of the multiarmed bandit problem[J]. Machine Learning, 2002, 47(2-3): 235-256."
+    },
+    {
+      "index": 651,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Fossum T O, Travelletti C, Eidsvik J, Ginsbourger D, Rajan K. Learning excursion sets of vector-valued Gaussian random fields for autonomous ocean sampling[J]. The Annals of Applied Statistics, 2021, 15(2)."
+    },
+    {
+      "index": 651,
+      "issue": "作者数疑似超过三位但未使用等/et al.",
+      "text": "Fossum T O, Travelletti C, Eidsvik J, Ginsbourger D, Rajan K. Learning excursion sets of vector-valued Gaussian random fields for autonomous ocean sampling[J]. The Annals of Applied Statistics, 2021, 15(2)."
+    },
+    {
+      "index": 652,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Gotovos A, Casati N, Hitz G, Krause A. Active Learning for Level Set Estimation[C]//IJCAI. 2013: 1344-1350."
+    },
+    {
+      "index": 653,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Mahler R P S. Multitarget Bayes filtering via first-order multitarget moments[J]. IEEE Transactions on Aerospace and Electronic Systems, 2003, 39(4): 1152-1178."
+    },
+    {
+      "index": 654,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Särkkä S. Bayesian Filtering and Smoothing[M]. Cambridge: Cambridge University Press, 2013."
+    },
+    {
+      "index": 655,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Smith S L, Schwager M, Rus D. Persistent robotic tasks: Monitoring and sweeping in changing environments[J]. IEEE Transactions on Robotics, 2012, 28(2): 410-426."
+    },
+    {
+      "index": 656,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Nigam N. The multiple unmanned air vehicle persistent surveillance problem: A review[J]. Machines, 2014, 2(1): 13-72."
+    },
+    {
+      "index": 657,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Vivaldini K C T, Pěnička R, Saska M. Decision-Making-Based Path Planning for Autonomous UAVs: A Survey[EB/OL]. arXiv:2508.09304, 2025."
+    },
+    {
+      "index": 658,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Cortes J, Martinez S, Karatas T, Bullo F. Coverage control for mobile sensing networks[J]. IEEE Transactions on Robotics and Automation, 2004, 20(2): 243-255."
+    },
+    {
+      "index": 659,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Zeng R, Wen Y, Zhao W, Liu Y J. View planning in robot active vision: A survey of systems, algorithms, and applications[J]. Computational Visual Media, 2020, 6: 225-245."
+    },
+    {
+      "index": 660,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Chen S, Li Y F, Zhang J, Wang W. Active Sensor Planning for Multiview Vision Tasks[M]. Berlin, Heidelberg: Springer, 2008."
+    },
+    {
+      "index": 661,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Potthast C, Sukhatme G S. A probabilistic framework for next best view estimation in a cluttered environment[J]. Journal of Visual Communication and Image Representation, 2014, 25(1): 148-164."
+    },
+    {
+      "index": 662,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Bircher A, Kamel M, Alexis K, Oleynikova H, Siegwart R. Receding horizon Next-Best-View planner for 3D exploration[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2016: 1462-1468."
+    },
+    {
+      "index": 662,
+      "issue": "作者数疑似超过三位但未使用等/et al.",
+      "text": "Bircher A, Kamel M, Alexis K, Oleynikova H, Siegwart R. Receding horizon Next-Best-View planner for 3D exploration[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2016: 1462-1468."
+    },
+    {
+      "index": 663,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Thrun S, Burgard W, Fox D. Probabilistic Robotics[M]. Cambridge, MA: MIT Press, 2005."
+    },
+    {
+      "index": 664,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Hart P E, Nilsson N J, Raphael B. A formal basis for the heuristic determination of minimum cost paths[J]. IEEE Transactions on Systems Science and Cybernetics, 1968, 4(2): 100-107."
+    },
+    {
+      "index": 665,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Russell S J, Norvig P. Artificial Intelligence: A Modern Approach[M]. 4th ed. Pearson, 2021."
+    },
+    {
+      "index": 666,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "LaValle S M. Planning Algorithms[M]. Cambridge: Cambridge University Press, 2006."
+    },
+    {
+      "index": 667,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Binney J, Sukhatme G S. Branch and bound for informative path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2012: 2147-2154."
+    },
+    {
+      "index": 668,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Krause A, Guestrin C. Submodularity and its applications in optimized information gathering[J]. ACM Transactions on Intelligent Systems and Technology, 2011, 2(4): Article 32."
+    },
+    {
+      "index": 669,
+      "issue": "未按［序号］或[序号]开头",
+      "text": "Marchant R, Ramos F. Bayesian optimisation for informative continuous path planning[C]//Proceedings of IEEE International Conference on Robotics and Automation. 2014: 6136-6143."
+    }
+  ],
+  "notes": [
+    "本报告只读取docx XML，不修改文档。",
+    "英文题名大小写、标点全角/半角和作者三位以上规则只能由脚本初筛，最终仍需人工确认。"
+  ]
+}

@@ -1,0 +1,1235 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "appendix_title": {
+    "body_child_index": 687,
+    "text": "附    录",
+    "compact": "附录",
+    "spacing_check": {
+      "matches_appendix_title_pattern": true,
+      "space_chars": 4,
+      "fullwidth_spaces": 0,
+      "ascii_spaces": 4,
+      "raw_between": "    "
+    },
+    "format": {
+      "style": null,
+      "line": "240",
+      "lineRule": "auto",
+      "beforePt": 24.0,
+      "afterPt": 18.0,
+      "jc": "center",
+      "linePt": 12.0
+    },
+    "runs": [
+      {
+        "text": "附    录",
+        "fonts": {
+          "ascii": "黑体",
+          "hAnsi": "黑体",
+          "eastAsia": "黑体"
+        },
+        "sizePt": 16.0,
+        "bold": true
+      }
+    ]
+  },
+  "appendix_content_count": 530,
+  "caption_count": 8,
+  "captions": [
+    {
+      "body_child_index": 688,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-5 静态目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 690,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-5续 静态目标模式下双艇 UCB independent 与 coordinated 对比统计",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 692,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-7 随机游走目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 694,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-7续 随机游走目标模式下双艇 UCB independent 与 coordinated 对比样本统计",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 696,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-10 单艇 static 模式下 UCB 与 anomaly_aware 对比",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 698,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-11 单艇 random_walk 模式下 UCB 与 anomaly_aware 对比",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 700,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-13 双艇 coordinated static 模式下 UCB 与 anomaly_aware 对比",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 703,
+      "container": "body",
+      "caption_kind": "table",
+      "text": "表5-14 双艇 coordinated random_walk 模式下 UCB 与 anomaly_aware 对比",
+      "numbering_issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    }
+  ],
+  "title_findings": [],
+  "numbering_issues": [
+    {
+      "body_child_index": 688,
+      "text": "表5-5 静态目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 690,
+      "text": "表5-5续 静态目标模式下双艇 UCB independent 与 coordinated 对比统计",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 692,
+      "text": "表5-7 随机游走目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 694,
+      "text": "表5-7续 随机游走目标模式下双艇 UCB independent 与 coordinated 对比样本统计",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 696,
+      "text": "表5-10 单艇 static 模式下 UCB 与 anomaly_aware 对比",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 698,
+      "text": "表5-11 单艇 random_walk 模式下 UCB 与 anomaly_aware 对比",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 700,
+      "text": "表5-13 双艇 coordinated static 模式下 UCB 与 anomaly_aware 对比",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    },
+    {
+      "body_child_index": 703,
+      "text": "表5-14 双艇 coordinated random_walk 模式下 UCB 与 anomaly_aware 对比",
+      "caption_kind": "table",
+      "issue": "附录表编号仍使用正文式章节编号，未另行编为表1、表2等。"
+    }
+  ],
+  "content_format_issue_count": 530,
+  "content_format_issues_sample": [
+    {
+      "body_child_index": 688,
+      "container": "body",
+      "text": "表5-5 静态目标模式下双艇 UCB independent 与 coordinated 对比结果",
+      "issues": [
+        "中文字体不是宋体，检测为 {'ascii': '宋体', 'hAnsi': '宋体'}。",
+        "行距不是固定值20磅，lineRule=auto, linePt=12.0。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "地图",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "方法",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "T_first",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "T_all",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "obs（%）",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "duplicate（%）",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "cross（%）",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "wait",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "总体",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "80.3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "156.5",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "56.6",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "4.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "32.3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "open_water",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "76.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "141.8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "49.6",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "28.1",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.6",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "obstacle_field",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "51.5",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "157.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "59.5",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "7.8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "26.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "1.2",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "peninsula_passage",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "111.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "212.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "60.5",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "6.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "42.1",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "总体",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "64.1",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "171.3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "70.4",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "1.8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "open_water",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "73.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "128.8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "65.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "3.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "obstacle_field",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "46.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "168.4",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "72.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.9",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "peninsula_passage",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "71.6",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "208.2",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "73.2",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "1.4",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 689,
+      "container": "table",
+      "text": "0.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 690,
+      "container": "body",
+      "text": "表5-5续 静态目标模式下双艇 UCB independent 与 coordinated 对比统计",
+      "issues": [
+        "中文字体不是宋体，检测为 {'ascii': '宋体', 'hAnsi': '宋体'}。",
+        "行距不是固定值20磅，lineRule=auto, linePt=12.0。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "地图",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "方法",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "n",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "n_first",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "n_all",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "success（%）",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "detection（%）",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "总体",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "30",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "28",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "26.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "61.1",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "open_water",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "4",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "40.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "60.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "obstacle_field",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "30.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "70.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "peninsula_passage",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "independent",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "1",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10.0",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "53.3",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "总体",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "30",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "30",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "14",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "46.7",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "77.8",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "open_water",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "coordinated",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    },
+    {
+      "body_child_index": 691,
+      "container": "table",
+      "text": "10",
+      "issues": [
+        "字号不是五号10.5pt，检测为 7.5pt。",
+        "行距不是固定值20磅，lineRule=None, linePt=None。"
+      ]
+    }
+  ],
+  "notes": [
+    "本报告只读取docx XML，不修改文档。",
+    "表格单元格内段落已纳入附录内容格式检查。",
+    "附录标题两字间距按2个全角空格或4个半角空格视为可能符合。"
+  ]
+}

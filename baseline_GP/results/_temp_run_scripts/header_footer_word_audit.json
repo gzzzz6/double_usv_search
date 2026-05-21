@@ -1,0 +1,405 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "sections": [
+    {
+      "section": 1,
+      "startAdjustedPage": 1,
+      "endAdjustedPage": 2,
+      "startPhysicalPage": 1,
+      "endPhysicalPage": 2,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": false,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 2,
+      "startAdjustedPage": 3,
+      "endAdjustedPage": 10,
+      "startPhysicalPage": 3,
+      "endPhysicalPage": 10,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": false,
+          "startingNumber": 0,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    },
+    {
+      "section": 3,
+      "startAdjustedPage": 1,
+      "endAdjustedPage": 48,
+      "startPhysicalPage": 11,
+      "endPhysicalPage": 58,
+      "differentFirstPageHeaderFooter": false,
+      "headers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "宋体",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "justify",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footers": {
+        "primary": {
+          "exists": true,
+          "linkToPrevious": false,
+          "text": "1",
+          "paragraph": {
+            "text": "1",
+            "alignment": "center",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": [
+            {
+              "type": 33,
+              "code": "PAGE   \\* MERGEFORMAT",
+              "result": "1",
+              "isPage": true
+            }
+          ]
+        },
+        "first": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        },
+        "even": {
+          "exists": false,
+          "linkToPrevious": true,
+          "text": "",
+          "paragraph": {
+            "text": "",
+            "alignment": "left",
+            "fontName": "Times New Roman",
+            "fontNameFarEast": "宋体",
+            "fontSize": 9.0,
+            "bold": 0,
+            "bottomBorderLineStyle": 0,
+            "bottomBorderLineWidth": 6
+          },
+          "fields": []
+        }
+      },
+      "footerPageNumbers": {
+        "primary": {
+          "count": 1,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "first": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        },
+        "even": {
+          "count": 0,
+          "restartNumberingAtSection": true,
+          "startingNumber": 1,
+          "numberStyle": "arabic",
+          "showFirstPageNumber": true
+        }
+      }
+    }
+  ]
+}

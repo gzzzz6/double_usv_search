@@ -1,0 +1,38 @@
+{
+  "slide8_title": "多源搜索状态建模",
+  "slide8_subtitle": "Intensity 信念场更新——目标清隔与质量再分配机制",
+  "intro": "本系统的 Intensity 信念场包含两种性质截然不同的更新机制，分别对应“传感器空扫未命中”和“目标被确证捕获”两种物理事件，不可混淡。",
+  "miss_header": "Miss Update — 空扫未命中  →  贝叶斯概率衰减",
+  "miss_event_title": "物理事件",
+  "miss_event_body": [
+    "USV 传感器完整扫描了网格 x，但未探测到目标信号（返回空扫结果）。",
+    "此时说明目标在该网格的概率应当降低，贝叶斯法则给出概率向下衰减。"
+  ],
+  "miss_formula": "updated[x, y]  *=  (1.0 - p_detect(x))",
+  "miss_formula_label": "核心操作：对传感器视场内每格，按探测概率做乘法衰减",
+  "miss_props_title": "关键属性",
+  "miss_props_body": [
+    "概率不归零：因为传感器有漏检率 (p_detect < 1)，空扫后仍保留残余概率，防止错误丢弃真实目标。",
+    "质量守恒选项：preserve_total_mass=True 时，衰减后质量被重归一化，全场期望目标总数维持不变。",
+    "越扫越收敛：同一网格被反复空扫后，概率趋近于 0，引导 USV 转向仍具搜索价値的区域。"
+  ],
+  "miss_compare": "与标准贝叶斯更新逻辑一致（观测后概率下降）",
+  "hit_header": "Hit Update — 确证命中  →  目标清隔 + 质量再分配",
+  "hit_event_title": "物理事件",
+  "hit_event_body": [
+    "传感器在 (hx, hy) 处确证探测到目标（触发 Hit 事件），目标被锁定计入统计，该位置搜索价値归零。",
+    "这不是“痑似信号使概率上升”，而是“已发现目标，此处清账”的操作。"
+  ],
+  "step1_label": "步骤1  清零探测区",
+  "step1_body": "命中点邻域 r_hit 范围内所有格子强制清零：\nupdated[x, y] = 0.0\n并标记 excluded_mask = True",
+  "step2_label": "步骤2  扣减剩余目标数",
+  "step2_body": "全场期望目标总量扣减：\nresolved = mass_before - hit_count\n已找到 k 个目标后，全场剩余期望目标减少 k 个。",
+  "step3_label": "步骤3  质量再分配",
+  "step3_body": "将剩余质量等比分配至非排除网格：\nupdated *= resolved / current_mass\n驱动 USV 转向新的高价値区域继续搜索。",
+  "hit_formula": "resolved_mass = max(mass_before - hit_count, 0.0)\nupdated       = renormalize(updated, resolved_mass, exclude=hit_area)",
+  "hit_formula_label": "核心操作代码逻辑  (core_intensity.py: hit_update_intensity)",
+  "hit_intent_body": [
+    "将已捕获目标的概率质量从其探测区涂去，剩余质量重新扩散至全场未排除区域，使信念场精确反映“已发现 k 个、剩余 N-k 个目标未知”的状态，逻辑自洽且数値稳健。"
+  ],
+  "summary": "Miss Update 保留概率但向下衰减（贝叶斯），Hit Update 直接清除目标区域并重新分配全局质量（目标注销 + 场重归一化）。两种机制共同维护 Intensity 信念场的数値一致性与物理可解释性。"
+}

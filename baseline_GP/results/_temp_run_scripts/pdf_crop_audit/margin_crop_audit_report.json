@@ -1,0 +1,1461 @@
+{
+  "docx_path": "F:\\pythonprojects\\信息科学与工程学院_320220938891_郭一泽.docx",
+  "targets_cm": {
+    "top": 2.5,
+    "bottom": 2.5,
+    "left": 2.5,
+    "right": 2.0,
+    "header": 1.5,
+    "footer": 1.5
+  },
+  "word_layout": {
+    "section_count": 7,
+    "page_count_word": 61,
+    "sections": [
+      {
+        "section": 1,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 2,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 3,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 4,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 5,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 6,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      },
+      {
+        "section": 7,
+        "values_cm": {
+          "top": 2.499430501101081,
+          "bottom": 2.499430501101081,
+          "left": 2.499430501101081,
+          "right": 2.000250026414746,
+          "header": 1.5010694171543686,
+          "footer": 1.499305555180729,
+          "page_width": 21.000860675223958,
+          "page_height": 29.700361964959892,
+          "orientation": 0
+        },
+        "checks": {
+          "top": true,
+          "bottom": true,
+          "left": true,
+          "right": true,
+          "header": true,
+          "footer": true
+        }
+      }
+    ],
+    "pdf_exported": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\信息科学与工程学院_320220938891_郭一泽_margin_crop_audit.pdf"
+  },
+  "pdf_edge_audit": {
+    "rendered_pages": 61,
+    "edge_scan_border_px": 4,
+    "edge_scan_near_px": 24,
+    "pages_touching_outer_border": [],
+    "pages": [
+      {
+        "page": 1,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-01.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 2,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-02.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 3,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-03.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 4,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-04.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 5,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-05.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 6,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-06.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 7,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-07.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 8,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-08.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 9,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-09.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 10,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-10.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 11,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-11.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 12,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-12.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 13,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-13.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 14,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-14.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 15,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-15.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 16,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-16.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 17,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-17.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 18,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-18.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 19,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-19.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 20,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-20.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 21,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-21.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 22,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-22.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 23,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-23.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 24,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-24.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 25,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-25.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 26,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-26.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 27,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-27.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 28,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-28.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 29,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-29.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 30,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-30.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 31,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-31.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 32,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-32.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 33,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-33.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 34,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-34.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 35,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-35.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 36,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-36.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 37,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-37.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 38,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-38.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 39,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-39.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 40,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-40.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 41,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-41.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 42,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-42.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 43,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-43.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 44,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-44.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 45,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-45.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 46,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-46.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 47,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-47.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 48,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-48.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 49,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-49.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 50,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-50.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 51,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-51.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 52,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-52.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 53,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-53.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 54,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-54.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 55,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-55.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 56,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-56.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 57,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-57.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 58,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-58.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 59,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-59.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 48
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 60,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-60.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      },
+      {
+        "page": 61,
+        "image": "F:\\pythonprojects\\baseline_GP\\results\\_temp_run_scripts\\pdf_crop_audit\\page-61.png",
+        "size_px": [
+          992,
+          1404
+        ],
+        "border_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_edge_nonwhite_px": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "touches_outer_border": false
+      }
+    ]
+  }
+}

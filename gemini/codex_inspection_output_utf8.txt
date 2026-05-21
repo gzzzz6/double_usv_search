@@ -1,0 +1,845 @@
+Total slides in codex: 25
+
+=========================================
+Slide Index 5 (Slide 6)
+=========================================
+Total shapes: 49
+
+Shape 0: '鐭╁舰 2', type=AUTO_SHAPE (1)
+  Pos: L=0, T=0, W=12192000, H=783590
+  Fill Color: #2F5797
+  Line Color: #2F5797
+
+Shape 1: '鍥剧墖 57', type=PICTURE (13)
+  Pos: L=173355, T=99060, W=586105, H=586105
+
+Shape 2: '鏂囨湰妗?58', type=TEXT_BOX (17)
+  Pos: L=889000, T=158750, W=4381500, H=384721
+  Text: '澶氭簮鎼滅储鐘舵€佸缓妯?
+  Font: name=寰蒋闆呴粦, size=317500, bold=True
+  Font Color: #FFFFFF
+
+Shape 3: '鏂囨湰妗?59', type=TEXT_BOX (17)
+  Pos: L=5636260, T=228600, W=1193800, H=207749
+  Text: '鑳屾櫙鍜屾剰涔?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 4: '鏂囨湰妗?60', type=TEXT_BOX (17)
+  Pos: L=6903720, T=228600, W=1193800, H=207749
+  Text: '鎬讳綋鎶€鏈矾绾?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 5: '鏂囨湰妗?61', type=TEXT_BOX (17)
+  Pos: L=8172450, T=228600, W=1193800, H=207749
+  Text: '鎬濊矾鍜屽唴瀹?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 6: '鏂囨湰妗?62', type=TEXT_BOX (17)
+  Pos: L=9441180, T=228600, W=1193800, H=207749
+  Text: '杩囩▼鍜屾柟娉?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 7: '鏂囨湰妗?63', type=TEXT_BOX (17)
+  Pos: L=10709910, T=228600, W=1193800, H=207749
+  Text: '鎴愭灉涓庡睍鏈?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 8: '鐩存帴绠ご杩炴帴绗?64', type=LINE (9)
+  Pos: L=8204200, T=574040, W=1104900, H=0
+  Line Color: #FFFFFF
+  Line width: 1.30pt
+
+Shape 9: '鐭╁舰 65', type=AUTO_SHAPE (1)
+  Pos: L=0, T=783590, W=12192000, H=554355
+  Fill Color: #EEF2F7
+  Line Color: #EEF2F7
+
+Shape 10: '鏂囨湰妗?66', type=TEXT_BOX (17)
+  Pos: L=416560, T=914400, W=304800, H=292388
+  Text: '鉃?
+  Font: name=寰蒋闆呴粦, size=241300, bold=True
+  Font Color: #1D3F78
+
+Shape 11: '鏂囨湰妗?67', type=TEXT_BOX (17)
+  Pos: L=952500, T=857250, W=10604500, H=369332
+  Text: '涓夌淮浜掕ˉ鐨勪俊鎭満'
+  Font: name=寰蒋闆呴粦, size=304800, bold=True
+  Font Color: #1D3F78
+
+Shape 12: '鏂囨湰妗?68', type=TEXT_BOX (17)
+  Pos: L=711200, T=1434828, W=7248434, H=203133
+  Text: '娴蜂笂鎼滅储涓娴嬫湁闄愪笖甯﹀櫔锛屽崟涓€淇℃伅婧愰毦浠ュ悓鏃惰〃杈剧嚎绱㈠己搴︺€佺洰鏍囧瓨鍦ㄤ俊蹇典笌瑙傛祴鍒锋柊闇€姹傘€?
+  Font: name=寰蒋闆呴粦, size=167640, bold=None
+  Font Color: #5C6A7A
+
+Shape 13: '鐭╁舰: 鍦嗚 69', type=AUTO_SHAPE (1)
+  Pos: L=736600, T=2032000, W=4800600, H=3200400
+  Fill Color: #F8FBFF
+  Line Color: #B5CBE8
+  Line width: 1.30pt
+
+Shape 14: '鐭╁舰: 鍦嗚 70', type=AUTO_SHAPE (1)
+  Pos: L=1174750, T=2128883, W=1905000, H=355600
+  Text: '鍗曚竴淇℃伅婧愮殑灞€闄?
+  Fill Color: #2F5797
+  Line Color: #2F5797
+  Font: name=寰蒋闆呴粦, size=165100, bold=True
+  Font Color: #FFFFFF
+
+Shape 15: '鐭╁舰: 鍦嗚 71', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=2540493, W=4038600, H=812800
+  Fill Color: #FFFFFF
+  Line Color: #C8D8EE
+  Line width: 1.10pt
+
+Shape 16: '鐭╁舰 72', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=2540493, W=88900, H=812800
+  Fill Color: #006FBE
+  Line Color: #006FBE
+
+Shape 17: '鏂囨湰妗?73', type=TEXT_BOX (17)
+  Pos: L=1358900, T=2642093, W=3429000, H=196977
+  Text: 'GP Clue'
+  Font: name=寰蒋闆呴粦, size=162560, bold=True
+  Font Color: #006FBE
+
+Shape 18: '鏂囨湰妗?74', type=TEXT_BOX (17)
+  Pos: L=1358900, T=2921493, W=3530600, H=156966
+  Text: '鍙帹鏂嚎绱㈢儹鐐癸紝浣嗗彈閲囨牱绋€鐤忓拰瑙傛祴鍣０闄愬埗銆?
+  Font: name=寰蒋闆呴粦, size=129540, bold=None
+  Font Color: #1C2E47
+
+Shape 19: '鐭╁舰: 鍦嗚 75', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=3429493, W=4038600, H=812800
+  Fill Color: #FFFFFF
+  Line Color: #C8D8EE
+  Line width: 1.10pt
+
+Shape 20: '鐭╁舰 76', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=3429493, W=88900, H=812800
+  Fill Color: #2E7D58
+  Line Color: #2E7D58
+
+Shape 21: '鏂囨湰妗?77', type=TEXT_BOX (17)
+  Pos: L=1358900, T=3531093, W=3429000, H=196977
+  Text: 'Intensity'
+  Font: name=寰蒋闆呴粦, size=162560, bold=True
+  Font Color: #2E7D58
+
+Shape 22: '鏂囨湰妗?78', type=TEXT_BOX (17)
+  Pos: L=1358900, T=3810493, W=3530600, H=313932
+  Text: '鑳藉弽搴旂洰鏍囧瓨鍦ㄤ俊蹇碉紝浣嗘洿鏂拌川閲忓彈鎺㈡祴鑼冨洿銆佹紡妫€鍜屽巻鍙插弽棣堢疮绉奖鍝嶃€?
+  Font: name=寰蒋闆呴粦, size=129540, bold=None
+  Font Color: #1C2E47
+
+Shape 23: '鐭╁舰: 鍦嗚 79', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=4318493, W=4038600, H=812800
+  Fill Color: #FFFFFF
+  Line Color: #C8D8EE
+  Line width: 1.10pt
+
+Shape 24: '鐭╁舰 80', type=AUTO_SHAPE (1)
+  Pos: L=1104900, T=4318493, W=88900, H=812800
+  Fill Color: #D97706
+  Line Color: #D97706
+
+Shape 25: '鏂囨湰妗?81', type=TEXT_BOX (17)
+  Pos: L=1358900, T=4420093, W=3429000, H=196977
+  Text: 'Recency'
+  Font: name=寰蒋闆呴粦, size=162560, bold=True
+  Font Color: #D97706
+
+Shape 26: '鏂囨湰妗?82', type=TEXT_BOX (17)
+  Pos: L=1358900, T=4699493, W=3530600, H=313932
+  Text: '鍙彁绀洪暱鏈熸湭瑙傛祴鍖哄煙锛屼絾鍙弿杩版椂闂存柊椴滃害锛屾棤娉曞尯鍒嗗尯鍩熸湰韬殑閲嶈绋嬪害銆?
+  Font: name=寰蒋闆呴粦, size=129540, bold=None
+  Font Color: #1C2E47
+
+Shape 27: '鐭╁舰: 鍦嗚 83', type=AUTO_SHAPE (1)
+  Pos: L=6654800, T=2032000, W=4800600, H=3200400
+  Fill Color: #F8FBFF
+  Line Color: #B5CBE8
+  Line width: 1.30pt
+
+Shape 28: '鐭╁舰: 鍦嗚 84', type=AUTO_SHAPE (1)
+  Pos: L=7086600, T=2247900, W=1752600, H=355600
+  Text: '涓夌淮浜掕ˉ寤烘ā'
+  Fill Color: #1D3F78
+  Line Color: #1D3F78
+  Font: name=寰蒋闆呴粦, size=165100, bold=True
+  Font Color: #FFFFFF
+
+Shape 29: '鐭╁舰: 鍦嗚 85', type=AUTO_SHAPE (1)
+  Pos: L=7112000, T=2819400, W=3886200, H=660400
+  Fill Color: #FFFFFF
+  Line Color: #AFC9EA
+  Line width: 1.05pt
+
+Shape 30: '妞渾 86', type=AUTO_SHAPE (1)
+  Pos: L=7264400, T=2933700, W=431800, H=431800
+  Fill Color: #F7FAFF
+  Line Color: #006FBE
+  Line width: 1.25pt
+
+Shape 31: '鏂囨湰妗?87', type=TEXT_BOX (17)
+  Pos: L=7378700, T=3022600, W=203200, H=207749
+  Text: 'G'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #006FBE
+
+Shape 32: '鏂囨湰妗?88', type=TEXT_BOX (17)
+  Pos: L=7848600, T=2921000, W=1206500, H=207749
+  Text: 'GP Clue'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #006FBE
+
+Shape 33: '鏂囨湰妗?89', type=TEXT_BOX (17)
+  Pos: L=9169400, T=2921000, W=1498600, H=172355
+  Text: '绾跨储鍦轰及璁?
+  Font: name=寰蒋闆呴粦, size=142240, bold=True
+  Font Color: #1C2E47
+
+Shape 34: '鏂囨湰妗?90', type=TEXT_BOX (17)
+  Pos: L=7848600, T=3213100, W=2857500, H=141577
+  Text: '鍝噷鏈夌嚎绱紝鍝噷涓嶇‘瀹?
+  Font: name=寰蒋闆呴粦, size=116840, bold=None
+  Font Color: #5C6A7A
+
+Shape 35: '鐭╁舰: 鍦嗚 91', type=AUTO_SHAPE (1)
+  Pos: L=7112000, T=3657600, W=3886200, H=660400
+  Fill Color: #FFFFFF
+  Line Color: #AFC9EA
+  Line width: 1.05pt
+
+Shape 36: '妞渾 92', type=AUTO_SHAPE (1)
+  Pos: L=7264400, T=3771900, W=431800, H=431800
+  Fill Color: #F7FAFF
+  Line Color: #2E7D58
+  Line width: 1.25pt
+
+Shape 37: '鏂囨湰妗?93', type=TEXT_BOX (17)
+  Pos: L=7378700, T=3860800, W=203200, H=207749
+  Text: 'I'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #2E7D58
+
+Shape 38: '鏂囨湰妗?94', type=TEXT_BOX (17)
+  Pos: L=7848600, T=3759200, W=1206500, H=207749
+  Text: 'Intensity'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #2E7D58
+
+Shape 39: '鏂囨湰妗?95', type=TEXT_BOX (17)
+  Pos: L=9169400, T=3759200, W=1498600, H=172355
+  Text: '鐩爣瀛樺湪淇″康'
+  Font: name=寰蒋闆呴粦, size=142240, bold=True
+  Font Color: #1C2E47
+
+Shape 40: '鏂囨湰妗?96', type=TEXT_BOX (17)
+  Pos: L=7848600, T=4051300, W=2857500, H=141577
+  Text: '鎺㈡祴鍙嶉鍚庡摢閲屼粛鍊煎緱鎼滅储'
+  Font: name=寰蒋闆呴粦, size=116840, bold=None
+  Font Color: #5C6A7A
+
+Shape 41: '鐭╁舰: 鍦嗚 97', type=AUTO_SHAPE (1)
+  Pos: L=7112000, T=4495800, W=3886200, H=660400
+  Fill Color: #FFFFFF
+  Line Color: #AFC9EA
+  Line width: 1.05pt
+
+Shape 42: '妞渾 98', type=AUTO_SHAPE (1)
+  Pos: L=7264400, T=4610100, W=431800, H=431800
+  Fill Color: #F7FAFF
+  Line Color: #D97706
+  Line width: 1.25pt
+
+Shape 43: '鏂囨湰妗?99', type=TEXT_BOX (17)
+  Pos: L=7378700, T=4699000, W=203200, H=207749
+  Text: 'R'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #D97706
+
+Shape 44: '鏂囨湰妗?100', type=TEXT_BOX (17)
+  Pos: L=7848600, T=4597400, W=1206500, H=207749
+  Text: 'Recency'
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #D97706
+
+Shape 45: '鏂囨湰妗?101', type=TEXT_BOX (17)
+  Pos: L=9169400, T=4597400, W=1498600, H=172355
+  Text: '瑙傛祴鏃舵晥鎬?
+  Font: name=寰蒋闆呴粦, size=142240, bold=True
+  Font Color: #1C2E47
+
+Shape 46: '鏂囨湰妗?102', type=TEXT_BOX (17)
+  Pos: L=7848600, T=4889500, W=2857500, H=141577
+  Text: '鍝噷澶箙娌＄湅锛岄渶瑕佸埛鏂?
+  Font: name=寰蒋闆呴粦, size=116840, bold=None
+  Font Color: #5C6A7A
+
+Shape 47: '鐩存帴绠ご杩炴帴绗?103', type=LINE (9)
+  Pos: L=5613400, T=3632200, W=927100, H=0
+  Line Color: #4F82C3
+  Line width: 2.00pt
+
+Shape 48: '鏂囨湰妗?104', type=TEXT_BOX (17)
+  Pos: L=5816600, T=3339867, W=558800, H=176972
+  Text: '浜掕ˉ'
+  Font: name=寰蒋闆呴粦, size=146050, bold=True
+  Font Color: #4F82C3
+
+=========================================
+Slide Index 6 (Slide 7)
+=========================================
+Total shapes: 39
+
+Shape 0: '鐭╁舰 3', type=AUTO_SHAPE (1)
+  Pos: L=0, T=0, W=12192000, H=783590
+  Fill Color: #2F5797
+  Line Color: #2F5797
+
+Shape 1: '鍥剧墖 74', type=PICTURE (13)
+  Pos: L=173355, T=99060, W=586105, H=586105
+
+Shape 2: '鏂囨湰妗?256', type=TEXT_BOX (17)
+  Pos: L=889000, T=158750, W=4381500, H=384721
+  Text: '澶氭簮鎼滅储鐘舵€佸缓妯?
+  Font: name=寰蒋闆呴粦, size=317500, bold=True
+  Font Color: #FFFFFF
+
+Shape 3: '鏂囨湰妗?257', type=TEXT_BOX (17)
+  Pos: L=5636260, T=228600, W=1193800, H=207749
+  Text: '鑳屾櫙鍜屾剰涔?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 4: '鏂囨湰妗?258', type=TEXT_BOX (17)
+  Pos: L=6903720, T=228600, W=1193800, H=207749
+  Text: '鎬讳綋鎶€鏈矾绾?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 5: '鏂囨湰妗?259', type=TEXT_BOX (17)
+  Pos: L=8172450, T=228600, W=1193800, H=207749
+  Text: '鎬濊矾鍜屽唴瀹?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 6: '鏂囨湰妗?260', type=TEXT_BOX (17)
+  Pos: L=9441180, T=228600, W=1193800, H=207749
+  Text: '杩囩▼鍜屾柟娉?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 7: '鏂囨湰妗?261', type=TEXT_BOX (17)
+  Pos: L=10709910, T=228600, W=1193800, H=207749
+  Text: '鎴愭灉涓庡睍鏈?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 8: '鐩存帴绠ご杩炴帴绗?262', type=LINE (9)
+  Pos: L=8204200, T=574040, W=1104900, H=0
+  Line Color: #FFFFFF
+  Line width: 1.30pt
+
+Shape 9: '鐭╁舰 263', type=AUTO_SHAPE (1)
+  Pos: L=0, T=783590, W=12192000, H=554355
+  Fill Color: #EEF2F7
+  Line Color: #EEF2F7
+
+Shape 10: '鏂囨湰妗?264', type=TEXT_BOX (17)
+  Pos: L=416560, T=914400, W=304800, H=292388
+  Text: '鉃?
+  Font: name=寰蒋闆呴粦, size=241300, bold=True
+  Font Color: #1D3F78
+
+Shape 11: '鏂囨湰妗?265', type=TEXT_BOX (17)
+  Pos: L=952500, T=857250, W=6789420, H=369332
+  Text: '鍩轰簬 GP 鐨勭嚎绱㈠満浼拌涓?anomaly-aware 鍔犳潈'
+  Font: name=寰蒋闆呴粦, size=304800, bold=True
+  Font Color: #1D3F78
+
+Shape 12: '鐭╁舰: 鍦嗚 268', type=AUTO_SHAPE (1)
+  Pos: L=965200, T=2133600, W=1656080, H=317500
+  Text: '1. 楂樻柉杩囩▼鍚庨獙浼拌'
+  Fill Color: #2F5797
+  Line Color: #2F5797
+  Font: name=寰蒋闆呴粦, size=147320, bold=True
+  Font Color: #FFFFFF
+
+Shape 13: '鏂囨湰妗?269', type=TEXT_BOX (17)
+  Pos: L=2683691, T=2224224, W=3656874, H=156966
+  Text: '鐩爣锛氱敱鏈夐檺瑙傛祴鐐规帹鏂暣寮犲湴鍥句笂鐨?clue 鍚庨獙鍦?
+  Font: name=寰蒋闆呴粦, size=129540, bold=None
+  Font Color: #5C6A7A
+
+Shape 14: '鐭╁舰: 鍦嗚 270', type=AUTO_SHAPE (1)
+  Pos: L=762000, T=2533590, W=1955800, H=1403412
+  Fill Color: #FFFFFF
+  Line Theme: idx=TEXT_2 (15)
+  Line width: 1.25pt
+
+Shape 15: '鏂囨湰妗?273', type=TEXT_BOX (17)
+  Pos: L=1275519, T=2574665, W=1009316, H=187744
+  Text: '灞€閮ㄥ甫鍣娴?
+  Font: name=寰蒋闆呴粦, size=154940, bold=True
+  Font Color: #006FBE
+
+Shape 16: '鏂囨湰妗?278', type=TEXT_BOX (17)
+  Pos: L=3746500, T=2589954, W=968007, H=187744
+  Text: 'GP 鍚庨獙鎺ㄦ柇'
+  Font: name=寰蒋闆呴粦, size=154940, bold=True
+  Font Color: #2E7D58
+
+Shape 17: '鐭╁舰: 鍦嗚 280', type=AUTO_SHAPE (1)
+  Pos: L=5600699, T=2532796, W=1790701, H=1702318
+  Fill Color: #FFFFFF
+  Line Theme: idx=ACCENT_1 (5)
+  Line width: 1.25pt
+
+Shape 18: '鏂囨湰妗?283', type=TEXT_BOX (17)
+  Pos: L=6197600, T=2589954, W=914400, H=187744
+  Text: '鍚庨獙杈撳嚭'
+  Font: name=寰蒋闆呴粦, size=154940, bold=True
+  Font Color: #1D3F78
+
+Shape 19: '鏂囨湰妗?284', type=TEXT_BOX (17)
+  Pos: L=5740034, T=2767171, W=1613371, H=338554
+  Text: '渭(x)锛氱嚎绱㈠己搴︿及璁n蟽(x)锛氭湭瑙傛祴涓嶇‘瀹氭€?
+  Font: name=寰蒋闆呴粦, size=139700, bold=None
+  Font Color: #1C2E47
+
+Shape 20: '鐩存帴绠ご杩炴帴绗?285', type=LINE (9)
+  Pos: L=2908300, T=3149600, W=292100, H=0
+  Line Color: #4F82C3
+  Line width: 1.80pt
+
+Shape 21: '鐩存帴绠ご杩炴帴绗?286', type=LINE (9)
+  Pos: L=5232400, T=3149600, W=292100, H=0
+  Line Color: #4F82C3
+  Line width: 1.80pt
+
+Shape 22: '鏂囨湰妗?289', type=TEXT_BOX (17)
+  Pos: L=5817718, T=4335277, W=1437239, H=156966
+  Text: '渭(x) 楂橈細宸茶娴嬬嚎绱㈠己'
+  Font: name=寰蒋闆呴粦, size=129540, bold=True
+  Font Color: #006FBE
+
+Shape 23: '鏂囨湰妗?290', type=TEXT_BOX (17)
+  Pos: L=5816649, T=4532033, W=1437239, H=156966
+  Text: '蟽(x) 楂橈細鍖哄煙浠嶄笉纭畾'
+  Font: name=寰蒋闆呴粦, size=129540, bold=True
+  Font Color: #2E7D58
+
+Shape 24: '鏂囨湰妗?291', type=TEXT_BOX (17)
+  Pos: L=5799372, T=4713862, W=1524000, H=156966
+  Text: 'UCB 鍚屾椂鍏奸【鍒╃敤涓庢帰绱?
+  Font: name=寰蒋闆呴粦, size=129540, bold=True
+  Font Color: #1D3F78
+
+Shape 25: '鐭╁舰: 鍦嗚 292', type=AUTO_SHAPE (1)
+  Pos: L=7869472, T=1905000, W=3712928, H=3616008
+  Fill Color: #FFFCF7
+  Line Color: #E4B363
+  Line width: 1.25pt
+
+Shape 26: '鐭╁舰: 鍦嗚 293', type=AUTO_SHAPE (1)
+  Pos: L=8255000, T=2133600, W=2454910, H=317500
+  Text: '2. anomaly-aware 寮傚父涓婂熬鍔犳潈'
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=144780, bold=True
+  Font Color: #FFFFFF
+
+Shape 27: '鏂囨湰妗?294', type=TEXT_BOX (17)
+  Pos: L=8280400, T=2590800, W=2794000, H=332399
+  Text: '鍦?GP-UCB 鍩虹涓婏紝杩涗竴姝ュ己鍖栧悗楠岄珮鍊煎尯鍩熺殑鎼滅储鍊惧悜銆?
+  Font: name=寰蒋闆呴粦, size=137160, bold=None
+  Font Color: #1C2E47
+
+Shape 28: '鐭╁舰: 鍦嗚 295', type=AUTO_SHAPE (1)
+  Pos: L=8089899, T=2979250, W=914400, H=279400
+  Text: '涓婂熬鍖哄煙'
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=120650, bold=True
+  Font Color: #FFFFFF
+
+Shape 29: '鐩存帴绠ご杩炴帴绗?297', type=LINE (9)
+  Pos: L=8547099, T=3258650, W=0, H=228600
+  Line Color: #D97706
+  Line width: 1.40pt
+
+Shape 30: '鐭╁舰: 鍦嗚 298', type=AUTO_SHAPE (1)
+  Pos: L=8078193, T=3451813, W=914400, H=279400
+  Text: '寮傚父鐜?
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=120650, bold=True
+  Font Color: #FFFFFF
+
+Shape 31: '鐩存帴绠ご杩炴帴绗?300', type=LINE (9)
+  Pos: L=8547099, T=3684132, W=0, H=228600
+  Line Color: #D97706
+  Line width: 1.40pt
+
+Shape 32: '鐭╁舰: 鍦嗚 305', type=AUTO_SHAPE (1)
+  Pos: L=1092200, T=5727700, W=10033000, H=584200
+  Fill Color: #1D3F78
+  Line Color: #1D3F78
+
+Shape 33: '鏂囨湰妗?307', type=TEXT_BOX (17)
+  Pos: L=2216331, T=5934392, W=8128000, H=170816
+  Text: 'GP-UCB 鎻愪緵鈥滅嚎绱㈠己搴?+ 涓嶇‘瀹氭€р€濈殑鍩虹淇℃伅鍥撅紱anomaly-aware 鍦ㄥ叾涓婂己鍖栧悗楠岄珮鍊煎尯鍩燂紝鐢ㄤ綔瀵规瘮浼樺寲鏂规銆?
+  Font: name=寰蒋闆呴粦, size=140970, bold=True
+  Font Color: #FFFFFF
+
+Shape 34: '鏂囨湰妗?1', type=TEXT_BOX (17)
+  Pos: L=5645217, T=2974206, W=65, H=553998
+
+Shape 35: '鏂囨湰妗?2', type=TEXT_BOX (17)
+  Pos: L=5621373, T=3080367, W=1729788, H=577081
+  Text: '璺緞鍐崇瓥寮曞叆缃俊涓婇檺(Upper Confidence Bound)浣滀负鍔ㄤ綔閫夋嫨鍑嗗垯'
+  Font: name=None, size=133350, bold=None
+
+Shape 36: '鐭╁舰: 鍦嗚 4', type=AUTO_SHAPE (1)
+  Pos: L=8089899, T=3918929, W=914400, H=279400
+  Text: '涔樻€у姞鏉?
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=120650, bold=True
+  Font Color: #FFFFFF
+
+Shape 37: '鐭╁舰: 鍦嗚 7', type=AUTO_SHAPE (1)
+  Pos: L=8064458, T=4562085, W=3343849, H=657107
+
+Shape 38: '鏂囨湰妗?6', type=TEXT_BOX (17)
+  Pos: L=8064458, T=4619028, W=3322955, H=600164
+  Text: '淇濈暀浜哢CB鍦ㄢ€滈珮鍧囧€煎埄鐢ㄢ€濅笌鈥滀笉纭畾鎬ф帰绱⑩€濅箣闂寸殑鍩烘湰骞宠　锛屽悓鏃跺鏇村彲鑳藉睘浜庨珮鍊间笂灏剧殑鍖哄煙缁欎簣棰濆寮鸿皟'
+  Font: name=None, size=139700, bold=None
+
+=========================================
+Slide Index 7 (Slide 8)
+=========================================
+Total shapes: 34
+
+Shape 0: '鐭╁舰 1', type=AUTO_SHAPE (1)
+  Pos: L=0, T=0, W=12192000, H=783590
+  Fill Color: #2F5797
+  Line Color: #2F5797
+
+Shape 1: '鍥剧墖 4', type=PICTURE (13)
+  Pos: L=173355, T=99060, W=586105, H=586105
+
+Shape 2: '鏂囨湰妗?5', type=TEXT_BOX (17)
+  Pos: L=889000, T=158750, W=4381500, H=384721
+  Text: '澶氭簮鎼滅储鐘舵€佸缓妯?
+  Font: name=寰蒋闆呴粦, size=317500, bold=True
+  Font Color: #FFFFFF
+
+Shape 3: '鏂囨湰妗?6', type=TEXT_BOX (17)
+  Pos: L=5636260, T=228600, W=1193800, H=207749
+  Text: '鑳屾櫙鍜屾剰涔?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 4: '鏂囨湰妗?7', type=TEXT_BOX (17)
+  Pos: L=6903720, T=228600, W=1193800, H=207749
+  Text: '鎬讳綋鎶€鏈矾绾?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 5: '鏂囨湰妗?8', type=TEXT_BOX (17)
+  Pos: L=8172450, T=228600, W=1193800, H=207749
+  Text: '鎬濊矾鍜屽唴瀹?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 6: '鏂囨湰妗?9', type=TEXT_BOX (17)
+  Pos: L=9441180, T=228600, W=1193800, H=207749
+  Text: '杩囩▼鍜屾柟娉?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 7: '鏂囨湰妗?10', type=TEXT_BOX (17)
+  Pos: L=10709910, T=228600, W=1193800, H=207749
+  Text: '鎴愭灉涓庡睍鏈?
+  Font: name=寰蒋闆呴粦, size=171450, bold=True
+  Font Color: #FFFFFF
+
+Shape 8: '鐩存帴绠ご杩炴帴绗?11', type=LINE (9)
+  Pos: L=8204200, T=574040, W=1104900, H=0
+  Line Color: #FFFFFF
+  Line width: 1.30pt
+
+Shape 9: '鐭╁舰 12', type=AUTO_SHAPE (1)
+  Pos: L=0, T=783590, W=12192000, H=554355
+  Fill Color: #EEF2F7
+  Line Color: #EEF2F7
+
+Shape 10: '鏂囨湰妗?13', type=TEXT_BOX (17)
+  Pos: L=416560, T=914400, W=304800, H=292388
+  Text: '鉃?
+  Font: name=寰蒋闆呴粦, size=241300, bold=True
+  Font Color: #1D3F78
+
+Shape 11: '鏂囨湰妗?14', type=TEXT_BOX (17)
+  Pos: L=952500, T=857250, W=10604500, H=369332
+  Text: '鐩爣瀛樺湪淇″康涓庤娴嬫椂鏁堝缓妯?
+  Font: name=寰蒋闆呴粦, size=304800, bold=True
+  Font Color: #1D3F78
+
+Shape 12: '鐭╁舰: 鍦嗚 16', type=AUTO_SHAPE (1)
+  Pos: L=596900, T=1892300, W=5270500, H=3835400
+  Fill Color: #F8FFFB
+  Line Color: #93C7AA
+  Line width: 1.25pt
+
+Shape 13: '鐭╁舰: 鍦嗚 17', type=AUTO_SHAPE (1)
+  Pos: L=914400, T=2108200, W=2413000, H=317500
+  Text: 'Intensity锛氬墿浣欑洰鏍囧瓨鍦ㄤ俊蹇?
+  Fill Color: #2E7D58
+  Line Color: #2E7D58
+  Font: name=寰蒋闆呴粦, size=144780, bold=True
+  Font Color: #FFFFFF
+
+Shape 14: '鐭╁舰: 鍦嗚 23', type=AUTO_SHAPE (1)
+  Pos: L=914400, T=2560247, W=4394200, H=482600
+  Fill Color: #EAF6EF
+  Line Color: #2E7D58
+  Line width: 1.00pt
+
+Shape 15: '鏂囨湰妗?26', type=TEXT_BOX (17)
+  Pos: L=1066800, T=2644555, W=965200, H=161583
+  Text: '杩愬姩棰勬祴'
+  Font: name=寰蒋闆呴粦, size=133350, bold=True
+  Font Color: #2E7D58
+
+Shape 16: '鏂囨湰妗?28', type=TEXT_BOX (17)
+  Pos: L=1066800, T=2855830, W=3784600, H=126188
+  Text: '鍙枒鐩爣瀛樺湪涓ょ杩愬姩鎯呭喌锛歴tatic 淇濇寔鍒嗗竷锛況andom_walk 鍚戠浉閭昏嚜鐢辨牸鎵╂暎銆?
+  Font: name=寰蒋闆呴粦, size=104140, bold=None
+  Font Color: #1C2E47
+
+Shape 17: '鐭╁舰: 鍦嗚 29', type=AUTO_SHAPE (1)
+  Pos: L=927100, T=3429000, W=4394200, H=482600
+  Fill Color: #EEF5FF
+  Line Color: #006FBE
+  Line width: 1.00pt
+
+Shape 18: '鏂囨湰妗?32', type=TEXT_BOX (17)
+  Pos: L=1079500, T=3513309, W=965200, H=161583
+  Text: '鏈懡涓洿鏂?
+  Font: name=寰蒋闆呴粦, size=133350, bold=True
+  Font Color: #006FBE
+
+Shape 19: '鏂囨湰妗?34', type=TEXT_BOX (17)
+  Pos: L=1079500, T=3733200, W=3657600, H=126188
+  Text: '浼犳劅鍣ㄨ鐩栧尯鍩熺殑鐩爣璐ㄩ噺闄嶄綆锛岄殢鍚庡綊涓€鍖栦繚鎸佹€荤洰鏍囪川閲忎笉鍙樸€?
+  Font: name=寰蒋闆呴粦, size=104140, bold=None
+  Font Color: #1C2E47
+
+Shape 20: '鐭╁舰: 鍦嗚 35', type=AUTO_SHAPE (1)
+  Pos: L=914400, T=4337050, W=4394200, H=482600
+  Fill Color: #FFF5E8
+  Line Color: #D97706
+  Line width: 1.00pt
+
+Shape 21: '鏂囨湰妗?98', type=TEXT_BOX (17)
+  Pos: L=1079500, T=4421358, W=965200, H=161583
+  Text: '鍛戒腑鏇存柊'
+  Font: name=寰蒋闆呴粦, size=133350, bold=True
+  Font Color: #D97706
+
+Shape 22: '鏂囨湰妗?100', type=TEXT_BOX (17)
+  Pos: L=1079500, T=4638616, W=4203700, H=126188
+  Text: '鎺㈡祴鍒扮洰鏍囧悗锛屽皢浼犳劅鍣ㄨ鐩栧尯鍩熸竻闆讹紝鍑忓皯鎬荤洰鏍囪川閲忥紝鍐嶅綊涓€鍖栧疄鐜拌川閲忓啀鍒嗛厤銆?
+  Font: name=寰蒋闆呴粦, size=104140, bold=None
+  Font Color: #1C2E47
+
+Shape 23: '鐩存帴绠ご杩炴帴绗?101', type=LINE (9)
+  Pos: L=3111500, T=3151477, W=0, H=63500
+  Line Color: #2E7D58
+  Line width: 1.40pt
+
+Shape 24: '鐩存帴绠ご杩炴帴绗?102', type=LINE (9)
+  Pos: L=3124200, T=4239029, W=0, H=63500
+  Line Color: #2E7D58
+  Line width: 1.40pt
+
+Shape 25: '鐭╁舰: 鍦嗚 105', type=AUTO_SHAPE (1)
+  Pos: L=6324600, T=1892300, W=5270500, H=3835400
+  Fill Color: #FFFCF7
+  Line Color: #E4B363
+  Line width: 1.25pt
+
+Shape 26: '鐭╁舰: 鍦嗚 106', type=AUTO_SHAPE (1)
+  Pos: L=6642100, T=2108200, W=2616200, H=317500
+  Text: 'Recency锛氳娴嬫椂鏁堟€?
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=144780, bold=True
+  Font Color: #FFFFFF
+
+Shape 27: '鐭╁舰: 鍦嗚 108', type=AUTO_SHAPE (1)
+  Pos: L=6642100, T=2910840, W=4394200, H=736600
+  Fill Color: #FFFFFF
+  Line Color: #B8CFEA
+  Line width: 1.00pt
+
+Shape 28: '鐭╁舰: 鍦嗚 109', type=AUTO_SHAPE (1)
+  Pos: L=6769100, T=3025140, W=1320800, H=266700
+  Text: '鐘舵€佽褰?
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=124460, bold=True
+  Font Color: #FFFFFF
+
+Shape 29: '鏂囨湰妗?111', type=TEXT_BOX (17)
+  Pos: L=6845300, T=3393440, W=4038600, H=141577
+  Text: 'USV 浼犳劅鍣ㄨ鐩栧埌鑷敱鏍?x 鏃讹紝璁板綍璇ユ牸鏈€杩戜竴娆¤瑙傛祴鐨勪豢鐪熸銆?
+  Font: name=寰蒋闆呴粦, size=116840, bold=None
+  Font Color: #1C2E47
+
+Shape 30: '鐭╁舰: 鍦嗚 112', type=AUTO_SHAPE (1)
+  Pos: L=6642100, T=4019550, W=4394200, H=1016000
+  Fill Color: #FFFFFF
+  Line Color: #E9C992
+  Line width: 1.00pt
+
+Shape 31: '鐭╁舰: 鍦嗚 113', type=AUTO_SHAPE (1)
+  Pos: L=6832600, T=4171950, W=990600, H=266700
+  Text: '鏃舵晥璁＄畻'
+  Fill Color: #D97706
+  Line Color: #D97706
+  Font: name=寰蒋闆呴粦, size=124460, bold=True
+  Font Color: #FFFFFF
+
+Shape 32: '鏂囨湰妗?126', type=TEXT_BOX (17)
+  Pos: L=11366500, T=6426200, W=254000, H=138499
+  Text: '8'
+  Font: name=寰蒋闆呴粦, size=114300, bold=None
+  Font Color: #808080
+
+Shape 33: '鍥惧舰 38', type=PICTURE (13)
+  Pos: L=9309100, T=1984374, W=554356, H=554356
+
+=========================================
+Slide Index 8 (Slide 9)
+=========================================
+Total shapes: 26
+
+Shape 0: '鍥剧墖 4', type=PICTURE (13)
+  Pos: L=-635, T=783590, W=12192000, H=554355
+
+Shape 1: '鐭╁舰 7', type=AUTO_SHAPE (1)
+  Pos: L=0, T=0, W=12191365, H=783590
+
+Shape 2: '鍥剧墖 9', type=PICTURE (13)
+  Pos: L=173355, T=99060, W=586105, H=586105
+
+Shape 3: '鏂囨湰鍗犱綅绗?16', type=PLACEHOLDER (14)
+  Pos: L=792175, T=186126, W=4669901, H=499034
+  Text: '鏂囧瓧'
+  Font: name=Source Han Sans CN, size=342900, bold=None
+
+Shape 4: '鏂囨湰鍗犱綅绗?33', type=AUTO_SHAPE (1)
+  Pos: L=5635431, T=228798, W=1194772, H=356991
+
+Shape 5: '鏂囨湰鍗犱綅绗?34', type=AUTO_SHAPE (1)
+  Pos: L=6904045, T=228798, W=1194772, H=356991
+  Text: '缁艰堪鍜岃瘎杩?
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 6: '鏂囨湰鍗犱綅绗?35', type=AUTO_SHAPE (1)
+  Pos: L=8172659, T=228798, W=1194772, H=356991
+  Text: '鎬濊矾鍜屽唴瀹?
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 7: '鏂囨湰鍗犱綅绗?36', type=AUTO_SHAPE (1)
+  Pos: L=9441273, T=228798, W=1194772, H=356991
+  Text: '杩囩▼鍜屾柟娉?
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 8: '鏂囨湰鍗犱綅绗?37', type=AUTO_SHAPE (1)
+  Pos: L=10709887, T=228798, W=1194772, H=356991
+  Text: '鎴愭灉涓庡睍鏈?
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 9: '鐩存帴杩炴帴绗?10', type=LINE (9)
+  Pos: L=6951980, T=591820, W=1099820, H=0
+  Line Theme: idx=BACKGROUND_1 (14)
+
+Shape 10: '鏂囨湰鍗犱綅绗?14', type=AUTO_SHAPE (1)
+  Pos: L=416689, T=812115, W=11775311, H=457070
+  Text: '鏂囧瓧'
+  Font: name=鎬濇簮瀹嬩綋, size=317500, bold=None
+
+Shape 11: '鏂囨湰鍗犱綅绗?33', type=AUTO_SHAPE (1)
+  Pos: L=5637336, T=223718, W=1194772, H=356991
+  Text: '鑳屾櫙鍜屾剰涔?
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 12: '鐭╁舰: 鍦嗚 48', type=AUTO_SHAPE (1)
+  Pos: L=335666, T=1436780, W=7371636, H=5023655
+  Fill Theme: idx=BACKGROUND_1 (14)
+  Line Theme: idx=ACCENT_1 (5)
+
+Shape 13: '鐏墖缂栧彿鍗犱綅绗?2', type=PLACEHOLDER (14)
+  Pos: L=11211765, T=6356350, W=749938, H=365125
+  Text: '9'
+
+Shape 14: '鏂囨湰妗?23', type=TEXT_BOX (17)
+  Pos: L=8172659, T=1908532, W=3887261, H=398780
+  Text: '鏂囧瓧'
+  Font: name=Source Han Sans CN, size=254000, bold=None
+
+Shape 15: '鏂囨湰妗?73', type=TEXT_BOX (17)
+  Pos: L=8172660, T=2308642, W=3156668, H=362920
+  Text: '鏂囧瓧'
+  Font: name=鎬濇簮瀹嬩綋, size=203200, bold=None
+
+Shape 16: '娉淮褰?25', type=AUTO_SHAPE (1)
+  Pos: L=7430976, T=2026367, W=568960, H=568960
+
+Shape 17: '鏂囨湰妗?28', type=TEXT_BOX (17)
+  Pos: L=8172659, T=3380378, W=3683675, H=398780
+  Text: '鏂囧瓧'
+  Font: name=Source Han Sans CN, size=254000, bold=None
+
+Shape 18: '鏂囨湰妗?73', type=TEXT_BOX (17)
+  Pos: L=8172660, T=3780488, W=3156668, H=362920
+  Text: '鏂囧瓧'
+  Font: name=鎬濇簮瀹嬩綋, size=203200, bold=None
+
+Shape 19: '娉淮褰?30', type=AUTO_SHAPE (1)
+  Pos: L=7430976, T=3498213, W=568960, H=568960
+  Fill Theme: idx=ACCENT_2 (6)
+
+Shape 20: '鏂囨湰妗?3', type=TEXT_BOX (17)
+  Pos: L=8172659, T=4852224, W=3683675, H=398780
+  Text: '鏂囧瓧'
+  Font: name=Source Han Sans CN, size=254000, bold=None
+
+Shape 21: '鏂囨湰妗?73', type=TEXT_BOX (17)
+  Pos: L=8172660, T=5252334, W=3156668, H=362920
+  Text: '鏂囧瓧'
+  Font: name=鎬濇簮瀹嬩綋, size=203200, bold=None
+
+Shape 22: '娉淮褰?39', type=AUTO_SHAPE (1)
+  Pos: L=7430976, T=4970059, W=568960, H=568960
+  Fill Theme: idx=ACCENT_2 (6)
+
+Shape 23: '鍥惧舰 208', type=FREEFORM (5)
+  Pos: L=7571025, T=2119086, W=288862, H=381444
+
+Shape 24: '鍥惧舰 208', type=FREEFORM (5)
+  Pos: L=7571025, T=3589766, W=288862, H=381444
+
+Shape 25: '鍥惧舰 208', type=FREEFORM (5)
+  Pos: L=7571025, T=5070315, W=288862, H=381444

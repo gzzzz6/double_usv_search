@@ -1,0 +1,25 @@
+﻿Figure,Panel,Map,Clue Mode,Success (%)
+fig5_4_success,single_static,open_water,UCB,50.0
+fig5_4_success,single_static,open_water,anomaly_upper_tail,80.0
+fig5_4_success,single_static,obstacle_field,UCB,60.0
+fig5_4_success,single_static,obstacle_field,anomaly_upper_tail,70.0
+fig5_4_success,single_static,peninsula_passage,UCB,40.0
+fig5_4_success,single_static,peninsula_passage,anomaly_upper_tail,70.0
+fig5_4_success,single_random_walk,open_water,UCB,70.0
+fig5_4_success,single_random_walk,open_water,anomaly_upper_tail,80.0
+fig5_4_success,single_random_walk,obstacle_field,UCB,60.0
+fig5_4_success,single_random_walk,obstacle_field,anomaly_upper_tail,80.0
+fig5_4_success,single_random_walk,peninsula_passage,UCB,60.0
+fig5_4_success,single_random_walk,peninsula_passage,anomaly_upper_tail,50.0
+fig5_4_success,two_static,open_water,UCB,40.0
+fig5_4_success,two_static,open_water,anomaly_upper_tail,40.0
+fig5_4_success,two_static,obstacle_field,UCB,50.0
+fig5_4_success,two_static,obstacle_field,anomaly_upper_tail,40.0
+fig5_4_success,two_static,peninsula_passage,UCB,50.0
+fig5_4_success,two_static,peninsula_passage,anomaly_upper_tail,50.0
+fig5_4_success,two_random_walk,open_water,UCB,60.0
+fig5_4_success,two_random_walk,open_water,anomaly_upper_tail,80.0
+fig5_4_success,two_random_walk,obstacle_field,UCB,50.0
+fig5_4_success,two_random_walk,obstacle_field,anomaly_upper_tail,60.0
+fig5_4_success,two_random_walk,peninsula_passage,UCB,50.0
+fig5_4_success,two_random_walk,peninsula_passage,anomaly_upper_tail,60.0

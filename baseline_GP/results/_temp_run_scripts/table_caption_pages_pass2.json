@@ -1,0 +1,71 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "count": 13,
+  "records": [
+    {
+      "paragraph_index": 548,
+      "caption": "表5-1 评价指标",
+      "page": 33
+    },
+    {
+      "paragraph_index": 581,
+      "caption": "表5-2 单艇实验参数设置",
+      "page": 34
+    },
+    {
+      "paragraph_index": 611,
+      "caption": "表5-3 静态目标模式下单艇 UCB 搜索结果",
+      "page": 34
+    },
+    {
+      "paragraph_index": 655,
+      "caption": "表5-4 随机游走目标模式下单艇 UCB 搜索结果",
+      "page": 34
+    },
+    {
+      "paragraph_index": 705,
+      "caption": "表5-5 双艇协同实验参数设置",
+      "page": 36
+    },
+    {
+      "paragraph_index": 739,
+      "caption": "表5-6 静态目标模式下搜索任务完成程度的差值结果",
+      "page": 36
+    },
+    {
+      "paragraph_index": 771,
+      "caption": "表5-7 静态目标模式下协同行为指标的差值结果",
+      "page": 36
+    },
+    {
+      "paragraph_index": 801,
+      "caption": "表5-8 随机游走目标模式下 coordinated - independent 差值结果",
+      "page": 37
+    },
+    {
+      "paragraph_index": 833,
+      "caption": "表5-9 随机游走目标模式下 coordinated - independent 差值结果",
+      "page": 37
+    },
+    {
+      "paragraph_index": 869,
+      "caption": "表5-10 单艇 anomaly_aware - UCB 差值结果",
+      "page": 38
+    },
+    {
+      "paragraph_index": 897,
+      "caption": "表5-11 双艇anomaly_aware - UCB 差值结果",
+      "page": 39
+    },
+    {
+      "paragraph_index": 926,
+      "caption": "表5-12 不同地图中单艇 anomaly_aware - UCB 差值结果",
+      "page": 39
+    },
+    {
+      "paragraph_index": 983,
+      "caption": "表5-13 不同地图中双艇anomaly_aware - UCB 差值结果",
+      "page": 39
+    }
+  ]
+}

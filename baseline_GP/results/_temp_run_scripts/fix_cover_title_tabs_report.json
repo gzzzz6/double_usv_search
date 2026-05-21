@@ -1,0 +1,24 @@
+{
+  "docx_path": "F:\\pythonprojects\\信息科学与工程学院_320220938891_郭一泽.docx",
+  "backup_path": "F:\\pythonprojects\\信息科学与工程学院_320220938891_郭一泽_backup_before_cover_title_tabs_20260517_173433.docx",
+  "operations": [
+    {
+      "label": "论文题目（中文）",
+      "new_text": "论文题目（中文）\t面向海上可疑目标搜索任务的多USV\u000b决策优化方法研究",
+      "tab_cm": 4.2,
+      "left_indent_pt": 119.05000305175781,
+      "first_line_indent_pt": -119.05000305175781,
+      "paragraph_idx": 9,
+      "old_text": "论文题目（中文）\t面向海上可疑目标搜索任务的多USV\u000b决策优化方法研究"
+    },
+    {
+      "label": "论文题目（英文）",
+      "new_text": "论文题目（英文）\tResearch on Human-Machine\u000bCollaborative Decision-Making Optimization\u000bfor Multi-USV in Maritime Suspicious\u000bTarget Search Missions",
+      "tab_cm": 4.2,
+      "left_indent_pt": 119.05000305175781,
+      "first_line_indent_pt": -119.05000305175781,
+      "paragraph_idx": 10,
+      "old_text": "论文题目（英文）\tResearch on Human-Machine Collaborative\u000bDecision-Making Optimization for Multi-USV in\u000bMaritime Suspicious Target Search Missions"
+    }
+  ]
+}

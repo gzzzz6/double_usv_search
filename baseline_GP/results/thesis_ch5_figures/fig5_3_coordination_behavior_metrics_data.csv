@@ -1,0 +1,13 @@
+﻿Figure,Mode,Map,Method,Duplicate (%),Cross (%)
+fig5_3_behavior,static,open_water,independent,0.9,28.1
+fig5_3_behavior,static,open_water,coordinated,0.0,3.0
+fig5_3_behavior,static,obstacle_field,independent,7.8,26.7
+fig5_3_behavior,static,obstacle_field,coordinated,0.0,0.9
+fig5_3_behavior,static,peninsula_passage,independent,6.0,42.1
+fig5_3_behavior,static,peninsula_passage,coordinated,0.0,1.4
+fig5_3_behavior,random_walk,open_water,independent,4.4,27.4
+fig5_3_behavior,random_walk,open_water,coordinated,0.0,0.3
+fig5_3_behavior,random_walk,obstacle_field,independent,3.7,41.5
+fig5_3_behavior,random_walk,obstacle_field,coordinated,0.0,0.5
+fig5_3_behavior,random_walk,peninsula_passage,independent,3.3,39.1
+fig5_3_behavior,random_walk,peninsula_passage,coordinated,0.0,6.7

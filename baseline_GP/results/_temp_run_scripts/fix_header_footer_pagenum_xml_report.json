@@ -1,0 +1,23 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "title_used_in_header": "面向海上可疑目标搜索任务的多USV决策优化方法研究",
+  "inserted_parts": {
+    "header": "word/header4.xml",
+    "footer_roman": "word/footer5.xml",
+    "footer_body": "word/footer6.xml",
+    "footer_blank": "word/footer7.xml"
+  },
+  "relationships": {
+    "header": "rId27",
+    "footer_roman": "rId28",
+    "footer_body": "rId29",
+    "footer_blank": "rId30"
+  },
+  "paragraph_boundaries": {
+    "abstract_title_index": 36,
+    "toc_index": 50,
+    "body_index": 173,
+    "appendix_index": 669
+  },
+  "right_tab_pos_twips": "9355"
+}

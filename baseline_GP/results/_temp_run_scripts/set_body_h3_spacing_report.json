@@ -1,0 +1,552 @@
+{
+  "docx": "F:\\pythonprojects\\my_report.docx",
+  "body_region_paragraph_index": {
+    "start": 178,
+    "end_exclusive": 1068
+  },
+  "changed_count": 62,
+  "changed": [
+    {
+      "paragraph_index": 196,
+      "text": "2.1.1 回归问题",
+      "style": "超链接",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 201,
+      "text": "2.1.2 多元高斯分布",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 213,
+      "text": "2.1.3 核函数",
+      "style": "超链接",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 226,
+      "text": "2.1.4 后验预测",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 240,
+      "text": "2.1.5 采集函数",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 252,
+      "text": "2.1.6 Anomaly变体",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 272,
+      "text": "2.2.1 初始化",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 276,
+      "text": "2.2.2 目标运动预测",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 282,
+      "text": "2.2.3 未命中观测更新",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 290,
+      "text": "2.2.4 命中观测更新",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 317,
+      "text": "3.1.1 从几何路径规划到主动感知路径规划",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 320,
+      "text": "3.1.2 EPP与IPP的区别",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 324,
+      "text": "3.1.3 信息收益、运动代价与预算约束的一般形式",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 331,
+      "text": "3.1.4 在线自适应信息型路径规划",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 334,
+      "text": "3.1.5 本文研究内容",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 338,
+      "text": "3.2.1 静态地图定义",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 340,
+      "text": "3.2.2 USV状态与传感器",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 343,
+      "text": "3.2.3 问题表述",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 346,
+      "text": "3.3.1 热点阈值与热点簇定义",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 355,
+      "text": "3.3.2 热点簇评分",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 364,
+      "text": "3.3.3 Anchor代表点选取",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 371,
+      "text": "3.4.1 Viewpoint定义",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 374,
+      "text": "3.4.2 环形观测点生成",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 382,
+      "text": "3.4.3 观测点的观测价值排序",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 389,
+      "text": "3.5.1 到候选观测点的路径生成",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 391,
+      "text": "3.5.2 栅格地图下的A*路径生成",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 404,
+      "text": "3.5.3 障碍安全膨胀后的A*安全路径生成",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 410,
+      "text": "3.5.4 短时域路径段截断",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 416,
+      "text": "3.6.1 短路径段评分计算",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 420,
+      "text": "3.6.2 探索收益、搜索信息收益与观测刷新收益",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 427,
+      "text": "3.6.3 执行代价",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 431,
+      "text": "3.6.4 最终综合评分",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 447,
+      "text": "4.1.1 从单艇信息型路径规划到多艇协同规划",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 452,
+      "text": "4.1.2 团队信息收益",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 456,
+      "text": "4.1.3 多艇协同中的分工、冗余与冲突",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 463,
+      "text": "4.2.1 已知静态地图与双艇搜索任务",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 473,
+      "text": "4.3.1 基于距离的责任区划分",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 477,
+      "text": "4.3.2 缓冲带与责任分数定义",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 488,
+      "text": "4.3.3 综合信息价值场的责任区偏置",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 494,
+      "text": "4.4.1 顺序分配",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 499,
+      "text": "4.4.2 residual_map与重叠区域定义",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 517,
+      "text": "4.6.1 单艇短路径段评分的沿用",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 521,
+      "text": "4.6.2 同观测点抑制",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 524,
+      "text": "4.6.3 重复观测惩罚",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 530,
+      "text": "4.6.4 最优双路径段选择",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 539,
+      "text": "5.1.1 仿真环境与地图设置",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 546,
+      "text": "5.1.2 目标与线索场设置",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 549,
+      "text": "5.1.3 评价指标",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 581,
+      "text": "5.2.1 实验概述",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 583,
+      "text": "5.2.2 实验设置",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 613,
+      "text": "5.2.3 静态目标模式下的单艇搜索结果",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 657,
+      "text": "5.2.4 随机游走目标模式下的单艇搜索结果",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 705,
+      "text": "5.3.1 实验目的",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 707,
+      "text": "5.3.2 实验设置",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 741,
+      "text": "5.3.3 静态目标模式下的双艇协同搜索结果",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 804,
+      "text": "5.3.4 随机游走目标模式下的双艇协同搜索结果",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 864,
+      "text": "5.3.5 不同地图结构下的协同效果分析",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 869,
+      "text": "5.4.1 实验目的与变量控制",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 871,
+      "text": "5.4.2 单 USV 下 anomaly acquisition 的影响",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 900,
+      "text": "5.4.3 双 USV coordinated 下 anomaly acquisition 的影响",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 929,
+      "text": "5.4.4 地图结构对anomaly效果的影响",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    },
+    {
+      "paragraph_index": 1048,
+      "text": "5.4.5 机制解释与边界讨论",
+      "style": "三级标题",
+      "before_old": 6.0,
+      "before_new": 12.0
+    }
+  ],
+  "skipped_toc_count": 62,
+  "skipped_toc_sample": [
+    {
+      "paragraph_index": 61,
+      "text": "2.1.1 回归问题\t3",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 62,
+      "text": "2.1.2 多元高斯分布\t3",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 63,
+      "text": "2.1.3 核函数\t4",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 64,
+      "text": "2.1.4 后验预测\t5",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 65,
+      "text": "2.1.5 采集函数\t6",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 66,
+      "text": "2.1.6 Anomaly变体\t7",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 68,
+      "text": "2.2.1 初始化\t8",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 69,
+      "text": "2.2.2 目标运动预测\t9",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 70,
+      "text": "2.2.3 未命中观测更新\t9",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 71,
+      "text": "2.2.4 命中观测更新\t10",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 76,
+      "text": "3.1.1 从几何路径规划到主动感知路径规划\t13",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 77,
+      "text": "3.1.2 EPP与IPP的区别\t13",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 78,
+      "text": "3.1.3 信息收益、运动代价与预算约束的一般形式\t13",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 79,
+      "text": "3.1.4 在线自适应信息型路径规划\t14",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 80,
+      "text": "3.1.5 本文研究内容\t14",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 82,
+      "text": "3.2.1 静态地图定义\t15",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 83,
+      "text": "3.2.2 USV状态与传感器\t15",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 84,
+      "text": "3.2.3 问题表述\t15",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 86,
+      "text": "3.3.1 热点阈值与热点簇定义\t15",
+      "style": "TOC 3"
+    },
+    {
+      "paragraph_index": 87,
+      "text": "3.3.2 热点簇评分\t16",
+      "style": "TOC 3"
+    }
+  ],
+  "notes": [
+    "Only body paragraphs matching x.x.x headings were edited.",
+    "TOC style paragraphs were skipped.",
+    "Only SpaceBefore was changed to 12 pt."
+  ]
+}

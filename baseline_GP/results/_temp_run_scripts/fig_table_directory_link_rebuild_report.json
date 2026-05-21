@@ -1,0 +1,277 @@
+{
+  "docx_path": "F:\\pythonprojects\\my_report1.docx",
+  "backup_path": "F:\\pythonprojects\\my_report1_backup_before_rebuild_fig_table_dir_links_20260517_155355.docx",
+  "operations": [
+    {
+      "id": "2-1",
+      "prefix": "图",
+      "bookmark": "fig_2_1",
+      "start": 12445,
+      "end": 12494,
+      "old_text": "图2-1 已知静态地图下多源搜索场可视化\t12",
+      "new_text": "图2-1 已知静态地图下多源搜索场可视化\t12",
+      "caption_text": "图2-1 已知静态地图下多源搜索场可视化",
+      "page": 12
+    },
+    {
+      "id": "3-1",
+      "prefix": "图",
+      "bookmark": "fig_3_1",
+      "start": 12495,
+      "end": 12554,
+      "old_text": "图3-1Anchor与Viewpoint的空间语义区分示意图\t18",
+      "new_text": "图3-1 Anchor 与 Viewpoint 的空间语义区分示意图\t18",
+      "caption_text": "/图3-1 Anchor 与 Viewpoint 的空间语义区分示意图",
+      "page": 18
+    },
+    {
+      "id": "3-2",
+      "prefix": "图",
+      "bookmark": "fig_3_2",
+      "start": 12555,
+      "end": 12607,
+      "old_text": "图3-2 A*算法在栅格地图中的搜索过程示意图\t21",
+      "new_text": "图3-2 A*算法在栅格地图中的搜索过程示意图\t21",
+      "caption_text": "图3-2 A*算法在栅格地图中的搜索过程示意图",
+      "page": 21
+    },
+    {
+      "id": "3-3",
+      "prefix": "图",
+      "bookmark": "fig_3_3",
+      "start": 12608,
+      "end": 12659,
+      "old_text": "图3-3 单艇信息驱动安全路径规划总体流程图\t24",
+      "new_text": "图3-3 单艇信息驱动安全路径规划总体流程图\t24",
+      "caption_text": "图3-3 单艇信息驱动安全路径规划总体流程图",
+      "page": 24
+    },
+    {
+      "id": "4-1",
+      "prefix": "图",
+      "bookmark": "fig_4_1",
+      "start": 12660,
+      "end": 12705,
+      "old_text": "图4-1 静态软责任区先验可视化\t29",
+      "new_text": "图4-1 静态软责任区先验可视化\t29",
+      "caption_text": "图4-1 静态软责任区先验可视化",
+      "page": 29
+    },
+    {
+      "id": "4-2",
+      "prefix": "图",
+      "bookmark": "fig_4_2",
+      "start": 12706,
+      "end": 12759,
+      "old_text": "图4-2 residual_map 顺序分配过程\t30",
+      "new_text": "图4-2 residual_map 顺序分配过程\t30",
+      "caption_text": "图4-2 residual_map 顺序分配过程",
+      "page": 30
+    },
+    {
+      "id": "5-1",
+      "prefix": "图",
+      "bookmark": "fig_5_1",
+      "start": 12760,
+      "end": 12809,
+      "old_text": "图5-1 实验采用的三类已知静态障碍地图\t33",
+      "new_text": "图5-1 实验采用的三类已知静态障碍地图\t33",
+      "caption_text": "图5-1 实验采用的三类已知静态障碍地图",
+      "page": 33
+    },
+    {
+      "id": "5-2",
+      "prefix": "图",
+      "bookmark": "fig_5_2",
+      "start": 12810,
+      "end": 12871,
+      "old_text": "图5-2 单 USV 在不同地图与目标运动模式下的UCB搜索轨迹\t36",
+      "new_text": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹\t36",
+      "caption_text": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹",
+      "page": 36
+    },
+    {
+      "id": "5-3",
+      "prefix": "图",
+      "bookmark": "fig_5_3",
+      "start": 12872,
+      "end": 12933,
+      "old_text": "图5-3 单 USV 在不同地图与目标运动模式下的UCB搜索轨迹\t39",
+      "new_text": "图5-3 双艇independent与coordinated模式下的协同行为指标对比\t39",
+      "caption_text": "图5-3 双艇independent与coordinated模式下的协同行为指标对比",
+      "page": 39
+    },
+    {
+      "id": "5-4",
+      "prefix": "图",
+      "bookmark": "fig_5_4",
+      "start": 12934,
+      "end": 12995,
+      "old_text": "图5-4 单 USV 在不同地图与目标运动模式下的UCB搜索轨迹\t39",
+      "new_text": "图5-4 双艇independent与coordinated模式下的搜索完成指标对比\t39",
+      "caption_text": "图5-4 双艇independent与coordinated模式下的搜索完成指标对比",
+      "page": 39
+    },
+    {
+      "id": "5-5",
+      "prefix": "图",
+      "bookmark": "fig_5_5",
+      "start": 12996,
+      "end": 13057,
+      "old_text": "图5-5 单 USV 在不同地图与目标运动模式下的UCB搜索轨迹\t41",
+      "new_text": "图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比\t41",
+      "caption_text": "图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比",
+      "page": 41
+    },
+    {
+      "id": "5-1",
+      "prefix": "表",
+      "bookmark": "tab_5_1",
+      "start": 13065,
+      "end": 13103,
+      "old_text": "表5-1 评价指标\t34",
+      "new_text": "表5-1 评价指标\t34",
+      "caption_text": "表5-1 评价指标",
+      "page": 34
+    },
+    {
+      "id": "5-2",
+      "prefix": "表",
+      "bookmark": "tab_5_2",
+      "start": 13104,
+      "end": 13146,
+      "old_text": "表5-2 单艇实验参数设置\t35",
+      "new_text": "表5-2 单艇实验参数设置\t35",
+      "caption_text": "表5-2 单艇实验参数设置",
+      "page": 35
+    },
+    {
+      "id": "5-3",
+      "prefix": "表",
+      "bookmark": "tab_5_3",
+      "start": 13147,
+      "end": 13197,
+      "old_text": "表5-3 静态目标模式下单艇UCB搜索结果\t35",
+      "new_text": "表5-3 静态目标模式下单艇 UCB 搜索结果\t35",
+      "caption_text": "表5-3 静态目标模式下单艇 UCB 搜索结果",
+      "page": 35
+    },
+    {
+      "id": "5-4",
+      "prefix": "表",
+      "bookmark": "tab_5_4",
+      "start": 13198,
+      "end": 13250,
+      "old_text": "表5-4 随机游走目标模式下单艇UCB搜索结果\t36",
+      "new_text": "表5-4 随机游走目标模式下单艇 UCB 搜索结果\t36",
+      "caption_text": "表5-4 随机游走目标模式下单艇 UCB 搜索结果",
+      "page": 36
+    },
+    {
+      "id": "5-5",
+      "prefix": "表",
+      "bookmark": "tab_5_5",
+      "start": 13251,
+      "end": 13295,
+      "old_text": "表5-5 双艇协同实验参数设置\t37",
+      "new_text": "表5-5 双艇协同实验参数设置\t37",
+      "caption_text": "表5-5 双艇协同实验参数设置",
+      "page": 37
+    },
+    {
+      "id": "5-6",
+      "prefix": "表",
+      "bookmark": "tab_5_6",
+      "start": 13296,
+      "end": 13350,
+      "old_text": "表5-6 静态目标模式下搜索任务完成程度的差值结果\t37",
+      "new_text": "表5-6 静态目标模式下搜索任务完成程度的差值结果\t37",
+      "caption_text": "表5-6 静态目标模式下搜索任务完成程度的差值结果",
+      "page": 37
+    },
+    {
+      "id": "5-7",
+      "prefix": "表",
+      "bookmark": "tab_5_7",
+      "start": 13351,
+      "end": 13403,
+      "old_text": "表5-7 静态目标模式下协同行为指标的差值结果\t37",
+      "new_text": "表5-7 静态目标模式下协同行为指标的差值结果\t37",
+      "caption_text": "表5-7 静态目标模式下协同行为指标的差值结果",
+      "page": 37
+    },
+    {
+      "id": "5-8",
+      "prefix": "表",
+      "bookmark": "tab_5_8",
+      "start": 13404,
+      "end": 13474,
+      "old_text": "表5-8 随机游走目标模式下coordinated-independent差值结果\t38",
+      "new_text": "表5-8 随机游走目标模式下coordinated - independent差值结果\t38",
+      "caption_text": "表5-8 随机游走目标模式下coordinated - independent差值结果",
+      "page": 38
+    },
+    {
+      "id": "5-9",
+      "prefix": "表",
+      "bookmark": "tab_5_9",
+      "start": 13475,
+      "end": 13545,
+      "old_text": "表5-9 随机游走目标模式下coordinated-independent差值结果\t38",
+      "new_text": "表5-9 随机游走目标模式下coordinated-independent差值结果\t38",
+      "caption_text": "表5-9 随机游走目标模式下coordinated-independent差值结果",
+      "page": 38
+    },
+    {
+      "id": "5-10",
+      "prefix": "表",
+      "bookmark": "tab_5_10",
+      "start": 13546,
+      "end": 13605,
+      "old_text": "表5-10 单艇anomaly_aware-UCB差值结果\t40",
+      "new_text": "表5-10 单艇 anomaly_aware - UCB 差值结果\t40",
+      "caption_text": "表5-10 单艇 anomaly_aware - UCB 差值结果",
+      "page": 40
+    },
+    {
+      "id": "5-11",
+      "prefix": "表",
+      "bookmark": "tab_5_11",
+      "start": 13606,
+      "end": 13665,
+      "old_text": "表5-11 双艇anomaly_aware-UCB差值结果\t41",
+      "new_text": "表5-11 双艇anomaly_aware-UCB差值结果\t41",
+      "caption_text": "表5-11 双艇anomaly_aware-UCB差值结果",
+      "page": 41
+    },
+    {
+      "id": "5-12",
+      "prefix": "表",
+      "bookmark": "tab_5_12",
+      "start": 13666,
+      "end": 13732,
+      "old_text": "表5-12 不同地图中单艇 anomaly_aware-UCB 差值结果\t42",
+      "new_text": "表5-12 不同地图中单艇 anomaly_aware-UCB差值结果\t42",
+      "caption_text": "表5-12 不同地图中单艇 anomaly_aware-UCB差值结果",
+      "page": 42
+    },
+    {
+      "id": "5-13",
+      "prefix": "表",
+      "bookmark": "tab_5_13",
+      "start": 13733,
+      "end": 13798,
+      "old_text": "表5-13 不同地图中双艇anomaly_aware-UCB 差值结果\t42",
+      "new_text": "表5-13 不同地图中双艇anomaly_aware-UCB差值结果\t42",
+      "caption_text": "表5-13 不同地图中双艇anomaly_aware-UCB差值结果",
+      "page": 42
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "linked": 24,
+    "skipped": [],
+    "fig_linked": 11,
+    "table_linked": 13
+  }
+}

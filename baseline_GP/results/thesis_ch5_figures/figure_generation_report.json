@@ -1,0 +1,89 @@
+{
+  "input_json": "F:\\pythonprojects\\baseline_GP\\results\\paper_obstacle_field_mainline_20260510\\paper_tables_merged_for_report\\table_payload.json",
+  "output_directory": "F:\\pythonprojects\\baseline_GP\\results\\thesis_ch5_figures",
+  "output_files": [
+    "fig5_3_coordination_behavior_metrics.png",
+    "fig5_3_coordination_behavior_metrics.svg",
+    "fig5_3_coordination_behavior_metrics_data.csv",
+    "fig5_3_coordination_task_metrics.png",
+    "fig5_3_coordination_task_metrics.svg",
+    "fig5_3_coordination_task_metrics_data.csv",
+    "fig5_4_anomaly_delta_bars.png",
+    "fig5_4_anomaly_delta_bars.svg",
+    "fig5_4_anomaly_delta_bars_data.csv",
+    "fig5_4_anomaly_success_lines.png",
+    "fig5_4_anomaly_success_lines.svg",
+    "fig5_4_anomaly_success_lines_data.csv"
+  ],
+  "figures": [
+    {
+      "data_keys": [
+        "two_static_assignment",
+        "two_random_assignment"
+      ],
+      "maps_used": [
+        "open_water",
+        "obstacle_field",
+        "peninsula_passage"
+      ],
+      "metrics_used": [
+        "success（%）",
+        "detection（%）"
+      ]
+    },
+    {
+      "data_keys": [
+        "two_static_assignment",
+        "two_random_assignment"
+      ],
+      "maps_used": [
+        "open_water",
+        "obstacle_field",
+        "peninsula_passage"
+      ],
+      "metrics_used": [
+        "duplicate（%）",
+        "cross（%）"
+      ]
+    },
+    {
+      "data_keys": [
+        "single_static_anomaly",
+        "single_random_anomaly",
+        "two_static_anomaly",
+        "two_random_anomaly"
+      ],
+      "maps_used": [
+        "open_water",
+        "obstacle_field",
+        "peninsula_passage"
+      ],
+      "metrics_used": [
+        "success（%）"
+      ]
+    },
+    {
+      "data_keys": [
+        "single_anomaly_delta",
+        "two_anomaly_delta"
+      ],
+      "maps_used": [
+        "open_water",
+        "obstacle_field",
+        "peninsula_passage"
+      ],
+      "metrics_used": [
+        "Δsuccess（百分点）",
+        "ΔT_first"
+      ]
+    }
+  ],
+  "harbor_cove_present": false,
+  "overall_rows_excluded": true,
+  "overall_rows_comment": "总体 (overall) rows exist in payload but are NOT plotted in any figure.",
+  "missing_values": {
+    "two_static_delta": [
+      "row=4, col=ΔT_all, map=peninsula_passage"
+    ]
+  }
+}

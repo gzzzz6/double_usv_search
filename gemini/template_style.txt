@@ -1,0 +1,376 @@
+=== Slide 5 Shape Details ===
+
+Shape 0: 'Rounded Rectangle 3', type=AUTO_SHAPE (1)
+  Pos: L=555882, T=1792024, W=2245332, H=4115714
+  Line: #64A0FF
+  Line width: 1.5pt
+
+Shape 1: '图片 4', type=PICTURE (13)
+  Pos: L=-635, T=783590, W=11962338, H=543913
+
+Shape 2: '矩形 7', type=AUTO_SHAPE (1)
+  Pos: L=0, T=0, W=12191365, H=783590
+
+Shape 3: '图片 9', type=PICTURE (13)
+  Pos: L=173355, T=99060, W=586105, H=586105
+
+Shape 4: '文本占位符 16', type=PLACEHOLDER (14)
+  Pos: L=792175, T=186126, W=4669901, H=499034
+  Text: '本项目工作'
+  Font: name=Source Han Sans CN, size=342900, bold=None
+
+Shape 5: '文本占位符 33', type=AUTO_SHAPE (1)
+  Pos: L=5635431, T=228798, W=1194772, H=356991
+
+Shape 6: '文本占位符 34', type=AUTO_SHAPE (1)
+  Pos: L=6904045, T=228798, W=1194772, H=356991
+  Text: '总体技术路线'
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 7: '文本占位符 35', type=AUTO_SHAPE (1)
+  Pos: L=8172659, T=228798, W=1194772, H=356991
+  Text: '思路和内容'
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 8: '文本占位符 36', type=AUTO_SHAPE (1)
+  Pos: L=9441273, T=228798, W=1194772, H=356991
+  Text: '过程和方法'
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 9: '文本占位符 37', type=AUTO_SHAPE (1)
+  Pos: L=10709887, T=228798, W=1194772, H=356991
+  Text: '成果与展望'
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 10: '直接连接符 10', type=LINE (9)
+  Pos: L=6010228, T=2488675, W=794790, H=0
+
+Shape 11: '文本占位符 14', type=AUTO_SHAPE (1)
+  Pos: L=416689, T=812115, W=11775311, H=457070
+  Text: '已知静态地图下的信息驱动搜索基线'
+  Font: name=思源宋体, size=317500, bold=None
+
+Shape 12: '文本占位符 33', type=AUTO_SHAPE (1)
+  Pos: L=5637336, T=223718, W=1194772, H=356991
+  Text: '背景和意义'
+  Font: name=Source Han Sans CN, size=None, bold=None
+
+Shape 13: '灯片编号占位符 1', type=PLACEHOLDER (14)
+  Pos: L=11708253, T=6356350, W=253450, H=365125
+  Text: '5'
+
+Shape 14: '矩形: 圆角 11', type=AUTO_SHAPE (1)
+  Pos: L=416689, T=1292207, W=8008767, H=381809
+  Fill: #ECF4FC
+  Line: #BDD1E5
+  Line width: 1.1pt
+
+Shape 15: '文本框 43', type=TEXT_BOX (17)
+  Pos: L=531520, T=1347470, W=8008767, H=215444
+  Text: '本文聚焦已知静态障碍地图中目标位置未知的搜索任务，构建单艇与双艇条件下的信息驱动搜索基线。'
+  Font: name=Microsoft YaHei, size=177800, bold=None
+  FontColor: #202A34
+
+Shape 16: '文本框 6', type=TEXT_BOX (17)
+  Pos: L=701126, T=2237859, W=1932109, H=369414
+  Text: '感知与状态更新'
+  Font: name=Microsoft YaHei, size=228600, bold=True
+
+Shape 17: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=643794, T=2659656, W=2079278, H=737426
+  Text: '已知静态地图\n障碍结构已知\n目标位置未知'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 18: '图形 13', type=PICTURE (13)
+  Pos: L=2102189, T=2742484, W=571808, H=571808
+
+Shape 19: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=643794, T=3666220, W=2079278, H=737426
+  Text: 'observation \n传感器范围内\n局部带噪观测'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 20: '图形 17', type=PICTURE (13)
+  Pos: L=2101306, T=3722572, W=624748, H=624748
+
+Shape 21: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=643794, T=4672784, W=2079278, H=737426
+  Text: 'detect\n命中更新/\n未命中更新'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 22: '图形 20', type=PICTURE (13)
+  Pos: L=2044154, T=4694326, W=674415, H=674415
+
+Shape 23: 'Right Arrow 15', type=AUTO_SHAPE (1)
+  Pos: L=2859052, T=3989214, W=164592, H=91440
+  Fill: #6496FF
+
+Shape 24: 'Rounded Rectangle 3', type=AUTO_SHAPE (1)
+  Pos: L=3051030, T=1792024, W=2096093, H=4107301
+  Line: #64A0FF
+  Line width: 1.5pt
+
+Shape 25: '文本框 24', type=TEXT_BOX (17)
+  Pos: L=3196274, T=2230201, W=1803689, H=368659
+  Text: '信息场的建模'
+  Font: name=Microsoft YaHei, size=228600, bold=True
+
+Shape 26: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=3138942, T=2652752, W=1941076, H=735918
+  Text: 'GP Clue\n高斯过程后验\nAnomaly变式'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 27: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=3138942, T=3659316, W=1941076, H=735918
+  Text: 'Intensity \n空间目标存在信念'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 28: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=3138942, T=4665880, W=1941076, H=735918
+  Text: 'Recency\n观测时效性'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 29: 'Right Arrow 15', type=AUTO_SHAPE (1)
+  Pos: L=5159066, T=3989214, W=164592, H=91440
+  Fill: #6496FF
+
+Shape 30: '图形 47', type=PICTURE (13)
+  Pos: L=5940100, T=2262273, W=1041400, H=1041400
+
+Shape 31: '图片 49', type=PICTURE (13)
+  Pos: L=4533382, T=2787420, W=466581, H=466581
+
+Shape 32: '图形 51', type=PICTURE (13)
+  Pos: L=4511161, T=4797760, W=487475, H=487475
+
+Shape 33: '图片 53', type=PICTURE (13)
+  Pos: L=4574347, T=3782893, W=466505, H=466505
+
+Shape 34: 'Rounded Rectangle 3', type=AUTO_SHAPE (1)
+  Pos: L=5364305, T=1791111, W=3346559, H=4131403
+  Line: #64A0FF
+  Line width: 1.5pt
+
+Shape 35: '文本框 55', type=TEXT_BOX (17)
+  Pos: L=6045417, T=2198132, W=2045788, H=369332
+  Text: '单艇路径规划'
+  Font: name=Microsoft YaHei, size=None, bold=True
+
+Shape 36: 'Right Arrow 15', type=AUTO_SHAPE (1)
+  Pos: L=8823036, T=4035015, W=164592, H=91440
+  Fill: #6496FF
+
+Shape 37: 'Rounded Rectangle 29', type=AUTO_SHAPE (1)
+  Pos: L=5429239, T=2676507, W=683121, H=1278985
+  Text: 'Anchor \n提取'
+  Line: #385894
+  Line width: 1.0pt
+
+Shape 38: 'Right Arrow 30', type=AUTO_SHAPE (1)
+  Pos: L=6159746, T=3208549, W=87555, H=117540
+
+Shape 39: 'Rounded Rectangle 31', type=AUTO_SHAPE (1)
+  Pos: L=6237310, T=2676508, W=784159, H=1277437
+  Text: 'Viewpoint\n选取'
+  Line: #385894
+  Line width: 1.0pt
+
+Shape 40: 'Right Arrow 32', type=AUTO_SHAPE (1)
+  Pos: L=7068311, T=3205653, W=87555, H=117540
+
+Shape 41: 'Rounded Rectangle 33', type=AUTO_SHAPE (1)
+  Pos: L=7202708, T=2668573, W=635391, H=1277437
+  Text: 'A* 寻路'
+  Line: #385894
+  Line width: 1.0pt
+
+Shape 42: 'Right Arrow 34', type=AUTO_SHAPE (1)
+  Pos: L=7850656, T=3206176, W=87555, H=117540
+
+Shape 43: 'Rounded Rectangle 35', type=AUTO_SHAPE (1)
+  Pos: L=7963048, T=2676508, W=666761, H=1277438
+  Text: '截取\n短路径段'
+  Line: #385894
+  Line width: 1.0pt
+
+Shape 44: '图形 77', type=PICTURE (13)
+  Pos: L=5515488, T=2835939, W=518386, H=518386
+
+Shape 45: '图片 82', type=PICTURE (13)
+  Pos: L=6372250, T=2818568, W=507465, H=507465
+
+Shape 46: '图片 99', type=PICTURE (13)
+  Pos: L=7308266, T=2824603, W=445546, H=445546
+
+Shape 47: '图片 101', type=PICTURE (13)
+  Pos: L=8055281, T=2832932, W=507465, H=507465
+
+Shape 48: '直接连接符 103', type=LINE (9)
+  Pos: L=5462076, T=4159201, W=3095738, H=3042
+
+Shape 49: '文本框 108', type=TEXT_BOX (17)
+  Pos: L=6010228, T=4180466, W=2045788, H=369332
+  Text: '路径段评分'
+  Font: name=Microsoft YaHei, size=228600, bold=True
+
+Shape 50: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=5617866, T=4537233, W=2722570, H=257485
+  Text: '信息收益'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 51: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=5611975, T=4902790, W=2722570, H=257485
+  Text: '刷新收益'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 52: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=5611975, T=5253045, W=2722570, H=257485
+  Text: '执行代价'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 53: 'Rounded Rectangle 3', type=AUTO_SHAPE (1)
+  Pos: L=9099799, T=1788276, W=2325583, H=4115714
+  Line: #64A0FF
+  Line width: 1.5pt
+
+Shape 54: '文本框 116', type=TEXT_BOX (17)
+  Pos: L=9245043, T=2226453, W=2001165, H=369414
+  Text: '双艇协同'
+  Font: name=Microsoft YaHei, size=None, bold=True
+
+Shape 55: 'Rounded Rectangle 18', type=AUTO_SHAPE (1)
+  Pos: L=9187712, T=2649004, W=2149766, H=360024
+  Text: 'Coordinated顺序规划'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=None, size=152400, bold=None
+  FontColor: #0070C0
+
+Shape 56: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=9187712, T=3124568, W=2149766, H=369803
+  Text: 'Residual map规划'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 57: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=9187712, T=3610167, W=2149766, H=369413
+  Text: '责任区偏置'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 58: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=9187712, T=4095366, W=2149766, H=369413
+  Text: '抑制重复覆盖'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 59: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=9187712, T=4579415, W=2149766, H=369413
+  Text: '双艇冲突校验'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 60: 'Rounded Rectangle 19', type=AUTO_SHAPE (1)
+  Pos: L=9187711, T=5068338, W=2149766, H=369413
+  Text: '双艇执行'
+  Line: #385894
+  Line width: 1.0pt
+  Font: name=Microsoft YaHei, size=152400, bold=True
+  FontColor: #0070C0
+
+Shape 61: '椭圆 137', type=AUTO_SHAPE (1)
+  Pos: L=9970322, T=6071685, W=506422, H=482159
+  Line: #00B0F0
+
+Shape 62: '图片 143', type=PICTURE (13)
+  Pos: L=10038659, T=6137802, W=369747, H=369747
+
+Shape 63: '椭圆 151', type=AUTO_SHAPE (1)
+  Pos: L=8910949, T=6080932, W=506422, H=482159
+  Line: #00B0F0
+
+Shape 64: '椭圆 152', type=AUTO_SHAPE (1)
+  Pos: L=7762103, T=6077254, W=506422, H=482159
+  Line: #00B0F0
+
+Shape 65: '椭圆 153', type=AUTO_SHAPE (1)
+  Pos: L=6700264, T=6080932, W=506422, H=482159
+  Line: #00B0F0
+
+Shape 66: '矩形 154', type=AUTO_SHAPE (1)
+  Pos: L=9637454, T=6486925, W=1271048, H=338554
+  Text: '执行路径段'
+  Font: name=None, size=203200, bold=None
+
+Shape 67: '图片 156', type=PICTURE (13)
+  Pos: L=9001413, T=6154426, W=356627, H=356627
+
+Shape 68: '连接符: 曲线 160', type=LINE (9)
+  Pos: L=9417372, T=6312764, W=552951, H=9247
+
+Shape 69: '矩形 162', type=AUTO_SHAPE (1)
+  Pos: L=8536402, T=6510400, W=1242991, H=338554
+  Text: '获得新观测'
+  Font: name=None, size=203200, bold=False
+
+Shape 70: '矩形 163', type=AUTO_SHAPE (1)
+  Pos: L=7393819, T=6519220, W=1242991, H=338554
+  Text: '更新信息场'
+  Font: name=None, size=203200, bold=None
+
+Shape 71: '矩形 164', type=AUTO_SHAPE (1)
+  Pos: L=6475918, T=6532471, W=1017337, H=338554
+  Text: '重新决策'
+  Font: name=None, size=203200, bold=None
+
+Shape 72: '图片 168', type=PICTURE (13)
+  Pos: L=7819728, T=6123429, W=390110, H=390110
+
+Shape 73: '图形 170', type=PICTURE (13)
+  Pos: L=6770399, T=6110901, W=413669, H=413669
+
+Shape 74: '连接符: 曲线 175', type=LINE (9)
+  Pos: L=10159215, T=5968308, W=167695, H=39058
+
+Shape 75: '连接符: 曲线 178', type=LINE (9)
+  Pos: L=8268525, T=6318334, W=642424, H=3678
+
+Shape 76: '连接符: 曲线 181', type=LINE (9)
+  Pos: L=7206687, T=6318334, W=555417, H=3678
+
+Shape 77: '连接符: 曲线 189', type=LINE (9)
+  Pos: L=6916321, T=5959668, W=158418, H=84110
