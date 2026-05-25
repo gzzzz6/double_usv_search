@@ -1,0 +1,6630 @@
+{
+  "path": "E:\\毕设PPT\\USV_PPT.pptx",
+  "slide_count": 21,
+  "slide_width_in": 13.333,
+  "slide_height_in": 7.5,
+  "slides": [
+    {
+      "index": 1,
+      "title": "面向海上可疑目标搜索任务的",
+      "text": "面向海上可疑目标搜索任务的\n多USV决策优化方法研究\n2026年5月\n自强不息，独树一帜",
+      "text_chars": 44,
+      "text_blocks": 3,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 6,
+      "shapes": [
+        {
+          "name": "图片 6",
+          "type": "PICTURE (13)",
+          "left": 3.261,
+          "top": 1.498,
+          "width": 10.073,
+          "height": 3.898,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 1059",
+          "type": "AUTO_SHAPE (1)",
+          "left": -0.017,
+          "top": 1.498,
+          "width": 13.35,
+          "height": 3.899,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 1060",
+          "type": "AUTO_SHAPE (1)",
+          "left": -0.017,
+          "top": 1.498,
+          "width": 13.333,
+          "height": 3.899,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 1061",
+          "type": "GROUP (6)",
+          "left": 0.112,
+          "top": 0.149,
+          "width": 1.61,
+          "height": 0.931,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 1076",
+          "type": "GROUP (6)",
+          "left": 10.915,
+          "top": 1.879,
+          "width": 2.036,
+          "height": 0.698,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 1139",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 6.927,
+          "width": 13.333,
+          "height": 0.573,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 1140",
+          "type": "GROUP (6)",
+          "left": 0.0,
+          "top": 6.8,
+          "width": 0.743,
+          "height": 0.7,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "任意多边形: 形状 1143",
+          "type": "FREEFORM (5)",
+          "left": -0.017,
+          "top": 1.43,
+          "width": 13.367,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "任意多边形: 形状 1144",
+          "type": "FREEFORM (5)",
+          "left": -0.017,
+          "top": 5.468,
+          "width": 13.367,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 1145",
+          "type": "TEXT_BOX (17)",
+          "left": 0.942,
+          "top": 2.723,
+          "width": 11.303,
+          "height": 1.919,
+          "text_preview": "面向海上可疑目标搜索任务的 多USV决策优化方法研究",
+          "font_sizes": [
+            54.0,
+            54.0,
+            54.0,
+            54.0
+          ]
+        },
+        {
+          "name": "组合 1147",
+          "type": "GROUP (6)",
+          "left": 1.069,
+          "top": 5.142,
+          "width": 2.396,
+          "height": 0.512,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 1150",
+          "type": "GROUP (6)",
+          "left": 4.067,
+          "top": 5.142,
+          "width": 3.043,
+          "height": 0.512,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 1153",
+          "type": "GROUP (6)",
+          "left": 7.713,
+          "top": 5.142,
+          "width": 4.92,
+          "height": 0.512,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 1156",
+          "type": "TEXT_BOX (17)",
+          "left": 1.143,
+          "top": 6.043,
+          "width": 1.643,
+          "height": 0.403,
+          "text_preview": "2026年5月",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 1157",
+          "type": "TEXT_BOX (17)",
+          "left": 10.1,
+          "top": 7.041,
+          "width": 3.233,
+          "height": 0.403,
+          "text_preview": "自强不息，独树一帜",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 2",
+          "type": "PICTURE (13)",
+          "left": 0.196,
+          "top": 0.256,
+          "width": 3.268,
+          "height": 0.987,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "自强不息，独树一帜",
+      "text": "自强不息，独树一帜\n目录\nCONTENTS\n选题背景和综述\nBackground and Literature Review\n1\n多源搜索状态建模\nMulti-Source Search State Modeling\n2\n单艇信息驱动路径规划\nSingle-USV Informative Path Planning\n3\n双艇集中式协同搜索决策\nDual-USV Coordinated Search Decision\n4\n2\n实验设计和结果分析\nExperimental Design and Results Analysis\n5\n总结与展望\nConclusion and Future Work\n6",
+      "text_chars": 301,
+      "text_blocks": 22,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 4,
+      "shapes": [
+        {
+          "name": "组合 31",
+          "type": "GROUP (6)",
+          "left": 12.432,
+          "top": 0.383,
+          "width": 0.276,
+          "height": 0.197,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 35",
+          "type": "TEXT_BOX (17)",
+          "left": 9.524,
+          "top": 0.308,
+          "width": 2.844,
+          "height": 0.369,
+          "text_preview": "自强不息，独树一帜",
+          "font_sizes": [
+            16.0,
+            16.0,
+            16.0
+          ]
+        },
+        {
+          "name": "组合 65",
+          "type": "GROUP (6)",
+          "left": 12.393,
+          "top": 6.897,
+          "width": 0.94,
+          "height": 0.603,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 2",
+          "type": "PICTURE (13)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 5.911,
+          "height": 7.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": -0.794,
+          "top": 0.794,
+          "width": 7.5,
+          "height": 5.911,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "任意多边形: 形状 30",
+          "type": "FREEFORM (5)",
+          "left": 5.912,
+          "top": 0.0,
+          "width": 0.0,
+          "height": 7.506,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 36",
+          "type": "GROUP (6)",
+          "left": 3.871,
+          "top": 2.247,
+          "width": 0.61,
+          "height": 0.753,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 132",
+          "type": "GROUP (6)",
+          "left": 0.724,
+          "top": 6.346,
+          "width": 0.496,
+          "height": 0.612,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 11",
+          "type": "TEXT_BOX (17)",
+          "left": 1.876,
+          "top": 2.594,
+          "width": 2.08,
+          "height": 1.212,
+          "text_preview": "目录",
+          "font_sizes": [
+            66.0
+          ]
+        },
+        {
+          "name": "文本框 12",
+          "type": "TEXT_BOX (17)",
+          "left": 1.654,
+          "top": 3.503,
+          "width": 2.08,
+          "height": 0.438,
+          "text_preview": "CONTENTS",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "文本框 1",
+          "type": "TEXT_BOX (17)",
+          "left": 7.045,
+          "top": 0.931,
+          "width": 3.056,
+          "height": 0.572,
+          "text_preview": "选题背景和综述",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 7.045,
+          "top": 1.392,
+          "width": 3.069,
+          "height": 0.303,
+          "text_preview": "Background and Literature Review",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.362,
+          "top": 1.035,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "1",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "文本框 7",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 1.757,
+          "width": 3.417,
+          "height": 0.572,
+          "text_preview": "多源搜索状态建模",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 8",
+          "type": "TEXT_BOX (17)",
+          "left": 6.585,
+          "top": 2.265,
+          "width": 4.256,
+          "height": 0.303,
+          "text_preview": "Multi-Source Search State Modeling",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.375,
+          "top": 1.843,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "2",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 7.012,
+          "top": 2.605,
+          "width": 4.092,
+          "height": 0.572,
+          "text_preview": "单艇信息驱动路径规划",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 7.045,
+          "top": 3.139,
+          "width": 3.783,
+          "height": 0.303,
+          "text_preview": "Single-USV Informative Path Planning",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.362,
+          "top": 2.713,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "3",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "文本框 15",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 3.587,
+          "width": 4.517,
+          "height": 0.572,
+          "text_preview": "双艇集中式协同搜索决策",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 16",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 4.055,
+          "width": 3.783,
+          "height": 0.303,
+          "text_preview": "Dual-USV Coordinated Search Decision",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.375,
+          "top": 3.605,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "4",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "灯片编号占位符 187",
+          "type": "PLACEHOLDER (14)",
+          "left": 12.261,
+          "top": 6.951,
+          "width": 0.82,
+          "height": 0.399,
+          "text_preview": "2",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 22",
+          "type": "PICTURE (13)",
+          "left": 1.245,
+          "top": 1.044,
+          "width": 3.054,
+          "height": 0.922,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 19",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 4.403,
+          "width": 3.783,
+          "height": 0.572,
+          "text_preview": "实验设计和结果分析",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 21",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 4.914,
+          "width": 4.132,
+          "height": 0.303,
+          "text_preview": "Experimental Design and Results Analysis",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.375,
+          "top": 4.465,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "5",
+          "font_sizes": [
+            20.0
+          ]
+        },
+        {
+          "name": "文本框 24",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 5.324,
+          "width": 3.042,
+          "height": 0.572,
+          "text_preview": "总结与展望",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "文本框 25",
+          "type": "TEXT_BOX (17)",
+          "left": 7.058,
+          "top": 5.791,
+          "width": 3.056,
+          "height": 0.303,
+          "text_preview": "Conclusion and Future Work",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 26",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.375,
+          "top": 5.342,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "6",
+          "font_sizes": [
+            20.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "选题背景和意义",
+      "text": "选题背景和意义\n海上可疑目标搜索面临复杂环境和信息不确定性难题\n3\n近岸安防、海上搜索等任务需要无人化、持续化搜索能力\nUSV 可持续巡航、降低人员风险，适合承担海上搜索任务\n搜索任务中，目标位置通常未知，且USV观测范围有限\n海上环境存在障碍、岸线、狭窄通道等空间约束，搜索路径不能只追求距离最短\n多 USV 协同时，会出现重复搜索、区域分工和路径冲突等问题",
+      "text_chars": 180,
+      "text_blocks": 8,
+      "pictures": 3,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "图片 4",
+          "type": "PICTURE (13)",
+          "left": -0.001,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 9",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本占位符 16",
+          "type": "PLACEHOLDER (14)",
+          "left": 0.866,
+          "top": 0.204,
+          "width": 5.107,
+          "height": 0.546,
+          "text_preview": "选题背景和意义",
+          "font_sizes": [
+            27.0
+          ]
+        },
+        {
+          "name": "文本占位符 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.456,
+          "top": 0.888,
+          "width": 12.878,
+          "height": 0.5,
+          "text_preview": "海上可疑目标搜索面临复杂环境和信息不确定性难题",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "灯片编号占位符 32",
+          "type": "PLACEHOLDER (14)",
+          "left": 12.261,
+          "top": 6.951,
+          "width": 0.82,
+          "height": 0.399,
+          "text_preview": "3",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 1",
+          "type": "TEXT_BOX (17)",
+          "left": 0.498,
+          "top": 2.027,
+          "width": 6.874,
+          "height": 0.404,
+          "text_preview": "近岸安防、海上搜索等任务需要无人化、持续化搜索能力",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 0.51,
+          "top": 2.908,
+          "width": 6.874,
+          "height": 0.404,
+          "text_preview": "USV 可持续巡航、降低人员风险，适合承担海上搜索任务",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 3",
+          "type": "TEXT_BOX (17)",
+          "left": 0.535,
+          "top": 3.893,
+          "width": 6.656,
+          "height": 0.404,
+          "text_preview": "搜索任务中，目标位置通常未知，且USV观测范围有限",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 0.498,
+          "top": 4.878,
+          "width": 6.56,
+          "height": 0.707,
+          "text_preview": "海上环境存在障碍、岸线、狭窄通道等空间约束，搜索路径不能只追求距离最短",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 6",
+          "type": "TEXT_BOX (17)",
+          "left": 0.535,
+          "top": 6.19,
+          "width": 6.656,
+          "height": 0.707,
+          "text_preview": "多 USV 协同时，会出现重复搜索、区域分工和路径冲突等问题",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 33",
+          "type": "PICTURE (13)",
+          "left": 7.409,
+          "top": 1.854,
+          "width": 5.547,
+          "height": 3.495,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "相关研究的发展脉络",
+      "text": "相关研究的发展脉络\n1\n2\n3\n4\n未知地图探索阶段\n已知地图下的信息型路径规划\n多机器人协同搜索\n早期的探索围绕未知地图建模，代表思路是frontier-based exploration，机器人不知道环境结构，需要边运动边建图\n当地图结构已知后，USV不需要再去探索障碍和自由空间，问题变为：判断哪些区域更可能带来目标相关观测？\n单机器人在搜索任务上会略显乏力，所以现有研究大多为多机器人协同，这也会进一步带来一系列问题：\n任务分配\n协同收益\n重复覆盖\n路径冲突",
+      "text_chars": 233,
+      "text_blocks": 15,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "图片 4",
+          "type": "PICTURE (13)",
+          "left": 0.0,
+          "top": 0.809,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 9",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本占位符 16",
+          "type": "PLACEHOLDER (14)",
+          "left": 0.866,
+          "top": 0.204,
+          "width": 5.107,
+          "height": 0.546,
+          "text_preview": "相关研究的发展脉络",
+          "font_sizes": [
+            27.0
+          ]
+        },
+        {
+          "name": "任意多边形: 形状 136",
+          "type": "FREEFORM (5)",
+          "left": 0.456,
+          "top": 1.584,
+          "width": 0.743,
+          "height": 5.38,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 172",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.836,
+          "top": 2.05,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "1",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 176",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.836,
+          "top": 3.844,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "2",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 179",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.836,
+          "top": 5.672,
+          "width": 0.63,
+          "height": 0.63,
+          "text_preview": "3",
+          "font_sizes": [
+            28.0
+          ]
+        },
+        {
+          "name": "灯片编号占位符 2",
+          "type": "PLACEHOLDER (14)",
+          "left": 12.261,
+          "top": 6.951,
+          "width": 0.82,
+          "height": 0.399,
+          "text_preview": "4",
+          "font_sizes": []
+        },
+        {
+          "name": "箭头: 下 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.17,
+          "top": 3.016,
+          "width": 0.391,
+          "height": 0.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "箭头: 下 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.25,
+          "top": 4.76,
+          "width": 0.391,
+          "height": 0.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本占位符 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.456,
+          "top": 0.888,
+          "width": 12.878,
+          "height": 0.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.516,
+          "top": 2.05,
+          "width": 3.7,
+          "height": 0.606,
+          "text_preview": "未知地图探索阶段",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 22",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.567,
+          "top": 3.825,
+          "width": 3.7,
+          "height": 0.606,
+          "text_preview": "已知地图下的信息型路径规划",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.626,
+          "top": 5.672,
+          "width": 3.641,
+          "height": 0.606,
+          "text_preview": "多机器人协同搜索",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.459,
+          "top": 1.738,
+          "width": 6.795,
+          "height": 1.23,
+          "text_preview": "早期的探索围绕未知地图建模，代表思路是frontier-based exploration，机器人不知道环境结构，需要边运动边建图",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 25",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.459,
+          "top": 3.492,
+          "width": 6.795,
+          "height": 1.23,
+          "text_preview": "当地图结构已知后，USV不需要再去探索障碍和自由空间，问题变为：判断哪些区域更可能带来目标相关观测？",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.459,
+          "top": 5.322,
+          "width": 7.018,
+          "height": 1.42,
+          "text_preview": "单机器人在搜索任务上会略显乏力，所以现有研究大多为多机器人协同，这也会进一步带来一系列问题：",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 29",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.659,
+          "top": 6.233,
+          "width": 1.149,
+          "height": 0.389,
+          "text_preview": "任务分配",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 30",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.945,
+          "top": 6.233,
+          "width": 1.149,
+          "height": 0.389,
+          "text_preview": "协同收益",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.428,
+          "top": 6.223,
+          "width": 1.149,
+          "height": 0.389,
+          "text_preview": "重复覆盖",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 39",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.176,
+          "top": 6.223,
+          "width": 1.149,
+          "height": 0.389,
+          "text_preview": "路径冲突",
+          "font_sizes": [
+            16.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "本项目工作",
+      "text": "本项目工作\n已知静态地图下的信息驱动搜索基线\n5\n本文聚焦已知静态障碍地图中目标位置未知的搜索任务，构建单艇与双艇条件下的信息驱动搜索基线。\n感知与状态更新\n已知静态地图\n障碍结构已知\n目标位置未知\nobservation \n传感器范围内\n局部带噪观测\ndetect\n命中更新/\n未命中更新\n信息场的建模\nGP Clue\n高斯过程后验\nAnomaly变式\nIntensity \n空间目标存在信念\nRecency\n观测时效性\n单艇路径规划\nAnchor \n提取\nViewpoint\n选取\nA* 寻路\n截取\n短路径段\n路径段评分\n信息收益\n刷新收益\n执行代价\n双艇协同\nCoordinated顺序规划\nResidual map规划\n责任区偏置\n抑制重复覆盖\n双艇冲突校验\n双艇执行\n执行路径段\n获得新观测\n更新信息场\n重新决策",
+      "text_chars": 361,
+      "text_blocks": 32,
+      "pictures": 17,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "Rounded Rectangle 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.608,
+          "top": 1.96,
+          "width": 2.456,
+          "height": 4.501,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 4",
+          "type": "PICTURE (13)",
+          "left": -0.001,
+          "top": 0.857,
+          "width": 13.082,
+          "height": 0.595,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 9",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本占位符 16",
+          "type": "PLACEHOLDER (14)",
+          "left": 0.866,
+          "top": 0.204,
+          "width": 5.107,
+          "height": 0.546,
+          "text_preview": "本项目工作",
+          "font_sizes": [
+            27.0
+          ]
+        },
+        {
+          "name": "直接连接符 10",
+          "type": "LINE (9)",
+          "left": 6.573,
+          "top": 2.722,
+          "width": 0.869,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本占位符 14",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.456,
+          "top": 0.888,
+          "width": 12.878,
+          "height": 0.5,
+          "text_preview": "已知静态地图下的信息驱动搜索基线",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "灯片编号占位符 1",
+          "type": "PLACEHOLDER (14)",
+          "left": 12.804,
+          "top": 6.951,
+          "width": 0.277,
+          "height": 0.399,
+          "text_preview": "5",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.456,
+          "top": 1.413,
+          "width": 8.758,
+          "height": 0.418,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 0.581,
+          "top": 1.474,
+          "width": 8.758,
+          "height": 0.236,
+          "text_preview": "本文聚焦已知静态障碍地图中目标位置未知的搜索任务，构建单艇与双艇条件下的信息驱动搜索基线。",
+          "font_sizes": [
+            14.0
+          ]
+        },
+        {
+          "name": "文本框 6",
+          "type": "TEXT_BOX (17)",
+          "left": 0.767,
+          "top": 2.447,
+          "width": 2.113,
+          "height": 0.404,
+          "text_preview": "感知与状态更新",
+          "font_sizes": [
+            18.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.704,
+          "top": 2.909,
+          "width": 2.274,
+          "height": 0.806,
+          "text_preview": "已知静态地图 障碍结构已知 目标位置未知",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "图形 13",
+          "type": "PICTURE (13)",
+          "left": 2.299,
+          "top": 2.999,
+          "width": 0.625,
+          "height": 0.625,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.704,
+          "top": 4.009,
+          "width": 2.274,
+          "height": 0.806,
+          "text_preview": "observation 传感器范围内 局部带噪观测",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "图形 17",
+          "type": "PICTURE (13)",
+          "left": 2.298,
+          "top": 4.071,
+          "width": 0.683,
+          "height": 0.683,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.704,
+          "top": 5.11,
+          "width": 2.274,
+          "height": 0.806,
+          "text_preview": "detect 命中更新/ 未命中更新",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "图形 20",
+          "type": "PICTURE (13)",
+          "left": 2.236,
+          "top": 5.134,
+          "width": 0.738,
+          "height": 0.738,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Right Arrow 15",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.127,
+          "top": 4.363,
+          "width": 0.18,
+          "height": 0.1,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.337,
+          "top": 1.96,
+          "width": 2.292,
+          "height": 4.492,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 24",
+          "type": "TEXT_BOX (17)",
+          "left": 3.495,
+          "top": 2.439,
+          "width": 1.973,
+          "height": 0.403,
+          "text_preview": "信息场的建模",
+          "font_sizes": [
+            18.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.433,
+          "top": 2.901,
+          "width": 2.123,
+          "height": 0.805,
+          "text_preview": "GP Clue 高斯过程后验 Anomaly变式",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.433,
+          "top": 4.002,
+          "width": 2.123,
+          "height": 0.805,
+          "text_preview": "Intensity 空间目标存在信念",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.433,
+          "top": 5.103,
+          "width": 2.123,
+          "height": 0.805,
+          "text_preview": "Recency 观测时效性",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Right Arrow 15",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.642,
+          "top": 4.363,
+          "width": 0.18,
+          "height": 0.1,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图形 47",
+          "type": "PICTURE (13)",
+          "left": 6.496,
+          "top": 2.474,
+          "width": 1.139,
+          "height": 1.139,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 49",
+          "type": "PICTURE (13)",
+          "left": 4.958,
+          "top": 3.048,
+          "width": 0.51,
+          "height": 0.51,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图形 51",
+          "type": "PICTURE (13)",
+          "left": 4.933,
+          "top": 5.247,
+          "width": 0.533,
+          "height": 0.533,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 53",
+          "type": "PICTURE (13)",
+          "left": 5.003,
+          "top": 4.137,
+          "width": 0.51,
+          "height": 0.51,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.866,
+          "top": 1.959,
+          "width": 3.66,
+          "height": 4.518,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 55",
+          "type": "TEXT_BOX (17)",
+          "left": 6.611,
+          "top": 2.404,
+          "width": 2.237,
+          "height": 0.404,
+          "text_preview": "单艇路径规划",
+          "font_sizes": []
+        },
+        {
+          "name": "Right Arrow 15",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.649,
+          "top": 4.413,
+          "width": 0.18,
+          "height": 0.1,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 29",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.937,
+          "top": 2.927,
+          "width": 0.747,
+          "height": 1.399,
+          "text_preview": "Anchor 提取",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "Right Arrow 30",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.736,
+          "top": 3.509,
+          "width": 0.096,
+          "height": 0.129,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.821,
+          "top": 2.927,
+          "width": 0.858,
+          "height": 1.397,
+          "text_preview": "Viewpoint 选取",
+          "font_sizes": []
+        },
+        {
+          "name": "Right Arrow 32",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.73,
+          "top": 3.506,
+          "width": 0.096,
+          "height": 0.129,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 33",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.877,
+          "top": 2.918,
+          "width": 0.695,
+          "height": 1.397,
+          "text_preview": "A* 寻路",
+          "font_sizes": []
+        },
+        {
+          "name": "Right Arrow 34",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.586,
+          "top": 3.506,
+          "width": 0.096,
+          "height": 0.129,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 35",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.708,
+          "top": 2.927,
+          "width": 0.729,
+          "height": 1.397,
+          "text_preview": "截取 短路径段",
+          "font_sizes": []
+        },
+        {
+          "name": "图形 77",
+          "type": "PICTURE (13)",
+          "left": 6.032,
+          "top": 3.101,
+          "width": 0.567,
+          "height": 0.567,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 82",
+          "type": "PICTURE (13)",
+          "left": 6.969,
+          "top": 3.082,
+          "width": 0.555,
+          "height": 0.555,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 99",
+          "type": "PICTURE (13)",
+          "left": 7.992,
+          "top": 3.089,
+          "width": 0.487,
+          "height": 0.487,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 101",
+          "type": "PICTURE (13)",
+          "left": 8.809,
+          "top": 3.098,
+          "width": 0.555,
+          "height": 0.555,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "直接连接符 103",
+          "type": "LINE (9)",
+          "left": 5.973,
+          "top": 4.549,
+          "width": 3.386,
+          "height": 0.003,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 108",
+          "type": "TEXT_BOX (17)",
+          "left": 6.573,
+          "top": 4.572,
+          "width": 2.237,
+          "height": 0.404,
+          "text_preview": "路径段评分",
+          "font_sizes": [
+            18.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.144,
+          "top": 4.962,
+          "width": 2.977,
+          "height": 0.282,
+          "text_preview": "信息收益",
+          "font_sizes": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.137,
+          "top": 5.362,
+          "width": 2.977,
+          "height": 0.282,
+          "text_preview": "刷新收益",
+          "font_sizes": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.137,
+          "top": 5.745,
+          "width": 2.977,
+          "height": 0.282,
+          "text_preview": "执行代价",
+          "font_sizes": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.952,
+          "top": 1.956,
+          "width": 2.543,
+          "height": 4.501,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 116",
+          "type": "TEXT_BOX (17)",
+          "left": 10.111,
+          "top": 2.435,
+          "width": 2.189,
+          "height": 0.404,
+          "text_preview": "双艇协同",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 2.897,
+          "width": 2.351,
+          "height": 0.394,
+          "text_preview": "Coordinated顺序规划",
+          "font_sizes": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 3.417,
+          "width": 2.351,
+          "height": 0.404,
+          "text_preview": "Residual map规划",
+          "font_sizes": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 3.948,
+          "width": 2.351,
+          "height": 0.404,
+          "text_preview": "责任区偏置",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 4.479,
+          "width": 2.351,
+          "height": 0.404,
+          "text_preview": "抑制重复覆盖",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 5.008,
+          "width": 2.351,
+          "height": 0.404,
+          "text_preview": "双艇冲突校验",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.048,
+          "top": 5.543,
+          "width": 2.351,
+          "height": 0.404,
+          "text_preview": "双艇执行",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "椭圆 137",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.904,
+          "top": 6.64,
+          "width": 0.554,
+          "height": 0.527,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 143",
+          "type": "PICTURE (13)",
+          "left": 10.978,
+          "top": 6.712,
+          "width": 0.404,
+          "height": 0.404,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "椭圆 151",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.745,
+          "top": 6.65,
+          "width": 0.554,
+          "height": 0.527,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "椭圆 152",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.489,
+          "top": 6.646,
+          "width": 0.554,
+          "height": 0.527,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "椭圆 153",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.327,
+          "top": 6.65,
+          "width": 0.554,
+          "height": 0.527,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 154",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.54,
+          "top": 7.094,
+          "width": 1.39,
+          "height": 0.37,
+          "text_preview": "执行路径段",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "图片 156",
+          "type": "PICTURE (13)",
+          "left": 9.844,
+          "top": 6.731,
+          "width": 0.39,
+          "height": 0.39,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 曲线 160",
+          "type": "LINE (9)",
+          "left": 10.299,
+          "top": 6.904,
+          "width": 0.605,
+          "height": 0.01,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 162",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.336,
+          "top": 7.12,
+          "width": 1.359,
+          "height": 0.37,
+          "text_preview": "获得新观测",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "矩形 163",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.086,
+          "top": 7.13,
+          "width": 1.359,
+          "height": 0.37,
+          "text_preview": "更新信息场",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "矩形 164",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.082,
+          "top": 7.144,
+          "width": 1.113,
+          "height": 0.37,
+          "text_preview": "重新决策",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "图片 168",
+          "type": "PICTURE (13)",
+          "left": 8.552,
+          "top": 6.697,
+          "width": 0.427,
+          "height": 0.427,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图形 170",
+          "type": "PICTURE (13)",
+          "left": 7.404,
+          "top": 6.683,
+          "width": 0.452,
+          "height": 0.452,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 曲线 175",
+          "type": "LINE (9)",
+          "left": 11.11,
+          "top": 6.527,
+          "width": 0.183,
+          "height": 0.043,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 曲线 178",
+          "type": "LINE (9)",
+          "left": 9.043,
+          "top": 6.91,
+          "width": 0.703,
+          "height": 0.004,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 曲线 181",
+          "type": "LINE (9)",
+          "left": 7.881,
+          "top": 6.91,
+          "width": 0.607,
+          "height": 0.004,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 曲线 189",
+          "type": "LINE (9)",
+          "left": 7.564,
+          "top": 6.518,
+          "width": 0.173,
+          "height": 0.092,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "多源搜索状态建模",
+      "text": "多源搜索状态建模\n➢\n三维互补的信息场\n海上搜索中观测有限且带噪，单一信息源难以同时表达线索强度、目标存在信念与观测刷新需求。\n单一信息源的局限\nGP Clue\n可推断线索热点，但受采样稀疏和观测噪声限制。\nIntensity\n能反应目标存在信念，但更新质量受探测范围、漏检和历史反馈累积影响。\nRecency\n可提示长期未观测区域，但只描述时间新鲜度，无法区分区域本身的重要程度。\n三维互补建模\nGP Clue\n线索场估计\n哪里有线索，哪里不确定\nIntensity\n目标存在信念\n探测反馈后哪里仍值得搜索\nRecency\n观测时效性\n哪里太久没看，需要刷新\n互补",
+      "text_chars": 283,
+      "text_blocks": 22,
+      "pictures": 1,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 57",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 58",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 4.792,
+          "height": 0.421,
+          "text_preview": "多源搜索状态建模",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 65",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 66",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 67",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "三维互补的信息场",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 68",
+          "type": "TEXT_BOX (17)",
+          "left": 0.778,
+          "top": 1.569,
+          "width": 7.927,
+          "height": 0.222,
+          "text_preview": "海上搜索中观测有限且带噪，单一信息源难以同时表达线索强度、目标存在信念与观测刷新需求。",
+          "font_sizes": [
+            13.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 69",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.806,
+          "top": 2.222,
+          "width": 5.25,
+          "height": 3.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 70",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.285,
+          "top": 2.328,
+          "width": 2.083,
+          "height": 0.389,
+          "text_preview": "单一信息源的局限",
+          "font_sizes": [
+            13.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 71",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.208,
+          "top": 2.778,
+          "width": 4.417,
+          "height": 0.889,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 73",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 2.889,
+          "width": 3.75,
+          "height": 0.215,
+          "text_preview": "GP Clue",
+          "font_sizes": [
+            12.8
+          ]
+        },
+        {
+          "name": "文本框 74",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 3.195,
+          "width": 3.861,
+          "height": 0.172,
+          "text_preview": "可推断线索热点，但受采样稀疏和观测噪声限制。",
+          "font_sizes": [
+            10.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 75",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.208,
+          "top": 3.751,
+          "width": 4.417,
+          "height": 0.889,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 77",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 3.862,
+          "width": 3.75,
+          "height": 0.215,
+          "text_preview": "Intensity",
+          "font_sizes": [
+            12.8
+          ]
+        },
+        {
+          "name": "文本框 78",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 4.167,
+          "width": 3.861,
+          "height": 0.343,
+          "text_preview": "能反应目标存在信念，但更新质量受探测范围、漏检和历史反馈累积影响。",
+          "font_sizes": [
+            10.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 79",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.208,
+          "top": 4.723,
+          "width": 4.417,
+          "height": 0.889,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 81",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 4.834,
+          "width": 3.75,
+          "height": 0.215,
+          "text_preview": "Recency",
+          "font_sizes": [
+            12.8
+          ]
+        },
+        {
+          "name": "文本框 82",
+          "type": "TEXT_BOX (17)",
+          "left": 1.486,
+          "top": 5.139,
+          "width": 3.861,
+          "height": 0.343,
+          "text_preview": "可提示长期未观测区域，但只描述时间新鲜度，无法区分区域本身的重要程度。",
+          "font_sizes": [
+            10.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 83",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.278,
+          "top": 2.222,
+          "width": 5.25,
+          "height": 3.5,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 84",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.75,
+          "top": 2.458,
+          "width": 1.917,
+          "height": 0.389,
+          "text_preview": "三维互补建模",
+          "font_sizes": [
+            13.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 85",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.778,
+          "top": 3.083,
+          "width": 4.25,
+          "height": 0.722,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 88",
+          "type": "TEXT_BOX (17)",
+          "left": 7.986,
+          "top": 3.185,
+          "width": 1.319,
+          "height": 0.227,
+          "text_preview": "GP Clue",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 89",
+          "type": "TEXT_BOX (17)",
+          "left": 10.028,
+          "top": 3.194,
+          "width": 1.639,
+          "height": 0.188,
+          "text_preview": "线索场估计",
+          "font_sizes": [
+            11.2
+          ]
+        },
+        {
+          "name": "文本框 90",
+          "type": "TEXT_BOX (17)",
+          "left": 7.999,
+          "top": 3.494,
+          "width": 3.125,
+          "height": 0.155,
+          "text_preview": "哪里有线索，哪里不确定",
+          "font_sizes": [
+            9.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 91",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.778,
+          "top": 4.0,
+          "width": 4.25,
+          "height": 0.722,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 94",
+          "type": "TEXT_BOX (17)",
+          "left": 8.001,
+          "top": 4.081,
+          "width": 1.319,
+          "height": 0.227,
+          "text_preview": "Intensity",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 95",
+          "type": "TEXT_BOX (17)",
+          "left": 10.028,
+          "top": 4.111,
+          "width": 1.639,
+          "height": 0.188,
+          "text_preview": "目标存在信念",
+          "font_sizes": [
+            11.2
+          ]
+        },
+        {
+          "name": "文本框 96",
+          "type": "TEXT_BOX (17)",
+          "left": 7.999,
+          "top": 4.393,
+          "width": 3.125,
+          "height": 0.155,
+          "text_preview": "探测反馈后哪里仍值得搜索",
+          "font_sizes": [
+            9.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 97",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.778,
+          "top": 4.917,
+          "width": 4.25,
+          "height": 0.722,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 100",
+          "type": "TEXT_BOX (17)",
+          "left": 8.045,
+          "top": 5.008,
+          "width": 1.319,
+          "height": 0.227,
+          "text_preview": "Recency",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 101",
+          "type": "TEXT_BOX (17)",
+          "left": 10.028,
+          "top": 5.028,
+          "width": 1.639,
+          "height": 0.188,
+          "text_preview": "观测时效性",
+          "font_sizes": [
+            11.2
+          ]
+        },
+        {
+          "name": "文本框 102",
+          "type": "TEXT_BOX (17)",
+          "left": 8.067,
+          "top": 5.31,
+          "width": 3.125,
+          "height": 0.155,
+          "text_preview": "哪里太久没看，需要刷新",
+          "font_sizes": [
+            9.2
+          ]
+        },
+        {
+          "name": "直接箭头连接符 103",
+          "type": "LINE (9)",
+          "left": 6.139,
+          "top": 3.972,
+          "width": 1.014,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 104",
+          "type": "TEXT_BOX (17)",
+          "left": 6.361,
+          "top": 3.653,
+          "width": 0.611,
+          "height": 0.194,
+          "text_preview": "互补",
+          "font_sizes": [
+            11.5
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "多源搜索状态建模",
+      "text": "多源搜索状态建模\n➢\n基于 GP 的线索场估计与 anomaly-aware 加权\n高斯过程后验估计\n目标：由有限观测点推断整张地图上的 clue 后验场\n局部带噪观测\nGP 后验推断\n后验输出\nμ(x)：线索强度估计\nσ(x)：未观测不确定性\nμ(x) 高：已观测线索强\nσ(x) 高：区域仍不确定\nUCB 同时兼顾利用与探索\nanomaly-aware 异常上尾加权\n在 GP-UCB 基础上，进一步强化后验高值区域的搜索倾向。\n上尾区域\n异常率\n路径决策引入置信上限(Upper Confidence Bound)作为动作选择准则\n乘性加权\n保留了UCB在“高均值利用”与“不确定性探索”之间的基本平衡，同时对更可能属于高值上尾的区域给予额外强调",
+      "text_chars": 326,
+      "text_blocks": 19,
+      "pictures": 1,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 74",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 256",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 4.792,
+          "height": 0.421,
+          "text_preview": "多源搜索状态建模",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 263",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 8.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 264",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 265",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 7.425,
+          "height": 0.404,
+          "text_preview": "基于 GP 的线索场估计与 anomaly-aware 加权",
+          "font_sizes": [
+            24.0,
+            24.0,
+            24.0,
+            24.0,
+            24.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 268",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.056,
+          "top": 2.333,
+          "width": 1.811,
+          "height": 0.347,
+          "text_preview": "高斯过程后验估计",
+          "font_sizes": [
+            11.6
+          ]
+        },
+        {
+          "name": "文本框 269",
+          "type": "TEXT_BOX (17)",
+          "left": 2.935,
+          "top": 2.432,
+          "width": 3.999,
+          "height": 0.172,
+          "text_preview": "目标：由有限观测点推断整张地图上的 clue 后验场",
+          "font_sizes": [
+            10.2,
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 270",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.833,
+          "top": 2.771,
+          "width": 2.139,
+          "height": 1.535,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 273",
+          "type": "TEXT_BOX (17)",
+          "left": 1.395,
+          "top": 2.816,
+          "width": 1.104,
+          "height": 0.205,
+          "text_preview": "局部带噪观测",
+          "font_sizes": [
+            12.2
+          ]
+        },
+        {
+          "name": "文本框 278",
+          "type": "TEXT_BOX (17)",
+          "left": 4.097,
+          "top": 2.832,
+          "width": 1.059,
+          "height": 0.205,
+          "text_preview": "GP 后验推断",
+          "font_sizes": [
+            12.2,
+            12.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 280",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.125,
+          "top": 2.77,
+          "width": 1.958,
+          "height": 1.862,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 283",
+          "type": "TEXT_BOX (17)",
+          "left": 6.778,
+          "top": 2.832,
+          "width": 1.0,
+          "height": 0.205,
+          "text_preview": "后验输出",
+          "font_sizes": [
+            12.2
+          ]
+        },
+        {
+          "name": "文本框 284",
+          "type": "TEXT_BOX (17)",
+          "left": 6.277,
+          "top": 3.026,
+          "width": 1.764,
+          "height": 0.37,
+          "text_preview": "μ(x)：线索强度估计 σ(x)：未观测不确定性",
+          "font_sizes": [
+            11.0,
+            11.0,
+            11.0,
+            11.0
+          ]
+        },
+        {
+          "name": "直接箭头连接符 285",
+          "type": "LINE (9)",
+          "left": 3.181,
+          "top": 3.444,
+          "width": 0.319,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "直接箭头连接符 286",
+          "type": "LINE (9)",
+          "left": 5.722,
+          "top": 3.444,
+          "width": 0.319,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 289",
+          "type": "TEXT_BOX (17)",
+          "left": 6.362,
+          "top": 4.741,
+          "width": 1.572,
+          "height": 0.172,
+          "text_preview": "μ(x) 高：已观测线索强",
+          "font_sizes": [
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "文本框 290",
+          "type": "TEXT_BOX (17)",
+          "left": 6.361,
+          "top": 4.956,
+          "width": 1.572,
+          "height": 0.172,
+          "text_preview": "σ(x) 高：区域仍不确定",
+          "font_sizes": [
+            10.2,
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "文本框 291",
+          "type": "TEXT_BOX (17)",
+          "left": 6.342,
+          "top": 5.155,
+          "width": 1.667,
+          "height": 0.172,
+          "text_preview": "UCB 同时兼顾利用与探索",
+          "font_sizes": [
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 292",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.606,
+          "top": 2.083,
+          "width": 4.061,
+          "height": 3.955,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 293",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.028,
+          "top": 2.333,
+          "width": 2.685,
+          "height": 0.347,
+          "text_preview": "anomaly-aware 异常上尾加权",
+          "font_sizes": [
+            11.4,
+            11.4
+          ]
+        },
+        {
+          "name": "文本框 294",
+          "type": "TEXT_BOX (17)",
+          "left": 9.056,
+          "top": 2.833,
+          "width": 3.056,
+          "height": 0.364,
+          "text_preview": "在 GP-UCB 基础上，进一步强化后验高值区域的搜索倾向。",
+          "font_sizes": [
+            10.8,
+            10.8,
+            10.8
+          ]
+        },
+        {
+          "name": "矩形: 圆角 295",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.847,
+          "top": 3.258,
+          "width": 1.0,
+          "height": 0.306,
+          "text_preview": "上尾区域",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 297",
+          "type": "LINE (9)",
+          "left": 9.347,
+          "top": 3.564,
+          "width": 0.0,
+          "height": 0.25,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 298",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.834,
+          "top": 3.775,
+          "width": 1.0,
+          "height": 0.306,
+          "text_preview": "异常率",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 300",
+          "type": "LINE (9)",
+          "left": 9.347,
+          "top": 4.029,
+          "width": 0.0,
+          "height": 0.25,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 1",
+          "type": "TEXT_BOX (17)",
+          "left": 6.174,
+          "top": 3.253,
+          "width": 0.0,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 6.148,
+          "top": 3.369,
+          "width": 1.892,
+          "height": 0.631,
+          "text_preview": "路径决策引入置信上限(Upper Confidence Bound)作为动作选择准则",
+          "font_sizes": [
+            10.5,
+            10.5,
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 4",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.847,
+          "top": 4.286,
+          "width": 1.0,
+          "height": 0.306,
+          "text_preview": "乘性加权",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.819,
+          "top": 4.989,
+          "width": 3.657,
+          "height": 0.719,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 6",
+          "type": "TEXT_BOX (17)",
+          "left": 8.819,
+          "top": 5.051,
+          "width": 3.634,
+          "height": 0.656,
+          "text_preview": "保留了UCB在“高均值利用”与“不确定性探索”之间的基本平衡，同时对更可能属于高值上尾的区域给予额外强调",
+          "font_sizes": [
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "多源搜索状态建模",
+      "text": "多源搜索状态建模\n➢\n目标存在信念与观测时效建模\nIntensity：剩余目标存在信念\n运动预测\n可疑目标存在两种运动情况：static 保持分布；random_walk 向相邻自由格扩散。\n未命中更新\n传感器覆盖区域的目标质量降低，随后归一化保持总目标质量不变。\n命中更新\n探测到目标后，将传感器覆盖区域清零，减少总目标质量，再归一化实现质量再分配。\nRecency：观测时效性\n状态记录\nUSV 传感器覆盖到自由格 x 时，记录该格最近一次被观测的仿真步。\n时效计算\n8",
+      "text_chars": 237,
+      "text_blocks": 15,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 4",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 4.792,
+          "height": 0.421,
+          "text_preview": "多源搜索状态建模",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "目标存在信念与观测时效建模",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 16",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.653,
+          "top": 2.069,
+          "width": 5.764,
+          "height": 4.194,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.0,
+          "top": 2.306,
+          "width": 2.639,
+          "height": 0.347,
+          "text_preview": "Intensity：剩余目标存在信念",
+          "font_sizes": [
+            11.4,
+            11.4
+          ]
+        },
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.0,
+          "top": 2.8,
+          "width": 4.806,
+          "height": 0.528,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 1.167,
+          "top": 2.892,
+          "width": 1.056,
+          "height": 0.177,
+          "text_preview": "运动预测",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 28",
+          "type": "TEXT_BOX (17)",
+          "left": 1.167,
+          "top": 3.123,
+          "width": 4.139,
+          "height": 0.138,
+          "text_preview": "可疑目标存在两种运动情况：static 保持分布；random_walk 向相邻自由格扩散。",
+          "font_sizes": [
+            8.2,
+            8.2,
+            8.2,
+            8.2,
+            8.2,
+            8.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 29",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.014,
+          "top": 3.75,
+          "width": 4.806,
+          "height": 0.528,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 32",
+          "type": "TEXT_BOX (17)",
+          "left": 1.181,
+          "top": 3.842,
+          "width": 1.056,
+          "height": 0.177,
+          "text_preview": "未命中更新",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 34",
+          "type": "TEXT_BOX (17)",
+          "left": 1.181,
+          "top": 4.083,
+          "width": 4.0,
+          "height": 0.138,
+          "text_preview": "传感器覆盖区域的目标质量降低，随后归一化保持总目标质量不变。",
+          "font_sizes": [
+            8.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 35",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.0,
+          "top": 4.743,
+          "width": 4.806,
+          "height": 0.528,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 98",
+          "type": "TEXT_BOX (17)",
+          "left": 1.181,
+          "top": 4.835,
+          "width": 1.056,
+          "height": 0.177,
+          "text_preview": "命中更新",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 100",
+          "type": "TEXT_BOX (17)",
+          "left": 1.181,
+          "top": 5.073,
+          "width": 4.597,
+          "height": 0.138,
+          "text_preview": "探测到目标后，将传感器覆盖区域清零，减少总目标质量，再归一化实现质量再分配。",
+          "font_sizes": [
+            8.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 105",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.917,
+          "top": 2.069,
+          "width": 5.764,
+          "height": 4.194,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 106",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.264,
+          "top": 2.306,
+          "width": 2.861,
+          "height": 0.347,
+          "text_preview": "Recency：观测时效性",
+          "font_sizes": [
+            11.4,
+            11.4
+          ]
+        },
+        {
+          "name": "矩形: 圆角 108",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.264,
+          "top": 3.183,
+          "width": 4.806,
+          "height": 0.806,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 109",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.403,
+          "top": 3.308,
+          "width": 1.444,
+          "height": 0.292,
+          "text_preview": "状态记录",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 111",
+          "type": "TEXT_BOX (17)",
+          "left": 7.486,
+          "top": 3.711,
+          "width": 4.417,
+          "height": 0.155,
+          "text_preview": "USV 传感器覆盖到自由格 x 时，记录该格最近一次被观测的仿真步。",
+          "font_sizes": [
+            9.2,
+            9.2,
+            9.2,
+            9.2
+          ]
+        },
+        {
+          "name": "矩形: 圆角 112",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.264,
+          "top": 4.396,
+          "width": 4.806,
+          "height": 1.111,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 113",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.472,
+          "top": 4.562,
+          "width": 1.083,
+          "height": 0.292,
+          "text_preview": "时效计算",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 126",
+          "type": "TEXT_BOX (17)",
+          "left": 12.431,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "8",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "图形 38",
+          "type": "PICTURE (13)",
+          "left": 10.181,
+          "top": 2.17,
+          "width": 0.606,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "单艇信息驱动路径规划",
+      "text": "单艇信息驱动路径规划\n➢\n单艇路径规划框架\n9\n滚动决策控制模型\n单艇自主规划决策状态转移闭环流程\n滚动时域控制思想\n由于多源信息场（强度场/Recency/GP线索场）随着USV的实时探测与环境演化而不断动态刷新，不适合进行一次性长期静态规划。\n算法采用“决策-滚动执行-实时探测-更新场模型-再次重规划”的闭环控制模式，能灵敏应对突发目标或局部线索的出现。",
+      "text_chars": 180,
+      "text_blocks": 7,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 6",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 8",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.0,
+          "height": 0.421,
+          "text_preview": "单艇信息驱动路径规划",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 4.029,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 19",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 20",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 2.835,
+          "height": 0.404,
+          "text_preview": "单艇路径规划框架",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 22",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "9",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.45,
+          "top": 1.99,
+          "width": 3.826,
+          "height": 4.67,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 32",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.53,
+          "top": 1.857,
+          "width": 3.699,
+          "height": 0.343,
+          "text_preview": "滚动决策控制模型",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 35",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.514,
+          "top": 1.781,
+          "width": 8.356,
+          "height": 4.879,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.612,
+          "top": 1.842,
+          "width": 8.178,
+          "height": 0.358,
+          "text_preview": "单艇自主规划决策状态转移闭环流程",
+          "font_sizes": []
+        },
+        {
+          "name": "Picture 37",
+          "type": "PICTURE (13)",
+          "left": 5.044,
+          "top": 2.246,
+          "width": 7.184,
+          "height": 4.414,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 16",
+          "type": "TEXT_BOX (17)",
+          "left": 0.688,
+          "top": 2.765,
+          "width": 3.447,
+          "height": 2.616,
+          "text_preview": "滚动时域控制思想 由于多源信息场（强度场/Recency/GP线索场）随着USV的实时探测与环境演化而不断动态刷新，不适合进行一次性长期静态规划。 算法采用“决策-滚动执行-实时探测-更新场模型-再次重规划”的闭环控制模式，能灵敏应对突发目标或局部线索的出现。",
+          "font_sizes": [
+            24.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "单艇信息驱动路径规划",
+      "text": "单艇信息驱动路径规划\n➢\n从信息价值场到安全候选路径段\n10\n综合信息价值场\nsearch_info_map = 0.5·norm(GP Clue) + 0.5·norm(Intensity)\nAnchor / Viewpoint 候选生成\n将热点区域聚类，对热点簇评分，同时兼顾热度峰值、均值及区域尺度大小。\nAnchor：从高价值区域聚类中提取，表示“哪里值得被观察”。\nViewpoint：在 Anchor 周围自由格中生成候选观测点。\nA* 安全路径与短段截断\n避障：障碍物附近可通行，但路径代价会增大。\n对完整路径截取前 8 步，形成候选 segment_path。",
+      "text_chars": 288,
+      "text_blocks": 12,
+      "pictures": 3,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 4",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.0,
+          "height": 0.421,
+          "text_preview": "单艇信息驱动路径规划",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 5.819,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 4.777,
+          "height": 0.404,
+          "text_preview": "从信息价值场到安全候选路径段",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 15",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "10",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 16",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.75,
+          "top": 1.667,
+          "width": 7.917,
+          "height": 0.346,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 1.667,
+          "width": 1.639,
+          "height": 0.333,
+          "text_preview": "综合信息价值场",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 18",
+          "type": "TEXT_BOX (17)",
+          "left": 2.944,
+          "top": 1.726,
+          "width": 5.522,
+          "height": 0.22,
+          "text_preview": "search_info_map = 0.5·norm(GP Clue) + 0.5·norm(Intensity)",
+          "font_sizes": [
+            13.1
+          ]
+        },
+        {
+          "name": "矩形: 圆角 22",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.75,
+          "top": 2.012,
+          "width": 5.681,
+          "height": 4.543,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 32",
+          "type": "PICTURE (13)",
+          "left": 1.375,
+          "top": 2.421,
+          "width": 4.737,
+          "height": 3.32,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 26",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.139,
+          "top": 2.172,
+          "width": 2.722,
+          "height": 0.347,
+          "text_preview": "Anchor / Viewpoint 候选生成",
+          "font_sizes": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 34",
+          "type": "TEXT_BOX (17)",
+          "left": 1.583,
+          "top": 5.653,
+          "width": 4.417,
+          "height": 0.53,
+          "text_preview": "将热点区域聚类，对热点簇评分，同时兼顾热度峰值、均值及区域尺度大小。 Anchor：从高价值区域聚类中提取，表示“哪里值得被观察”。",
+          "font_sizes": [
+            10.5,
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 36",
+          "type": "TEXT_BOX (17)",
+          "left": 1.583,
+          "top": 6.175,
+          "width": 4.417,
+          "height": 0.177,
+          "text_preview": "Viewpoint：在 Anchor 周围自由格中生成候选观测点。",
+          "font_sizes": [
+            10.5,
+            10.5,
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.889,
+          "top": 2.052,
+          "width": 6.263,
+          "height": 4.503,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 40",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.208,
+          "top": 2.167,
+          "width": 2.798,
+          "height": 0.409,
+          "text_preview": "A* 安全路径与短段截断",
+          "font_sizes": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.25,
+          "top": 2.639,
+          "width": 5.333,
+          "height": 2.806,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 44",
+          "type": "PICTURE (13)",
+          "left": 7.427,
+          "top": 2.683,
+          "width": 4.989,
+          "height": 2.672,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 49",
+          "type": "TEXT_BOX (17)",
+          "left": 7.694,
+          "top": 5.549,
+          "width": 4.836,
+          "height": 0.177,
+          "text_preview": "避障：障碍物附近可通行，但路径代价会增大。",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 51",
+          "type": "TEXT_BOX (17)",
+          "left": 7.694,
+          "top": 6.008,
+          "width": 4.836,
+          "height": 0.177,
+          "text_preview": "对完整路径截取前 8 步，形成候选 segment_path。",
+          "font_sizes": [
+            10.5,
+            10.5,
+            10.5,
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 52",
+          "type": "LINE (9)",
+          "left": 6.444,
+          "top": 4.597,
+          "width": 0.431,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "单艇信息驱动路径规划",
+      "text": "单艇信息驱动路径规划\n➢\n路径段评分与最优 segment 选择\n11\n评分公式\nScore =\n- u_turn_penalty\n1\n信息收益\n覆盖高信息值区域。\n2\n刷新收益\n鼓励路径段覆盖长期未观测区域。\n3\n执行代价\n由路径长度、转向与 贴近障碍代价共同构成。\n4\n掉头惩罚\n抑制频繁反向移动，使短时路径更稳定。\n重规划机制\n最优短路径段选择\n执行下一步\n是否执行完固定步数\n获得新观测，更新信息场\n是\n否",
+      "text_chars": 207,
+      "text_blocks": 26,
+      "pictures": 1,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 5",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 6",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.0,
+          "height": 0.421,
+          "text_preview": "单艇信息驱动路径规划",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 18",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 19",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "路径段评分与最优 segment 选择",
+          "font_sizes": [
+            24.0,
+            24.0,
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 20",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "11",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 22",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.75,
+          "top": 1.681,
+          "width": 4.25,
+          "height": 4.944,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 26",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 1.944,
+          "width": 1.139,
+          "height": 0.333,
+          "text_preview": "评分公式",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 27",
+          "type": "TEXT_BOX (17)",
+          "left": 1.083,
+          "top": 2.472,
+          "width": 1.278,
+          "height": 0.286,
+          "text_preview": "Score =",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 1.444,
+          "top": 3.889,
+          "width": 3.056,
+          "height": 0.192,
+          "text_preview": "- u_turn_penalty",
+          "font_sizes": [
+            11.4,
+            11.4
+          ]
+        },
+        {
+          "name": "椭圆 44",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 4.384,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "1",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 45",
+          "type": "TEXT_BOX (17)",
+          "left": 1.5,
+          "top": 4.444,
+          "width": 0.889,
+          "height": 0.162,
+          "text_preview": "信息收益",
+          "font_sizes": [
+            9.6
+          ]
+        },
+        {
+          "name": "文本框 49",
+          "type": "TEXT_BOX (17)",
+          "left": 2.417,
+          "top": 4.431,
+          "width": 2.153,
+          "height": 0.168,
+          "text_preview": "覆盖高信息值区域。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 4.843,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "2",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 51",
+          "type": "TEXT_BOX (17)",
+          "left": 1.5,
+          "top": 4.903,
+          "width": 0.889,
+          "height": 0.162,
+          "text_preview": "刷新收益",
+          "font_sizes": [
+            9.6
+          ]
+        },
+        {
+          "name": "文本框 52",
+          "type": "TEXT_BOX (17)",
+          "left": 2.417,
+          "top": 4.889,
+          "width": 2.153,
+          "height": 0.168,
+          "text_preview": "鼓励路径段覆盖长期未观测区域。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 53",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 5.301,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "3",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 54",
+          "type": "TEXT_BOX (17)",
+          "left": 1.5,
+          "top": 5.361,
+          "width": 0.889,
+          "height": 0.162,
+          "text_preview": "执行代价",
+          "font_sizes": [
+            9.6
+          ]
+        },
+        {
+          "name": "文本框 69",
+          "type": "TEXT_BOX (17)",
+          "left": 2.417,
+          "top": 5.347,
+          "width": 2.153,
+          "height": 0.337,
+          "text_preview": "由路径长度、转向与 贴近障碍代价共同构成。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 70",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 5.759,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "4",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 71",
+          "type": "TEXT_BOX (17)",
+          "left": 1.5,
+          "top": 5.819,
+          "width": 0.889,
+          "height": 0.162,
+          "text_preview": "掉头惩罚",
+          "font_sizes": [
+            9.6
+          ]
+        },
+        {
+          "name": "文本框 72",
+          "type": "TEXT_BOX (17)",
+          "left": 2.417,
+          "top": 5.806,
+          "width": 2.153,
+          "height": 0.337,
+          "text_preview": "抑制频繁反向移动，使短时路径更稳定。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.694,
+          "top": 1.699,
+          "width": 4.25,
+          "height": 4.944,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.028,
+          "top": 1.962,
+          "width": 1.139,
+          "height": 0.333,
+          "text_preview": "重规划机制",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.617,
+          "top": 2.654,
+          "width": 2.367,
+          "height": 0.479,
+          "text_preview": "最优短路径段选择",
+          "font_sizes": [
+            14.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 38",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.617,
+          "top": 3.49,
+          "width": 2.367,
+          "height": 0.479,
+          "text_preview": "执行下一步",
+          "font_sizes": [
+            14.0
+          ]
+        },
+        {
+          "name": "直接箭头连接符 41",
+          "type": "LINE (9)",
+          "left": 7.801,
+          "top": 3.133,
+          "width": 0.0,
+          "height": 0.357,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "菱形 47",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.617,
+          "top": 5.215,
+          "width": 2.367,
+          "height": 0.917,
+          "text_preview": "是否执行完固定步数",
+          "font_sizes": [
+            14.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 48",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.617,
+          "top": 4.353,
+          "width": 2.367,
+          "height": 0.479,
+          "text_preview": "获得新观测，更新信息场",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "直接箭头连接符 56",
+          "type": "LINE (9)",
+          "left": 7.801,
+          "top": 3.969,
+          "width": 0.0,
+          "height": 0.384,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "直接箭头连接符 60",
+          "type": "LINE (9)",
+          "left": 7.801,
+          "top": 4.832,
+          "width": 0.0,
+          "height": 0.383,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 肘形 66",
+          "type": "LINE (9)",
+          "left": 6.617,
+          "top": 3.729,
+          "width": 0.014,
+          "height": 1.944,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "连接符: 肘形 74",
+          "type": "LINE (9)",
+          "left": 8.984,
+          "top": 2.893,
+          "width": 0.014,
+          "height": 2.78,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 78",
+          "type": "TEXT_BOX (17)",
+          "left": 9.178,
+          "top": 4.003,
+          "width": 0.398,
+          "height": 0.337,
+          "text_preview": "是",
+          "font_sizes": [
+            14.0
+          ]
+        },
+        {
+          "name": "文本框 79",
+          "type": "TEXT_BOX (17)",
+          "left": 6.051,
+          "top": 4.425,
+          "width": 0.398,
+          "height": 0.337,
+          "text_preview": "否",
+          "font_sizes": [
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "title": "12",
+      "text": "12\n集中式共享团队状态\n双艇集中式协同搜索决策\n➢\n双艇协同搜索的问题定义\n在共享地图与共享信息场下，两艘 USV 需要同时规划短时路径段；核心问题是减少重复覆盖，并保证执行过程不发生路径冲突。\nknown_map\nGP Clue\nIntensity\nRecency\nU0\nU1\n独立规划风险\n若两艇看到相同的信息场，且各自独立规划，就容易同时选择相近高价值区域，造成重复搜索和观测浪费。\n两艇能获取相同的线索场、目标强度场、观测时效性场。\n但路径规划和观测点选择改为团队协同式执行。",
+      "text_chars": 243,
+      "text_blocks": 15,
+      "pictures": 1,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "12",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.067,
+          "top": 2.249,
+          "width": 5.556,
+          "height": 0.486,
+          "text_preview": "集中式共享团队状态",
+          "font_sizes": [
+            13.5,
+            13.5,
+            13.5
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 24",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.067,
+          "top": 2.832,
+          "width": 5.556,
+          "height": 4.347,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 24",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 25",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.417,
+          "height": 0.421,
+          "text_preview": "双艇集中式协同搜索决策",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 40",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 8.856,
+          "height": 0.529,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 41",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 42",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "双艇协同搜索的问题定义",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 44",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.764,
+          "top": 1.667,
+          "width": 11.806,
+          "height": 0.472,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 45",
+          "type": "TEXT_BOX (17)",
+          "left": 1.056,
+          "top": 1.806,
+          "width": 11.25,
+          "height": 0.202,
+          "text_preview": "在共享地图与共享信息场下，两艘 USV 需要同时规划短时路径段；核心问题是减少重复覆盖，并保证执行过程不发生路径冲突。",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 48",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.669,
+          "top": 3.654,
+          "width": 1.389,
+          "height": 0.361,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 49",
+          "type": "TEXT_BOX (17)",
+          "left": 7.669,
+          "top": 3.751,
+          "width": 1.389,
+          "height": 0.148,
+          "text_preview": "known_map",
+          "font_sizes": [
+            8.8
+          ]
+        },
+        {
+          "name": "矩形: 圆角 50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.669,
+          "top": 2.903,
+          "width": 1.389,
+          "height": 0.361,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 51",
+          "type": "TEXT_BOX (17)",
+          "left": 7.669,
+          "top": 3.0,
+          "width": 1.389,
+          "height": 0.148,
+          "text_preview": "GP Clue",
+          "font_sizes": [
+            8.8
+          ]
+        },
+        {
+          "name": "矩形: 圆角 52",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.776,
+          "top": 2.869,
+          "width": 1.389,
+          "height": 0.361,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 53",
+          "type": "TEXT_BOX (17)",
+          "left": 5.776,
+          "top": 2.966,
+          "width": 1.389,
+          "height": 0.148,
+          "text_preview": "Intensity",
+          "font_sizes": [
+            8.8
+          ]
+        },
+        {
+          "name": "矩形: 圆角 54",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.776,
+          "top": 3.65,
+          "width": 1.389,
+          "height": 0.361,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 55",
+          "type": "TEXT_BOX (17)",
+          "left": 5.776,
+          "top": 3.747,
+          "width": 1.389,
+          "height": 0.148,
+          "text_preview": "Recency",
+          "font_sizes": [
+            8.8
+          ]
+        },
+        {
+          "name": "椭圆 56",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.464,
+          "top": 3.025,
+          "width": 0.472,
+          "height": 0.472,
+          "text_preview": "U0",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "椭圆 57",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.103,
+          "top": 3.025,
+          "width": 0.472,
+          "height": 0.472,
+          "text_preview": "U1",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 61",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.238,
+          "top": 5.175,
+          "width": 5.256,
+          "height": 1.139,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 62",
+          "type": "AUTO_SHAPE (1)",
+          "left": 4.488,
+          "top": 5.37,
+          "width": 1.556,
+          "height": 0.306,
+          "text_preview": "独立规划风险",
+          "font_sizes": [
+            9.6
+          ]
+        },
+        {
+          "name": "文本框 63",
+          "type": "TEXT_BOX (17)",
+          "left": 4.516,
+          "top": 5.856,
+          "width": 4.867,
+          "height": 0.337,
+          "text_preview": "若两艇看到相同的信息场，且各自独立规划，就容易同时选择相近高价值区域，造成重复搜索和观测浪费。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 8",
+          "type": "TEXT_BOX (17)",
+          "left": 4.383,
+          "top": 4.144,
+          "width": 5.111,
+          "height": 0.572,
+          "text_preview": "两艇能获取相同的线索场、目标强度场、观测时效性场。 但路径规划和观测点选择改为团队协同式执行。",
+          "font_sizes": [
+            14.0,
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "title": "双艇集中式协同搜索决策",
+      "text": "双艇集中式协同搜索决策\n➢\n责任区偏置与路径冲突安全\n13\n责任区偏置\n本项目中责任区偏置仅作用于信息场评分，没有完全阻碍USV跨区。若存在强热点区域，USV可跨区执行搜索任务。\n双艇冲突安全\nU0\nU1\n检查同格占用与对向换位\n1\n同格冲突\n同一时刻两艇不能占据同一网格。\n2\n对向换位\n相邻时刻不能沿同一边相向交换位置。\n3\n近邻代价\n近邻区域不硬禁止，但增加通行代价。",
+      "text_chars": 187,
+      "text_blocks": 19,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 48",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 52",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.417,
+          "height": 0.421,
+          "text_preview": "双艇集中式协同搜索决策",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 63",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 64",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 66",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "责任区偏置与路径冲突安全",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 67",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "13",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 68",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.75,
+          "top": 1.722,
+          "width": 5.694,
+          "height": 4.833,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 69",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 1.958,
+          "width": 2.639,
+          "height": 0.319,
+          "text_preview": "责任区偏置",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 70",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.139,
+          "top": 2.472,
+          "width": 4.917,
+          "height": 1.972,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 72",
+          "type": "PICTURE (13)",
+          "left": 1.007,
+          "top": 2.709,
+          "width": 5.431,
+          "height": 1.39,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 73",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.028,
+          "top": 4.046,
+          "width": 4.917,
+          "height": 0.583,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 78",
+          "type": "TEXT_BOX (17)",
+          "left": 1.02,
+          "top": 5.664,
+          "width": 5.201,
+          "height": 0.37,
+          "text_preview": "本项目中责任区偏置仅作用于信息场评分，没有完全阻碍USV跨区。若存在强热点区域，USV可跨区执行搜索任务。",
+          "font_sizes": [
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 90",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.889,
+          "top": 1.722,
+          "width": 5.694,
+          "height": 4.833,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 91",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.222,
+          "top": 1.958,
+          "width": 2.472,
+          "height": 0.319,
+          "text_preview": "双艇冲突安全",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 92",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.667,
+          "top": 2.639,
+          "width": 4.167,
+          "height": 1.361,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "椭圆 93",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.194,
+          "top": 3.111,
+          "width": 0.472,
+          "height": 0.472,
+          "text_preview": "U0",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "椭圆 94",
+          "type": "AUTO_SHAPE (1)",
+          "left": 10.556,
+          "top": 3.111,
+          "width": 0.472,
+          "height": 0.472,
+          "text_preview": "U1",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 95",
+          "type": "LINE (9)",
+          "left": 8.694,
+          "top": 3.347,
+          "width": 1.111,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "直接箭头连接符 96",
+          "type": "LINE (9)",
+          "left": 9.444,
+          "top": 3.542,
+          "width": 1.083,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 97",
+          "type": "TEXT_BOX (17)",
+          "left": 8.722,
+          "top": 2.847,
+          "width": 2.083,
+          "height": 0.138,
+          "text_preview": "检查同格占用与对向换位",
+          "font_sizes": [
+            8.2
+          ]
+        },
+        {
+          "name": "椭圆 98",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.548,
+          "top": 4.374,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "1",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 99",
+          "type": "TEXT_BOX (17)",
+          "left": 8.014,
+          "top": 4.464,
+          "width": 0.562,
+          "height": 0.157,
+          "text_preview": "同格冲突",
+          "font_sizes": [
+            9.3
+          ]
+        },
+        {
+          "name": "文本框 100",
+          "type": "TEXT_BOX (17)",
+          "left": 8.972,
+          "top": 4.511,
+          "width": 3.056,
+          "height": 0.168,
+          "text_preview": "同一时刻两艇不能占据同一网格。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 101",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.548,
+          "top": 4.846,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "2",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 102",
+          "type": "TEXT_BOX (17)",
+          "left": 8.014,
+          "top": 4.934,
+          "width": 0.637,
+          "height": 0.157,
+          "text_preview": "对向换位",
+          "font_sizes": [
+            9.3
+          ]
+        },
+        {
+          "name": "文本框 103",
+          "type": "TEXT_BOX (17)",
+          "left": 8.972,
+          "top": 4.983,
+          "width": 3.056,
+          "height": 0.168,
+          "text_preview": "相邻时刻不能沿同一边相向交换位置。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 104",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.548,
+          "top": 5.318,
+          "width": 0.306,
+          "height": 0.306,
+          "text_preview": "3",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 105",
+          "type": "TEXT_BOX (17)",
+          "left": 8.014,
+          "top": 5.456,
+          "width": 0.637,
+          "height": 0.157,
+          "text_preview": "近邻代价",
+          "font_sizes": [
+            9.3
+          ]
+        },
+        {
+          "name": "文本框 106",
+          "type": "TEXT_BOX (17)",
+          "left": 8.972,
+          "top": 5.456,
+          "width": 3.056,
+          "height": 0.168,
+          "text_preview": "近邻区域不硬禁止，但增加通行代价。",
+          "font_sizes": [
+            10.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "title": "双艇集中式协同搜索决策",
+      "text": "双艇集中式协同搜索决策\n➢\n顺序分配与团队评分\n14\n核心思想\n先规划的一艇占用其可观测信息价值，后规划的一艇在剩余信息图上重新选择路径段。\n1\n枚举顺序\n尝试 (U0→U1) 与 (U1→U0)，比较团队总得分。\n2\n第一艇规划\n第一艘艇先规划，得到短路径段，并求出 visible cells。\n3\n残差信息图\n将第一艇可见区域visible cells置零。\n4\n第二艇规划\n第二艘艇在 residual_map 上规划，降低重复覆盖同一热点的倾向。\n图中蓝色路径先规划并移除可见区域；橙色路径随后在 residual_map 上选择剩余高价值区域。\n团队联合评分与最优双路径段\n沿用单艇路径规划评分，包含综合信息价值覆盖收益、刷新收益、几何代价与掉头惩罚项。\n\n\n若双艇最终决策了相同 viewpoint，扣除 same-viewpoint penalty；若重合重叠交集多，则扣除重复覆盖惩罚。\n\n\n计算两种分配顺序下的团队总得分并比对大小，选择最高分对应的双艇路径分配，下发两艇同步执行。\n同点及重复惩罚\n团队最优决策\n沿用单艇评分",
+      "text_chars": 472,
+      "text_blocks": 24,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形: 圆角 32",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.2,
+          "top": 1.903,
+          "width": 6.065,
+          "height": 4.128,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 49",
+          "type": "PICTURE (13)",
+          "left": 1.217,
+          "top": 4.756,
+          "width": 3.611,
+          "height": 2.272,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.857,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 5",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 6",
+          "type": "TEXT_BOX (17)",
+          "left": 0.972,
+          "top": 0.174,
+          "width": 5.417,
+          "height": 0.421,
+          "text_preview": "双艇集中式协同搜索决策",
+          "font_sizes": [
+            25.0
+          ]
+        },
+        {
+          "name": "矩形 17",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.857,
+          "width": 13.333,
+          "height": 0.606,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 18",
+          "type": "TEXT_BOX (17)",
+          "left": 0.456,
+          "top": 1.0,
+          "width": 0.333,
+          "height": 0.32,
+          "text_preview": "➢",
+          "font_sizes": [
+            19.0
+          ]
+        },
+        {
+          "name": "文本框 19",
+          "type": "TEXT_BOX (17)",
+          "left": 1.042,
+          "top": 0.938,
+          "width": 11.597,
+          "height": 0.404,
+          "text_preview": "顺序分配与团队评分",
+          "font_sizes": [
+            24.0
+          ]
+        },
+        {
+          "name": "文本框 20",
+          "type": "TEXT_BOX (17)",
+          "left": 12.417,
+          "top": 7.028,
+          "width": 0.278,
+          "height": 0.151,
+          "text_preview": "14",
+          "font_sizes": [
+            9.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 22",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.75,
+          "top": 1.667,
+          "width": 4.25,
+          "height": 3.19,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.083,
+          "top": 1.903,
+          "width": 1.139,
+          "height": 0.319,
+          "text_preview": "核心思想",
+          "font_sizes": [
+            10.4
+          ]
+        },
+        {
+          "name": "文本框 24",
+          "type": "TEXT_BOX (17)",
+          "left": 1.083,
+          "top": 2.417,
+          "width": 3.361,
+          "height": 0.337,
+          "text_preview": "先规划的一艇占用其可观测信息价值，后规划的一艇在剩余信息图上重新选择路径段。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 25",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.056,
+          "top": 2.819,
+          "width": 0.333,
+          "height": 0.333,
+          "text_preview": "1",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 1.528,
+          "top": 2.833,
+          "width": 1.194,
+          "height": 0.163,
+          "text_preview": "枚举顺序",
+          "font_sizes": [
+            9.7
+          ]
+        },
+        {
+          "name": "文本框 27",
+          "type": "TEXT_BOX (17)",
+          "left": 2.694,
+          "top": 2.792,
+          "width": 1.889,
+          "height": 0.337,
+          "text_preview": "尝试 (U0→U1) 与 (U1→U0)，比较团队总得分。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.056,
+          "top": 3.3,
+          "width": 0.333,
+          "height": 0.333,
+          "text_preview": "2",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 29",
+          "type": "TEXT_BOX (17)",
+          "left": 1.528,
+          "top": 3.314,
+          "width": 1.194,
+          "height": 0.163,
+          "text_preview": "第一艇规划",
+          "font_sizes": [
+            9.7
+          ]
+        },
+        {
+          "name": "文本框 30",
+          "type": "TEXT_BOX (17)",
+          "left": 2.694,
+          "top": 3.272,
+          "width": 1.889,
+          "height": 0.337,
+          "text_preview": "第一艘艇先规划，得到短路径段，并求出 visible cells。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.056,
+          "top": 3.783,
+          "width": 0.333,
+          "height": 0.333,
+          "text_preview": "3",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 38",
+          "type": "TEXT_BOX (17)",
+          "left": 1.528,
+          "top": 3.797,
+          "width": 1.194,
+          "height": 0.163,
+          "text_preview": "残差信息图",
+          "font_sizes": [
+            9.7
+          ]
+        },
+        {
+          "name": "文本框 39",
+          "type": "TEXT_BOX (17)",
+          "left": 2.694,
+          "top": 3.755,
+          "width": 1.889,
+          "height": 0.337,
+          "text_preview": "将第一艇可见区域visible cells置零。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 40",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.056,
+          "top": 4.29,
+          "width": 0.333,
+          "height": 0.333,
+          "text_preview": "4",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "文本框 41",
+          "type": "TEXT_BOX (17)",
+          "left": 1.528,
+          "top": 4.304,
+          "width": 1.194,
+          "height": 0.163,
+          "text_preview": "第二艇规划",
+          "font_sizes": [
+            9.7
+          ]
+        },
+        {
+          "name": "文本框 42",
+          "type": "TEXT_BOX (17)",
+          "left": 2.694,
+          "top": 4.262,
+          "width": 1.889,
+          "height": 0.505,
+          "text_preview": "第二艘艇在 residual_map 上规划，降低重复覆盖同一热点的倾向。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 51",
+          "type": "TEXT_BOX (17)",
+          "left": 0.19,
+          "top": 7.133,
+          "width": 5.667,
+          "height": 0.145,
+          "text_preview": "图中蓝色路径先规划并移除可见区域；橙色路径随后在 residual_map 上选择剩余高价值区域。",
+          "font_sizes": [
+            8.6,
+            8.6,
+            8.6,
+            8.6
+          ]
+        },
+        {
+          "name": "Rounded Rectangle 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.455,
+          "top": 2.085,
+          "width": 5.556,
+          "height": 0.486,
+          "text_preview": "团队联合评分与最优双路径段",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "TextBox 21",
+          "type": "TEXT_BOX (17)",
+          "left": 7.722,
+          "top": 2.826,
+          "width": 4.461,
+          "height": 2.468,
+          "text_preview": "沿用单艇路径规划评分，包含综合信息价值覆盖收益、刷新收益、几何代价与掉头惩罚项。 若双艇最终决策了相同 viewpoint，扣除 same-viewpoint penalty；若重合重叠交集多，则扣除重复覆盖惩罚。 计算两种分配顺序下的团队总得分并比对大小，选择最高分对应的双艇路",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 33",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.258,
+          "top": 3.774,
+          "width": 1.374,
+          "height": 0.372,
+          "text_preview": "同点及重复惩罚",
+          "font_sizes": [
+            11.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 34",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.258,
+          "top": 4.913,
+          "width": 1.374,
+          "height": 0.372,
+          "text_preview": "团队最优决策",
+          "font_sizes": [
+            11.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 35",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.265,
+          "top": 2.833,
+          "width": 1.374,
+          "height": 0.372,
+          "text_preview": "沿用单艇评分",
+          "font_sizes": [
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "title": "实验设计与结果分析",
+      "text": "实验设计与结果分析\n➢\n实验设置与评价指标\n15\n三类实验地图\nopen_water\nobstacle_field\npeninsula_passage\n变量控制与运行条件\n目标模式\nstatic / random_walk\n线索采集\nUCB ；anomaly-aware\n重复实验\nseeds = 0–9，最大步数 240\n目标数量\n每个场景3个目标，数量已知\n评价指标\nT_first\n首次发现目标所需步数\nT_all\n完成全部目标搜索所需步数\nsuccess(%)\n发现全部目标的成功率\ndetection(%)\n最终目标探测覆盖比例\nduplicate(%)\ncross(%)\nwait\n两艇选择同一个观测点的比例\n两艇偏离各自软责任区的探索比例\n两艇路径执行中触发等待回退的次数\n开阔水域 (open_water)：仅包含边界约束。\n离散障碍 (obstacle_field)：离散矩形障碍，用于检验局部绕行。\n半岛通道 (peninsula_passage)：包含半岛和窄通道。",
+      "text_chars": 444,
+      "text_blocks": 33,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 1",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 4",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.75,
+          "height": 0.426,
+          "text_preview": "实验设计与结果分析",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 11",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 4.248,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 12",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 3.134,
+          "height": 0.435,
+          "text_preview": "实验设置与评价指标",
+          "font_sizes": [
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "15",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 15",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.583,
+          "top": 1.722,
+          "width": 6.944,
+          "height": 4.917,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 16",
+          "type": "TEXT_BOX (17)",
+          "left": 0.861,
+          "top": 1.917,
+          "width": 2.639,
+          "height": 0.3,
+          "text_preview": "三类实验地图",
+          "font_sizes": [
+            14.5
+          ]
+        },
+        {
+          "name": "图片 18",
+          "type": "PICTURE (13)",
+          "left": 0.861,
+          "top": 2.629,
+          "width": 6.424,
+          "height": 1.525,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形: 圆角 19",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.089,
+          "top": 4.25,
+          "width": 1.551,
+          "height": 0.342,
+          "text_preview": "open_water",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 20",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.146,
+          "top": 4.25,
+          "width": 1.743,
+          "height": 0.342,
+          "text_preview": "obstacle_field",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5.325,
+          "top": 4.263,
+          "width": 1.817,
+          "height": 0.342,
+          "text_preview": "peninsula_passage",
+          "font_sizes": [
+            9.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.889,
+          "top": 1.864,
+          "width": 4.278,
+          "height": 2.386,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 24",
+          "type": "TEXT_BOX (17)",
+          "left": 8.194,
+          "top": 1.931,
+          "width": 3.611,
+          "height": 0.3,
+          "text_preview": "变量控制与运行条件",
+          "font_sizes": [
+            14.5
+          ]
+        },
+        {
+          "name": "椭圆 25",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.194,
+          "top": 2.472,
+          "width": 0.236,
+          "height": 0.236,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 8.528,
+          "top": 2.444,
+          "width": 1.083,
+          "height": 0.233,
+          "text_preview": "目标模式",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 27",
+          "type": "TEXT_BOX (17)",
+          "left": 9.639,
+          "top": 2.425,
+          "width": 1.618,
+          "height": 0.228,
+          "text_preview": "static / random_walk",
+          "font_sizes": [
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "椭圆 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.194,
+          "top": 2.944,
+          "width": 0.236,
+          "height": 0.236,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 29",
+          "type": "TEXT_BOX (17)",
+          "left": 8.528,
+          "top": 2.917,
+          "width": 1.083,
+          "height": 0.233,
+          "text_preview": "线索采集",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 30",
+          "type": "TEXT_BOX (17)",
+          "left": 9.639,
+          "top": 2.912,
+          "width": 1.778,
+          "height": 0.233,
+          "text_preview": "UCB ；anomaly-aware",
+          "font_sizes": [
+            10.2,
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "椭圆 31",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.194,
+          "top": 3.417,
+          "width": 0.236,
+          "height": 0.236,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 32",
+          "type": "TEXT_BOX (17)",
+          "left": 8.528,
+          "top": 3.389,
+          "width": 1.083,
+          "height": 0.233,
+          "text_preview": "重复实验",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 33",
+          "type": "TEXT_BOX (17)",
+          "left": 9.639,
+          "top": 3.394,
+          "width": 1.958,
+          "height": 0.228,
+          "text_preview": "seeds = 0–9，最大步数 240",
+          "font_sizes": [
+            10.2,
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "椭圆 34",
+          "type": "AUTO_SHAPE (1)",
+          "left": 8.194,
+          "top": 3.889,
+          "width": 0.236,
+          "height": 0.236,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 35",
+          "type": "TEXT_BOX (17)",
+          "left": 8.528,
+          "top": 3.861,
+          "width": 1.083,
+          "height": 0.233,
+          "text_preview": "目标数量",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 36",
+          "type": "TEXT_BOX (17)",
+          "left": 9.639,
+          "top": 3.883,
+          "width": 2.075,
+          "height": 0.228,
+          "text_preview": "每个场景3个目标，数量已知",
+          "font_sizes": [
+            10.2,
+            10.2,
+            10.2
+          ]
+        },
+        {
+          "name": "文本框 38",
+          "type": "TEXT_BOX (17)",
+          "left": 8.104,
+          "top": 4.306,
+          "width": 2.5,
+          "height": 0.3,
+          "text_preview": "评价指标",
+          "font_sizes": [
+            14.5
+          ]
+        },
+        {
+          "name": "文本框 40",
+          "type": "TEXT_BOX (17)",
+          "left": 8.111,
+          "top": 4.652,
+          "width": 0.647,
+          "height": 0.221,
+          "text_preview": "T_first",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 41",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 4.652,
+          "width": 1.5,
+          "height": 0.214,
+          "text_preview": "首次发现目标所需步数",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 8.111,
+          "top": 4.945,
+          "width": 0.542,
+          "height": 0.221,
+          "text_preview": "T_all",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 44",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 4.93,
+          "width": 1.778,
+          "height": 0.214,
+          "text_preview": "完成全部目标搜索所需步数",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 46",
+          "type": "TEXT_BOX (17)",
+          "left": 8.111,
+          "top": 5.255,
+          "width": 1.319,
+          "height": 0.221,
+          "text_preview": "success(%)",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 47",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 5.233,
+          "width": 1.625,
+          "height": 0.214,
+          "text_preview": "发现全部目标的成功率",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 49",
+          "type": "TEXT_BOX (17)",
+          "left": 8.111,
+          "top": 5.546,
+          "width": 1.199,
+          "height": 0.221,
+          "text_preview": "detection(%)",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 50",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 5.485,
+          "width": 1.5,
+          "height": 0.214,
+          "text_preview": "最终目标探测覆盖比例",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "图片 2",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 17",
+          "type": "TEXT_BOX (17)",
+          "left": 8.111,
+          "top": 5.823,
+          "width": 1.199,
+          "height": 0.221,
+          "text_preview": "duplicate(%)",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 66",
+          "type": "TEXT_BOX (17)",
+          "left": 8.132,
+          "top": 6.093,
+          "width": 1.199,
+          "height": 0.221,
+          "text_preview": "cross(%)",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 67",
+          "type": "TEXT_BOX (17)",
+          "left": 8.132,
+          "top": 6.336,
+          "width": 1.199,
+          "height": 0.221,
+          "text_preview": "wait",
+          "font_sizes": [
+            9.8
+          ]
+        },
+        {
+          "name": "文本框 68",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 5.781,
+          "width": 2.112,
+          "height": 0.214,
+          "text_preview": "两艇选择同一个观测点的比例",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 69",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 6.087,
+          "width": 2.293,
+          "height": 0.214,
+          "text_preview": "两艇偏离各自软责任区的探索比例",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 70",
+          "type": "TEXT_BOX (17)",
+          "left": 10.056,
+          "top": 6.329,
+          "width": 2.455,
+          "height": 0.214,
+          "text_preview": "两艇路径执行中触发等待回退的次数",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "TextBox 45",
+          "type": "TEXT_BOX (17)",
+          "left": 1.194,
+          "top": 5.181,
+          "width": 5.417,
+          "height": 0.673,
+          "text_preview": "开阔水域 (open_water)：仅包含边界约束。 离散障碍 (obstacle_field)：离散矩形障碍，用于检验局部绕行。 半岛通道 (peninsula_passage)：包含半岛和窄通道。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "title": "实验设计与结果分析",
+      "text": "实验设计与结果分析\n➢\n单艇搜索实验结果\n16\n六组单艇 UCB 轨迹示例（三地图 × 两目标模式）\n目标模式 | 地图 | T_first | T_all | success\n静态 | 总体 | 47.0 | 153.7 | 50.0%\n静态 | 离散障碍 | 38.5 | 117.3 | 60.0%\n随机游走 | 总体 | 60.5 | 145.6 | 63.3%\n随机游走 | 离散障碍 | 54.7 | 138.0 | 60.0%\n基础可行性证明：单 USV 能依靠本文算法在有限步长内完成全部目标搜索，体现了本闭环控制算法的可行性。",
+      "text_chars": 272,
+      "text_blocks": 7,
+      "pictures": 2,
+      "tables": 1,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形: 圆角 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.51,
+          "top": 5.743,
+          "width": 7.347,
+          "height": 0.896,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 5",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.75,
+          "height": 0.426,
+          "text_preview": "实验设计与结果分析",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 12",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 13.333,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 10.556,
+          "height": 0.435,
+          "text_preview": "单艇搜索实验结果",
+          "font_sizes": [
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 15",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "16",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 83",
+          "type": "TEXT_BOX (17)",
+          "left": 5.763,
+          "top": 1.235,
+          "width": 4.583,
+          "height": 0.278,
+          "text_preview": "六组单艇 UCB 轨迹示例（三地图 × 两目标模式）",
+          "font_sizes": [
+            13.2,
+            13.2,
+            13.2,
+            13.2,
+            13.2
+          ]
+        },
+        {
+          "name": "图片 85",
+          "type": "PICTURE (13)",
+          "left": 4.41,
+          "top": 1.556,
+          "width": 8.776,
+          "height": 3.952,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Table 73",
+          "type": "TABLE (19)",
+          "left": 0.585,
+          "top": 1.865,
+          "width": 3.825,
+          "height": 3.196,
+          "text_preview": "目标模式 | 地图 | T_first | T_all | success 静态 | 总体 | 47.0 | 153.7 | 50.0% 静态 | 离散障碍 | 38.5 | 117.3 | 60.0% 随机游走 | 总体 | 60.5 | 145.6 | 63.3% 随机游走 ",
+          "font_sizes": []
+        },
+        {
+          "name": "TextBox 74",
+          "type": "TEXT_BOX (17)",
+          "left": 0.585,
+          "top": 5.944,
+          "width": 7.166,
+          "height": 0.471,
+          "text_preview": "基础可行性证明：单 USV 能依靠本文算法在有限步长内完成全部目标搜索，体现了本闭环控制算法的可行性。",
+          "font_sizes": [
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "title": "实验设计与结果分析",
+      "text": "实验设计与结果分析\n➢\n双艇协同搜索结果\n17\n图中蓝色为 independent，橙色为 coordinated。\n模式 | 指标 | 总体平均 | 开阔水域 | 离散障碍\n静态 | ΔT_first | -22.6 | -23.0 | -4.6\n静态 | Δsuccess | +20.0% | 0.0% | +20.0%\n静态 | Δcross | -30.5% | -25.1% | -25.8%\n动态 | ΔT_first | -9.2 | -25.4 | +4.6\n动态 | Δsuccess | +10.0% | +10.0% | +20.0%\n动态 | Δcross | -33.5% | -27.1% | -41.0%\n协同机制性能增益 (Coordinated-Independent)\n责任区分工见效：跨区探索比例 (Δcross) 在两类目标模式下分别降低30.5%与 33.5%。\n\n重复搜索显著降低：相同观测点比例 (Δduplicate) 降低了 4%~8%，整体效率和发现全部目标的成功率得到明显改善。",
+      "text_chars": 467,
+      "text_blocks": 8,
+      "pictures": 3,
+      "tables": 1,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 8",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.75,
+          "height": 0.426,
+          "text_preview": "实验设计与结果分析",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 18",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 13.333,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 19",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 20",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 10.556,
+          "height": 0.435,
+          "text_preview": "双艇协同搜索结果",
+          "font_sizes": [
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 22",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "17",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 63",
+          "type": "TEXT_BOX (17)",
+          "left": 8.962,
+          "top": 7.139,
+          "width": 2.857,
+          "height": 0.204,
+          "text_preview": "图中蓝色为 independent，橙色为 coordinated。",
+          "font_sizes": [
+            8.8,
+            8.8,
+            8.8,
+            8.8,
+            8.8
+          ]
+        },
+        {
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Table 44",
+          "type": "TABLE (19)",
+          "left": 0.722,
+          "top": 2.028,
+          "width": 4.937,
+          "height": 1.778,
+          "text_preview": "模式 | 指标 | 总体平均 | 开阔水域 | 离散障碍 静态 | ΔT_first | -22.6 | -23.0 | -4.6 静态 | Δsuccess | +20.0% | 0.0% | +20.0% 静态 | Δcross | -30.5% | -25.1% | -25",
+          "font_sizes": []
+        },
+        {
+          "name": "Rounded Rectangle 42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.528,
+          "top": 1.507,
+          "width": 5.833,
+          "height": 0.486,
+          "text_preview": "协同机制性能增益 (Coordinated-Independent)",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "TextBox 45",
+          "type": "TEXT_BOX (17)",
+          "left": 6.837,
+          "top": 1.954,
+          "width": 5.774,
+          "height": 1.094,
+          "text_preview": "责任区分工见效：跨区探索比例 (Δcross) 在两类目标模式下分别降低30.5%与 33.5%。 重复搜索显著降低：相同观测点比例 (Δduplicate) 降低了 4%~8%，整体效率和发现全部目标的成功率得到明显改善。",
+          "font_sizes": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "name": "箭头: 右 7",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.052,
+          "top": 2.501,
+          "width": 0.361,
+          "height": 0.316,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Picture 48",
+          "type": "PICTURE (13)",
+          "left": 4.673,
+          "top": 3.806,
+          "width": 4.21,
+          "height": 3.721,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Picture 49",
+          "type": "PICTURE (13)",
+          "left": 0.344,
+          "top": 3.812,
+          "width": 4.406,
+          "height": 3.688,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "title": "实验设计与结果分析",
+      "text": "实验设计与结果分析\n➢\nanomaly-aware 消融实验\n18\n：比较GP-UCB与anomaly-aware上尾加权策略，检验“强化GP后验高值区域”是否能改善目标搜索效率。\n红线为 anomaly-aware，蓝线为 UCB。\n目标模式 | ΔT_first | ΔT_all | Δsuccess | Δobs (观测开销)\n静态目标 | -5.2 | +1.8 | -3.3% | -5.9%\n随机游走 | +4.9 | -29.4 | +13.3% | -8.9%\n在随机游走目标下，anomaly-aware的优势更明显：T_all平均减少29.4步，成功率提升13.3%。\u000b在双艇静态目标下，两种策略表现接近，说明上尾加权并不总是稳定优于 UCB。",
+      "text_chars": 333,
+      "text_blocks": 8,
+      "pictures": 2,
+      "tables": 1,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 9",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.75,
+          "height": 0.426,
+          "text_preview": "实验设计与结果分析",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 21",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 13.333,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 22",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 23",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 4.164,
+          "height": 0.435,
+          "text_preview": "anomaly-aware 消融实验",
+          "font_sizes": [
+            22.5,
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "18",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 29",
+          "type": "TEXT_BOX (17)",
+          "left": 4.999,
+          "top": 0.995,
+          "width": 8.112,
+          "height": 0.477,
+          "text_preview": "：比较GP-UCB与anomaly-aware上尾加权策略，检验“强化GP后验高值区域”是否能改善目标搜索效率。",
+          "font_sizes": [
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5
+          ]
+        },
+        {
+          "name": "图片 32",
+          "type": "PICTURE (13)",
+          "left": 0.722,
+          "top": 1.663,
+          "width": 5.487,
+          "height": 3.169,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 33",
+          "type": "TEXT_BOX (17)",
+          "left": 1.333,
+          "top": 4.881,
+          "width": 2.483,
+          "height": 0.211,
+          "text_preview": "红线为 anomaly-aware，蓝线为 UCB。",
+          "font_sizes": [
+            9.2,
+            9.2,
+            9.2,
+            9.2,
+            9.2
+          ]
+        },
+        {
+          "name": "图片 1",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "Table 44",
+          "type": "TABLE (19)",
+          "left": 0.917,
+          "top": 5.14,
+          "width": 5.417,
+          "height": 1.944,
+          "text_preview": "目标模式 | ΔT_first | ΔT_all | Δsuccess | Δobs (观测开销) 静态目标 | -5.2 | +1.8 | -3.3% | -5.9% 随机游走 | +4.9 | -29.4 | +13.3% | -8.9%",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 4",
+          "type": "TEXT_BOX (17)",
+          "left": 7.124,
+          "top": 2.419,
+          "width": 4.162,
+          "height": 0.942,
+          "text_preview": "在随机游走目标下，anomaly-aware的优势更明显：T_all平均减少29.4步，成功率提升13.3%。 在双艇静态目标下，两种策略表现接近，说明上尾加权并不总是稳定优于 UCB。",
+          "font_sizes": [
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "title": "总结与展望",
+      "text": "总结与展望\n➢\n项目总结\n19\n本项目围绕“已知静态障碍地图下目标位置未知”的 USV 搜索任务，构建了单艇与双艇条件下的信息驱动搜索方法。\n1\n状态建模\nGP clue、intensity、recency 分别刻画线索强度、目标存在信念与观测时效。\n2\n单艇规划\n从高价值区域提取 anchor / viewpoint，经 A* 生成安全短路径段并滚动重规划。\n3\n双艇协同\n在共享状态下进行顺序分配，用 residual_map 抑制重复覆盖。\n4\n实验验证\n在三类正式地图、两类目标运动模式下评估完成效率、成功率与协同行为。\n状态层\n多源状态互补\n将 GP clue、intensity、recency 分开建模，三场互补\n消融层\nanomaly-aware 优化\n在 GP-UCB 基础上引入后验上尾区域加权。\n本文主要创新点",
+      "text_chars": 367,
+      "text_blocks": 24,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 2",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 19",
+          "type": "PICTURE (13)",
+          "left": 0.354,
+          "top": 0.225,
+          "width": 0.402,
+          "height": 0.41,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 20",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.056,
+          "height": 0.426,
+          "text_preview": "总结与展望",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 28",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 13.333,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 29",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 30",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 1.429,
+          "height": 0.435,
+          "text_preview": "项目总结",
+          "font_sizes": [
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 31",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "19",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "矩形: 圆角 38",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.028,
+          "top": 1.525,
+          "width": 11.0,
+          "height": 0.556,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 39",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 1.601,
+          "width": 11.056,
+          "height": 0.312,
+          "text_preview": "本项目围绕“已知静态障碍地图下目标位置未知”的 USV 搜索任务，构建了单艇与双艇条件下的信息驱动搜索方法。",
+          "font_sizes": [
+            15.2,
+            15.2,
+            15.2
+          ]
+        },
+        {
+          "name": "椭圆 42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.094,
+          "top": 2.367,
+          "width": 0.389,
+          "height": 0.389,
+          "text_preview": "1",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "文本框 43",
+          "type": "TEXT_BOX (17)",
+          "left": 1.65,
+          "top": 2.339,
+          "width": 1.444,
+          "height": 0.283,
+          "text_preview": "状态建模",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 44",
+          "type": "LINE (9)",
+          "left": 1.178,
+          "top": 2.895,
+          "width": 1.861,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 45",
+          "type": "TEXT_BOX (17)",
+          "left": 1.178,
+          "top": 3.089,
+          "width": 1.861,
+          "height": 0.561,
+          "text_preview": "GP clue、intensity、recency 分别刻画线索强度、目标存在信念与观测时效。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 47",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3.721,
+          "top": 2.361,
+          "width": 0.389,
+          "height": 0.389,
+          "text_preview": "2",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "文本框 48",
+          "type": "TEXT_BOX (17)",
+          "left": 4.276,
+          "top": 2.333,
+          "width": 1.444,
+          "height": 0.283,
+          "text_preview": "单艇规划",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 49",
+          "type": "LINE (9)",
+          "left": 3.804,
+          "top": 2.889,
+          "width": 1.861,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 50",
+          "type": "TEXT_BOX (17)",
+          "left": 3.804,
+          "top": 3.083,
+          "width": 1.861,
+          "height": 0.561,
+          "text_preview": "从高价值区域提取 anchor / viewpoint，经 A* 生成安全短路径段并滚动重规划。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 52",
+          "type": "AUTO_SHAPE (1)",
+          "left": 6.483,
+          "top": 2.299,
+          "width": 0.389,
+          "height": 0.389,
+          "text_preview": "3",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "文本框 53",
+          "type": "TEXT_BOX (17)",
+          "left": 7.038,
+          "top": 2.271,
+          "width": 1.444,
+          "height": 0.283,
+          "text_preview": "双艇协同",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 54",
+          "type": "LINE (9)",
+          "left": 6.566,
+          "top": 2.826,
+          "width": 1.861,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 55",
+          "type": "TEXT_BOX (17)",
+          "left": 6.566,
+          "top": 3.021,
+          "width": 1.861,
+          "height": 0.561,
+          "text_preview": "在共享状态下进行顺序分配，用 residual_map 抑制重复覆盖。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "椭圆 57",
+          "type": "AUTO_SHAPE (1)",
+          "left": 9.481,
+          "top": 2.326,
+          "width": 0.389,
+          "height": 0.389,
+          "text_preview": "4",
+          "font_sizes": [
+            12.0
+          ]
+        },
+        {
+          "name": "文本框 58",
+          "type": "TEXT_BOX (17)",
+          "left": 10.036,
+          "top": 2.299,
+          "width": 1.444,
+          "height": 0.283,
+          "text_preview": "实验验证",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "直接箭头连接符 59",
+          "type": "LINE (9)",
+          "left": 9.564,
+          "top": 2.854,
+          "width": 1.861,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 60",
+          "type": "TEXT_BOX (17)",
+          "left": 9.564,
+          "top": 3.049,
+          "width": 1.861,
+          "height": 0.561,
+          "text_preview": "在三类正式地图、两类目标运动模式下评估完成效率、成功率与协同行为。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "矩形: 圆角 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 1.267,
+          "top": 4.599,
+          "width": 1.0,
+          "height": 0.306,
+          "text_preview": "状态层",
+          "font_sizes": [
+            9.3
+          ]
+        },
+        {
+          "name": "文本框 4",
+          "type": "TEXT_BOX (17)",
+          "left": 2.517,
+          "top": 4.585,
+          "width": 2.917,
+          "height": 0.295,
+          "text_preview": "多源状态互补",
+          "font_sizes": [
+            14.2
+          ]
+        },
+        {
+          "name": "直接箭头连接符 6",
+          "type": "LINE (9)",
+          "left": 1.295,
+          "top": 5.154,
+          "width": 4.583,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 7",
+          "type": "TEXT_BOX (17)",
+          "left": 1.295,
+          "top": 5.035,
+          "width": 4.583,
+          "height": 0.219,
+          "text_preview": "将 GP clue、intensity、recency 分开建模，三场互补",
+          "font_sizes": [
+            9.7,
+            9.7,
+            9.7,
+            9.7,
+            9.7,
+            9.7,
+            9.7
+          ]
+        },
+        {
+          "name": "矩形: 圆角 9",
+          "type": "AUTO_SHAPE (1)",
+          "left": 7.147,
+          "top": 4.599,
+          "width": 1.0,
+          "height": 0.306,
+          "text_preview": "消融层",
+          "font_sizes": [
+            9.3
+          ]
+        },
+        {
+          "name": "文本框 10",
+          "type": "TEXT_BOX (17)",
+          "left": 8.397,
+          "top": 4.585,
+          "width": 2.917,
+          "height": 0.295,
+          "text_preview": "anomaly-aware 优化",
+          "font_sizes": [
+            14.2,
+            14.2
+          ]
+        },
+        {
+          "name": "直接箭头连接符 12",
+          "type": "LINE (9)",
+          "left": 7.175,
+          "top": 5.154,
+          "width": 4.583,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 13",
+          "type": "TEXT_BOX (17)",
+          "left": 7.147,
+          "top": 5.035,
+          "width": 4.583,
+          "height": 0.219,
+          "text_preview": "在 GP-UCB 基础上引入后验上尾区域加权。",
+          "font_sizes": [
+            9.7,
+            9.7,
+            9.7
+          ]
+        },
+        {
+          "name": "文本框 14",
+          "type": "TEXT_BOX (17)",
+          "left": 0.925,
+          "top": 4.008,
+          "width": 1.789,
+          "height": 0.325,
+          "text_preview": "本文主要创新点",
+          "font_sizes": [
+            16.0
+          ]
+        },
+        {
+          "name": "图片 15",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "title": "总结与展望",
+      "text": "总结与展望\n➢\n本项目的不足\n20\n地图假设\n仅考虑已知静态障碍地图；动态障碍、潮流风浪等环境变化未纳入主线。\n团队状态\n双艇没有建模通信延迟。\n规模验证\n当前只实现双艇协同基线；三艇及以上的调度复杂度与收益没有验证。\n实验平台\n实验在二维栅格仿真中完成，尚未接入真实USV船体、传感器误差和海况约束。\n后续研究展望\n真实环境\n加入动态障碍、海况扰动，检验已知静态地图假设放宽后的表现。\n更多艇协同\n在保持可解释性的前提下扩展到多艇规模，研究任务分配、冲突处理和计算效率。\n仿真验证\n接入更接近实船控制的仿真或硬件平台，验证路径执行与感知更新闭环。",
+      "text_chars": 274,
+      "text_blocks": 19,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 0,
+      "shapes": [
+        {
+          "name": "矩形 3",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.0,
+          "width": 13.333,
+          "height": 0.861,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "图片 6",
+          "type": "PICTURE (13)",
+          "left": 0.354,
+          "top": 0.225,
+          "width": 0.402,
+          "height": 0.41,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 8",
+          "type": "TEXT_BOX (17)",
+          "left": 1.0,
+          "top": 0.181,
+          "width": 3.056,
+          "height": 0.426,
+          "text_preview": "总结与展望",
+          "font_sizes": [
+            22.0
+          ]
+        },
+        {
+          "name": "矩形 23",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 0.861,
+          "width": 13.333,
+          "height": 0.611,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 24",
+          "type": "TEXT_BOX (17)",
+          "left": 0.528,
+          "top": 1.014,
+          "width": 0.389,
+          "height": 0.342,
+          "text_preview": "➢",
+          "font_sizes": [
+            17.0
+          ]
+        },
+        {
+          "name": "文本框 25",
+          "type": "TEXT_BOX (17)",
+          "left": 1.028,
+          "top": 0.972,
+          "width": 2.544,
+          "height": 0.435,
+          "text_preview": "本项目的不足",
+          "font_sizes": [
+            22.5
+          ]
+        },
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 12.667,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "20",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "文本框 30",
+          "type": "TEXT_BOX (17)",
+          "left": 1.458,
+          "top": 1.583,
+          "width": 1.667,
+          "height": 0.25,
+          "text_preview": "地图假设",
+          "font_sizes": [
+            11.5
+          ]
+        },
+        {
+          "name": "文本框 31",
+          "type": "TEXT_BOX (17)",
+          "left": 3.264,
+          "top": 1.583,
+          "width": 7.972,
+          "height": 0.224,
+          "text_preview": "仅考虑已知静态障碍地图；动态障碍、潮流风浪等环境变化未纳入主线。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 40",
+          "type": "TEXT_BOX (17)",
+          "left": 1.458,
+          "top": 1.987,
+          "width": 1.667,
+          "height": 0.25,
+          "text_preview": "团队状态",
+          "font_sizes": [
+            11.5
+          ]
+        },
+        {
+          "name": "文本框 41",
+          "type": "TEXT_BOX (17)",
+          "left": 3.264,
+          "top": 1.987,
+          "width": 7.972,
+          "height": 0.224,
+          "text_preview": "双艇没有建模通信延迟。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 44",
+          "type": "TEXT_BOX (17)",
+          "left": 1.458,
+          "top": 2.411,
+          "width": 1.667,
+          "height": 0.25,
+          "text_preview": "规模验证",
+          "font_sizes": [
+            11.5
+          ]
+        },
+        {
+          "name": "文本框 45",
+          "type": "TEXT_BOX (17)",
+          "left": 3.264,
+          "top": 2.411,
+          "width": 7.972,
+          "height": 0.224,
+          "text_preview": "当前只实现双艇协同基线；三艇及以上的调度复杂度与收益没有验证。",
+          "font_sizes": [
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 52",
+          "type": "TEXT_BOX (17)",
+          "left": 1.458,
+          "top": 2.86,
+          "width": 1.667,
+          "height": 0.25,
+          "text_preview": "实验平台",
+          "font_sizes": [
+            11.5
+          ]
+        },
+        {
+          "name": "文本框 53",
+          "type": "TEXT_BOX (17)",
+          "left": 3.264,
+          "top": 2.86,
+          "width": 7.972,
+          "height": 0.224,
+          "text_preview": "实验在二维栅格仿真中完成，尚未接入真实USV船体、传感器误差和海况约束。",
+          "font_sizes": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "文本框 2",
+          "type": "TEXT_BOX (17)",
+          "left": 1.167,
+          "top": 3.97,
+          "width": 2.097,
+          "height": 0.359,
+          "text_preview": "后续研究展望",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 7",
+          "type": "TEXT_BOX (17)",
+          "left": 1.653,
+          "top": 4.792,
+          "width": 1.5,
+          "height": 0.283,
+          "text_preview": "真实环境",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 9",
+          "type": "TEXT_BOX (17)",
+          "left": 1.347,
+          "top": 5.32,
+          "width": 2.083,
+          "height": 0.372,
+          "text_preview": "加入动态障碍、海况扰动，检验已知静态地图假设放宽后的表现。",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 16",
+          "type": "TEXT_BOX (17)",
+          "left": 4.375,
+          "top": 4.792,
+          "width": 1.5,
+          "height": 0.283,
+          "text_preview": "更多艇协同",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 17",
+          "type": "TEXT_BOX (17)",
+          "left": 4.069,
+          "top": 5.32,
+          "width": 2.083,
+          "height": 0.531,
+          "text_preview": "在保持可解释性的前提下扩展到多艇规模，研究任务分配、冲突处理和计算效率。",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "文本框 34",
+          "type": "TEXT_BOX (17)",
+          "left": 7.097,
+          "top": 4.792,
+          "width": 1.5,
+          "height": 0.283,
+          "text_preview": "仿真验证",
+          "font_sizes": [
+            13.5
+          ]
+        },
+        {
+          "name": "文本框 35",
+          "type": "TEXT_BOX (17)",
+          "left": 6.792,
+          "top": 5.32,
+          "width": 2.304,
+          "height": 0.372,
+          "text_preview": "接入更接近实船控制的仿真或硬件平台，验证路径执行与感知更新闭环。",
+          "font_sizes": [
+            9.4
+          ]
+        },
+        {
+          "name": "图片 36",
+          "type": "PICTURE (13)",
+          "left": 0.19,
+          "top": 0.108,
+          "width": 0.641,
+          "height": 0.641,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "title": "23",
+      "text": "23\n2025年5月\n自强不息，独树一帜\n恳请老师批评指正！",
+      "text_chars": 30,
+      "text_blocks": 4,
+      "pictures": 2,
+      "tables": 0,
+      "charts": 0,
+      "groups": 3,
+      "shapes": [
+        {
+          "name": "文本框 26",
+          "type": "TEXT_BOX (17)",
+          "left": 12.444,
+          "top": 7.139,
+          "width": 0.444,
+          "height": 0.233,
+          "text_preview": "23",
+          "font_sizes": [
+            10.5
+          ]
+        },
+        {
+          "name": "图片 6",
+          "type": "PICTURE (13)",
+          "left": 3.277,
+          "top": 1.498,
+          "width": 10.073,
+          "height": 3.898,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 4",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 1.498,
+          "width": 13.35,
+          "height": 3.899,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 5",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.0,
+          "top": 1.497,
+          "width": 13.333,
+          "height": 3.899,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 10",
+          "type": "GROUP (6)",
+          "left": 10.931,
+          "top": 1.879,
+          "width": 2.036,
+          "height": 0.698,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "矩形 95",
+          "type": "AUTO_SHAPE (1)",
+          "left": 0.017,
+          "top": 6.927,
+          "width": 13.333,
+          "height": 0.573,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 96",
+          "type": "GROUP (6)",
+          "left": 0.017,
+          "top": 6.8,
+          "width": 0.743,
+          "height": 0.7,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "任意多边形: 形状 99",
+          "type": "FREEFORM (5)",
+          "left": -0.0,
+          "top": 1.43,
+          "width": 13.367,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "任意多边形: 形状 100",
+          "type": "FREEFORM (5)",
+          "left": -0.0,
+          "top": 5.468,
+          "width": 13.367,
+          "height": 0.0,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 110",
+          "type": "TEXT_BOX (17)",
+          "left": 1.16,
+          "top": 6.043,
+          "width": 1.643,
+          "height": 0.403,
+          "text_preview": "2025年5月",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 111",
+          "type": "TEXT_BOX (17)",
+          "left": 10.117,
+          "top": 7.041,
+          "width": 3.233,
+          "height": 0.403,
+          "text_preview": "自强不息，独树一帜",
+          "font_sizes": []
+        },
+        {
+          "name": "组合 112",
+          "type": "GROUP (6)",
+          "left": 0.128,
+          "top": 0.149,
+          "width": 1.61,
+          "height": 0.931,
+          "text_preview": "",
+          "font_sizes": []
+        },
+        {
+          "name": "文本框 125",
+          "type": "TEXT_BOX (17)",
+          "left": 0.958,
+          "top": 2.723,
+          "width": 7.492,
+          "height": 1.01,
+          "text_preview": "恳请老师批评指正！",
+          "font_sizes": [
+            54.0
+          ]
+        },
+        {
+          "name": "图片 126",
+          "type": "PICTURE (13)",
+          "left": 0.213,
+          "top": 0.256,
+          "width": 3.268,
+          "height": 0.987,
+          "text_preview": "",
+          "font_sizes": []
+        }
+      ]
+    }
+  ]
+}
