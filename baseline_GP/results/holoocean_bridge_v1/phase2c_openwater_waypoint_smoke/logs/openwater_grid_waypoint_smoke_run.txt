@@ -1,0 +1,24 @@
+=== Phase 2C: Executing HoloOcean OpenWater Waypoint Smoke ===
+Loading occupancy grid from: baseline_GP\holoocean_bridge\maps\openwater_open_v1.npz
+Validating 4 waypoint cells...
+  Waypoint 0: cell=(40, 45) is FREE. Checked.
+  Waypoint 1: cell=(45, 45) is FREE. Checked.
+  Waypoint 2: cell=(45, 40) is FREE. Checked.
+  Waypoint 3: cell=(40, 40) is FREE. Checked.
+Initializing holoocean environment...
+Starting execution of 4 waypoints...
+Targeting Waypoint 0: cell=(40, 45) -> world=[25.00, 0.00]
+Waypoint 0 finished in 583 ticks. Status: ARRIVED, final distance: 2.49m
+Targeting Waypoint 1: cell=(45, 45) -> world=[25.00, -25.00]
+Waypoint 1 finished in 630 ticks. Status: ARRIVED, final distance: 2.49m
+Targeting Waypoint 2: cell=(45, 40) -> world=[0.00, -25.00]
+Waypoint 2 finished in 628 ticks. Status: ARRIVED, final distance: 2.49m
+Targeting Waypoint 3: cell=(40, 40) -> world=[0.00, 0.00]
+Waypoint 3 finished in 628 ticks. Status: ARRIVED, final distance: 2.49m
+Simulation completed. Ticks: 2469, Wall time: 91.40s
+Telemetry CSV successfully saved to: baseline_GP\results\holoocean_bridge_v1\phase2c_openwater_waypoint_smoke\manifests\openwater_waypoint_trace.csv
+Telemetry JSON successfully saved to: baseline_GP\results\holoocean_bridge_v1\phase2c_openwater_waypoint_smoke\manifests\openwater_waypoint_trace.json
+Summary report written to: baseline_GP\results\holoocean_bridge_v1\phase2c_openwater_waypoint_smoke\reports\openwater_waypoint_smoke_summary.md
+Trajectory visual preview saved to: baseline_GP\results\holoocean_bridge_v1\phase2c_openwater_waypoint_smoke\visuals\openwater_waypoint_trajectory_preview.png
+Phase 2C Smoke Test run finished successfully!
+

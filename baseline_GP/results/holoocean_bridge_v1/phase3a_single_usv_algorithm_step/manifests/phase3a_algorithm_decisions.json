@@ -1,0 +1,234 @@
+[
+  {
+    "step": 1,
+    "robot_pos_before": [
+      1,
+      1
+    ],
+    "target_cell": [
+      1,
+      2
+    ],
+    "target_world": [
+      -190.0,
+      195.0
+    ],
+    "final_world": [
+      -192.4856414794922,
+      194.75701904296875,
+      0.17286059260368347
+    ],
+    "final_projected_cell": [
+      1,
+      2
+    ],
+    "ticks": 100,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": true,
+    "replan_reason": "initial_plan|commit_expired|segment_empty"
+  },
+  {
+    "step": 2,
+    "robot_pos_before": [
+      1,
+      2
+    ],
+    "target_cell": [
+      1,
+      3
+    ],
+    "target_world": [
+      -185.0,
+      195.0
+    ],
+    "final_world": [
+      -187.49197387695312,
+      194.93556213378906,
+      0.17164108157157898
+    ],
+    "final_projected_cell": [
+      1,
+      3
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  },
+  {
+    "step": 3,
+    "robot_pos_before": [
+      1,
+      3
+    ],
+    "target_cell": [
+      1,
+      4
+    ],
+    "target_world": [
+      -180.0,
+      195.0
+    ],
+    "final_world": [
+      -182.49301147460938,
+      194.9973602294922,
+      0.1717262715101242
+    ],
+    "final_projected_cell": [
+      1,
+      4
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  },
+  {
+    "step": 4,
+    "robot_pos_before": [
+      1,
+      4
+    ],
+    "target_cell": [
+      1,
+      5
+    ],
+    "target_world": [
+      -175.0,
+      195.0
+    ],
+    "final_world": [
+      -177.49305725097656,
+      194.99929809570312,
+      0.17167706787586212
+    ],
+    "final_projected_cell": [
+      1,
+      5
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  },
+  {
+    "step": 5,
+    "robot_pos_before": [
+      1,
+      5
+    ],
+    "target_cell": [
+      1,
+      6
+    ],
+    "target_world": [
+      -170.0,
+      195.0
+    ],
+    "final_world": [
+      -172.49307250976562,
+      194.99996948242188,
+      0.17185984551906586
+    ],
+    "final_projected_cell": [
+      1,
+      6
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  },
+  {
+    "step": 6,
+    "robot_pos_before": [
+      1,
+      6
+    ],
+    "target_cell": [
+      1,
+      7
+    ],
+    "target_world": [
+      -165.0,
+      195.0
+    ],
+    "final_world": [
+      -167.49307250976562,
+      195.0,
+      0.17191964387893677
+    ],
+    "final_projected_cell": [
+      1,
+      7
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": true,
+    "replan_reason": "commit_expired"
+  },
+  {
+    "step": 7,
+    "robot_pos_before": [
+      1,
+      7
+    ],
+    "target_cell": [
+      1,
+      8
+    ],
+    "target_world": [
+      -160.0,
+      195.0
+    ],
+    "final_world": [
+      -162.49307250976562,
+      195.0,
+      0.171894371509552
+    ],
+    "final_projected_cell": [
+      1,
+      8
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  },
+  {
+    "step": 8,
+    "robot_pos_before": [
+      1,
+      8
+    ],
+    "target_cell": [
+      1,
+      9
+    ],
+    "target_world": [
+      -155.0,
+      195.0
+    ],
+    "final_world": [
+      -157.49307250976562,
+      195.0,
+      0.17186738550662994
+    ],
+    "final_projected_cell": [
+      1,
+      9
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "chebyshev_audit": true,
+    "replanned": false,
+    "replan_reason": null
+  }
+]

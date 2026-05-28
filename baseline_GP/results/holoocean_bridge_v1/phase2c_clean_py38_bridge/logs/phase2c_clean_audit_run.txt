@@ -1,0 +1,15 @@
+=== Phase 2C-clean: Starting Audit Verification ===
+Auditing: baseline_GP\holoocean_bridge\coordinate_adapter.py
+  PASSED: No core_map imports found.
+Auditing: baseline_GP\holoocean_bridge\scene_map_adapter.py
+  PASSED: No core_map imports found.
+Auditing: baseline_GP\results\holoocean_bridge_v1\phase2c_clean_py38_bridge\scripts\openwater_grid_waypoint_smoke_clean.py
+  PASSED: No compatibility hacks found.
+Verifying generated outputs...
+  PASSED: Summary report found at baseline_GP\results\holoocean_bridge_v1\phase2c_clean_py38_bridge\reports\openwater_waypoint_smoke_clean_summary.md
+  PASSED: Telemetry JSON found at baseline_GP\results\holoocean_bridge_v1\phase2c_clean_py38_bridge\manifests\openwater_waypoint_trace_clean.json
+  Waypoint Arrived Count: 4 / 4 (100.0%)
+Audit results JSON saved to: baseline_GP\results\holoocean_bridge_v1\phase2c_clean_py38_bridge\manifests\phase2c_clean_audit.json
+Audit summary report saved to: baseline_GP\results\holoocean_bridge_v1\phase2c_clean_py38_bridge\reports\phase2c_clean_audit_summary.md
+=== Audit Verification Completed ===
+

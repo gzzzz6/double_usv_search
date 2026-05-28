@@ -1,0 +1,15 @@
+=== Phase 2B: Building OpenWater static occupancy grid ===
+Loading specification from: baseline_GP\holoocean_bridge\maps\openwater_open_v1.json
+Constructing 2D occupancy grid...
+Grid built successfully: shape=(81, 81), total_cells=6561
+Occupied cells: 320 (expected: 320)
+Free cells: 6241 (expected: 6241)
+Validating the built grid map against spec...
+Validation passed successfully!
+Saving NPZ to: baseline_GP\holoocean_bridge\maps\openwater_open_v1.npz
+NPZ save and load-back verification successful!
+Preview image successfully saved to: baseline_GP\results\holoocean_bridge_v1\phase2b_openwater_scene_map\visuals\openwater_open_v1_preview.png
+Writing manifest to: baseline_GP\results\holoocean_bridge_v1\phase2b_openwater_scene_map\manifests\openwater_open_v1_manifest.json
+Writing summary report to: baseline_GP\results\holoocean_bridge_v1\phase2b_openwater_scene_map\reports\openwater_open_v1_summary.md
+Phase 2B build completed successfully!
+

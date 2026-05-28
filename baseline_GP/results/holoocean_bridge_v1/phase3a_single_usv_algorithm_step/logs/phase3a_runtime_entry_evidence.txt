@@ -1,0 +1,77 @@
+./baseline_GP/marine_knownmap_runtime.py:26:    from .core_execution import execute_next_step
+./baseline_GP/marine_knownmap_runtime.py:54:        select_knownmap_path_segment_policy,
+./baseline_GP/marine_knownmap_runtime.py:79:    from core_execution import execute_next_step
+./baseline_GP/marine_knownmap_runtime.py:107:        select_knownmap_path_segment_policy,
+./baseline_GP/marine_knownmap_runtime.py:489:    segment_path: list[tuple[int, int]],
+./baseline_GP/marine_knownmap_runtime.py:494:    for cell in segment_path:
+./baseline_GP/marine_knownmap_runtime.py:608:    segment_path: list[tuple[int, int]],
+./baseline_GP/marine_knownmap_runtime.py:613:        list(segment_path),
+./baseline_GP/marine_knownmap_runtime.py:665:        "segment_path_length": 0,
+./baseline_GP/marine_knownmap_runtime.py:976:        "segment_path_length": int(plan_details.get("segment_path_length", 0)),
+./baseline_GP/marine_knownmap_runtime.py:2038:        path=state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:2093:def _init_knownmap_state(
+./baseline_GP/marine_knownmap_runtime.py:2266:        "committed_segment": [],
+./baseline_GP/marine_knownmap_runtime.py:2423:def run_episode_single_usv_search_knownmap(
+./baseline_GP/marine_knownmap_runtime.py:2511:        state = _init_knownmap_state(
+./baseline_GP/marine_knownmap_runtime.py:2581:            path=state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:2627:            len(state["committed_segment"]) > 1
+./baseline_GP/marine_knownmap_runtime.py:2628:            and state["nav_map_prior"][state["committed_segment"][1]] != FREE
+./baseline_GP/marine_knownmap_runtime.py:2635:        if len(state["committed_segment"]) <= 1:
+./baseline_GP/marine_knownmap_runtime.py:2644:        path_length_current = max(len(state["committed_segment"]) - 1, 0)
+./baseline_GP/marine_knownmap_runtime.py:2660:            segment_path, plan_details = select_knownmap_path_segment_policy(
+./baseline_GP/marine_knownmap_runtime.py:2677:                    tuple(int(v) for v in state["committed_segment"][-1])
+./baseline_GP/marine_knownmap_runtime.py:2678:                    if state.get("committed_segment")
+./baseline_GP/marine_knownmap_runtime.py:2708:            if segment_path is None:
+./baseline_GP/marine_knownmap_runtime.py:2710:                    segment_path = [tuple(int(v) for v in state["robot_pos"])]
+./baseline_GP/marine_knownmap_runtime.py:2722:                segment_path=list(segment_path),
+./baseline_GP/marine_knownmap_runtime.py:2729:            planned_segment_length = max(len(segment_path) - 1, 0)
+./baseline_GP/marine_knownmap_runtime.py:2747:            state["committed_segment"] = list(segment_path)
+./baseline_GP/marine_knownmap_runtime.py:2794:                path=state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:2809:        exec_result = execute_next_step(
+./baseline_GP/marine_knownmap_runtime.py:2813:            state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:2821:            state["committed_segment"] = state["committed_segment"][1:]
+./baseline_GP/marine_knownmap_runtime.py:2830:        elif len(state["committed_segment"]) > 1:
+./baseline_GP/marine_knownmap_runtime.py:2831:            state["committed_segment"] = [state["robot_pos"]]
+./baseline_GP/marine_knownmap_runtime.py:2947:                    path=state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:2976:            path=state["committed_segment"],
+./baseline_GP/marine_knownmap_runtime.py:3005:    result = run_episode_single_usv_search_knownmap(
+./baseline_GP/marine_knownmap_runtime.py:3067:            result = run_episode_single_usv_search_knownmap(
+./baseline_GP/core_search_policy.py:1601:        "segment_path_length": 0,
+./baseline_GP/core_search_policy.py:2424:def _truncate_segment_path(
+./baseline_GP/core_search_policy.py:2455:    segment_path: list[tuple[int, int]],
+./baseline_GP/core_search_policy.py:2460:    step_cells = list(segment_path[1:])
+./baseline_GP/core_search_policy.py:2497:    segment_path: list[tuple[int, int]],
+./baseline_GP/core_search_policy.py:2531:    for step_idx, waypoint in enumerate(segment_path[1:], start=0):
+./baseline_GP/core_search_policy.py:2572:    segment_endpoint = segment_path[-1]
+./baseline_GP/core_search_policy.py:2577:        1.0 - anchor_dist / float(max(1, sensor_range + len(segment_path) - 1)),
+./baseline_GP/core_search_policy.py:2581:        1.0 - viewpoint_dist / float(max(1, len(segment_path) - 1)),
+./baseline_GP/core_search_policy.py:2587:    obstacle_proximity = _knownmap_obstacle_proximity_penalty(nav_map_prior, segment_path)
+./baseline_GP/core_search_policy.py:2588:    turn_count = _path_turn_count(segment_path)
+./baseline_GP/core_search_policy.py:2590:        segment_path=segment_path,
+./baseline_GP/core_search_policy.py:2595:    reservation_terms = evaluate_path_against_reservation(segment_path, reservation_table)
+./baseline_GP/core_search_policy.py:2598:            float(len(segment_path) - 1)
+./baseline_GP/core_search_policy.py:2606:            float(len(segment_path) - 1)
+./baseline_GP/core_search_policy.py:2739:    segment_path = _truncate_segment_path(full_path, segment_horizon=segment_horizon)
+./baseline_GP/core_search_policy.py:2740:    if len(segment_path) <= 1:
+./baseline_GP/core_search_policy.py:2755:        "segment_path": list(segment_path),
+./baseline_GP/core_search_policy.py:2756:        "segment_endpoint_cell": tuple(int(v) for v in segment_path[-1]),
+./baseline_GP/core_search_policy.py:3364:                prev_move_dir=_path_last_move_dir(list(root["segment_path"])),
+./baseline_GP/core_search_policy.py:3392:            prev_move_dir=_path_last_move_dir(list(root["segment_path"])),
+./baseline_GP/core_search_policy.py:3523:        "segment_path_length": int(max(len(best_root.get("segment_path", [])) - 1, 0)),
+./baseline_GP/core_search_policy.py:3576:    return list(best_root["segment_path"]), details
+./baseline_GP/core_search_policy.py:3709:        segment_path = list(candidate["segment_path"])
+./baseline_GP/core_search_policy.py:3710:        if len(segment_path) <= 1:
+./baseline_GP/core_search_policy.py:3713:            segment_path=segment_path,
+./baseline_GP/core_search_policy.py:3797:            list(item["segment_path"]),
+./baseline_GP/core_search_policy.py:3875:    segment_path: list[tuple[int, int]],
+./baseline_GP/core_search_policy.py:3881:    for waypoint in segment_path[1:]:
+./baseline_GP/core_search_policy.py:3928:            list(candidate.get("segment_path", [])),
+./baseline_GP/core_search_policy.py:3976:                -float(candidate.get("segment_path_length", max(len(candidate.get("segment_path", [])) - 1, 0))),
+./baseline_GP/core_search_policy.py:3985:                            "segment_path_length",
+./baseline_GP/core_search_policy.py:3986:                            max(len(enriched_children[best_idx].get("segment_path", [])) - 1, 0),
+./baseline_GP/core_search_policy.py:4080:def select_knownmap_path_segment_policy(
+./baseline_GP/core_search_policy.py:4328:        "segment_path_length": int(max(len(best.get("segment_path", [])) - 1, 0)),
+./baseline_GP/core_search_policy.py:4360:    return list(best["segment_path"]), details
+./baseline_GP/core_search_policy.py:4563:            "segment_path_length": int(max(len(best.get("segment_path", [])) - 1, 0)),
+./baseline_GP/core_search_policy.py:4612:    return list(best["segment_path"]), details
+./baseline_GP/core_execution.py:25:def execute_next_step(

@@ -1,0 +1,17 @@
+14:    "world": "OpenWater",
+15:    "package_name": "Ocean",
+20:            "agent_type": "SurfaceVessel",
+23:                    "sensor_type": "LocationSensor",
+30:                    "sensor_type": "OrientationSensor",
+34:                    "sensor_type": "RGBCamera",  # 水上摄像头
+45:                    "sensor_type": "RGBCamera",  # 水下摄像头
+56:            "control_scheme": 0,
+62:            "agent_type": "HoveringAUV",  # 水下机器人
+65:                    "sensor_type": "DVLSensor"
+68:            "control_scheme": 0,
+73:            "agent_type": "TorpedoAUV",  # 水下鱼雷
+76:                    "sensor_type": "IMUSensor"
+79:            "control_scheme": 0,
+85:            "agent_type": "SurfaceVessel",  # 水面船
+88:                    "sensor_type": "IMUSensor"
+91:            "control_scheme": 0,

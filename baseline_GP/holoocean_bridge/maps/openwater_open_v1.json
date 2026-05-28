@@ -1,0 +1,13 @@
+{
+  "map_id": "openwater_open_v1",
+  "world": "OpenWater",
+  "package_name": "Ocean",
+  "cell_size_m": 5.0,
+  "origin_world_xy": [-200.0, 200.0],
+  "water_surface_z": 0.0,
+  "height": 81,
+  "width": 81,
+  "boundary_occupied": true,
+  "occupied_rects_world": [],
+  "description": "OpenWater scene-derived open-water known static map. Interior cells are FREE and boundary cells are OCCUPIED."
+}

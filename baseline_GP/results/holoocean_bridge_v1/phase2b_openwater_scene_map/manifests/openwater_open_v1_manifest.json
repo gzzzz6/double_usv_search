@@ -1,0 +1,41 @@
+{
+  "map_id": "openwater_open_v1",
+  "world": "OpenWater",
+  "package_name": "Ocean",
+  "files": {
+    "specification_json": {
+      "path": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_v1.json",
+      "sha256": "0525c4fa6d67e5779a77cec28d635f1ff8fbf899563598d250ed8fe7a6f31e6e"
+    },
+    "compressed_npz": {
+      "path": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_v1.npz",
+      "sha256": "dc9a80366ba2ccf008a9292830922f621491a9599731f84404bbe64d04bf3924"
+    },
+    "preview_png": {
+      "path": "baseline_GP\\results\\holoocean_bridge_v1\\phase2b_openwater_scene_map\\visuals\\openwater_open_v1_preview.png"
+    }
+  },
+  "grid_statistics": {
+    "height": 81,
+    "width": 81,
+    "total_cells": 6561,
+    "free_cells": 6241,
+    "occupied_cells": 320,
+    "boundary_occupied": true,
+    "has_internal_obstacles": false
+  },
+  "coordinate_mapping": {
+    "cell_size_m": 5.0,
+    "origin_world_xy": [
+      -200.0,
+      200.0
+    ],
+    "water_surface_z": 0.0,
+    "bounds": {
+      "xmin": -200.0,
+      "xmax": 200.0,
+      "ymin": -200.0,
+      "ymax": 200.0
+    }
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      1,
+      1
+    ],
+    "segment_path": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      1,
+      2
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -190.0,
+      195.0
+    ],
+    "final_world": [
+      -192.4856414794922,
+      194.7570037841797,
+      0.1667432337999344
+    ],
+    "ticks": 100,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4974908859643716,
+    "final_projected_cell": [
+      1,
+      2
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      1,
+      2
+    ],
+    "segment_path": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      2
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -190.0,
+      190.0
+    ],
+    "final_world": [
+      -190.09954833984375,
+      192.49114990234375,
+      0.16146332025527954
+    ],
+    "ticks": 193,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4931381245155517,
+    "final_projected_cell": [
+      2,
+      2
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      2
+    ],
+    "segment_path": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      3
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -185.0,
+      190.0
+    ],
+    "final_world": [
+      -187.48692321777344,
+      190.06674194335938,
+      0.16489695012569427
+    ],
+    "ticks": 205,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4878186385072314,
+    "final_projected_cell": [
+      2,
+      3
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      3
+    ],
+    "segment_path": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      4
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -180.0,
+      190.0
+    ],
+    "final_world": [
+      -182.49295043945312,
+      190.0545654296875,
+      0.16486507654190063
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4935475290610585,
+    "final_projected_cell": [
+      2,
+      4
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      4
+    ],
+    "segment_path": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      5
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -175.0,
+      190.0
+    ],
+    "final_world": [
+      -177.49351501464844,
+      190.00003051757812,
+      0.1671752780675888
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4935150148351863,
+    "final_projected_cell": [
+      2,
+      5
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      5
+    ],
+    "segment_path": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      6
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -170.0,
+      190.0
+    ],
+    "final_world": [
+      -172.49325561523438,
+      190.00064086914062,
+      0.16719919443130493
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4932556975992246,
+    "final_projected_cell": [
+      2,
+      6
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      6
+    ],
+    "segment_path": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      7
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -165.0,
+      190.0
+    ],
+    "final_world": [
+      -167.49313354492188,
+      189.99998474121094,
+      0.16729766130447388
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493133544968569,
+    "final_projected_cell": [
+      2,
+      7
+    ]
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3A smoke",
+    "robot_pos_before": [
+      2,
+      7
+    ],
+    "segment_path": [
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      8
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -160.0,
+      190.0
+    ],
+    "final_world": [
+      -162.4930877685547,
+      190.00001525878906,
+      0.16723260283470154
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930877686013826,
+    "final_projected_cell": [
+      2,
+      8
+    ]
+  }
+]

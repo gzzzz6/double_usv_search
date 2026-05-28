@@ -3,14 +3,15 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Sequence
+from typing import Sequence, Tuple, Union, Optional
 
 import numpy as np
 
-from baseline_GP.core_map import FREE
+# Bridge local constants to avoid importing from core_map module
+FREE = 0
 
 
-Cell = tuple[int, int]
+Cell = Tuple[int, int]
 
 
 @dataclass(frozen=True)
@@ -18,7 +19,7 @@ class CoordinateAdapterConfig:
     """Static parameters for grid/world coordinate conversion."""
 
     cell_size_m: float = 5.0
-    origin_world_xy: tuple[float, float] = (0.0, 0.0)
+    origin_world_xy: Tuple[float, float] = (0.0, 0.0)
     water_surface_z: float = 0.0
 
     def __post_init__(self) -> None:
@@ -28,11 +29,11 @@ class CoordinateAdapterConfig:
             raise ValueError("origin_world_xy must contain exactly two values")
 
 
-def _resolve_config(config: CoordinateAdapterConfig | None) -> CoordinateAdapterConfig:
+def _resolve_config(config: Optional[CoordinateAdapterConfig]) -> CoordinateAdapterConfig:
     return config if config is not None else CoordinateAdapterConfig()
 
 
-def _shape_tuple(map_shape: Sequence[int] | np.ndarray) -> tuple[int, int]:
+def _shape_tuple(map_shape: Union[Sequence[int], np.ndarray]) -> Tuple[int, int]:
     shape = np.asarray(map_shape).shape if isinstance(map_shape, np.ndarray) else tuple(map_shape)
     if len(shape) < 2:
         raise ValueError("map_shape must contain at least two dimensions")
@@ -52,7 +53,7 @@ def _nearest_int(value: float) -> int:
     return int(np.floor(float(value) + 0.5))
 
 
-def is_in_bounds(cell: Sequence[int], map_shape: Sequence[int] | np.ndarray) -> bool:
+def is_in_bounds(cell: Sequence[int], map_shape: Union[Sequence[int], np.ndarray]) -> bool:
     row, col = _normalize_cell(cell)
     height, width = _shape_tuple(map_shape)
     return 0 <= row < height and 0 <= col < width
@@ -60,7 +61,7 @@ def is_in_bounds(cell: Sequence[int], map_shape: Sequence[int] | np.ndarray) -> 
 
 def grid_to_world(
     cell: Sequence[int],
-    config: CoordinateAdapterConfig | None = None,
+    config: Optional[CoordinateAdapterConfig] = None,
 ) -> np.ndarray:
     cfg = _resolve_config(config)
     row, col = _normalize_cell(cell)
@@ -77,8 +78,8 @@ def grid_to_world(
 
 def world_to_grid(
     world_xy: Sequence[float],
-    config: CoordinateAdapterConfig | None = None,
-    map_shape: Sequence[int] | np.ndarray | None = None,
+    config: Optional[CoordinateAdapterConfig] = None,
+    map_shape: Optional[Union[Sequence[int], np.ndarray]] = None,
     clamp: bool = False,
 ) -> Cell:
     if len(world_xy) < 2:
@@ -106,7 +107,7 @@ def world_to_grid(
 
 def grid_path_to_world(
     path: Sequence[Sequence[int]],
-    config: CoordinateAdapterConfig | None = None,
+    config: Optional[CoordinateAdapterConfig] = None,
 ) -> np.ndarray:
     if len(path) == 0:
         return np.empty((0, 3), dtype=float)
@@ -116,7 +117,7 @@ def grid_path_to_world(
 def _world_to_fractional_grid(
     world_xy: Sequence[float],
     config: CoordinateAdapterConfig,
-) -> tuple[float, float]:
+) -> Tuple[float, float]:
     origin_x, origin_y = config.origin_world_xy
     x, y = float(world_xy[0]), float(world_xy[1])
     col_f = (x - float(origin_x)) / float(config.cell_size_m)
@@ -127,7 +128,7 @@ def _world_to_fractional_grid(
 def project_world_to_nearest_free_cell(
     world_xy: Sequence[float],
     nav_map_prior: np.ndarray,
-    config: CoordinateAdapterConfig | None = None,
+    config: Optional[CoordinateAdapterConfig] = None,
 ) -> Cell:
     if len(world_xy) < 2:
         raise ValueError("world_xy must contain at least x and y")
@@ -146,4 +147,3 @@ def project_world_to_nearest_free_cell(
     nearest_index = int(np.argmin(np.einsum("ij,ij->i", deltas, deltas)))
     nearest = free_cells[nearest_index]
     return int(nearest[0]), int(nearest[1])
-

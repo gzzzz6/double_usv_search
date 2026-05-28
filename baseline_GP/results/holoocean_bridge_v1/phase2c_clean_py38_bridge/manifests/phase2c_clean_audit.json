@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "coordinate_adapter_check": {
+    "passed": true,
+    "violations": []
+  },
+  "scene_map_adapter_check": {
+    "passed": true,
+    "violations": []
+  },
+  "smoke_clean_script_check": {
+    "passed": true,
+    "violations": []
+  },
+  "outputs_verification": {
+    "summary_exists": true,
+    "trace_json_exists": true,
+    "total_waypoints": 4,
+    "arrived_count": 4,
+    "success_rate": 100.0,
+    "passed": true,
+    "errors": []
+  }
+}

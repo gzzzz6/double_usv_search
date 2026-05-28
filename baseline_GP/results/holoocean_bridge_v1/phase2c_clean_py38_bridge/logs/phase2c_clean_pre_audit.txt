@@ -1,0 +1,12 @@
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:10:from baseline_GP.core_map import FREE
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:13:Cell = tuple[int, int]
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:21:    origin_world_xy: tuple[float, float] = (0.0, 0.0)
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:31:def _resolve_config(config: CoordinateAdapterConfig | None) -> CoordinateAdapterConfig:
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:35:def _shape_tuple(map_shape: Sequence[int] | np.ndarray) -> tuple[int, int]:
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:63:    config: CoordinateAdapterConfig | None = None,
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:80:    config: CoordinateAdapterConfig | None = None,
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:81:    map_shape: Sequence[int] | np.ndarray | None = None,
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:109:    config: CoordinateAdapterConfig | None = None,
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:119:) -> tuple[float, float]:
+./baseline_GP/holoocean_bridge\coordinate_adapter.py:130:    config: CoordinateAdapterConfig | None = None,
+./baseline_GP/holoocean_bridge\scene_map_adapter.py:8:    from baseline_GP.core_map import FREE, OCCUPIED

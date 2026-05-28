@@ -1,0 +1,12 @@
+{
+  "step_count_check": true,
+  "rigid_initial_position_check": true,
+  "three_fold_alignment_check": true,
+  "policy_name_check": true,
+  "path_safety_mode_check": true,
+  "viewpoint_generation_mode_check": true,
+  "clue_acquisition_mode_check": true,
+  "sensor_limit_check": true,
+  "import_hook_free_check": true,
+  "all_passed": true
+}

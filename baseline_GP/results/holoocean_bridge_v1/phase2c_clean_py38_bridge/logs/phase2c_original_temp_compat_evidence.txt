@@ -1,0 +1,21 @@
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:5:from types import ModuleType
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:8:mock_core_map = ModuleType('baseline_GP.core_map')
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:12:sys.modules['baseline_GP.core_map'] = mock_core_map
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:21:adapter_source = adapter_source.replace("from __future__ import annotations", "")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:23:adapter_source = adapter_source.replace("CoordinateAdapterConfig | None", "Union[CoordinateAdapterConfig, None]")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:24:adapter_source = adapter_source.replace("Sequence[int] | np.ndarray | None", "Union[Sequence[int], np.ndarray, None]")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:25:adapter_source = adapter_source.replace("Sequence[int] | np.ndarray", "Union[Sequence[int], np.ndarray]")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:26:adapter_source = adapter_source.replace("tuple[", "Tuple[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:27:adapter_source = adapter_source.replace("list[", "List[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:28:adapter_source = adapter_source.replace("dict[", "Dict[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:30:mock_adapter = ModuleType('baseline_GP.holoocean_bridge.coordinate_adapter')
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:36:sys.modules['baseline_GP.holoocean_bridge.coordinate_adapter'] = mock_adapter
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:37:exec(compile(adapter_source, adapter_path, 'exec'), mock_adapter.__dict__)
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:44:scene_source = scene_source.replace("from __future__ import annotations", "")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:46:scene_source = scene_source.replace("tuple[", "Tuple[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:47:scene_source = scene_source.replace("list[", "List[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:48:scene_source = scene_source.replace("dict[", "Dict[")
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:50:mock_scene_map = ModuleType('baseline_GP.holoocean_bridge.scene_map_adapter')
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:56:sys.modules['baseline_GP.holoocean_bridge.scene_map_adapter'] = mock_scene_map
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:57:exec(compile(scene_source, scene_map_path, 'exec'), mock_scene_map.__dict__)
+./baseline_GP/results/holoocean_bridge_v1/phase2c_openwater_waypoint_smoke/scripts/openwater_grid_waypoint_smoke.py:59:# 4. Now perform imports normally - Python will use the compatible modules in sys.modules
