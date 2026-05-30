@@ -1,0 +1,32 @@
+{
+  "found": true,
+  "found_step": 63,
+  "found_target_indices": [
+    0
+  ],
+  "target_cell_at_found": [
+    25,
+    30
+  ],
+  "target_world_at_found": [
+    -50.18069076538086,
+    74.97371673583984,
+    0.16530920565128326
+  ],
+  "sv_cell_at_found": [
+    25,
+    34
+  ],
+  "sv_world_at_found": [
+    -28.19609260559082,
+    76.62564849853516,
+    0.18827177584171295
+  ],
+  "euclidean_distance_cells_at_found": 4.0,
+  "sensor_range_cells": 5,
+  "detection_model": "baseline_GP.core_targets.detect_targets",
+  "note": "target truth comes from HoloOcean target proxy agent; detection still uses baseline_GP native simulated detection model.",
+  "run_label": "dynamic_target_search_fastsv",
+  "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+  "hit_update_note": "found_mask/intensity_map/GP/search_info updated through finalize_policy_step_after_holoocean"
+}

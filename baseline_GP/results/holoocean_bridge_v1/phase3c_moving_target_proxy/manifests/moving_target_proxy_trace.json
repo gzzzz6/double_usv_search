@@ -1,0 +1,253 @@
+{
+  "phase": "phase3c_moving_target_proxy",
+  "world": "OpenWater",
+  "package_name": "Ocean",
+  "map_id": "openwater_open_v1",
+  "cell_size_m": 5.0,
+  "grid_shape": [
+    81,
+    81
+  ],
+  "target_cells_expected": [
+    [
+      20,
+      20
+    ],
+    [
+      20,
+      25
+    ],
+    [
+      25,
+      25
+    ],
+    [
+      25,
+      30
+    ],
+    [
+      30,
+      30
+    ]
+  ],
+  "target_worlds_commanded": [
+    [
+      -100.0,
+      100.0
+    ],
+    [
+      -75.0,
+      100.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -50.0,
+      75.0
+    ],
+    [
+      -50.0,
+      50.0
+    ]
+  ],
+  "env_capabilities": {
+    "spawn_prop": true,
+    "move_prop": false,
+    "set_prop_location": false,
+    "teleport_prop": false,
+    "set_actor_location": false,
+    "set_prop_transform": false,
+    "act": true,
+    "tick": true,
+    "get_tick": false
+  },
+  "prop_attempted": true,
+  "prop_spawn_success": true,
+  "prop_move_attempted": false,
+  "prop_move_success": false,
+  "prop_failure_reason": "No movement or teleportation API exists for props in HoloOceanEnvironment",
+  "agent_attempted": true,
+  "agent_spawn_success": true,
+  "agent_move_attempted": true,
+  "agent_move_success": true,
+  "agent_failure_reason": "",
+  "selected_proxy_type": "agent",
+  "selected_move_method": "act",
+  "movable": true,
+  "move_success_count": 5,
+  "total_waypoints": 5,
+  "waypoint_records": [
+    {
+      "waypoint_index": 0,
+      "target_cell_expected": [
+        20,
+        20
+      ],
+      "target_world_commanded": [
+        -100.0,
+        100.0
+      ],
+      "roundtrip_cell": [
+        20,
+        20
+      ],
+      "roundtrip_ok": true,
+      "proxy_type": "agent",
+      "move_method": "act",
+      "api_call_success": true,
+      "target_world_observed": [
+        -99.31110382080078,
+        99.98722076416016,
+        0.6402883529663086
+      ],
+      "target_cell_observed": [
+        20,
+        20
+      ],
+      "observed_location_available": true,
+      "distance_to_commanded_m": 0.6890146983801815,
+      "chebyshev_cell_error": 0,
+      "moved_success": true,
+      "ticks_used": 1,
+      "failure_reason": ""
+    },
+    {
+      "waypoint_index": 1,
+      "target_cell_expected": [
+        20,
+        25
+      ],
+      "target_world_commanded": [
+        -75.0,
+        100.0
+      ],
+      "roundtrip_cell": [
+        20,
+        25
+      ],
+      "roundtrip_ok": true,
+      "proxy_type": "agent",
+      "move_method": "act",
+      "api_call_success": true,
+      "target_world_observed": [
+        -77.4961929321289,
+        99.88287353515625,
+        0.16529791057109833
+      ],
+      "target_cell_observed": [
+        20,
+        25
+      ],
+      "observed_location_available": true,
+      "distance_to_commanded_m": 2.4989393276302447,
+      "chebyshev_cell_error": 0,
+      "moved_success": true,
+      "ticks_used": 559,
+      "failure_reason": ""
+    },
+    {
+      "waypoint_index": 2,
+      "target_cell_expected": [
+        25,
+        25
+      ],
+      "target_world_commanded": [
+        -75.0,
+        75.0
+      ],
+      "roundtrip_cell": [
+        25,
+        25
+      ],
+      "roundtrip_ok": true,
+      "proxy_type": "agent",
+      "move_method": "act",
+      "api_call_success": true,
+      "target_world_observed": [
+        -74.87183380126953,
+        77.4940185546875,
+        0.16460217535495758
+      ],
+      "target_cell_observed": [
+        25,
+        25
+      ],
+      "observed_location_available": true,
+      "distance_to_commanded_m": 2.4973095774498093,
+      "chebyshev_cell_error": 0,
+      "moved_success": true,
+      "ticks_used": 629,
+      "failure_reason": ""
+    },
+    {
+      "waypoint_index": 3,
+      "target_cell_expected": [
+        25,
+        30
+      ],
+      "target_world_commanded": [
+        -50.0,
+        75.0
+      ],
+      "roundtrip_cell": [
+        25,
+        30
+      ],
+      "roundtrip_ok": true,
+      "proxy_type": "agent",
+      "move_method": "act",
+      "api_call_success": true,
+      "target_world_observed": [
+        -52.49522018432617,
+        74.87081909179688,
+        0.1645621359348297
+      ],
+      "target_cell_observed": [
+        25,
+        30
+      ],
+      "observed_location_available": true,
+      "distance_to_commanded_m": 2.498561881425577,
+      "chebyshev_cell_error": 0,
+      "moved_success": true,
+      "ticks_used": 629,
+      "failure_reason": ""
+    },
+    {
+      "waypoint_index": 4,
+      "target_cell_expected": [
+        30,
+        30
+      ],
+      "target_world_commanded": [
+        -50.0,
+        50.0
+      ],
+      "roundtrip_cell": [
+        30,
+        30
+      ],
+      "roundtrip_ok": true,
+      "proxy_type": "agent",
+      "move_method": "act",
+      "api_call_success": true,
+      "target_world_observed": [
+        -49.87087631225586,
+        52.495296478271484,
+        0.1646031141281128
+      ],
+      "target_cell_observed": [
+        30,
+        30
+      ],
+      "observed_location_available": true,
+      "distance_to_commanded_m": 2.4986351156602917,
+      "chebyshev_cell_error": 0,
+      "moved_success": true,
+      "ticks_used": 629,
+      "failure_reason": ""
+    }
+  ]
+}

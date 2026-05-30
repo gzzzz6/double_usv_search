@@ -1,0 +1,4907 @@
+[
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      1,
+      1
+    ],
+    "segment_path": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      1,
+      2
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -190.0,
+      195.0
+    ],
+    "final_world": [
+      -192.4856414794922,
+      194.75701904296875,
+      0.17178979516029358
+    ],
+    "ticks": 100,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4974894013893096,
+    "final_projected_cell": [
+      1,
+      2
+    ],
+    "replanned": true,
+    "replan_reason": "initial_plan|commit_expired|segment_empty",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 1,
+    "path_length": 1,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9148522977717035
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      1,
+      2
+    ],
+    "segment_path": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      2
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -190.0,
+      190.0
+    ],
+    "final_world": [
+      -190.09954833984375,
+      192.49114990234375,
+      0.16802848875522614
+    ],
+    "ticks": 193,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4931381245155517,
+    "final_projected_cell": [
+      2,
+      2
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 2,
+    "path_length": 2,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9420470053936999
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      2
+    ],
+    "segment_path": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      3
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -185.0,
+      190.0
+    ],
+    "final_world": [
+      -187.48692321777344,
+      190.06674194335938,
+      0.17256712913513184
+    ],
+    "ticks": 205,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4878186385072314,
+    "final_projected_cell": [
+      2,
+      3
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 3,
+    "path_length": 3,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9405177398097242
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      3
+    ],
+    "segment_path": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      4
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -180.0,
+      190.0
+    ],
+    "final_world": [
+      -182.49295043945312,
+      190.0545654296875,
+      0.1710689663887024
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4935475290610585,
+    "final_projected_cell": [
+      2,
+      4
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 4,
+    "path_length": 4,
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9384475950682716
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      4
+    ],
+    "segment_path": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      5
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -175.0,
+      190.0
+    ],
+    "final_world": [
+      -177.49351501464844,
+      190.00003051757812,
+      0.17120195925235748
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4935150148351863,
+    "final_projected_cell": [
+      2,
+      5
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 5,
+    "path_length": 5,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.923594119901298
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      5
+    ],
+    "segment_path": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      6
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -170.0,
+      190.0
+    ],
+    "final_world": [
+      -172.49325561523438,
+      190.00064086914062,
+      0.1710463911294937
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4932556975992246,
+    "final_projected_cell": [
+      2,
+      6
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 6,
+    "path_length": 6,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9365704112206635
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      6
+    ],
+    "segment_path": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      7
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -165.0,
+      190.0
+    ],
+    "final_world": [
+      -167.49313354492188,
+      189.99998474121094,
+      0.17098689079284668
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493133544968569,
+    "final_projected_cell": [
+      2,
+      7
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 7,
+    "path_length": 7,
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9349221629058577
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      7
+    ],
+    "segment_path": [
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      8
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -160.0,
+      190.0
+    ],
+    "final_world": [
+      -162.4930877685547,
+      190.00001525878906,
+      0.1708545684814453
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930877686013826,
+    "final_projected_cell": [
+      2,
+      8
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 8,
+    "path_length": 8,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.933933889943646
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      8
+    ],
+    "segment_path": [
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      9
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -155.0,
+      190.0
+    ],
+    "final_world": [
+      -157.49307250976562,
+      190.0,
+      0.17093665897846222
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      9
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 9,
+    "path_length": 9,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9328138604115768
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      9
+    ],
+    "segment_path": [
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      10
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -150.0,
+      190.0
+    ],
+    "final_world": [
+      -152.49307250976562,
+      190.0,
+      0.17087744176387787
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      10
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 10,
+    "path_length": 10,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9305982750030294
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      10
+    ],
+    "segment_path": [
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      11
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -145.0,
+      190.0
+    ],
+    "final_world": [
+      -147.49307250976562,
+      190.0,
+      0.17085804045200348
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      11
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 11,
+    "path_length": 11,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9276842296231461
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      11
+    ],
+    "segment_path": [
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      12
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -140.0,
+      190.0
+    ],
+    "final_world": [
+      -142.49307250976562,
+      190.0,
+      0.17089001834392548
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      12
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 12,
+    "path_length": 12,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9285532941575024
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      12
+    ],
+    "segment_path": [
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      13
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -135.0,
+      190.0
+    ],
+    "final_world": [
+      -137.49307250976562,
+      190.0,
+      0.17096291482448578
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      13
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 13,
+    "path_length": 13,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9265967212803305
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      13
+    ],
+    "segment_path": [
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      14
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -130.0,
+      190.0
+    ],
+    "final_world": [
+      -132.49307250976562,
+      190.0,
+      0.17094017565250397
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      14
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 14,
+    "path_length": 14,
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9228635526731952
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      14
+    ],
+    "segment_path": [
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      15
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -125.0,
+      190.0
+    ],
+    "final_world": [
+      -127.49307250976562,
+      190.0,
+      0.17097139358520508
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      15
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 15,
+    "path_length": 15,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9224468702292751
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      15
+    ],
+    "segment_path": [
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      16
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -120.0,
+      190.0
+    ],
+    "final_world": [
+      -122.49307250976562,
+      190.0,
+      0.17088569700717926
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      16
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 16,
+    "path_length": 16,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9235189188183498
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      16
+    ],
+    "segment_path": [
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      17
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -115.0,
+      190.0
+    ],
+    "final_world": [
+      -117.49307250976562,
+      190.0,
+      0.17085228860378265
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      17
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 17,
+    "path_length": 17,
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9117101392086178
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      17
+    ],
+    "segment_path": [
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      18
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -110.0,
+      190.0
+    ],
+    "final_world": [
+      -112.49307250976562,
+      190.0,
+      0.17097176611423492
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      18
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 18,
+    "path_length": 18,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9202166932365298
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      18
+    ],
+    "segment_path": [
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      19
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -105.0,
+      190.0
+    ],
+    "final_world": [
+      -107.49307250976562,
+      190.0,
+      0.17089372873306274
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      19
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 19,
+    "path_length": 19,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9194938195486134
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      19
+    ],
+    "segment_path": [
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      20
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -100.0,
+      190.0
+    ],
+    "final_world": [
+      -102.49307250976562,
+      190.0,
+      0.17093941569328308
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      20
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 20,
+    "path_length": 20,
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9186890383624253
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      20
+    ],
+    "segment_path": [
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      21
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -95.0,
+      190.0
+    ],
+    "final_world": [
+      -97.49307250976562,
+      190.0,
+      0.1709616482257843
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      21
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 21,
+    "path_length": 21,
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9170432487605911
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      21
+    ],
+    "segment_path": [
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      22
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -90.0,
+      190.0
+    ],
+    "final_world": [
+      -92.49307250976562,
+      190.0,
+      0.1709253489971161
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      22
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 22,
+    "path_length": 22,
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9119098548616723
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      22
+    ],
+    "segment_path": [
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      23
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -85.0,
+      190.0
+    ],
+    "final_world": [
+      -87.49307250976562,
+      190.0,
+      0.17099367082118988
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      23
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 23,
+    "path_length": 23,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9155675699547644
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      23
+    ],
+    "segment_path": [
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      24
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -80.0,
+      190.0
+    ],
+    "final_world": [
+      -82.49307250976562,
+      190.0,
+      0.1709316223859787
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      24
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 24,
+    "path_length": 24,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9105926078136395
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      24
+    ],
+    "segment_path": [
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      25
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -75.0,
+      190.0
+    ],
+    "final_world": [
+      -77.49307250976562,
+      190.0,
+      0.17098578810691833
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      25
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 25,
+    "path_length": 25,
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9132188580552818
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      25
+    ],
+    "segment_path": [
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      26
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -70.0,
+      190.0
+    ],
+    "final_world": [
+      -72.49307250976562,
+      190.0,
+      0.1709604561328888
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      26
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 26,
+    "path_length": 26,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8950167606381674
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      26
+    ],
+    "segment_path": [
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      27
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -65.0,
+      190.0
+    ],
+    "final_world": [
+      -67.49307250976562,
+      190.0,
+      0.1709335893392563
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      2,
+      27
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 27,
+    "path_length": 27,
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9127187683090341
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      27
+    ],
+    "segment_path": [
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      28
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -60.0,
+      190.0
+    ],
+    "final_world": [
+      -62.49306869506836,
+      190.0,
+      0.1709490418434143
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      28
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 28,
+    "path_length": 28,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8878473164122972
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      28
+    ],
+    "segment_path": [
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      29
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -55.0,
+      190.0
+    ],
+    "final_world": [
+      -57.49306869506836,
+      190.0,
+      0.1708974689245224
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      29
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 29,
+    "path_length": 29,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8938822083075235
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      29
+    ],
+    "segment_path": [
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      30
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -50.0,
+      190.0
+    ],
+    "final_world": [
+      -52.49306869506836,
+      190.0,
+      0.17089290916919708
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      30
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 30,
+    "path_length": 30,
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9029979060395041
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      30
+    ],
+    "segment_path": [
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      31
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -45.0,
+      190.0
+    ],
+    "final_world": [
+      -47.49306869506836,
+      190.0,
+      0.17087920010089874
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      31
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 31,
+    "path_length": 31,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.898872549241298
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      31
+    ],
+    "segment_path": [
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      32
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -40.0,
+      190.0
+    ],
+    "final_world": [
+      -42.49306869506836,
+      190.0,
+      0.170852392911911
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      32
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 32,
+    "path_length": 32,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9095990648154321
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      32
+    ],
+    "segment_path": [
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      33
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -35.0,
+      190.0
+    ],
+    "final_world": [
+      -37.49306869506836,
+      190.0,
+      0.1708807647228241
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      33
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 33,
+    "path_length": 33,
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.88050706231517
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      33
+    ],
+    "segment_path": [
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      34
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -30.0,
+      190.0
+    ],
+    "final_world": [
+      -32.49306869506836,
+      190.0,
+      0.17082925140857697
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      34
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 34,
+    "path_length": 34,
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8750672401751294
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      34
+    ],
+    "segment_path": [
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      35
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -25.0,
+      190.0
+    ],
+    "final_world": [
+      -27.49306869506836,
+      190.0,
+      0.17090436816215515
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      35
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 35,
+    "path_length": 35,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.899791730013113
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      35
+    ],
+    "segment_path": [
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      2,
+      36
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -20.0,
+      190.0
+    ],
+    "final_world": [
+      -22.49306869506836,
+      190.0,
+      0.17082540690898895
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      36
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 36,
+    "path_length": 36,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8880096331258414
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      36
+    ],
+    "segment_path": [
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      2,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      190.0
+    ],
+    "final_world": [
+      -17.49306869506836,
+      190.0,
+      0.17095248401165009
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930686950683594,
+    "final_projected_cell": [
+      2,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 37,
+    "path_length": 37,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8992953943594557
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      2,
+      37
+    ],
+    "segment_path": [
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      3,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      185.0
+    ],
+    "final_world": [
+      -15.090363502502441,
+      187.49769592285156,
+      0.16926203668117523
+    ],
+    "ticks": 200,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4993300073447338,
+    "final_projected_cell": [
+      3,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 38,
+    "path_length": 38,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8990229546081067
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      3,
+      37
+    ],
+    "segment_path": [
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      4,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      180.0
+    ],
+    "final_world": [
+      -15.057904243469238,
+      182.49609375,
+      0.17113643884658813
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.496765289369589,
+    "final_projected_cell": [
+      4,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 39,
+    "path_length": 39,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8990711598589668
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      4,
+      37
+    ],
+    "segment_path": [
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      5,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      175.0
+    ],
+    "final_world": [
+      -15.000262260437012,
+      177.49452209472656,
+      0.17101818323135376
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4945221085128777,
+    "final_projected_cell": [
+      5,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 40,
+    "path_length": 40,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8937883265593985
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      5,
+      37
+    ],
+    "segment_path": [
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      6,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      170.0
+    ],
+    "final_world": [
+      -15.000679016113281,
+      172.4935760498047,
+      0.17098498344421387
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4935761422548204,
+    "final_projected_cell": [
+      6,
+      37
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 41,
+    "path_length": 41,
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9024291309981785
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      6,
+      37
+    ],
+    "segment_path": [
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      7,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      165.0
+    ],
+    "final_world": [
+      -14.999994277954102,
+      167.49322509765625,
+      0.17099332809448242
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4932250976628163,
+    "final_projected_cell": [
+      7,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 42,
+    "path_length": 42,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8753301254933887
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      7,
+      37
+    ],
+    "segment_path": [
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      8,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      160.0
+    ],
+    "final_world": [
+      -15.00001049041748,
+      162.4931182861328,
+      0.17095617949962616
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493118286154883,
+    "final_projected_cell": [
+      8,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 43,
+    "path_length": 43,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.887253810113904
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      8,
+      37
+    ],
+    "segment_path": [
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      9,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      155.0
+    ],
+    "final_world": [
+      -14.99999713897705,
+      157.4930877685547,
+      0.17093664407730103
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930877685563293,
+    "final_projected_cell": [
+      9,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 44,
+    "path_length": 44,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8745156898249689
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      9,
+      37
+    ],
+    "segment_path": [
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      10,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      150.0
+    ],
+    "final_world": [
+      -15.000000953674316,
+      152.49307250976562,
+      0.17093658447265625
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      10,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 45,
+    "path_length": 45,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8884243450217941
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      10,
+      37
+    ],
+    "segment_path": [
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      11,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      145.0
+    ],
+    "final_world": [
+      -14.999999046325684,
+      147.49307250976562,
+      0.1709563434123993
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      11,
+      37
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 46,
+    "path_length": 46,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8403025193826545
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      11,
+      37
+    ],
+    "segment_path": [
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      12,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      140.0
+    ],
+    "final_world": [
+      -15.00000286102295,
+      142.49307250976562,
+      0.17093494534492493
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509767267,
+    "final_projected_cell": [
+      12,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 47,
+    "path_length": 47,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7648819192089499
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      12,
+      37
+    ],
+    "segment_path": [
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      13,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      135.0
+    ],
+    "final_world": [
+      -14.99999713897705,
+      137.49307250976562,
+      0.1709352284669876
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509767267,
+    "final_projected_cell": [
+      13,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 48,
+    "path_length": 48,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.780859234156702
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      13,
+      37
+    ],
+    "segment_path": [
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      14,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      130.0
+    ],
+    "final_world": [
+      -15.000001907348633,
+      132.49307250976562,
+      0.17095503211021423
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097663546,
+    "final_projected_cell": [
+      14,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 49,
+    "path_length": 49,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.774035055565337
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      14,
+      37
+    ],
+    "segment_path": [
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      15,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      125.0
+    ],
+    "final_world": [
+      -14.999999046325684,
+      127.49307250976562,
+      0.17093361914157867
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      15,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 50,
+    "path_length": 50,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8162354202904664
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      15,
+      37
+    ],
+    "segment_path": [
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      16,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      120.0
+    ],
+    "final_world": [
+      -15.000000953674316,
+      122.49307250976562,
+      0.17093390226364136
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      16,
+      37
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      41,
+      37
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 51,
+    "path_length": 51,
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7726932691818276
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      16,
+      37
+    ],
+    "segment_path": [
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      17,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      115.0
+    ],
+    "final_world": [
+      -15.000000953674316,
+      117.49307250976562,
+      0.17095370590686798
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      17,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      37
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 52,
+    "path_length": 52,
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7337696122775802
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      17,
+      37
+    ],
+    "segment_path": [
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      18,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      110.0
+    ],
+    "final_world": [
+      -14.999999046325684,
+      112.49307250976562,
+      0.17093229293823242
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      18,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      37
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 53,
+    "path_length": 53,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7227948513327481
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      18,
+      37
+    ],
+    "segment_path": [
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      19,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      105.0
+    ],
+    "final_world": [
+      -15.000000953674316,
+      107.49307250976562,
+      0.1709325760602951
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4930725097658075,
+    "final_projected_cell": [
+      19,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      37
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 54,
+    "path_length": 54,
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7718620327898613
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      19,
+      37
+    ],
+    "segment_path": [
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      20,
+      37
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -15.0,
+      100.0
+    ],
+    "final_world": [
+      -15.0,
+      102.49307250976562,
+      0.17095239460468292
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493072509765625,
+    "final_projected_cell": [
+      20,
+      37
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      37
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 55,
+    "path_length": 55,
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7183362976190263
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      20,
+      37
+    ],
+    "segment_path": [
+      [
+        20,
+        37
+      ],
+      [
+        20,
+        38
+      ],
+      [
+        20,
+        39
+      ],
+      [
+        20,
+        40
+      ],
+      [
+        20,
+        41
+      ],
+      [
+        20,
+        42
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        20,
+        44
+      ],
+      [
+        20,
+        45
+      ]
+    ],
+    "next_cell": [
+      20,
+      38
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -10.0,
+      100.0
+    ],
+    "final_world": [
+      -12.497698783874512,
+      100.09037017822266,
+      0.17300859093666077
+    ],
+    "ticks": 200,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4993331078670185,
+    "final_projected_cell": [
+      20,
+      38
+    ],
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      24,
+      45
+    ],
+    "committed_anchor": [
+      21,
+      47
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 56,
+    "path_length": 56,
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7627976954296717
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      20,
+      38
+    ],
+    "segment_path": [
+      [
+        20,
+        38
+      ],
+      [
+        20,
+        39
+      ],
+      [
+        20,
+        40
+      ],
+      [
+        20,
+        41
+      ],
+      [
+        20,
+        42
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        20,
+        44
+      ],
+      [
+        20,
+        45
+      ]
+    ],
+    "next_cell": [
+      20,
+      39
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      -5.0,
+      100.0
+    ],
+    "final_world": [
+      -7.49609375,
+      100.05790710449219,
+      0.17102593183517456
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.4967653557232268,
+    "final_projected_cell": [
+      20,
+      39
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      24,
+      45
+    ],
+    "committed_anchor": [
+      21,
+      47
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 57,
+    "path_length": 57,
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7430041840184918
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      20,
+      39
+    ],
+    "segment_path": [
+      [
+        20,
+        39
+      ],
+      [
+        20,
+        40
+      ],
+      [
+        20,
+        41
+      ],
+      [
+        20,
+        42
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        20,
+        44
+      ],
+      [
+        20,
+        45
+      ]
+    ],
+    "next_cell": [
+      20,
+      40
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      0.0,
+      100.0
+    ],
+    "final_world": [
+      -2.4945216178894043,
+      100.00025939941406,
+      0.17122973501682281
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.494521631376571,
+    "final_projected_cell": [
+      20,
+      40
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      24,
+      45
+    ],
+    "committed_anchor": [
+      21,
+      47
+    ],
+    "anchor_source": "search_info",
+    "found_count": 0,
+    "completed_steps": 58,
+    "path_length": 58,
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7059801463491664
+  },
+  {
+    "policy_name": "marine_knownmap_path_v2_infosampled",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "clue_mode_note": "clue_acquisition_mode = ucb temporary for Phase 3B-repeat-mid",
+    "robot_pos_before": [
+      20,
+      40
+    ],
+    "segment_path": [
+      [
+        20,
+        40
+      ],
+      [
+        20,
+        41
+      ],
+      [
+        20,
+        42
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        20,
+        44
+      ],
+      [
+        20,
+        45
+      ]
+    ],
+    "next_cell": [
+      20,
+      41
+    ],
+    "target_cell_source": "algorithm_segment_path",
+    "segment_path_0_equals_robot_pos_before": true,
+    "next_cell_equals_segment_path_1": true,
+    "final_projected_cell_equals_next_cell": true,
+    "target_world": [
+      5.0,
+      100.0
+    ],
+    "final_world": [
+      2.5064306259155273,
+      100.00067901611328,
+      0.17104299366474152
+    ],
+    "ticks": 220,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_target_m": 2.493569466534853,
+    "final_projected_cell": [
+      20,
+      41
+    ],
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      24,
+      45
+    ],
+    "committed_anchor": [
+      21,
+      47
+    ],
+    "anchor_source": "search_info",
+    "found_count": 1,
+    "completed_steps": 59,
+    "path_length": 59,
+    "remaining_intensity_mass": 0.0,
+    "search_info_map_peak": 0.5,
+    "search_info_map_mean": 0.21456255845963823
+  }
+]

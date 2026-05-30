@@ -1,0 +1,25 @@
+{
+  "found": true,
+  "found_step": 26,
+  "found_target_indices": [
+    0
+  ],
+  "found_target_cells": [
+    [
+      2,
+      30
+    ]
+  ],
+  "usv_cell_at_found": [
+    2,
+    26
+  ],
+  "usv_world_at_found": [
+    -72.49307250976562,
+    190.0,
+    0.1793944537639618
+  ],
+  "sensor_range_cells": 5,
+  "detection_model": "baseline_GP.core_targets.detect_targets",
+  "note": "HoloOcean prop provides visual/scene target; detection still uses baseline_GP native simulated detection model."
+}

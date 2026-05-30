@@ -1,0 +1,24 @@
+=== Phase 3C-0: Starting Moving Target Proxy Audit ===
+
+Audit results:
+  trace_json_exists: True
+  trace_csv_exists: True
+  path_png_exists: True
+  summary_md_exists: True
+  target_cells_count_ok: True
+  roundtrip_ok_all: True
+  no_sonar_or_camera_sensors: True
+  spawn_prop_capability_probed: True
+  move_method_attempted: True
+  selected_proxy_type_valid: True
+  move_success_count_in_range: True
+  movable_logical_consistency: True
+  no_forbidden_interceptors: True
+  no_search_policy_functions: True
+  no_belief_or_intensity_functions: True
+  core_files_unmodified: True
+  all_passed: True
+Audit JSON saved to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\manifests\moving_target_proxy_audit.json
+Audit Summary Markdown saved to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\reports\moving_target_proxy_audit_summary.md
+
+SUCCESS: All audit rules passed successfully.

@@ -1,0 +1,78 @@
+{
+  "run_label": "target_search_mid",
+  "expected_steps": 150,
+  "actual_steps": 59,
+  "all_passed": true,
+  "terminated_reason": "all_found",
+  "total_ticks": 12778,
+  "mean_ticks_per_step": 216.58,
+  "max_ticks_per_step": 220,
+  "arrived_count": 59,
+  "timeout_count": 0,
+  "max_distance_to_target_m": 2.4993,
+  "final_cell": [
+    20,
+    41
+  ],
+  "found_count_final": 1,
+  "found_events": {
+    "found": true,
+    "found_step": 59,
+    "found_target_indices": [
+      0
+    ],
+    "found_target_cells": [
+      [
+        20,
+        45
+      ]
+    ],
+    "usv_cell_at_found": [
+      20,
+      41
+    ],
+    "usv_world_at_found": [
+      2.5064306259155273,
+      100.00067901611328,
+      0.17104299366474152
+    ],
+    "sensor_range_cells": 5,
+    "detection_model": "baseline_GP.core_targets.detect_targets",
+    "note": "HoloOcean prop provides visual/scene target; detection still uses baseline_GP native simulated detection model."
+  },
+  "checks": {
+    "1_decisions_json_exists": true,
+    "2_target_manifest_exists": true,
+    "3_found_events_exists": true,
+    "4_tick_trace_exists": true,
+    "5_route_map_exists": true,
+    "6_target_cell_is_correct": true,
+    "7_roundtrip_ok": true,
+    "8_spawn_prop_success": true,
+    "9_policy_name_correct": true,
+    "10_viewpoint_mode_correct": true,
+    "11_path_safety_mode_correct": true,
+    "12_clue_acquisition_mode_correct": true,
+    "13_no_camera": true,
+    "14_no_sonar": true,
+    "15_segment_path_0_correct": true,
+    "16_next_cell_matches_segment_path_1": true,
+    "17_final_projected_cell_matches_next_cell": true,
+    "18_arrived_all_steps": true,
+    "19_no_timeouts": true,
+    "20_distance_correct": true,
+    "21_found_count_monotone": true,
+    "22_terminated_reason_all_found_check": true,
+    "23_found_step_within_bounds": true,
+    "24_remaining_intensity_mass_recorded": true,
+    "25_search_info_map_stats_recorded": true,
+    "26_prohibited_terms_check": true,
+    "27_forbidden_files_untouched": true,
+    "28_target_world_coordinate_correct": true,
+    "29_actual_steps_within_limit": true,
+    "30_terminated_reason_valid": true,
+    "31_found_step_null_if_not_found": true,
+    "32_found_step_not_null_if_found": true,
+    "33_no_found_records_correct": true
+  }
+}

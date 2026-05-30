@@ -1,0 +1,19 @@
+{
+  "trace_json_exists": true,
+  "trace_csv_exists": true,
+  "path_png_exists": true,
+  "summary_md_exists": true,
+  "target_cells_count_ok": true,
+  "roundtrip_ok_all": true,
+  "no_sonar_or_camera_sensors": true,
+  "spawn_prop_capability_probed": true,
+  "move_method_attempted": true,
+  "selected_proxy_type_valid": true,
+  "move_success_count_in_range": true,
+  "movable_logical_consistency": true,
+  "no_forbidden_interceptors": true,
+  "no_search_policy_functions": true,
+  "no_belief_or_intensity_functions": true,
+  "core_files_unmodified": true,
+  "all_passed": true
+}

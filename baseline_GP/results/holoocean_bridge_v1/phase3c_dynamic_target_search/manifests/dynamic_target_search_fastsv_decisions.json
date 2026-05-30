@@ -1,0 +1,7889 @@
+[
+  {
+    "step": 1,
+    "robot_pos_before": [
+      1,
+      1
+    ],
+    "sv_world_before": [
+      -192.36724853515625,
+      195.0
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -98.818359375,
+      99.95124053955078,
+      0.18144573271274567
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.9273086129285067,
+    "segment_path": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      1,
+      2
+    ],
+    "next_cell_world": [
+      -190.0,
+      195.0
+    ],
+    "sv_final_world": [
+      -192.36724853515625,
+      195.0,
+      0.19999808073043823
+    ],
+    "sv_final_projected_cell": [
+      1,
+      2
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 27,
+    "distance_to_next_cell_m": 2.36724853515625,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9148519323210821,
+    "replanned": true,
+    "replan_reason": "initial_plan|commit_expired|segment_empty",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 2,
+    "robot_pos_before": [
+      1,
+      2
+    ],
+    "sv_world_before": [
+      -189.68128967285156,
+      192.44235229492188
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -98.6041488647461,
+      99.58124542236328,
+      0.17870783805847168
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.253060445021456,
+    "segment_path": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      2
+    ],
+    "next_cell_world": [
+      -190.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -189.68128967285156,
+      192.44235229492188,
+      0.21336661279201508
+    ],
+    "sv_final_projected_cell": [
+      2,
+      2
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 57,
+    "distance_to_next_cell_m": 2.4630592776344655,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9420469965839596,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 3,
+    "robot_pos_before": [
+      2,
+      2
+    ],
+    "sv_world_before": [
+      -187.4134979248047,
+      190.03392028808594
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.0197525024414,
+      99.42420196533203,
+      0.16968263685703278
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.4434964609675671,
+    "segment_path": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      3
+    ],
+    "next_cell_world": [
+      -185.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -187.4134979248047,
+      190.03392028808594,
+      0.23204189538955688
+    ],
+    "sv_final_projected_cell": [
+      2,
+      3
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 66,
+    "distance_to_next_cell_m": 2.4137362778440328,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9405179007166709,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 4,
+    "robot_pos_before": [
+      2,
+      3
+    ],
+    "sv_world_before": [
+      -182.0839080810547,
+      191.33270263671875
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.30484771728516,
+      99.58931732177734,
+      0.16478928923606873
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.0788057533785576,
+    "segment_path": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      4
+    ],
+    "next_cell_world": [
+      -180.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -182.0839080810547,
+      191.33270263671875,
+      0.2054462879896164
+    ],
+    "sv_final_projected_cell": [
+      2,
+      4
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 62,
+    "distance_to_next_cell_m": 2.47361460381405,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9384408981080699,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 5,
+    "robot_pos_before": [
+      2,
+      4
+    ],
+    "sv_world_before": [
+      -177.3548583984375,
+      189.28451538085938
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.48101806640625,
+      99.71190643310547,
+      0.16551350057125092
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.7670327664419884,
+    "segment_path": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "next_cell": [
+      2,
+      5
+    ],
+    "next_cell_world": [
+      -175.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -177.3548583984375,
+      189.28451538085938,
+      0.18232737481594086
+    ],
+    "sv_final_projected_cell": [
+      2,
+      5
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 57,
+    "distance_to_next_cell_m": 2.461153452533676,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9235897311520895,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      37,
+      38
+    ],
+    "committed_anchor": [
+      40,
+      40
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 6,
+    "robot_pos_before": [
+      2,
+      5
+    ],
+    "sv_world_before": [
+      -172.31251525878906,
+      190.912353515625
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.61779022216797,
+      99.797119140625,
+      0.16714830696582794
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.5649851837790446,
+    "segment_path": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      6
+    ],
+    "next_cell_world": [
+      -170.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -172.31251525878906,
+      190.912353515625,
+      0.18332809209823608
+    ],
+    "sv_final_projected_cell": [
+      2,
+      6
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 62,
+    "distance_to_next_cell_m": 2.485983861493381,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.936571742650439,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 7,
+    "robot_pos_before": [
+      2,
+      6
+    ],
+    "sv_world_before": [
+      -167.2755584716797,
+      189.08763122558594
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.71543884277344,
+      99.8495101928711,
+      0.16567473113536835
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.4129964453819789,
+    "segment_path": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      7
+    ],
+    "next_cell_world": [
+      -165.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -167.2755584716797,
+      189.08763122558594,
+      0.16961205005645752
+    ],
+    "sv_final_projected_cell": [
+      2,
+      7
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 62,
+    "distance_to_next_cell_m": 2.451649065131267,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9349222335731657,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 8,
+    "robot_pos_before": [
+      2,
+      7
+    ],
+    "sv_world_before": [
+      -162.31390380859375,
+      190.85293579101562
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.7815933227539,
+      99.88370513916016,
+      0.16500568389892578
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.308334822915588,
+    "segment_path": [
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      8
+    ],
+    "next_cell_world": [
+      -160.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -162.31390380859375,
+      190.85293579101562,
+      0.18035836517810822
+    ],
+    "sv_final_projected_cell": [
+      2,
+      8
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 60,
+    "distance_to_next_cell_m": 2.466100220798034,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9339342512787149,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 9,
+    "robot_pos_before": [
+      2,
+      8
+    ],
+    "sv_world_before": [
+      -157.2569122314453,
+      189.0916748046875
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.82835388183594,
+      99.90847778320312,
+      0.16474157571792603
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.23801649199965638,
+    "segment_path": [
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      9
+    ],
+    "next_cell_world": [
+      -155.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -157.2569122314453,
+      189.0916748046875,
+      0.16949129104614258
+    ],
+    "sv_final_projected_cell": [
+      2,
+      9
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 62,
+    "distance_to_next_cell_m": 2.432839386578356,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9328141684101805,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 10,
+    "robot_pos_before": [
+      2,
+      9
+    ],
+    "sv_world_before": [
+      -152.25531005859375,
+      190.88101196289062
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.86006927490234,
+      99.92535400390625,
+      0.165038600564003
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.1880470731998258,
+    "segment_path": [
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "next_cell": [
+      2,
+      10
+    ],
+    "next_cell_world": [
+      -150.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -152.25531005859375,
+      190.88101196289062,
+      0.17810772359371185
+    ],
+    "sv_final_projected_cell": [
+      2,
+      10
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4212817967247298,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9304620347220269,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 11,
+    "robot_pos_before": [
+      2,
+      10
+    ],
+    "sv_world_before": [
+      -147.26170349121094,
+      189.1163330078125
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.88192749023438,
+      99.93701934814453,
+      0.16514170169830322
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.15412813195259759,
+    "segment_path": [
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      11
+    ],
+    "next_cell_world": [
+      -145.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -147.26170349121094,
+      189.1163330078125,
+      0.16868390142917633
+    ],
+    "sv_final_projected_cell": [
+      2,
+      11
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4282030465423285,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9274973198999391,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 12,
+    "robot_pos_before": [
+      2,
+      11
+    ],
+    "sv_world_before": [
+      -142.27247619628906,
+      190.88523864746094
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.8969955444336,
+      99.94507598876953,
+      0.16528929769992828
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.1307373046875,
+    "segment_path": [
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      12
+    ],
+    "next_cell_world": [
+      -140.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -142.27247619628906,
+      190.88523864746094,
+      0.17820118367671967
+    ],
+    "sv_final_projected_cell": [
+      2,
+      12
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4388102684831545,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.928581891083643,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 13,
+    "robot_pos_before": [
+      2,
+      12
+    ],
+    "sv_world_before": [
+      -137.27474975585938,
+      189.1163787841797
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.90737915039062,
+      99.95061492919922,
+      0.16526299715042114
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.1146132532164376,
+    "segment_path": [
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      13
+    ],
+    "next_cell_world": [
+      -135.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -137.27474975585938,
+      189.1163787841797,
+      0.1688717156648636
+    ],
+    "sv_final_projected_cell": [
+      2,
+      13
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4403427842887266,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9264517549639646,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 14,
+    "robot_pos_before": [
+      2,
+      13
+    ],
+    "sv_world_before": [
+      -132.28265380859375,
+      190.885009765625
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.91453552246094,
+      99.95442962646484,
+      0.16526855528354645
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.10350350824103123,
+    "segment_path": [
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      14
+    ],
+    "next_cell_world": [
+      -130.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -132.28265380859375,
+      190.885009765625,
+      0.1781272143125534
+    ],
+    "sv_final_projected_cell": [
+      2,
+      14
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4482137764376644,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9226090393139152,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 15,
+    "robot_pos_before": [
+      2,
+      14
+    ],
+    "sv_world_before": [
+      -127.28427124023438,
+      189.11619567871094
+    ],
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_current": [
+      -99.91946411132812,
+      99.9570541381836,
+      0.16530612111091614
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.09584449342919592,
+    "segment_path": [
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "next_cell": [
+      2,
+      15
+    ],
+    "next_cell_world": [
+      -125.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -127.28427124023438,
+      189.11619567871094,
+      0.16932088136672974
+    ],
+    "sv_final_projected_cell": [
+      2,
+      15
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4492866670300377,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9218036303260708,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      38,
+      39
+    ],
+    "committed_anchor": [
+      41,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 16,
+    "robot_pos_before": [
+      2,
+      15
+    ],
+    "sv_world_before": [
+      -122.28984832763672,
+      190.88479614257812
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -101.90650177001953,
+      102.10243225097656,
+      0.16861368715763092
+    ],
+    "target_cell_current": [
+      20,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 25.102263556564843,
+    "segment_path": [
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      16
+    ],
+    "next_cell_world": [
+      -120.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -122.28984832763672,
+      190.88479614257812,
+      0.17836061120033264
+    ],
+    "sv_final_projected_cell": [
+      2,
+      16
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.454846141309432,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9235901800390247,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 17,
+    "robot_pos_before": [
+      2,
+      16
+    ],
+    "sv_world_before": [
+      -117.29106903076172,
+      189.1160430908203
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -100.01219177246094,
+      104.55059814453125,
+      0.17953066527843475
+    ],
+    "target_cell_current": [
+      19,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 27.068895427650666,
+    "segment_path": [
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      17
+    ],
+    "next_cell_world": [
+      -115.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -117.29106903076172,
+      189.1160430908203,
+      0.16926881670951843
+    ],
+    "sv_final_projected_cell": [
+      2,
+      17
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.455682618133286,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9110601048773672,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 18,
+    "robot_pos_before": [
+      2,
+      17
+    ],
+    "sv_world_before": [
+      -112.29496765136719,
+      190.88462829589844
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -96.56748962402344,
+      104.04940795898438,
+      0.17033593356609344
+    ],
+    "target_cell_current": [
+      19,
+      20
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 24.903945160903106,
+    "segment_path": [
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      18
+    ],
+    "next_cell_world": [
+      -110.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -112.29496765136719,
+      190.88462829589844,
+      0.17833630740642548
+    ],
+    "sv_final_projected_cell": [
+      2,
+      18
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4595616972798218,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9203798301771182,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 19,
+    "robot_pos_before": [
+      2,
+      18
+    ],
+    "sv_world_before": [
+      -107.29588317871094,
+      189.11595153808594
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -93.1640853881836,
+      103.10306549072266,
+      0.16247744858264923
+    ],
+    "target_cell_current": [
+      19,
+      21
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 21.400758534699218,
+    "segment_path": [
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      19
+    ],
+    "next_cell_world": [
+      -105.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -107.29588317871094,
+      189.11595153808594,
+      0.168674498796463
+    ],
+    "sv_final_projected_cell": [
+      2,
+      19
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4602075630524465,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9195688475576758,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 20,
+    "robot_pos_before": [
+      2,
+      19
+    ],
+    "sv_world_before": [
+      -102.2986068725586,
+      190.88450622558594
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -89.69075775146484,
+      102.43157196044922,
+      0.16814416646957397
+    ],
+    "target_cell_current": [
+      19,
+      21
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 17.88006981224507,
+    "segment_path": [
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ]
+    ],
+    "next_cell": [
+      2,
+      20
+    ],
+    "next_cell_world": [
+      -100.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -102.2986068725586,
+      190.88450622558594,
+      0.1778847873210907
+    ],
+    "sv_final_projected_cell": [
+      2,
+      20
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.462913887588009,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9189812949944983,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      39
+    ],
+    "committed_anchor": [
+      42,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 21,
+    "robot_pos_before": [
+      2,
+      20
+    ],
+    "sv_world_before": [
+      -97.29930114746094,
+      189.1158905029297
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -86.19524383544922,
+      101.86495971679688,
+      0.1653219312429428
+    ],
+    "target_cell_current": [
+      20,
+      22
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 14.34215179389294,
+    "segment_path": [
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      21
+    ],
+    "next_cell_world": [
+      -95.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -97.29930114746094,
+      189.1158905029297,
+      0.1688823699951172
+    ],
+    "sv_final_projected_cell": [
+      2,
+      21
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4634194465265358,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.916395554244262,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 22,
+    "robot_pos_before": [
+      2,
+      21
+    ],
+    "sv_world_before": [
+      -92.30119323730469,
+      190.88441467285156
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -82.86275482177734,
+      101.32127380371094,
+      0.1652604341506958
+    ],
+    "target_cell_current": [
+      20,
+      23
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 10.800732208914184,
+    "segment_path": [
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      22
+    ],
+    "next_cell_world": [
+      -90.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -92.30119323730469,
+      190.88441467285156,
+      0.17748647928237915
+    ],
+    "sv_final_projected_cell": [
+      2,
+      22
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4652950389298165,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9107158917047431,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 23,
+    "robot_pos_before": [
+      2,
+      22
+    ],
+    "sv_world_before": [
+      -87.30171966552734,
+      189.1158447265625
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -80.4381332397461,
+      100.91576385498047,
+      0.1658315807580948
+    ],
+    "target_cell_current": [
+      20,
+      24
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 7.529839521662437,
+    "segment_path": [
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      23
+    ],
+    "next_cell_world": [
+      -85.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -87.30171966552734,
+      189.1158447265625,
+      0.16876117885112762
+    ],
+    "sv_final_projected_cell": [
+      2,
+      23
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4656934047489862,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9161063112230519,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 24,
+    "robot_pos_before": [
+      2,
+      23
+    ],
+    "sv_world_before": [
+      -82.30302429199219,
+      190.8843536376953
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -78.7682113647461,
+      100.63426971435547,
+      0.16488344967365265
+    ],
+    "target_cell_current": [
+      20,
+      24
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 5.209279859612473,
+    "segment_path": [
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      24
+    ],
+    "next_cell_world": [
+      -80.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -82.30302429199219,
+      190.8843536376953,
+      0.17786024510860443
+    ],
+    "sv_final_projected_cell": [
+      2,
+      24
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4669824170453762,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9110759430441392,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 25,
+    "robot_pos_before": [
+      2,
+      24
+    ],
+    "sv_world_before": [
+      -77.30341339111328,
+      189.11582946777344
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -77.61824798583984,
+      100.44054412841797,
+      0.1651097983121872
+    ],
+    "target_cell_current": [
+      20,
+      24
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 3.6108810086028487,
+    "segment_path": [
+      [
+        2,
+        24
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "next_cell": [
+      2,
+      25
+    ],
+    "next_cell_world": [
+      -75.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -77.30341339111328,
+      189.11582946777344,
+      0.16884984076023102
+    ],
+    "sv_final_projected_cell": [
+      2,
+      25
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4672800368863257,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999997,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9135337526933078,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      39,
+      40
+    ],
+    "committed_anchor": [
+      42,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 26,
+    "robot_pos_before": [
+      2,
+      25
+    ],
+    "sv_world_before": [
+      -72.3043212890625,
+      190.88430786132812
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -76.82647705078125,
+      100.30728912353516,
+      0.16514991223812103
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 2.5102282311136173,
+    "segment_path": [
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      26
+    ],
+    "next_cell_world": [
+      -70.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -72.3043212890625,
+      190.88430786132812,
+      0.1778724193572998
+    ],
+    "sv_final_projected_cell": [
+      2,
+      26
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4681768568790576,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8937712531123282,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 27,
+    "robot_pos_before": [
+      2,
+      26
+    ],
+    "sv_world_before": [
+      -67.30461120605469,
+      189.1157989501953
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -76.28141021728516,
+      100.21559143066406,
+      0.1651923805475235
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.7524444393581842,
+    "segment_path": [
+      [
+        2,
+        26
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      27
+    ],
+    "next_cell_world": [
+      -65.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -67.30461120605469,
+      189.1157989501953,
+      0.16874933242797852
+    ],
+    "sv_final_projected_cell": [
+      2,
+      27
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4684092666226465,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9129557562829477,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 28,
+    "robot_pos_before": [
+      2,
+      27
+    ],
+    "sv_world_before": [
+      -62.30523681640625,
+      190.88427734375
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -75.90621185302734,
+      100.1524658203125,
+      0.165244460105896
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.230787598765478,
+    "segment_path": [
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      28
+    ],
+    "next_cell_world": [
+      -60.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -62.30523681640625,
+      190.88427734375,
+      0.17778369784355164
+    ],
+    "sv_final_projected_cell": [
+      2,
+      28
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.46902069662941,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8848290482380833,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 29,
+    "robot_pos_before": [
+      2,
+      28
+    ],
+    "sv_world_before": [
+      -57.305450439453125,
+      189.1157989501953
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -75.64796447753906,
+      100.10901641845703,
+      0.1652752310037613
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.8717087504619913,
+    "segment_path": [
+      [
+        2,
+        28
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      29
+    ],
+    "next_cell_world": [
+      -55.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -57.305450439453125,
+      189.1157989501953,
+      0.16876371204853058
+    ],
+    "sv_final_projected_cell": [
+      2,
+      29
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4691928286892297,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8899867365645505,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 30,
+    "robot_pos_before": [
+      2,
+      29
+    ],
+    "sv_world_before": [
+      -52.305885314941406,
+      190.88426208496094
+    ],
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_current": [
+      -75.47022247314453,
+      100.07911682128906,
+      0.1653001308441162
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.6245543361081681,
+    "segment_path": [
+      [
+        2,
+        29
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ]
+    ],
+    "next_cell": [
+      2,
+      30
+    ],
+    "next_cell_world": [
+      -50.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -52.305885314941406,
+      190.88426208496094,
+      0.1779678463935852
+    ],
+    "sv_final_projected_cell": [
+      2,
+      30
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4696207240306944,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9018197995237831,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      40,
+      40
+    ],
+    "committed_anchor": [
+      43,
+      42
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 31,
+    "robot_pos_before": [
+      2,
+      30
+    ],
+    "sv_world_before": [
+      -47.3060302734375,
+      189.11578369140625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -72.82870483398438,
+      98.72087097167969,
+      0.1682974100112915
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 25.043269259481292,
+    "segment_path": [
+      [
+        2,
+        30
+      ],
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      31
+    ],
+    "next_cell_world": [
+      -45.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -47.3060302734375,
+      189.11578369140625,
+      0.1686268001794815
+    ],
+    "sv_final_projected_cell": [
+      2,
+      31
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4697396831231804,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8986144059386828,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      41,
+      38
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 32,
+    "robot_pos_before": [
+      2,
+      31
+    ],
+    "sv_world_before": [
+      -42.306339263916016,
+      190.88424682617188
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -72.16073608398438,
+      95.34879302978516,
+      0.16856931149959564
+    ],
+    "target_cell_current": [
+      20,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 23.388278435956032,
+    "segment_path": [
+      [
+        2,
+        31
+      ],
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      32
+    ],
+    "next_cell_world": [
+      -40.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -42.306339263916016,
+      190.88424682617188,
+      0.17759107053279877
+    ],
+    "sv_final_projected_cell": [
+      2,
+      32
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.470039119098259,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9100911035056282,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      38
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 33,
+    "robot_pos_before": [
+      2,
+      32
+    ],
+    "sv_world_before": [
+      -37.30644989013672,
+      189.11578369140625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -72.80995178222656,
+      91.87495422363281,
+      0.1664174497127533
+    ],
+    "target_cell_current": [
+      21,
+      26
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 19.99877796701067,
+    "segment_path": [
+      [
+        2,
+        32
+      ],
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      33
+    ],
+    "next_cell_world": [
+      -35.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -37.30644989013672,
+      189.11578369140625,
+      0.1686328947544098
+    ],
+    "sv_final_projected_cell": [
+      2,
+      33
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4701314896367035,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8713284814930319,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      38
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 34,
+    "robot_pos_before": [
+      2,
+      33
+    ],
+    "sv_world_before": [
+      -32.306671142578125,
+      190.88424682617188
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -73.40226745605469,
+      88.3863296508789,
+      0.16774961352348328
+    ],
+    "target_cell_current": [
+      22,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 16.469560550379043,
+    "segment_path": [
+      [
+        2,
+        33
+      ],
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      34
+    ],
+    "next_cell_world": [
+      -30.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -32.306671142578125,
+      190.88424682617188,
+      0.17784909904003143
+    ],
+    "sv_final_projected_cell": [
+      2,
+      34
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4703490056260686,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8706403075973262,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      38
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 35,
+    "robot_pos_before": [
+      2,
+      34
+    ],
+    "sv_world_before": [
+      -27.30674934387207,
+      189.11578369140625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -73.83719635009766,
+      84.87191009521484,
+      0.16505609452724457
+    ],
+    "target_cell_current": [
+      22,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 12.93288052106967,
+    "segment_path": [
+      [
+        2,
+        34
+      ],
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        2,
+        38
+      ]
+    ],
+    "next_cell": [
+      2,
+      35
+    ],
+    "next_cell_world": [
+      -25.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -27.30674934387207,
+      189.11578369140625,
+      0.1686525195837021
+    ],
+    "sv_final_projected_cell": [
+      2,
+      35
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.470411102597579,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8924346806830755,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      41,
+      38
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 36,
+    "robot_pos_before": [
+      2,
+      35
+    ],
+    "sv_world_before": [
+      -22.30689239501953,
+      190.8842315673828
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.18627166748047,
+      81.83606719970703,
+      0.16522584855556488
+    ],
+    "target_cell_current": [
+      23,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 9.399360500607283,
+    "segment_path": [
+      [
+        2,
+        35
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      2,
+      36
+    ],
+    "next_cell_world": [
+      -20.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -22.30689239501953,
+      190.8842315673828,
+      0.17764811217784882
+    ],
+    "sv_final_projected_cell": [
+      2,
+      36
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.470550138522838,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8884481497372781,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 37,
+    "robot_pos_before": [
+      2,
+      36
+    ],
+    "sv_world_before": [
+      -17.306947708129883,
+      189.11578369140625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.43363189697266,
+      79.73085021972656,
+      0.16572755575180054
+    ],
+    "target_cell_current": [
+      24,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 6.502084554012714,
+    "segment_path": [
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      2,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      190.0
+    ],
+    "sv_final_world": [
+      -17.306947708129883,
+      189.11578369140625,
+      0.16868339478969574
+    ],
+    "sv_final_projected_cell": [
+      2,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.470596326482511,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8998493600364101,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 38,
+    "robot_pos_before": [
+      2,
+      37
+    ],
+    "sv_world_before": [
+      -15.268658638000488,
+      187.37551879882812
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.61280059814453,
+      78.2311019897461,
+      0.16494061052799225
+    ],
+    "target_cell_current": [
+      24,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 4.501328835598332,
+    "segment_path": [
+      [
+        2,
+        37
+      ],
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      3,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      185.0
+    ],
+    "sv_final_world": [
+      -15.268658638000488,
+      187.37551879882812,
+      0.20720289647579193
+    ],
+    "sv_final_projected_cell": [
+      3,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 64,
+    "distance_to_next_cell_m": 2.3906624662126803,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8989741605143844,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 39,
+    "robot_pos_before": [
+      3,
+      37
+    ],
+    "sv_world_before": [
+      -16.199974060058594,
+      182.11949157714844
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.73068237304688,
+      77.24860382080078,
+      0.16511058807373047
+    ],
+    "target_cell_current": [
+      24,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 3.0757335988868655,
+    "segment_path": [
+      [
+        3,
+        37
+      ],
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      4,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      180.0
+    ],
+    "sv_final_world": [
+      -16.199974060058594,
+      182.11949157714844,
+      0.20949240028858185
+    ],
+    "sv_final_projected_cell": [
+      4,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4356071707926703,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8994822888719154,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 40,
+    "robot_pos_before": [
+      4,
+      37
+    ],
+    "sv_world_before": [
+      -14.142351150512695,
+      177.2916259765625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.81080627441406,
+      76.58006286621094,
+      0.16520829498767853
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 2.1417909609571253,
+    "segment_path": [
+      [
+        4,
+        37
+      ],
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ]
+    ],
+    "next_cell": [
+      5,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      175.0
+    ],
+    "sv_final_world": [
+      -14.142351150512695,
+      177.2916259765625,
+      0.19157356023788452
+    ],
+    "sv_final_projected_cell": [
+      5,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 60,
+    "distance_to_next_cell_m": 2.4468574060379837,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8977548277067942,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 41,
+    "robot_pos_before": [
+      5,
+      37
+    ],
+    "sv_world_before": [
+      -15.818014144897461,
+      172.31719970703125
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.86554718017578,
+      76.12289428710938,
+      0.16526153683662415
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.5063043245956718,
+    "segment_path": [
+      [
+        5,
+        37
+      ],
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      6,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      170.0
+    ],
+    "sv_final_world": [
+      -15.818014144897461,
+      172.31719970703125,
+      0.17298929393291473
+    ],
+    "sv_final_projected_cell": [
+      6,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 59,
+    "distance_to_next_cell_m": 2.4573484945196595,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.902829536156409,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 42,
+    "robot_pos_before": [
+      6,
+      37
+    ],
+    "sv_world_before": [
+      -14.052727699279785,
+      167.2781219482422
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.90543365478516,
+      75.78974914550781,
+      0.16525466740131378
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.0717567700929191,
+    "segment_path": [
+      [
+        6,
+        37
+      ],
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      7,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      165.0
+    ],
+    "sv_final_world": [
+      -14.052727699279785,
+      167.2781219482422,
+      0.17933420836925507
+    ],
+    "sv_final_projected_cell": [
+      7,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 63,
+    "distance_to_next_cell_m": 2.4672179520209703,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8772964789036595,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 43,
+    "robot_pos_before": [
+      7,
+      37
+    ],
+    "sv_world_before": [
+      -15.84825325012207,
+      162.3026123046875
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.93167877197266,
+      75.570556640625,
+      0.16530850529670715
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.7550963740704737,
+    "segment_path": [
+      [
+        7,
+        37
+      ],
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      8,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      160.0
+    ],
+    "sv_final_world": [
+      -15.84825325012207,
+      162.3026123046875,
+      0.17018170654773712
+    ],
+    "sv_final_projected_cell": [
+      8,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 60,
+    "distance_to_next_cell_m": 2.4538861020921354,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8990321477888262,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 44,
+    "robot_pos_before": [
+      8,
+      37
+    ],
+    "sv_world_before": [
+      -14.092934608459473,
+      157.244384765625
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.95027160644531,
+      75.41532897949219,
+      0.16531497240066528
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.5467473686350224,
+    "segment_path": [
+      [
+        8,
+        37
+      ],
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      9,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      155.0
+    ],
+    "sv_final_world": [
+      -14.092934608459473,
+      157.244384765625,
+      0.17864996194839478
+    ],
+    "sv_final_projected_cell": [
+      9,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 62,
+    "distance_to_next_cell_m": 2.420750007890149,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8977910422011608,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 45,
+    "robot_pos_before": [
+      9,
+      37
+    ],
+    "sv_world_before": [
+      -15.882311820983887,
+      152.24920654296875
+    ],
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.96284484863281,
+      75.31027221679688,
+      0.16530509293079376
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.3992090408014457,
+    "segment_path": [
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ]
+    ],
+    "next_cell": [
+      10,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      150.0
+    ],
+    "sv_final_world": [
+      -15.882311820983887,
+      152.24920654296875,
+      0.16880609095096588
+    ],
+    "sv_final_projected_cell": [
+      10,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4160720648153973,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8922998633926543,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      42,
+      37
+    ],
+    "committed_anchor": [
+      43,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 46,
+    "robot_pos_before": [
+      10,
+      37
+    ],
+    "sv_world_before": [
+      -14.117307662963867,
+      147.25267028808594
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -74.35518646240234,
+      72.43069458007812,
+      0.17516714334487915
+    ],
+    "target_cell_current": [
+      25,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 24.98821568247649,
+    "segment_path": [
+      [
+        10,
+        37
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      11,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      145.0
+    ],
+    "sv_final_world": [
+      -14.117307662963867,
+      147.25267028808594,
+      0.1778188794851303
+    ],
+    "sv_final_projected_cell": [
+      11,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.419435716998385,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8941969250172281,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 47,
+    "robot_pos_before": [
+      11,
+      37
+    ],
+    "sv_world_before": [
+      -15.885951042175293,
+      142.26809692382812
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -71.1209487915039,
+      71.46601104736328,
+      0.17103023827075958
+    ],
+    "target_cell_current": [
+      26,
+      25
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 24.13576736320219,
+    "segment_path": [
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      12,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      140.0
+    ],
+    "sv_final_world": [
+      -15.885951042175293,
+      142.26809692382812,
+      0.1688687801361084
+    ],
+    "sv_final_projected_cell": [
+      12,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4349893028533187,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8765655642307504,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 48,
+    "robot_pos_before": [
+      12,
+      37
+    ],
+    "sv_world_before": [
+      -14.117053031921387,
+      137.2681427001953
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -67.67253875732422,
+      72.21263122558594,
+      0.16528594493865967
+    ],
+    "target_cell_current": [
+      26,
+      26
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 20.86872909587357,
+    "segment_path": [
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      13,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      135.0
+    ],
+    "sv_final_world": [
+      -14.117053031921387,
+      137.2681427001953,
+      0.17852725088596344
+    ],
+    "sv_final_projected_cell": [
+      13,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4339405614945693,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8750491660791013,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 49,
+    "robot_pos_before": [
+      13,
+      37
+    ],
+    "sv_world_before": [
+      -15.885554313659668,
+      132.27944946289062
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -64.21085357666016,
+      72.93586730957031,
+      0.166209414601326
+    ],
+    "target_cell_current": [
+      26,
+      27
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 17.345061391249654,
+    "segment_path": [
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      14,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      130.0
+    ],
+    "sv_final_world": [
+      -15.885554313659668,
+      132.27944946289062,
+      0.1694885641336441
+    ],
+    "sv_final_projected_cell": [
+      14,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4454235412937377,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8798975805043322,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 50,
+    "robot_pos_before": [
+      14,
+      37
+    ],
+    "sv_world_before": [
+      -14.116661071777344,
+      127.27952575683594
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -60.7108039855957,
+      73.4674072265625,
+      0.16727298498153687
+    ],
+    "target_cell_current": [
+      25,
+      27
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 13.81178649518267,
+    "segment_path": [
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "next_cell": [
+      15,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      125.0
+    ],
+    "sv_final_world": [
+      -14.116661071777344,
+      127.27952575683594,
+      0.1782803237438202
+    ],
+    "sv_final_projected_cell": [
+      15,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4446933014576704,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8715850888920125,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 51,
+    "robot_pos_before": [
+      15,
+      37
+    ],
+    "sv_world_before": [
+      -15.885190963745117,
+      122.28751373291016
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -57.467620849609375,
+      73.92066192626953,
+      0.1656465232372284
+    ],
+    "target_cell_current": [
+      25,
+      28
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 10.27119770040406,
+    "segment_path": [
+      [
+        15,
+        37
+      ],
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      16,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      120.0
+    ],
+    "sv_final_world": [
+      -15.885190963745117,
+      122.28751373291016,
+      0.1680867224931717
+    ],
+    "sv_final_projected_cell": [
+      16,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.452811064992281,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999996,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8569273538312984,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 52,
+    "robot_pos_before": [
+      16,
+      37
+    ],
+    "sv_world_before": [
+      -14.116373062133789,
+      117.2876968383789
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -55.165672302246094,
+      74.24880981445312,
+      0.1651943027973175
+    ],
+    "target_cell_current": [
+      25,
+      29
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 7.12596820006329,
+    "segment_path": [
+      [
+        16,
+        37
+      ],
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      17,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      115.0
+    ],
+    "sv_final_world": [
+      -14.116373062133789,
+      117.2876968383789,
+      0.17827075719833374
+    ],
+    "sv_final_projected_cell": [
+      17,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4524178660358147,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7695018750669428,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 53,
+    "robot_pos_before": [
+      17,
+      37
+    ],
+    "sv_world_before": [
+      -15.88491153717041,
+      112.29327392578125
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -53.580596923828125,
+      74.478759765625,
+      0.16471916437149048
+    ],
+    "target_cell_current": [
+      25,
+      29
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 4.931145717645212,
+    "segment_path": [
+      [
+        17,
+        37
+      ],
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      18,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      110.0
+    ],
+    "sv_final_world": [
+      -15.88491153717041,
+      112.29327392578125,
+      0.16878384351730347
+    ],
+    "sv_final_projected_cell": [
+      18,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4580833442512575,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8273910869470776,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 54,
+    "robot_pos_before": [
+      18,
+      37
+    ],
+    "sv_world_before": [
+      -14.116169929504395,
+      107.29351806640625
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -52.48918151855469,
+      74.63782501220703,
+      0.16508670151233673
+    ],
+    "target_cell_current": [
+      25,
+      29
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 3.4194019191286364,
+    "segment_path": [
+      [
+        18,
+        37
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      19,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      105.0
+    ],
+    "sv_final_world": [
+      -14.116169929504395,
+      107.29351806640625,
+      0.17803724110126495
+    ],
+    "sv_final_projected_cell": [
+      19,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4579220318073824,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999999,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8107460231077172,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 55,
+    "robot_pos_before": [
+      19,
+      37
+    ],
+    "sv_world_before": [
+      -15.884700775146484,
+      102.29737854003906
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -51.73773193359375,
+      74.74723052978516,
+      0.16509029269218445
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 2.3784210605202083,
+    "segment_path": [
+      [
+        19,
+        37
+      ],
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "next_cell": [
+      20,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      100.0
+    ],
+    "sv_final_world": [
+      -15.884700775146484,
+      102.29737854003906,
+      0.16890142858028412
+    ],
+    "sv_final_projected_cell": [
+      20,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.461837447472275,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.6883192485575134,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 56,
+    "robot_pos_before": [
+      20,
+      37
+    ],
+    "sv_world_before": [
+      -14.116032600402832,
+      97.29764556884766
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -51.22041702270508,
+      74.8224868774414,
+      0.16523872315883636
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.661721423851845,
+    "segment_path": [
+      [
+        20,
+        37
+      ],
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ],
+      [
+        24,
+        37
+      ],
+      [
+        25,
+        37
+      ],
+      [
+        26,
+        37
+      ],
+      [
+        27,
+        37
+      ],
+      [
+        28,
+        37
+      ]
+    ],
+    "next_cell": [
+      21,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      95.0
+    ],
+    "sv_final_world": [
+      -14.116032600402832,
+      97.29764556884766,
+      0.17777229845523834
+    ],
+    "sv_final_projected_cell": [
+      21,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4618232112797718,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7420594010006551,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 57,
+    "robot_pos_before": [
+      21,
+      37
+    ],
+    "sv_world_before": [
+      -15.884550094604492,
+      92.30030059814453
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.864322662353516,
+      74.87428283691406,
+      0.1652754545211792
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 1.1683484175722885,
+    "segment_path": [
+      [
+        21,
+        37
+      ],
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ],
+      [
+        24,
+        37
+      ],
+      [
+        25,
+        37
+      ],
+      [
+        26,
+        37
+      ],
+      [
+        27,
+        37
+      ],
+      [
+        28,
+        37
+      ]
+    ],
+    "next_cell": [
+      22,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      90.0
+    ],
+    "sv_final_world": [
+      -15.884550094604492,
+      92.30030059814453,
+      0.16885149478912354
+    ],
+    "sv_final_projected_cell": [
+      22,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4645104405721034,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7343792652057116,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 58,
+    "robot_pos_before": [
+      22,
+      37
+    ],
+    "sv_world_before": [
+      -14.115941047668457,
+      87.3005599975586
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.61921691894531,
+      74.90992736816406,
+      0.1653139293193817
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.8287373241235888,
+    "segment_path": [
+      [
+        22,
+        37
+      ],
+      [
+        23,
+        37
+      ],
+      [
+        24,
+        37
+      ],
+      [
+        25,
+        37
+      ],
+      [
+        26,
+        37
+      ],
+      [
+        27,
+        37
+      ],
+      [
+        28,
+        37
+      ]
+    ],
+    "next_cell": [
+      23,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      85.0
+    ],
+    "sv_final_world": [
+      -14.115941047668457,
+      87.3005599975586,
+      0.17808137834072113
+    ],
+    "sv_final_projected_cell": [
+      23,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4645763395692053,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000002,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7426972596445912,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 59,
+    "robot_pos_before": [
+      23,
+      37
+    ],
+    "sv_world_before": [
+      -15.884441375732422,
+      82.3023681640625
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.45051956176758,
+      74.9344711303711,
+      0.16531896591186523
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.5949838087751095,
+    "segment_path": [
+      [
+        23,
+        37
+      ],
+      [
+        24,
+        37
+      ],
+      [
+        25,
+        37
+      ],
+      [
+        26,
+        37
+      ],
+      [
+        27,
+        37
+      ],
+      [
+        28,
+        37
+      ]
+    ],
+    "next_cell": [
+      24,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      80.0
+    ],
+    "sv_final_world": [
+      -15.884441375732422,
+      82.3023681640625,
+      0.16881690919399261
+    ],
+    "sv_final_projected_cell": [
+      24,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.4664013683899837,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7024299265012826,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 60,
+    "robot_pos_before": [
+      24,
+      37
+    ],
+    "sv_world_before": [
+      -14.11587905883789,
+      77.3026123046875
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.33441162109375,
+      74.95135498046875,
+      0.1653459072113037
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.4340937179611013,
+    "segment_path": [
+      [
+        24,
+        37
+      ],
+      [
+        25,
+        37
+      ],
+      [
+        26,
+        37
+      ],
+      [
+        27,
+        37
+      ],
+      [
+        28,
+        37
+      ]
+    ],
+    "next_cell": [
+      25,
+      37
+    ],
+    "next_cell_world": [
+      -15.0,
+      75.0
+    ],
+    "sv_final_world": [
+      -14.11587905883789,
+      77.3026123046875,
+      0.17763100564479828
+    ],
+    "sv_final_projected_cell": [
+      25,
+      37
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 61,
+    "distance_to_next_cell_m": 2.466514395721147,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0000000000000004,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7204083114061399,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      43,
+      37
+    ],
+    "committed_anchor": [
+      44,
+      41
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 61,
+    "robot_pos_before": [
+      25,
+      37
+    ],
+    "sv_world_before": [
+      -17.75562286376953,
+      74.19709014892578
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.264034271240234,
+      74.96159362792969,
+      0.16532355546951294
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.32336354239846565,
+    "segment_path": [
+      [
+        25,
+        37
+      ],
+      [
+        25,
+        36
+      ],
+      [
+        25,
+        35
+      ],
+      [
+        25,
+        34
+      ],
+      [
+        25,
+        33
+      ],
+      [
+        25,
+        32
+      ],
+      [
+        25,
+        31
+      ],
+      [
+        25,
+        30
+      ],
+      [
+        25,
+        29
+      ]
+    ],
+    "next_cell": [
+      25,
+      36
+    ],
+    "next_cell_world": [
+      -20.0,
+      75.0
+    ],
+    "sv_final_world": [
+      -17.75562286376953,
+      74.19709014892578,
+      0.21939578652381897
+    ],
+    "sv_final_projected_cell": [
+      25,
+      36
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 51,
+    "distance_to_next_cell_m": 2.3836721583695404,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 1.0,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7248219819496017,
+    "replanned": true,
+    "replan_reason": "commit_expired",
+    "committed_viewpoint": [
+      27,
+      29
+    ],
+    "committed_anchor": [
+      24,
+      27
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 62,
+    "robot_pos_before": [
+      25,
+      36
+    ],
+    "sv_world_before": [
+      -22.605146408081055,
+      74.78024291992188
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.22560119628906,
+      74.9671859741211,
+      0.1653333306312561
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.25624342993588006,
+    "segment_path": [
+      [
+        25,
+        36
+      ],
+      [
+        25,
+        35
+      ],
+      [
+        25,
+        34
+      ],
+      [
+        25,
+        33
+      ],
+      [
+        25,
+        32
+      ],
+      [
+        25,
+        31
+      ],
+      [
+        25,
+        30
+      ],
+      [
+        25,
+        29
+      ]
+    ],
+    "next_cell": [
+      25,
+      35
+    ],
+    "next_cell_world": [
+      -25.0,
+      75.0
+    ],
+    "sv_final_world": [
+      -22.605146408081055,
+      74.78024291992188,
+      0.20360752940177917
+    ],
+    "sv_final_projected_cell": [
+      25,
+      35
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 34,
+    "distance_to_next_cell_m": 2.40491515463052,
+    "found_count_before": 0,
+    "found_count_after": 0,
+    "detected_count_this_step": 0,
+    "found_mask": [
+      false
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.9999999999999998,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.6848592853797746,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      27,
+      29
+    ],
+    "committed_anchor": [
+      24,
+      27
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  },
+  {
+    "step": 63,
+    "robot_pos_before": [
+      25,
+      35
+    ],
+    "sv_world_before": [
+      -28.19609260559082,
+      76.62564849853516
+    ],
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_current": [
+      -50.18069076538086,
+      74.97371673583984,
+      0.16530920565128326
+    ],
+    "target_cell_current": [
+      25,
+      30
+    ],
+    "target_motion_ticks": 10,
+    "target_distance_to_waypoint_m": 0.21959482826950014,
+    "segment_path": [
+      [
+        25,
+        35
+      ],
+      [
+        25,
+        34
+      ],
+      [
+        25,
+        33
+      ],
+      [
+        25,
+        32
+      ],
+      [
+        25,
+        31
+      ],
+      [
+        25,
+        30
+      ],
+      [
+        25,
+        29
+      ]
+    ],
+    "next_cell": [
+      25,
+      34
+    ],
+    "next_cell_world": [
+      -30.0,
+      75.0
+    ],
+    "sv_final_world": [
+      -28.19609260559082,
+      76.62564849853516,
+      0.18827177584171295
+    ],
+    "sv_final_projected_cell": [
+      25,
+      34
+    ],
+    "arrived": true,
+    "timeout": false,
+    "ticks": 59,
+    "distance_to_next_cell_m": 2.428335835174724,
+    "found_count_before": 0,
+    "found_count_after": 1,
+    "detected_count_this_step": 1,
+    "found_mask": [
+      true
+    ],
+    "find_times": [
+      63
+    ],
+    "remaining_intensity_mass": 0.0,
+    "search_info_map_peak": 0.5,
+    "search_info_map_mean": 0.1273240847056947,
+    "replanned": false,
+    "replan_reason": "none",
+    "committed_viewpoint": [
+      27,
+      29
+    ],
+    "committed_anchor": [
+      24,
+      27
+    ],
+    "anchor_source": "search_info",
+    "target_cell_source": "algorithm_segment_path",
+    "target_motion_source": "holoocean_agent_proxy",
+    "target_motion_mode_for_policy": "static",
+    "viewpoint_generation_mode": "simple_ring_v1",
+    "path_safety_mode": "soft_clearance_astar_v1",
+    "clue_acquisition_mode": "ucb",
+    "run_label": "dynamic_target_search_fastsv",
+    "phase_note": "Phase 3D-1 fast search-USV controller run; sv uses control_scheme=0 fast controller, target remains control_scheme=1 waypoint proxy; OpenWater, no sonar/camera.",
+    "world": "OpenWater",
+    "sv_control_scheme": 0,
+    "target_control_scheme": 1,
+    "sv_controller_type": "fast_twin_propeller_controller",
+    "sv_controller_config": {
+      "MAX_FORCE": 8000.0,
+      "MIN_FORCE": 1500.0,
+      "TURN_GAIN": 0.8,
+      "DIST_SLOW_RADIUS_M": 8.0,
+      "SV_ARRIVAL_RADIUS_M": 2.5,
+      "MAX_TICKS_PER_CELL": 400
+    },
+    "sv_fast_controller_enabled": true
+  }
+]

@@ -1,0 +1,1514 @@
+[
+  {
+    "step": 1,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.07296752929688,
+      99.97737121582031,
+      -0.03684939071536064
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.9273086129285067,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 2,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -98.7492904663086,
+      99.92327880859375,
+      0.1408313363790512
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 1.253060445021456,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 3,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -98.6419906616211,
+      99.5106201171875,
+      0.175270676612854
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 1.4434964609675671,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 4,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.07418060302734,
+      99.44621276855469,
+      0.1694011688232422
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 1.0788057533785576,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 5,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.33790588378906,
+      99.61273956298828,
+      0.16615837812423706
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.7670327664419884,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 6,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.50495147705078,
+      99.72772216796875,
+      0.16533084213733673
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.5649851837790446,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 7,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.63497924804688,
+      99.80680084228516,
+      0.16622264683246613
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.4129964453819789,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 8,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.72750854492188,
+      99.855712890625,
+      0.16547313332557678
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.308334822915588,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 9,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.78993225097656,
+      99.88809204101562,
+      0.16543905436992645
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.23801649199965638,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 10,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.83406829833984,
+      99.9115219116211,
+      0.16482654213905334
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.1880470731998258,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 11,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.864013671875,
+      99.92745208740234,
+      0.16513988375663757
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.15412813195259759,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 12,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.8846435546875,
+      99.9384765625,
+      0.16520589590072632
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.1307373046875,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 13,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.89886474609375,
+      99.94607543945312,
+      0.16526532173156738
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.1146132532164376,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 14,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.9086685180664,
+      99.95130157470703,
+      0.16530373692512512
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.10350350824103123,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 15,
+    "target_waypoint_cell": [
+      20,
+      20
+    ],
+    "target_waypoint_world": [
+      -100.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.9154281616211,
+      99.95490264892578,
+      0.1652514636516571
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 0.09584449342919592,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 16,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -100.10220336914062,
+      100.05496978759766,
+      0.16421988606452942
+    ],
+    "target_cell_observed": [
+      20,
+      20
+    ],
+    "target_distance_to_waypoint_m": 25.102263556564843,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 17,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -101.93988037109375,
+      102.63968658447266,
+      0.16476504504680634
+    ],
+    "target_cell_observed": [
+      19,
+      20
+    ],
+    "target_distance_to_waypoint_m": 27.068895427650666,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 18,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -99.47452545166016,
+      104.60478973388672,
+      0.18140166997909546
+    ],
+    "target_cell_observed": [
+      19,
+      20
+    ],
+    "target_distance_to_waypoint_m": 24.903945160903106,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 19,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -96.04423522949219,
+      103.89006805419922,
+      0.1692158430814743
+    ],
+    "target_cell_observed": [
+      19,
+      21
+    ],
+    "target_distance_to_waypoint_m": 21.400758534699218,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 20,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -92.62940216064453,
+      102.98346710205078,
+      0.1645742505788803
+    ],
+    "target_cell_observed": [
+      19,
+      21
+    ],
+    "target_distance_to_waypoint_m": 17.88006981224507,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 21,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -89.14972686767578,
+      102.34148406982422,
+      0.16798904538154602
+    ],
+    "target_cell_observed": [
+      20,
+      22
+    ],
+    "target_distance_to_waypoint_m": 14.34215179389294,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 22,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -85.65343475341797,
+      101.77767944335938,
+      0.16482867300510406
+    ],
+    "target_cell_observed": [
+      20,
+      23
+    ],
+    "target_distance_to_waypoint_m": 10.800732208914184,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 23,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -82.42558288574219,
+      101.2486801147461,
+      0.16557197272777557
+    ],
+    "target_cell_observed": [
+      20,
+      24
+    ],
+    "target_distance_to_waypoint_m": 7.529839521662437,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 24,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -80.13695526123047,
+      100.86503601074219,
+      0.16537700593471527
+    ],
+    "target_cell_observed": [
+      20,
+      24
+    ],
+    "target_distance_to_waypoint_m": 5.209279859612473,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 25,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -78.56079864501953,
+      100.59931182861328,
+      0.16495752334594727
+    ],
+    "target_cell_observed": [
+      20,
+      24
+    ],
+    "target_distance_to_waypoint_m": 3.6108810086028487,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 26,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -77.47543334960938,
+      100.41650390625,
+      0.16513784229755402
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 2.5102282311136173,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 27,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -76.72815704345703,
+      100.2907485961914,
+      0.1651434451341629
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 1.7524444393581842,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 28,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -76.21372985839844,
+      100.2042007446289,
+      0.16519439220428467
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 1.230787598765478,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 29,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -75.85962677001953,
+      100.1446304321289,
+      0.16525690257549286
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 0.8717087504619913,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 30,
+    "target_waypoint_cell": [
+      20,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      100.0
+    ],
+    "target_world_observed": [
+      -75.61589813232422,
+      100.10362243652344,
+      0.16529524326324463
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 0.6245543361081681,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 31,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -75.25215148925781,
+      100.04199981689453,
+      0.16410718858242035
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 25.043269259481292,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 32,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -72.54244232177734,
+      98.25880432128906,
+      0.16464082896709442
+    ],
+    "target_cell_observed": [
+      20,
+      25
+    ],
+    "target_distance_to_waypoint_m": 23.388278435956032,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 33,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -72.23185729980469,
+      94.8062744140625,
+      0.16981148719787598
+    ],
+    "target_cell_observed": [
+      21,
+      26
+    ],
+    "target_distance_to_waypoint_m": 19.99877796701067,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 34,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -72.91626739501953,
+      91.33721160888672,
+      0.16536134481430054
+    ],
+    "target_cell_observed": [
+      22,
+      25
+    ],
+    "target_distance_to_waypoint_m": 16.469560550379043,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 35,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -73.47606658935547,
+      87.84278106689453,
+      0.16720546782016754
+    ],
+    "target_cell_observed": [
+      22,
+      25
+    ],
+    "target_distance_to_waypoint_m": 12.93288052106967,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 36,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -73.89900970458984,
+      84.33465576171875,
+      0.16533523797988892
+    ],
+    "target_cell_observed": [
+      23,
+      25
+    ],
+    "target_distance_to_waypoint_m": 9.399360500607283,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 37,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.23043823242188,
+      81.45638275146484,
+      0.16565264761447906
+    ],
+    "target_cell_observed": [
+      24,
+      25
+    ],
+    "target_distance_to_waypoint_m": 6.502084554012714,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 38,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.46473693847656,
+      79.46939086914062,
+      0.16530458629131317
+    ],
+    "target_cell_observed": [
+      24,
+      25
+    ],
+    "target_distance_to_waypoint_m": 4.501328835598332,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 39,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.6340560913086,
+      78.05388641357422,
+      0.16502149403095245
+    ],
+    "target_cell_observed": [
+      24,
+      25
+    ],
+    "target_distance_to_waypoint_m": 3.0757335988868655,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 40,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.74531555175781,
+      77.12659454345703,
+      0.1651228368282318
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 2.1417909609571253,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 41,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.82091522216797,
+      76.49562072753906,
+      0.16518017649650574
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 1.5063043245956718,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 42,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.8725814819336,
+      76.06415557861328,
+      0.16526004672050476
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 1.0717567700929191,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 43,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.91022491455078,
+      75.74974060058594,
+      0.16530732810497284
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 0.7550963740704737,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 44,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.93499755859375,
+      75.5428695678711,
+      0.16527855396270752
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 0.5467473686350224,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 45,
+    "target_waypoint_cell": [
+      25,
+      25
+    ],
+    "target_waypoint_world": [
+      -75.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.9525375366211,
+      75.39637756347656,
+      0.16534198820590973
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 0.3992090408014457,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 46,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -74.98802947998047,
+      75.09646606445312,
+      0.16613663733005524
+    ],
+    "target_cell_observed": [
+      25,
+      25
+    ],
+    "target_distance_to_waypoint_m": 24.98821568247649,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 47,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -73.95658874511719,
+      72.06450653076172,
+      0.17310737073421478
+    ],
+    "target_cell_observed": [
+      26,
+      25
+    ],
+    "target_distance_to_waypoint_m": 24.13576736320219,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 48,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -70.5796890258789,
+      71.53874969482422,
+      0.1686239242553711
+    ],
+    "target_cell_observed": [
+      26,
+      26
+    ],
+    "target_distance_to_waypoint_m": 20.86872909587357,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 49,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -67.14009094238281,
+      72.34134674072266,
+      0.16733816266059875
+    ],
+    "target_cell_observed": [
+      26,
+      27
+    ],
+    "target_distance_to_waypoint_m": 17.345061391249654,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 50,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -63.67005157470703,
+      73.0263900756836,
+      0.1676541417837143
+    ],
+    "target_cell_observed": [
+      25,
+      27
+    ],
+    "target_distance_to_waypoint_m": 13.81178649518267,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 51,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -60.167415618896484,
+      73.5435791015625,
+      0.16731011867523193
+    ],
+    "target_cell_observed": [
+      25,
+      28
+    ],
+    "target_distance_to_waypoint_m": 10.27119770040406,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 52,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -57.0524787902832,
+      73.97923278808594,
+      0.16567690670490265
+    ],
+    "target_cell_observed": [
+      25,
+      29
+    ],
+    "target_distance_to_waypoint_m": 7.12596820006329,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 53,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -54.87977981567383,
+      74.29010772705078,
+      0.16539224982261658
+    ],
+    "target_cell_observed": [
+      25,
+      29
+    ],
+    "target_distance_to_waypoint_m": 4.931145717645212,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 54,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -53.38373947143555,
+      74.50743865966797,
+      0.1647542119026184
+    ],
+    "target_cell_observed": [
+      25,
+      29
+    ],
+    "target_distance_to_waypoint_m": 3.4194019191286364,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 55,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -52.353641510009766,
+      74.6575698852539,
+      0.1650383025407791
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 2.3784210605202083,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 56,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -51.64441680908203,
+      74.76081085205078,
+      0.16513043642044067
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 1.661721423851845,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 57,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -51.15618133544922,
+      74.83182525634766,
+      0.16512684524059296
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 1.1683484175722885,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 58,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.820106506347656,
+      74.88070678710938,
+      0.16529136896133423
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.8287373241235888,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 59,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.58878707885742,
+      74.91435241699219,
+      0.1653127819299698
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.5949838087751095,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 60,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.42957305908203,
+      74.93751525878906,
+      0.16534356772899628
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.4340937179611013,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 61,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.31999588012695,
+      74.95345306396484,
+      0.16519083082675934
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.32336354239846565,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 62,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.25357437133789,
+      74.9631118774414,
+      0.16531485319137573
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.25624342993588006,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  },
+  {
+    "step": 63,
+    "target_waypoint_cell": [
+      25,
+      30
+    ],
+    "target_waypoint_world": [
+      -50.0,
+      75.0
+    ],
+    "target_world_observed": [
+      -50.217308044433594,
+      74.96839141845703,
+      0.16534695029258728
+    ],
+    "target_cell_observed": [
+      25,
+      30
+    ],
+    "target_distance_to_waypoint_m": 0.21959482826950014,
+    "target_ticks_this_step": 10,
+    "target_proxy_agent_name": "target",
+    "target_motion_source": "holoocean_agent_proxy"
+  }
+]

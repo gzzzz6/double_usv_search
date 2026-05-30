@@ -1,0 +1,25 @@
+{
+  "found": false,
+  "found_step": null,
+  "found_target_indices": [],
+  "target_cell_at_found": null,
+  "target_world_at_found": null,
+  "sv_cell_at_found": null,
+  "sv_world_at_found": null,
+  "euclidean_distance_cells_at_found": null,
+  "sensor_range_cells": 5,
+  "detection_model": "baseline_GP.core_targets.detect_targets",
+  "note": "target truth comes from HoloOcean target proxy agent; detection still uses baseline_GP native simulated detection model.",
+  "run_label": "dynamic_target_search_foundrun",
+  "phase_note": "Phase 3C-1-found dynamic target search found-attempt run; OpenWater, target agent proxy, no HoloOcean sonar/camera.",
+  "reason": "max_steps_reached",
+  "final_cell": [
+    28,
+    30
+  ],
+  "target_cell": [
+    35,
+    35
+  ],
+  "final_distance_to_target_cells": 8.602325267042627
+}

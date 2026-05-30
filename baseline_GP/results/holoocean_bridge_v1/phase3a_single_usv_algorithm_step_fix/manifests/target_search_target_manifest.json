@@ -1,0 +1,27 @@
+{
+  "target_id": "suspicious_target_0",
+  "target_cell": [
+    2,
+    30
+  ],
+  "target_world": [
+    -50.0,
+    190.0,
+    0.0
+  ],
+  "roundtrip_cell": [
+    2,
+    30
+  ],
+  "roundtrip_ok": true,
+  "spawn_prop_called": true,
+  "spawn_prop_success": true,
+  "target_source": "holoocean_prop_synced_to_baseline_target_positions",
+  "map_id": "openwater_open_v1",
+  "world": "OpenWater",
+  "cell_size_m": 5.0,
+  "grid_shape": [
+    81,
+    81
+  ]
+}

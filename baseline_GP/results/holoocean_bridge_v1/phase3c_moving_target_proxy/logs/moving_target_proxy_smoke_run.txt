@@ -1,0 +1,38 @@
+=== Phase 3C-0: Starting HoloOcean Moving Target Proxy Smoke ===
+Loading map from NPZ: baseline_GP\holoocean_bridge\maps\openwater_open_v1.npz
+Roundtrip validation for all target waypoints: PASSED
+Launching simulator...
+Env capabilities probed:
+  spawn_prop: True
+  move_prop: False
+  set_prop_location: False
+  teleport_prop: False
+  set_actor_location: False
+  set_prop_transform: False
+  act: True
+  tick: True
+  get_tick: False
+Prop spawn succeeded.
+Scheme A result: prop_spawn_success=True, prop_failure_reason=No movement or teleportation API exists for props in HoloOceanEnvironment
+
+Starting Phase 3C-0 Target Agent path tracing...
+Waypoint 0: cell=(20, 20) -> world=[-100.00, 100.00]
+  Finished WP 0 in 1 ticks. Status: ARRIVED, final dist: 0.69m
+Waypoint 1: cell=(20, 25) -> world=[-75.00, 100.00]
+  Finished WP 1 in 559 ticks. Status: ARRIVED, final dist: 2.50m
+Waypoint 2: cell=(25, 25) -> world=[-75.00, 75.00]
+  Finished WP 2 in 629 ticks. Status: ARRIVED, final dist: 2.50m
+Waypoint 3: cell=(25, 30) -> world=[-50.00, 75.00]
+  Finished WP 3 in 629 ticks. Status: ARRIVED, final dist: 2.50m
+Waypoint 4: cell=(30, 30) -> world=[-50.00, 50.00]
+  Finished WP 4 in 629 ticks. Status: ARRIVED, final dist: 2.50m
+
+=== Phase 3C-0 Tracing Finished ===
+  Movable: True
+  Move Success Count: 5 / 5
+  Total Ticks: 2447
+Trace JSON saved to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\manifests\moving_target_proxy_trace.json
+Trace CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\manifests\moving_target_proxy_trace.csv
+Moving target path visual saved to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\visuals\moving_target_proxy_path.png
+Summary report written to: baseline_GP\results\holoocean_bridge_v1\phase3c_moving_target_proxy\reports\moving_target_proxy_summary.md
+Smoke script finished successfully!

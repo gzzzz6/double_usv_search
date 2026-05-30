@@ -1,0 +1,20 @@
+{
+  "trace_json_exists": true,
+  "trace_csv_exists": true,
+  "waypoint_summary_json_exists": true,
+  "path_png_exists": true,
+  "summary_md_exists": true,
+  "no_sonar_sensor": true,
+  "no_camera_sensor": true,
+  "no_baseline_GP_search_calls": true,
+  "control_scheme_is_zero": true,
+  "waypoints_count_is_four": true,
+  "all_final_projected_matches_target": true,
+  "all_arrived": true,
+  "no_timeout": true,
+  "mean_ticks_per_waypoint_ok": true,
+  "max_final_distance_ok": true,
+  "no_forbidden_dynamic_interceptors": true,
+  "core_files_unmodified": true,
+  "all_passed": true
+}
