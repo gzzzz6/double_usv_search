@@ -2714,7 +2714,7 @@ def _phase7_config_snapshot(
         "max_iters": int(max_iters),
         "map_height_cells": 60,
         "map_width_cells": 80,
-        "clue_sigma_m": 15.0,
+        "clue_sigma_m": 30.0,
         "single_usv_policy_name": "marine_knownmap_path_v2_infosampled",
         "two_usv_independent_policy_name": "marine_knownmap_path_v2_infosampled_2usv",
         "two_usv_coordinated_policy_name": "marine_knownmap_path_v2_infosampled_2usv",
@@ -2774,11 +2774,11 @@ def run_episode_two_usv_search_knownmap(
     target_count_mode: str = "upper_bound",
     target_count_upper_bound: int | None = None,
     staleness_tau_steps: int = 12,
-    resolution_m: float = 5.0,
-    sensor_range_m: float = 25.0,
-    min_target_separation_m: float = 30.0,
-    min_start_distance_m: float = 40.0,
-    gp_length_scale_m: float = 20.0,
+    resolution_m: float = 10.0,
+    sensor_range_m: float = 50.0,
+    min_target_separation_m: float = 60.0,
+    min_start_distance_m: float = 80.0,
+    gp_length_scale_m: float = 40.0,
     gp_noise_std: float = 0.03,
     gp_prior_mean: float = 0.0,
     gp_beta: float = 0.5,
@@ -2786,7 +2786,7 @@ def run_episode_two_usv_search_knownmap(
     gp_optimize_hyperparams: bool = False,
     gp_max_points: int = 400,
     clue_samples_per_step: int | None = 24,
-    clue_sigma_m: float = 15.0,
+    clue_sigma_m: float = 30.0,
     clue_amplitude: float = 2.0,
     clue_noise_std: float = 0.03,
     search_info_clue_weight: float = 0.5,
@@ -3401,7 +3401,7 @@ def run_phase7_knownmap_comparison(
         base_episode_kwargs.pop(key, None)
     base_episode_kwargs["map_height_cells"] = 60
     base_episode_kwargs["map_width_cells"] = 80
-    base_episode_kwargs["clue_sigma_m"] = 15.0
+    base_episode_kwargs["clue_sigma_m"] = 30.0
 
     config_snapshot = _phase7_config_snapshot(
         map_kinds=resolved_map_kinds,

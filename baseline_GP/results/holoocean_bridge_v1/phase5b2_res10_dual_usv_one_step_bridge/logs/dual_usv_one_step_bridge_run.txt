@@ -1,0 +1,15 @@
+=== Phase 5B-2: Launching Known-Map Coordinated Search One-Step Bridge ===
+Loaded historical Phase 5B-1 probe results for validation.
+Coordinated planning target validation SUCCESS. Verified matches Phase 5B-1 exactly.
+CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\manifests\dual_usv_one_step_bridge_runtime_probe.csv
+Bidirectional grid-world roundtrip validation completed successfully.
+Launching HoloOcean bridge simulator...
+E2E One-Step Coordinated search physical bridge complete in 76 ticks.
+  - sv0 final projected grid: (24, 2) (Target: (24, 2), final dist: 4.99m)
+  - sv1 final projected grid: (35, 3) (Target: (35, 3), final dist: 0.14m)
+Summary JSON saved: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\manifests\dual_usv_one_step_bridge_summary.json
+CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\manifests\dual_usv_one_step_bridge_tick_trace.csv
+Tick trace JSON saved: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\manifests\dual_usv_one_step_bridge_tick_trace.json
+Summary report written to: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\reports\dual_usv_one_step_bridge_summary.md
+Paths map successfully saved: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\visuals\dual_usv_one_step_bridge_paths.png
+Phase 5B-2 dual SurfaceVessel coordinated search one-step bridge complete!

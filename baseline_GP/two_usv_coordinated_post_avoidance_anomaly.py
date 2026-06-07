@@ -357,7 +357,7 @@ def run_two_usv_coordinated_post_avoidance_anomaly_comparison(
         base_episode_kwargs.pop(key, None)
     base_episode_kwargs["map_height_cells"] = 60
     base_episode_kwargs["map_width_cells"] = 80
-    base_episode_kwargs["clue_sigma_m"] = 15.0
+    base_episode_kwargs["clue_sigma_m"] = 30.0
     base_episode_kwargs["anomaly_tail_quantile"] = float(anomaly_tail_quantile)
     base_episode_kwargs["anomaly_weight_lambda"] = float(anomaly_weight_lambda)
     base_episode_kwargs["viewpoint_generation_mode"] = POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE

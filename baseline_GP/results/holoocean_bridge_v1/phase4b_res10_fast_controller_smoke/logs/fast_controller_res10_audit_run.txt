@@ -1,0 +1,37 @@
+=== Running Phase 4B Fast Waypoint Smoke Audit Check ===
+Audit Result: PASSED
+  - trace_json_exists: True
+  - trace_csv_exists: True
+  - summary_json_exists: True
+  - summary_md_exists: True
+  - preview_png_exists: True
+  - summary_json_parse_ok: True
+  - trace_json_parse_ok: True
+  - map_id_is_res10: True
+  - world_is_openwater: True
+  - package_name_is_ocean: True
+  - cell_size_m_is_10: True
+  - origin_is_correct: True
+  - control_scheme_is_0: True
+  - no_camera_sensor: True
+  - no_sonar_sensor: True
+  - single_sv_agent: True
+  - no_target_agent: True
+  - no_target_prop: True
+  - no_import_plan_next_policy: True
+  - no_import_detect_targets: True
+  - no_clue_or_intensity_keys: True
+  - waypoint_count_is_4: True
+  - waypoint_roundtrips_passed: True
+  - arrived_count_is_4: True
+  - timeout_count_is_0: True
+  - each_final_projected_matches_target: True
+  - max_final_distance_lte_5m: True
+  - mean_ticks_lt_300: True
+  - max_ticks_lte_400: True
+  - total_ticks_gt_0: True
+  - trajectory_in_bounds: True
+  - smoke_no_simpleunderwater: True
+  - smoke_no_injections: True
+Saved audit JSON to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\manifests\fast_controller_res10_audit.json
+Saved audit report summary to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\reports\fast_controller_res10_audit_summary.md

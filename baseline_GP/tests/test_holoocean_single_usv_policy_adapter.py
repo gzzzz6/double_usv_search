@@ -94,3 +94,24 @@ def test_finalize_policy_step_chebyshev_validation(openwater_npz_path: str) -> N
             next_cell=next_cell,
             final_projected_cell=bad_projected_cell,
         )
+
+
+def test_load_openwater_policy_state_res10() -> None:
+    """Verify loading policy state with res10 NPZ defaults."""
+    state, config, nav_map = load_openwater_policy_state(None, episode_seed=0)
+
+    assert state["robot_pos"] == (1, 1)
+    assert state["nav_map_prior"].shape == (81, 81)
+    assert np.array_equal(state["nav_map_prior"], nav_map)
+    assert config.cell_size_m == 10.0
+    assert config.origin_world_xy == (-400.0, 400.0)
+
+    # Assert grid scale mappings under 10m grid and 10m params
+    assert state["sensor_range_cells"] == 5
+    assert state["min_target_separation_cells"] == 6
+    assert state["min_start_distance_cells"] == 8
+    assert state["gp_length_scale_m"] == 40.0
+    assert state["clue_sigma_m"] == 40.0
+    assert state["clue_sigma_cells"] == 4
+    assert state["resolution_m"] == 10.0
+

@@ -1,0 +1,24 @@
+=== Running Phase 4A Static Auditing Check ===
+Audit Result: PASSED
+  - res10_json_exists: True
+  - res10_npz_exists: True
+  - v1_json_exists: True
+  - v1_npz_exists: True
+  - v1_json_unmodified: True
+  - v1_json_actual_hash: 0525c4fa6d67e5779a77cec28d635f1ff8fbf899563598d250ed8fe7a6f31e6e
+  - v1_npz_unmodified: True
+  - v1_npz_actual_hash: dc9a80366ba2ccf008a9292830922f621491a9599731f84404bbe64d04bf3924
+  - res10_cell_size_is_10: True
+  - res10_origin_is_correct: True
+  - res10_grid_shape_is_81: True
+  - res10_occupied_count_is_320: True
+  - res10_free_count_is_6241: True
+  - res10_grid_shape_match: True
+  - coordinate_roundtrip_passed: True
+  - policy_adapter_no_holoocean_import: True
+  - build_script_no_holoocean_import: True
+  - policy_adapter_retired_old_params: True
+  - policy_adapter_active_new_params: True
+  - no_dynamic_loader_injections: True
+Saved audit JSON to: baseline_GP\results\holoocean_bridge_v1\phase4a_res10_bridge_sync\manifests\phase4a_res10_bridge_audit.json
+Saved audit report summary to: baseline_GP\results\holoocean_bridge_v1\phase4a_res10_bridge_sync\reports\phase4a_res10_bridge_audit_summary.md

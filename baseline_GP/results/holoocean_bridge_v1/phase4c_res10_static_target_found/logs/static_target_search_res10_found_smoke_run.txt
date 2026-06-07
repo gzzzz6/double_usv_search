@@ -1,0 +1,186 @@
+=== Phase 4C-found: Launching 10m Closed-Loop Static Target Search Smoke ===
+Loading 10m map and policy state defaults...
+Target grid: (29, 45) -> World coordinate: [50.0, 110.0, 0.0]
+Target coordinate roundtrip verified: (29, 45) == (29, 45) -> OK
+Overridden robot start position to cell (40, 40) (World [0.0, 0.0])
+Belief state initialized at cell (40, 40):
+  resolution_m                = 10.0
+  sensor_range_cells          = 5
+  gp_length_scale_m           = 40.0
+  clue_sigma_cells            = 4.0
+  remaining_intensity_mass_0  = 1.0000
+  peak_intensity_ratio_0      = 1.0068
+Launching simulator...
+Attempting to spawn prop 'suspicious_target_res10_found_0' at [50.00, 110.00, 2.00]...
+Spawn Attempt 1: Success!
+
+Step 01 -> Planning next cell: (39, 40) (planned segment path: [(40, 40), (39, 40), (38, 40)]...)
+  SV Arrived: True in 76 ticks. Min Dist: 4.99m. Final Dist: 4.99m.
+
+Step 02 -> Planning next cell: (38, 40) (planned segment path: [(39, 40), (38, 40), (38, 41)]...)
+  SV Arrived: True in 111 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Step 03 -> Planning next cell: (38, 41) (planned segment path: [(38, 40), (38, 41), (38, 42)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.98m. Final Dist: 4.98m.
+
+Step 04 -> Planning next cell: (38, 42) (planned segment path: [(38, 41), (38, 42), (38, 43)]...)
+  SV Arrived: True in 68 ticks. Min Dist: 4.86m. Final Dist: 4.86m.
+
+Step 05 -> Planning next cell: (38, 43) (planned segment path: [(38, 42), (38, 43), (38, 44)]...)
+  SV Arrived: True in 66 ticks. Min Dist: 4.90m. Final Dist: 4.90m.
+
+Step 06 -> Planning next cell: (39, 43) (planned segment path: [(38, 43), (39, 43), (40, 43)]...)
+  SV Arrived: True in 67 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 07 -> Planning next cell: (40, 43) (planned segment path: [(39, 43), (40, 43), (41, 43)]...)
+  SV Arrived: True in 74 ticks. Min Dist: 4.94m. Final Dist: 4.94m.
+
+Step 08 -> Planning next cell: (41, 43) (planned segment path: [(40, 43), (41, 43), (42, 43)]...)
+  SV Arrived: True in 67 ticks. Min Dist: 4.88m. Final Dist: 4.88m.
+
+Step 09 -> Planning next cell: (42, 43) (planned segment path: [(41, 43), (42, 43), (43, 43)]...)
+  SV Arrived: True in 66 ticks. Min Dist: 5.00m. Final Dist: 5.00m.
+
+Step 10 -> Planning next cell: (43, 43) (planned segment path: [(42, 43), (43, 43), (44, 43)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.99m. Final Dist: 4.99m.
+
+Step 11 -> Planning next cell: (44, 43) (planned segment path: [(43, 43), (44, 43), (45, 43)]...)
+  SV Arrived: True in 92 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Step 12 -> Planning next cell: (45, 43) (planned segment path: [(44, 43), (45, 43), (46, 43)]...)
+  SV Arrived: True in 69 ticks. Min Dist: 4.94m. Final Dist: 4.94m.
+
+Step 13 -> Planning next cell: (46, 43) (planned segment path: [(45, 43), (46, 43), (47, 43)]...)
+  SV Arrived: True in 99 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 14 -> Planning next cell: (47, 43) (planned segment path: [(46, 43), (47, 43), (48, 43)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.99m. Final Dist: 4.99m.
+
+Step 15 -> Planning next cell: (48, 43) (planned segment path: [(47, 43), (48, 43), (49, 43)]...)
+  SV Arrived: True in 70 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 16 -> Planning next cell: (49, 43) (planned segment path: [(48, 43), (49, 43), (50, 43)]...)
+  SV Arrived: True in 100 ticks. Min Dist: 4.94m. Final Dist: 4.94m.
+
+Step 17 -> Planning next cell: (50, 43) (planned segment path: [(49, 43), (50, 43), (51, 43)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.98m. Final Dist: 4.98m.
+
+Step 18 -> Planning next cell: (51, 43) (planned segment path: [(50, 43), (51, 43), (52, 43)]...)
+  SV Arrived: True in 70 ticks. Min Dist: 4.89m. Final Dist: 4.89m.
+
+Step 19 -> Planning next cell: (52, 43) (planned segment path: [(51, 43), (52, 43), (53, 43)]...)
+  SV Arrived: True in 98 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 20 -> Planning next cell: (53, 43) (planned segment path: [(52, 43), (53, 43), (54, 43)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 21 -> Planning next cell: (53, 42) (planned segment path: [(53, 43), (53, 42), (53, 41)]...)
+  SV Arrived: True in 80 ticks. Min Dist: 4.93m. Final Dist: 4.93m.
+
+Step 22 -> Planning next cell: (53, 41) (planned segment path: [(53, 42), (53, 41), (53, 40)]...)
+  SV Arrived: True in 95 ticks. Min Dist: 4.93m. Final Dist: 4.93m.
+
+Step 23 -> Planning next cell: (53, 40) (planned segment path: [(53, 41), (53, 40), (53, 39)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.91m. Final Dist: 4.91m.
+
+Step 24 -> Planning next cell: (53, 39) (planned segment path: [(53, 40), (53, 39), (53, 38)]...)
+  SV Arrived: True in 72 ticks. Min Dist: 4.98m. Final Dist: 4.98m.
+
+Step 25 -> Planning next cell: (53, 38) (planned segment path: [(53, 39), (53, 38), (53, 37)]...)
+  SV Arrived: True in 99 ticks. Min Dist: 4.98m. Final Dist: 4.98m.
+
+Step 26 -> Planning next cell: (52, 38) (planned segment path: [(53, 38), (52, 38), (51, 38)]...)
+  SV Arrived: True in 66 ticks. Min Dist: 4.91m. Final Dist: 4.91m.
+
+Step 27 -> Planning next cell: (51, 38) (planned segment path: [(52, 38), (51, 38), (50, 38)]...)
+  SV Arrived: True in 99 ticks. Min Dist: 4.99m. Final Dist: 4.99m.
+
+Step 28 -> Planning next cell: (50, 38) (planned segment path: [(51, 38), (50, 38), (49, 38)]...)
+  SV Arrived: True in 71 ticks. Min Dist: 4.95m. Final Dist: 4.95m.
+
+Step 29 -> Planning next cell: (49, 38) (planned segment path: [(50, 38), (49, 38), (48, 38)]...)
+  SV Arrived: True in 83 ticks. Min Dist: 4.94m. Final Dist: 4.94m.
+
+Step 30 -> Planning next cell: (48, 38) (planned segment path: [(49, 38), (48, 38), (47, 38)]...)
+  SV Arrived: True in 67 ticks. Min Dist: 4.92m. Final Dist: 4.92m.
+
+Step 31 -> Planning next cell: (47, 38) (planned segment path: [(48, 38), (47, 38), (46, 38)]...)
+  SV Arrived: True in 98 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 32 -> Planning next cell: (46, 38) (planned segment path: [(47, 38), (46, 38), (45, 38)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Step 33 -> Planning next cell: (45, 38) (planned segment path: [(46, 38), (45, 38), (44, 38)]...)
+  SV Arrived: True in 72 ticks. Min Dist: 4.98m. Final Dist: 4.98m.
+
+Step 34 -> Planning next cell: (44, 38) (planned segment path: [(45, 38), (44, 38), (43, 38)]...)
+  SV Arrived: True in 100 ticks. Min Dist: 4.95m. Final Dist: 4.95m.
+
+Step 35 -> Planning next cell: (43, 38) (planned segment path: [(44, 38), (43, 38), (42, 38)]...)
+  SV Arrived: True in 86 ticks. Min Dist: 4.91m. Final Dist: 4.91m.
+
+Step 36 -> Planning next cell: (42, 38) (planned segment path: [(43, 38), (42, 38), (41, 38)]...)
+  SV Arrived: True in 68 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 37 -> Planning next cell: (41, 38) (planned segment path: [(42, 38), (41, 38), (40, 38)]...)
+  SV Arrived: True in 96 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 38 -> Planning next cell: (40, 38) (planned segment path: [(41, 38), (40, 38), (39, 38)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.95m. Final Dist: 4.95m.
+
+Step 39 -> Planning next cell: (39, 38) (planned segment path: [(40, 38), (39, 38), (38, 38)]...)
+  SV Arrived: True in 73 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 40 -> Planning next cell: (38, 38) (planned segment path: [(39, 38), (38, 38), (37, 38)]...)
+  SV Arrived: True in 99 ticks. Min Dist: 4.90m. Final Dist: 4.90m.
+
+Step 41 -> Planning next cell: (37, 38) (planned segment path: [(38, 38), (37, 38), (36, 38)]...)
+  SV Arrived: True in 87 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Step 42 -> Planning next cell: (36, 38) (planned segment path: [(37, 38), (36, 38), (35, 38)]...)
+  SV Arrived: True in 68 ticks. Min Dist: 4.94m. Final Dist: 4.94m.
+
+Step 43 -> Planning next cell: (35, 38) (planned segment path: [(36, 38), (35, 38), (34, 38)]...)
+  SV Arrived: True in 93 ticks. Min Dist: 4.92m. Final Dist: 4.92m.
+
+Step 44 -> Planning next cell: (34, 38) (planned segment path: [(35, 38), (34, 38), (33, 38)]...)
+  SV Arrived: True in 87 ticks. Min Dist: 4.99m. Final Dist: 4.99m.
+
+Step 45 -> Planning next cell: (33, 38) (planned segment path: [(34, 38), (33, 38), (32, 38)]...)
+  SV Arrived: True in 71 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Step 46 -> Planning next cell: (32, 38) (planned segment path: [(33, 38), (32, 38), (31, 38)]...)
+  SV Arrived: True in 100 ticks. Min Dist: 4.97m. Final Dist: 4.97m.
+
+Step 47 -> Planning next cell: (31, 38) (planned segment path: [(32, 38), (31, 38), (31, 39)]...)
+  SV Arrived: True in 86 ticks. Min Dist: 4.89m. Final Dist: 4.89m.
+
+Step 48 -> Planning next cell: (31, 39) (planned segment path: [(31, 38), (31, 39), (31, 40)]...)
+  SV Arrived: True in 81 ticks. Min Dist: 4.93m. Final Dist: 4.93m.
+
+Step 49 -> Planning next cell: (31, 40) (planned segment path: [(31, 39), (31, 40), (31, 41)]...)
+  SV Arrived: True in 95 ticks. Min Dist: 4.90m. Final Dist: 4.90m.
+
+Step 50 -> Planning next cell: (31, 41) (planned segment path: [(31, 40), (31, 41), (31, 42)]...)
+  SV Arrived: True in 85 ticks. Min Dist: 4.91m. Final Dist: 4.91m.
+
+Step 51 -> Planning next cell: (31, 42) (planned segment path: [(31, 41), (31, 42), (31, 43)]...)
+  SV Arrived: True in 73 ticks. Min Dist: 4.93m. Final Dist: 4.93m.
+  [SUCCESS] Target found at Step 51! Distance: 4.93m. Ending search early.
+
+==========================================
+10m Found Static Search Smoke Completed!
+  Actual Steps     : 51
+  Target Found     : True
+  Terminated Reason: all_found
+  Total Ticks      : 4223
+  Wall Time        : 151.03s
+  Mean Ticks/Step  : 82.8
+==========================================
+Target manifest saved to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\manifests\static_target_search_res10_found_target_manifest.json
+Found events saved to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\manifests\static_target_search_res10_found_found_events.json
+CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\manifests\static_target_search_res10_found_decisions.csv
+CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\manifests\static_target_search_res10_found_tick_trace.csv
+Summary report written to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\reports\static_target_search_res10_found_summary.md
+Visual route map successfully saved to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_found\visuals\static_target_search_res10_found_route_map.png
+Phase 4C-found E2E static target search smoke complete!

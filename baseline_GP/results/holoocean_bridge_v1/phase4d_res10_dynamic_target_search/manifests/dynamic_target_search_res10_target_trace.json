@@ -1,0 +1,149 @@
+[
+  {
+    "step": 1,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.94367218017578,
+      99.9632568359375,
+      -0.025633610785007477
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 2,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      31.338573455810547,
+      99.57278442382812,
+      0.19383856654167175
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 3,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.742189407348633,
+      99.54698944091797,
+      0.16823795437812805
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 4,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.481674194335938,
+      99.7302474975586,
+      0.1695513278245926
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 5,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.345773696899414,
+      99.81424713134766,
+      0.17067351937294006
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 6,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.228052139282227,
+      99.87677001953125,
+      0.1709136664867401
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  },
+  {
+    "step": 7,
+    "desired_cell": [
+      30,
+      43
+    ],
+    "desired_world": [
+      30.0,
+      100.0
+    ],
+    "observed_world": [
+      30.164806365966797,
+      99.91070556640625,
+      0.17169339954853058
+    ],
+    "observed_cell": [
+      30,
+      43
+    ],
+    "target_position_source": "holoocean_agent_projection"
+  }
+]

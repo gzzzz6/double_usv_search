@@ -1,0 +1,67 @@
+=== Running Phase 4C static and dynamic audits ===
+[WARN] Target was NOT found in E2E search loop! Final cell: [23, 49], dist to target: 5.0
+Audit Result: PASSED
+  - decisions_json_exists: True
+  - decisions_csv_exists: True
+  - tick_trace_csv_exists: True
+  - policy_trace_json_exists: True
+  - target_json_exists: True
+  - found_json_exists: True
+  - summary_md_exists: True
+  - route_map_png_exists: True
+  - found_json_parse_ok: True
+  - target_json_parse_ok: True
+  - decisions_json_parse_ok: True
+  - policy_trace_parse_ok: True
+  - trace_json_parse_ok: True
+  - map_id_is_res10: True
+  - world_is_openwater: True
+  - package_name_is_ocean: True
+  - cell_size_m_is_10: True
+  - origin_is_correct: True
+  - sv_control_scheme_is_0: True
+  - no_camera_sensor: True
+  - no_sonar_sensor: True
+  - single_sv_agent: True
+  - no_target_agent: True
+  - target_cell_is_20_45: True
+  - target_world_is_correct: True
+  - target_roundtrip_passed: True
+  - policy_name_is_correct: True
+  - viewpoint_gen_is_simple_ring: True
+  - path_safety_is_soft_clearance: True
+  - clue_acq_mode_is_ucb: True
+  - resolution_m_is_10: True
+  - sensor_range_m_is_50: True
+  - sensor_range_cells_is_5: True
+  - gp_length_scale_m_is_40: True
+  - clue_sigma_m_is_40: True
+  - clue_sigma_cells_is_4: True
+  - each_segment_path_start_aligned: True
+  - each_next_cell_path_aligned: True
+  - each_final_projected_matches_next: True
+  - all_steps_arrived: True
+  - timeout_count_is_0: True
+  - max_final_distance_lte_5m: True
+  - actual_steps_lte_120: True
+  - found_count_non_decreasing: True
+  - completed_steps_increasing: True
+  - remaining_mass_valid: True
+  - peak_intensity_valid: True
+  - terminated_reason_is_correct: True
+  - found_step_is_lte_actual: False
+  - discovery_euclidean_distance_lte_5: False
+  - remaining_mass_converged_to_0: False
+  - found_branch_applicable: False
+  - found_branch_checks_skipped: True
+  - not_found_branch_valid: True
+  - final_sv_cell: [23, 49]
+  - target_cell: [20, 45]
+  - final_distance_to_target_cells: 5.0
+  - min_distance_to_target_cells: 5.0
+  - steps_within_sensor_range_count: 1
+  - smoke_no_simpleunderwater: True
+  - smoke_no_injections: True
+  - smoke_no_human_waypoints: True
+Saved audit JSON to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_search\manifests\static_target_search_res10_audit.json
+Saved audit report summary to: baseline_GP\results\holoocean_bridge_v1\phase4c_res10_static_target_search\reports\static_target_search_res10_audit_summary.md

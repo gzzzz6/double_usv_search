@@ -1,0 +1,212 @@
+[
+  {
+    "usv_id": 0,
+    "robot_pos_before": [
+      25,
+      2
+    ],
+    "committed_segment_before_execution": [
+      [
+        25,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        17,
+        2
+      ]
+    ],
+    "segment_len_before": 9,
+    "commit_remaining_before": 4,
+    "next_cell_algorithm": [
+      24,
+      2
+    ],
+    "wait_applied": false,
+    "holoocean_target_cell_for_phase5b": [
+      24,
+      2
+    ],
+    "exec_move_success": true,
+    "exec_collision": false,
+    "exec_collision_cell": null,
+    "exec_new_robot_pos": [
+      24,
+      2
+    ],
+    "robot_pos_after_runtime_execution": [
+      24,
+      2
+    ],
+    "committed_segment_after_execution": [
+      [
+        24,
+        2
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        17,
+        2
+      ]
+    ],
+    "commit_remaining_after": 3,
+    "segment_advanced": true,
+    "next_cell_matches_exec_result": true,
+    "runtime_after_matches_exec_result": true
+  },
+  {
+    "usv_id": 1,
+    "robot_pos_before": [
+      35,
+      2
+    ],
+    "committed_segment_before_execution": [
+      [
+        35,
+        2
+      ],
+      [
+        35,
+        3
+      ],
+      [
+        35,
+        4
+      ],
+      [
+        35,
+        5
+      ],
+      [
+        35,
+        6
+      ],
+      [
+        35,
+        7
+      ],
+      [
+        35,
+        8
+      ],
+      [
+        35,
+        9
+      ],
+      [
+        35,
+        10
+      ]
+    ],
+    "segment_len_before": 9,
+    "commit_remaining_before": 4,
+    "next_cell_algorithm": [
+      35,
+      3
+    ],
+    "wait_applied": false,
+    "holoocean_target_cell_for_phase5b": [
+      35,
+      3
+    ],
+    "exec_move_success": true,
+    "exec_collision": false,
+    "exec_collision_cell": null,
+    "exec_new_robot_pos": [
+      35,
+      3
+    ],
+    "robot_pos_after_runtime_execution": [
+      35,
+      3
+    ],
+    "committed_segment_after_execution": [
+      [
+        35,
+        3
+      ],
+      [
+        35,
+        4
+      ],
+      [
+        35,
+        5
+      ],
+      [
+        35,
+        6
+      ],
+      [
+        35,
+        7
+      ],
+      [
+        35,
+        8
+      ],
+      [
+        35,
+        9
+      ],
+      [
+        35,
+        10
+      ]
+    ],
+    "commit_remaining_after": 3,
+    "segment_advanced": true,
+    "next_cell_matches_exec_result": true,
+    "runtime_after_matches_exec_result": true
+  }
+]

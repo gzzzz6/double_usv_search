@@ -1,0 +1,16 @@
+{
+  "found": false,
+  "found_step": null,
+  "terminated_reason": "max_steps_reached",
+  "actual_steps": 120,
+  "total_ticks": 9804,
+  "final_sv_cell": [
+    23,
+    49
+  ],
+  "target_cell": [
+    20,
+    45
+  ],
+  "final_distance_to_target_cells": 5.0
+}

@@ -1,0 +1,16 @@
+{
+  "found": true,
+  "found_step": 7,
+  "terminated_reason": "all_found",
+  "actual_steps": 7,
+  "total_ticks": 601,
+  "final_sv_cell": [
+    33,
+    40
+  ],
+  "final_target_cell": [
+    30,
+    43
+  ],
+  "final_distance_to_target_cells": 4.242640687119285
+}

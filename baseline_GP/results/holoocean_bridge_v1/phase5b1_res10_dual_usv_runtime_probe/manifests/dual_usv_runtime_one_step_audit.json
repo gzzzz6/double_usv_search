@@ -1,0 +1,27 @@
+{
+  "all_passed": true,
+  "checks": {
+    "probe_json_exists": true,
+    "probe_csv_exists": true,
+    "assignments_json_exists": true,
+    "config_json_exists": true,
+    "summary_md_exists": true,
+    "probe_json_parse_ok": true,
+    "config_json_parse_ok": true,
+    "policy_name_is_correct": true,
+    "assignment_mode_coordinated": true,
+    "team_path_avoidance_mode_reservation": true,
+    "path_safety_mode_astar": true,
+    "viewpoint_gen_simple_ring": true,
+    "resolution_m_is_10": true,
+    "sensor_range_m_is_50": true,
+    "sensor_range_cells_is_5": true,
+    "exactly_two_usvs": true,
+    "committed_segments_valid": true,
+    "next_cells_algorithm_aligned": true,
+    "exec_results_for_active_usv_correct": true,
+    "wait_rules_for_waiting_usv_correct": true,
+    "target_cells_within_bounds": true,
+    "no_modified_algorithm_files": true
+  }
+}

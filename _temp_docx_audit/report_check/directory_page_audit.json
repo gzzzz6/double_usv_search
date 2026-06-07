@@ -1,0 +1,2387 @@
+{
+  "docx": "F:\\pythonprojects\\信息科学与工程学院_320220938891_郭一泽.docx",
+  "total_pages": 60,
+  "field_ranges": [
+    {
+      "kind": "TablesOfContents",
+      "index": 1,
+      "page": 6,
+      "start": 4738,
+      "end": 12360,
+      "text_preview": "1 绪 论\t11.1 研究背景及意义\t11.2 国内外研究现状\t11.3 研究内容及论文结构\t22 场建模\t32.1 高斯过程回归\t32.1.1 回归问题\t32.1.2 多元高斯分布\t32.1.3 核函数\t42.1.4 后验预测\t52.1.5 采集函数\t62.1.6 Anomaly变体\t72.2 目标Intensity场建模\t82.2.1 初始化\t82.2.2 目标运动预测\t92.2.3 未命中观测更新\t92.2.4 命中观测更新\t102.3 观测时效性\t102.4 综合信息价值场\t113 信息型路径规划\t133.1 信息型路径规划理论基础\t133.1.1 从几何路径规划到主动感知路径规划\t133.1.2 EPP与IPP的区别\t133.1.3 信息收益、运动代价与预算约束的一般形式\t133.1.4 在线自适应信息型路径规划\t143.1.5 本文研究内容\t143.2 问题定义\t153.2.1 静态地图定义\t153.2.2 USV状态与传感器\t153.2.3 问题表述\t153.3 热点区域提取\t153.3.1 热点阈值与热点簇定义\t153.3.2 热点簇评分\t163.3.3 Anchor代表点选取\t163.4 观测点选择\t173.4.1 Viewpoint定义\t173.4.2 环形观测点生成\t173.4.3 观测点的观测价值排序\t183.5 短时域路径段生成\t193.5.1 到候选观测点的路径生成\t193.5.2 栅格地图下的A*路径生成\t193.5.3 障碍安全膨胀后的A*安全路径生成\t213.5.4 短时域路径段截断\t213.6 短路径段综合评分函数\t223.6.1 短路径段评分计算\t223.6.2 探索收益、搜索信息收益与观测刷新收益\t223.6.3 执行代价\t233.6.4 最终综合评分\t233.7 在线滚动执行与重规划机制\t234 多USV协同搜索决策方法及双艇实现\t"
+    }
+  ],
+  "directory_counts": {
+    "title_toc": 93,
+    "figure_toc": 11,
+    "table_toc": 13
+  },
+  "comparisons": {
+    "title_toc": [
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "1 绪 论",
+          "displayed_page": 1,
+          "range_page": 6,
+          "start": 4738,
+          "end": 4847
+        },
+        "matched_text": null,
+        "matched_para_index": null,
+        "actual_page": null,
+        "status": "unmatched"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "1.1 研究背景及意义",
+          "displayed_page": 1,
+          "range_page": 4,
+          "start": 4847,
+          "end": 4923
+        },
+        "matched_text": "1.1 研究背景及意义",
+        "matched_para_index": 186,
+        "actual_page": 1,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "1.2 国内外研究现状",
+          "displayed_page": 1,
+          "range_page": 4,
+          "start": 4923,
+          "end": 4999
+        },
+        "matched_text": "1.2 国内外研究现状",
+        "matched_para_index": 189,
+        "actual_page": 1,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "1.3 研究内容及论文结构",
+          "displayed_page": 2,
+          "range_page": 4,
+          "start": 4999,
+          "end": 5077
+        },
+        "matched_text": "1.3 研究内容及论文结构",
+        "matched_para_index": 194,
+        "actual_page": 2,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2 场建模",
+          "displayed_page": 3,
+          "range_page": 4,
+          "start": 5077,
+          "end": 5147
+        },
+        "matched_text": null,
+        "matched_para_index": null,
+        "actual_page": null,
+        "status": "unmatched"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1 高斯过程回归",
+          "displayed_page": 3,
+          "range_page": 4,
+          "start": 5147,
+          "end": 5222
+        },
+        "matched_text": "2.1 高斯过程回归",
+        "matched_para_index": 200,
+        "actual_page": 3,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.1 回归问题",
+          "displayed_page": 3,
+          "range_page": 4,
+          "start": 5222,
+          "end": 5297
+        },
+        "matched_text": "2.1.1 回归问题",
+        "matched_para_index": 203,
+        "actual_page": 3,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.2 多元高斯分布",
+          "displayed_page": 3,
+          "range_page": 4,
+          "start": 5297,
+          "end": 5374
+        },
+        "matched_text": "2.1.2 多元高斯分布",
+        "matched_para_index": 208,
+        "actual_page": 3,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.3 核函数",
+          "displayed_page": 4,
+          "range_page": 4,
+          "start": 5374,
+          "end": 5448
+        },
+        "matched_text": "2.1.3 核函数",
+        "matched_para_index": 220,
+        "actual_page": 4,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.4 后验预测",
+          "displayed_page": 5,
+          "range_page": 4,
+          "start": 5448,
+          "end": 5523
+        },
+        "matched_text": "2.1.4 后验预测",
+        "matched_para_index": 233,
+        "actual_page": 5,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.5 采集函数",
+          "displayed_page": 6,
+          "range_page": 4,
+          "start": 5523,
+          "end": 5598
+        },
+        "matched_text": "2.1.5 采集函数",
+        "matched_para_index": 247,
+        "actual_page": 6,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.1.6 Anomaly变体",
+          "displayed_page": 7,
+          "range_page": 4,
+          "start": 5598,
+          "end": 5678
+        },
+        "matched_text": "2.1.6 Anomaly变体",
+        "matched_para_index": 259,
+        "actual_page": 7,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.2 目标Intensity场建模",
+          "displayed_page": 8,
+          "range_page": 4,
+          "start": 5678,
+          "end": 5761
+        },
+        "matched_text": "2.2 目标Intensity场建模",
+        "matched_para_index": 273,
+        "actual_page": 8,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.2.1 初始化",
+          "displayed_page": 8,
+          "range_page": 4,
+          "start": 5761,
+          "end": 5835
+        },
+        "matched_text": "2.2.1 初始化",
+        "matched_para_index": 279,
+        "actual_page": 8,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.2.2 目标运动预测",
+          "displayed_page": 9,
+          "range_page": 4,
+          "start": 5835,
+          "end": 5912
+        },
+        "matched_text": "2.2.2 目标运动预测",
+        "matched_para_index": 283,
+        "actual_page": 9,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.2.3 未命中观测更新",
+          "displayed_page": 9,
+          "range_page": 4,
+          "start": 5912,
+          "end": 5990
+        },
+        "matched_text": "2.2.3 未命中观测更新",
+        "matched_para_index": 289,
+        "actual_page": 9,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.2.4 命中观测更新",
+          "displayed_page": 10,
+          "range_page": 4,
+          "start": 5990,
+          "end": 6068
+        },
+        "matched_text": "2.2.4 命中观测更新",
+        "matched_para_index": 297,
+        "actual_page": 10,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.3 观测时效性",
+          "displayed_page": 10,
+          "range_page": 4,
+          "start": 6068,
+          "end": 6143
+        },
+        "matched_text": "2.3 观测时效性",
+        "matched_para_index": 304,
+        "actual_page": 10,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "2.4 综合信息价值场",
+          "displayed_page": 11,
+          "range_page": 4,
+          "start": 6143,
+          "end": 6220
+        },
+        "matched_text": "2.4 综合信息价值场",
+        "matched_para_index": 310,
+        "actual_page": 11,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3 信息型路径规划",
+          "displayed_page": 13,
+          "range_page": 4,
+          "start": 6220,
+          "end": 6295
+        },
+        "matched_text": "",
+        "matched_para_index": 153,
+        "actual_page": 6,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1 信息型路径规划理论基础",
+          "displayed_page": 13,
+          "range_page": 4,
+          "start": 6295,
+          "end": 6376
+        },
+        "matched_text": "3.1 信息型路径规划理论基础",
+        "matched_para_index": 323,
+        "actual_page": 13,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1.1 从几何路径规划到主动感知路径规划",
+          "displayed_page": 13,
+          "range_page": 4,
+          "start": 6376,
+          "end": 6464
+        },
+        "matched_text": "3.1.1 从几何路径规划到主动感知路径规划",
+        "matched_para_index": 324,
+        "actual_page": 13,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1.2 EPP与IPP的区别",
+          "displayed_page": 13,
+          "range_page": 4,
+          "start": 6464,
+          "end": 6546
+        },
+        "matched_text": "3.1.2 EPP与IPP的区别",
+        "matched_para_index": 327,
+        "actual_page": 13,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1.3 信息收益、运动代价与预算约束的一般形式",
+          "displayed_page": 13,
+          "range_page": 4,
+          "start": 6546,
+          "end": 6637
+        },
+        "matched_text": "3.1.3 信息收益、运动代价与预算约束的一般形式",
+        "matched_para_index": 331,
+        "actual_page": 13,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1.4 在线自适应信息型路径规划",
+          "displayed_page": 14,
+          "range_page": 4,
+          "start": 6637,
+          "end": 6721
+        },
+        "matched_text": "3.1.4 在线自适应信息型路径规划",
+        "matched_para_index": 338,
+        "actual_page": 14,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.1.5 本文研究内容",
+          "displayed_page": 14,
+          "range_page": 4,
+          "start": 6721,
+          "end": 6799
+        },
+        "matched_text": "3.1.5 本文研究内容",
+        "matched_para_index": 341,
+        "actual_page": 14,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.2 问题定义",
+          "displayed_page": 15,
+          "range_page": 4,
+          "start": 6799,
+          "end": 6873
+        },
+        "matched_text": "3.2 问题定义",
+        "matched_para_index": 344,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.2.1 静态地图定义",
+          "displayed_page": 15,
+          "range_page": 4,
+          "start": 6873,
+          "end": 6951
+        },
+        "matched_text": "3.2.1 静态地图定义",
+        "matched_para_index": 345,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.2.2 USV状态与传感器",
+          "displayed_page": 15,
+          "range_page": 4,
+          "start": 6951,
+          "end": 7032
+        },
+        "matched_text": "3.2.2 USV状态与传感器",
+        "matched_para_index": 347,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.2.3 问题表述",
+          "displayed_page": 15,
+          "range_page": 4,
+          "start": 7032,
+          "end": 7108
+        },
+        "matched_text": "3.2.3 问题表述",
+        "matched_para_index": 350,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.3 热点区域提取",
+          "displayed_page": 15,
+          "range_page": 4,
+          "start": 7108,
+          "end": 7184
+        },
+        "matched_text": "3.3 热点区域提取",
+        "matched_para_index": 352,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.3.1 热点阈值与热点簇定义",
+          "displayed_page": 15,
+          "range_page": 5,
+          "start": 7184,
+          "end": 7266
+        },
+        "matched_text": "3.3.1 热点阈值与热点簇定义",
+        "matched_para_index": 353,
+        "actual_page": 15,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.3.2 热点簇评分",
+          "displayed_page": 16,
+          "range_page": 5,
+          "start": 7266,
+          "end": 7343
+        },
+        "matched_text": "3.3.2 热点簇评分",
+        "matched_para_index": 362,
+        "actual_page": 16,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.3.3 Anchor代表点选取",
+          "displayed_page": 16,
+          "range_page": 5,
+          "start": 7343,
+          "end": 7396
+        },
+        "matched_text": "3.3.3 Anchor代表点选取",
+        "matched_para_index": 371,
+        "actual_page": 16,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.4 观测点选择",
+          "displayed_page": 17,
+          "range_page": 5,
+          "start": 7396,
+          "end": 7471
+        },
+        "matched_text": "3.4 观测点选择",
+        "matched_para_index": 377,
+        "actual_page": 17,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.4.1 Viewpoint定义",
+          "displayed_page": 17,
+          "range_page": 5,
+          "start": 7471,
+          "end": 7554
+        },
+        "matched_text": "3.4.1 Viewpoint定义",
+        "matched_para_index": 378,
+        "actual_page": 17,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.4.2 环形观测点生成",
+          "displayed_page": 17,
+          "range_page": 5,
+          "start": 7554,
+          "end": 7633
+        },
+        "matched_text": "3.4.2 环形观测点生成",
+        "matched_para_index": 381,
+        "actual_page": 17,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.4.3 观测点的观测价值排序",
+          "displayed_page": 18,
+          "range_page": 5,
+          "start": 7633,
+          "end": 7715
+        },
+        "matched_text": "3.4.3 观测点的观测价值排序",
+        "matched_para_index": 390,
+        "actual_page": 18,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.5 短时域路径段生成",
+          "displayed_page": 19,
+          "range_page": 5,
+          "start": 7715,
+          "end": 7793
+        },
+        "matched_text": "3.5 短时域路径段生成",
+        "matched_para_index": 396,
+        "actual_page": 19,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.5.1 到候选观测点的路径生成",
+          "displayed_page": 19,
+          "range_page": 5,
+          "start": 7793,
+          "end": 7876
+        },
+        "matched_text": "3.5.1 到候选观测点的路径生成",
+        "matched_para_index": 397,
+        "actual_page": 19,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.5.2 栅格地图下的A*路径生成",
+          "displayed_page": 19,
+          "range_page": 5,
+          "start": 7876,
+          "end": 7960
+        },
+        "matched_text": "3.5.2 栅格地图下的A*路径生成",
+        "matched_para_index": 399,
+        "actual_page": 19,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.5.3 障碍安全膨胀后的A*安全路径生成",
+          "displayed_page": 21,
+          "range_page": 5,
+          "start": 7960,
+          "end": 8048
+        },
+        "matched_text": "3.5.3 障碍安全膨胀后的A*安全路径生成",
+        "matched_para_index": 412,
+        "actual_page": 21,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.5.4 短时域路径段截断",
+          "displayed_page": 21,
+          "range_page": 5,
+          "start": 8048,
+          "end": 8128
+        },
+        "matched_text": "3.5.4 短时域路径段截断",
+        "matched_para_index": 418,
+        "actual_page": 21,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.6 短路径段综合评分函数",
+          "displayed_page": 22,
+          "range_page": 5,
+          "start": 8128,
+          "end": 8208
+        },
+        "matched_text": "3.6 短路径段综合评分函数",
+        "matched_para_index": 423,
+        "actual_page": 22,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.6.1 短路径段评分计算",
+          "displayed_page": 22,
+          "range_page": 5,
+          "start": 8208,
+          "end": 8288
+        },
+        "matched_text": "3.6.1 短路径段评分计算",
+        "matched_para_index": 424,
+        "actual_page": 22,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.6.2 探索收益、搜索信息收益与观测刷新收益",
+          "displayed_page": 22,
+          "range_page": 5,
+          "start": 8288,
+          "end": 8378
+        },
+        "matched_text": "3.6.2 探索收益、搜索信息收益与观测刷新收益",
+        "matched_para_index": 428,
+        "actual_page": 22,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.6.3 执行代价",
+          "displayed_page": 23,
+          "range_page": 5,
+          "start": 8378,
+          "end": 8454
+        },
+        "matched_text": "3.6.3 执行代价",
+        "matched_para_index": 435,
+        "actual_page": 23,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.6.4 最终综合评分",
+          "displayed_page": 23,
+          "range_page": 5,
+          "start": 8454,
+          "end": 8532
+        },
+        "matched_text": "3.6.4 最终综合评分",
+        "matched_para_index": 439,
+        "actual_page": 23,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "3.7 在线滚动执行与重规划机制",
+          "displayed_page": 23,
+          "range_page": 5,
+          "start": 8532,
+          "end": 8614
+        },
+        "matched_text": "3.7 在线滚动执行与重规划机制",
+        "matched_para_index": 443,
+        "actual_page": 23,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4 多USV协同搜索决策方法及双艇实现",
+          "displayed_page": 24,
+          "range_page": 5,
+          "start": 8614,
+          "end": 8699
+        },
+        "matched_text": "",
+        "matched_para_index": 153,
+        "actual_page": 6,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.1 多艇协同信息型路径规划原理",
+          "displayed_page": 24,
+          "range_page": 5,
+          "start": 8699,
+          "end": 8782
+        },
+        "matched_text": "4.1 多艇协同信息型路径规划原理",
+        "matched_para_index": 453,
+        "actual_page": 24,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.1.1 从单艇信息型路径规划到多艇协同规划",
+          "displayed_page": 24,
+          "range_page": 5,
+          "start": 8782,
+          "end": 8871
+        },
+        "matched_text": "4.1.1 从单艇信息型路径规划到多艇协同规划",
+        "matched_para_index": 454,
+        "actual_page": 24,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.1.2 团队信息收益",
+          "displayed_page": 25,
+          "range_page": 5,
+          "start": 8871,
+          "end": 8949
+        },
+        "matched_text": "4.1.2 团队信息收益",
+        "matched_para_index": 459,
+        "actual_page": 25,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.1.3 多艇协同中的分工、冗余与冲突",
+          "displayed_page": 25,
+          "range_page": 5,
+          "start": 8949,
+          "end": 9035
+        },
+        "matched_text": "4.1.3 多艇协同中的分工、冗余与冲突",
+        "matched_para_index": 463,
+        "actual_page": 25,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.2 双艇已知地图搜索问题定义",
+          "displayed_page": 26,
+          "range_page": 5,
+          "start": 9035,
+          "end": 9117
+        },
+        "matched_text": "4.2 双艇已知地图搜索问题定义",
+        "matched_para_index": 469,
+        "actual_page": 26,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.2.1 已知静态地图与双艇搜索任务",
+          "displayed_page": 26,
+          "range_page": 5,
+          "start": 9117,
+          "end": 9202
+        },
+        "matched_text": "4.2.1 已知静态地图与双艇搜索任务",
+        "matched_para_index": 470,
+        "actual_page": 26,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.2.2集中式编队共享状态",
+          "displayed_page": 26,
+          "range_page": 5,
+          "start": 9202,
+          "end": 9282
+        },
+        "matched_text": "4.2.2集中式编队共享状态",
+        "matched_para_index": 472,
+        "actual_page": 26,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.3 静态责任区先验",
+          "displayed_page": 26,
+          "range_page": 5,
+          "start": 9282,
+          "end": 9359
+        },
+        "matched_text": "4.3 静态责任区先验",
+        "matched_para_index": 479,
+        "actual_page": 26,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.3.1 基于距离的责任区划分",
+          "displayed_page": 26,
+          "range_page": 5,
+          "start": 9359,
+          "end": 9441
+        },
+        "matched_text": "4.3.1 基于距离的责任区划分",
+        "matched_para_index": 480,
+        "actual_page": 26,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.3.2 缓冲带与责任分数定义",
+          "displayed_page": 27,
+          "range_page": 5,
+          "start": 9441,
+          "end": 9523
+        },
+        "matched_text": "4.3.2 缓冲带与责任分数定义",
+        "matched_para_index": 484,
+        "actual_page": 27,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.3.3 综合信息价值场的责任区偏置",
+          "displayed_page": 27,
+          "range_page": 5,
+          "start": 9523,
+          "end": 9608
+        },
+        "matched_text": "4.3.3 综合信息价值场的责任区偏置",
+        "matched_para_index": 495,
+        "actual_page": 27,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.4 顺序分配式双艇协同路径规划",
+          "displayed_page": 28,
+          "range_page": 5,
+          "start": 9608,
+          "end": 9691
+        },
+        "matched_text": "4.4 顺序分配式双艇协同路径规划",
+        "matched_para_index": 500,
+        "actual_page": 28,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.4.1 顺序分配",
+          "displayed_page": 28,
+          "range_page": 5,
+          "start": 9691,
+          "end": 9767
+        },
+        "matched_text": "4.4.1 顺序分配",
+        "matched_para_index": 501,
+        "actual_page": 28,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.4.2 residual_map与重叠区域定义",
+          "displayed_page": 28,
+          "range_page": 5,
+          "start": 9767,
+          "end": 9858
+        },
+        "matched_text": "4.4.2 residual_map与重叠区域定义",
+        "matched_para_index": 506,
+        "actual_page": 28,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.5 艇间冲突代价与reservation table",
+          "displayed_page": 29,
+          "range_page": 5,
+          "start": 9858,
+          "end": 9952
+        },
+        "matched_text": "4.5 艇间冲突代价与reservation table",
+        "matched_para_index": 515,
+        "actual_page": 29,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.6 团队联合评分与双路径段选择",
+          "displayed_page": 30,
+          "range_page": 5,
+          "start": 9952,
+          "end": 10035
+        },
+        "matched_text": "4.6 团队联合评分与双路径段选择",
+        "matched_para_index": 523,
+        "actual_page": 30,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.6.1 单艇短路径段评分的沿用",
+          "displayed_page": 30,
+          "range_page": 6,
+          "start": 10035,
+          "end": 10118
+        },
+        "matched_text": "4.6.1 单艇短路径段评分的沿用",
+        "matched_para_index": 524,
+        "actual_page": 30,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.6.2 同观测点抑制",
+          "displayed_page": 30,
+          "range_page": 6,
+          "start": 10118,
+          "end": 10196
+        },
+        "matched_text": "4.6.2 同观测点抑制",
+        "matched_para_index": 528,
+        "actual_page": 30,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.6.3 重复观测惩罚",
+          "displayed_page": 30,
+          "range_page": 6,
+          "start": 10196,
+          "end": 10244
+        },
+        "matched_text": "4.6.3 重复观测惩罚",
+        "matched_para_index": 531,
+        "actual_page": 30,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "4.6.4 最优双路径段选择",
+          "displayed_page": 30,
+          "range_page": 6,
+          "start": 10244,
+          "end": 10324
+        },
+        "matched_text": "4.6.4 最优双路径段选择",
+        "matched_para_index": 537,
+        "actual_page": 30,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5 实验设计与结果分析",
+          "displayed_page": 32,
+          "range_page": 6,
+          "start": 10324,
+          "end": 10401
+        },
+        "matched_text": "",
+        "matched_para_index": 153,
+        "actual_page": 6,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.1 实验设置",
+          "displayed_page": 32,
+          "range_page": 6,
+          "start": 10401,
+          "end": 10475
+        },
+        "matched_text": "5.1 实验设置",
+        "matched_para_index": 545,
+        "actual_page": 32,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.1.1 仿真环境与地图设置",
+          "displayed_page": 32,
+          "range_page": 6,
+          "start": 10475,
+          "end": 10556
+        },
+        "matched_text": "5.1.1 仿真环境与地图设置",
+        "matched_para_index": 546,
+        "actual_page": 32,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.1.2 目标与线索场设置",
+          "displayed_page": 32,
+          "range_page": 6,
+          "start": 10556,
+          "end": 10636
+        },
+        "matched_text": "5.1.2 目标与线索场设置",
+        "matched_para_index": 553,
+        "actual_page": 32,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.1.3 评价指标",
+          "displayed_page": 33,
+          "range_page": 6,
+          "start": 10636,
+          "end": 10712
+        },
+        "matched_text": "5.1.3 评价指标",
+        "matched_para_index": 556,
+        "actual_page": 33,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.2 单 USV 已知地图搜索任务实验",
+          "displayed_page": 33,
+          "range_page": 6,
+          "start": 10712,
+          "end": 10798
+        },
+        "matched_text": "5.2 单 USV 已知地图搜索任务实验",
+        "matched_para_index": 587,
+        "actual_page": 33,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.2.1 实验概述",
+          "displayed_page": 33,
+          "range_page": 6,
+          "start": 10798,
+          "end": 10874
+        },
+        "matched_text": "5.2.1 实验概述",
+        "matched_para_index": 588,
+        "actual_page": 33,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.2.2 实验设置",
+          "displayed_page": 34,
+          "range_page": 6,
+          "start": 10874,
+          "end": 10950
+        },
+        "matched_text": "5.2.2 实验设置",
+        "matched_para_index": 590,
+        "actual_page": 34,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.2.3 静态目标模式下的单艇搜索结果",
+          "displayed_page": 34,
+          "range_page": 6,
+          "start": 10950,
+          "end": 11036
+        },
+        "matched_text": "5.2.3 静态目标模式下的单艇搜索结果",
+        "matched_para_index": 620,
+        "actual_page": 34,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.2.4 随机游走目标模式下的单艇搜索结果",
+          "displayed_page": 34,
+          "range_page": 6,
+          "start": 11036,
+          "end": 11124
+        },
+        "matched_text": "5.2.4 随机游走目标模式下的单艇搜索结果",
+        "matched_para_index": 664,
+        "actual_page": 34,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3 双艇协同搜索实验",
+          "displayed_page": 35,
+          "range_page": 6,
+          "start": 11124,
+          "end": 11202
+        },
+        "matched_text": "5.3 双艇协同搜索实验",
+        "matched_para_index": 711,
+        "actual_page": 35,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3.1 实验目的",
+          "displayed_page": 35,
+          "range_page": 6,
+          "start": 11202,
+          "end": 11278
+        },
+        "matched_text": "5.3.1 实验目的",
+        "matched_para_index": 712,
+        "actual_page": 35,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3.2 实验设置",
+          "displayed_page": 36,
+          "range_page": 6,
+          "start": 11278,
+          "end": 11354
+        },
+        "matched_text": "5.3.2 实验设置",
+        "matched_para_index": 714,
+        "actual_page": 36,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3.3 静态目标模式下的双艇协同搜索结果",
+          "displayed_page": 36,
+          "range_page": 6,
+          "start": 11354,
+          "end": 11442
+        },
+        "matched_text": "5.3.3 静态目标模式下的双艇协同搜索结果",
+        "matched_para_index": 748,
+        "actual_page": 36,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3.4 随机游走目标模式下的双艇协同搜索结果",
+          "displayed_page": 37,
+          "range_page": 6,
+          "start": 11442,
+          "end": 11532
+        },
+        "matched_text": "5.3.4 随机游走目标模式下的双艇协同搜索结果",
+        "matched_para_index": 811,
+        "actual_page": 37,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.3.5 不同地图结构下的协同效果分析",
+          "displayed_page": 38,
+          "range_page": 6,
+          "start": 11532,
+          "end": 11618
+        },
+        "matched_text": "5.3.5 不同地图结构下的协同效果分析",
+        "matched_para_index": 876,
+        "actual_page": 38,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.4 anomaly-aware消融实验",
+          "displayed_page": 39,
+          "range_page": 6,
+          "start": 11618,
+          "end": 11705
+        },
+        "matched_text": "5.4 anomaly-aware消融实验",
+        "matched_para_index": 880,
+        "actual_page": 39,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.4.1 实验目的与变量控制",
+          "displayed_page": 39,
+          "range_page": 6,
+          "start": 11705,
+          "end": 11786
+        },
+        "matched_text": "5.4.1 实验目的与变量控制",
+        "matched_para_index": 881,
+        "actual_page": 39,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.4.2 单USV下 anomaly acquisition 的影响",
+          "displayed_page": 39,
+          "range_page": 6,
+          "start": 11786,
+          "end": 11887
+        },
+        "matched_text": "5.4.2 单 USV 下 anomaly acquisition 的影响",
+        "matched_para_index": 883,
+        "actual_page": 39,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "5.4.3 双USV coordinated下 anomaly acquisition 的影响",
+          "displayed_page": 40,
+          "range_page": 6,
+          "start": 11887,
+          "end": 12000
+        },
+        "matched_text": "5.4.3 双 USV coordinated 下 anomaly acquisition 的影响",
+        "matched_para_index": 912,
+        "actual_page": 40,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "6 总结与展望",
+          "displayed_page": 42,
+          "range_page": 6,
+          "start": 12136,
+          "end": 12209
+        },
+        "matched_text": "",
+        "matched_para_index": 153,
+        "actual_page": 6,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "6.1 课题总结",
+          "displayed_page": 42,
+          "range_page": 6,
+          "start": 12209,
+          "end": 12283
+        },
+        "matched_text": "6.1 课题总结",
+        "matched_para_index": 1064,
+        "actual_page": 42,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "TablesOfContents#1",
+          "text": "6.2 后续工作展望",
+          "displayed_page": 42,
+          "range_page": 6,
+          "start": 12283,
+          "end": 12359
+        },
+        "matched_text": "6.2 后续工作展望",
+        "matched_para_index": 1071,
+        "actual_page": 42,
+        "status": "ok"
+      }
+    ],
+    "figure_toc": [
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图2-1 已知静态地图下多源搜索场可视化",
+          "displayed_page": 12,
+          "range_page": 7,
+          "start": 12367,
+          "end": 12417
+        },
+        "matched_text": "图2-1 已知静态地图下多源搜索场可视化",
+        "matched_para_index": 319,
+        "actual_page": 12,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图3-1 Anchor 与 Viewpoint 的空间语义区分示意图",
+          "displayed_page": 18,
+          "range_page": 7,
+          "start": 12417,
+          "end": 12481
+        },
+        "matched_text": "图3-1 Anchor 与 Viewpoint 的空间语义区分示意图",
+        "matched_para_index": 389,
+        "actual_page": 18,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图3-2 A*算法在栅格地图中的搜索过程示意图",
+          "displayed_page": 21,
+          "range_page": 7,
+          "start": 12481,
+          "end": 12534
+        },
+        "matched_text": "图3-2 A*算法在栅格地图中的搜索过程示意图",
+        "matched_para_index": 410,
+        "actual_page": 20,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图3-3 单艇信息驱动安全路径规划总体流程图",
+          "displayed_page": 24,
+          "range_page": 7,
+          "start": 12534,
+          "end": 12586
+        },
+        "matched_text": "图3-3 单艇信息驱动安全路径规划总体流程图",
+        "matched_para_index": 449,
+        "actual_page": 24,
+        "status": "ok"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图4-1 静态软责任区先验可视化",
+          "displayed_page": 29,
+          "range_page": 7,
+          "start": 12586,
+          "end": 12632
+        },
+        "matched_text": "图4-1 静态软责任区先验可视化",
+        "matched_para_index": 494,
+        "actual_page": 27,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图4-2 residual_map 顺序分配过程",
+          "displayed_page": 30,
+          "range_page": 7,
+          "start": 12632,
+          "end": 12686
+        },
+        "matched_text": "图4-2 residual_map 顺序分配过程",
+        "matched_para_index": 513,
+        "actual_page": 29,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图5-1 实验采用的三类已知静态障碍地图",
+          "displayed_page": 33,
+          "range_page": 7,
+          "start": 12686,
+          "end": 12736
+        },
+        "matched_text": "图5-1 实验采用的三类已知静态障碍地图",
+        "matched_para_index": 551,
+        "actual_page": 32,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹",
+          "displayed_page": 36,
+          "range_page": 7,
+          "start": 12736,
+          "end": 12800
+        },
+        "matched_text": "图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹",
+        "matched_para_index": 710,
+        "actual_page": 35,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图5-3 双艇independent与coordinated模式下的协同行为指标对比",
+          "displayed_page": 39,
+          "range_page": 7,
+          "start": 12800,
+          "end": 12872
+        },
+        "matched_text": "图5-3 双艇independent与coordinated模式下的协同行为指标对比",
+        "matched_para_index": 872,
+        "actual_page": 38,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图5-4 双艇independent与coordinated模式下的搜索完成指标对比",
+          "displayed_page": 39,
+          "range_page": 7,
+          "start": 12872,
+          "end": 12944
+        },
+        "matched_text": "图5-4 双艇independent与coordinated模式下的搜索完成指标对比",
+        "matched_para_index": 874,
+        "actual_page": 38,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_图目录",
+          "text": "图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比",
+          "displayed_page": 41,
+          "range_page": 7,
+          "start": 12944,
+          "end": 13013
+        },
+        "matched_text": "图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比",
+        "matched_para_index": 941,
+        "actual_page": 40,
+        "status": "mismatch"
+      }
+    ],
+    "table_toc": [
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-1 评价指标",
+          "displayed_page": 34,
+          "range_page": 8,
+          "start": 13020,
+          "end": 13059
+        },
+        "matched_text": "表5-1 评价指标",
+        "matched_para_index": 559,
+        "actual_page": 33,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-2 单艇实验参数设置",
+          "displayed_page": 35,
+          "range_page": 8,
+          "start": 13059,
+          "end": 13102
+        },
+        "matched_text": "表5-2 单艇实验参数设置",
+        "matched_para_index": 592,
+        "actual_page": 34,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-3 静态目标模式下单艇 UCB 搜索结果",
+          "displayed_page": 35,
+          "range_page": 8,
+          "start": 13102,
+          "end": 13155
+        },
+        "matched_text": "表5-3 静态目标模式下单艇 UCB 搜索结果",
+        "matched_para_index": 622,
+        "actual_page": 34,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-4 随机游走目标模式下单艇 UCB 搜索结果",
+          "displayed_page": 36,
+          "range_page": 8,
+          "start": 13155,
+          "end": 13210
+        },
+        "matched_text": "表5-4 随机游走目标模式下单艇 UCB 搜索结果",
+        "matched_para_index": 666,
+        "actual_page": 35,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-5 双艇协同实验参数设置",
+          "displayed_page": 37,
+          "range_page": 8,
+          "start": 13210,
+          "end": 13255
+        },
+        "matched_text": "表5-5 双艇协同实验参数设置",
+        "matched_para_index": 716,
+        "actual_page": 36,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-6 静态目标模式下搜索任务完成程度的差值结果",
+          "displayed_page": 37,
+          "range_page": 8,
+          "start": 13255,
+          "end": 13310
+        },
+        "matched_text": "表5-6 静态目标模式下搜索任务完成程度的差值结果",
+        "matched_para_index": 750,
+        "actual_page": 36,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-7 静态目标模式下协同行为指标的差值结果",
+          "displayed_page": 37,
+          "range_page": 8,
+          "start": 13310,
+          "end": 13363
+        },
+        "matched_text": "表5-7 静态目标模式下协同行为指标的差值结果",
+        "matched_para_index": 782,
+        "actual_page": 36,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-8 随机游走目标模式下coordinated - independent差值结果",
+          "displayed_page": 38,
+          "range_page": 8,
+          "start": 13363,
+          "end": 13436
+        },
+        "matched_text": "表5-8 随机游走目标模式下coordinated - independent差值结果",
+        "matched_para_index": 812,
+        "actual_page": 37,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-9 随机游走目标模式下coordinated-independent差值结果",
+          "displayed_page": 38,
+          "range_page": 8,
+          "start": 13436,
+          "end": 13507
+        },
+        "matched_text": "表5-9 随机游走目标模式下coordinated-independent差值结果",
+        "matched_para_index": 844,
+        "actual_page": 37,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-10 单艇 anomaly_aware - UCB 差值结果",
+          "displayed_page": 40,
+          "range_page": 8,
+          "start": 13507,
+          "end": 13571
+        },
+        "matched_text": "表5-10 单艇 anomaly_aware - UCB 差值结果",
+        "matched_para_index": 885,
+        "actual_page": 39,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-11 双艇anomaly_aware-UCB差值结果",
+          "displayed_page": 41,
+          "range_page": 8,
+          "start": 13571,
+          "end": 13631
+        },
+        "matched_text": "表5-11 双艇anomaly_aware-UCB差值结果",
+        "matched_para_index": 913,
+        "actual_page": 40,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-12 不同地图中单艇 anomaly_aware-UCB差值结果",
+          "displayed_page": 42,
+          "range_page": 8,
+          "start": 13631,
+          "end": 13697
+        },
+        "matched_text": "表5-12 不同地图中单艇 anomaly_aware-UCB差值结果",
+        "matched_para_index": 944,
+        "actual_page": 41,
+        "status": "mismatch"
+      },
+      {
+        "entry": {
+          "source": "manual_after_表目录",
+          "text": "表5-13 不同地图中双艇anomaly_aware-UCB差值结果",
+          "displayed_page": 42,
+          "range_page": 8,
+          "start": 13697,
+          "end": 13762
+        },
+        "matched_text": "表5-13 不同地图中双艇anomaly_aware-UCB差值结果",
+        "matched_para_index": 1001,
+        "actual_page": 41,
+        "status": "mismatch"
+      }
+    ]
+  },
+  "paragraph_samples": [
+    {
+      "index": 1,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 0,
+      "end": 1
+    },
+    {
+      "index": 2,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1,
+      "end": 3
+    },
+    {
+      "index": 3,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 3,
+      "end": 4
+    },
+    {
+      "index": 4,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 4,
+      "end": 5
+    },
+    {
+      "index": 5,
+      "text": "本科毕业论文（设计）",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 5,
+      "end": 16
+    },
+    {
+      "index": 6,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 16,
+      "end": 17
+    },
+    {
+      "index": 7,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 17,
+      "end": 18
+    },
+    {
+      "index": 8,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 18,
+      "end": 19
+    },
+    {
+      "index": 9,
+      "text": "论文题目（中文）\t面向海上可疑目标搜索任务的多USV 决策优化方法研究",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 19,
+      "end": 71
+    },
+    {
+      "index": 10,
+      "text": "论文题目（英文）\tResearch on Decision-Making",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 71,
+      "end": 117
+    },
+    {
+      "index": 11,
+      "text": "Optimization for Multi-USV in Maritime                  \t Suspicious Target Search Missions",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 117,
+      "end": 230
+    },
+    {
+      "index": 12,
+      "text": "",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 230,
+      "end": 231
+    },
+    {
+      "index": 13,
+      "text": "",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 231,
+      "end": 232
+    },
+    {
+      "index": 14,
+      "text": "",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 232,
+      "end": 233
+    },
+    {
+      "index": 15,
+      "text": "",
+      "style": "正文文本",
+      "outline_level": 10,
+      "page": 1,
+      "start": 233,
+      "end": 234
+    },
+    {
+      "index": 16,
+      "text": "学生姓名:          郭一泽",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 234,
+      "end": 262
+    },
+    {
+      "index": 17,
+      "text": "指导教师:          汤书森        _",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 262,
+      "end": 290
+    },
+    {
+      "index": 18,
+      "text": "学院:    信息科学与工程学院",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 290,
+      "end": 310
+    },
+    {
+      "index": 19,
+      "text": "专业:    电子信息科学与技术",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 310,
+      "end": 330
+    },
+    {
+      "index": 20,
+      "text": "年级:           2022",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 330,
+      "end": 359
+    },
+    {
+      "index": 21,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 359,
+      "end": 360
+    },
+    {
+      "index": 22,
+      "text": "兰州大学教务处",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 360,
+      "end": 368
+    },
+    {
+      "index": 23,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 368,
+      "end": 369
+    },
+    {
+      "index": 24,
+      "text": "诚信责任书",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 369,
+      "end": 375
+    },
+    {
+      "index": 25,
+      "text": "本人郑重声明：本人所呈交的毕业论文（设计），是在导师的指导下独立进行研究所取得的成果。毕业论文（设计）中凡引用他人已经发表或未发表的成果、数据、观点等，均已明确注明出处。除文中已经注明引用的内容外，不包含任何其他个人、集体已经发表或未发表的论文。",
+      "style": "正文文本缩进",
+      "outline_level": 10,
+      "page": 2,
+      "start": 375,
+      "end": 499
+    },
+    {
+      "index": 26,
+      "text": "本声明的法律责任由本人承担。",
+      "style": "正文文本缩进",
+      "outline_level": 10,
+      "page": 2,
+      "start": 499,
+      "end": 514
+    },
+    {
+      "index": 27,
+      "text": "",
+      "style": "正文文本缩进",
+      "outline_level": 10,
+      "page": 2,
+      "start": 514,
+      "end": 515
+    },
+    {
+      "index": 28,
+      "text": "",
+      "style": "正文文本缩进",
+      "outline_level": 10,
+      "page": 2,
+      "start": 515,
+      "end": 516
+    },
+    {
+      "index": 29,
+      "text": "论文作者签名：                                日  期：",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 516,
+      "end": 575
+    },
+    {
+      "index": 30,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 575,
+      "end": 576
+    },
+    {
+      "index": 31,
+      "text": "关于毕业论文（设计）使用授权的声明",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 576,
+      "end": 594
+    },
+    {
+      "index": 32,
+      "text": "本人在导师指导下所完成的论文及相关的职务作品，知识产权归属兰州大学。本人完全了解兰州大学有关保存、使用毕业论文（设计）的规定，同意学校保存或向国家有关部门或机构送交论文的纸质版和电子版，允许论文被查阅和借阅；本人授权兰州大学可以将本毕业论文（设计）的全部或部分内容编入有关数据库进行检索，可以采用任何复制手段保存和汇编本毕业论文（设计）。本人离校后发表、使用毕业论文（设计）或与该毕业论文（设计）直接相关的学术论文或成果时，第一署名单位仍然为兰州大学。",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 594,
+      "end": 821
+    },
+    {
+      "index": 33,
+      "text": "本毕业论文（设计）研究内容：",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 821,
+      "end": 836
+    },
+    {
+      "index": 34,
+      "text": "□可以公开",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 836,
+      "end": 842
+    },
+    {
+      "index": 35,
+      "text": "□不宜公开，已在学位办公室办理保密申请，解密后适用本授权书。",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 842,
+      "end": 873
+    },
+    {
+      "index": 36,
+      "text": "（请在以上选项内选择其中一项打“√”）",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 873,
+      "end": 893
+    },
+    {
+      "index": 37,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 893,
+      "end": 894
+    },
+    {
+      "index": 38,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 894,
+      "end": 895
+    },
+    {
+      "index": 39,
+      "text": "论文作者签名：                           导师签名：",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 895,
+      "end": 951
+    },
+    {
+      "index": 40,
+      "text": "日        期：                           日    期：",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 951,
+      "end": 1010
+    },
+    {
+      "index": 41,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 1010,
+      "end": 1011
+    },
+    {
+      "index": 42,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 1011,
+      "end": 1012
+    },
+    {
+      "index": 43,
+      "text": "面向海上可疑目标搜索任务的多USV决策优化方法研究",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1012,
+      "end": 1038
+    },
+    {
+      "index": 44,
+      "text": "中文摘要",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1038,
+      "end": 1043
+    },
+    {
+      "index": 45,
+      "text": "海上可疑目标搜索任务通常面临目标位置未知、线索观测稀疏、障碍环境约束明显以及多艇协同关系复杂等问题。针对上述特点，本文研究已知静态障碍地图下的多无人艇信息驱动搜索决策方法，并以单艇搜索和双艇协同搜索作为主要研究对象。首先，本文构建由高斯过程线索场、目标强度场和观测时效性场组成的多源搜索状态表示，并进一步融合得到综合信息价值场，用于刻画当前海域中不同位置的搜索价值。在此基础上，本文提出单 USV 信息驱动安全路径规划方法，通过热点区域提取、Anchor 代表点选取、环形候选 Viewpoint 生成、Safe A* 路径生成和短时域路径段评分，实现从搜索信息场到可执行路径段的闭环决策。进一步地，本文将单艇方法扩展到双 USV 协同搜索场景，引入集中式共享团队状态、静态软责任区先验、residual_map 顺序分配、重复观测抑制和 reservation table 冲突安全执行机制，以提高双艇搜索过程中的信息互补性和执行安全性。实验在 open_water、obstacle_field 和 peninsula_passage 三类已知静态地图上进行，并分别考察静态目标和随机游走目标两种模式。结果表明，单艇方法能够在有限步数预算内稳定发现大部分目标；与 independent 模式相比，coordinated 双艇方法在多数场景下提高了搜索完成程度，并有效降低重复观测和路径交叉现象。此外，本文对 anomaly_aware 采集函数进行了消融分析，结果显示其在部分地图和目标运动模式下能够改善发现效率或完成率，但其收益受地图拓扑、路径可达性和协同分配机制共同影响。本文方法不依赖强化学习训练过程，具有较强的可解释性，为已知静态障碍环境下的多 USV 可疑目标搜索提供了一种可验证的基线方法。",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1043,
+      "end": 1798
+    },
+    {
+      "index": 46,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1798,
+      "end": 1799
+    },
+    {
+      "index": 47,
+      "text": "关键词：海上可疑目标搜索；信息驱动路径规划；高斯过程；双艇协同搜索；",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1799,
+      "end": 1834
+    },
+    {
+      "index": 48,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 1,
+      "start": 1834,
+      "end": 1836
+    },
+    {
+      "index": 49,
+      "text": "Research on Decision-Making Optimization for Multi-USV in Maritime Suspicious Target Search Missions",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 1836,
+      "end": 1937
+    },
+    {
+      "index": 50,
+      "text": "Abstract",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 1937,
+      "end": 1946
+    },
+    {
+      "index": 51,
+      "text": "The search task for suspicious maritime targets typically faces challenges such as unknown target positions, sparse clue observations, significant environmental constraints from obstacles, and complex coordination relationships among multiple USVs. Addressing these characteristics, this paper investigates an information-driven search decision-making method for multiple unmanned surface vehicles (USVs) under known static obstacle maps, focusing on single-USV search and dual-USV cooperative search as the main research subjects.",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 1946,
+      "end": 2478
+    },
+    {
+      "index": 52,
+      "text": "First, this paper constructs a multi-source search state representation consisting of a Gaussian process clue field, a target intensity field, and an observation timeliness field, which are further integrated into a comprehensive information value field to characterize the search value of different locations in the current sea area. On this basis, this paper proposes an information-driven safe path planning method for a single USV, which realizes closed-loop decision-making from the search information field to executable path segments through hot-spot extraction, anchor point selection, ring-shaped candidate viewpoint generation, safe A* path generation, and short-term path segment scoring.",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 2478,
+      "end": 3178
+    },
+    {
+      "index": 53,
+      "text": "Furthermore, this paper extends the single-USV method to the dual-USV cooperative search scenario, introducing a centralized shared team state, static soft responsibility zone priors, residual map sequential assignment, duplicate observation suppression, and a reservation table conflict-safe execution mechanism to improve information complementarity and execution safety during the dual-USV search process.",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 2,
+      "start": 3178,
+      "end": 3587
+    },
+    {
+      "index": 54,
+      "text": "Experiments are conducted on three types of known static maps: open water, obstacle field, and peninsula passage, examining both static targets and random-walk targets. The results show that the single-USV method can stably discover most targets within a limited step budget. Compared with the independent mode, the coordinated dual-USV method improves search completion in most scenarios and effectively reduces duplicate observations and path crossings. In addition, an ablation analysis of the anomaly_aware acquisition function is performed, and the results show that it can improve discovery efficiency or completion rate in some maps and target motion modes, but its benefits are jointly affected by map topology, path reachability, and the cooperative assignment mechanism. The proposed method does not rely on reinforcement learning training processes and has strong interpretability, providing a verifiable baseline approach for multi-USV suspicious target search in known static obstacle environments.",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 3,
+      "start": 3587,
+      "end": 4599
+    },
+    {
+      "index": 55,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 3,
+      "start": 4599,
+      "end": 4600
+    },
+    {
+      "index": 56,
+      "text": "Keywords: Suspicious Maritime Target Search; Information-Driven Path Planning; Gaussian Process (GP); Dual-USV Cooperative Search;",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 3,
+      "start": 4600,
+      "end": 4732
+    },
+    {
+      "index": 57,
+      "text": "",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 3,
+      "start": 4732,
+      "end": 4734
+    },
+    {
+      "index": 58,
+      "text": "目 录",
+      "style": "正文",
+      "outline_level": 10,
+      "page": 4,
+      "start": 4734,
+      "end": 4738
+    },
+    {
+      "index": 59,
+      "text": "1 绪 论\t1",
+      "style": "TOC 1",
+      "outline_level": 10,
+      "page": 6,
+      "start": 4738,
+      "end": 4847
+    },
+    {
+      "index": 60,
+      "text": "1.1 研究背景及意义\t1",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 4847,
+      "end": 4923
+    },
+    {
+      "index": 61,
+      "text": "1.2 国内外研究现状\t1",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 4923,
+      "end": 4999
+    },
+    {
+      "index": 62,
+      "text": "1.3 研究内容及论文结构\t2",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 4999,
+      "end": 5077
+    },
+    {
+      "index": 63,
+      "text": "2 场建模\t3",
+      "style": "TOC 1",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5077,
+      "end": 5147
+    },
+    {
+      "index": 64,
+      "text": "2.1 高斯过程回归\t3",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5147,
+      "end": 5222
+    },
+    {
+      "index": 65,
+      "text": "2.1.1 回归问题\t3",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5222,
+      "end": 5297
+    },
+    {
+      "index": 66,
+      "text": "2.1.2 多元高斯分布\t3",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5297,
+      "end": 5374
+    },
+    {
+      "index": 67,
+      "text": "2.1.3 核函数\t4",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5374,
+      "end": 5448
+    },
+    {
+      "index": 68,
+      "text": "2.1.4 后验预测\t5",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5448,
+      "end": 5523
+    },
+    {
+      "index": 69,
+      "text": "2.1.5 采集函数\t6",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5523,
+      "end": 5598
+    },
+    {
+      "index": 70,
+      "text": "2.1.6 Anomaly变体\t7",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5598,
+      "end": 5678
+    },
+    {
+      "index": 71,
+      "text": "2.2 目标Intensity场建模\t8",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5678,
+      "end": 5761
+    },
+    {
+      "index": 72,
+      "text": "2.2.1 初始化\t8",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5761,
+      "end": 5835
+    },
+    {
+      "index": 73,
+      "text": "2.2.2 目标运动预测\t9",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5835,
+      "end": 5912
+    },
+    {
+      "index": 74,
+      "text": "2.2.3 未命中观测更新\t9",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5912,
+      "end": 5990
+    },
+    {
+      "index": 75,
+      "text": "2.2.4 命中观测更新\t10",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 5990,
+      "end": 6068
+    },
+    {
+      "index": 76,
+      "text": "2.3 观测时效性\t10",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 6068,
+      "end": 6143
+    },
+    {
+      "index": 77,
+      "text": "2.4 综合信息价值场\t11",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 6143,
+      "end": 6220
+    },
+    {
+      "index": 78,
+      "text": "3 信息型路径规划\t13",
+      "style": "TOC 1",
+      "outline_level": 10,
+      "page": 4,
+      "start": 6220,
+      "end": 6295
+    },
+    {
+      "index": 79,
+      "text": "3.1 信息型路径规划理论基础\t13",
+      "style": "TOC 2",
+      "outline_level": 10,
+      "page": 4,
+      "start": 6295,
+      "end": 6376
+    },
+    {
+      "index": 80,
+      "text": "3.1.1 从几何路径规划到主动感知路径规划\t13",
+      "style": "TOC 3",
+      "outline_level": 10,
+      "page": 4,
+      "start": 6376,
+      "end": 6464
+    }
+  ]
+}

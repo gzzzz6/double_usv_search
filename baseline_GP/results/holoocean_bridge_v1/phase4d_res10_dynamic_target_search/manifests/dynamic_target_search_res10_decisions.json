@@ -1,0 +1,275 @@
+[
+  {
+    "step": 1,
+    "robot_pos_before": [
+      40,
+      40
+    ],
+    "segment_path_head": [
+      [
+        40,
+        40
+      ],
+      [
+        39,
+        40
+      ],
+      [
+        38,
+        40
+      ]
+    ],
+    "next_cell": [
+      39,
+      40
+    ],
+    "final_projected_cell": [
+      39,
+      40
+    ],
+    "ticks": 76,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.988807338663069,
+    "distance_to_target_cells_after": 9.486832980505138,
+    "intensity_mass_before": 0.9999999999999998,
+    "intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_before": 1.0068331772523353,
+    "peak_intensity_after": 1.010186949142552,
+    "found_count": 0
+  },
+  {
+    "step": 2,
+    "robot_pos_before": [
+      39,
+      40
+    ],
+    "segment_path_head": [
+      [
+        39,
+        40
+      ],
+      [
+        38,
+        40
+      ],
+      [
+        37,
+        40
+      ]
+    ],
+    "next_cell": [
+      38,
+      40
+    ],
+    "final_projected_cell": [
+      38,
+      40
+    ],
+    "ticks": 113,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.951529680488518,
+    "distance_to_target_cells_after": 8.54400374531753,
+    "intensity_mass_before": 1.0000000000000002,
+    "intensity_mass_after": 1.0,
+    "peak_intensity_before": 1.010186949142552,
+    "peak_intensity_after": 1.0123581976092841,
+    "found_count": 0
+  },
+  {
+    "step": 3,
+    "robot_pos_before": [
+      38,
+      40
+    ],
+    "segment_path_head": [
+      [
+        38,
+        40
+      ],
+      [
+        37,
+        40
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "next_cell": [
+      37,
+      40
+    ],
+    "final_projected_cell": [
+      37,
+      40
+    ],
+    "ticks": 89,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.953339866581034,
+    "distance_to_target_cells_after": 7.615773105863909,
+    "intensity_mass_before": 1.0,
+    "intensity_mass_after": 1.0,
+    "peak_intensity_before": 1.0123581976092841,
+    "peak_intensity_after": 1.0141290840264567,
+    "found_count": 0
+  },
+  {
+    "step": 4,
+    "robot_pos_before": [
+      37,
+      40
+    ],
+    "segment_path_head": [
+      [
+        37,
+        40
+      ],
+      [
+        36,
+        40
+      ],
+      [
+        35,
+        40
+      ]
+    ],
+    "next_cell": [
+      36,
+      40
+    ],
+    "final_projected_cell": [
+      36,
+      40
+    ],
+    "ticks": 69,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.889857963625847,
+    "distance_to_target_cells_after": 6.708203932499369,
+    "intensity_mass_before": 1.0,
+    "intensity_mass_after": 0.9999999999999991,
+    "peak_intensity_before": 1.0141290840264567,
+    "peak_intensity_after": 1.0157771468336187,
+    "found_count": 0
+  },
+  {
+    "step": 5,
+    "robot_pos_before": [
+      36,
+      40
+    ],
+    "segment_path_head": [
+      [
+        36,
+        40
+      ],
+      [
+        35,
+        40
+      ],
+      [
+        34,
+        40
+      ]
+    ],
+    "next_cell": [
+      35,
+      40
+    ],
+    "final_projected_cell": [
+      35,
+      40
+    ],
+    "ticks": 96,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.940184718292401,
+    "distance_to_target_cells_after": 5.830951894845301,
+    "intensity_mass_before": 0.9999999999999991,
+    "intensity_mass_after": 1.0000000000000004,
+    "peak_intensity_before": 1.0157771468336187,
+    "peak_intensity_after": 1.0173929094072043,
+    "found_count": 0
+  },
+  {
+    "step": 6,
+    "robot_pos_before": [
+      35,
+      40
+    ],
+    "segment_path_head": [
+      [
+        35,
+        40
+      ],
+      [
+        34,
+        40
+      ],
+      [
+        33,
+        40
+      ]
+    ],
+    "next_cell": [
+      34,
+      40
+    ],
+    "final_projected_cell": [
+      34,
+      40
+    ],
+    "ticks": 87,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.9487959467906535,
+    "distance_to_target_cells_after": 5.0,
+    "intensity_mass_before": 1.0000000000000004,
+    "intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_before": 1.0173929094072043,
+    "peak_intensity_after": 1.0190034430417194,
+    "found_count": 0
+  },
+  {
+    "step": 7,
+    "robot_pos_before": [
+      34,
+      40
+    ],
+    "segment_path_head": [
+      [
+        34,
+        40
+      ],
+      [
+        33,
+        40
+      ],
+      [
+        32,
+        40
+      ]
+    ],
+    "next_cell": [
+      33,
+      40
+    ],
+    "final_projected_cell": [
+      33,
+      40
+    ],
+    "ticks": 71,
+    "arrived": true,
+    "timeout": false,
+    "distance_to_waypoint_m": 4.973776265975478,
+    "distance_to_target_cells_after": 4.242640687119285,
+    "intensity_mass_before": 0.9999999999999998,
+    "intensity_mass_after": 0.0,
+    "peak_intensity_before": 1.0190034430417194,
+    "peak_intensity_after": 0.0,
+    "found_count": 1
+  }
+]

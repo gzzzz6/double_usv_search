@@ -1,0 +1,77 @@
+{
+  "scenario_name": "dual_surfacevessel_res10_smoke",
+  "map_id": "openwater_open_res10_v1",
+  "world": "OpenWater",
+  "package_name": "Ocean",
+  "cell_size_m": 10.0,
+  "origin_world_xy": [
+    -400.0,
+    400.0
+  ],
+  "agents": [
+    {
+      "name": "sv0",
+      "type": "SurfaceVessel",
+      "control_scheme": 0,
+      "sensors": [
+        "GPSSensor",
+        "LocationSensor",
+        "OrientationSensor"
+      ],
+      "start_cell": [
+        40,
+        35
+      ],
+      "waypoints": [
+        [
+          39,
+          35
+        ],
+        [
+          39,
+          36
+        ],
+        [
+          40,
+          36
+        ],
+        [
+          40,
+          35
+        ]
+      ]
+    },
+    {
+      "name": "sv1",
+      "type": "SurfaceVessel",
+      "control_scheme": 0,
+      "sensors": [
+        "GPSSensor",
+        "LocationSensor",
+        "OrientationSensor"
+      ],
+      "start_cell": [
+        40,
+        45
+      ],
+      "waypoints": [
+        [
+          41,
+          45
+        ],
+        [
+          41,
+          44
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          40,
+          45
+        ]
+      ]
+    }
+  ]
+}

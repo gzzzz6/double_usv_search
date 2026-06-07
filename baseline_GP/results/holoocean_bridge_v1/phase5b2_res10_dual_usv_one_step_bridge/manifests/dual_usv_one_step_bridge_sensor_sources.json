@@ -1,0 +1,19 @@
+{
+  "sv0_selected_sensor_counts": {
+    "LocationSensor": 76,
+    "GPSSensor": 0,
+    "last_known": 0
+  },
+  "sv1_selected_sensor_counts": {
+    "LocationSensor": 76,
+    "GPSSensor": 0,
+    "last_known": 0
+  },
+  "sv0_fallback_count": 0,
+  "sv1_fallback_count": 0,
+  "total_ticks": 76,
+  "location_sensor_integrity_ratio": {
+    "sv0": 1.0,
+    "sv1": 1.0
+  }
+}

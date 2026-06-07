@@ -1,0 +1,29 @@
+=== Phase 4B: Launching 10m Fast Waypoint Controller Smoke ===
+Bi-directional coordinate roundtrip checks passed for all cells.
+Launching simulator...
+
+Waypoint 1/4 -> Target Grid: (40, 41) (World: 10.0, 0.0)
+  SV Arrived: True in 44 ticks. Min Dist: 4.90m. Final Dist: 4.90m.
+
+Waypoint 2/4 -> Target Grid: (41, 41) (World: 10.0, -10.0)
+  SV Arrived: True in 73 ticks. Min Dist: 4.96m. Final Dist: 4.96m.
+
+Waypoint 3/4 -> Target Grid: (41, 40) (World: 0.0, -10.0)
+  SV Arrived: True in 70 ticks. Min Dist: 4.89m. Final Dist: 4.89m.
+
+Waypoint 4/4 -> Target Grid: (40, 40) (World: 0.0, 0.0)
+  SV Arrived: True in 67 ticks. Min Dist: 4.93m. Final Dist: 4.93m.
+
+==========================================
+10m Fast Controller Smoke Completed!
+  Total waypoints  : 4
+  Total ticks      : 254
+  Wall time        : 16.61s
+  Mean ticks/wp    : 63.5
+==========================================
+Tick trace CSV saved to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\manifests\fast_controller_res10_trace.csv
+Tick trace JSON saved to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\manifests\fast_controller_res10_trace.json
+Waypoint summary JSON saved to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\manifests\fast_controller_res10_waypoint_summary.json
+Summary report written to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\reports\fast_controller_res10_summary.md
+Preview map saved to: baseline_GP\results\holoocean_bridge_v1\phase4b_res10_fast_controller_smoke\visuals\fast_controller_res10_path.png
+Phase 4B smoke complete!

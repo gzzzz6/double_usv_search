@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "checks": {
+    "res10_json_exists": true,
+    "res10_npz_exists": true,
+    "v1_json_exists": true,
+    "v1_npz_exists": true,
+    "v1_json_unmodified": true,
+    "v1_json_actual_hash": "0525c4fa6d67e5779a77cec28d635f1ff8fbf899563598d250ed8fe7a6f31e6e",
+    "v1_npz_unmodified": true,
+    "v1_npz_actual_hash": "dc9a80366ba2ccf008a9292830922f621491a9599731f84404bbe64d04bf3924",
+    "res10_cell_size_is_10": true,
+    "res10_origin_is_correct": true,
+    "res10_grid_shape_is_81": true,
+    "res10_occupied_count_is_320": true,
+    "res10_free_count_is_6241": true,
+    "res10_grid_shape_match": true,
+    "coordinate_roundtrip_passed": true,
+    "policy_adapter_no_holoocean_import": true,
+    "build_script_no_holoocean_import": true,
+    "policy_adapter_retired_old_params": true,
+    "policy_adapter_active_new_params": true,
+    "no_dynamic_loader_injections": true
+  }
+}

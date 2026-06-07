@@ -1,0 +1,101 @@
+{
+  "map_id": "openwater_open_res10_v1",
+  "world": "OpenWater",
+  "package_name": "Ocean",
+  "grid_shape": [
+    81,
+    81
+  ],
+  "cell_size_m": 10.0,
+  "origin_world_xy": [
+    -400.0,
+    400.0
+  ],
+  "water_surface_z": 0.0,
+  "free_count": 6241,
+  "occupied_count": 320,
+  "forbidden_holoocean_import": false,
+  "created_files": [
+    "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.json",
+    "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+    "baseline_GP\\results\\holoocean_bridge_v1\\phase4a_res10_bridge_sync\\manifests\\openwater_open_res10_v1_manifest.json",
+    "baseline_GP\\results\\holoocean_bridge_v1\\phase4a_res10_bridge_sync\\visuals\\openwater_open_res10_v1_preview.png"
+  ],
+  "roundtrip_checks": [
+    {
+      "cell": [
+        40,
+        40
+      ],
+      "world_coord": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "back_to_cell": [
+        40,
+        40
+      ],
+      "passed": true
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "world_coord": [
+        -400.0,
+        400.0,
+        0.0
+      ],
+      "back_to_cell": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "cell": [
+        80,
+        80
+      ],
+      "world_coord": [
+        400.0,
+        -400.0,
+        0.0
+      ],
+      "back_to_cell": [
+        80,
+        80
+      ],
+      "passed": true
+    }
+  ],
+  "files": {
+    "specification_json": {
+      "path": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.json",
+      "sha256": "2f0c28048a0584cda3c0f3109775a5437447b747a70751ef500be25ce9264af0"
+    },
+    "compressed_npz": {
+      "path": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+      "sha256": "b33a4e8114e5b57a234eda19aae27df9043c7f6f309a728b7fb69450f2c5af02"
+    },
+    "preview_png": {
+      "path": "baseline_GP\\results\\holoocean_bridge_v1\\phase4a_res10_bridge_sync\\visuals\\openwater_open_res10_v1_preview.png"
+    }
+  },
+  "coordinate_mapping": {
+    "cell_size_m": 10.0,
+    "origin_world_xy": [
+      -400.0,
+      400.0
+    ],
+    "water_surface_z": 0.0,
+    "bounds": {
+      "xmin": -400.0,
+      "xmax": 400.0,
+      "ymin": -400.0,
+      "ymax": 400.0
+    }
+  }
+}

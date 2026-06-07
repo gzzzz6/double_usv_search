@@ -1,0 +1,46 @@
+=== Running Phase 5B-2 One-Step Bridge Audit Check ===
+Audit Result: PASSED
+  - probe_json_exists: True
+  - trace_json_exists: True
+  - trace_csv_exists: True
+  - summary_json_exists: True
+  - sensor_json_exists: True
+  - collision_json_exists: True
+  - config_json_exists: True
+  - summary_md_exists: True
+  - paths_png_exists: True
+  - probe_json_parse_ok: True
+  - summary_json_parse_ok: True
+  - trace_json_parse_ok: True
+  - sv0_start_is_25_2: True
+  - sv1_start_is_35_2: True
+  - sv0_target_is_24_2: True
+  - sv1_target_is_35_3: True
+  - map_id_is_res10: True
+  - resolution_m_is_10: True
+  - sensor_range_m_is_50: True
+  - exactly_two_usvs: True
+  - smoke_script_readable: True
+  - no_sonar_sensor: True
+  - no_camera_sensor: True
+  - no_env_step_calls: True
+  - planner_intensity_input_allowed: True
+  - no_dynamic_string_bypass: True
+  - no_post_holoocean_belief_update: True
+  - no_target_detection_closed_loop: True
+  - uses_env_act_and_tick: True
+  - sv0_arrived: True
+  - sv1_arrived: True
+  - zero_timeouts: True
+  - sv0_matches_alg: True
+  - sv1_matches_alg: True
+  - sv0_final_dist_ok: True
+  - sv1_final_dist_ok: True
+  - ticks_within_bounds: True
+  - min_separation_ge_30m: True
+  - zero_collision_fails: True
+  - selected_sensor_keys_valid: True
+  - no_modified_algorithm_files: True
+  - pre_existing_dirty_state_logged: True
+Saved audit JSON results: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\manifests\dual_usv_one_step_bridge_audit.json
+Saved audit report summary: baseline_GP\results\holoocean_bridge_v1\phase5b2_res10_dual_usv_one_step_bridge\reports\dual_usv_one_step_bridge_audit_summary.md

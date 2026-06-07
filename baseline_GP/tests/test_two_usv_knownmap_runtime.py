@@ -764,7 +764,10 @@ def test_two_usv_contract_file_freezes_expected_surface() -> None:
     assert contract["schema_version"] == "knownmap_2usv_v1"
     assert contract["frozen_config"]["map_height_cells"] == 60
     assert contract["frozen_config"]["map_width_cells"] == 80
-    assert contract["frozen_config"]["clue_sigma_m"] == 15.0
+    assert contract["frozen_config"]["resolution_m"] == 10.0
+    assert contract["frozen_config"]["sensor_range_m"] == 50.0
+    assert contract["frozen_config"]["gp_length_scale_m"] == 40.0
+    assert contract["frozen_config"]["clue_sigma_m"] == 30.0
     assert contract["frozen_config"]["fixed_launch_positions"] == [[25, 2], [35, 2]]
     assert "cross_region_assignment_ratio" in contract["frozen_summary_keys"]
     assert "wait_count_total" in contract["frozen_summary_keys"]

@@ -156,3 +156,52 @@ def test_scene_map_world_bounds():
     assert bounds["xmax"] == 200.0  # -200 + (81-1)*5 = 200
     assert bounds["ymin"] == -200.0  # 200 - (81-1)*5 = -200
     assert bounds["ymax"] == 200.0
+
+
+def test_openwater_res10_spec():
+    """Verify res10 json/npz exists and spec matches."""
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    res10_json_path = os.path.normpath(os.path.join(current_dir, "..", "holoocean_bridge", "maps", "openwater_open_res10_v1.json"))
+    res10_npz_path = os.path.normpath(os.path.join(current_dir, "..", "holoocean_bridge", "maps", "openwater_open_res10_v1.npz"))
+
+    assert os.path.exists(res10_json_path), f"Spec file not found at {res10_json_path}"
+    assert os.path.exists(res10_npz_path), f"NPZ file not found at {res10_npz_path}"
+
+    spec = load_scene_map_spec(res10_json_path)
+    assert spec["map_id"] == "openwater_open_res10_v1"
+    assert spec["world"] == "OpenWater"
+    assert spec["package_name"] == "Ocean"
+    assert spec["cell_size_m"] == 10.0
+    assert spec["origin_world_xy"] == [-400.0, 400.0]
+    assert spec["water_surface_z"] == 0.0
+    assert spec["height"] == 81
+    assert spec["width"] == 81
+    assert spec["boundary_occupied"] is True
+
+    grid, loaded_spec = load_scene_map_npz(res10_npz_path)
+    assert grid.shape == (81, 81)
+    assert loaded_spec == spec
+
+
+def test_openwater_res10_coordinate_mapping():
+    """Verify grid cells map correctly under res10 config."""
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    res10_json_path = os.path.normpath(os.path.join(current_dir, "..", "holoocean_bridge", "maps", "openwater_open_res10_v1.json"))
+    spec = load_scene_map_spec(res10_json_path)
+    config = scene_map_config_from_spec(spec)
+
+    # test boundaries & center
+    c_w = grid_to_world((40, 40), config)
+    np.testing.assert_allclose(c_w, [0.0, 0.0, 0.0], atol=1e-7)
+
+    tl_w = grid_to_world((0, 0), config)
+    np.testing.assert_allclose(tl_w, [-400.0, 400.0, 0.0], atol=1e-7)
+
+    br_w = grid_to_world((80, 80), config)
+    np.testing.assert_allclose(br_w, [400.0, -400.0, 0.0], atol=1e-7)
+
+    # world to grid
+    assert world_to_grid([0.0, 0.0, 0.0], config, (81, 81)) == (40, 40)
+    assert world_to_grid([-400.0, 400.0, 0.0], config, (81, 81)) == (0, 0)
+    assert world_to_grid([400.0, -400.0, 0.0], config, (81, 81)) == (80, 80)
+

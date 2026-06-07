@@ -1,0 +1,3 @@
+usv_id,robot_pos_before,committed_segment_before_execution,segment_len_before,commit_remaining_before,next_cell_algorithm,wait_applied,holoocean_target_cell_for_phase5b
+0,"[25, 2]","[[25, 2], [24, 2], [23, 2], [22, 2], [21, 2], [20, 2], [19, 2], [18, 2], [17, 2]]",9,4,"[24, 2]",False,"[24, 2]"
+1,"[35, 2]","[[35, 2], [35, 3], [35, 4], [35, 5], [35, 6], [35, 7], [35, 8], [35, 9], [35, 10]]",9,4,"[35, 3]",False,"[35, 3]"

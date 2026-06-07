@@ -1,0 +1,169 @@
+{
+  "sv0_robot_pos_before": [
+    25,
+    2
+  ],
+  "sv1_robot_pos_before": [
+    35,
+    2
+  ],
+  "sv0_committed_segment_before_execution": [
+    [
+      25,
+      2
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      23,
+      2
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      19,
+      2
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      17,
+      2
+    ]
+  ],
+  "sv1_committed_segment_before_execution": [
+    [
+      35,
+      2
+    ],
+    [
+      35,
+      3
+    ],
+    [
+      35,
+      4
+    ],
+    [
+      35,
+      5
+    ],
+    [
+      35,
+      6
+    ],
+    [
+      35,
+      7
+    ],
+    [
+      35,
+      8
+    ],
+    [
+      35,
+      9
+    ],
+    [
+      35,
+      10
+    ]
+  ],
+  "sv0_next_cell_algorithm": [
+    24,
+    2
+  ],
+  "sv1_next_cell_algorithm": [
+    35,
+    3
+  ],
+  "sv0_wait_applied": false,
+  "sv1_wait_applied": false,
+  "sv0_holoocean_target_cell": [
+    24,
+    2
+  ],
+  "sv1_holoocean_target_cell": [
+    35,
+    3
+  ],
+  "sv0_start_world": [
+    -380.0,
+    150.0,
+    2.0
+  ],
+  "sv1_start_world": [
+    -380.0,
+    50.0,
+    2.0
+  ],
+  "sv0_target_world": [
+    -380.0,
+    160.0,
+    0.0
+  ],
+  "sv1_target_world": [
+    -370.0,
+    50.0,
+    0.0
+  ],
+  "sv0_final_world": [
+    -379.4666442871094,
+    155.0399627685547,
+    0.22895704209804535
+  ],
+  "sv1_final_world": [
+    -370.1361389160156,
+    50.0,
+    0.16643589735031128
+  ],
+  "sv0_final_projected_cell": [
+    24,
+    2
+  ],
+  "sv1_final_projected_cell": [
+    35,
+    3
+  ],
+  "sv0_final_projected_matches_algorithm_target": true,
+  "sv1_final_projected_matches_algorithm_target": true,
+  "sv0_final_distance_to_target_m": 4.988630839598852,
+  "sv1_final_distance_to_target_m": 0.136138916015625,
+  "total_ticks": 76,
+  "sv0_arrived": true,
+  "sv1_arrived": true,
+  "timeout_count": 0,
+  "min_inter_vessel_distance_m": 99.99850463462172,
+  "collision_warning_ticks": 0,
+  "collision_fail_ticks": 0,
+  "selected_sensor_counts_by_agent": {
+    "sv0": {
+      "LocationSensor": 76,
+      "GPSSensor": 0,
+      "last_known": 0
+    },
+    "sv1": {
+      "LocationSensor": 76,
+      "GPSSensor": 0,
+      "last_known": 0
+    }
+  },
+  "fallback_count_by_agent": {
+    "sv0": 0,
+    "sv1": 0
+  }
+}

@@ -36,7 +36,7 @@ POST_AVOIDANCE_EPISODE_SEEDS = tuple(range(10))
 POST_AVOIDANCE_CLUE_MODES = ("ucb", "anomaly_upper_tail")
 POST_AVOIDANCE_MAP_HEIGHT_CELLS = 40
 POST_AVOIDANCE_MAP_WIDTH_CELLS = 60
-POST_AVOIDANCE_CLUE_SIGMA_M = 15.0
+POST_AVOIDANCE_CLUE_SIGMA_M = 30.0
 POST_AVOIDANCE_ANOMALY_TAIL_QUANTILE = 0.90
 POST_AVOIDANCE_ANOMALY_WEIGHT_LAMBDA = 1.25
 DEFAULT_POST_AVOIDANCE_MOTION_MODE = "static"
@@ -524,7 +524,7 @@ def run_single_usv_post_avoidance_anomaly_comparison(
     base_episode_kwargs["map_height_cells"] = POST_AVOIDANCE_MAP_HEIGHT_CELLS
     base_episode_kwargs["map_width_cells"] = POST_AVOIDANCE_MAP_WIDTH_CELLS
     base_episode_kwargs["clue_sigma_m"] = POST_AVOIDANCE_CLUE_SIGMA_M
-    base_episode_kwargs["resolution_m"] = 5.0
+    base_episode_kwargs["resolution_m"] = 10.0
     base_episode_kwargs["anomaly_tail_quantile"] = float(anomaly_tail_quantile)
     base_episode_kwargs["anomaly_weight_lambda"] = float(anomaly_weight_lambda)
     base_episode_kwargs["viewpoint_generation_mode"] = POST_AVOIDANCE_VIEWPOINT_GENERATION_MODE

@@ -45,7 +45,7 @@ from baseline_GP.holoocean_bridge.scene_map_adapter import load_scene_map_npz, s
 
 
 def load_openwater_policy_state(
-    map_spec_npz_path: str,
+    map_spec_npz_path: Optional[str] = None,
     episode_seed: int = 0,
     policy_name: str = "marine_knownmap_path_v2_infosampled",
     n_targets: int = 3,
@@ -59,6 +59,11 @@ def load_openwater_policy_state(
     Enforces that the starting position is exactly (1, 1).
     """
     # 1. Load the scene-derived openwater static grid
+    if map_spec_npz_path is None:
+        import os
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        map_spec_npz_path = os.path.join(current_dir, "maps", "openwater_open_res10_v1.npz")
+
     nav_map_prior, spec = load_scene_map_npz(map_spec_npz_path)
     adapter_config = scene_map_config_from_spec(spec)
 
@@ -74,15 +79,15 @@ def load_openwater_policy_state(
         target_count_upper_bound=n_targets,
         staleness_tau_steps=12,
         resolution_m=float(spec["cell_size_m"]),
-        sensor_range_m=25.0,
-        min_target_separation_m=30.0,
-        min_start_distance_m=40.0,
-        gp_length_scale_m=20.0,
+        sensor_range_m=50.0,
+        min_target_separation_m=60.0,
+        min_start_distance_m=80.0,
+        gp_length_scale_m=40.0,
         gp_noise_std=0.03,
         gp_prior_mean=0.0,
         gp_beta=0.5,
         gp_optimize_hyperparams=gp_optimize_hyperparams,
-        clue_sigma_m=20.0,
+        clue_sigma_m=40.0,
         clue_amplitude=2.0,
         clue_noise_std=0.03,
         search_info_clue_weight=0.5,

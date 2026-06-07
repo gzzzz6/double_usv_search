@@ -1,0 +1,19 @@
+{
+  "found": true,
+  "found_step": 41,
+  "terminated_reason": "all_found",
+  "actual_steps": 41,
+  "total_ticks": 3784,
+  "final_sv_cell": [
+    39,
+    52
+  ],
+  "final_target_cell": [
+    40,
+    55
+  ],
+  "final_distance_to_target_cells": 3.1622776601683795,
+  "unique_observed_target_cells_count": 8,
+  "target_cell_changed": true,
+  "target_cross_grid_motion_valid": true
+}

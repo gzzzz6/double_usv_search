@@ -1,0 +1,126 @@
+docx	F:\pythonprojects\信息科学与工程学院_320220938891_郭一泽.docx
+total_pages	60
+counts	{'title_toc': 93, 'figure_toc': 11, 'table_toc': 13}
+
+## title_toc
+ok	shown=1	actual=1	1 绪 论	match=第一章 绪 论
+ok	shown=1	actual=1	1.1 研究背景及意义	match=1.1 研究背景及意义
+ok	shown=1	actual=1	1.2 国内外研究现状	match=1.2 国内外研究现状
+ok	shown=2	actual=2	1.3 研究内容及论文结构	match=1.3 研究内容及论文结构
+mismatch	shown=3	actual=2	2 场建模	match=论文后续章节按照“场建模—单艇路径规划—双艇协同决策—实验验证”的逻辑展开。场建模部分给出GP clue、target intensity、recency与综合信息价值场的构造方法；单艇路径规划部分说明已知静态地图下的信息驱动安全路径段生成与滚动重规划机制；双艇协同部分说明共享团队状态、软责任区、顺序分配和冲突安全执行逻辑；实验部分基于不同地图、目标运动模式和采集函数设置，对单艇基线、双艇协同方法和anomaly-aware acquisition变体进行验证与分析。
+ok	shown=3	actual=3	2.1 高斯过程回归	match=2.1 高斯过程回归
+ok	shown=3	actual=3	2.1.1 回归问题	match=2.1.1 回归问题
+ok	shown=3	actual=3	2.1.2 多元高斯分布	match=2.1.2 多元高斯分布
+ok	shown=4	actual=4	2.1.3 核函数	match=2.1.3 核函数
+mismatch	shown=5	actual=4	2.1.4 后验预测	match=核函数𝑘(𝑥,𝑥,)的本质是定义任意两个输入点处潜在函数值之间的协方差结构，即它决定了模型如何刻画空间相关性、平滑性以及观测之间的相互影响关系。Rasmussen和Williams指出，在高斯过程模型中，协方差函数或核函数直接编码了对未知函数形态的先验假设，因此核函数的选择会显著影响后验预测结果[9]。
+mismatch	shown=6	actual=2	2.1.5 采集函数	match=信息型路径规划（Informative Path Planning,IPP）为该类问题提供了更合适的理论视角。IPP通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而GP-UCB等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常检测和分位数估计也被引入环境监测型IPP，用于突出上尾异常区域或高风险区域[11][12]。这些研究共同说明，目标搜索路径规划应从几何覆盖转向任务相关信息价值评估。
+ok	shown=7	actual=7	2.1.6 Anomaly变体	match=2.1.6 Anomaly变体
+ok	shown=8	actual=8	2.2 目标Intensity场建模	match=2.2 目标Intensity场建模
+ok	shown=8	actual=8	2.2.1 初始化	match=2.2.1 初始化
+mismatch	shown=9	actual=8	2.2.2 目标运动预测	match=与GP clue场主要依赖带噪观测进行回归不同，Intensity场的更新依赖于搜索过程中的行为与观测结果，即目标运动预测、未命中观测更新以及命中后质量移除。因而，Intensity场承担的是“剩余目标空间分布信念”的建模角色，而不是环境线索的统计回归角色。
+mismatch	shown=9	actual=8	2.2.3 未命中观测更新	match=与GP clue场主要依赖带噪观测进行回归不同，Intensity场的更新依赖于搜索过程中的行为与观测结果，即目标运动预测、未命中观测更新以及命中后质量移除。因而，Intensity场承担的是“剩余目标空间分布信念”的建模角色，而不是环境线索的统计回归角色。
+mismatch	shown=10	actual=8	2.2.4 命中观测更新	match=与GP clue场主要依赖带噪观测进行回归不同，Intensity场的更新依赖于搜索过程中的行为与观测结果，即目标运动预测、未命中观测更新以及命中后质量移除。因而，Intensity场承担的是“剩余目标空间分布信念”的建模角色，而不是环境线索的统计回归角色。
+mismatch	shown=10	actual=1	2.3 观测时效性	match=在此背景下，本文给出了一个在已知静态障碍地图、未知目标位置和有限传感器覆盖范围条件下，使USV的运动服务于目标相关信息获取，而不仅仅服务于几何距离最短或区域覆盖最大的可疑目标搜索的决策算法。本文所用的方法可使路径规划器同时考虑线索场、目标强度、观测时效性和避障安全，并在每轮决策中选择能够带来较高搜索价值的短时域路径段。
+mismatch	shown=11	actual=2	2.4 综合信息价值场	match=围绕上述问题，本文首先构建面向海上可疑目标搜索的场模型，将弱线索观测、目标强度分布和观测时效性统一到综合信息价值场中，为后续路径决策提供任务相关的信息状态表示。其次，本文在已知静态障碍地图下设计单USV信息驱动安全路径规划方法，通过热点区域提取、anchor代表点选取、候选viewpoint生成、safe-nav A*路径生成和短时域路径段评分，实现从信息场到可执行路径段的闭环决策。
+mismatch	shown=13	actual=1	3 信息型路径规划	match=信息型路径规划（Informative Path Planning,IPP）为该类问题提供了更合适的理论视角。IPP通常在运动预算约束下选择能够最大化信息收益的路径，其信息收益可以来自环境模型不确定性的下降、目标存在概率的更新或任务相关观测价值的提升[6][7][8]。在概率建模方面，高斯过程为稀疏线索观测下的空间场估计提供了可解释的后验均值与不确定性描述[9]，而GP-UCB等采集函数进一步将均值收益和不确定性探索统一到路径选择之前的信息排序中[10]。近年来，异常检测和分位数估计也被引入环境监测型IPP，用于突出上尾异常区域或高风险区域[11][12]。这些研究共同说明，目标搜索路径规划应从几何覆盖转向任务相关信息价值评估。
+ok	shown=13	actual=13	3.1 信息型路径规划理论基础	match=3.1 信息型路径规划理论基础
+ok	shown=13	actual=13	3.1.1 从几何路径规划到主动感知路径规划	match=3.1.1 从几何路径规划到主动感知路径规划
+ok	shown=13	actual=13	3.1.2 EPP与IPP的区别	match=3.1.2 EPP与IPP的区别
+ok	shown=13	actual=13	3.1.3 信息收益、运动代价与预算约束的一般形式	match=3.1.3 信息收益、运动代价与预算约束的一般形式
+ok	shown=14	actual=14	3.1.4 在线自适应信息型路径规划	match=3.1.4 在线自适应信息型路径规划
+ok	shown=14	actual=14	3.1.5 本文研究内容	match=3.1.5 本文研究内容
+ok	shown=15	actual=15	3.2 问题定义	match=3.2 问题定义
+ok	shown=15	actual=15	3.2.1 静态地图定义	match=3.2.1 静态地图定义
+ok	shown=15	actual=15	3.2.2 USV状态与传感器	match=3.2.2 USV状态与传感器
+ok	shown=15	actual=15	3.2.3 问题表述	match=3.2.3 问题表述
+mismatch	shown=15	actual=2	3.3 热点区域提取	match=围绕上述问题，本文首先构建面向海上可疑目标搜索的场模型，将弱线索观测、目标强度分布和观测时效性统一到综合信息价值场中，为后续路径决策提供任务相关的信息状态表示。其次，本文在已知静态障碍地图下设计单USV信息驱动安全路径规划方法，通过热点区域提取、anchor代表点选取、候选viewpoint生成、safe-nav A*路径生成和短时域路径段评分，实现从信息场到可执行路径段的闭环决策。
+ok	shown=15	actual=15	3.3.1 热点阈值与热点簇定义	match=3.3.1 热点阈值与热点簇定义
+ok	shown=16	actual=16	3.3.2 热点簇评分	match=3.3.2 热点簇评分
+mismatch	shown=16	actual=2	3.3.3 Anchor代表点选取	match=围绕上述问题，本文首先构建面向海上可疑目标搜索的场模型，将弱线索观测、目标强度分布和观测时效性统一到综合信息价值场中，为后续路径决策提供任务相关的信息状态表示。其次，本文在已知静态障碍地图下设计单USV信息驱动安全路径规划方法，通过热点区域提取、anchor代表点选取、候选viewpoint生成、safe-nav A*路径生成和短时域路径段评分，实现从信息场到可执行路径段的闭环决策。
+ok	shown=17	actual=17	3.4 观测点选择	match=3.4 观测点选择
+ok	shown=17	actual=17	3.4.1 Viewpoint定义	match=3.4.1 Viewpoint定义
+ok	shown=17	actual=17	3.4.2 环形观测点生成	match=3.4.2 环形观测点生成
+ok	shown=18	actual=18	3.4.3 观测点的观测价值排序	match=3.4.3 观测点的观测价值排序
+ok	shown=19	actual=19	3.5 短时域路径段生成	match=3.5 短时域路径段生成
+ok	shown=19	actual=19	3.5.1 到候选观测点的路径生成	match=3.5.1 到候选观测点的路径生成
+ok	shown=19	actual=19	3.5.2 栅格地图下的A*路径生成	match=3.5.2 栅格地图下的A*路径生成
+ok	shown=21	actual=21	3.5.3 障碍安全膨胀后的A*安全路径生成	match=3.5.3 障碍安全膨胀后的A*安全路径生成
+ok	shown=21	actual=21	3.5.4 短时域路径段截断	match=此节中的A*路径生成并不直接决定哪个候选viewpoint最优，也不直接改变综合信息价值场的语义。它只用于判断某个候选viewpoint是否可达，并为后续短时域路径段截断提供完整路径。最终USV执行哪一段路径，仍由后续候选路径段评分函数根据搜索信息收益、观测刷新收益、执行代价和掉头惩罚统一决定。
+ok	shown=22	actual=22	3.6 短路径段综合评分函数	match=3.6 短路径段综合评分函数
+ok	shown=22	actual=22	3.6.1 短路径段评分计算	match=3.6.1 短路径段评分计算
+ok	shown=22	actual=22	3.6.2 探索收益、搜索信息收益与观测刷新收益	match=3.6.2 探索收益、搜索信息收益与观测刷新收益
+mismatch	shown=23	actual=12	3.6.3 执行代价	match=具体的候选路径生成、路径评分和执行代价设计将在下一章中展开。
+ok	shown=23	actual=23	3.6.4 最终综合评分	match=本文将新区域覆盖收益与搜索信息收益合并为search_info_gain，是因为二者共同描述路径段对当前搜索任务的新增有效观测贡献。其中，新区域覆盖收益强调“看更多尚未看过的区域”，搜索信息收益强调“看更有价值的区域”。二者合并后形成路径段的综合搜索信息增益。观测刷新收益recency_bias则单独刻画对旧观测区域的时效性刷新，因此不并入search_info_gain，而作为独立评分项进入最终综合评分。
+ok	shown=23	actual=23	3.7 在线滚动执行与重规划机制	match=3.7 在线滚动执行与重规划机制
+ok	shown=24	actual=24	4 多USV协同搜索决策方法及双艇实现	match=第四章 多USV协同搜索决策方法及双艇实现
+ok	shown=24	actual=24	4.1 多艇协同信息型路径规划原理	match=4.1 多艇协同信息型路径规划原理
+ok	shown=24	actual=24	4.1.1 从单艇信息型路径规划到多艇协同规划	match=4.1.1 从单艇信息型路径规划到多艇协同规划
+ok	shown=25	actual=25	4.1.2 团队信息收益	match=4.1.2 团队信息收益
+ok	shown=25	actual=25	4.1.3 多艇协同中的分工、冗余与冲突	match=4.1.3 多艇协同中的分工、冗余与冲突
+ok	shown=26	actual=26	4.2 双艇已知地图搜索问题定义	match=4.2 双艇已知地图搜索问题定义
+ok	shown=26	actual=26	4.2.1 已知静态地图与双艇搜索任务	match=4.2.1 已知静态地图与双艇搜索任务
+ok	shown=26	actual=26	4.2.2集中式编队共享状态	match=4.2.2集中式编队共享状态
+ok	shown=26	actual=26	4.3 静态责任区先验	match=4.3 静态责任区先验
+ok	shown=26	actual=26	4.3.1 基于距离的责任区划分	match=4.3.1 基于距离的责任区划分
+ok	shown=27	actual=27	4.3.2 缓冲带与责任分数定义	match=4.3.2 缓冲带与责任分数定义
+ok	shown=27	actual=27	4.3.3 综合信息价值场的责任区偏置	match=4.3.3 综合信息价值场的责任区偏置
+ok	shown=28	actual=28	4.4 顺序分配式双艇协同路径规划	match=4.4 顺序分配式双艇协同路径规划
+mismatch	shown=28	actual=2	4.4.1 顺序分配	match=在单艇方法基础上，本文进一步研究多 USV 协同搜索的基本形式，并以双艇系统作为最小非平凡协同场景。双艇方法在共享GP clue、target intensity、recency和综合信息价值场的基础上，引入静态软责任区先验、顺序分配式residual planning、重复覆盖抑制和 reservation-based冲突安全执行机制，用于提高两艇路径段之间的信息互补性和执行安全性。
+ok	shown=28	actual=28	4.4.2 residual_map与重叠区域定义	match=4.4.2 residual_map与重叠区域定义
+ok	shown=29	actual=29	4.5 艇间冲突代价与reservation table	match=4.5 艇间冲突代价与reservation table
+ok	shown=30	actual=30	4.6 团队联合评分与双路径段选择	match=4.6 团队联合评分与双路径段选择
+ok	shown=30	actual=30	4.6.1 单艇短路径段评分的沿用	match=4.6.1 单艇短路径段评分的沿用
+ok	shown=30	actual=30	4.6.2 同观测点抑制	match=4.6.2 同观测点抑制
+ok	shown=30	actual=30	4.6.3 重复观测惩罚	match=4.6.3 重复观测惩罚
+ok	shown=30	actual=30	4.6.4 最优双路径段选择	match=4.6.4 最优双路径段选择
+ok	shown=32	actual=32	5 实验设计与结果分析	match=第五章 实验设计与结果分析
+ok	shown=32	actual=32	5.1 实验设置	match=5.1 实验设置
+ok	shown=32	actual=32	5.1.1 仿真环境与地图设置	match=5.1.1 仿真环境与地图设置
+ok	shown=32	actual=32	5.1.2 目标与线索场设置	match=5.1.2 目标与线索场设置
+mismatch	shown=33	actual=8	5.1.3 评价指标	match=表5-1 评价指标	34
+ok	shown=33	actual=33	5.2 单 USV 已知地图搜索任务实验	match=5.2 单 USV 已知地图搜索任务实验
+ok	shown=33	actual=33	5.2.1 实验概述	match=5.2.1 实验概述
+mismatch	shown=34	actual=32	5.2.2 实验设置	match=5.1 实验设置
+ok	shown=34	actual=34	5.2.3 静态目标模式下的单艇搜索结果	match=5.2.3 静态目标模式下的单艇搜索结果
+ok	shown=34	actual=34	5.2.4 随机游走目标模式下的单艇搜索结果	match=5.2.4 随机游走目标模式下的单艇搜索结果
+mismatch	shown=35	actual=34	5.3 双艇协同搜索实验	match=由表5-3可见，在static目标模式下，单艇搜索任务的success_all_found为50.0%。最终detection_rate为83.3%。这表明本文构建的单艇信息驱动搜索方法具备基本任务可行性，虽然部分episode未能发现全部目标，但较高的最终探测率说明该方法能够在多数情况下有效缩小搜索不确定性，为后续双艇协同搜索实验提供了单艇基线基础。
+ok	shown=35	actual=35	5.3.1 实验目的	match=5.3.1 实验目的
+mismatch	shown=36	actual=32	5.3.2 实验设置	match=5.1 实验设置
+ok	shown=36	actual=36	5.3.3 静态目标模式下的双艇协同搜索结果	match=5.3.3 静态目标模式下的双艇协同搜索结果
+ok	shown=37	actual=37	5.3.4 随机游走目标模式下的双艇协同搜索结果	match=5.3.4 随机游走目标模式下的双艇协同搜索结果
+ok	shown=38	actual=38	5.3.5 不同地图结构下的协同效果分析	match=5.3.5 不同地图结构下的协同效果分析
+ok	shown=39	actual=39	5.4 anomaly-aware消融实验	match=5.4 anomaly-aware消融实验
+ok	shown=39	actual=39	5.4.1 实验目的与变量控制	match=5.4.1 实验目的与变量控制
+unmatched	shown=39	actual=None	5.4.2 单USV下 anomaly acquisition 的影响	match=None
+unmatched	shown=40	actual=None	5.4.3 双USV coordinated下 anomaly acquisition 的影响	match=None
+ok	shown=42	actual=42	6 总结与展望	match=第六章 总结与展望
+ok	shown=42	actual=42	6.1 课题总结	match=6.1 课题总结
+ok	shown=42	actual=42	6.2 后续工作展望	match=6.2 后续工作展望
+
+## figure_toc
+mismatch	shown=12	actual=11	图2-1 已知静态地图下多源搜索场可视化	match=如图2-1 展示了单艇在 obstacle_field 地图下某一运行时刻的多源搜索状态。图中分别给出了综合信息价值场、GP clue UCB 场、target intensity 场和 recency bias 场。灰色区域表示已知静态障碍物，蓝色圆点表示 USV 当前位置，红色叉号表示当前候选观测点，粉色菱形表示当前 anchor，青色轨迹表示 USV 已执行路径或当前局部路径信息。
+ok	shown=18	actual=18	图3-1 Anchor 与 Viewpoint 的空间语义区分示意图	match=如图3-1展示了本文中anchor与viewpoint的空间结构。anchor表示由综合信息价值场提取出的热点区域代表点，用于指示当前更值得观测的目标区域；viewpoint则表示 USV 实际前往的观测位置。规划器并不要求 USV 直接驶向anchor，而是在anchor周围生成一组满足自由空间、可达性和传感器覆盖条件的候选viewpoint，并选择其中评分较高的观测点作为路径规划目标。图中绿色折线为当前提交的短时域路径段，虚线为通向viewpoint的后续路径。
+mismatch	shown=21	actual=20	图3-2 A*算法在栅格地图中的搜索过程示意图	match=如图3-2为𝐴∗算法在栅格地图中的基本搜索过程。图中灰色区域表示不可通行障碍物，绿色方格为起点，橙色方格为目标点；浅绿色区域表示已加入待扩展集合的Open集，浅蓝色区域表示已经完成扩展的Closed集。算法从起点开始，根据当前累计路径代价与到目标点的启发式估计代价综合选择下一步扩展节点，并在障碍物约束下逐步逼近目标点。其中黄色折线为最终回溯得到的可行路径。
+ok	shown=24	actual=24	图3-3 单艇信息驱动安全路径规划总体流程图	match=如图3-3为本文单艇信息驱动安全路径规划的总体流程。
+mismatch	shown=29	actual=27	图4-1 静态软责任区先验可视化	match=如下图4-1给出了open_water、obstacle_field和peninsula_passage三张实验地图上的静态软责任区先验。蓝色区域表示USV0的责任区域，橙色区域表示USV1的责任区域，灰色区域表示距离差较小的buffer band。责任边界由两艇固定起点到自由格的已知地图可达距离决定，在障碍或通道结构存在时，责任区域随可航空间发生变形。
+mismatch	shown=30	actual=28	图4-2 residual_map 顺序分配过程	match=如图4-2为obstacle_field场景下一次coordinated分配中的residual_map变化。第一艇在共享综合信息价值场上规划后，其路径段可见区域被从临时残差信息图中置零；第二艇随后在残差信息图上规划，从而降低对已分配观测区域的重复关注。
+mismatch	shown=33	actual=32	图5-1 实验采用的三类已知静态障碍地图	match=如图5-1为本文实验采用的三类已知静态障碍地图。三类地图均由自由水域与静态障碍物组成，其中白色区域表示USV可通行的free区域，黑色区域表示静态障碍物或地图边界。open_water仅包含边界约束，用于表示障碍较少、路径可达性较高的开阔水域场景；obstacle_field在水域中布置多个离散矩形障碍物，用于检验搜索策略在局部绕行下的执行能力；peninsula_passage包含半岛式障碍和局部通道结构，用于构造更明显的拓扑约束和绕行代价。
+mismatch	shown=36	actual=35	图5-2 单 USV 在不同地图与目标运动模式下的 UCB 搜索轨迹	match=如图5-2为单艇在UCB采集函数下的六组典型运行轨迹，其中三列分别对应 open_water、obstacle_field 和 peninsula_passage 三类已知静态地图，上下两行分别对应 static 和 random_walk 两类目标运动模式。图中青色折线表示 USV 已执行轨迹，绿色线段表示当前提交执行的短时域路径段，蓝色圆点表示 USV 当前所在位置，黄色叉号表示当前选定的viewpoint，紫色菱形表示对应 anchor，星形符号表示目标状态。
+mismatch	shown=39	actual=38	图5-3 双艇independent与coordinated模式下的协同行为指标对比	match=图5-3 双艇independent与coordinated模式下的协同行为指标对比
+mismatch	shown=39	actual=38	图5-4 双艇independent与coordinated模式下的搜索完成指标对比	match=图5-4 双艇independent与coordinated模式下的搜索完成指标对比
+mismatch	shown=41	actual=40	图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比	match=图5-5 UCB 与 anomaly_aware 方法的全部目标发现成功率对比
+
+## table_toc
+mismatch	shown=34	actual=33	表5-1 评价指标	match=表5-1 评价指标
+mismatch	shown=35	actual=34	表5-2 单艇实验参数设置	match=表5-2 单艇实验参数设置
+mismatch	shown=35	actual=34	表5-3 静态目标模式下单艇 UCB 搜索结果	match=表5-3 静态目标模式下单艇 UCB 搜索结果
+mismatch	shown=36	actual=35	表5-4 随机游走目标模式下单艇 UCB 搜索结果	match=表5-4 随机游走目标模式下单艇 UCB 搜索结果
+mismatch	shown=37	actual=36	表5-5 双艇协同实验参数设置	match=表5-5 双艇协同实验参数设置
+mismatch	shown=37	actual=36	表5-6 静态目标模式下搜索任务完成程度的差值结果	match=表5-6 静态目标模式下搜索任务完成程度的差值结果
+mismatch	shown=37	actual=36	表5-7 静态目标模式下协同行为指标的差值结果	match=表5-7 静态目标模式下协同行为指标的差值结果
+mismatch	shown=38	actual=37	表5-8 随机游走目标模式下coordinated - independent差值结果	match=表5-8 随机游走目标模式下coordinated - independent差值结果
+mismatch	shown=38	actual=37	表5-9 随机游走目标模式下coordinated-independent差值结果	match=表5-9 随机游走目标模式下coordinated-independent差值结果
+mismatch	shown=40	actual=39	表5-10 单艇 anomaly_aware - UCB 差值结果	match=表5-10 单艇 anomaly_aware - UCB 差值结果
+mismatch	shown=41	actual=40	表5-11 双艇anomaly_aware-UCB差值结果	match=表5-11 双艇anomaly_aware-UCB差值结果
+mismatch	shown=42	actual=41	表5-12 不同地图中单艇 anomaly_aware-UCB差值结果	match=表5-12 不同地图中单艇 anomaly_aware-UCB差值结果
+mismatch	shown=42	actual=41	表5-13 不同地图中双艇anomaly_aware-UCB差值结果	match=表5-13 不同地图中双艇anomaly_aware-UCB差值结果

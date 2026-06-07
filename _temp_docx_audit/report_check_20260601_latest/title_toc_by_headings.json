@@ -1,0 +1,1034 @@
+{
+  "docx": "F:\\pythonprojects\\信息科学与工程学院_320220938891_郭一泽.docx",
+  "total_pages": 60,
+  "toc_entries": 93,
+  "heading_candidates": 94,
+  "status_counts": {
+    "ok": 93
+  },
+  "comparisons": [
+    {
+      "entry": {
+        "text": "1 绪 论",
+        "displayed_page": 1
+      },
+      "status": "ok",
+      "actual_page": 1,
+      "matched_heading": "第一章 绪 论",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "1.1 研究背景及意义",
+        "displayed_page": 1
+      },
+      "status": "ok",
+      "actual_page": 1,
+      "matched_heading": "1.1 研究背景及意义",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "1.2 国内外研究现状",
+        "displayed_page": 1
+      },
+      "status": "ok",
+      "actual_page": 1,
+      "matched_heading": "1.2 国内外研究现状",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "1.3 研究内容及论文结构",
+        "displayed_page": 2
+      },
+      "status": "ok",
+      "actual_page": 2,
+      "matched_heading": "1.3 研究内容及论文结构",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2 场建模",
+        "displayed_page": 3
+      },
+      "status": "ok",
+      "actual_page": 3,
+      "matched_heading": "第二章 场建模",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "2.1 高斯过程回归",
+        "displayed_page": 3
+      },
+      "status": "ok",
+      "actual_page": 3,
+      "matched_heading": "2.1 高斯过程回归",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.1 回归问题",
+        "displayed_page": 3
+      },
+      "status": "ok",
+      "actual_page": 3,
+      "matched_heading": "2.1.1 回归问题",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.2 多元高斯分布",
+        "displayed_page": 3
+      },
+      "status": "ok",
+      "actual_page": 3,
+      "matched_heading": "2.1.2 多元高斯分布",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.3 核函数",
+        "displayed_page": 4
+      },
+      "status": "ok",
+      "actual_page": 4,
+      "matched_heading": "2.1.3 核函数",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.4 后验预测",
+        "displayed_page": 5
+      },
+      "status": "ok",
+      "actual_page": 5,
+      "matched_heading": "2.1.4 后验预测",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.5 采集函数",
+        "displayed_page": 6
+      },
+      "status": "ok",
+      "actual_page": 6,
+      "matched_heading": "2.1.5 采集函数",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.1.6 Anomaly变体",
+        "displayed_page": 7
+      },
+      "status": "ok",
+      "actual_page": 7,
+      "matched_heading": "2.1.6 Anomaly变体",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.2 目标Intensity场建模",
+        "displayed_page": 8
+      },
+      "status": "ok",
+      "actual_page": 8,
+      "matched_heading": "2.2 目标Intensity场建模",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.2.1 初始化",
+        "displayed_page": 8
+      },
+      "status": "ok",
+      "actual_page": 8,
+      "matched_heading": "2.2.1 初始化",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.2.2 目标运动预测",
+        "displayed_page": 9
+      },
+      "status": "ok",
+      "actual_page": 9,
+      "matched_heading": "2.2.2 目标运动预测",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.2.3 未命中观测更新",
+        "displayed_page": 9
+      },
+      "status": "ok",
+      "actual_page": 9,
+      "matched_heading": "2.2.3 未命中观测更新",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.2.4 命中观测更新",
+        "displayed_page": 10
+      },
+      "status": "ok",
+      "actual_page": 10,
+      "matched_heading": "2.2.4 命中观测更新",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.3 观测时效性",
+        "displayed_page": 10
+      },
+      "status": "ok",
+      "actual_page": 10,
+      "matched_heading": "2.3 观测时效性",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "2.4 综合信息价值场",
+        "displayed_page": 11
+      },
+      "status": "ok",
+      "actual_page": 11,
+      "matched_heading": "2.4 综合信息价值场",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3 信息型路径规划",
+        "displayed_page": 13
+      },
+      "status": "ok",
+      "actual_page": 13,
+      "matched_heading": "第三章 信息型路径规划",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "3.1 信息型路径规划理论基础",
+        "displayed_page": 13
+      },
+      "status": "ok",
+      "actual_page": 13,
+      "matched_heading": "3.1 信息型路径规划理论基础",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.1.1 从几何路径规划到主动感知路径规划",
+        "displayed_page": 13
+      },
+      "status": "ok",
+      "actual_page": 13,
+      "matched_heading": "3.1.1 从几何路径规划到主动感知路径规划",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.1.2 EPP与IPP的区别",
+        "displayed_page": 13
+      },
+      "status": "ok",
+      "actual_page": 13,
+      "matched_heading": "3.1.2 EPP与IPP的区别",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.1.3 信息收益、运动代价与预算约束的一般形式",
+        "displayed_page": 13
+      },
+      "status": "ok",
+      "actual_page": 13,
+      "matched_heading": "3.1.3 信息收益、运动代价与预算约束的一般形式",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.1.4 在线自适应信息型路径规划",
+        "displayed_page": 14
+      },
+      "status": "ok",
+      "actual_page": 14,
+      "matched_heading": "3.1.4 在线自适应信息型路径规划",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.1.5 本文研究内容",
+        "displayed_page": 14
+      },
+      "status": "ok",
+      "actual_page": 14,
+      "matched_heading": "3.1.5 本文研究内容",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.2 问题定义",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.2 问题定义",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.2.1 静态地图定义",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.2.1 静态地图定义",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.2.2 USV状态与传感器",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.2.2 USV状态与传感器",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.2.3 问题表述",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.2.3 问题表述",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.3 热点区域提取",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.3 热点区域提取",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.3.1 热点阈值与热点簇定义",
+        "displayed_page": 15
+      },
+      "status": "ok",
+      "actual_page": 15,
+      "matched_heading": "3.3.1 热点阈值与热点簇定义",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.3.2 热点簇评分",
+        "displayed_page": 16
+      },
+      "status": "ok",
+      "actual_page": 16,
+      "matched_heading": "3.3.2 热点簇评分",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.3.3 Anchor代表点选取",
+        "displayed_page": 16
+      },
+      "status": "ok",
+      "actual_page": 16,
+      "matched_heading": "3.3.3 Anchor代表点选取",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.4 观测点选择",
+        "displayed_page": 17
+      },
+      "status": "ok",
+      "actual_page": 17,
+      "matched_heading": "3.4 观测点选择",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.4.1 Viewpoint定义",
+        "displayed_page": 17
+      },
+      "status": "ok",
+      "actual_page": 17,
+      "matched_heading": "3.4.1 Viewpoint定义",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.4.2 环形观测点生成",
+        "displayed_page": 17
+      },
+      "status": "ok",
+      "actual_page": 17,
+      "matched_heading": "3.4.2 环形观测点生成",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.4.3 观测点的观测价值排序",
+        "displayed_page": 18
+      },
+      "status": "ok",
+      "actual_page": 18,
+      "matched_heading": "3.4.3 观测点的观测价值排序",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.5 短时域路径段生成",
+        "displayed_page": 19
+      },
+      "status": "ok",
+      "actual_page": 19,
+      "matched_heading": "3.5 短时域路径段生成",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.5.1 到候选观测点的路径生成",
+        "displayed_page": 19
+      },
+      "status": "ok",
+      "actual_page": 19,
+      "matched_heading": "3.5.1 到候选观测点的路径生成",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.5.2 栅格地图下的A*路径生成",
+        "displayed_page": 19
+      },
+      "status": "ok",
+      "actual_page": 19,
+      "matched_heading": "3.5.2 栅格地图下的A*路径生成",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.5.3 障碍安全膨胀后的A*安全路径生成",
+        "displayed_page": 21
+      },
+      "status": "ok",
+      "actual_page": 21,
+      "matched_heading": "3.5.3 障碍安全膨胀后的A*安全路径生成",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.5.4 短时域路径段截断",
+        "displayed_page": 21
+      },
+      "status": "ok",
+      "actual_page": 21,
+      "matched_heading": "3.5.4 短时域路径段截断",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.6 短路径段综合评分函数",
+        "displayed_page": 22
+      },
+      "status": "ok",
+      "actual_page": 22,
+      "matched_heading": "3.6 短路径段综合评分函数",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.6.1 短路径段评分计算",
+        "displayed_page": 22
+      },
+      "status": "ok",
+      "actual_page": 22,
+      "matched_heading": "3.6.1 短路径段评分计算",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.6.2 探索收益、搜索信息收益与观测刷新收益",
+        "displayed_page": 22
+      },
+      "status": "ok",
+      "actual_page": 22,
+      "matched_heading": "3.6.2 探索收益、搜索信息收益与观测刷新收益",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.6.3 执行代价",
+        "displayed_page": 23
+      },
+      "status": "ok",
+      "actual_page": 23,
+      "matched_heading": "3.6.3 执行代价",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.6.4 最终综合评分",
+        "displayed_page": 23
+      },
+      "status": "ok",
+      "actual_page": 23,
+      "matched_heading": "3.6.4 最终综合评分",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "3.7 在线滚动执行与重规划机制",
+        "displayed_page": 23
+      },
+      "status": "ok",
+      "actual_page": 23,
+      "matched_heading": "3.7 在线滚动执行与重规划机制",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4 多USV协同搜索决策方法及双艇实现",
+        "displayed_page": 24
+      },
+      "status": "ok",
+      "actual_page": 24,
+      "matched_heading": "第四章 多USV协同搜索决策方法及双艇实现",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "4.1 多艇协同信息型路径规划原理",
+        "displayed_page": 24
+      },
+      "status": "ok",
+      "actual_page": 24,
+      "matched_heading": "4.1 多艇协同信息型路径规划原理",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.1.1 从单艇信息型路径规划到多艇协同规划",
+        "displayed_page": 24
+      },
+      "status": "ok",
+      "actual_page": 24,
+      "matched_heading": "4.1.1 从单艇信息型路径规划到多艇协同规划",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.1.2 团队信息收益",
+        "displayed_page": 25
+      },
+      "status": "ok",
+      "actual_page": 25,
+      "matched_heading": "4.1.2 团队信息收益",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.1.3 多艇协同中的分工、冗余与冲突",
+        "displayed_page": 25
+      },
+      "status": "ok",
+      "actual_page": 25,
+      "matched_heading": "4.1.3 多艇协同中的分工、冗余与冲突",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.2 双艇已知地图搜索问题定义",
+        "displayed_page": 26
+      },
+      "status": "ok",
+      "actual_page": 26,
+      "matched_heading": "4.2 双艇已知地图搜索问题定义",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.2.1 已知静态地图与双艇搜索任务",
+        "displayed_page": 26
+      },
+      "status": "ok",
+      "actual_page": 26,
+      "matched_heading": "4.2.1 已知静态地图与双艇搜索任务",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.2.2集中式编队共享状态",
+        "displayed_page": 26
+      },
+      "status": "ok",
+      "actual_page": 26,
+      "matched_heading": "4.2.2集中式编队共享状态",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.3 静态责任区先验",
+        "displayed_page": 26
+      },
+      "status": "ok",
+      "actual_page": 26,
+      "matched_heading": "4.3 静态责任区先验",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.3.1 基于距离的责任区划分",
+        "displayed_page": 26
+      },
+      "status": "ok",
+      "actual_page": 26,
+      "matched_heading": "4.3.1 基于距离的责任区划分",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.3.2 缓冲带与责任分数定义",
+        "displayed_page": 27
+      },
+      "status": "ok",
+      "actual_page": 27,
+      "matched_heading": "4.3.2 缓冲带与责任分数定义",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.3.3 综合信息价值场的责任区偏置",
+        "displayed_page": 27
+      },
+      "status": "ok",
+      "actual_page": 27,
+      "matched_heading": "4.3.3 综合信息价值场的责任区偏置",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.4 顺序分配式双艇协同路径规划",
+        "displayed_page": 28
+      },
+      "status": "ok",
+      "actual_page": 28,
+      "matched_heading": "4.4 顺序分配式双艇协同路径规划",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.4.1 顺序分配",
+        "displayed_page": 28
+      },
+      "status": "ok",
+      "actual_page": 28,
+      "matched_heading": "4.4.1 顺序分配",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.4.2 residual_map与重叠区域定义",
+        "displayed_page": 28
+      },
+      "status": "ok",
+      "actual_page": 28,
+      "matched_heading": "4.4.2 residual_map与重叠区域定义",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.5 艇间冲突代价与reservation table",
+        "displayed_page": 29
+      },
+      "status": "ok",
+      "actual_page": 29,
+      "matched_heading": "4.5 艇间冲突代价与reservation table",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.6 团队联合评分与双路径段选择",
+        "displayed_page": 30
+      },
+      "status": "ok",
+      "actual_page": 30,
+      "matched_heading": "4.6 团队联合评分与双路径段选择",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.6.1 单艇短路径段评分的沿用",
+        "displayed_page": 30
+      },
+      "status": "ok",
+      "actual_page": 30,
+      "matched_heading": "4.6.1 单艇短路径段评分的沿用",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.6.2 同观测点抑制",
+        "displayed_page": 30
+      },
+      "status": "ok",
+      "actual_page": 30,
+      "matched_heading": "4.6.2 同观测点抑制",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.6.3 重复观测惩罚",
+        "displayed_page": 30
+      },
+      "status": "ok",
+      "actual_page": 30,
+      "matched_heading": "4.6.3 重复观测惩罚",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "4.6.4 最优双路径段选择",
+        "displayed_page": 30
+      },
+      "status": "ok",
+      "actual_page": 30,
+      "matched_heading": "4.6.4 最优双路径段选择",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5 实验设计与结果分析",
+        "displayed_page": 32
+      },
+      "status": "ok",
+      "actual_page": 32,
+      "matched_heading": "第五章 实验设计与结果分析",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "5.1 实验设置",
+        "displayed_page": 32
+      },
+      "status": "ok",
+      "actual_page": 32,
+      "matched_heading": "5.1 实验设置",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.1.1 仿真环境与地图设置",
+        "displayed_page": 32
+      },
+      "status": "ok",
+      "actual_page": 32,
+      "matched_heading": "5.1.1 仿真环境与地图设置",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.1.2 目标与线索场设置",
+        "displayed_page": 32
+      },
+      "status": "ok",
+      "actual_page": 32,
+      "matched_heading": "5.1.2 目标与线索场设置",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.1.3 评价指标",
+        "displayed_page": 33
+      },
+      "status": "ok",
+      "actual_page": 33,
+      "matched_heading": "5.1.3 评价指标",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.2 单 USV 已知地图搜索任务实验",
+        "displayed_page": 33
+      },
+      "status": "ok",
+      "actual_page": 33,
+      "matched_heading": "5.2 单 USV 已知地图搜索任务实验",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.2.1 实验概述",
+        "displayed_page": 33
+      },
+      "status": "ok",
+      "actual_page": 33,
+      "matched_heading": "5.2.1 实验概述",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.2.2 实验设置",
+        "displayed_page": 34
+      },
+      "status": "ok",
+      "actual_page": 34,
+      "matched_heading": "5.2.2 实验设置",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.2.3 静态目标模式下的单艇搜索结果",
+        "displayed_page": 34
+      },
+      "status": "ok",
+      "actual_page": 34,
+      "matched_heading": "5.2.3 静态目标模式下的单艇搜索结果",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.2.4 随机游走目标模式下的单艇搜索结果",
+        "displayed_page": 34
+      },
+      "status": "ok",
+      "actual_page": 34,
+      "matched_heading": "5.2.4 随机游走目标模式下的单艇搜索结果",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3 双艇协同搜索实验",
+        "displayed_page": 35
+      },
+      "status": "ok",
+      "actual_page": 35,
+      "matched_heading": "5.3 双艇协同搜索实验",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3.1 实验目的",
+        "displayed_page": 35
+      },
+      "status": "ok",
+      "actual_page": 35,
+      "matched_heading": "5.3.1 实验目的",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3.2 实验设置",
+        "displayed_page": 36
+      },
+      "status": "ok",
+      "actual_page": 36,
+      "matched_heading": "5.3.2 实验设置",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3.3 静态目标模式下的双艇协同搜索结果",
+        "displayed_page": 36
+      },
+      "status": "ok",
+      "actual_page": 36,
+      "matched_heading": "5.3.3 静态目标模式下的双艇协同搜索结果",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3.4 随机游走目标模式下的双艇协同搜索结果",
+        "displayed_page": 37
+      },
+      "status": "ok",
+      "actual_page": 37,
+      "matched_heading": "5.3.4 随机游走目标模式下的双艇协同搜索结果",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.3.5 不同地图结构下的协同效果分析",
+        "displayed_page": 38
+      },
+      "status": "ok",
+      "actual_page": 38,
+      "matched_heading": "5.3.5 不同地图结构下的协同效果分析",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.4 anomaly-aware消融实验",
+        "displayed_page": 39
+      },
+      "status": "ok",
+      "actual_page": 39,
+      "matched_heading": "5.4 anomaly-aware消融实验",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.4.1 实验目的与变量控制",
+        "displayed_page": 39
+      },
+      "status": "ok",
+      "actual_page": 39,
+      "matched_heading": "5.4.1 实验目的与变量控制",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.4.2 单USV下 anomaly acquisition 的影响",
+        "displayed_page": 39
+      },
+      "status": "ok",
+      "actual_page": 39,
+      "matched_heading": "5.4.2 单 USV 下 anomaly acquisition 的影响",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "5.4.3 双USV coordinated下 anomaly acquisition 的影响",
+        "displayed_page": 40
+      },
+      "status": "ok",
+      "actual_page": 40,
+      "matched_heading": "5.4.3 双 USV coordinated 下 anomaly acquisition 的影响",
+      "heading_level": 3,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "6 总结与展望",
+        "displayed_page": 42
+      },
+      "status": "ok",
+      "actual_page": 42,
+      "matched_heading": "第六章 总结与展望",
+      "heading_level": 1,
+      "match_score": 90
+    },
+    {
+      "entry": {
+        "text": "6.1 课题总结",
+        "displayed_page": 42
+      },
+      "status": "ok",
+      "actual_page": 42,
+      "matched_heading": "6.1 课题总结",
+      "heading_level": 2,
+      "match_score": 100
+    },
+    {
+      "entry": {
+        "text": "6.2 后续工作展望",
+        "displayed_page": 42
+      },
+      "status": "ok",
+      "actual_page": 42,
+      "matched_heading": "6.2 后续工作展望",
+      "heading_level": 2,
+      "match_score": 100
+    }
+  ]
+}

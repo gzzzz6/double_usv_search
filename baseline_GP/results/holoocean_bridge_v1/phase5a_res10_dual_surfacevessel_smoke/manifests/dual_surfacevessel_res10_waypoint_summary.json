@@ -1,0 +1,206 @@
+[
+  {
+    "paired_waypoint_index": 0,
+    "sv0_target_cell": [
+      39,
+      35
+    ],
+    "sv0_target_world": [
+      -50.0,
+      10.0
+    ],
+    "sv0_final_world": [
+      -49.46674346923828,
+      5.039961338043213,
+      0.221767857670784
+    ],
+    "sv0_final_projected_cell": [
+      39,
+      35
+    ],
+    "sv0_ticks": 76,
+    "sv0_arrived": true,
+    "sv0_timeout": false,
+    "sv0_min_dist_m": 4.988621658906005,
+    "sv0_final_dist_m": 4.988621658906005,
+    "sv0_max_cmd_abs": 8000.0,
+    "sv1_target_cell": [
+      41,
+      45
+    ],
+    "sv1_target_world": [
+      50.0,
+      -10.0
+    ],
+    "sv1_final_world": [
+      50.53330612182617,
+      -5.039988994598389,
+      0.20997337996959686
+    ],
+    "sv1_final_projected_cell": [
+      41,
+      45
+    ],
+    "sv1_ticks": 76,
+    "sv1_arrived": true,
+    "sv1_timeout": false,
+    "sv1_min_dist_m": 4.9885994621018,
+    "sv1_final_dist_m": 4.9885994621018,
+    "sv1_max_cmd_abs": 8000.0,
+    "paired_total_ticks": 76,
+    "min_separation_m": 99.99995445145134
+  },
+  {
+    "paired_waypoint_index": 1,
+    "sv0_target_cell": [
+      39,
+      36
+    ],
+    "sv0_target_world": [
+      -40.0,
+      10.0
+    ],
+    "sv0_final_world": [
+      -44.643680572509766,
+      8.268385887145996,
+      0.20064641535282135
+    ],
+    "sv0_final_projected_cell": [
+      39,
+      36
+    ],
+    "sv0_ticks": 93,
+    "sv0_arrived": true,
+    "sv0_timeout": false,
+    "sv0_min_dist_m": 4.9560323541457825,
+    "sv0_final_dist_m": 4.9560323541457825,
+    "sv0_max_cmd_abs": 8000.0,
+    "sv1_target_cell": [
+      41,
+      44
+    ],
+    "sv1_target_world": [
+      40.0,
+      -10.0
+    ],
+    "sv1_final_world": [
+      42.06175994873047,
+      -11.622654914855957,
+      0.1692700833082199
+    ],
+    "sv1_final_projected_cell": [
+      41,
+      44
+    ],
+    "sv1_ticks": 68,
+    "sv1_arrived": true,
+    "sv1_timeout": false,
+    "sv1_min_dist_m": 2.623711695079179,
+    "sv1_final_dist_m": 2.623711695079179,
+    "sv1_max_cmd_abs": 8000.0,
+    "paired_total_ticks": 93,
+    "min_separation_m": 88.95778167293311
+  },
+  {
+    "paired_waypoint_index": 2,
+    "sv0_target_cell": [
+      40,
+      36
+    ],
+    "sv0_target_world": [
+      -40.0,
+      0.0
+    ],
+    "sv0_final_world": [
+      -39.22434997558594,
+      3.8764736652374268,
+      0.19058658182621002
+    ],
+    "sv0_final_projected_cell": [
+      40,
+      36
+    ],
+    "sv0_ticks": 59,
+    "sv0_arrived": true,
+    "sv0_timeout": false,
+    "sv0_min_dist_m": 3.953312666315785,
+    "sv0_final_dist_m": 3.953312666315785,
+    "sv0_max_cmd_abs": 8000.0,
+    "sv1_target_cell": [
+      40,
+      44
+    ],
+    "sv1_target_world": [
+      40.0,
+      0.0
+    ],
+    "sv1_final_world": [
+      38.97379684448242,
+      -4.798354625701904,
+      0.17978212237358093
+    ],
+    "sv1_final_projected_cell": [
+      40,
+      44
+    ],
+    "sv1_ticks": 70,
+    "sv1_arrived": true,
+    "sv1_timeout": false,
+    "sv1_min_dist_m": 4.906862544476776,
+    "sv1_final_dist_m": 4.906862544476776,
+    "sv1_max_cmd_abs": 8000.0,
+    "paired_total_ticks": 70,
+    "min_separation_m": 78.67784193767804
+  },
+  {
+    "paired_waypoint_index": 3,
+    "sv0_target_cell": [
+      40,
+      35
+    ],
+    "sv0_target_world": [
+      -50.0,
+      0.0
+    ],
+    "sv0_final_world": [
+      -45.18606185913086,
+      1.1905248165130615,
+      0.19335274398326874
+    ],
+    "sv0_final_projected_cell": [
+      40,
+      35
+    ],
+    "sv0_ticks": 80,
+    "sv0_arrived": true,
+    "sv0_timeout": false,
+    "sv0_min_dist_m": 4.95896660231223,
+    "sv0_final_dist_m": 4.95896660231223,
+    "sv0_max_cmd_abs": 8000.0,
+    "sv1_target_cell": [
+      40,
+      45
+    ],
+    "sv1_target_world": [
+      50.0,
+      0.0
+    ],
+    "sv1_final_world": [
+      45.80691146850586,
+      1.5263457298278809,
+      0.1639191061258316
+    ],
+    "sv1_final_projected_cell": [
+      40,
+      45
+    ],
+    "sv1_ticks": 75,
+    "sv1_arrived": true,
+    "sv1_timeout": false,
+    "sv1_min_dist_m": 4.462255340061962,
+    "sv1_final_dist_m": 4.462255340061962,
+    "sv1_max_cmd_abs": 8000.0,
+    "paired_total_ticks": 80,
+    "min_separation_m": 78.32538526292407
+  }
+]

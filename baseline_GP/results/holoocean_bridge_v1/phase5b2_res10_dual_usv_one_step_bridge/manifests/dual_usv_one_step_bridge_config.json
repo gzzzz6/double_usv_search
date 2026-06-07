@@ -1,0 +1,29 @@
+{
+  "policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "assignment_mode": "coordinated",
+  "target_motion_mode": "static",
+  "map_kind": "open_water",
+  "map_height_cells": 81,
+  "map_width_cells": 81,
+  "resolution_m": 10.0,
+  "sensor_range_m": 50.0,
+  "sensor_range_cells": 5,
+  "clue_sigma_m": 30.0,
+  "clue_sigma_cells": 3,
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "team_path_avoidance_mode": "reservation_v1",
+  "team_reservation_safety_distance_cells": 1.5,
+  "initial_robot_positions": [
+    [
+      25,
+      2
+    ],
+    [
+      35,
+      2
+    ]
+  ],
+  "actual_runtime_file_path": "baseline_GP\\marine_knownmap_runtime_2usv.py",
+  "actual_runtime_file_mtime": 1780136481.2392564
+}

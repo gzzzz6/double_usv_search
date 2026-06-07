@@ -1030,10 +1030,13 @@ def test_largegrid_contract_template_loads_with_new_map_shape() -> None:
     )
     contract = load_knownmap_experiment_contract(str(contract_path))
 
-    assert contract["baseline_revision_id"] == "knownmap_largegrid_mainline_sigma15_60x80_20260408"
+    assert contract["baseline_revision_id"] == "knownmap_largegrid_mainline_sigma30_res10_60x80_20260530"
     assert contract["frozen_config"]["map_height_cells"] == 60
     assert contract["frozen_config"]["map_width_cells"] == 80
-    assert contract["frozen_config"]["clue_sigma_m"] == 15.0
+    assert contract["frozen_config"]["resolution_m"] == 10.0
+    assert contract["frozen_config"]["sensor_range_m"] == 50.0
+    assert contract["frozen_config"]["gp_length_scale_m"] == 40.0
+    assert contract["frozen_config"]["clue_sigma_m"] == 30.0
     assert contract["frozen_config"]["max_iters"] == 440
     assert tuple(contract["frozen_policy_set"]) == (
         "known_map_greedy_viewpoint",
@@ -1066,7 +1069,10 @@ def test_two_usv_largegrid_contract_template_is_parseable() -> None:
     assert template["frozen_config"]["n_usvs"] == 2
     assert template["frozen_config"]["map_height_cells"] == 60
     assert template["frozen_config"]["map_width_cells"] == 80
-    assert template["frozen_config"]["clue_sigma_m"] == 15.0
+    assert template["frozen_config"]["resolution_m"] == 10.0
+    assert template["frozen_config"]["sensor_range_m"] == 50.0
+    assert template["frozen_config"]["gp_length_scale_m"] == 40.0
+    assert template["frozen_config"]["clue_sigma_m"] == 30.0
     assert template["frozen_config"]["max_iters"] == 240
     assert template["official_entrypoints"]["wrapper_file"] == "baseline_GP/runner_two_usv_search.py"
     assert tuple(template["frozen_policy_set"]) == (

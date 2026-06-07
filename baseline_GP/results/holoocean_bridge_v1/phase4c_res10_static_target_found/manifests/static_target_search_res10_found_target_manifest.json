@@ -1,0 +1,14 @@
+{
+  "target_cell": [
+    29,
+    45
+  ],
+  "target_world": [
+    50.0,
+    110.0,
+    0.0
+  ],
+  "spawn_prop_called": true,
+  "spawn_prop_success": true,
+  "spawn_prop_name": "suspicious_target_res10_found_0"
+}
