@@ -1,0 +1,46 @@
+{
+  "phase_name": "phase5c1_res10_dual_usv_static_runtime_probe",
+  "initial_found_count": 0,
+  "initial_all_found": false,
+  "initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "initial_robot_positions": [
+    [
+      25,
+      2
+    ],
+    [
+      35,
+      2
+    ]
+  ],
+  "initial_find_times": [
+    null
+  ],
+  "terminated_reason": "all_found",
+  "completed_steps": 32,
+  "max_steps": 240,
+  "found_count_final": 1,
+  "found_mask_final": [
+    true
+  ],
+  "find_times_final": [
+    32
+  ],
+  "hit_branch_covered": true,
+  "remaining_intensity_mass_final": 0.0,
+  "peak_intensity_ratio_final": 0.0,
+  "known_free_observation_ratio_final": 0.12305720237141483,
+  "gp_n_obs_initial": 48,
+  "gp_n_obs_final": 400,
+  "gp_x_obs_len_final": 400,
+  "gp_y_obs_len_final": 400,
+  "gp_count_consistent_final": true,
+  "runtime_team_trace_rows_count": 32,
+  "runtime_local_trace_rows_count": 64,
+  "wall_time_s": 8.739643299995805
+}

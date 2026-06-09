@@ -1,0 +1,47 @@
+{
+  "phase_name": "phase5c2_res10_dual_usv_static_holoocean_multistep_smoke",
+  "initial_found_count": 0,
+  "initial_all_found": false,
+  "initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "initial_robot_positions": [
+    [
+      25,
+      2
+    ],
+    [
+      35,
+      2
+    ]
+  ],
+  "initial_find_times": [
+    null
+  ],
+  "terminated_reason": "max_policy_steps",
+  "completed_policy_steps": 4,
+  "max_policy_steps": 4,
+  "found_count_final": 0,
+  "found_mask_final": [
+    false
+  ],
+  "find_times_final": [
+    null
+  ],
+  "hit_branch_covered": false,
+  "physical_failure": false,
+  "remaining_intensity_mass_final": 1.0,
+  "peak_intensity_ratio_final": 1.0239777049750958,
+  "known_free_observation_ratio_final": 0.0290017625380548,
+  "gp_n_obs_initial": 48,
+  "gp_n_obs_final": 240,
+  "gp_x_obs_len_final": 240,
+  "gp_y_obs_len_final": 240,
+  "gp_count_consistent_final": true,
+  "runtime_team_trace_rows_count": 4,
+  "runtime_local_trace_rows_count": 8,
+  "wall_time_s": 27.0163182
+}

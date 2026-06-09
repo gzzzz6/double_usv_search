@@ -1,0 +1,9 @@
+{
+  "pre_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c1_res10_dual_usv_static_runtime_probe/"
+  ],
+  "post_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c1_res10_dual_usv_static_runtime_probe/"
+  ],
+  "phase_dir": "baseline_GP/results/holoocean_bridge_v1/phase5c1_res10_dual_usv_static_runtime_probe"
+}

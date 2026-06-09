@@ -1,0 +1,9 @@
+{
+  "min_inter_vessel_distance_m": 99.99850463462172,
+  "collision_warning_ticks": 0,
+  "collision_fail_ticks": 0,
+  "collision_warning_distance_limit_m": 30.0,
+  "collision_fail_distance_limit_m": 20.0,
+  "min_separation_margin_ok": true,
+  "collision_fail_free": true
+}

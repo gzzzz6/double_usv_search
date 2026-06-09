@@ -1,0 +1,31 @@
+{
+  "phase_name": "phase5c3_res10_dual_usv_static_holoocean_allfound_probe",
+  "policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "assignment_mode": "coordinated",
+  "target_motion_mode": "static",
+  "map_height_cells": 81,
+  "map_width_cells": 81,
+  "resolution_m": 10.0,
+  "episode_seed": 0,
+  "max_policy_steps": 40,
+  "expected_runtime_all_found_step": 32,
+  "expected_initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "terminated_reason": "all_found",
+  "completed_policy_steps": 32,
+  "total_physical_ticks": 2728,
+  "initial_all_found": false,
+  "found_count_final": 1,
+  "hit_branch_covered": true,
+  "gp_n_obs_initial": 48,
+  "gp_n_obs_final": 400,
+  "min_inter_vessel_distance_m": 99.99850441416972,
+  "fallback_count_total": 0,
+  "physical_failure": false,
+  "runtime_team_trace_rows_count": 32,
+  "runtime_local_trace_rows_count": 64
+}

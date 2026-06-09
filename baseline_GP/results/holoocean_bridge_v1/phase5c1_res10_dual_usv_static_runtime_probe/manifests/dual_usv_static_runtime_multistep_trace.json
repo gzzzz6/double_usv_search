@@ -1,0 +1,9244 @@
+[
+  {
+    "step": 1,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          25,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            25,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            2
+          ],
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          24,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          3
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          24,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          3
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000004,
+    "peak_intensity_ratio_after": 1.0147606447439264,
+    "known_free_observation_ratio_after": 0.020349302996314694,
+    "planning_time_ms": 157.39549999852898,
+    "step_elapsed_ms": 189.28849999792874,
+    "gp_n_obs": 96,
+    "gp_x_obs_len": 96,
+    "gp_y_obs_len": 96,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.962330820103602,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 2,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          24,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          3
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          23,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          4
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          23,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          4
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0182625378376318,
+    "known_free_observation_ratio_after": 0.023233456176894728,
+    "planning_time_ms": 220.62159999768483,
+    "step_elapsed_ms": 275.0794000021415,
+    "gp_n_obs": 144,
+    "gp_x_obs_len": 144,
+    "gp_y_obs_len": 144,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9401085807497632,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 3,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          23,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          4
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          22,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          5
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          22,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          5
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999997,
+    "peak_intensity_ratio_after": 1.0212144196711532,
+    "known_free_observation_ratio_after": 0.026117609357474765,
+    "planning_time_ms": 156.01890000107232,
+    "step_elapsed_ms": 219.30330000031972,
+    "gp_n_obs": 192,
+    "gp_x_obs_len": 192,
+    "gp_y_obs_len": 192,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9505931127833618,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 4,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          22,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          5
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          21,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          6
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          21,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          6
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0239777049750958,
+    "known_free_observation_ratio_after": 0.0290017625380548,
+    "planning_time_ms": 206.86099999875296,
+    "step_elapsed_ms": 278.3062999951653,
+    "gp_n_obs": 240,
+    "gp_x_obs_len": 240,
+    "gp_y_obs_len": 240,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9578895683648531,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 5,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          21,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          6
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          20,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          7
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          20,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          7
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_ratio_after": 1.026696227279051,
+    "known_free_observation_ratio_after": 0.03188591571863483,
+    "planning_time_ms": 202.75240000046324,
+    "step_elapsed_ms": 283.81969999463763,
+    "gp_n_obs": 288,
+    "gp_x_obs_len": 288,
+    "gp_y_obs_len": 288,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9560995524013366,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 6,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          20,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          7
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          19,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          8
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          19,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          8
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_ratio_after": 1.0294130911924777,
+    "known_free_observation_ratio_after": 0.03477006889921487,
+    "planning_time_ms": 155.85060000012163,
+    "step_elapsed_ms": 259.54710000223713,
+    "gp_n_obs": 336,
+    "gp_x_obs_len": 336,
+    "gp_y_obs_len": 336,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9268364705788296,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 7,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          19,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          8
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          9
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          9
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.032140908208938,
+    "known_free_observation_ratio_after": 0.03765422207979491,
+    "planning_time_ms": 153.56730000348762,
+    "step_elapsed_ms": 272.97810000163736,
+    "gp_n_obs": 384,
+    "gp_x_obs_len": 384,
+    "gp_y_obs_len": 384,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9401938491421259,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 8,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          9
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          3
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          10
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          3
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          10
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999996,
+    "peak_intensity_ratio_after": 1.0349041326817496,
+    "known_free_observation_ratio_after": 0.040378144528120496,
+    "planning_time_ms": 151.74110000225483,
+    "step_elapsed_ms": 275.44009999837726,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.943360992820128,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 9,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          3
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          10
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          4
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          11
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          4
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          11
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0378628425097518,
+    "known_free_observation_ratio_after": 0.043582759173209425,
+    "planning_time_ms": 153.73080000426853,
+    "step_elapsed_ms": 276.2018000066746,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9200817650332744,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 10,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          4
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          11
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          5
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          12
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          5
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          12
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0409837310719265,
+    "known_free_observation_ratio_after": 0.046947604550552795,
+    "planning_time_ms": 152.2672999999486,
+    "step_elapsed_ms": 252.94730000314303,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9333266136700938,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 11,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          5
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          12
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          6
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          13
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          6
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          13
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0442139623222548,
+    "known_free_observation_ratio_after": 0.05031244992789617,
+    "planning_time_ms": 143.89010000013513,
+    "step_elapsed_ms": 260.49609999608947,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9056805836826158,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 12,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          6
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            6
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          13
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            13
+          ],
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          7
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          14
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          7
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          14
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.047547019771207,
+    "known_free_observation_ratio_after": 0.05367729530523954,
+    "planning_time_ms": 139.38049999705981,
+    "step_elapsed_ms": 251.71360000240384,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9017143307297031,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 13,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          7
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          14
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            14
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          8
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          15
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          8
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          15
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0509454675968617,
+    "known_free_observation_ratio_after": 0.05720237141483737,
+    "planning_time_ms": 178.47379999875557,
+    "step_elapsed_ms": 282.44119999726536,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9203198835533909,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 14,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          8
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            8
+          ],
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          15
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            15
+          ],
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          9
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          16
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          9
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          16
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000004,
+    "peak_intensity_ratio_after": 1.0543758886285337,
+    "known_free_observation_ratio_after": 0.06072744752443519,
+    "planning_time_ms": 184.0126999959466,
+    "step_elapsed_ms": 284.82820000499487,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8890892611192485,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 15,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          9
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            9
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          16
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            16
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          10
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          17
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          10
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          17
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_ratio_after": 1.0578335962627008,
+    "known_free_observation_ratio_after": 0.06425252363403301,
+    "planning_time_ms": 173.93239999364596,
+    "step_elapsed_ms": 273.9870000004885,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.907517587220546,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 16,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          10
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          17
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            17
+          ],
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          11
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          18
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          11
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          18
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.0613156700023583,
+    "known_free_observation_ratio_after": 0.06777759974363083,
+    "planning_time_ms": 177.76270000467775,
+    "step_elapsed_ms": 278.0875000025844,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8675943258208946,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 17,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          11
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            11
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          18
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            18
+          ],
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          12
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          19
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          12
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          19
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.0648209156820998,
+    "known_free_observation_ratio_after": 0.07130267585322865,
+    "planning_time_ms": 133.78490000468446,
+    "step_elapsed_ms": 233.86300000129268,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8492898948186299,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 18,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          12
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          19
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            19
+          ],
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          13
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          20
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          13
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          20
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.068349391889719,
+    "known_free_observation_ratio_after": 0.07482775196282647,
+    "planning_time_ms": 155.09999999630963,
+    "step_elapsed_ms": 257.166800001869,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8500045741362593,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 19,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          13
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          20
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            20
+          ],
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          14
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          21
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          14
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          21
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.071901330328641,
+    "known_free_observation_ratio_after": 0.07835282807242429,
+    "planning_time_ms": 121.4137999995728,
+    "step_elapsed_ms": 251.27300000167452,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8153878249794323,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 20,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          14
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          21
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            21
+          ],
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          15
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          22
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          15
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          22
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0754769657939474,
+    "known_free_observation_ratio_after": 0.08187790418202211,
+    "planning_time_ms": 155.24439999717288,
+    "step_elapsed_ms": 284.4131000019843,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8387544621256193,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 21,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          15
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          22
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            22
+          ],
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          16
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          23
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          16
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          23
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_ratio_after": 1.0790765362241093,
+    "known_free_observation_ratio_after": 0.08540298029161993,
+    "planning_time_ms": 156.14820000337204,
+    "step_elapsed_ms": 257.6095999975223,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8696941233089843,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 22,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          16
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          23
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            23
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          17
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          24
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          17
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          24
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0827002827537724,
+    "known_free_observation_ratio_after": 0.08892805640121776,
+    "planning_time_ms": 131.38610000169137,
+    "step_elapsed_ms": 232.51710000477033,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8834908396237776,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 23,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          17
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          24
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            24
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          18
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          25
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          18
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          25
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0863484497676026,
+    "known_free_observation_ratio_after": 0.09245313251081558,
+    "planning_time_ms": 153.7599000002956,
+    "step_elapsed_ms": 254.3630000000121,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.834676076901448,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 24,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          18
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          25
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          19
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          26
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          19
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          26
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.090021284955224,
+    "known_free_observation_ratio_after": 0.0959782086204134,
+    "planning_time_ms": 115.18820000492269,
+    "step_elapsed_ms": 227.48219999630237,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.819148998323785,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 25,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          19
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          26
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          20
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          27
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          20
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          27
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999998,
+    "peak_intensity_ratio_after": 1.0937190393672818,
+    "known_free_observation_ratio_after": 0.09950328473001122,
+    "planning_time_ms": 155.9138000011444,
+    "step_elapsed_ms": 256.3268999947468,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8146276868555666,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 26,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          20
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            20
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          27
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          21
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          28
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          21
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          28
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999999,
+    "peak_intensity_ratio_after": 1.0974419674726408,
+    "known_free_observation_ratio_after": 0.10302836083960903,
+    "planning_time_ms": 156.59099999902537,
+    "step_elapsed_ms": 256.5879999965546,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.85152024188329,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 27,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          21
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          28
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          22
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          29
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          22
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          29
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999997,
+    "peak_intensity_ratio_after": 1.1011903272167631,
+    "known_free_observation_ratio_after": 0.10655343694920685,
+    "planning_time_ms": 159.98149999359157,
+    "step_elapsed_ms": 272.72269999957643,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.814157965795463,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 28,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          22
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            22
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          29
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            29
+          ],
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          23
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          30
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          23
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          30
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.1049643800812836,
+    "known_free_observation_ratio_after": 0.11007851305880467,
+    "planning_time_ms": 155.7637000005343,
+    "step_elapsed_ms": 255.52389999938896,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.7924737179181015,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 29,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          23
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            23
+          ],
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ],
+          [
+            18,
+            31
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          30
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          24
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ],
+          [
+            18,
+            31
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          31
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          24
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          31
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.1087643911448168,
+    "known_free_observation_ratio_after": 0.1136035891684025,
+    "planning_time_ms": 152.5645000001532,
+    "step_elapsed_ms": 250.70500000583706,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8213942286724367,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 30,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          24
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            24
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ],
+          [
+            18,
+            31
+          ],
+          [
+            18,
+            32
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          31
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            31
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          18,
+          25
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            18,
+            25
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            18,
+            30
+          ],
+          [
+            18,
+            31
+          ],
+          [
+            18,
+            32
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          32
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          18,
+          25
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          32
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.112590629145016,
+    "known_free_observation_ratio_after": 0.11712866527800032,
+    "planning_time_ms": 154.33260000281734,
+    "step_elapsed_ms": 268.5344999990775,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.8238103385915511,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 31,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          18,
+          25
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            18,
+            25
+          ],
+          [
+            19,
+            25
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            21,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            23,
+            25
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          32
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            32
+          ],
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            35,
+            40
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          19,
+          25
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            19,
+            25
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            21,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            23,
+            25
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          33
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            35,
+            40
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          19,
+          25
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          33
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000002,
+    "peak_intensity_ratio_after": 1.1159556911120765,
+    "known_free_observation_ratio_after": 0.11985258772632591,
+    "planning_time_ms": 139.68860000022687,
+    "step_elapsed_ms": 269.59139999962645,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.836781915450387,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 32,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "execute_next_step_called_count": 2,
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          19,
+          25
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            19,
+            25
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            21,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            23,
+            25
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          33
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            35,
+            40
+          ],
+          [
+            35,
+            41
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          20,
+          25
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            20,
+            25
+          ],
+          [
+            21,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            23,
+            25
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            25
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          34
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            35,
+            37
+          ],
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            35,
+            40
+          ],
+          [
+            35,
+            41
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          20,
+          25
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          34
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 1,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        true
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      true
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [
+      0
+    ],
+    "team_detected_count": 1,
+    "team_miss_update_called": true,
+    "hit_update_called": true,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 1,
+    "found_mask_after": [
+      true
+    ],
+    "find_times_after": [
+      32
+    ],
+    "remaining_intensity_mass_after": 0.0,
+    "peak_intensity_ratio_after": 0.0,
+    "known_free_observation_ratio_after": 0.12305720237141483,
+    "planning_time_ms": 138.0661000002874,
+    "step_elapsed_ms": 244.83289999625413,
+    "gp_n_obs": 400,
+    "gp_x_obs_len": 400,
+    "gp_y_obs_len": 400,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 0.5,
+    "search_info_map_mean": 0.38530407919443815,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  }
+]

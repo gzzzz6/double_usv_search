@@ -1,0 +1,89 @@
+{
+  "phase_name": "phase5c3_res10_dual_usv_static_holoocean_allfound_probe",
+  "policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "assignment_mode": "coordinated",
+  "target_motion_mode": "static",
+  "map_kind": "open_water",
+  "map_height_cells": 81,
+  "map_width_cells": 81,
+  "resolution_m": 10.0,
+  "sensor_range_m": 50.0,
+  "sensor_range_cells": 5,
+  "min_target_separation_m": 60.0,
+  "min_start_distance_m": 80.0,
+  "gp_length_scale_m": 40.0,
+  "viewpoint_generation_mode": "simple_ring_v1",
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "team_path_avoidance_mode": "reservation_v1",
+  "team_reservation_safety_distance_cells": 1.5,
+  "episode_seed": 0,
+  "n_targets": 1,
+  "max_policy_steps": 40,
+  "expected_runtime_all_found_step": 32,
+  "expected_initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "gp_noise_std": 0.03,
+  "gp_prior_mean": 0.0,
+  "gp_beta": 0.5,
+  "gp_optimize_hyperparams": false,
+  "clue_amplitude": 2.0,
+  "clue_noise_std": 0.03,
+  "clue_sigma_m": 30.0,
+  "target_count_upper_bound": 1,
+  "staleness_tau_steps": 12,
+  "search_info_clue_weight": 0.5,
+  "search_info_intensity_weight": 0.5,
+  "clue_acquisition_mode": "ucb",
+  "anomaly_tail_quantile": 0.9,
+  "anomaly_weight_lambda": 1.0,
+  "anomaly_warmup_steps": 20,
+  "anomaly_min_gp_points": 64,
+  "anomaly_top_quantile": 0.9,
+  "anomaly_top_mass_min": 0.18,
+  "anomaly_entropy_max": 0.85,
+  "anomaly_stability_min": 0.3,
+  "anomaly_alpha_max": 0.4,
+  "anomaly_pre_first_alpha_cap": 0.15,
+  "safe_nav_inflation_radius_cells": 0,
+  "safe_nav_soft_clearance_radius_cells": 1,
+  "safe_nav_lambda_clearance": 1.0,
+  "team_reservation_lambda": 1.0,
+  "constraint_mode": "hard",
+  "r_hit": 1,
+  "clue_samples_per_step": 24,
+  "search_commit_window": 4,
+  "search_commit_max_window": 10,
+  "search_commit_path_divisor": 2,
+  "initial_robot_positions": [
+    [
+      25,
+      2
+    ],
+    [
+      35,
+      2
+    ]
+  ],
+  "runtime_file": "baseline_GP\\marine_knownmap_runtime_2usv.py",
+  "runtime_file_mtime": 1780136481.2392564,
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "arrival_radius_m": 5.0,
+  "max_ticks_per_one_step": 500,
+  "collision_warning_m": 30.0,
+  "collision_fail_m": 20.0,
+  "scenario_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "scenario_sensor_types": [
+    "GPSSensor",
+    "LocationSensor",
+    "OrientationSensor"
+  ],
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean"
+}

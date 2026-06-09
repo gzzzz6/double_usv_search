@@ -1,0 +1,1550 @@
+[
+  {
+    "step": 1,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "holo_target_cells": {
+      "0": [
+        24,
+        2
+      ],
+      "1": [
+        35,
+        3
+      ]
+    },
+    "physical_execution_called": true,
+    "physical_step_success": true,
+    "physical_result": {
+      "policy_step": 1,
+      "step_ticks": 76,
+      "timeout": false,
+      "arrived": {
+        "0": true,
+        "1": true
+      },
+      "target_cells": {
+        "0": [
+          24,
+          2
+        ],
+        "1": [
+          35,
+          3
+        ]
+      },
+      "target_world": {
+        "0": [
+          -380.0,
+          160.0,
+          0.0
+        ],
+        "1": [
+          -370.0,
+          50.0,
+          0.0
+        ]
+      },
+      "per_step_sensor_counts": {
+        "0": {
+          "LocationSensor": 76,
+          "GPSSensor": 0,
+          "last_known": 0
+        },
+        "1": {
+          "LocationSensor": 76,
+          "GPSSensor": 0,
+          "last_known": 0
+        }
+      },
+      "per_step_fallback_counts": {
+        "0": 0,
+        "1": 0
+      },
+      "final_by_usv": {
+        "0": {
+          "last_known_world": [
+            -379.46661376953125,
+            155.0398712158203,
+            0.2269003689289093
+          ],
+          "final_projected_cell": [
+            24,
+            2
+          ],
+          "final_distance_to_target_m": 4.9887251303816615,
+          "arrived": true,
+          "target_cell": [
+            24,
+            2
+          ],
+          "projection_matches_target": true
+        },
+        "1": {
+          "last_known_world": [
+            -370.13616943359375,
+            50.0,
+            0.16591978073120117
+          ],
+          "final_projected_cell": [
+            35,
+            3
+          ],
+          "final_distance_to_target_m": 0.13616943359375,
+          "arrived": true,
+          "target_cell": [
+            35,
+            3
+          ],
+          "projection_matches_target": true
+        }
+      },
+      "step_min_inter_vessel_distance_m": 99.99850463462172
+    },
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          25,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            25,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            2
+          ],
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          24,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          3
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          24,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          3
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0000000000000004,
+    "peak_intensity_ratio_after": 1.0147606447439264,
+    "known_free_observation_ratio_after": 0.020349302996314694,
+    "planning_time_ms": 194.2012000000002,
+    "step_elapsed_ms": 2794.5813000000007,
+    "terminated_reason_after_step": "running",
+    "gp_n_obs": 96,
+    "gp_x_obs_len": 96,
+    "gp_y_obs_len": 96,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.962330820103602,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 2,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "holo_target_cells": {
+      "0": [
+        23,
+        2
+      ],
+      "1": [
+        35,
+        4
+      ]
+    },
+    "physical_execution_called": true,
+    "physical_step_success": true,
+    "physical_result": {
+      "policy_step": 2,
+      "step_ticks": 111,
+      "timeout": false,
+      "arrived": {
+        "0": true,
+        "1": true
+      },
+      "target_cells": {
+        "0": [
+          23,
+          2
+        ],
+        "1": [
+          35,
+          4
+        ]
+      },
+      "target_world": {
+        "0": [
+          -380.0,
+          170.0,
+          0.0
+        ],
+        "1": [
+          -360.0,
+          50.0,
+          0.0
+        ]
+      },
+      "per_step_sensor_counts": {
+        "0": {
+          "LocationSensor": 111,
+          "GPSSensor": 0,
+          "last_known": 0
+        },
+        "1": {
+          "LocationSensor": 111,
+          "GPSSensor": 0,
+          "last_known": 0
+        }
+      },
+      "per_step_fallback_counts": {
+        "0": 0,
+        "1": 0
+      },
+      "final_by_usv": {
+        "0": {
+          "last_known_world": [
+            -383.8279113769531,
+            166.84262084960938,
+            0.19472146034240723
+          ],
+          "final_projected_cell": [
+            23,
+            2
+          ],
+          "final_distance_to_target_m": 4.962050847092217,
+          "arrived": true,
+          "target_cell": [
+            23,
+            2
+          ],
+          "projection_matches_target": true
+        },
+        "1": {
+          "last_known_world": [
+            -358.6194763183594,
+            50.034297943115234,
+            0.18446844816207886
+          ],
+          "final_projected_cell": [
+            35,
+            4
+          ],
+          "final_distance_to_target_m": 1.3809496676101276,
+          "arrived": true,
+          "target_cell": [
+            35,
+            4
+          ],
+          "projection_matches_target": true
+        }
+      },
+      "step_min_inter_vessel_distance_m": 105.60405496038108
+    },
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          24,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            24,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          3
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            3
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          23,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          4
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          23,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          4
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0182625378376318,
+    "known_free_observation_ratio_after": 0.023233456176894728,
+    "planning_time_ms": 298.12169999999935,
+    "step_elapsed_ms": 4025.2455999999997,
+    "terminated_reason_after_step": "running",
+    "gp_n_obs": 144,
+    "gp_x_obs_len": 144,
+    "gp_y_obs_len": 144,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9401085807497638,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 3,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "holo_target_cells": {
+      "0": [
+        22,
+        2
+      ],
+      "1": [
+        35,
+        5
+      ]
+    },
+    "physical_execution_called": true,
+    "physical_step_success": true,
+    "physical_result": {
+      "policy_step": 3,
+      "step_ticks": 98,
+      "timeout": false,
+      "arrived": {
+        "0": true,
+        "1": true
+      },
+      "target_cells": {
+        "0": [
+          22,
+          2
+        ],
+        "1": [
+          35,
+          5
+        ]
+      },
+      "target_world": {
+        "0": [
+          -380.0,
+          180.0,
+          0.0
+        ],
+        "1": [
+          -350.0,
+          50.0,
+          0.0
+        ]
+      },
+      "per_step_sensor_counts": {
+        "0": {
+          "LocationSensor": 98,
+          "GPSSensor": 0,
+          "last_known": 0
+        },
+        "1": {
+          "LocationSensor": 98,
+          "GPSSensor": 0,
+          "last_known": 0
+        }
+      },
+      "per_step_fallback_counts": {
+        "0": 0,
+        "1": 0
+      },
+      "final_by_usv": {
+        "0": {
+          "last_known_world": [
+            -378.1934814453125,
+            176.45834350585938,
+            0.1802254468202591
+          ],
+          "final_projected_cell": [
+            22,
+            2
+          ],
+          "final_distance_to_target_m": 3.975781685520305,
+          "arrived": true,
+          "target_cell": [
+            22,
+            2
+          ],
+          "projection_matches_target": true
+        },
+        "1": {
+          "last_known_world": [
+            -354.9573974609375,
+            49.80742645263672,
+            0.2184256613254547
+          ],
+          "final_projected_cell": [
+            35,
+            5
+          ],
+          "final_distance_to_target_m": 4.961136377570531,
+          "arrived": true,
+          "target_cell": [
+            35,
+            5
+          ],
+          "projection_matches_target": true
+        }
+      },
+      "step_min_inter_vessel_distance_m": 119.59319773985675
+    },
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          23,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            23,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          4
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            4
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          22,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          5
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          22,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          5
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 0.9999999999999997,
+    "peak_intensity_ratio_after": 1.0212144196711532,
+    "known_free_observation_ratio_after": 0.026117609357474765,
+    "planning_time_ms": 201.9878999999989,
+    "step_elapsed_ms": 3597.7400999999995,
+    "terminated_reason_after_step": "running",
+    "gp_n_obs": 192,
+    "gp_x_obs_len": 192,
+    "gp_y_obs_len": 192,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9505931127833614,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  },
+  {
+    "step": 4,
+    "step_targets_called": true,
+    "target_motion_mode": "static",
+    "target_positions_before_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_after_step_targets": [
+      [
+        23,
+        21
+      ]
+    ],
+    "target_positions_static_after_step_targets": true,
+    "predict_intensity_called": true,
+    "joint_assignment_called": true,
+    "assignment_count": 2,
+    "assignment_mode": "coordinated",
+    "apply_assignment_called": true,
+    "resolve_conflict_called": true,
+    "conflict_type": null,
+    "conflict_penalty": 0.0,
+    "wait_applied_map": {
+      "0": false,
+      "1": false
+    },
+    "holo_target_cells": {
+      "0": [
+        21,
+        2
+      ],
+      "1": [
+        35,
+        6
+      ]
+    },
+    "physical_execution_called": true,
+    "physical_step_success": true,
+    "physical_result": {
+      "policy_step": 4,
+      "step_ticks": 118,
+      "timeout": false,
+      "arrived": {
+        "0": true,
+        "1": true
+      },
+      "target_cells": {
+        "0": [
+          21,
+          2
+        ],
+        "1": [
+          35,
+          6
+        ]
+      },
+      "target_world": {
+        "0": [
+          -380.0,
+          190.0,
+          0.0
+        ],
+        "1": [
+          -340.0,
+          50.0,
+          0.0
+        ]
+      },
+      "per_step_sensor_counts": {
+        "0": {
+          "LocationSensor": 118,
+          "GPSSensor": 0,
+          "last_known": 0
+        },
+        "1": {
+          "LocationSensor": 118,
+          "GPSSensor": 0,
+          "last_known": 0
+        }
+      },
+      "per_step_fallback_counts": {
+        "0": 0,
+        "1": 0
+      },
+      "final_by_usv": {
+        "0": {
+          "last_known_world": [
+            -380.87432861328125,
+            189.56381225585938,
+            0.184651181101799
+          ],
+          "final_projected_cell": [
+            21,
+            2
+          ],
+          "final_distance_to_target_m": 0.9770927653712318,
+          "arrived": true,
+          "target_cell": [
+            21,
+            2
+          ],
+          "projection_matches_target": true
+        },
+        "1": {
+          "last_known_world": [
+            -342.9956970214844,
+            53.939674377441406,
+            0.18366828560829163
+          ],
+          "final_projected_cell": [
+            35,
+            6
+          ],
+          "final_distance_to_target_m": 4.949266091533035,
+          "arrived": true,
+          "target_cell": [
+            35,
+            6
+          ],
+          "projection_matches_target": true
+        }
+      },
+      "step_min_inter_vessel_distance_m": 128.85355103194865
+    },
+    "local_update_called_count": 2,
+    "local_before": {
+      "0": {
+        "robot_pos": [
+          22,
+          2
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            22,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          5
+        ],
+        "commit_remaining": 4,
+        "committed_segment": [
+          [
+            35,
+            5
+          ],
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ]
+        ]
+      }
+    },
+    "local_after": {
+      "0": {
+        "robot_pos": [
+          21,
+          2
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            21,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            18,
+            6
+          ]
+        ]
+      },
+      "1": {
+        "robot_pos": [
+          35,
+          6
+        ],
+        "commit_remaining": 3,
+        "committed_segment": [
+          [
+            35,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            35,
+            8
+          ],
+          [
+            35,
+            9
+          ],
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            35,
+            12
+          ],
+          [
+            35,
+            13
+          ]
+        ]
+      }
+    },
+    "exec_results": {
+      "0": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          21,
+          2
+        ]
+      },
+      "1": {
+        "exec_result_present": true,
+        "exec_move_success": true,
+        "exec_collision": false,
+        "exec_collision_cell": null,
+        "exec_new_robot_pos": [
+          35,
+          6
+        ]
+      }
+    },
+    "last_seen_refreshed": true,
+    "staleness_rebuilt": true,
+    "apply_known_occupancy_constraints_called": true,
+    "remaining_target_mass_before": 1.0,
+    "detect_targets_called": true,
+    "detected_by_usv": {
+      "0": 0,
+      "1": 0
+    },
+    "detection_masks_by_usv": {
+      "0": [
+        false
+      ],
+      "1": [
+        false
+      ]
+    },
+    "team_detected_mask": [
+      false
+    ],
+    "update_found_mask_called": true,
+    "new_found_indices": [],
+    "team_detected_count": 0,
+    "team_miss_update_called": true,
+    "hit_update_called": false,
+    "team_gp_update_called": true,
+    "team_search_info_update_called": true,
+    "team_trace_row_written": true,
+    "local_trace_rows_written": 2,
+    "found_count_after": 0,
+    "found_mask_after": [
+      false
+    ],
+    "find_times_after": [
+      null
+    ],
+    "remaining_intensity_mass_after": 1.0,
+    "peak_intensity_ratio_after": 1.0239777049750958,
+    "known_free_observation_ratio_after": 0.0290017625380548,
+    "planning_time_ms": 412.7857000000006,
+    "step_elapsed_ms": 4408.4021,
+    "terminated_reason_after_step": "running",
+    "gp_n_obs": 240,
+    "gp_x_obs_len": 240,
+    "gp_y_obs_len": 240,
+    "gp_count_consistent": true,
+    "search_info_shape": [
+      81,
+      81
+    ],
+    "search_info_expected_shape": [
+      81,
+      81
+    ],
+    "search_info_has_nan": false,
+    "search_info_free_valid_count": 6241,
+    "search_info_map_peak": 1.0,
+    "search_info_map_mean": 0.9578895683648534,
+    "search_info_shape_ok": true,
+    "search_info_valid": true
+  }
+]

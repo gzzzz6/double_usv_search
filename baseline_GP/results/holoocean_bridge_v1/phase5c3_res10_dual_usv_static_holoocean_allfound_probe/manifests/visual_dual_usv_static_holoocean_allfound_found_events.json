@@ -1,0 +1,73 @@
+{
+  "phase_name": "phase5c3_res10_dual_usv_static_holoocean_allfound_probe",
+  "initial_found_count": 0,
+  "initial_all_found": false,
+  "initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "expected_initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "initial_robot_positions": [
+    [
+      25,
+      2
+    ],
+    [
+      35,
+      2
+    ]
+  ],
+  "initial_find_times": [
+    null
+  ],
+  "expected_runtime_all_found_step": 32,
+  "terminated_reason": "all_found",
+  "completed_policy_steps": 32,
+  "max_policy_steps": 40,
+  "found_count_final": 1,
+  "found_mask_final": [
+    true
+  ],
+  "find_times_final": [
+    32
+  ],
+  "found_event_details": [
+    {
+      "target_index": 0,
+      "found_step": 32,
+      "detected_usvs": [
+        0
+      ],
+      "target_position": [
+        23,
+        21
+      ],
+      "usv_projected_cells": {
+        "0": [
+          20,
+          25
+        ]
+      }
+    }
+  ],
+  "hit_branch_covered": true,
+  "physical_failure": false,
+  "remaining_intensity_mass_final": 0.0,
+  "peak_intensity_ratio_final": 0.0,
+  "known_free_observation_ratio_final": 0.12305720237141483,
+  "gp_n_obs_initial": 48,
+  "gp_n_obs_final": 400,
+  "gp_x_obs_len_final": 400,
+  "gp_y_obs_len_final": 400,
+  "gp_count_consistent_final": true,
+  "runtime_team_trace_rows_count": 32,
+  "runtime_local_trace_rows_count": 64,
+  "wall_time_s": 109.3152248
+}

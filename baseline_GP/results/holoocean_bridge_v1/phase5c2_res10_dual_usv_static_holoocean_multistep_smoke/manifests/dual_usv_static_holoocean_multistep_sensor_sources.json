@@ -1,0 +1,24 @@
+{
+  "selected_sensor_counts_by_usv": {
+    "sv0": {
+      "LocationSensor": 403,
+      "GPSSensor": 0,
+      "last_known": 0
+    },
+    "sv1": {
+      "LocationSensor": 403,
+      "GPSSensor": 0,
+      "last_known": 0
+    }
+  },
+  "fallback_count_by_usv": {
+    "sv0": 0,
+    "sv1": 0
+  },
+  "fallback_count_total": 0,
+  "total_physical_ticks": 403,
+  "location_sensor_integrity_ratio": {
+    "sv0": 1.0,
+    "sv1": 1.0
+  }
+}
