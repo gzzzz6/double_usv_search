@@ -1,0 +1,123 @@
+{
+  "phase_name": "phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe",
+  "purpose": "Target vs non-target perception evidence probe",
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "capture_ticks": 25,
+  "observer_agent_name": "sv0",
+  "observer_agent_type": "SurfaceVessel",
+  "target_agent_name": "target",
+  "target_agent_type": "SurfaceVessel",
+  "distractor_agent_name": "distractor",
+  "distractor_agent_type": "SphereAgent",
+  "observer_location": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "target_location": [
+    12.0,
+    0.0,
+    0.0
+  ],
+  "distractor_location": [
+    12.0,
+    0.0,
+    0.5
+  ],
+  "target_with_distractor_location": [
+    12.0,
+    0.0,
+    0.0
+  ],
+  "distractor_with_target_location": [
+    12.0,
+    4.0,
+    0.5
+  ],
+  "camera_location": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "rangefinder_location": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "rgb_camera_name": "ReferenceRGBCamera",
+  "semantic_camera_name": "FrontSemanticSegmentationCamera",
+  "rangefinder_name": "FrontRangeFinder",
+  "rangefinder_max_distance_m": 80.0,
+  "perception_sensors": [
+    "SemanticSegmentationCamera",
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "navigation_sensors_not_detection_evidence": [
+    "LocationSensor",
+    "GPSSensor",
+    "OrientationSensor"
+  ],
+  "sensor_roles": {
+    "SemanticSegmentationCamera": "semantic identity evidence if a target-specific label/signature exists",
+    "RGBCamera": "visual identity evidence through audited RGB difference signatures",
+    "RangeFinderSensor": "range/object-presence evidence only, not target identity"
+  },
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1
+  },
+  "scenes": [
+    {
+      "name": "baseline",
+      "include_target": false,
+      "include_distractor": false
+    },
+    {
+      "name": "target_only",
+      "include_target": true,
+      "include_distractor": false,
+      "target_location": [
+        12.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "distractor_only",
+      "include_target": false,
+      "include_distractor": true,
+      "distractor_location": [
+        12.0,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "name": "target_and_distractor",
+      "include_target": true,
+      "include_distractor": true,
+      "target_location": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "distractor_location": [
+        12.0,
+        4.0,
+        0.5
+      ]
+    }
+  ],
+  "sonar_used": false,
+  "runtime_imported": false,
+  "search_decision_algorithm_modified": false,
+  "truth_used_for_detection": false,
+  "detection_event_source": "SemanticSegmentationCamera signature, RangeFinderSensor range evidence, RGBCamera visual evidence"
+}

@@ -1,0 +1,51 @@
+{
+  "phase_name": "phase5c4a0_semantic_camera_availability_probe",
+  "probe_completed": true,
+  "availability_conclusion": "available",
+  "semantic_camera_available": true,
+  "semantic_scenario_launch_ok": true,
+  "semantic_output_seen": true,
+  "semantic_error": "",
+  "control_rgb_scenario_ok": null,
+  "control_rgb_output_seen": null,
+  "control_error": "",
+  "rgb_output_seen": true,
+  "rgb_preview_saved": true,
+  "semantic_preview_saved": true,
+  "semantic_raw_saved": true,
+  "semantic_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\semantic_first_valid_raw.npy",
+  "semantic_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\semantic_first_valid_preview.png",
+  "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\reference_rgb_first_valid.png",
+  "semantic_first_stats": {
+    "present": true,
+    "shape": [
+      240,
+      320,
+      4
+    ],
+    "dtype": "uint8",
+    "size": 307200,
+    "min": 0.0,
+    "max": 255.0,
+    "unique_count": 2,
+    "finite_ratio": 1.0
+  },
+  "rgb_first_stats": {
+    "present": true,
+    "shape": [
+      240,
+      320,
+      4
+    ],
+    "dtype": "uint8",
+    "size": 307200,
+    "min": 72.0,
+    "max": 255.0,
+    "unique_count": 180,
+    "finite_ratio": 1.0
+  },
+  "wall_time_s": 10.994766299999998,
+  "memory_before_mb": 101.44140625,
+  "memory_after_mb": 129.46875,
+  "memory_delta_mb": 28.02734375
+}

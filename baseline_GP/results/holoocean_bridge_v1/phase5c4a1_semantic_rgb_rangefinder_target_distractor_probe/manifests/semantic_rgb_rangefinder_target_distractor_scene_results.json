@@ -1,0 +1,427 @@
+[
+  {
+    "scene": "baseline",
+    "include_target": false,
+    "include_distractor": false,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.882521899999999,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 16.0,
+      "max": 255.0,
+      "unique_count": 231
+    },
+    "semantic_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 2
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "semantic_colors": [
+      "0,0,0,0",
+      "0,0,0,255"
+    ],
+    "semantic_color_counts": {
+      "0,0,0,0": 11264,
+      "0,0,0,255": 65536
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\baseline_rgb.png",
+      "semantic_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\baseline_semantic_preview.png",
+      "semantic_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\baseline_semantic_raw.npy",
+      "rgb_preview_saved": true,
+      "semantic_preview_saved": true,
+      "semantic_raw_saved": true
+    },
+    "rgb_diff_from_baseline": {
+      "present": true,
+      "changed_pixels": 0,
+      "change_bbox_xyxy": null,
+      "signature_colors": [],
+      "signature_color_counts": {},
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ]
+    }
+  },
+  {
+    "scene": "target_only",
+    "include_target": true,
+    "include_distractor": false,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 9.9978256,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 16.0,
+      "max": 255.0,
+      "unique_count": 236
+    },
+    "semantic_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 2
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        9.808594703674316
+      ],
+      "min_positive_range_m": 9.808594703674316,
+      "hit": true
+    },
+    "semantic_colors": [
+      "0,0,0,0",
+      "0,0,0,255"
+    ],
+    "semantic_color_counts": {
+      "0,0,0,0": 11264,
+      "0,0,0,255": 65536
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_only_rgb.png",
+      "semantic_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_only_semantic_preview.png",
+      "semantic_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_only_semantic_raw.npy",
+      "rgb_preview_saved": true,
+      "semantic_preview_saved": true,
+      "semantic_raw_saved": true
+    },
+    "rgb_diff_from_baseline": {
+      "present": true,
+      "changed_pixels": 544,
+      "change_bbox_xyxy": [
+        140,
+        123,
+        292,
+        155
+      ],
+      "signature_colors": [
+        "160,128,96,255",
+        "160,128,128,255",
+        "160,160,160,255",
+        "192,192,192,255",
+        "128,128,96,255",
+        "224,160,128,255",
+        "160,160,128,255",
+        "128,96,64,255",
+        "224,192,128,255",
+        "128,96,96,255",
+        "192,160,160,255",
+        "96,96,64,255",
+        "128,128,128,255",
+        "192,160,96,255",
+        "160,96,64,255",
+        "192,160,128,255",
+        "224,192,160,255",
+        "96,64,64,255",
+        "96,64,32,255",
+        "224,224,224,255",
+        "192,128,96,255",
+        "128,64,32,255",
+        "192,192,160,255",
+        "160,160,192,255"
+      ],
+      "signature_color_counts": {
+        "160,128,96,255": 84,
+        "160,128,128,255": 49,
+        "160,160,160,255": 46,
+        "192,192,192,255": 43,
+        "128,128,96,255": 30,
+        "224,160,128,255": 29,
+        "160,160,128,255": 29,
+        "128,96,64,255": 22,
+        "224,192,128,255": 21,
+        "128,96,96,255": 19,
+        "192,160,160,255": 17,
+        "96,96,64,255": 17,
+        "128,128,128,255": 15,
+        "192,160,96,255": 13,
+        "160,96,64,255": 12,
+        "192,160,128,255": 11,
+        "224,192,160,255": 11,
+        "96,64,64,255": 10,
+        "96,64,32,255": 10,
+        "224,224,224,255": 10,
+        "192,128,96,255": 10,
+        "128,64,32,255": 7,
+        "192,192,160,255": 6,
+        "160,160,192,255": 5
+      },
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ]
+    }
+  },
+  {
+    "scene": "distractor_only",
+    "include_target": false,
+    "include_distractor": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.674448900000002,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 16.0,
+      "max": 255.0,
+      "unique_count": 228
+    },
+    "semantic_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 2
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        11.555341720581055
+      ],
+      "min_positive_range_m": 11.555341720581055,
+      "hit": true
+    },
+    "semantic_colors": [
+      "0,0,0,0",
+      "0,0,0,255"
+    ],
+    "semantic_color_counts": {
+      "0,0,0,0": 11264,
+      "0,0,0,255": 65536
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\distractor_only_rgb.png",
+      "semantic_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\distractor_only_semantic_preview.png",
+      "semantic_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\distractor_only_semantic_raw.npy",
+      "rgb_preview_saved": true,
+      "semantic_preview_saved": true,
+      "semantic_raw_saved": true
+    },
+    "rgb_diff_from_baseline": {
+      "present": true,
+      "changed_pixels": 154,
+      "change_bbox_xyxy": [
+        153,
+        135,
+        166,
+        149
+      ],
+      "signature_colors": [
+        "224,224,224,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "160,160,160,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "192,128,96,255"
+      ],
+      "signature_color_counts": {
+        "224,224,224,255": 69,
+        "192,160,160,255": 19,
+        "192,192,160,255": 18,
+        "192,192,192,255": 13,
+        "160,160,128,255": 9,
+        "192,160,128,255": 6,
+        "224,192,160,255": 5,
+        "224,192,192,255": 4,
+        "160,160,160,255": 3,
+        "160,128,128,255": 3,
+        "160,128,96,255": 3,
+        "192,128,96,255": 2
+      },
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ]
+    }
+  },
+  {
+    "scene": "target_and_distractor",
+    "include_target": true,
+    "include_distractor": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.079098100000003,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 16.0,
+      "max": 255.0,
+      "unique_count": 236
+    },
+    "semantic_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 2
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        9.831196784973145
+      ],
+      "min_positive_range_m": 9.831196784973145,
+      "hit": true
+    },
+    "semantic_colors": [
+      "0,0,0,0",
+      "0,0,0,255"
+    ],
+    "semantic_color_counts": {
+      "0,0,0,0": 11264,
+      "0,0,0,255": 65536
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_and_distractor_rgb.png",
+      "semantic_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_and_distractor_semantic_preview.png",
+      "semantic_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe\\visuals\\target_and_distractor_semantic_raw.npy",
+      "rgb_preview_saved": true,
+      "semantic_preview_saved": true,
+      "semantic_raw_saved": true
+    },
+    "rgb_diff_from_baseline": {
+      "present": true,
+      "changed_pixels": 707,
+      "change_bbox_xyxy": [
+        99,
+        123,
+        292,
+        155
+      ],
+      "signature_colors": [
+        "160,128,96,255",
+        "224,224,224,255",
+        "160,128,128,255",
+        "192,192,192,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,160,255",
+        "128,128,96,255",
+        "224,160,128,255",
+        "128,96,96,255",
+        "128,96,64,255",
+        "224,192,128,255",
+        "96,96,64,255",
+        "192,160,128,255",
+        "128,128,128,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "128,64,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "192,160,96,255",
+        "224,192,160,255",
+        "192,192,160,255",
+        "224,192,192,255"
+      ],
+      "signature_color_counts": {
+        "160,128,96,255": 87,
+        "224,224,224,255": 79,
+        "160,128,128,255": 60,
+        "192,192,192,255": 58,
+        "160,160,128,255": 49,
+        "160,160,160,255": 35,
+        "192,160,160,255": 33,
+        "128,128,96,255": 29,
+        "224,160,128,255": 28,
+        "128,96,96,255": 23,
+        "128,96,64,255": 21,
+        "224,192,128,255": 19,
+        "96,96,64,255": 18,
+        "192,160,128,255": 18,
+        "128,128,128,255": 17,
+        "160,96,64,255": 14,
+        "192,128,96,255": 13,
+        "128,64,32,255": 12,
+        "96,64,32,255": 11,
+        "96,64,64,255": 11,
+        "192,160,96,255": 10,
+        "224,192,160,255": 9,
+        "192,192,160,255": 8,
+        "224,192,192,255": 7
+      },
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ]
+    }
+  }
+]

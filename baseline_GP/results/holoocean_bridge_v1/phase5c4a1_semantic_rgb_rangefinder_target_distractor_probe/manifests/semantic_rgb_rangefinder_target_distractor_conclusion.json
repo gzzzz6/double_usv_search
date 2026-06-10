@@ -1,0 +1,52 @@
+{
+  "target_signature_colors": [],
+  "distractor_signature_colors": [],
+  "target_signature_present": false,
+  "distractor_signature_present": false,
+  "target_vs_distractor_semantic_disjoint": false,
+  "semantic_identity_supported": false,
+  "rgb_target_signature_colors": [
+    "128,128,128,255",
+    "128,128,96,255",
+    "128,64,32,255",
+    "128,96,64,255",
+    "128,96,96,255",
+    "160,160,192,255",
+    "160,96,64,255",
+    "192,160,96,255",
+    "224,160,128,255",
+    "224,192,128,255",
+    "96,64,32,255",
+    "96,64,64,255",
+    "96,96,64,255"
+  ],
+  "rgb_distractor_signature_colors": [
+    "224,192,192,255"
+  ],
+  "rgb_target_signature_present": true,
+  "rgb_distractor_signature_present": true,
+  "rgb_target_vs_distractor_disjoint": true,
+  "rgb_can_distinguish_target_from_distractor": true,
+  "rangefinder_baseline_hit": false,
+  "rangefinder_object_scene_hits": [
+    true,
+    true,
+    true
+  ],
+  "rangefinder_object_presence_supported": true,
+  "all_scene_launch_ok": true,
+  "all_scenes_rgb_output": true,
+  "all_scenes_semantic_output": true,
+  "all_scenes_rangefinder_output": true,
+  "all_detection_events_correct": true,
+  "semantic_can_distinguish_target_from_distractor": false,
+  "rangefinder_available_as_range_evidence": true,
+  "rgb_available_as_visual_evidence": true,
+  "composite_sensor_detection_supported": true,
+  "phase_name": "phase5c4a1_semantic_rgb_rangefinder_target_distractor_probe",
+  "probe_completed": true,
+  "wall_time_s": 42.985836,
+  "truth_used_for_detection": false,
+  "runtime_imported": false,
+  "sonar_used": false
+}

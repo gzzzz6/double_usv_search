@@ -1,0 +1,45 @@
+{
+  "semantic_scenario": {
+    "scenario_launch_ok": true,
+    "scenario_error": "",
+    "capture_ticks_requested": 30,
+    "capture_ticks_recorded": 30,
+    "rgb_output_seen": true,
+    "semantic_output_seen": true,
+    "first_rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 72.0,
+      "max": 255.0,
+      "unique_count": 180,
+      "finite_ratio": 1.0
+    },
+    "first_semantic_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 2,
+      "finite_ratio": 1.0
+    },
+    "wall_time_s": 10.445121199999999
+  },
+  "control_rgb_scenario": {},
+  "semantic_scenario_tick_count": 30,
+  "control_rgb_scenario_tick_count": 0,
+  "first_rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\reference_rgb_first_valid.png",
+  "first_semantic_raw_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\semantic_first_valid_raw.npy",
+  "first_semantic_preview_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4a0_semantic_camera_availability_probe\\visuals\\semantic_first_valid_preview.png"
+}

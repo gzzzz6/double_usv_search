@@ -1,0 +1,10 @@
+{
+  "pre_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4a0_semantic_camera_availability_probe/"
+  ],
+  "post_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4a0_semantic_camera_availability_probe/"
+  ],
+  "phase_dir": "baseline_GP/results/holoocean_bridge_v1/phase5c4a0_semantic_camera_availability_probe",
+  "outside_phase_new_or_changed": []
+}

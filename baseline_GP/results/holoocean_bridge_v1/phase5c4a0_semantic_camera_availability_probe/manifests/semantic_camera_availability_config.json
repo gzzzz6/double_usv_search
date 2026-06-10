@@ -1,0 +1,39 @@
+{
+  "phase_name": "phase5c4a0_semantic_camera_availability_probe",
+  "purpose": "SemanticSegmentationCamera availability probe",
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "map_height_cells": 81,
+  "map_width_cells": 81,
+  "resolution_m": 10.0,
+  "start_cell": [
+    40,
+    40
+  ],
+  "capture_ticks": 30,
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "main_agent": "sv0",
+  "agent_name": "sv0",
+  "agent_type": "SurfaceVessel",
+  "control_scheme": 0,
+  "rgb_camera_name": "ReferenceRGBCamera",
+  "semantic_camera_name": "FrontSemanticSegmentationCamera",
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "semantic_camera_used_for_detection": false,
+  "sonar_used": false,
+  "target_agent_used": false,
+  "obstacle_used": false,
+  "runtime_imported": false,
+  "official_doc": "https://byu-holoocean.github.io/holoocean-docs/v2.2.2/holoocean/sensors.html",
+  "start_world": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "start_roundtrip": [
+    40,
+    40
+  ]
+}

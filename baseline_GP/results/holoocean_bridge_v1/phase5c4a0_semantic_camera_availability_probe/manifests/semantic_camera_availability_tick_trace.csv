@@ -1,0 +1,31 @@
+scenario_includes_semantic,tick,state_top_keys,sv0_sensor_keys,location_present,gps_present,orientation_present,rgb_present,rgb_shape,rgb_dtype,rgb_size,semantic_present,semantic_shape,semantic_dtype,semantic_size,semantic_min,semantic_max,semantic_unique_count,semantic_finite_ratio
+True,1,"[""FrontSemanticSegmentationCamera"", ""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""ReferenceRGBCamera"", ""t""]",[],True,True,True,True,"[240, 320, 4]",uint8,307200,True,"[240, 320, 4]",uint8,307200,0.0,255.0,2,1.0
+True,2,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,3,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,4,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,5,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,6,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,7,"[""FrontSemanticSegmentationCamera"", ""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""ReferenceRGBCamera"", ""t""]",[],True,True,True,True,"[240, 320, 4]",uint8,307200,True,"[240, 320, 4]",uint8,307200,0.0,255.0,2,1.0
+True,8,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,9,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,10,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,11,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,12,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,13,"[""FrontSemanticSegmentationCamera"", ""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""ReferenceRGBCamera"", ""t""]",[],True,True,True,True,"[240, 320, 4]",uint8,307200,True,"[240, 320, 4]",uint8,307200,0.0,255.0,2,1.0
+True,14,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,15,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,16,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,17,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,18,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,19,"[""FrontSemanticSegmentationCamera"", ""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""ReferenceRGBCamera"", ""t""]",[],True,True,True,True,"[240, 320, 4]",uint8,307200,True,"[240, 320, 4]",uint8,307200,0.0,255.0,2,1.0
+True,20,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,21,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,22,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,23,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,24,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,25,"[""FrontSemanticSegmentationCamera"", ""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""ReferenceRGBCamera"", ""t""]",[],True,True,True,True,"[240, 320, 4]",uint8,307200,True,"[240, 320, 4]",uint8,307200,0.0,255.0,2,1.0
+True,26,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,27,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,28,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,29,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
+True,30,"[""GPSSensor"", ""LocationSensor"", ""OrientationSensor"", ""t""]",[],True,True,True,False,,,0,False,,,0,,,,
