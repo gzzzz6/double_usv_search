@@ -1,0 +1,1 @@
+BASE_PY_COMPILE_OK: rgb_rangefinder_detection_adapter_probe.py rgb_rangefinder_detection_adapter_audit.py

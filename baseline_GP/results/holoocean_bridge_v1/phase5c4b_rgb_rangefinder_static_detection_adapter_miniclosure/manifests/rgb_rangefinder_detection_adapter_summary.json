@@ -1,0 +1,60 @@
+{
+  "phase_name": "phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure",
+  "probe_completed": true,
+  "terminated_reason": "sensor_found_adapter_complete",
+  "controlled_adapter_step": true,
+  "full_search_policy_loop_run": false,
+  "search_decision_algorithm_modified": false,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "sensor_detected_target": true,
+  "rgb_has_target_signature": true,
+  "rangefinder_hit": true,
+  "rangefinder_min_positive_range_m": 7.827948093414307,
+  "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+  "found_count_final": 1,
+  "found_mask_final": [
+    true
+  ],
+  "find_times_final": [
+    1
+  ],
+  "new_found_indices": [
+    0
+  ],
+  "hit_branch_covered": true,
+  "hit_update_called": true,
+  "team_gp_update_called": true,
+  "team_search_info_update_called": true,
+  "team_miss_update_called": false,
+  "circular_miss_update_applied": false,
+  "circular_miss_update_skipped_due_to_camera_fov": true,
+  "remaining_intensity_mass_final": 0.0,
+  "peak_intensity_ratio_final": 0.0,
+  "known_free_observation_ratio_final": 0.021791379586604712,
+  "gp_n_obs_initial": 48,
+  "gp_n_obs_final": 96,
+  "gp_count_consistent_final": true,
+  "search_info_shape_ok_final": true,
+  "search_info_valid_final": true,
+  "controlled_simplifications": [
+    "target actor is placed one 10m grid cell directly in front of sv0",
+    "sv0 camera and rangefinder point along +X toward the target",
+    "target index mapping is the single-target adapter contract",
+    "camera FOV-grid footprint replacement is not attempted",
+    "circular miss update is skipped"
+  ],
+  "not_claimed": [
+    "not a full replacement for baseline circular sensor geometry",
+    "not a general image-recognition model",
+    "not dynamic target handling",
+    "not obstacle handling"
+  ]
+}

@@ -1,0 +1,2094 @@
+{
+  "baseline": {
+    "scene": "baseline",
+    "role": "background_reference",
+    "include_target": false,
+    "include_distractor": false,
+    "expected_target_present_for_audit": false,
+    "expected_visible_target_for_boundary": false,
+    "scenario_factors": {
+      "target_orientation": "none",
+      "target_position": "center",
+      "target_distance": "none",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "no_object_no_range_hit"
+    },
+    "target": null,
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 20.4003847,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\baseline_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\baseline_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "baseline",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_front_center_near": {
+    "scene": "target_front_center_near",
+    "role": "calibration_positive_front_center_near",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 13.596485199999996,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 241
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        7.829494476318359
+      ],
+      "min_positive_range_m": 7.829494476318359,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.829494476318359
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.832174777984619
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8321757316589355
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.829178333282471
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.823599815368652
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8168158531188965
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.810004711151123
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.803815841674805
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.798892974853516
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.795462131500244
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.793785572052002
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.793982028961182
+      }
+    ]
+  },
+  "target_yaw45_center_near": {
+    "scene": "target_yaw45_center_near",
+    "role": "orientation_stress_yaw45",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "oblique_yaw45",
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        45.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 45.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.451284800000003,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 239
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        8.239830017089844
+      ],
+      "min_positive_range_m": 8.239830017089844,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw45_center_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw45_center_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.239830017089844
+      }
+    ]
+  },
+  "target_yaw90_center_near": {
+    "scene": "target_yaw90_center_near",
+    "role": "orientation_stress_yaw90_side",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "side_yaw90",
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 90.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.331976999999995,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 239
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        8.755372047424316
+      ],
+      "min_positive_range_m": 8.755372047424316,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw90_center_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw90_center_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.755372047424316
+      }
+    ]
+  },
+  "target_left_offset_near": {
+    "scene": "target_left_offset_near",
+    "role": "position_stress_left_offset",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rgb_visible_but_single_ray_may_miss"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        177.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.792623899999995,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_left_offset_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_left_offset_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_left_offset_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_right_offset_near": {
+    "scene": "target_right_offset_near",
+    "role": "position_stress_right_offset",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rgb_visible_but_single_ray_may_miss"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        163.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.494306300000005,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_offset_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_offset_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_right_offset_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_right_fov_edge_near": {
+    "scene": "target_right_fov_edge_near",
+    "role": "position_stress_near_fov_edge",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "right_fov_edge",
+      "target_distance": "near_10m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rgb_edge_and_single_ray_miss_candidate"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        158.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -12.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.9601179,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 1.0,
+      "max": 255.0,
+      "unique_count": 254
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_fov_edge_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_fov_edge_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_front_center_mid": {
+    "scene": "target_front_center_mid",
+    "role": "distance_stress_mid",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "center",
+      "target_distance": "mid_30m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -170.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 30.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.2702807,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        27.80121421813965
+      ],
+      "min_positive_range_m": 27.80121421813965,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_mid_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_mid_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_mid",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.80121421813965
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.797029495239258
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.79437828063965
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.794639587402344
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.797460556030273
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.802001953125
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.807790756225586
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.814001083374023
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.82000160217285
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.824522018432617
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.826765060424805
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.82666778564453
+      }
+    ]
+  },
+  "target_front_center_far": {
+    "scene": "target_front_center_far",
+    "role": "distance_stress_far",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "center",
+      "target_distance": "far_70m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected_but_rgb_small"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -130.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 70.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.848860399999992,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 235
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        67.81819152832031
+      ],
+      "min_positive_range_m": 67.81819152832031,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_far_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_far_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_far",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81819152832031
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81982421875
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.8205337524414
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81941223144531
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81622314453125
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81241607666016
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.80851745605469
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.80506896972656
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.802490234375
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.80052947998047
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.7984619140625
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.79719543457031
+      }
+    ]
+  },
+  "distractor_only_center": {
+    "scene": "distractor_only_center",
+    "role": "negative_distractor_only_range_hit_not_identity",
+    "include_target": false,
+    "include_distractor": true,
+    "expected_target_present_for_audit": false,
+    "expected_visible_target_for_boundary": false,
+    "scenario_factors": {
+      "target_orientation": "none",
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only",
+      "rangefinder_boundary_condition": "rangefinder_hit_rgb_not_target"
+    },
+    "target": null,
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        170.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.191849900000008,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 234
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        9.553488731384277
+      ],
+      "min_positive_range_m": 9.553488731384277,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_only_center_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_only_center_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_only_center",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.553488731384277
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.563727378845215
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.574305534362793
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.583909034729004
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.591269493103027
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.59525203704834
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.595320701599121
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.5918550491333
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.585887908935547
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.578895568847656
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.571656227111816
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.565221786499023
+      }
+    ]
+  },
+  "target_with_side_distractor": {
+    "scene": "target_with_side_distractor",
+    "role": "positive_with_side_distractor",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "side_distractor",
+      "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        160.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -10.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.868383499999993,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 241
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        7.809057235717773
+      ],
+      "min_positive_range_m": 7.809057235717773,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_with_side_distractor_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_with_side_distractor_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.809057235717773
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.807844638824463
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.806812763214111
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.806530952453613
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.807569980621338
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.809564113616943
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.812475681304932
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.815919876098633
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.819253921508789
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.821960926055908
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.823397159576416
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.823572158813477
+      }
+    ]
+  },
+  "distractor_occludes_target": {
+    "scene": "distractor_occludes_target",
+    "role": "occlusion_stress_distractor_between_camera_and_target",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "center",
+      "target_distance": "near_14m_occluded",
+      "distractor_condition": "occluding_distractor",
+      "rangefinder_boundary_condition": "rangefinder_hit_may_be_distractor"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -186.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 14.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -191.0,
+        170.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 9.0,
+      "lateral_m": 0.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 11.060450400000008,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 232
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        8.561053276062012
+      ],
+      "min_positive_range_m": 8.561053276062012,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_occludes_target_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_occludes_target_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.561053276062012
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.57374382019043
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.587788581848145
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.601333618164062
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.61231517791748
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.618836402893066
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.61960506439209
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.61496639251709
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.606616973876953
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.596667289733887
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.586838722229004
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.578143119812012
+      }
+    ]
+  },
+  "target_rgb_rangefinder_mismatch_candidate": {
+    "scene": "target_rgb_rangefinder_mismatch_candidate",
+    "role": "boundary_rgb_target_signature_but_rangefinder_miss_candidate",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_visible_target_for_boundary": true,
+    "scenario_factors": {
+      "target_orientation": "front_yaw0",
+      "target_position": "right_edge_outside_single_ray",
+      "target_distance": "near_12m",
+      "distractor_condition": "none",
+      "rangefinder_boundary_condition": "rgb_target_signature_but_rangefinder_miss_candidate"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -188.0,
+        156.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 12.0,
+      "lateral_m": -14.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.844812099999984,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 252
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_rgb_rangefinder_mismatch_candidate_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_rgb_rangefinder_mismatch_candidate_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  }
+}

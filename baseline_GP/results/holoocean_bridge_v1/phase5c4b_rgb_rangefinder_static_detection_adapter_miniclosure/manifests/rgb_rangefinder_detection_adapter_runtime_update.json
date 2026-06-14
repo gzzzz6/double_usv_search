@@ -1,0 +1,241 @@
+{
+  "step": 1,
+  "controlled_adapter_step": true,
+  "physical_execution_called": false,
+  "physical_execution_reason": "controlled frontal sensor capture only; no search-policy movement in 5C-4B",
+  "baseline_detect_targets_called": false,
+  "detect_targets_replaced_by_sensor_adapter": true,
+  "sensor_detection_event": {
+    "event_name": "detection_step_sensor_adapter_event",
+    "scene": "detection_step",
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "no_target_baseline_scene",
+          "signature_calibration_source": "target_calibration_scene"
+        },
+        "calibration_scene": "target_calibration",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,160,96,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "scene_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,224,192,255",
+          "64,32,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "64,32,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "changed_pixels": 943,
+        "change_bbox_xyxy": [
+          27,
+          123,
+          290,
+          165
+        ],
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "range/object-presence evidence only, not target identity",
+        "present": true,
+        "hit": true,
+        "min_positive_range_m": 7.827948093414307,
+        "raw": [
+          7.827948093414307
+        ],
+        "identity_supported": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.827948093414307,
+    "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+    "sensor_detected_target": true,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "target_index_selected": 0,
+    "target_index_mapping_source": "single_target_static_adapter_contract",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure\\visuals\\detection_step_rgb.png"
+  },
+  "team_detected_mask_source": "sensor_adapter_event_only",
+  "team_detected_mask": [
+    true
+  ],
+  "update_found_mask_called": true,
+  "new_found_indices": [
+    0
+  ],
+  "team_detected_count": 1,
+  "team_miss_update_called": false,
+  "circular_miss_update_skipped_due_to_camera_fov": true,
+  "hit_update_called": true,
+  "hit_update_source": "sensor_adapter_found_event",
+  "team_gp_update_called": true,
+  "team_search_info_update_called": true,
+  "anomaly_metric_update_called": true,
+  "found_count_before": 0,
+  "found_count_after": 1,
+  "found_mask_before": [
+    false
+  ],
+  "found_mask_after": [
+    true
+  ],
+  "find_times_before": [
+    null
+  ],
+  "find_times_after": [
+    1
+  ],
+  "target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "remaining_target_mass_before": 1.0,
+  "remaining_target_mass_after": 0.0,
+  "remaining_intensity_mass_after": 0.0,
+  "peak_intensity_ratio_after": 0.0,
+  "initial_gp_n_obs": 48,
+  "initial_gp_x_obs_len": 48,
+  "initial_gp_y_obs_len": 48,
+  "initial_gp_count_consistent": true,
+  "final_gp_n_obs": 96,
+  "final_gp_x_obs_len": 96,
+  "final_gp_y_obs_len": 96,
+  "final_gp_count_consistent": true,
+  "initial_search_info_shape": [
+    81,
+    81
+  ],
+  "initial_search_info_expected_shape": [
+    81,
+    81
+  ],
+  "initial_search_info_has_nan": false,
+  "initial_search_info_free_valid_count": 6241,
+  "initial_search_info_map_peak": 1.0,
+  "initial_search_info_map_mean": 0.9739162390549796,
+  "initial_search_info_shape_ok": true,
+  "initial_search_info_valid": true,
+  "final_search_info_shape": [
+    81,
+    81
+  ],
+  "final_search_info_expected_shape": [
+    81,
+    81
+  ],
+  "final_search_info_has_nan": false,
+  "final_search_info_free_valid_count": 6241,
+  "final_search_info_map_peak": 0.5,
+  "final_search_info_map_mean": 0.4526835625542728,
+  "final_search_info_shape_ok": true,
+  "final_search_info_valid": true,
+  "controlled_runtime": {
+    "initial_target_positions": [
+      [
+        23,
+        21
+      ]
+    ],
+    "controlled_robot_positions": [
+      [
+        23,
+        20
+      ],
+      [
+        35,
+        2
+      ]
+    ],
+    "controlled_target_positions": [
+      [
+        23,
+        21
+      ]
+    ]
+  },
+  "runtime_python_executable": "F:\\anaconda\\python.exe",
+  "runtime_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "runtime_wall_time_s": 0.47213400000327965
+}

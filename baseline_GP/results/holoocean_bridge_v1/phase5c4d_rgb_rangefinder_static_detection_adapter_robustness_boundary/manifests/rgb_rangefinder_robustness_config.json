@@ -1,0 +1,537 @@
+{
+  "phase_name": "phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary",
+  "purpose": "RGB+RangeFinder robustness boundary test for Phase 5C-4C adapter logic",
+  "scope": "controlled static target/distractor stress scenes",
+  "not_claimed": [
+    "not a trained image-recognition model",
+    "not a robust production detector",
+    "not a full replacement for baseline circular sensor geometry",
+    "not dynamic target handling"
+  ],
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "phase5c4c_detection_logic_modified": false,
+  "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1,
+    "baseline_source": "baseline",
+    "signature_calibration_source": "target_front_center_near",
+    "distractor_rejection_source": "distractor_only_center"
+  },
+  "adapter_logic_inherited_from_phase5c4c": {
+    "same_rgb_diff_threshold": true,
+    "same_rgb_quantization": true,
+    "same_rgb_top_k": true,
+    "same_target_overlap_min": true,
+    "same_found_rule": true
+  },
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "capture_ticks": 12,
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "camera_location": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "rangefinder_location": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "rangefinder_max_distance_m": 80.0,
+  "rgb_camera_name": "FrontRGBCamera",
+  "rangefinder_name": "FrontRangeFinder",
+  "controlled_step": 1,
+  "controlled_world_locations": {
+    "sv0": [
+      -200.0,
+      170.0,
+      0.0
+    ],
+    "sv1": [
+      -380.0,
+      50.0,
+      0.0
+    ]
+  },
+  "controlled_runtime_cells": {
+    "sv0": [
+      23,
+      20
+    ],
+    "sv1": [
+      35,
+      2
+    ]
+  },
+  "controlled_simplifications": [
+    "scene matrix changes actor pose/location only; adapter rule is unchanged",
+    "single forward RangeFinder ray is intentionally preserved",
+    "RGB baseline/difference signature method is intentionally preserved",
+    "truth fields are used only for audit labels and pass/fail classification"
+  ],
+  "scenes": [
+    {
+      "name": "baseline",
+      "role": "background_reference",
+      "include_target": false,
+      "include_distractor": false,
+      "target": null,
+      "distractor": null,
+      "expected_target_present_for_audit": false,
+      "expected_visible_target_for_boundary": false,
+      "expected_sensor_detected_target": false,
+      "scenario_factors": {
+        "target_orientation": "none",
+        "target_position": "center",
+        "target_distance": "none",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "no_object_no_range_hit"
+      }
+    },
+    {
+      "name": "target_front_center_near",
+      "role": "calibration_positive_front_center_near",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "center",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+      }
+    },
+    {
+      "name": "target_yaw45_center_near",
+      "role": "orientation_stress_yaw45",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          45.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 45.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "oblique_yaw45",
+        "target_position": "center",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+      }
+    },
+    {
+      "name": "target_yaw90_center_near",
+      "role": "orientation_stress_yaw90_side",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 90.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "side_yaw90",
+        "target_position": "center",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+      }
+    },
+    {
+      "name": "target_left_offset_near",
+      "role": "position_stress_left_offset",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          177.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 7.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "left_offset",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rgb_visible_but_single_ray_may_miss"
+      }
+    },
+    {
+      "name": "target_right_offset_near",
+      "role": "position_stress_right_offset",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          163.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": -7.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "right_offset",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rgb_visible_but_single_ray_may_miss"
+      }
+    },
+    {
+      "name": "target_right_fov_edge_near",
+      "role": "position_stress_near_fov_edge",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          158.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": -12.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "right_fov_edge",
+        "target_distance": "near_10m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rgb_edge_and_single_ray_miss_candidate"
+      }
+    },
+    {
+      "name": "target_front_center_mid",
+      "role": "distance_stress_mid",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -170.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 30.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "center",
+        "target_distance": "mid_30m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+      }
+    },
+    {
+      "name": "target_front_center_far",
+      "role": "distance_stress_far",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -130.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 70.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "center",
+        "target_distance": "far_70m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected_but_rgb_small"
+      }
+    },
+    {
+      "name": "distractor_only_center",
+      "role": "negative_distractor_only_range_hit_not_identity",
+      "include_target": false,
+      "include_distractor": true,
+      "target": null,
+      "distractor": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -190.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0
+      },
+      "expected_target_present_for_audit": false,
+      "expected_visible_target_for_boundary": false,
+      "expected_sensor_detected_target": false,
+      "scenario_factors": {
+        "target_orientation": "none",
+        "target_position": "center",
+        "target_distance": "near_10m",
+        "distractor_condition": "distractor_only",
+        "rangefinder_boundary_condition": "rangefinder_hit_rgb_not_target"
+      }
+    },
+    {
+      "name": "target_with_side_distractor",
+      "role": "positive_with_side_distractor",
+      "include_target": true,
+      "include_distractor": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -190.0,
+          160.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": -10.0
+      },
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "center",
+        "target_distance": "near_10m",
+        "distractor_condition": "side_distractor",
+        "rangefinder_boundary_condition": "rangefinder_centerline_hit_expected"
+      }
+    },
+    {
+      "name": "distractor_occludes_target",
+      "role": "occlusion_stress_distractor_between_camera_and_target",
+      "include_target": true,
+      "include_distractor": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -186.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 14.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -191.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 9.0,
+        "lateral_m": 0.0
+      },
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "center",
+        "target_distance": "near_14m_occluded",
+        "distractor_condition": "occluding_distractor",
+        "rangefinder_boundary_condition": "rangefinder_hit_may_be_distractor"
+      }
+    },
+    {
+      "name": "target_rgb_rangefinder_mismatch_candidate",
+      "role": "boundary_rgb_target_signature_but_rangefinder_miss_candidate",
+      "include_target": true,
+      "include_distractor": false,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -188.0,
+          156.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 12.0,
+        "lateral_m": -14.0,
+        "yaw_deg": 0.0
+      },
+      "distractor": null,
+      "expected_target_present_for_audit": true,
+      "expected_visible_target_for_boundary": true,
+      "expected_sensor_detected_target": true,
+      "scenario_factors": {
+        "target_orientation": "front_yaw0",
+        "target_position": "right_edge_outside_single_ray",
+        "target_distance": "near_12m",
+        "distractor_condition": "none",
+        "rangefinder_boundary_condition": "rgb_target_signature_but_rangefinder_miss_candidate"
+      }
+    }
+  ],
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "pre_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary/"
+  ]
+}

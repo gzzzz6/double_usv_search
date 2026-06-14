@@ -1,0 +1,148 @@
+[
+  {
+    "event_name": "baseline_no_target_negative_check",
+    "scene": "baseline",
+    "expected_target_present_for_audit": false,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "rgb_has_target_signature": false,
+    "rangefinder_hit": false,
+    "sensor_detected_target": false,
+    "no_target_false_positive": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false
+  },
+  {
+    "event_name": "detection_step_sensor_adapter_event",
+    "scene": "detection_step",
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "no_target_baseline_scene",
+          "signature_calibration_source": "target_calibration_scene"
+        },
+        "calibration_scene": "target_calibration",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,160,96,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "scene_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,224,192,255",
+          "64,32,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "64,32,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "changed_pixels": 943,
+        "change_bbox_xyxy": [
+          27,
+          123,
+          290,
+          165
+        ],
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "range/object-presence evidence only, not target identity",
+        "present": true,
+        "hit": true,
+        "min_positive_range_m": 7.827948093414307,
+        "raw": [
+          7.827948093414307
+        ],
+        "identity_supported": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.827948093414307,
+    "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+    "sensor_detected_target": true,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "target_index_selected": 0,
+    "target_index_mapping_source": "single_target_static_adapter_contract",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure\\visuals\\detection_step_rgb.png"
+  }
+]

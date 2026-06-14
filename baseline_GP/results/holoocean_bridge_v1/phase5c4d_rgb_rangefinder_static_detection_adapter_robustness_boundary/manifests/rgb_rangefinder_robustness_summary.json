@@ -1,0 +1,444 @@
+{
+  "phase_name": "phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary",
+  "probe_completed": true,
+  "terminated_reason": "robustness_boundary_matrix_complete",
+  "robustness_boundary_goal_completed": true,
+  "scene_count": 13,
+  "controlled_adapter_step": true,
+  "full_search_policy_loop_run": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "phase5c4c_detection_logic_modified": false,
+  "adapter_logic_inherited_from_phase5c4c": {
+    "same_rgb_diff_threshold": true,
+    "same_rgb_quantization": true,
+    "same_rgb_top_k": true,
+    "same_target_overlap_min": true,
+    "same_found_rule": true
+  },
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1,
+    "baseline_source": "baseline",
+    "signature_calibration_source": "target_front_center_near",
+    "distractor_rejection_source": "distractor_only_center"
+  },
+  "target_signature_colors": [
+    "128,128,128,255",
+    "128,128,96,255",
+    "128,64,32,255",
+    "128,96,64,255",
+    "128,96,96,255",
+    "160,96,64,255",
+    "192,128,96,255",
+    "224,160,128,255",
+    "224,160,96,255",
+    "64,32,0,255",
+    "64,32,32,255",
+    "64,64,32,255",
+    "96,32,32,255",
+    "96,64,32,255",
+    "96,64,64,255",
+    "96,96,64,255"
+  ],
+  "distractor_signature_colors": [
+    "192,128,128,255",
+    "192,192,160,255",
+    "224,192,128,255",
+    "224,192,160,255",
+    "224,192,192,255",
+    "224,224,192,255"
+  ],
+  "shared_signature_colors": [
+    "160,128,128,255",
+    "160,128,96,255",
+    "160,160,128,255",
+    "160,160,160,255",
+    "192,160,128,255",
+    "192,160,160,255",
+    "192,192,192,255",
+    "224,224,224,255"
+  ],
+  "target_signature_present": true,
+  "distractor_signature_present": true,
+  "rgb_target_vs_distractor_disjoint": true,
+  "all_scene_launch_ok": true,
+  "all_scenes_rgb_output": true,
+  "all_scenes_rangefinder_output": true,
+  "outcome_counts": {
+    "true_negative": 2,
+    "true_positive": 5,
+    "false_negative": 6
+  },
+  "failure_counts": {
+    "none": 7,
+    "false_negative_no_range_hit": 2,
+    "false_negative_no_rgb_signature_and_no_range_hit": 2,
+    "false_negative_no_rgb_signature": 2
+  },
+  "true_positive_scenes": [
+    "target_front_center_near",
+    "target_yaw45_center_near",
+    "target_yaw90_center_near",
+    "target_with_side_distractor",
+    "distractor_occludes_target"
+  ],
+  "true_negative_scenes": [
+    "baseline",
+    "distractor_only_center"
+  ],
+  "false_negative_scenes": [
+    "target_left_offset_near",
+    "target_right_offset_near",
+    "target_right_fov_edge_near",
+    "target_front_center_mid",
+    "target_front_center_far",
+    "target_rgb_rangefinder_mismatch_candidate"
+  ],
+  "false_positive_scenes": [],
+  "effective_scene_count": 7,
+  "failure_scene_count": 6,
+  "rgb_target_signature_without_range_hit_observed": true,
+  "range_hit_without_target_rgb_signature_observed": true,
+  "rangefinder_identity_ambiguity_observed": true,
+  "coverage": {
+    "target_orientation": [
+      "front_yaw0",
+      "none",
+      "oblique_yaw45",
+      "side_yaw90"
+    ],
+    "target_position": [
+      "center",
+      "left_offset",
+      "right_edge_outside_single_ray",
+      "right_fov_edge",
+      "right_offset"
+    ],
+    "target_distance": [
+      "far_70m",
+      "mid_30m",
+      "near_10m",
+      "near_12m",
+      "near_14m_occluded",
+      "none"
+    ],
+    "distractor_condition": [
+      "distractor_only",
+      "none",
+      "occluding_distractor",
+      "side_distractor"
+    ],
+    "rangefinder_boundary_condition": [
+      "no_object_no_range_hit",
+      "rangefinder_centerline_hit_expected",
+      "rangefinder_centerline_hit_expected_but_rgb_small",
+      "rangefinder_hit_may_be_distractor",
+      "rangefinder_hit_rgb_not_target",
+      "rgb_edge_and_single_ray_miss_candidate",
+      "rgb_target_signature_but_rangefinder_miss_candidate",
+      "rgb_visible_but_single_ray_may_miss"
+    ]
+  },
+  "boundary_conclusion": {
+    "works_in": [
+      {
+        "scene": "target_front_center_near",
+        "orientation": "front_yaw0",
+        "position": "center",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "true_positive",
+        "failure_mode": "none"
+      },
+      {
+        "scene": "target_yaw45_center_near",
+        "orientation": "oblique_yaw45",
+        "position": "center",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "true_positive",
+        "failure_mode": "none"
+      },
+      {
+        "scene": "target_yaw90_center_near",
+        "orientation": "side_yaw90",
+        "position": "center",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "true_positive",
+        "failure_mode": "none"
+      },
+      {
+        "scene": "target_with_side_distractor",
+        "orientation": "front_yaw0",
+        "position": "center",
+        "distance": "near_10m",
+        "distractor": "side_distractor",
+        "outcome": "true_positive",
+        "failure_mode": "none"
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "orientation": "front_yaw0",
+        "position": "center",
+        "distance": "near_14m_occluded",
+        "distractor": "occluding_distractor",
+        "outcome": "true_positive",
+        "failure_mode": "none"
+      }
+    ],
+    "rejects_in": [
+      {
+        "scene": "baseline",
+        "orientation": "none",
+        "position": "center",
+        "distance": "none",
+        "distractor": "none",
+        "outcome": "true_negative",
+        "failure_mode": "none"
+      },
+      {
+        "scene": "distractor_only_center",
+        "orientation": "none",
+        "position": "center",
+        "distance": "near_10m",
+        "distractor": "distractor_only",
+        "outcome": "true_negative",
+        "failure_mode": "none"
+      }
+    ],
+    "fails_in": [
+      {
+        "scene": "target_left_offset_near",
+        "orientation": "front_yaw0",
+        "position": "left_offset",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_range_hit"
+      },
+      {
+        "scene": "target_right_offset_near",
+        "orientation": "front_yaw0",
+        "position": "right_offset",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_range_hit"
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "orientation": "front_yaw0",
+        "position": "right_fov_edge",
+        "distance": "near_10m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_rgb_signature_and_no_range_hit"
+      },
+      {
+        "scene": "target_front_center_mid",
+        "orientation": "front_yaw0",
+        "position": "center",
+        "distance": "mid_30m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_rgb_signature"
+      },
+      {
+        "scene": "target_front_center_far",
+        "orientation": "front_yaw0",
+        "position": "center",
+        "distance": "far_70m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_rgb_signature"
+      },
+      {
+        "scene": "target_rgb_rangefinder_mismatch_candidate",
+        "orientation": "front_yaw0",
+        "position": "right_edge_outside_single_ray",
+        "distance": "near_12m",
+        "distractor": "none",
+        "outcome": "false_negative",
+        "failure_mode": "false_negative_no_rgb_signature_and_no_range_hit"
+      }
+    ],
+    "recommendation": "do_not_treat_as_general_detector_yet; use only in validated front/center/static conditions or add stronger vision/geometric gating"
+  },
+  "events_brief": [
+    {
+      "scene": "baseline",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": false,
+      "sensor_detected_target": false,
+      "outcome_class": "true_negative",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": null,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\baseline_rgb.png"
+    },
+    {
+      "scene": "target_front_center_near",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": true,
+      "sensor_detected_target": true,
+      "outcome_class": "true_positive",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 7.829494476318359,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_near_rgb.png"
+    },
+    {
+      "scene": "target_yaw45_center_near",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": true,
+      "outcome_class": "true_positive",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 8.239830017089844,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw45_center_near_rgb.png"
+    },
+    {
+      "scene": "target_yaw90_center_near",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": true,
+      "outcome_class": "true_positive",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 8.755372047424316,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_yaw90_center_near_rgb.png"
+    },
+    {
+      "scene": "target_left_offset_near",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": false,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_range_hit",
+      "rangefinder_min_positive_range_m": null,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_left_offset_near_rgb.png"
+    },
+    {
+      "scene": "target_right_offset_near",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": false,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_range_hit",
+      "rangefinder_min_positive_range_m": null,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_offset_near_rgb.png"
+    },
+    {
+      "scene": "target_right_fov_edge_near",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": false,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_rgb_signature_and_no_range_hit",
+      "rangefinder_min_positive_range_m": null,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_right_fov_edge_near_rgb.png"
+    },
+    {
+      "scene": "target_front_center_mid",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_rgb_signature",
+      "rangefinder_min_positive_range_m": 27.80121421813965,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_mid_rgb.png"
+    },
+    {
+      "scene": "target_front_center_far",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_rgb_signature",
+      "rangefinder_min_positive_range_m": 67.81819152832031,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_front_center_far_rgb.png"
+    },
+    {
+      "scene": "distractor_only_center",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": false,
+      "outcome_class": "true_negative",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 9.553488731384277,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_only_center_rgb.png"
+    },
+    {
+      "scene": "target_with_side_distractor",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": true,
+      "outcome_class": "true_positive",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 7.809057235717773,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_with_side_distractor_rgb.png"
+    },
+    {
+      "scene": "distractor_occludes_target",
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "sensor_detected_target": true,
+      "outcome_class": "true_positive",
+      "failure_mode": "none",
+      "rangefinder_min_positive_range_m": 8.561053276062012,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\distractor_occludes_target_rgb.png"
+    },
+    {
+      "scene": "target_rgb_rangefinder_mismatch_candidate",
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": false,
+      "sensor_detected_target": false,
+      "outcome_class": "false_negative",
+      "failure_mode": "false_negative_no_rgb_signature_and_no_range_hit",
+      "rangefinder_min_positive_range_m": null,
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4d_rgb_rangefinder_static_detection_adapter_robustness_boundary\\visuals\\target_rgb_rangefinder_mismatch_candidate_rgb.png"
+    }
+  ],
+  "runtime_python_executable": "F:\\anaconda\\python.exe",
+  "runtime_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "wall_time_s": 0.00149529999907827,
+  "controlled_simplifications": [
+    "scene matrix changes actor pose/location only; adapter rule is unchanged",
+    "single forward RangeFinder ray is intentionally preserved",
+    "RGB baseline/difference signature method is intentionally preserved",
+    "truth fields are used only for audit labels and pass/fail classification"
+  ],
+  "not_claimed": [
+    "not a trained image-recognition model",
+    "not a robust production detector",
+    "not a full replacement for baseline circular sensor geometry",
+    "not dynamic target handling"
+  ],
+  "report_python_executable": "F:\\anaconda\\python.exe",
+  "report_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "overview_visual_saved": true
+}

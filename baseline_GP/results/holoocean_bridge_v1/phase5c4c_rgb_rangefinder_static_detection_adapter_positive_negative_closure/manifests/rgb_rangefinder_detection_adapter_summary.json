@@ -1,0 +1,223 @@
+{
+  "phase_name": "phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure",
+  "probe_completed": true,
+  "terminated_reason": "positive_negative_closure_complete",
+  "controlled_adapter_step": true,
+  "full_search_policy_loop_run": false,
+  "search_decision_algorithm_modified": false,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+  "scene_sensor_outcomes": {
+    "baseline": {
+      "expected_sensor_detected_target": false,
+      "sensor_detected_target": false,
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": false,
+      "target_detection_correct_for_scene": true,
+      "distractor_false_positive": false
+    },
+    "target_only": {
+      "expected_sensor_detected_target": true,
+      "sensor_detected_target": true,
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": false,
+      "rangefinder_hit": true,
+      "target_detection_correct_for_scene": true,
+      "distractor_false_positive": false
+    },
+    "distractor_only": {
+      "expected_sensor_detected_target": false,
+      "sensor_detected_target": false,
+      "rgb_has_target_signature": false,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "target_detection_correct_for_scene": true,
+      "distractor_false_positive": false
+    },
+    "target_and_distractor": {
+      "expected_sensor_detected_target": true,
+      "sensor_detected_target": true,
+      "rgb_has_target_signature": true,
+      "rgb_has_distractor_signature": true,
+      "rangefinder_hit": true,
+      "target_detection_correct_for_scene": true,
+      "distractor_false_positive": false
+    }
+  },
+  "scene_runtime_outcomes": {
+    "baseline": {
+      "found_mask_after": [
+        false
+      ],
+      "find_times_after": [
+        null
+      ],
+      "new_found_indices": [],
+      "hit_update_called": false,
+      "team_gp_update_called": true,
+      "team_search_info_update_called": true,
+      "team_miss_update_called": false,
+      "remaining_intensity_mass_after": 1.0000000000000002,
+      "gp_n_obs_initial": 48,
+      "gp_n_obs_final": 96,
+      "search_info_valid_final": true
+    },
+    "target_only": {
+      "found_mask_after": [
+        true
+      ],
+      "find_times_after": [
+        1
+      ],
+      "new_found_indices": [
+        0
+      ],
+      "hit_update_called": true,
+      "team_gp_update_called": true,
+      "team_search_info_update_called": true,
+      "team_miss_update_called": false,
+      "remaining_intensity_mass_after": 0.0,
+      "gp_n_obs_initial": 48,
+      "gp_n_obs_final": 96,
+      "search_info_valid_final": true
+    },
+    "distractor_only": {
+      "found_mask_after": [
+        false
+      ],
+      "find_times_after": [
+        null
+      ],
+      "new_found_indices": [],
+      "hit_update_called": false,
+      "team_gp_update_called": true,
+      "team_search_info_update_called": true,
+      "team_miss_update_called": false,
+      "remaining_intensity_mass_after": 1.0000000000000002,
+      "gp_n_obs_initial": 48,
+      "gp_n_obs_final": 96,
+      "search_info_valid_final": true
+    },
+    "target_and_distractor": {
+      "found_mask_after": [
+        true
+      ],
+      "find_times_after": [
+        1
+      ],
+      "new_found_indices": [
+        0
+      ],
+      "hit_update_called": true,
+      "team_gp_update_called": true,
+      "team_search_info_update_called": true,
+      "team_miss_update_called": false,
+      "remaining_intensity_mass_after": 0.0,
+      "gp_n_obs_initial": 48,
+      "gp_n_obs_final": 96,
+      "search_info_valid_final": true
+    }
+  },
+  "positive_scene_names": [
+    "target_only",
+    "target_and_distractor"
+  ],
+  "negative_scene_names": [
+    "baseline",
+    "distractor_only"
+  ],
+  "positive_scenes_detected": true,
+  "negative_scenes_not_detected": true,
+  "distractor_only_no_false_positive": true,
+  "target_and_distractor_detected": true,
+  "all_detection_events_correct": true,
+  "runtime_positive_scenes_found": true,
+  "runtime_negative_scenes_not_found": true,
+  "hit_branch_covered": true,
+  "hit_update_called_positive_scenes": {
+    "target_only": true,
+    "target_and_distractor": true
+  },
+  "hit_update_called_negative_scenes": {
+    "baseline": false,
+    "distractor_only": false
+  },
+  "team_gp_update_all_scenes": true,
+  "team_search_info_update_all_scenes": true,
+  "circular_miss_update_applied_any": false,
+  "circular_miss_update_skipped_due_to_camera_fov": true,
+  "target_signature_colors": [
+    "128,128,128,255",
+    "128,128,96,255",
+    "128,64,32,255",
+    "128,96,64,255",
+    "128,96,96,255",
+    "160,96,64,255",
+    "192,128,96,255",
+    "192,160,96,255",
+    "224,160,128,255",
+    "64,32,0,255",
+    "64,32,32,255",
+    "64,64,32,255",
+    "96,32,32,255",
+    "96,64,32,255",
+    "96,64,64,255",
+    "96,96,64,255"
+  ],
+  "distractor_signature_colors": [
+    "192,192,160,255",
+    "224,192,128,255",
+    "224,192,160,255",
+    "224,192,192,255",
+    "224,224,192,255"
+  ],
+  "shared_signature_colors": [
+    "160,128,128,255",
+    "160,128,96,255",
+    "160,160,128,255",
+    "160,160,160,255",
+    "192,160,128,255",
+    "192,160,160,255",
+    "192,192,192,255",
+    "224,224,224,255"
+  ],
+  "target_signature_present": true,
+  "distractor_signature_present": true,
+  "rgb_target_vs_distractor_disjoint": true,
+  "rangefinder_hit_by_scene": {
+    "baseline": false,
+    "target_only": true,
+    "distractor_only": true,
+    "target_and_distractor": true
+  },
+  "rangefinder_object_presence_supported": true,
+  "all_scene_launch_ok": true,
+  "all_scenes_rgb_output": true,
+  "all_scenes_rangefinder_output": true,
+  "runtime_python_executable": "F:\\anaconda\\python.exe",
+  "runtime_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "runtime_wall_time_s": 1.4985641000002943,
+  "controlled_simplifications": [
+    "target marker is a SurfaceVessel actor placed one 10m grid cell directly in front of sv0",
+    "distractor marker is a SphereAgent actor placed in controlled frontal/side positions",
+    "sv0 camera and rangefinder point along +X toward the target",
+    "target index mapping is the single-target adapter contract",
+    "camera FOV-grid footprint replacement is not attempted",
+    "circular miss update is skipped"
+  ],
+  "not_claimed": [
+    "not a full replacement for baseline circular sensor geometry",
+    "not a general image-recognition model",
+    "not dynamic target handling",
+    "not obstacle handling"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "phase_name": "phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure",
+  "purpose": "RGB+RangeFinder sensor-evidence-driven found event mini-closure",
+  "scope": "controlled frontal static target only",
+  "not_claimed": [
+    "not a full replacement for baseline circular sensor geometry",
+    "not a general image-recognition model",
+    "not dynamic target handling",
+    "not obstacle handling"
+  ],
+  "policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "assignment_mode": "not_run_in_this_adapter_probe",
+  "target_motion_mode": "static",
+  "map_kind": "open_water",
+  "map_height_cells": 81,
+  "map_width_cells": 81,
+  "resolution_m": 10.0,
+  "sensor_range_m": 50.0,
+  "sensor_range_cells": 5,
+  "min_target_separation_m": 60.0,
+  "min_start_distance_m": 80.0,
+  "gp_length_scale_m": 40.0,
+  "gp_noise_std": 0.03,
+  "gp_prior_mean": 0.0,
+  "gp_beta": 0.5,
+  "gp_optimize_hyperparams": false,
+  "clue_amplitude": 2.0,
+  "clue_noise_std": 0.03,
+  "clue_sigma_m": 30.0,
+  "target_count_upper_bound": 1,
+  "staleness_tau_steps": 12,
+  "search_info_clue_weight": 0.5,
+  "search_info_intensity_weight": 0.5,
+  "clue_acquisition_mode": "ucb",
+  "anomaly_tail_quantile": 0.9,
+  "anomaly_weight_lambda": 1.0,
+  "anomaly_warmup_steps": 20,
+  "anomaly_min_gp_points": 64,
+  "anomaly_top_quantile": 0.9,
+  "anomaly_top_mass_min": 0.18,
+  "anomaly_entropy_max": 0.85,
+  "anomaly_stability_min": 0.3,
+  "anomaly_alpha_max": 0.4,
+  "anomaly_pre_first_alpha_cap": 0.15,
+  "path_safety_mode": "soft_clearance_astar_v1",
+  "team_path_avoidance_mode": "reservation_v1",
+  "team_reservation_safety_distance_cells": 1.5,
+  "safe_nav_inflation_radius_cells": 0,
+  "safe_nav_soft_clearance_radius_cells": 1,
+  "safe_nav_lambda_clearance": 1.0,
+  "team_reservation_lambda": 1.0,
+  "constraint_mode": "hard",
+  "r_hit": 1,
+  "clue_samples_per_step": 24,
+  "episode_seed": 0,
+  "n_targets": 1,
+  "expected_initial_target_positions": [
+    [
+      23,
+      21
+    ]
+  ],
+  "controlled_step": 1,
+  "controlled_runtime_cells": {
+    "sv0": [
+      23,
+      20
+    ],
+    "sv1": [
+      35,
+      2
+    ],
+    "target_index_0": [
+      23,
+      21
+    ]
+  },
+  "controlled_world_locations": {
+    "sv0": [
+      -200.0,
+      170.0,
+      0.0
+    ],
+    "sv1": [
+      -380.0,
+      50.0,
+      0.0
+    ],
+    "target": [
+      -190.0,
+      170.0,
+      0.0
+    ]
+  },
+  "controlled_simplifications": [
+    "target actor is placed one 10m grid cell directly in front of sv0",
+    "sv0 camera and rangefinder point along +X toward the target",
+    "target index mapping is the single-target adapter contract",
+    "camera FOV-grid footprint replacement is not attempted",
+    "circular miss update is skipped"
+  ],
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "capture_ticks": 25,
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "camera_location": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "rangefinder_location": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "rgb_camera_name": "FrontRGBCamera",
+  "rangefinder_name": "FrontRangeFinder",
+  "rangefinder_max_distance_m": 80.0,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "runtime_imported_in_capture_mode": false,
+  "runtime_imported_in_runtime_mode": true,
+  "search_decision_algorithm_modified": false,
+  "core_algorithm_files_frozen": [
+    "core_search_policy.py",
+    "core_execution.py",
+    "core_targets.py",
+    "core_intensity.py",
+    "core_safe_nav.py",
+    "marine_knownmap_runtime.py",
+    "marine_knownmap_runtime_2usv.py",
+    "holoocean_bridge/*"
+  ],
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "detection_event_source": "RGBCamera RGB signature overlap AND RangeFinderSensor range hit",
+  "identity_decision_source": "RGBCamera signature overlap",
+  "range_decision_source": "RangeFinderSensor hit",
+  "found_trigger_rule": "rgb_has_target_signature and rangefinder_hit",
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1,
+    "baseline_source": "no_target_baseline_scene",
+    "signature_calibration_source": "target_calibration_scene"
+  },
+  "scenes": [
+    {
+      "name": "baseline",
+      "include_target": false,
+      "role": "background_reference"
+    },
+    {
+      "name": "target_calibration",
+      "include_target": true,
+      "role": "target_signature_calibration"
+    },
+    {
+      "name": "detection_step",
+      "include_target": true,
+      "role": "sensor_found_event_source"
+    }
+  ],
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "runtime_file": "baseline_GP\\marine_knownmap_runtime_2usv.py",
+  "runtime_file_mtime": 1780136481.2392564,
+  "pre_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4b_rgb_rangefinder_static_detection_adapter_miniclosure/"
+  ]
+}

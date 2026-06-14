@@ -1,0 +1,962 @@
+{
+  "baseline": {
+    "scene": "baseline",
+    "role": "background_reference",
+    "include_target": false,
+    "include_distractor": false,
+    "expected_target_present_for_audit": false,
+    "expected_sensor_detected_target": false,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 15.0044868,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 234
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0
+      ],
+      "min_positive_range_m": null,
+      "hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\baseline_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\baseline_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "baseline",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 13,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 14,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 15,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 16,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 17,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 18,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 19,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 20,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 21,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 22,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 23,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 24,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 25,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_only": {
+    "scene": "target_only",
+    "role": "target_positive_and_signature_calibration",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "expected_sensor_detected_target": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.655597,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 240
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        7.820077419281006
+      ],
+      "min_positive_range_m": 7.820077419281006,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\target_only_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\target_only_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_only",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.820077419281006
+      },
+      {
+        "scene": "target_only",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.821289539337158
+      },
+      {
+        "scene": "target_only",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.821733474731445
+      },
+      {
+        "scene": "target_only",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.82148551940918
+      },
+      {
+        "scene": "target_only",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.819734573364258
+      },
+      {
+        "scene": "target_only",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8171000480651855
+      },
+      {
+        "scene": "target_only",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.813788414001465
+      },
+      {
+        "scene": "target_only",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.810396671295166
+      },
+      {
+        "scene": "target_only",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8070502281188965
+      },
+      {
+        "scene": "target_only",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8043317794799805
+      },
+      {
+        "scene": "target_only",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.802355766296387
+      },
+      {
+        "scene": "target_only",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.801519393920898
+      },
+      {
+        "scene": "target_only",
+        "tick": 13,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8022356033325195
+      },
+      {
+        "scene": "target_only",
+        "tick": 14,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.80476188659668
+      },
+      {
+        "scene": "target_only",
+        "tick": 15,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.808623790740967
+      },
+      {
+        "scene": "target_only",
+        "tick": 16,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.813097953796387
+      },
+      {
+        "scene": "target_only",
+        "tick": 17,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8175950050354
+      },
+      {
+        "scene": "target_only",
+        "tick": 18,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8215250968933105
+      },
+      {
+        "scene": "target_only",
+        "tick": 19,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.824532985687256
+      },
+      {
+        "scene": "target_only",
+        "tick": 20,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.826240062713623
+      },
+      {
+        "scene": "target_only",
+        "tick": 21,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.826718330383301
+      },
+      {
+        "scene": "target_only",
+        "tick": 22,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.826266288757324
+      },
+      {
+        "scene": "target_only",
+        "tick": 23,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.824625015258789
+      },
+      {
+        "scene": "target_only",
+        "tick": 24,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.822089672088623
+      },
+      {
+        "scene": "target_only",
+        "tick": 25,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.818691253662109
+      }
+    ]
+  },
+  "distractor_only": {
+    "scene": "distractor_only",
+    "role": "distractor_negative",
+    "include_target": false,
+    "include_distractor": true,
+    "expected_target_present_for_audit": false,
+    "expected_sensor_detected_target": false,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.546907999999998,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        9.555031776428223
+      ],
+      "min_positive_range_m": 9.555031776428223,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\distractor_only_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\distractor_only_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_only",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.555031776428223
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.566915512084961
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.57955551147461
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.591222763061523
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.600135803222656
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.605025291442871
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.605408668518066
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.601653099060059
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.594922065734863
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.586560249328613
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.577824592590332
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.569814682006836
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 13,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.563206672668457
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 14,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.558951377868652
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 15,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.557175636291504
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 16,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.557668685913086
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 17,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.56017017364502
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 18,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.564358711242676
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 19,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.569636344909668
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 20,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.574767112731934
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 21,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.579068183898926
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 22,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.582194328308105
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 23,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.583907127380371
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 24,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.58414077758789
+      },
+      {
+        "scene": "distractor_only",
+        "tick": 25,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.583035469055176
+      }
+    ]
+  },
+  "target_and_distractor": {
+    "scene": "target_and_distractor",
+    "role": "target_positive_with_distractor_present",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "expected_sensor_detected_target": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 9.698311499999996,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 240
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        7.831895351409912
+      ],
+      "min_positive_range_m": 7.831895351409912,
+      "hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\target_and_distractor_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4c_rgb_rangefinder_static_detection_adapter_positive_negative_closure\\visuals\\target_and_distractor_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_and_distractor",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.831895351409912
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.833156585693359
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.834056377410889
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.834278106689453
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8334784507751465
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.832111835479736
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.83017635345459
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8281402587890625
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.826013565063477
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.824100494384766
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.822790145874023
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.822021961212158
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 13,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.822213172912598
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 14,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.82356071472168
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 15,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.825127124786377
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 16,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.82682991027832
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 17,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.828362941741943
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 18,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.829507350921631
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 19,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.830243110656738
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 20,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.831082344055176
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 21,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.831425189971924
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 22,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.831498622894287
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 23,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.831094264984131
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 24,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.830202102661133
+      },
+      {
+        "scene": "target_and_distractor",
+        "tick": 25,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.829103946685791
+      }
+    ]
+  }
+}
