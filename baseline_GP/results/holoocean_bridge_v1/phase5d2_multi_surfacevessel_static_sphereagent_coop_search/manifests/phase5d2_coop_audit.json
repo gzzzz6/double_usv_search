@@ -1,0 +1,56 @@
+{
+  "phase_name": "phase5d2_multi_surfacevessel_static_sphereagent_coop_search",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "scene_results_parse_ok": true,
+    "events_parse_ok": true,
+    "fusion_trace_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_5d1a_audit_passed": true,
+    "target_and_teammate_types_correct": true,
+    "multi_observer_configured": true,
+    "recommended_rule_reused": true,
+    "planned_scene_counts_ok": true,
+    "scene_and_event_counts_ok": true,
+    "per_agent_events_present": true,
+    "candidate_fields_present": true,
+    "target_scenes_shared_found": true,
+    "teammate_only_no_false_positive": true,
+    "baseline_no_false_positive": true,
+    "duplicate_observations_fused": true,
+    "teammate_position_exclusion_enabled": true,
+    "reliable_distance_boundary_35m": true,
+    "truth_flags_false": true,
+    "no_semantic_or_sonar_detection": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true,
+    "validation_outputs_present": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+    "observer_count": 2,
+    "scene_count": 5,
+    "event_count": 10,
+    "fusion_outcome_counts": {
+      "true_negative": 3,
+      "true_positive": 2
+    },
+    "target_fusion_outcome_counts": {
+      "true_positive": 2
+    },
+    "teammate_fusion_outcome_counts": {
+      "true_negative": 2
+    },
+    "target_false_negative_scenes": [],
+    "teammate_false_positive_scenes": [],
+    "duplicate_merge_scenes": [
+      "target_sphere_duplicate_20m_two_observers"
+    ],
+    "shared_target_found": true
+  },
+  "all_passed": true
+}

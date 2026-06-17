@@ -1,0 +1,66 @@
+{
+  "phase_name": "phase5d3_continuous_multistep_coop_search",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "baseline_run_parse_ok": true,
+    "target_run_parse_ok": true,
+    "teammate_run_parse_ok": true,
+    "policy_trace_parse_ok": true,
+    "tick_trace_parse_ok": true,
+    "events_parse_ok": true,
+    "fusion_trace_parse_ok": true,
+    "found_events_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_audits_passed": true,
+    "target_and_teammate_types_correct": true,
+    "continuous_loop_enabled": true,
+    "observer_config_ok": true,
+    "recommended_rule_reused": true,
+    "run_launch_ok": true,
+    "counts_ok": true,
+    "tick_trace_nonempty": true,
+    "per_agent_events_present": true,
+    "candidate_fields_present": true,
+    "target_shared_found_and_all_found": true,
+    "coexist_shared_found": true,
+    "teammate_only_no_false_positive": true,
+    "duplicate_observations_fused": true,
+    "found_mask_updated_from_fusion": true,
+    "target_no_false_negative": true,
+    "coexist_no_false_negative": true,
+    "reliable_distance_boundary_35m": true,
+    "teammate_position_exclusion_enabled": true,
+    "truth_flags_false": true,
+    "no_semantic_or_sonar_detection": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+    "event_count": 288,
+    "policy_trace_count": 12,
+    "fusion_trace_count": 12,
+    "target_found_steps": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "coexist_found_steps": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "teammate_false_positive_steps": [],
+    "duplicate_observation_fused_steps": [
+      3
+    ],
+    "all_found_step": 1
+  },
+  "all_passed": true
+}

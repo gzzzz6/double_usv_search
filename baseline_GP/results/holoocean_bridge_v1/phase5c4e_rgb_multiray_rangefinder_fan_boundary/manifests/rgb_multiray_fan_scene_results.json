@@ -1,0 +1,7917 @@
+{
+  "baseline": {
+    "scene": "baseline",
+    "role": "background_reference",
+    "include_target": false,
+    "include_distractor": false,
+    "expected_target_present_for_audit": false,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "none",
+      "distractor_condition": "none"
+    },
+    "target": null,
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 10.066205,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 234
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\baseline_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\baseline_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "baseline",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_front_center_near": {
+    "scene": "target_front_center_near",
+    "role": "calibration_positive_center",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.6166137,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 241
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        7.882734298706055,
+        7.815296173095703,
+        7.882734298706055,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 7.815296173095703,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.882734298706055,
+          7.815296173095703,
+          7.882734298706055,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.815296173095703
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.882898330688477,
+          7.81545877456665,
+          7.882898330688477,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.81545877456665
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.882275581359863,
+          7.814841270446777,
+          7.882275581359863,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814841270446777
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881833076477051,
+          7.8144025802612305,
+          7.881833076477051,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8144025802612305
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881079196929932,
+          7.813655376434326,
+          7.881079196929932,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.813655376434326
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.880401134490967,
+          7.812982559204102,
+          7.880401134490967,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.812982559204102
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.880323886871338,
+          7.8129072189331055,
+          7.880323886871338,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8129072189331055
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.880670070648193,
+          7.8132500648498535,
+          7.880670070648193,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8132500648498535
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.88145637512207,
+          7.814028739929199,
+          7.88145637512207,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814028739929199
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881570339202881,
+          7.814142227172852,
+          7.881570339202881,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814142227172852
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881731986999512,
+          7.814302921295166,
+          7.881731986999512,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814302921295166
+      },
+      {
+        "scene": "target_front_center_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.88205623626709,
+          7.814623832702637,
+          7.88205623626709,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814623832702637
+      }
+    ]
+  },
+  "target_left_offset_near": {
+    "scene": "target_left_offset_near",
+    "role": "left_offset_regression_from_5c4d",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        177.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.0758908,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        11.504491806030273,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        0
+      ],
+      "hit_sectors": [
+        "left"
+      ],
+      "min_positive_range_m": 11.504491806030273,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_offset_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_offset_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_left_offset_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_offset_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      }
+    ]
+  },
+  "target_right_offset_near": {
+    "scene": "target_right_offset_near",
+    "role": "right_offset_regression_from_5c4d",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        163.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.057768800000002,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        11.510743141174316
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        8
+      ],
+      "hit_sectors": [
+        "right"
+      ],
+      "min_positive_range_m": 11.510743141174316,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_offset_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_offset_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_right_offset_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_offset_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      }
+    ]
+  },
+  "target_left_fov_edge_near": {
+    "scene": "target_left_fov_edge_near",
+    "role": "left_fov_edge_boundary",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "left_fov_edge",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        182.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 12.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 7.900119100000005,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 254
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_fov_edge_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_fov_edge_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_left_fov_edge_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_right_fov_edge_near": {
+    "scene": "target_right_fov_edge_near",
+    "role": "right_fov_edge_boundary",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "right_fov_edge",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        158.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -12.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.700419099999998,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 1.0,
+      "max": 255.0,
+      "unique_count": 254
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_fov_edge_near_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_fov_edge_near_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "target_right_fov_edge_near",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_front_center_mid": {
+    "scene": "target_front_center_mid",
+    "role": "mid_distance_regression",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "mid_30m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -170.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 30.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.6450776,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 232
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        27.82425308227539,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 27.82425308227539,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_mid_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_mid_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_mid",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.82425308227539,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.82425308227539
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.82762908935547,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.82762908935547
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.829729080200195,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.829729080200195
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.829734802246094,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.829734802246094
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.827390670776367,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.827390670776367
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.823102951049805,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.823102951049805
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.81760025024414,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.81760025024414
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.812000274658203,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.812000274658203
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.806785583496094,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.806785583496094
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.8026180267334,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.8026180267334
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.799692153930664,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.799692153930664
+      },
+      {
+        "scene": "target_front_center_mid",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.79853057861328,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 27.79853057861328
+      }
+    ]
+  },
+  "target_front_center_far": {
+    "scene": "target_front_center_far",
+    "role": "far_distance_regression",
+    "include_target": true,
+    "include_distractor": false,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "far_70m",
+      "distractor_condition": "none"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -130.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 70.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": null,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.693042899999995,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        67.81669616699219,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 67.81669616699219,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_far_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_far_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_far",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81669616699219,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81669616699219
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81672668457031,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81672668457031
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.8170394897461,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.8170394897461
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81802368164062,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81802368164062
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81890869140625,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81890869140625
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81888580322266,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81888580322266
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81809997558594,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81809997558594
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81668853759766,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81668853759766
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81507110595703,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81507110595703
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81330871582031,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81330871582031
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81231689453125,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81231689453125
+      },
+      {
+        "scene": "target_front_center_far",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81237030029297,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 67.81237030029297
+      }
+    ]
+  },
+  "distractor_only_center": {
+    "scene": "distractor_only_center",
+    "role": "center_distractor_negative",
+    "include_target": false,
+    "include_distractor": true,
+    "expected_target_present_for_audit": false,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_center"
+    },
+    "target": null,
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        170.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.6716141,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        9.555858612060547,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 9.555858612060547,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_center_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_center_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_only_center",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.555858612060547,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.555858612060547
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.567004203796387,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.567004203796387
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.579266548156738,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.579266548156738
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.591185569763184,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.591185569763184
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.600543022155762,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.600543022155762
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.606000900268555,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.606000900268555
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.606842041015625,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.606842041015625
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.603270530700684,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.603270530700684
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.596526145935059,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.596526145935059
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.5883207321167,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.5883207321167
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.579983711242676,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.579983711242676
+      },
+      {
+        "scene": "distractor_only_center",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.572623252868652,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 9.572623252868652
+      }
+    ]
+  },
+  "distractor_only_left": {
+    "scene": "distractor_only_left",
+    "role": "left_distractor_negative",
+    "include_target": false,
+    "include_distractor": true,
+    "expected_target_present_for_audit": false,
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_left"
+    },
+    "target": null,
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        177.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 7.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 7.990103599999998,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 13.0,
+      "max": 255.0,
+      "unique_count": 239
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_left_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_left_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_only_left",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_left",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "distractor_only_right": {
+    "scene": "distractor_only_right",
+    "role": "right_distractor_negative",
+    "include_target": false,
+    "include_distractor": true,
+    "expected_target_present_for_audit": false,
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_right"
+    },
+    "target": null,
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        163.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -7.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.034035000000003,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 235
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_right_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_right_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_only_right",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "distractor_only_right",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "rangefinder_hit_sectors": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "target_left_with_distractor_right": {
+    "scene": "target_left_with_distractor_right",
+    "role": "cross_side_ambiguity_any_hit_risk",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "target_left_distractor_right"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        177.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        163.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -7.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.765918099999993,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        11.504491806030273,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        0
+      ],
+      "hit_sectors": [
+        "left"
+      ],
+      "min_positive_range_m": 11.504491806030273,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_with_distractor_right_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_with_distractor_right_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      },
+      {
+        "scene": "target_left_with_distractor_right",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          0
+        ],
+        "rangefinder_hit_sectors": [
+          "left"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.504491806030273
+      }
+    ]
+  },
+  "target_right_with_distractor_left": {
+    "scene": "target_right_with_distractor_left",
+    "role": "cross_side_ambiguity_any_hit_risk",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "target_right_distractor_left"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        163.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -7.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        177.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 7.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.7468827,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 0.0,
+      "max": 255.0,
+      "unique_count": 256
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        11.510743141174316
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        8
+      ],
+      "hit_sectors": [
+        "right"
+      ],
+      "min_positive_range_m": 11.510743141174316,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_with_distractor_left_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_with_distractor_left_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      },
+      {
+        "scene": "target_right_with_distractor_left",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "rangefinder_hit_beam_indices": [
+          8
+        ],
+        "rangefinder_hit_sectors": [
+          "right"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 11.510743141174316
+      }
+    ]
+  },
+  "target_center_with_side_distractor": {
+    "scene": "target_center_with_side_distractor",
+    "role": "center_target_side_distractor",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "side_distractor"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -190.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -190.0,
+        160.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 10.0,
+      "lateral_m": -10.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.781478100000001,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 14.0,
+      "max": 255.0,
+      "unique_count": 241
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        7.881682872772217,
+        7.814253330230713,
+        7.881682872772217,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 7.814253330230713,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_center_with_side_distractor_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_center_with_side_distractor_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881682872772217,
+          7.814253330230713,
+          7.881682872772217,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814253330230713
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.882422924041748,
+          7.814987659454346,
+          7.882422924041748,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.814987659454346
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.883563995361328,
+          7.8161187171936035,
+          7.883563995361328,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8161187171936035
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.885657787322998,
+          7.818195343017578,
+          7.885657787322998,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.818195343017578
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.888253688812256,
+          7.8207688331604,
+          7.888253688812256,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8207688331604
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.891005039215088,
+          7.8234968185424805,
+          7.891005039215088,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8234968185424805
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.893184661865234,
+          7.825657844543457,
+          7.893184661865234,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.825657844543457
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.894672393798828,
+          7.827132701873779,
+          7.894672393798828,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.827132701873779
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.895477294921875,
+          7.827930450439453,
+          7.895477294921875,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.827930450439453
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.895845413208008,
+          7.8282952308654785,
+          7.895845413208008,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8282952308654785
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.895702362060547,
+          7.828153610229492,
+          7.895702362060547,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.828153610229492
+      },
+      {
+        "scene": "target_center_with_side_distractor",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.895574569702148,
+          7.828026294708252,
+          7.895574569702148,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.828026294708252
+      }
+    ]
+  },
+  "distractor_occludes_target": {
+    "scene": "distractor_occludes_target",
+    "role": "occluding_distractor_between_camera_and_target",
+    "include_target": true,
+    "include_distractor": true,
+    "expected_target_present_for_audit": true,
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_14m_occluded",
+      "distractor_condition": "occluding_distractor"
+    },
+    "target": {
+      "agent_type": "SurfaceVessel",
+      "location": [
+        -186.0,
+        170.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 14.0,
+      "lateral_m": 0.0,
+      "yaw_deg": 0.0
+    },
+    "distractor": {
+      "agent_type": "SphereAgent",
+      "location": [
+        -191.0,
+        170.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward_m": 9.0,
+      "lateral_m": 0.0
+    },
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.735690500000004,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200,
+      "min": 15.0,
+      "max": 255.0,
+      "unique_count": 233
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        8.56189250946045,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 8.56189250946045,
+      "any_hit": true
+    },
+    "native_multiray_rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_occludes_target_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_occludes_target_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.56189250946045,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.56189250946045
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.574484825134277,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.574484825134277
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.587645530700684,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.587645530700684
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.599557876586914,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.599557876586914
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.608478546142578,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.608478546142578
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.613390922546387,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.613390922546387
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.61355972290039,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.61355972290039
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.609391212463379,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.609391212463379
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.60230541229248,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.60230541229248
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.593626976013184,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.593626976013184
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.584724426269531,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.584724426269531
+      },
+      {
+        "scene": "distractor_occludes_target",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_present": true,
+        "native_multiray_rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "native_multiray_any_hit": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.57651424407959,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "rangefinder_hit_sectors": [
+          "center"
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 8.57651424407959
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "phase_name": "phase5c4g_front_far_distance_boundary",
+  "purpose": "far-distance boundary probe for current RGB signature plus fan RangeFinder adapter",
+  "scope": "front-center static target distances 35/40/45/50m",
+  "distances_m": [
+    35.0,
+    40.0,
+    45.0,
+    50.0
+  ],
+  "rgb_signature_calibration_distance_m": 10.0,
+  "rgb_signature_calibration_scene": "calibration_target_front_center_10m",
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "rgb_signature_logic_matches_5c4c_5c4d_5c4e": true,
+  "rangefinder_mode": "yaw_rotated_single_ray_fan",
+  "horizontal_fan_sensor_count": 9,
+  "horizontal_fan_yaw_degrees": [
+    30.0,
+    22.5,
+    15.0,
+    7.5,
+    0.0,
+    -7.5,
+    -15.0,
+    -22.5,
+    -30.0
+  ],
+  "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1,
+    "baseline_source": "baseline",
+    "signature_calibration_source": "calibration_target_front_center_10m"
+  },
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "capture_ticks": 12,
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "camera_location": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "rangefinder_location": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "rangefinder_max_distance_m": 80.0,
+  "rgb_camera_name": "FrontRGBCamera",
+  "controlled_world_locations": {
+    "sv0": [
+      -200.0,
+      170.0,
+      0.0
+    ],
+    "sv1": [
+      -380.0,
+      50.0,
+      0.0
+    ]
+  },
+  "scenes": [
+    {
+      "name": "baseline",
+      "role": "background_reference",
+      "include_target": false,
+      "target": null,
+      "distance_m": null,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "calibration_target_front_center_10m",
+      "role": "rgb_signature_calibration",
+      "include_target": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -190.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distance_m": 10.0,
+      "is_calibration_scene": true,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_front_center_35m",
+      "role": "front_far_distance_boundary",
+      "include_target": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -165.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distance_m": 35.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_front_center_40m",
+      "role": "front_far_distance_boundary",
+      "include_target": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -160.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 40.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distance_m": 40.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_front_center_45m",
+      "role": "front_far_distance_boundary",
+      "include_target": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -155.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 45.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distance_m": 45.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_front_center_50m",
+      "role": "front_far_distance_boundary",
+      "include_target": true,
+      "target": {
+        "agent_type": "SurfaceVessel",
+        "location": [
+          -150.0,
+          170.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 50.0,
+        "lateral_m": 0.0,
+        "yaw_deg": 0.0
+      },
+      "distance_m": 50.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    }
+  ],
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "pre_git_status": [
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4e_rgb_multiray_rangefinder_fan_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4f_distance_sweep_rgb_multiray_fan/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4g_front_far_distance_boundary/"
+  ]
+}

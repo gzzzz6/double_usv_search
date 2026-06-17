@@ -1,0 +1,13 @@
+run_kind,policy_step,continuous_search_loop_step,per_agent_detection_events_count,candidate_fusion_called,found_mask_update_called,shared_found,new_found_count,found_count_after,global_found_count_after,all_found_after,terminated_reason_after_step,truth_used_for_detection,actor_truth_used_for_detection,target_truth_used_for_detection,teammate_truth_used_for_detection
+target,1,True,24,True,True,True,1,1,1,True,all_found,False,False,False,False
+target,2,True,24,True,True,True,0,1,1,True,all_found,False,False,False,False
+target,3,True,24,True,True,True,0,1,1,True,all_found,False,False,False,False
+target,4,True,24,True,True,True,0,1,1,True,all_found,False,False,False,False
+coexist,1,True,24,True,True,True,1,1,1,False,running,False,False,False,False
+coexist,2,True,24,True,True,True,0,1,1,False,running,False,False,False,False
+coexist,3,True,24,True,True,True,0,1,1,False,running,False,False,False,False
+coexist,4,True,24,True,True,True,0,1,1,False,running,False,False,False,False
+teammate_only,1,True,24,True,True,False,0,0,1,False,running,False,False,False,False
+teammate_only,2,True,24,True,True,False,0,0,1,False,running,False,False,False,False
+teammate_only,3,True,24,True,True,False,0,0,1,False,running,False,False,False,False
+teammate_only,4,True,24,True,True,False,0,0,1,False,running,False,False,False,False

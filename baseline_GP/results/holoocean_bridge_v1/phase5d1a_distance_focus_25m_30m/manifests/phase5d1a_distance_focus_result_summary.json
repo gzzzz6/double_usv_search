@@ -1,0 +1,96 @@
+{
+  "calibration": {
+    "scene_count": 30,
+    "target_only_outcome_counts": {
+      "true_positive": 9,
+      "false_negative": 1
+    },
+    "target_with_teammate_outcome_counts": {
+      "false_negative": 6
+    },
+    "teammate_outcome_counts": {
+      "true_negative": 12
+    },
+    "target_false_negative_scenes": [
+      "target_sphere_center_30m",
+      "coexist_sphere_center_25m_teammate_left_inner_20m",
+      "coexist_sphere_center_30m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_25m_teammate_right_outer_25m",
+      "coexist_sphere_right_inner_30m_teammate_left_outer_30m",
+      "coexist_sphere_left_outer_30m_teammate_right_inner_25m",
+      "coexist_sphere_right_outer_25m_teammate_left_inner_25m"
+    ],
+    "target_with_teammate_false_negative_scenes": [
+      "coexist_sphere_center_25m_teammate_left_inner_20m",
+      "coexist_sphere_center_30m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_25m_teammate_right_outer_25m",
+      "coexist_sphere_right_inner_30m_teammate_left_outer_30m",
+      "coexist_sphere_left_outer_30m_teammate_right_inner_25m",
+      "coexist_sphere_right_outer_25m_teammate_left_inner_25m"
+    ],
+    "teammate_false_positive_scenes": [],
+    "fan_reliable_distances_m": [
+      25.0
+    ],
+    "max_fan_reliable_distance_m": 25.0
+  },
+  "validation": {
+    "scene_count": 30,
+    "target_only_outcome_counts": {
+      "true_positive": 10
+    },
+    "target_with_teammate_outcome_counts": {
+      "false_negative": 6
+    },
+    "teammate_outcome_counts": {
+      "true_negative": 12
+    },
+    "target_false_negative_scenes": [
+      "coexist_sphere_center_25m_teammate_left_inner_20m",
+      "coexist_sphere_center_30m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_25m_teammate_right_outer_25m",
+      "coexist_sphere_right_inner_30m_teammate_left_outer_30m",
+      "coexist_sphere_left_outer_30m_teammate_right_inner_25m",
+      "coexist_sphere_right_outer_25m_teammate_left_inner_25m"
+    ],
+    "target_with_teammate_false_negative_scenes": [
+      "coexist_sphere_center_25m_teammate_left_inner_20m",
+      "coexist_sphere_center_30m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_25m_teammate_right_outer_25m",
+      "coexist_sphere_right_inner_30m_teammate_left_outer_30m",
+      "coexist_sphere_left_outer_30m_teammate_right_inner_25m",
+      "coexist_sphere_right_outer_25m_teammate_left_inner_25m"
+    ],
+    "teammate_false_positive_scenes": [],
+    "fan_reliable_distances_m": [
+      25.0,
+      30.0
+    ],
+    "max_fan_reliable_distance_m": 30.0
+  },
+  "validation_by_distance": {
+    "25m": {
+      "target": {
+        "true_positive": 5
+      },
+      "target_with_teammate": {
+        "false_negative": 3
+      },
+      "teammate_only": {
+        "true_negative": 6
+      }
+    },
+    "30m": {
+      "target": {
+        "true_positive": 5
+      },
+      "target_with_teammate": {
+        "false_negative": 3
+      },
+      "teammate_only": {
+        "true_negative": 6
+      }
+    }
+  },
+  "interpretation": "25m and 30m target-only pass in validation; teammate-only remains zero false positive; all 25m/30m coexistence scenes fail under current sphere_blob_any_hit because global white-neutral area ratio is diluted or the target blob is absent under occlusion."
+}

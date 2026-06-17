@@ -1,0 +1,67 @@
+{
+  "phase_name": "phase5d1_surfacevessel_teammate_exclusion_validation",
+  "checks": {
+    "required_paths_exist": true,
+    "calibration_config_parse_ok": true,
+    "recomputed_evidence_parse_ok": true,
+    "candidate_rule_matrix_parse_ok": true,
+    "candidate_rule_summary_parse_ok": true,
+    "recommended_rule_parse_ok": true,
+    "calibration_summary_parse_ok": true,
+    "calibration_git_status_parse_ok": true,
+    "validation_config_parse_ok": true,
+    "validation_scene_results_parse_ok": true,
+    "validation_events_parse_ok": true,
+    "validation_rule_matrix_parse_ok": true,
+    "validation_summary_parse_ok": true,
+    "validation_git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "planned_scene_counts_ok": true,
+    "target_and_teammate_types_correct": true,
+    "static_target_boundary_ok": true,
+    "truth_flags_false": true,
+    "no_semantic_or_sonar_detection": true,
+    "recommended_rule_is_fixed_5d0_rule": true,
+    "candidate_reference_present": true,
+    "validation_matrix_counts_ok": true,
+    "validation_outputs_present": true,
+    "all_teammate_only_true_negative": true,
+    "baseline_false_positive_zero": true,
+    "all_target_present_true_positive": false,
+    "target_with_teammate_true_positive": false,
+    "conservative_reliable_distance_remains_35m": true,
+    "calibration_true_positive": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_any_hit",
+    "validation_scene_count": 42,
+    "target_only_outcome_counts": {
+      "true_positive": 10
+    },
+    "target_with_teammate_outcome_counts": {
+      "true_positive": 1,
+      "false_negative": 2
+    },
+    "teammate_outcome_counts": {
+      "true_negative": 27
+    },
+    "teammate_false_positive_scenes": [],
+    "target_false_negative_scenes": [
+      "coexist_sphere_center_35m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_35m_teammate_right_outer_35m"
+    ],
+    "target_with_teammate_false_negative_scenes": [
+      "coexist_sphere_center_35m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_35m_teammate_right_outer_35m"
+    ],
+    "fan_reliable_distances_m": [
+      20.0,
+      35.0
+    ],
+    "max_fan_reliable_distance_m": 35.0
+  },
+  "all_passed": false
+}

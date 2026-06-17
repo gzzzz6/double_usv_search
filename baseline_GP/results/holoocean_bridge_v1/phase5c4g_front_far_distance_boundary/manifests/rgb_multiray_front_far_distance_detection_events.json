@@ -1,0 +1,297 @@
+[
+  {
+    "scene": "baseline",
+    "distance_m": null,
+    "is_calibration_scene": false,
+    "expected_target_present_for_audit": false,
+    "rgb_has_target_signature": false,
+    "rgb_signature_overlap": [],
+    "rgb_signature_bbox_xyxy": null,
+    "rgb_changed_pixels": 0,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null,
+    "found": false,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\baseline_rgb.png"
+  },
+  {
+    "scene": "calibration_target_front_center_10m",
+    "distance_m": 10.0,
+    "is_calibration_scene": true,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,128,255",
+      "128,128,96,255",
+      "128,64,32,255",
+      "128,96,64,255",
+      "128,96,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "160,96,64,255",
+      "192,128,96,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,160,128,255",
+      "224,192,128,255",
+      "64,32,0,255",
+      "64,32,32,255",
+      "64,64,32,255",
+      "96,32,32,255",
+      "96,64,32,255",
+      "96,64,64,255",
+      "96,96,64,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      135,
+      123,
+      184,
+      165
+    ],
+    "rgb_changed_pixels": 870,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.883257865905762,
+      7.8158159255981445,
+      7.883257865905762,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.8158159255981445,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\calibration_target_front_center_10m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_35m",
+    "distance_m": 35.0,
+    "is_calibration_scene": false,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,192,128,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      43,
+      121,
+      254,
+      153
+    ],
+    "rgb_changed_pixels": 39,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      32.830570220947266,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 32.830570220947266,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_35m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_40m",
+    "distance_m": 40.0,
+    "is_calibration_scene": false,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,96,255",
+      "160,128,128,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,192,255",
+      "224,192,128,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      155,
+      121,
+      164,
+      128
+    ],
+    "rgb_changed_pixels": 28,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      37.80687713623047,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 37.80687713623047,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_40m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_45m",
+    "distance_m": 45.0,
+    "is_calibration_scene": false,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "160,160,128,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      155,
+      121,
+      164,
+      126
+    ],
+    "rgb_changed_pixels": 14,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      42.8272705078125,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 42.8272705078125,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_45m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_50m",
+    "distance_m": 50.0,
+    "is_calibration_scene": false,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "160,128,128,255",
+      "160,160,128,255",
+      "192,160,128,255",
+      "192,192,192,255",
+      "224,192,128,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      155,
+      121,
+      163,
+      127
+    ],
+    "rgb_changed_pixels": 20,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      47.8182373046875,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 47.8182373046875,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_50m_rgb.png"
+  }
+]

@@ -1,0 +1,1514 @@
+[
+  {
+    "scene": "baseline",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "baseline",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.8847336769104,
+      7.8172783851623535,
+      7.8847336769104,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.8172783851623535
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.8850531578063965,
+      7.817595958709717,
+      7.8850531578063965,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.817595958709717
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.885282039642334,
+      7.817822456359863,
+      7.885282039642334,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.817822456359863
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.885605335235596,
+      7.818143367767334,
+      7.885605335235596,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.818143367767334
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.886134624481201,
+      7.818667411804199,
+      7.886134624481201,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.818667411804199
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.886788368225098,
+      7.8193159103393555,
+      7.886788368225098,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.8193159103393555
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.887555122375488,
+      7.820075511932373,
+      7.887555122375488,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.820075511932373
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.888303756713867,
+      7.8208184242248535,
+      7.888303756713867,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.8208184242248535
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.8892741203308105,
+      7.821780204772949,
+      7.8892741203308105,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.821780204772949
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.889614105224609,
+      7.822117328643799,
+      7.889614105224609,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.822117328643799
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.889564037322998,
+      7.822067737579346,
+      7.889564037322998,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.822067737579346
+  },
+  {
+    "scene": "target_front_center_10m",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.889519214630127,
+      7.822023391723633,
+      7.889519214630127,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.822023391723633
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.81556510925293,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.81556510925293
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.815936088562012,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.815936088562012
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.816445350646973,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.816445350646973
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.816493034362793,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.816493034362793
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.815771102905273,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.815771102905273
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.814592361450195,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.814592361450195
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.813237190246582,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.813237190246582
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.81184196472168,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.81184196472168
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.810525894165039,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.810525894165039
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.809226036071777,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.809226036071777
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.808348655700684,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.808348655700684
+  },
+  {
+    "scene": "target_front_center_15m",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.808148384094238,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.808148384094238
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.8178768157959,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.8178768157959
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.820011138916016,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.820011138916016
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.822755813598633,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.822755813598633
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.825105667114258,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.825105667114258
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.827104568481445,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.827104568481445
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.82872772216797,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.82872772216797
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.829069137573242,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.829069137573242
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.828319549560547,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.828319549560547
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.827116012573242,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.827116012573242
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.825620651245117,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.825620651245117
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.823688507080078,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.823688507080078
+  },
+  {
+    "scene": "target_front_center_20m",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.821712493896484,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.821712493896484
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.812698364257812,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.812698364257812
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.811243057250977,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.811243057250977
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.810165405273438,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.810165405273438
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.8089656829834,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.8089656829834
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.807764053344727,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.807764053344727
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.806564331054688,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.806564331054688
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.805959701538086,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.805959701538086
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.80588150024414,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.80588150024414
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.80563735961914,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.80563735961914
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.80547523498535,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.80547523498535
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.805564880371094,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.805564880371094
+  },
+  {
+    "scene": "target_front_center_25m",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.8068790435791,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.8068790435791
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 1,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.801712036132812,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.801712036132812
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 2,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.798473358154297,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.798473358154297
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 3,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.796560287475586,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.796560287475586
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 4,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.79583740234375,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.79583740234375
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 5,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.796306610107422,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.796306610107422
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 6,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.798019409179688,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.798019409179688
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 7,
+    "rgb_present": true,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.800912857055664,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.800912857055664
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 8,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.80504608154297,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.80504608154297
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 9,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.809589385986328,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.809589385986328
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 10,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.813621520996094,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.813621520996094
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 11,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.81624984741211,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.81624984741211
+  },
+  {
+    "scene": "target_front_center_30m",
+    "tick": 12,
+    "rgb_present": false,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.817495346069336,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.817495346069336
+  }
+]

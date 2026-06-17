@@ -1,0 +1,3014 @@
+{
+  "meta": {
+    "source_phase_name": "phase5c4h_fan_area_distance_boundary",
+    "source_matrix_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_boundary_matrix.json",
+    "source_scene_results_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_scene_results.json",
+    "source_detection_events_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_detection_events.json",
+    "source_rgb_raw_glob": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\*_rgb_raw.npy",
+    "raw_rgb_loaded_from_visuals": true,
+    "scene_results_first_rgb_raw_used": false,
+    "scene_results_first_rgb_raw_stripped": true,
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_signature_colors": [
+      "128,128,128,255",
+      "128,128,96,255",
+      "128,64,32,255",
+      "128,96,64,255",
+      "128,96,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "160,96,64,255",
+      "192,128,96,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,160,128,255",
+      "224,160,96,255",
+      "64,32,0,255",
+      "64,32,32,255",
+      "64,64,32,255",
+      "96,32,32,255",
+      "96,64,32,255",
+      "96,64,64,255",
+      "96,96,64,255"
+    ],
+    "target_signature_color_count": 24,
+    "distractor_signature_min_scene_frequency": 2,
+    "distractor_signature_colors": [
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,192,160,255",
+      "224,224,192,255",
+      "224,224,224,255"
+    ],
+    "distractor_signature_color_count": 10,
+    "distractor_signature_scene_frequency": {
+      "160,128,128,255": 4,
+      "160,128,96,255": 4,
+      "160,160,128,255": 6,
+      "192,160,128,255": 6,
+      "192,160,160,255": 8,
+      "192,192,160,255": 8,
+      "224,224,192,255": 4,
+      "224,224,224,255": 9,
+      "192,192,192,255": 3,
+      "224,192,160,255": 5,
+      "160,160,160,255": 1,
+      "192,128,96,255": 1,
+      "224,160,128,255": 1,
+      "224,160,96,255": 1,
+      "224,192,192,255": 1,
+      "128,96,64,255": 1,
+      "128,128,96,255": 1
+    },
+    "camera_horizontal_fov_deg": 90.0,
+    "fan_yaw_degrees": [
+      30.0,
+      22.5,
+      15.0,
+      7.5,
+      0.0,
+      -7.5,
+      -15.0,
+      -22.5,
+      -30.0
+    ],
+    "recomputed_vs_source_mismatches": [
+      {
+        "scene": "target_right_outer_35m",
+        "field": "rgb_signature_overlap_count"
+      }
+    ],
+    "recomputed_matches_source_matrix": false
+  },
+  "rows": [
+    {
+      "scene": "baseline",
+      "scenario_kind": "baseline",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": null,
+      "angle_label": null,
+      "angle_deg": null,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\baseline_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [],
+      "rgb_signature_overlap": [],
+      "rgb_signature_overlap_count": 0,
+      "rgb_changed_pixels": 0,
+      "rgb_change_bbox_xyxy": null,
+      "rgb_target_overlap_pixel_count": 0,
+      "rgb_target_overlap_bbox_xyxy": null,
+      "rgb_target_overlap_x_center": null,
+      "rgb_target_angle_deg": null,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 0,
+      "source_rgb_changed_pixels": 0,
+      "source_found": false,
+      "source_outcome": "true_negative",
+      "distractor_signature_overlap": [],
+      "distractor_signature_overlap_count": 0
+    },
+    {
+      "scene": "calibration_target_front_center_10m",
+      "scenario_kind": "calibration",
+      "is_calibration_scene": true,
+      "expected_target_present_for_audit": true,
+      "distance_m": 10.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\calibration_target_front_center_10m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,32,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,32,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 24,
+      "rgb_changed_pixels": 868,
+      "rgb_change_bbox_xyxy": [
+        135,
+        123,
+        184,
+        164
+      ],
+      "rgb_target_overlap_pixel_count": 797,
+      "rgb_target_overlap_bbox_xyxy": [
+        135,
+        123,
+        184,
+        164
+      ],
+      "rgb_target_overlap_x_center": 159.5,
+      "rgb_target_angle_deg": 0.140625,
+      "rangefinder_hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        7.896933555603027,
+        7.829374313354492,
+        7.896933555603027,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 24,
+      "source_rgb_changed_pixels": 868,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "distractor_signature_overlap_count": 7
+    },
+    {
+      "scene": "target_left_outer_20m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 20.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_outer_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,64,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,192,224,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 21,
+      "rgb_changed_pixels": 282,
+      "rgb_change_bbox_xyxy": [
+        65,
+        122,
+        102,
+        139
+      ],
+      "rgb_target_overlap_pixel_count": 245,
+      "rgb_target_overlap_bbox_xyxy": [
+        65,
+        122,
+        101,
+        139
+      ],
+      "rgb_target_overlap_x_center": 83.0,
+      "rgb_target_angle_deg": 21.65625,
+      "rangefinder_hit_beam_indices": [
+        0,
+        1
+      ],
+      "rangefinder_raw_beams": [
+        20.576560974121094,
+        21.11804962158203,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.84375,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.84375,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.84375,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.84375,
+          "best_hit_beam_yaw_deg": 22.5
+        }
+      },
+      "source_rgb_overlap_count": 21,
+      "source_rgb_changed_pixels": 282,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_left_inner_20m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 20.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_inner_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "160,96,64,255",
+        "192,128,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,160,96,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,224,224,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255",
+        "96,96,96,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 19,
+      "rgb_changed_pixels": 207,
+      "rgb_change_bbox_xyxy": [
+        101,
+        122,
+        129,
+        138
+      ],
+      "rgb_target_overlap_pixel_count": 185,
+      "rgb_target_overlap_bbox_xyxy": [
+        101,
+        122,
+        129,
+        138
+      ],
+      "rgb_target_overlap_x_center": 115.0,
+      "rgb_target_angle_deg": 12.65625,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        18.44902992248535,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.34375,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.34375,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.34375,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.34375,
+          "best_hit_beam_yaw_deg": 15.0
+        }
+      },
+      "source_rgb_overlap_count": 19,
+      "source_rgb_changed_pixels": 207,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_center_20m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 20.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_center_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,64,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 13,
+      "rgb_changed_pixels": 111,
+      "rgb_change_bbox_xyxy": [
+        149,
+        122,
+        170,
+        139
+      ],
+      "rgb_target_overlap_pixel_count": 104,
+      "rgb_target_overlap_bbox_xyxy": [
+        149,
+        122,
+        170,
+        138
+      ],
+      "rgb_target_overlap_x_center": 159.5,
+      "rgb_target_angle_deg": 0.140625,
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        17.833585739135742,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 13,
+      "source_rgb_changed_pixels": 111,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255"
+      ],
+      "distractor_signature_overlap_count": 9
+    },
+    {
+      "scene": "target_right_inner_20m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 20.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_inner_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "160,160,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,160,96,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "192,192,224,255",
+        "192,224,224,255",
+        "224,160,128,255",
+        "224,192,128,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255",
+        "96,64,64,255",
+        "96,96,64,255",
+        "96,96,96,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 14,
+      "rgb_changed_pixels": 189,
+      "rgb_change_bbox_xyxy": [
+        91,
+        122,
+        220,
+        138
+      ],
+      "rgb_target_overlap_pixel_count": 173,
+      "rgb_target_overlap_bbox_xyxy": [
+        190,
+        122,
+        218,
+        138
+      ],
+      "rgb_target_overlap_x_center": 204.0,
+      "rgb_target_angle_deg": -12.375000000000002,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        18.44969367980957,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": -15.0
+        }
+      },
+      "source_rgb_overlap_count": 14,
+      "source_rgb_changed_pixels": 189,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 10
+    },
+    {
+      "scene": "target_right_outer_20m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 20.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_outer_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255",
+        "96,96,96,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "64,32,0,255",
+        "64,32,32,255",
+        "64,64,32,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 22,
+      "rgb_changed_pixels": 299,
+      "rgb_change_bbox_xyxy": [
+        218,
+        122,
+        254,
+        139
+      ],
+      "rgb_target_overlap_pixel_count": 252,
+      "rgb_target_overlap_bbox_xyxy": [
+        218,
+        122,
+        254,
+        138
+      ],
+      "rgb_target_overlap_x_center": 236.0,
+      "rgb_target_angle_deg": -21.375,
+      "rangefinder_hit_beam_indices": [
+        7,
+        8
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        21.118051528930664,
+        20.552040100097656
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": -22.5
+        }
+      },
+      "source_rgb_overlap_count": 22,
+      "source_rgb_changed_pixels": 299,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_left_outer_35m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 35.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_outer_35m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,160,255",
+        "128,128,96,255",
+        "128,64,64,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "160,96,32,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "224,224,224,255",
+        "64,64,64,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 17,
+      "rgb_changed_pixels": 92,
+      "rgb_change_bbox_xyxy": [
+        74,
+        121,
+        95,
+        129
+      ],
+      "rgb_target_overlap_pixel_count": 83,
+      "rgb_target_overlap_bbox_xyxy": [
+        74,
+        121,
+        94,
+        129
+      ],
+      "rgb_target_overlap_x_center": 84.0,
+      "rgb_target_angle_deg": 21.375,
+      "rangefinder_hit_beam_indices": [
+        1
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        39.39585876464844,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": 22.5
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 1.125,
+          "best_hit_beam_yaw_deg": 22.5
+        }
+      },
+      "source_rgb_overlap_count": 17,
+      "source_rgb_changed_pixels": 92,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 9
+    },
+    {
+      "scene": "target_left_inner_35m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 35.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_inner_35m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,64,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,160,96,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 19,
+      "rgb_changed_pixels": 67,
+      "rgb_change_bbox_xyxy": [
+        108,
+        121,
+        124,
+        129
+      ],
+      "rgb_target_overlap_pixel_count": 62,
+      "rgb_target_overlap_bbox_xyxy": [
+        108,
+        121,
+        124,
+        129
+      ],
+      "rgb_target_overlap_x_center": 116.0,
+      "rgb_target_angle_deg": 12.375000000000002,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        33.98145294189453,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.6249999999999982,
+          "best_hit_beam_yaw_deg": 15.0
+        }
+      },
+      "source_rgb_overlap_count": 19,
+      "source_rgb_changed_pixels": 67,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_center_35m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 35.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_center_35m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,128,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "224,224,192,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 8,
+      "rgb_changed_pixels": 42,
+      "rgb_change_bbox_xyxy": [
+        91,
+        121,
+        254,
+        138
+      ],
+      "rgb_target_overlap_pixel_count": 29,
+      "rgb_target_overlap_bbox_xyxy": [
+        154,
+        121,
+        165,
+        129
+      ],
+      "rgb_target_overlap_x_center": 159.5,
+      "rgb_target_angle_deg": 0.140625,
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        32.8143424987793,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 8,
+      "source_rgb_changed_pixels": 42,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255"
+      ],
+      "distractor_signature_overlap_count": 9
+    },
+    {
+      "scene": "target_right_inner_35m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 35.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_inner_35m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,224,192,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 13,
+      "rgb_changed_pixels": 54,
+      "rgb_change_bbox_xyxy": [
+        195,
+        121,
+        211,
+        129
+      ],
+      "rgb_target_overlap_pixel_count": 52,
+      "rgb_target_overlap_bbox_xyxy": [
+        195,
+        121,
+        211,
+        129
+      ],
+      "rgb_target_overlap_x_center": 203.0,
+      "rgb_target_angle_deg": -12.09375,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        33.980186462402344,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        }
+      },
+      "source_rgb_overlap_count": 13,
+      "source_rgb_changed_pixels": 54,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,224,192,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_right_outer_35m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 35.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_outer_35m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,160,255",
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,64,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,160,96,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,96,255",
+        "128,64,32,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 19,
+      "rgb_changed_pixels": 94,
+      "rgb_change_bbox_xyxy": [
+        225,
+        121,
+        245,
+        130
+      ],
+      "rgb_target_overlap_pixel_count": 84,
+      "rgb_target_overlap_bbox_xyxy": [
+        225,
+        121,
+        245,
+        130
+      ],
+      "rgb_target_overlap_x_center": 235.0,
+      "rgb_target_angle_deg": -21.09375,
+      "rangefinder_hit_beam_indices": [
+        7
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        39.39585876464844,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 1.40625,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 1.40625,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 1.40625,
+          "best_hit_beam_yaw_deg": -22.5
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 1.40625,
+          "best_hit_beam_yaw_deg": -22.5
+        }
+      },
+      "source_rgb_overlap_count": 17,
+      "source_rgb_changed_pixels": 94,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_left_outer_50m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 50.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_outer_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,160,96,255",
+        "96,64,32,255",
+        "96,64,64,255",
+        "96,96,64,255"
+      ],
+      "rgb_signature_overlap_count": 14,
+      "rgb_changed_pixels": 45,
+      "rgb_change_bbox_xyxy": [
+        78,
+        121,
+        91,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 44,
+      "rgb_target_overlap_bbox_xyxy": [
+        78,
+        121,
+        91,
+        126
+      ],
+      "rgb_target_overlap_x_center": 84.5,
+      "rgb_target_angle_deg": 21.234375,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 14,
+      "source_rgb_changed_pixels": 45,
+      "source_found": false,
+      "source_outcome": "false_negative",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_left_inner_50m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 50.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_left_inner_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,192,255",
+        "224,160,128,255",
+        "224,192,128,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "224,224,192,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "128,96,64,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,96,64,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,192,255",
+        "224,160,128,255"
+      ],
+      "rgb_signature_overlap_count": 12,
+      "rgb_changed_pixels": 40,
+      "rgb_change_bbox_xyxy": [
+        91,
+        121,
+        285,
+        138
+      ],
+      "rgb_target_overlap_pixel_count": 27,
+      "rgb_target_overlap_bbox_xyxy": [
+        111,
+        121,
+        122,
+        127
+      ],
+      "rgb_target_overlap_x_center": 116.5,
+      "rgb_target_angle_deg": 12.234374999999998,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        49.50327682495117,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        }
+      },
+      "source_rgb_overlap_count": 12,
+      "source_rgb_changed_pixels": 40,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_center_50m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 50.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_center_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,192,128,255",
+        "224,192,160,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255"
+      ],
+      "rgb_signature_overlap_count": 5,
+      "rgb_changed_pixels": 18,
+      "rgb_change_bbox_xyxy": [
+        156,
+        122,
+        163,
+        127
+      ],
+      "rgb_target_overlap_pixel_count": 9,
+      "rgb_target_overlap_bbox_xyxy": [
+        156,
+        122,
+        163,
+        126
+      ],
+      "rgb_target_overlap_x_center": 159.5,
+      "rgb_target_angle_deg": 0.140625,
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        47.81841278076172,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 5,
+      "source_rgb_changed_pixels": 18,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 6
+    },
+    {
+      "scene": "target_right_inner_50m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 50.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_inner_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,160,96,255",
+        "192,192,192,255",
+        "192,192,224,255",
+        "224,192,128,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "224,224,192,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,128,255",
+        "128,128,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 9,
+      "rgb_changed_pixels": 38,
+      "rgb_change_bbox_xyxy": [
+        91,
+        121,
+        285,
+        138
+      ],
+      "rgb_target_overlap_pixel_count": 24,
+      "rgb_target_overlap_bbox_xyxy": [
+        198,
+        121,
+        208,
+        126
+      ],
+      "rgb_target_overlap_x_center": 203.0,
+      "rgb_target_angle_deg": -12.09375,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        49.493629455566406,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": -15.0
+        }
+      },
+      "source_rgb_overlap_count": 9,
+      "source_rgb_changed_pixels": 38,
+      "source_found": true,
+      "source_outcome": "true_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "target_right_outer_50m",
+      "scenario_kind": "target",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true,
+      "distance_m": 50.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\target_right_outer_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "160,160,192,255",
+        "160,192,192,255",
+        "192,160,128,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "96,64,64,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,96,255",
+        "128,96,64,255",
+        "128,96,96,255",
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,160,128,255",
+        "192,192,192,255",
+        "96,64,64,255"
+      ],
+      "rgb_signature_overlap_count": 10,
+      "rgb_changed_pixels": 40,
+      "rgb_change_bbox_xyxy": [
+        228,
+        121,
+        244,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 34,
+      "rgb_target_overlap_bbox_xyxy": [
+        228,
+        121,
+        241,
+        126
+      ],
+      "rgb_target_overlap_x_center": 234.5,
+      "rgb_target_angle_deg": -20.953125,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 10,
+      "source_rgb_changed_pixels": 40,
+      "source_found": false,
+      "source_outcome": "false_negative",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,192,192,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 6
+    },
+    {
+      "scene": "distractor_only_left_outer_20m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 20.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_left_outer_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255"
+      ],
+      "rgb_signature_overlap_count": 6,
+      "rgb_changed_pixels": 56,
+      "rgb_change_bbox_xyxy": [
+        81,
+        129,
+        89,
+        136
+      ],
+      "rgb_target_overlap_pixel_count": 28,
+      "rgb_target_overlap_bbox_xyxy": [
+        81,
+        133,
+        89,
+        136
+      ],
+      "rgb_target_overlap_x_center": 85.0,
+      "rgb_target_angle_deg": 21.09375,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 6,
+      "source_rgb_changed_pixels": 56,
+      "source_found": false,
+      "source_outcome": "true_negative",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 8
+    },
+    {
+      "scene": "distractor_only_left_inner_20m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 20.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_left_inner_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255"
+      ],
+      "rgb_signature_overlap_count": 6,
+      "rgb_changed_pixels": 53,
+      "rgb_change_bbox_xyxy": [
+        113,
+        129,
+        120,
+        136
+      ],
+      "rgb_target_overlap_pixel_count": 27,
+      "rgb_target_overlap_bbox_xyxy": [
+        113,
+        133,
+        120,
+        136
+      ],
+      "rgb_target_overlap_x_center": 116.5,
+      "rgb_target_angle_deg": 12.234374999999998,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        20.262466430664062,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.7656250000000018,
+          "best_hit_beam_yaw_deg": 15.0
+        }
+      },
+      "source_rgb_overlap_count": 6,
+      "source_rgb_changed_pixels": 53,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 7
+    },
+    {
+      "scene": "distractor_only_center_20m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 20.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_center_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 4,
+      "rgb_changed_pixels": 44,
+      "rgb_change_bbox_xyxy": [
+        156,
+        129,
+        163,
+        136
+      ],
+      "rgb_target_overlap_pixel_count": 26,
+      "rgb_target_overlap_bbox_xyxy": [
+        156,
+        133,
+        163,
+        136
+      ],
+      "rgb_target_overlap_x_center": 159.5,
+      "rgb_target_angle_deg": 0.140625,
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        19.556882858276367,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.140625,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 4,
+      "source_rgb_changed_pixels": 44,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 5
+    },
+    {
+      "scene": "distractor_only_right_inner_20m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 20.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_right_inner_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 6,
+      "rgb_changed_pixels": 61,
+      "rgb_change_bbox_xyxy": [
+        91,
+        129,
+        224,
+        137
+      ],
+      "rgb_target_overlap_pixel_count": 25,
+      "rgb_target_overlap_bbox_xyxy": [
+        199,
+        133,
+        206,
+        136
+      ],
+      "rgb_target_overlap_x_center": 202.5,
+      "rgb_target_angle_deg": -11.953125,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        20.260543823242188,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 3.046875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 3.046875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 3.046875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 3.046875,
+          "best_hit_beam_yaw_deg": -15.0
+        }
+      },
+      "source_rgb_overlap_count": 6,
+      "source_rgb_changed_pixels": 61,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 9
+    },
+    {
+      "scene": "distractor_only_right_outer_20m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 20.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_right_outer_20m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,160,128,255",
+        "224,160,96,255",
+        "224,192,160,255",
+        "224,192,192,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "160,160,160,255",
+        "192,128,96,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,160,128,255",
+        "224,160,96,255"
+      ],
+      "rgb_signature_overlap_count": 10,
+      "rgb_changed_pixels": 64,
+      "rgb_change_bbox_xyxy": [
+        229,
+        129,
+        269,
+        137
+      ],
+      "rgb_target_overlap_pixel_count": 33,
+      "rgb_target_overlap_bbox_xyxy": [
+        230,
+        133,
+        269,
+        137
+      ],
+      "rgb_target_overlap_x_center": 249.5,
+      "rgb_target_angle_deg": -25.171874999999996,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 10,
+      "source_rgb_changed_pixels": 64,
+      "source_found": false,
+      "source_outcome": "true_negative",
+      "distractor_signature_overlap": [
+        "160,128,128,255",
+        "160,128,96,255",
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 9
+    },
+    {
+      "scene": "distractor_only_left_outer_50m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 50.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_left_outer_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,96,64,255",
+        "160,160,128,255",
+        "192,160,160,255",
+        "224,192,160,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,96,64,255",
+        "160,160,128,255",
+        "192,160,160,255"
+      ],
+      "rgb_signature_overlap_count": 3,
+      "rgb_changed_pixels": 9,
+      "rgb_change_bbox_xyxy": [
+        83,
+        125,
+        88,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 5,
+      "rgb_target_overlap_bbox_xyxy": [
+        84,
+        125,
+        86,
+        126
+      ],
+      "rgb_target_overlap_x_center": 85.0,
+      "rgb_target_angle_deg": 21.09375,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 3,
+      "source_rgb_changed_pixels": 9,
+      "source_found": false,
+      "source_outcome": "true_negative",
+      "distractor_signature_overlap": [
+        "160,160,128,255",
+        "192,160,160,255",
+        "224,192,160,255"
+      ],
+      "distractor_signature_overlap_count": 3
+    },
+    {
+      "scene": "distractor_only_left_inner_50m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 50.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_left_inner_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,128,96,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,128,96,255",
+        "192,160,160,255",
+        "192,192,160,255"
+      ],
+      "rgb_signature_overlap_count": 3,
+      "rgb_changed_pixels": 8,
+      "rgb_change_bbox_xyxy": [
+        116,
+        124,
+        118,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 5,
+      "rgb_target_overlap_bbox_xyxy": [
+        116,
+        125,
+        118,
+        126
+      ],
+      "rgb_target_overlap_x_center": 117.0,
+      "rgb_target_angle_deg": 12.09375,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        51.3233528137207,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": 15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 2.90625,
+          "best_hit_beam_yaw_deg": 15.0
+        }
+      },
+      "source_rgb_overlap_count": 3,
+      "source_rgb_changed_pixels": 8,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "160,128,96,255",
+        "192,160,160,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 4
+    },
+    {
+      "scene": "distractor_only_center_50m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 50.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_center_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "192,192,160,255",
+        "192,192,192,255"
+      ],
+      "rgb_signature_overlap_count": 2,
+      "rgb_changed_pixels": 8,
+      "rgb_change_bbox_xyxy": [
+        159,
+        124,
+        161,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 5,
+      "rgb_target_overlap_bbox_xyxy": [
+        159,
+        125,
+        161,
+        126
+      ],
+      "rgb_target_overlap_x_center": 160.0,
+      "rgb_target_angle_deg": 0.0,
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        49.55922317504883,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": true,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 0.0,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 0.0,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 0.0,
+          "best_hit_beam_yaw_deg": 0.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 0.0,
+          "best_hit_beam_yaw_deg": 0.0
+        }
+      },
+      "source_rgb_overlap_count": 2,
+      "source_rgb_changed_pixels": 8,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "192,192,160,255",
+        "192,192,192,255",
+        "224,192,160,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 4
+    },
+    {
+      "scene": "distractor_only_right_inner_50m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 50.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_right_inner_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,192,160,255"
+      ],
+      "rgb_signature_overlap_count": 3,
+      "rgb_changed_pixels": 7,
+      "rgb_change_bbox_xyxy": [
+        201,
+        124,
+        203,
+        126
+      ],
+      "rgb_target_overlap_pixel_count": 5,
+      "rgb_target_overlap_bbox_xyxy": [
+        201,
+        125,
+        203,
+        126
+      ],
+      "rgb_target_overlap_x_center": 202.0,
+      "rgb_target_angle_deg": -11.8125,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        51.325653076171875,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": true,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": true,
+          "best_delta_deg": 3.1875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "10.0": {
+          "matched": true,
+          "best_delta_deg": 3.1875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "12.5": {
+          "matched": true,
+          "best_delta_deg": 3.1875,
+          "best_hit_beam_yaw_deg": -15.0
+        },
+        "15.0": {
+          "matched": true,
+          "best_delta_deg": 3.1875,
+          "best_hit_beam_yaw_deg": -15.0
+        }
+      },
+      "source_rgb_overlap_count": 3,
+      "source_rgb_changed_pixels": 7,
+      "source_found": true,
+      "source_outcome": "false_positive",
+      "distractor_signature_overlap": [
+        "160,160,128,255",
+        "192,160,128,255",
+        "192,192,160,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 4
+    },
+    {
+      "scene": "distractor_only_right_outer_50m",
+      "scenario_kind": "distractor_only",
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false,
+      "distance_m": 50.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\distractor_only_right_outer_50m_rgb_raw.npy",
+      "rgb_raw_loaded": true,
+      "scene_results_first_rgb_raw_used": false,
+      "rgb_signature_colors": [
+        "128,128,96,255",
+        "192,160,160,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "rgb_signature_overlap": [
+        "128,128,96,255",
+        "192,160,160,255"
+      ],
+      "rgb_signature_overlap_count": 2,
+      "rgb_changed_pixels": 14,
+      "rgb_change_bbox_xyxy": [
+        91,
+        124,
+        236,
+        133
+      ],
+      "rgb_target_overlap_pixel_count": 5,
+      "rgb_target_overlap_bbox_xyxy": [
+        233,
+        125,
+        235,
+        126
+      ],
+      "rgb_target_overlap_x_center": 234.0,
+      "rgb_target_angle_deg": -20.8125,
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_raw_beams": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "any_rangefinder_hit": false,
+      "old_matched_rangefinder_beam_hit": false,
+      "recalibrated_direction_matches": {
+        "7.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "10.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "12.5": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        },
+        "15.0": {
+          "matched": false,
+          "best_delta_deg": null,
+          "best_hit_beam_yaw_deg": null
+        }
+      },
+      "source_rgb_overlap_count": 2,
+      "source_rgb_changed_pixels": 14,
+      "source_found": false,
+      "source_outcome": "true_negative",
+      "distractor_signature_overlap": [
+        "192,160,160,255",
+        "224,192,160,255",
+        "224,224,192,255",
+        "224,224,224,255"
+      ],
+      "distractor_signature_overlap_count": 4
+    }
+  ]
+}

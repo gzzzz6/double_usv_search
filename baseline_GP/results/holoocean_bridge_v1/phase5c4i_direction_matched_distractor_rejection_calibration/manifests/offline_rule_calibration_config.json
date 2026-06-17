@@ -1,0 +1,46 @@
+{
+  "phase_name": "phase5c4i_direction_matched_distractor_rejection_calibration",
+  "source_phase_name": "phase5c4h_fan_area_distance_boundary",
+  "source_inputs": {
+    "boundary_matrix_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_boundary_matrix.json",
+    "scene_results_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_scene_results.json",
+    "detection_events_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_detection_events.json",
+    "config_json": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\manifests\\rgb_multiray_fan_area_distance_config.json",
+    "rgb_raw_artifacts": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4h_fan_area_distance_boundary\\visuals\\*_rgb_raw.npy"
+  },
+  "scene_results_has_first_rgb_raw": false,
+  "scene_results_first_rgb_raw_used": false,
+  "raw_rgb_loaded_from_visuals": true,
+  "candidate_scans": {
+    "target_overlap_min_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rgb_changed_pixels_min_values": [
+      0,
+      10,
+      15,
+      20,
+      40,
+      80
+    ],
+    "recalibrated_direction_tolerance_deg_values": [
+      7.5,
+      10.0,
+      12.5,
+      15.0
+    ],
+    "distractor_overlap_min_values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "camera_horizontal_fov_deg": 90.0
+}

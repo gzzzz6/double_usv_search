@@ -1,0 +1,26 @@
+{
+  "phase_name": "phase5d1_surfacevessel_teammate_exclusion_validation",
+  "pre_git_status": [
+    " M .claude/settings.local.json",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4e_rgb_multiray_rangefinder_fan_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4f_distance_sweep_rgb_multiray_fan/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4g_front_far_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4h_fan_area_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4i_direction_matched_distractor_rejection_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d0_sphereagent_static_target_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1_surfacevessel_teammate_exclusion_validation/"
+  ],
+  "post_git_status": [
+    " M .claude/settings.local.json",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4e_rgb_multiray_rangefinder_fan_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4f_distance_sweep_rgb_multiray_fan/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4g_front_far_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4h_fan_area_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4i_direction_matched_distractor_rejection_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d0_sphereagent_static_target_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1_surfacevessel_teammate_exclusion_validation/"
+  ],
+  "outside_phase_new_or_changed": []
+}

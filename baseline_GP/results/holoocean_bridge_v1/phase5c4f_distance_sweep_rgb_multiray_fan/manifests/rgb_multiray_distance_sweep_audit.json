@@ -1,0 +1,51 @@
+{
+  "phase_name": "phase5c4f_distance_sweep_rgb_multiray_fan",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "scene_results_parse_ok": true,
+    "events_parse_ok": true,
+    "matrix_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "distance_set_exact": true,
+    "scene_count_matches": true,
+    "truth_flags_false": true,
+    "rgb_logic_preserved": true,
+    "rangefinder_fan_configured": true,
+    "all_scene_launch_ok": true,
+    "all_scenes_rgb_output": true,
+    "all_scenes_rangefinder_output": true,
+    "matrix_has_required_fields": true,
+    "each_target_scene_has_image": true,
+    "summary_boundary_present": true,
+    "overview_visual_exists": true,
+    "git_changes_limited_to_phase": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true,
+    "compiled_expected_scripts": true
+  },
+  "metrics": {
+    "phase_name": "phase5c4f_distance_sweep_rgb_multiray_fan",
+    "tested_distances_m": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "effective_distances_m": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "failed_distances_m": [],
+    "max_tested_effective_distance_m": 30.0,
+    "first_tested_failure_distance_m": null,
+    "all_passed": true
+  },
+  "all_passed": true
+}

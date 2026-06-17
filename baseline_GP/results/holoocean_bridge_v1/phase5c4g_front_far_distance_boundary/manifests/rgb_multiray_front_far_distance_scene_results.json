@@ -1,0 +1,1824 @@
+{
+  "baseline": {
+    "scene": "baseline",
+    "role": "background_reference",
+    "distance_m": null,
+    "is_calibration_scene": false,
+    "include_target": false,
+    "expected_target_present_for_audit": false,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.7632431,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [],
+      "hit_sectors": [],
+      "min_positive_range_m": null,
+      "any_hit": false
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\baseline_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\baseline_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "baseline",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      },
+      {
+        "scene": "baseline",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [],
+        "any_rangefinder_hit": false,
+        "rangefinder_min_positive_range_m": null
+      }
+    ]
+  },
+  "calibration_target_front_center_10m": {
+    "scene": "calibration_target_front_center_10m",
+    "role": "rgb_signature_calibration",
+    "distance_m": 10.0,
+    "is_calibration_scene": true,
+    "include_target": true,
+    "expected_target_present_for_audit": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.5446466,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        7.883257865905762,
+        7.8158159255981445,
+        7.883257865905762,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 7.8158159255981445,
+      "any_hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\calibration_target_front_center_10m_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\calibration_target_front_center_10m_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.883257865905762,
+          7.8158159255981445,
+          7.883257865905762,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8158159255981445
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.88111686706543,
+          7.813692569732666,
+          7.88111686706543,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.813692569732666
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.87972354888916,
+          7.812311172485352,
+          7.87972354888916,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.812311172485352
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.879062652587891,
+          7.811656475067139,
+          7.879062652587891,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.811656475067139
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.87971305847168,
+          7.812301158905029,
+          7.87971305847168,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.812301158905029
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.88154411315918,
+          7.81411600112915,
+          7.88154411315918,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.81411600112915
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.883784770965576,
+          7.816338062286377,
+          7.883784770965576,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.816338062286377
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.886157035827637,
+          7.818690299987793,
+          7.886157035827637,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.818690299987793
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.888470649719238,
+          7.82098388671875,
+          7.888470649719238,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.82098388671875
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.891026496887207,
+          7.8235182762146,
+          7.891026496887207,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.8235182762146
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.893267631530762,
+          7.825739860534668,
+          7.893267631530762,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.825739860534668
+      },
+      {
+        "scene": "calibration_target_front_center_10m",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.894869804382324,
+          7.827327728271484,
+          7.894869804382324,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 7.827327728271484
+      }
+    ]
+  },
+  "target_front_center_35m": {
+    "scene": "target_front_center_35m",
+    "role": "front_far_distance_boundary",
+    "distance_m": 35.0,
+    "is_calibration_scene": false,
+    "include_target": true,
+    "expected_target_present_for_audit": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.097550299999998,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        32.830570220947266,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 32.830570220947266,
+      "any_hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_35m_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_35m_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_35m",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.830570220947266,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.830570220947266
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.83296203613281,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.83296203613281
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.83323669433594,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.83323669433594
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.830894470214844,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.830894470214844
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.826438903808594,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.826438903808594
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.821014404296875,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.821014404296875
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.815486907958984,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.815486907958984
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.81074905395508,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.81074905395508
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.80683517456055,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.80683517456055
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.804019927978516,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.804019927978516
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.80254364013672,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.80254364013672
+      },
+      {
+        "scene": "target_front_center_35m",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          32.802921295166016,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 32.802921295166016
+      }
+    ]
+  },
+  "target_front_center_40m": {
+    "scene": "target_front_center_40m",
+    "role": "front_far_distance_boundary",
+    "distance_m": 40.0,
+    "is_calibration_scene": false,
+    "include_target": true,
+    "expected_target_present_for_audit": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 7.926132400000004,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        37.80687713623047,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 37.80687713623047,
+      "any_hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_40m_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_40m_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_40m",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.80687713623047,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.80687713623047
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.806236267089844,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.806236267089844
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.805660247802734,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.805660247802734
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.805789947509766,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.805789947509766
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.80619812011719,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.80619812011719
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.807212829589844,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.807212829589844
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.808597564697266,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.808597564697266
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.81013870239258,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.81013870239258
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.811702728271484,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.811702728271484
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.81281280517578,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.81281280517578
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.8133430480957,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.8133430480957
+      },
+      {
+        "scene": "target_front_center_40m",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          37.8129997253418,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 37.8129997253418
+      }
+    ]
+  },
+  "target_front_center_45m": {
+    "scene": "target_front_center_45m",
+    "role": "front_far_distance_boundary",
+    "distance_m": 45.0,
+    "is_calibration_scene": false,
+    "include_target": true,
+    "expected_target_present_for_audit": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.805952300000001,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        42.8272705078125,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 42.8272705078125,
+      "any_hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_45m_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_45m_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_45m",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.8272705078125,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.8272705078125
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.82911682128906,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.82911682128906
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.83018493652344,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.83018493652344
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.82967758178711,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.82967758178711
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.8278694152832,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.8278694152832
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.824424743652344,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.824424743652344
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.81996536254883,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.81996536254883
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.81513214111328,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.81513214111328
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.811134338378906,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.811134338378906
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.80818176269531,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.80818176269531
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.806644439697266,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.806644439697266
+      },
+      {
+        "scene": "target_front_center_45m",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          42.807254791259766,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 42.807254791259766
+      }
+    ]
+  },
+  "target_front_center_50m": {
+    "scene": "target_front_center_50m",
+    "role": "front_far_distance_boundary",
+    "distance_m": 50.0,
+    "is_calibration_scene": false,
+    "include_target": true,
+    "expected_target_present_for_audit": true,
+    "launch_ok": true,
+    "error": "",
+    "wall_time_s": 8.725855900000006,
+    "rgb_stats": {
+      "present": true,
+      "shape": [
+        240,
+        320,
+        4
+      ],
+      "dtype": "uint8",
+      "size": 307200
+    },
+    "rangefinder_summary": {
+      "present": true,
+      "raw": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        47.8182373046875,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "beam_count": 9,
+      "hit_beam_indices": [
+        4
+      ],
+      "hit_sectors": [
+        "center"
+      ],
+      "min_positive_range_m": 47.8182373046875,
+      "any_hit": true
+    },
+    "artifacts": {
+      "rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_50m_rgb.png",
+      "rgb_raw_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4g_front_far_distance_boundary\\visuals\\target_front_center_50m_rgb_raw.npy",
+      "rgb_preview_saved": true,
+      "rgb_raw_saved": true
+    },
+    "tick_rows": [
+      {
+        "scene": "target_front_center_50m",
+        "tick": 1,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.8182373046875,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.8182373046875
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 2,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81910705566406,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81910705566406
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 3,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.818416595458984,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.818416595458984
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 4,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81691360473633,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81691360473633
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 5,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.814918518066406,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.814918518066406
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 6,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81305694580078,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81305694580078
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 7,
+        "rgb_present": true,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.811798095703125,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.811798095703125
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 8,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81095886230469,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81095886230469
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 9,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.810909271240234,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.810909271240234
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 10,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81098175048828,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81098175048828
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 11,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81063461303711,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81063461303711
+      },
+      {
+        "scene": "target_front_center_50m",
+        "tick": 12,
+        "rgb_present": false,
+        "rangefinder_raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          47.81037902832031,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rangefinder_hit_beam_indices": [
+          4
+        ],
+        "any_rangefinder_hit": true,
+        "rangefinder_min_positive_range_m": 47.81037902832031
+      }
+    ]
+  }
+}

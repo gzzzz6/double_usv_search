@@ -1,0 +1,310 @@
+[
+  {
+    "scene": "baseline",
+    "distance_m": null,
+    "expected_target_present_for_audit": false,
+    "rgb_has_target_signature": false,
+    "rgb_signature_overlap": [],
+    "rgb_signature_bbox_xyxy": null,
+    "rgb_changed_pixels": 0,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "rangefinder_min_positive_range_m": null,
+    "found": false,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\baseline_rgb.png"
+  },
+  {
+    "scene": "target_front_center_10m",
+    "distance_m": 10.0,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,128,255",
+      "128,128,96,255",
+      "128,64,32,255",
+      "128,96,64,255",
+      "128,96,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "160,96,64,255",
+      "192,128,96,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,160,128,255",
+      "224,192,128,255",
+      "64,32,0,255",
+      "64,32,32,255",
+      "64,64,32,255",
+      "96,32,32,255",
+      "96,64,32,255",
+      "96,64,64,255",
+      "96,96,64,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      135,
+      123,
+      184,
+      165
+    ],
+    "rgb_changed_pixels": 870,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.8847336769104,
+      7.8172783851623535,
+      7.8847336769104,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 7.8172783851623535,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\target_front_center_10m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_15m",
+    "distance_m": 15.0,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,128,255",
+      "128,128,96,255",
+      "128,96,64,255",
+      "128,96,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "160,96,64,255",
+      "192,128,96,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,192,128,255",
+      "96,96,64,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      36,
+      123,
+      271,
+      153
+    ],
+    "rgb_changed_pixels": 277,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      12.81556510925293,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 12.81556510925293,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\target_front_center_15m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_20m",
+    "distance_m": 20.0,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,128,255",
+      "128,128,96,255",
+      "128,96,64,255",
+      "128,96,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      149,
+      122,
+      269,
+      139
+    ],
+    "rgb_changed_pixels": 118,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      17.8178768157959,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 17.8178768157959,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\target_front_center_20m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_25m",
+    "distance_m": 25.0,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "128,128,96,255",
+      "160,128,128,255",
+      "160,128,96,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,192,128,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      44,
+      121,
+      269,
+      153
+    ],
+    "rgb_changed_pixels": 84,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      22.812698364257812,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 22.812698364257812,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\target_front_center_25m_rgb.png"
+  },
+  {
+    "scene": "target_front_center_30m",
+    "distance_m": 30.0,
+    "expected_target_present_for_audit": true,
+    "rgb_has_target_signature": true,
+    "rgb_signature_overlap": [
+      "160,128,128,255",
+      "160,160,128,255",
+      "160,160,160,255",
+      "192,160,128,255",
+      "192,160,160,255",
+      "192,192,160,255",
+      "192,192,192,255",
+      "224,192,128,255"
+    ],
+    "rgb_signature_bbox_xyxy": [
+      36,
+      121,
+      270,
+      153
+    ],
+    "rgb_changed_pixels": 56,
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.801712036132812,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "rangefinder_min_positive_range_m": 27.801712036132812,
+    "found": true,
+    "found_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4f_distance_sweep_rgb_multiray_fan\\visuals\\target_front_center_30m_rgb.png"
+  }
+]

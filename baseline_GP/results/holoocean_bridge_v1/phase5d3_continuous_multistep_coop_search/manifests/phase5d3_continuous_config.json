@@ -1,0 +1,120 @@
+{
+  "phase_name": "phase5d3_continuous_multistep_coop_search",
+  "phase_goal": "Connect 5D-2 candidate fusion to a continuous multi-step HoloOcean search closure.",
+  "source_5d1a_phase_name": "phase5d1a_sphere_blob_local_range_scaled_validation",
+  "source_5d2_phase_name": "phase5d2_multi_surfacevessel_static_sphereagent_coop_search",
+  "source_5d1a_audit_all_passed": true,
+  "source_5d2_audit_all_passed": true,
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "observer_agent_type": "SurfaceVessel",
+  "target_agent_type": "SphereAgent",
+  "teammate_agent_type": "SurfaceVessel",
+  "observer_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "observer_count": 2,
+  "target_is_static": true,
+  "same_model_teammate_and_target": false,
+  "dynamic_target_tracking_enabled": false,
+  "continuous_search_loop_enabled": true,
+  "max_policy_steps": 4,
+  "ticks_per_policy_step": 12,
+  "total_ticks": 48,
+  "policy_waypoints": {
+    "sv0": [
+      [
+        6.0,
+        -6.0,
+        0.0
+      ],
+      [
+        10.0,
+        -6.0,
+        0.0
+      ],
+      [
+        14.0,
+        -6.0,
+        0.0
+      ],
+      [
+        18.0,
+        -6.0,
+        0.0
+      ]
+    ],
+    "sv1": [
+      [
+        6.0,
+        6.0,
+        0.0
+      ],
+      [
+        10.0,
+        6.0,
+        0.0
+      ],
+      [
+        14.0,
+        6.0,
+        0.0
+      ],
+      [
+        18.0,
+        6.0,
+        0.0
+      ]
+    ]
+  },
+  "target_world_location": [
+    31.0,
+    0.0,
+    0.5
+  ],
+  "teammate_world_location": [
+    31.0,
+    0.0,
+    0.0
+  ],
+  "coexist_teammate_world_location": [
+    23.0,
+    12.0,
+    0.0
+  ],
+  "reliable_distance_limit_m": 35.0,
+  "teammate_exclusion_radius_m": 10.0,
+  "fusion_distance_threshold_m": 15.0,
+  "target_audit_distance_threshold_m": 15.0,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "teammate_identity_position_available_externally": true,
+  "teammate_position_used_for_candidate_exclusion": true,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "pre_git_status": [
+    " M .claude/settings.local.json",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4e_rgb_multiray_rangefinder_fan_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4f_distance_sweep_rgb_multiray_fan/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4g_front_far_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4h_fan_area_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4i_direction_matched_distractor_rejection_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d0_sphereagent_static_target_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1_surfacevessel_teammate_exclusion_validation/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1a_distance_focus_25m_30m/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1a_sphere_blob_local_range_scaled_validation/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d2_multi_surfacevessel_static_sphereagent_coop_search/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d3_continuous_multistep_coop_search/"
+  ],
+  "python_executable": "C:\\Users\\32022\\.conda\\envs\\holo\\python.exe",
+  "python_version": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]"
+}

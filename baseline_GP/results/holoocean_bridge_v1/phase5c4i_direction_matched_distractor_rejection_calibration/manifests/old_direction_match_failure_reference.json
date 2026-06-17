@@ -1,0 +1,138 @@
+{
+  "old_direction_rule_summary": {
+    "rule_id": "old_direction_matched_as_failure_reference_overlap1_px0",
+    "rule_name": "old_direction_matched_as_failure_reference",
+    "rule_family": "failure_reference",
+    "target_overlap_min": 1,
+    "rgb_changed_pixels_min": 0,
+    "direction_tolerance_deg": null,
+    "distractor_overlap_min": null,
+    "uses_old_direction_match": true,
+    "uses_recalibrated_direction_match": false,
+    "uses_distractor_rejection": false,
+    "outcome_counts_all_scenes": {
+      "true_negative": 9,
+      "true_positive": 8,
+      "false_negative": 8,
+      "false_positive": 2
+    },
+    "target_true_positive_count": 7,
+    "target_false_negative_count": 8,
+    "distractor_false_positive_count": 2,
+    "distractor_true_negative_count": 8,
+    "baseline_false_positive_count": 0,
+    "calibration_true_positive": true,
+    "target_true_positive_scenes": [
+      "target_left_outer_20m",
+      "target_center_20m",
+      "target_right_outer_20m",
+      "target_left_outer_35m",
+      "target_center_35m",
+      "target_right_outer_35m",
+      "target_center_50m"
+    ],
+    "target_false_negative_scenes": [
+      "target_left_inner_20m",
+      "target_right_inner_20m",
+      "target_left_inner_35m",
+      "target_right_inner_35m",
+      "target_left_outer_50m",
+      "target_left_inner_50m",
+      "target_right_inner_50m",
+      "target_right_outer_50m"
+    ],
+    "distractor_false_positive_scenes": [
+      "distractor_only_center_20m",
+      "distractor_only_center_50m"
+    ],
+    "distractor_true_negative_scenes": [
+      "distractor_only_left_outer_20m",
+      "distractor_only_left_inner_20m",
+      "distractor_only_right_inner_20m",
+      "distractor_only_right_outer_20m",
+      "distractor_only_left_outer_50m",
+      "distractor_only_left_inner_50m",
+      "distractor_only_right_inner_50m",
+      "distractor_only_right_outer_50m"
+    ],
+    "baseline_false_positive_scenes": [],
+    "target_20m_true_positive_count": 3,
+    "target_20m_total": 5,
+    "target_35m_true_positive_count": 3,
+    "target_35m_total": 5,
+    "target_50m_true_positive_count": 1,
+    "target_50m_total": 5,
+    "target_50m_center_inner_true_positive_count": 1,
+    "target_50m_center_inner_total": 3
+  },
+  "inner_target_failures_if_old_direction_used": [
+    {
+      "scene": "target_left_inner_20m",
+      "distance_m": 20.0,
+      "angle_label": "left_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rgb_target_angle_deg": 12.65625
+    },
+    {
+      "scene": "target_right_inner_20m",
+      "distance_m": 20.0,
+      "angle_label": "right_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rgb_target_angle_deg": -12.375000000000002
+    },
+    {
+      "scene": "target_left_inner_35m",
+      "distance_m": 35.0,
+      "angle_label": "left_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rgb_target_angle_deg": 12.375000000000002
+    },
+    {
+      "scene": "target_right_inner_35m",
+      "distance_m": 35.0,
+      "angle_label": "right_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rgb_target_angle_deg": -12.09375
+    },
+    {
+      "scene": "target_left_inner_50m",
+      "distance_m": 50.0,
+      "angle_label": "left_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        2
+      ],
+      "rgb_target_angle_deg": 12.234374999999998
+    },
+    {
+      "scene": "target_right_inner_50m",
+      "distance_m": 50.0,
+      "angle_label": "right_inner",
+      "old_matched_rangefinder_beam_hit": false,
+      "source_found": true,
+      "rangefinder_hit_beam_indices": [
+        6
+      ],
+      "rgb_target_angle_deg": -12.09375
+    }
+  ],
+  "inner_target_failure_count": 6,
+  "conclusion": "The 5C-4H matched_rangefinder_beam_hit field is a diagnostic only. Using it directly as a detection rule would create false negatives for inner-angle true targets."
+}

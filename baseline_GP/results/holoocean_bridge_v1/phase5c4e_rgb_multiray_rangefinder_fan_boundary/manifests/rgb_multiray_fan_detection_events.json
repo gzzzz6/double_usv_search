@@ -1,0 +1,3152 @@
+[
+  {
+    "event_name": "baseline_multiray_sensor_adapter_event",
+    "scene": "baseline",
+    "role": "background_reference",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "none",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": false,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 0,
+        "change_bbox_xyxy": null,
+        "rgb_signature_x_center": null,
+        "rgb_signature_sector": "none",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [],
+        "hit_sectors": [],
+        "any_hit": false,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": null,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": null,
+    "rgb_signature_sector": "none",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "none",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\baseline_rgb.png",
+    "outcome_any_hit": "true_negative",
+    "outcome_aligned": "true_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_front_center_near_multiray_sensor_adapter_event",
+    "scene": "target_front_center_near",
+    "role": "calibration_positive_center",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,160,96,255",
+          "224,224,224,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 867,
+        "change_bbox_xyxy": [
+          134,
+          123,
+          184,
+          164
+        ],
+        "rgb_signature_x_center": 159.0,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.882734298706055,
+          7.815296173095703,
+          7.882734298706055,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 7.815296173095703,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": [
+      134,
+      123,
+      184,
+      164
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.882734298706055,
+      7.815296173095703,
+      7.882734298706055,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": true,
+    "found_aligned": true,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_near_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "true_positive",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_left_offset_near_multiray_sensor_adapter_event",
+    "scene": "target_left_offset_near",
+    "role": "left_offset_regression_from_5c4d",
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "0,0,0,255",
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,160,255",
+          "160,64,32,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,96,255",
+          "224,224,224,255",
+          "32,0,0,255",
+          "32,32,0,255",
+          "32,32,32,255",
+          "64,32,32,255",
+          "64,64,64,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,96,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255"
+        ],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 1329,
+        "change_bbox_xyxy": [
+          25,
+          123,
+          220,
+          164
+        ],
+        "rgb_signature_x_center": 122.5,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          0
+        ],
+        "hit_sectors": [
+          "left"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": 11.504491806030273,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": [
+      25,
+      123,
+      220,
+      164
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      11.504491806030273,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      0
+    ],
+    "rangefinder_hit_sectors": [
+      "left"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": true,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_offset_near_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "false_negative_no_required_range_hit",
+    "any_beam_without_aligned_match": true
+  },
+  {
+    "event_name": "target_right_offset_near_multiray_sensor_adapter_event",
+    "scene": "target_right_offset_near",
+    "role": "right_offset_regression_from_5c4d",
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "0,0,0,255",
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,224,224,255",
+          "32,0,0,255",
+          "32,32,0,255",
+          "32,32,32,255",
+          "64,32,0,255",
+          "64,32,32,255",
+          "64,64,64,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,96,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "64,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255"
+        ],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 1304,
+        "change_bbox_xyxy": [
+          235,
+          123,
+          293,
+          165
+        ],
+        "rgb_signature_x_center": 264.0,
+        "rgb_signature_sector": "right",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "hit_beam_indices": [
+          8
+        ],
+        "hit_sectors": [
+          "right"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 11.510743141174316,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": [
+      235,
+      123,
+      293,
+      165
+    ],
+    "rgb_signature_sector": "right",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      11.510743141174316
+    ],
+    "rangefinder_hit_beam_indices": [
+      8
+    ],
+    "rangefinder_hit_sectors": [
+      "right"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": true,
+    "found_aligned": true,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_offset_near_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "true_positive",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_left_fov_edge_near_multiray_sensor_adapter_event",
+    "scene": "target_left_fov_edge_near",
+    "role": "left_fov_edge_boundary",
+    "scenario_factors": {
+      "target_position": "left_fov_edge",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 0,
+        "change_bbox_xyxy": null,
+        "rgb_signature_x_center": null,
+        "rgb_signature_sector": "none",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [],
+        "hit_sectors": [],
+        "any_hit": false,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": null,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": null,
+    "rgb_signature_sector": "none",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "none",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_fov_edge_near_rgb.png",
+    "outcome_any_hit": "false_negative",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "false_negative_no_rgb_signature_and_no_required_range_hit",
+    "failure_mode_aligned": "false_negative_no_rgb_signature_and_no_required_range_hit",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_right_fov_edge_near_multiray_sensor_adapter_event",
+    "scene": "target_right_fov_edge_near",
+    "role": "right_fov_edge_boundary",
+    "scenario_factors": {
+      "target_position": "right_fov_edge",
+      "target_distance": "near_10m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "224,192,128,255",
+          "224,192,192,255"
+        ],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [
+          "224,192,128,255",
+          "224,192,192,255"
+        ],
+        "changed_pixels": 2,
+        "change_bbox_xyxy": [
+          219,
+          132,
+          254,
+          138
+        ],
+        "rgb_signature_x_center": 236.5,
+        "rgb_signature_sector": "right",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [],
+        "hit_sectors": [],
+        "any_hit": false,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": null,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      219,
+      132,
+      254,
+      138
+    ],
+    "rgb_signature_sector": "right",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "none",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_fov_edge_near_rgb.png",
+    "outcome_any_hit": "false_negative",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "false_negative_no_rgb_signature_and_no_required_range_hit",
+    "failure_mode_aligned": "false_negative_no_rgb_signature_and_no_required_range_hit",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_front_center_mid_multiray_sensor_adapter_event",
+    "scene": "target_front_center_mid",
+    "role": "mid_distance_regression",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "mid_30m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "160,128,128,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,192,192,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,192,128,255",
+          "224,192,160,255"
+        ],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255"
+        ],
+        "changed_pixels": 41,
+        "change_bbox_xyxy": [
+          153,
+          121,
+          167,
+          131
+        ],
+        "rgb_signature_x_center": 160.0,
+        "rgb_signature_sector": "center",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          27.82425308227539,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          4
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 27.82425308227539,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      153,
+      121,
+      167,
+      131
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      27.82425308227539,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_mid_rgb.png",
+    "outcome_any_hit": "false_negative",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "false_negative_no_rgb_signature",
+    "failure_mode_aligned": "false_negative_no_rgb_signature",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_front_center_far_multiray_sensor_adapter_event",
+    "scene": "target_front_center_far",
+    "role": "far_distance_regression",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "far_70m",
+      "distractor_condition": "none"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255"
+        ],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [
+          "192,192,160,255"
+        ],
+        "changed_pixels": 5,
+        "change_bbox_xyxy": [
+          157,
+          121,
+          162,
+          124
+        ],
+        "rgb_signature_x_center": 159.5,
+        "rgb_signature_sector": "center",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          67.81669616699219,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          4
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 67.81669616699219,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      157,
+      121,
+      162,
+      124
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      67.81669616699219,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_far_rgb.png",
+    "outcome_any_hit": "false_negative",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "false_negative_no_rgb_signature",
+    "failure_mode_aligned": "false_negative_no_rgb_signature",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "distractor_only_center_multiray_sensor_adapter_event",
+    "scene": "distractor_only_center",
+    "role": "center_distractor_negative",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_center"
+    },
+    "expected_target_present_for_audit": false,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,128,128,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255",
+          "224,224,224,255"
+        ],
+        "target_signature_overlap": [],
+        "distractor_signature_overlap": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "changed_pixels": 233,
+        "change_bbox_xyxy": [
+          152,
+          138,
+          167,
+          155
+        ],
+        "rgb_signature_x_center": 159.5,
+        "rgb_signature_sector": "center",
+        "identity_supported": false
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          9.555858612060547,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          4
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 9.555858612060547,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": false,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      152,
+      138,
+      167,
+      155
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      9.555858612060547,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "none",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_center_rgb.png",
+    "outcome_any_hit": "true_negative",
+    "outcome_aligned": "true_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "distractor_only_left_multiray_sensor_adapter_event",
+    "scene": "distractor_only_left",
+    "role": "left_distractor_negative",
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_left"
+    },
+    "expected_target_present_for_audit": false,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "128,32,0,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,64,32,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255",
+          "224,224,224,255",
+          "64,32,0,255",
+          "64,32,32,255",
+          "96,0,0,255",
+          "96,32,0,255",
+          "96,32,32,255",
+          "96,64,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "64,32,32,255",
+          "96,32,32,255",
+          "96,64,64,255"
+        ],
+        "distractor_signature_overlap": [
+          "192,192,160,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "changed_pixels": 281,
+        "change_bbox_xyxy": [
+          38,
+          137,
+          57,
+          156
+        ],
+        "rgb_signature_x_center": 47.5,
+        "rgb_signature_sector": "left",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [],
+        "hit_sectors": [],
+        "any_hit": false,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": null,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      38,
+      137,
+      57,
+      156
+    ],
+    "rgb_signature_sector": "left",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "none",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_left_rgb.png",
+    "outcome_any_hit": "true_negative",
+    "outcome_aligned": "true_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "distractor_only_right_multiray_sensor_adapter_event",
+    "scene": "distractor_only_right",
+    "role": "right_distractor_negative",
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "distractor_only_right"
+    },
+    "expected_target_present_for_audit": false,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,128,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,96,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255",
+          "224,224,224,255",
+          "96,32,0,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_overlap": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "changed_pixels": 278,
+        "change_bbox_xyxy": [
+          262,
+          138,
+          281,
+          155
+        ],
+        "rgb_signature_x_center": 271.5,
+        "rgb_signature_sector": "right",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [],
+        "hit_sectors": [],
+        "any_hit": false,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": null,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      262,
+      138,
+      281,
+      155
+    ],
+    "rgb_signature_sector": "right",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [],
+    "rangefinder_hit_sectors": [],
+    "any_rangefinder_hit": false,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": false,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "none",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_right_rgb.png",
+    "outcome_any_hit": "true_negative",
+    "outcome_aligned": "true_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "target_left_with_distractor_right_multiray_sensor_adapter_event",
+    "scene": "target_left_with_distractor_right",
+    "role": "cross_side_ambiguity_any_hit_risk",
+    "scenario_factors": {
+      "target_position": "left_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "target_left_distractor_right"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "0,0,0,255",
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,64,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,96,255",
+          "224,224,224,255",
+          "32,0,0,255",
+          "32,32,0,255",
+          "32,32,32,255",
+          "64,32,32,255",
+          "64,64,64,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,96,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255"
+        ],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 1608,
+        "change_bbox_xyxy": [
+          25,
+          123,
+          281,
+          165
+        ],
+        "rgb_signature_x_center": 153.0,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          11.504491806030273,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          0
+        ],
+        "hit_sectors": [
+          "left"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": 11.504491806030273,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": [
+      25,
+      123,
+      281,
+      165
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      11.504491806030273,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      0
+    ],
+    "rangefinder_hit_sectors": [
+      "left"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": true,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_with_distractor_right_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "false_negative_no_required_range_hit",
+    "any_beam_without_aligned_match": true
+  },
+  {
+    "event_name": "target_right_with_distractor_left_multiray_sensor_adapter_event",
+    "scene": "target_right_with_distractor_left",
+    "role": "cross_side_ambiguity_any_hit_risk",
+    "scenario_factors": {
+      "target_position": "right_offset",
+      "target_distance": "near_10m",
+      "distractor_condition": "target_right_distractor_left"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "0,0,0,255",
+          "128,128,128,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,224,224,255",
+          "32,0,0,255",
+          "32,32,0,255",
+          "32,32,32,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "64,64,64,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255",
+          "96,96,96,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_overlap": [],
+        "changed_pixels": 1618,
+        "change_bbox_xyxy": [
+          38,
+          123,
+          293,
+          165
+        ],
+        "rgb_signature_x_center": 165.5,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          11.510743141174316
+        ],
+        "hit_beam_indices": [
+          8
+        ],
+        "hit_sectors": [
+          "right"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": false,
+        "min_positive_range_m": 11.510743141174316,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": false,
+    "rgb_signature_bbox_xyxy": [
+      38,
+      123,
+      293,
+      165
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      11.510743141174316
+    ],
+    "rangefinder_hit_beam_indices": [
+      8
+    ],
+    "rangefinder_hit_sectors": [
+      "right"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": false,
+    "found_any_hit": true,
+    "found_aligned": false,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_with_distractor_left_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "false_negative",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "false_negative_no_required_range_hit",
+    "any_beam_without_aligned_match": true
+  },
+  {
+    "event_name": "target_center_with_side_distractor_multiray_sensor_adapter_event",
+    "scene": "target_center_with_side_distractor",
+    "role": "center_target_side_distractor",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_10m",
+      "distractor_condition": "side_distractor"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,192,128,255",
+          "64,32,0,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_overlap": [
+          "192,192,160,255",
+          "224,192,128,255"
+        ],
+        "changed_pixels": 870,
+        "change_bbox_xyxy": [
+          134,
+          123,
+          254,
+          165
+        ],
+        "rgb_signature_x_center": 194.0,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          7.881682872772217,
+          7.814253330230713,
+          7.881682872772217,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          3,
+          4,
+          5
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 7.814253330230713,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      134,
+      123,
+      254,
+      165
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      7.881682872772217,
+      7.814253330230713,
+      7.881682872772217,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      3,
+      4,
+      5
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": true,
+    "found_aligned": true,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_center_with_side_distractor_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "true_positive",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  },
+  {
+    "event_name": "distractor_occludes_target_multiray_sensor_adapter_event",
+    "scene": "distractor_occludes_target",
+    "role": "occluding_distractor_between_camera_and_target",
+    "scenario_factors": {
+      "target_position": "center",
+      "target_distance": "near_14m_occluded",
+      "distractor_condition": "occluding_distractor"
+    },
+    "expected_target_present_for_audit": true,
+    "perception_sensors": [
+      "RGBCamera",
+      "RangeFinderSensor"
+    ],
+    "sensor_evidence": {
+      "RGBCamera": {
+        "role": "visual identity evidence via calibrated RGB difference signature",
+        "signature_detector": {
+          "diff_threshold": 28.0,
+          "quantization": 32,
+          "top_k": 24,
+          "target_overlap_min": 1,
+          "baseline_source": "baseline",
+          "signature_calibration_source": "target_front_center_near",
+          "distractor_rejection_source": "distractor_only_center"
+        },
+        "calibration_scene": "target_front_center_near",
+        "baseline_scene": "baseline",
+        "target_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,64,32,255",
+          "128,64,64,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "224,160,96,255",
+          "64,32,32,255",
+          "64,64,32,255",
+          "96,32,32,255",
+          "96,64,32,255",
+          "96,64,64,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_colors": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "shared_signature_colors": [
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,224,224,255"
+        ],
+        "scene_signature_colors": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,128,128,255",
+          "160,128,96,255",
+          "160,160,128,255",
+          "160,160,160,255",
+          "160,96,64,255",
+          "160,96,96,255",
+          "192,128,128,255",
+          "192,128,96,255",
+          "192,160,128,255",
+          "192,160,160,255",
+          "192,160,96,255",
+          "192,192,160,255",
+          "192,192,192,255",
+          "224,160,128,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255",
+          "224,224,224,255",
+          "96,96,64,255"
+        ],
+        "target_signature_overlap": [
+          "128,128,128,255",
+          "128,128,96,255",
+          "128,96,64,255",
+          "128,96,96,255",
+          "160,96,64,255",
+          "192,128,96,255",
+          "96,96,64,255"
+        ],
+        "distractor_signature_overlap": [
+          "192,128,128,255",
+          "192,192,160,255",
+          "224,192,128,255",
+          "224,192,160,255",
+          "224,192,192,255",
+          "224,224,192,255"
+        ],
+        "changed_pixels": 580,
+        "change_bbox_xyxy": [
+          44,
+          122,
+          269,
+          159
+        ],
+        "rgb_signature_x_center": 156.5,
+        "rgb_signature_sector": "center",
+        "identity_supported": true
+      },
+      "RangeFinderSensor": {
+        "role": "horizontal fan range/object-presence evidence from yaw-rotated single-ray RangeFinder sensors only, not target identity",
+        "present": true,
+        "rangefinder_mode": "yaw_rotated_single_ray_fan",
+        "horizontal_fan_sensor_count": 9,
+        "horizontal_fan_yaw_degrees": [
+          30.0,
+          22.5,
+          15.0,
+          7.5,
+          0.0,
+          -7.5,
+          -15.0,
+          -22.5,
+          -30.0
+        ],
+        "beam_count_observed": 9,
+        "raw_beams": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          8.56189250946045,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "hit_beam_indices": [
+          4
+        ],
+        "hit_sectors": [
+          "center"
+        ],
+        "any_hit": true,
+        "matched_rangefinder_beam_hit": true,
+        "min_positive_range_m": 8.56189250946045,
+        "identity_supported": false
+      },
+      "NativeMultiRayDiagnostic": {
+        "role": "diagnostic only; HoloOcean RangeFinder LaserAngle is elevation, not horizontal yaw fan",
+        "laser_count_configured": 9,
+        "laser_angle_configured": 60.0,
+        "summary": {
+          "present": true,
+          "raw": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "beam_count": 9,
+          "hit_beam_indices": [],
+          "hit_sectors": [],
+          "min_positive_range_m": null,
+          "any_hit": false
+        },
+        "used_for_detection": false
+      }
+    },
+    "rgb_has_target_signature": true,
+    "rgb_has_distractor_signature": true,
+    "rgb_signature_bbox_xyxy": [
+      44,
+      122,
+      269,
+      159
+    ],
+    "rgb_signature_sector": "center",
+    "rangefinder_raw_beams": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      8.56189250946045,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "rangefinder_hit_beam_indices": [
+      4
+    ],
+    "rangefinder_hit_sectors": [
+      "center"
+    ],
+    "any_rangefinder_hit": true,
+    "matched_rangefinder_beam_hit": true,
+    "found_any_hit": true,
+    "found_aligned": true,
+    "any_hit_rule": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit_rule": "rgb_has_target_signature and matched_rangefinder_beam_hit",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "identity_decision_source": "RGBCamera",
+    "range_decision_source": "RangeFinderSensor",
+    "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_occludes_target_rgb.png",
+    "outcome_any_hit": "true_positive",
+    "outcome_aligned": "true_positive",
+    "failure_mode_any_hit": "none",
+    "failure_mode_aligned": "none",
+    "any_beam_without_aligned_match": false
+  }
+]

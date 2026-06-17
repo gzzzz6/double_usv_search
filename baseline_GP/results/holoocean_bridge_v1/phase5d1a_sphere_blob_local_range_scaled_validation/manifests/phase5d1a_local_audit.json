@@ -1,0 +1,59 @@
+{
+  "phase_name": "phase5d1a_sphere_blob_local_range_scaled_validation",
+  "checks": {
+    "required_paths_exist": true,
+    "calibration_config_parse_ok": true,
+    "recomputed_evidence_parse_ok": true,
+    "candidate_rule_summary_parse_ok": true,
+    "recommended_rule_parse_ok": true,
+    "calibration_summary_parse_ok": true,
+    "calibration_git_status_parse_ok": true,
+    "validation_config_parse_ok": true,
+    "validation_scene_results_parse_ok": true,
+    "validation_events_parse_ok": true,
+    "validation_rule_matrix_parse_ok": true,
+    "validation_summary_parse_ok": true,
+    "validation_git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "planned_scene_counts_ok": true,
+    "target_and_teammate_types_correct": true,
+    "truth_flags_false": true,
+    "recommended_rule_is_local_range_scaled": true,
+    "candidate_reference_present": true,
+    "validation_matrix_counts_ok": true,
+    "validation_outputs_present": true,
+    "all_teammate_only_true_negative": true,
+    "all_target_only_true_positive": true,
+    "all_target_with_teammate_true_positive": true,
+    "all_target_present_true_positive": true,
+    "local_blob_evidence_present_for_hits": true,
+    "no_semantic_or_sonar_detection": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+    "validation_scene_count": 53,
+    "target_only_outcome_counts": {
+      "true_positive": 20
+    },
+    "target_with_teammate_outcome_counts": {
+      "true_positive": 9
+    },
+    "teammate_outcome_counts": {
+      "true_negative": 22
+    },
+    "target_false_negative_scenes": [],
+    "target_with_teammate_false_negative_scenes": [],
+    "teammate_false_positive_scenes": [],
+    "fan_reliable_distances_m": [
+      20.0,
+      25.0,
+      30.0,
+      35.0
+    ],
+    "max_fan_reliable_distance_m": 35.0
+  },
+  "all_passed": true
+}

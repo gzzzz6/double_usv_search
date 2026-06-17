@@ -1,0 +1,61 @@
+{
+  "phase_name": "phase5c4i_direction_matched_distractor_rejection_calibration",
+  "checks": {
+    "required_paths_exist": true,
+    "offline_config_parse_ok": true,
+    "recomputed_evidence_parse_ok": true,
+    "candidate_rule_matrix_parse_ok": true,
+    "candidate_rule_summary_parse_ok": true,
+    "recommended_rule_parse_ok": true,
+    "old_direction_failure_parse_ok": true,
+    "offline_git_status_parse_ok": true,
+    "validation_config_parse_ok": true,
+    "scene_results_parse_ok": true,
+    "events_parse_ok": true,
+    "rule_matrix_parse_ok": true,
+    "summary_parse_ok": true,
+    "validation_git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_inputs_aligned": true,
+    "scene_results_not_used_as_pixel_source": true,
+    "raw_rgb_count_complete": true,
+    "candidate_rule_matrix_complete": true,
+    "candidate_rule_summary_complete": true,
+    "recommended_rule_expected": true,
+    "old_direction_failure_reference_recorded": true,
+    "validation_scene_count_matches": true,
+    "validation_scene_matrix_complete": true,
+    "validation_rule_matches_recommendation": true,
+    "truth_flags_false": true,
+    "direction_and_distractor_flags_match_rule": true,
+    "validation_target_retention_expected": true,
+    "validation_distractor_fp_zero": true,
+    "validation_fan_reliable_35m": true,
+    "validation_all_scenes_outputs": true,
+    "validation_raw_and_preview_complete": true,
+    "git_changes_limited_to_phase": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true,
+    "compiled_expected_scripts": true
+  },
+  "metrics": {
+    "phase_name": "phase5c4i_direction_matched_distractor_rejection_calibration",
+    "recommended_rule_id": "stronger_rgb_any_hit_overlap7_px0",
+    "target_outcome_counts": {
+      "true_positive": 12,
+      "false_negative": 3
+    },
+    "distractor_outcome_counts": {
+      "true_negative": 10
+    },
+    "fan_reliable_distances_m": [
+      20.0,
+      35.0
+    ],
+    "max_fan_reliable_distance_m": 35.0,
+    "distractor_false_positive_scenes": [],
+    "old_direction_inner_failure_reference_count": 6,
+    "all_passed": true
+  },
+  "all_passed": true
+}

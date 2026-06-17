@@ -1,0 +1,433 @@
+{
+  "phase_name": "phase5c4e_rgb_multiray_rangefinder_fan_boundary",
+  "probe_completed": true,
+  "terminated_reason": "multiray_fan_boundary_matrix_complete",
+  "scene_count": 15,
+  "controlled_adapter_step": true,
+  "full_search_policy_loop_run": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "phase5c4c_or_5c4d_results_modified": false,
+  "rgb_signature_logic_matches_5c4c_5c4d": true,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "rangefinder_mode": "yaw_rotated_single_ray_fan",
+  "native_multiray_diagnostic_enabled": true,
+  "rangefinder_laser_count": 9,
+  "rangefinder_laser_angle": 60.0,
+  "horizontal_fan_sensor_count": 9,
+  "horizontal_fan_yaw_degrees": [
+    30.0,
+    22.5,
+    15.0,
+    7.5,
+    0.0,
+    -7.5,
+    -15.0,
+    -22.5,
+    -30.0
+  ],
+  "rules_evaluated": {
+    "any_hit": "rgb_has_target_signature and any_rangefinder_hit",
+    "aligned_hit": "rgb_has_target_signature and matched_rangefinder_beam_hit"
+  },
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min": 1,
+    "baseline_source": "baseline",
+    "signature_calibration_source": "target_front_center_near",
+    "distractor_rejection_source": "distractor_only_center"
+  },
+  "outcome_counts_any_hit": {
+    "true_negative": 4,
+    "true_positive": 7,
+    "false_negative": 4
+  },
+  "outcome_counts_aligned": {
+    "true_negative": 4,
+    "true_positive": 4,
+    "false_negative": 7
+  },
+  "failure_counts_any_hit": {
+    "none": 11,
+    "false_negative_no_rgb_signature_and_no_required_range_hit": 2,
+    "false_negative_no_rgb_signature": 2
+  },
+  "failure_counts_aligned": {
+    "none": 8,
+    "false_negative_no_required_range_hit": 3,
+    "false_negative_no_rgb_signature_and_no_required_range_hit": 2,
+    "false_negative_no_rgb_signature": 2
+  },
+  "left_right_any_hit_fixed": true,
+  "left_right_aligned_hit_fixed": false,
+  "any_hit_false_positive_scenes": [],
+  "aligned_hit_false_positive_scenes": [],
+  "any_hit_distractor_only_false_positive_scenes": [],
+  "aligned_hit_distractor_only_false_positive_scenes": [],
+  "cross_side_any_hit_success_scenes": [
+    "target_right_with_distractor_left",
+    "target_left_with_distractor_right"
+  ],
+  "cross_side_aligned_hit_success_scenes": [],
+  "any_beam_without_aligned_match_observed": true,
+  "native_multiray_all_no_hit_observed": true,
+  "native_multiray_laser_angle_semantics": "HoloOcean 2.2.2 documents RangeFinderSensor LaserAngle as elevation, not horizontal yaw fan",
+  "target_signature_colors": [
+    "128,128,128,255",
+    "128,128,96,255",
+    "128,64,32,255",
+    "128,64,64,255",
+    "128,96,64,255",
+    "128,96,96,255",
+    "160,96,64,255",
+    "192,128,96,255",
+    "224,160,96,255",
+    "64,32,32,255",
+    "64,64,32,255",
+    "96,32,32,255",
+    "96,64,32,255",
+    "96,64,64,255",
+    "96,96,64,255"
+  ],
+  "distractor_signature_colors": [
+    "192,128,128,255",
+    "192,192,160,255",
+    "224,192,128,255",
+    "224,192,160,255",
+    "224,192,192,255",
+    "224,224,192,255"
+  ],
+  "shared_signature_colors": [
+    "160,128,128,255",
+    "160,128,96,255",
+    "160,160,128,255",
+    "160,160,160,255",
+    "192,160,128,255",
+    "192,160,160,255",
+    "192,192,192,255",
+    "224,160,128,255",
+    "224,224,224,255"
+  ],
+  "target_signature_present": true,
+  "distractor_signature_present": true,
+  "rgb_target_vs_distractor_disjoint": true,
+  "all_scene_launch_ok": true,
+  "all_scenes_rgb_output": true,
+  "all_scenes_rangefinder_output": true,
+  "boundary_conclusion": "multi-ray fan helps coverage, but aligned sector mapping needs calibration before becoming the primary adapter",
+  "events_brief": [
+    {
+      "scene": "baseline",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "none",
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_hit_sectors": [],
+      "any_rangefinder_hit": false,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "true_negative",
+      "outcome_aligned": "true_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\baseline_rgb.png"
+    },
+    {
+      "scene": "target_front_center_near",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": true,
+      "found_aligned": true,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "true_positive",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_near_rgb.png"
+    },
+    {
+      "scene": "target_left_offset_near",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        0
+      ],
+      "rangefinder_hit_sectors": [
+        "left"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": true,
+      "found_aligned": false,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "false_negative_no_required_range_hit",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_offset_near_rgb.png"
+    },
+    {
+      "scene": "target_right_offset_near",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "right",
+      "rangefinder_hit_beam_indices": [
+        8
+      ],
+      "rangefinder_hit_sectors": [
+        "right"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": true,
+      "found_aligned": true,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "true_positive",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_offset_near_rgb.png"
+    },
+    {
+      "scene": "target_left_fov_edge_near",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "none",
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_hit_sectors": [],
+      "any_rangefinder_hit": false,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "false_negative",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "false_negative_no_rgb_signature_and_no_required_range_hit",
+      "failure_mode_aligned": "false_negative_no_rgb_signature_and_no_required_range_hit",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_fov_edge_near_rgb.png"
+    },
+    {
+      "scene": "target_right_fov_edge_near",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "right",
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_hit_sectors": [],
+      "any_rangefinder_hit": false,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "false_negative",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "false_negative_no_rgb_signature_and_no_required_range_hit",
+      "failure_mode_aligned": "false_negative_no_rgb_signature_and_no_required_range_hit",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_fov_edge_near_rgb.png"
+    },
+    {
+      "scene": "target_front_center_mid",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "false_negative",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "false_negative_no_rgb_signature",
+      "failure_mode_aligned": "false_negative_no_rgb_signature",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_mid_rgb.png"
+    },
+    {
+      "scene": "target_front_center_far",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "false_negative",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "false_negative_no_rgb_signature",
+      "failure_mode_aligned": "false_negative_no_rgb_signature",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_front_center_far_rgb.png"
+    },
+    {
+      "scene": "distractor_only_center",
+      "rgb_has_target_signature": false,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "true_negative",
+      "outcome_aligned": "true_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_center_rgb.png"
+    },
+    {
+      "scene": "distractor_only_left",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "left",
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_hit_sectors": [],
+      "any_rangefinder_hit": false,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "true_negative",
+      "outcome_aligned": "true_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_left_rgb.png"
+    },
+    {
+      "scene": "distractor_only_right",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "right",
+      "rangefinder_hit_beam_indices": [],
+      "rangefinder_hit_sectors": [],
+      "any_rangefinder_hit": false,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": false,
+      "found_aligned": false,
+      "outcome_any_hit": "true_negative",
+      "outcome_aligned": "true_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_only_right_rgb.png"
+    },
+    {
+      "scene": "target_left_with_distractor_right",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        0
+      ],
+      "rangefinder_hit_sectors": [
+        "left"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": true,
+      "found_aligned": false,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "false_negative_no_required_range_hit",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_left_with_distractor_right_rgb.png"
+    },
+    {
+      "scene": "target_right_with_distractor_left",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        8
+      ],
+      "rangefinder_hit_sectors": [
+        "right"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": false,
+      "found_any_hit": true,
+      "found_aligned": false,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "false_negative",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "false_negative_no_required_range_hit",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_right_with_distractor_left_rgb.png"
+    },
+    {
+      "scene": "target_center_with_side_distractor",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        3,
+        4,
+        5
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": true,
+      "found_aligned": true,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "true_positive",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\target_center_with_side_distractor_rgb.png"
+    },
+    {
+      "scene": "distractor_occludes_target",
+      "rgb_has_target_signature": true,
+      "rgb_signature_sector": "center",
+      "rangefinder_hit_beam_indices": [
+        4
+      ],
+      "rangefinder_hit_sectors": [
+        "center"
+      ],
+      "any_rangefinder_hit": true,
+      "matched_rangefinder_beam_hit": true,
+      "found_any_hit": true,
+      "found_aligned": true,
+      "outcome_any_hit": "true_positive",
+      "outcome_aligned": "true_positive",
+      "failure_mode_any_hit": "none",
+      "failure_mode_aligned": "none",
+      "rgb_artifact": "baseline_GP\\results\\holoocean_bridge_v1\\phase5c4e_rgb_multiray_rangefinder_fan_boundary\\visuals\\distractor_occludes_target_rgb.png"
+    }
+  ],
+  "runtime_python_executable": "F:\\anaconda\\python.exe",
+  "runtime_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "wall_time_s": 0.0030248999973991886,
+  "controlled_simplifications": [
+    "native LaserCount=9/LaserAngle=60 is captured as a diagnostic because HoloOcean defines LaserAngle as elevation",
+    "horizontal fan evidence uses nine yaw-rotated single-ray RangeFinderSensor instances in this independent phase",
+    "RGB signature detector thresholds and calibration method are preserved",
+    "truth fields are audit labels only",
+    "aligned-hit uses image-sector to beam-sector matching, not actor truth"
+  ],
+  "not_claimed": [
+    "not a trained image-recognition model",
+    "not a production detector",
+    "not dynamic target handling",
+    "not a modification to baseline search policy"
+  ],
+  "report_python_executable": "F:\\anaconda\\python.exe",
+  "report_python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "overview_visual_saved": true
+}

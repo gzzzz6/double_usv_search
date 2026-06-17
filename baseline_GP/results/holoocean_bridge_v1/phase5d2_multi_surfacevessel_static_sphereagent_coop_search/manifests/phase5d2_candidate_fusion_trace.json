@@ -1,0 +1,149 @@
+[
+  {
+    "scene": "baseline_two_observers_search_pose",
+    "scenario_kind": "baseline",
+    "sequence_step": 0,
+    "expected_target_present_for_audit": false,
+    "expected_duplicate_observation_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found": false,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "scene": "target_sphere_duplicate_20m_two_observers",
+    "scenario_kind": "target",
+    "sequence_step": 1,
+    "expected_target_present_for_audit": true,
+    "expected_duplicate_observation_for_audit": true,
+    "raw_sensor_detection_count": 2,
+    "accepted_candidate_count": 2,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 2,
+        "reporter_usv_ids": [
+          "sv0",
+          "sv1"
+        ],
+        "source_event_indices": [
+          2,
+          3
+        ],
+        "positions": [
+          [
+            19.6455920603481,
+            0.26402052740154947,
+            0.0
+          ],
+          [
+            19.64110776266975,
+            -0.2628189634600142,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          19.643349911508928,
+          0.0006007819707676276,
+          0.0
+        ],
+        "target_position_error_m": 0.3566505945034526,
+        "confirmed_static_target_candidate": true
+      }
+    ],
+    "shared_found": true,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "scene": "target_sphere_35m_with_surfacevessel_teammate",
+    "scenario_kind": "target_with_teammate",
+    "sequence_step": 2,
+    "expected_target_present_for_audit": true,
+    "expected_duplicate_observation_for_audit": false,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "source_event_indices": [
+          4
+        ],
+        "positions": [
+          [
+            34.55525207519531,
+            -5.0,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          34.55525207519531,
+          -5.0,
+          0.0
+        ],
+        "target_position_error_m": 0.4447479248046875,
+        "confirmed_static_target_candidate": true
+      }
+    ],
+    "shared_found": true,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "scene": "teammate_only_surfacevessel_at_20m_target_like_pose",
+    "scenario_kind": "teammate_only",
+    "sequence_step": 3,
+    "expected_target_present_for_audit": false,
+    "expected_duplicate_observation_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found": false,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "scene": "teammate_only_surfacevessel_at_35m_target_like_pose",
+    "scenario_kind": "teammate_only",
+    "sequence_step": 4,
+    "expected_target_present_for_audit": false,
+    "expected_duplicate_observation_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found": false,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  }
+]

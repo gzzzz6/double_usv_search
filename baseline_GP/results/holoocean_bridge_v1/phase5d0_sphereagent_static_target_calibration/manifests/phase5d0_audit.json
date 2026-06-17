@@ -1,0 +1,62 @@
+{
+  "phase_name": "phase5d0_sphereagent_static_target_calibration",
+  "checks": {
+    "required_paths_exist": true,
+    "calibration_config_parse_ok": true,
+    "recomputed_evidence_parse_ok": true,
+    "candidate_rule_matrix_parse_ok": true,
+    "candidate_rule_summary_parse_ok": true,
+    "recommended_rule_parse_ok": true,
+    "calibration_summary_parse_ok": true,
+    "calibration_git_status_parse_ok": true,
+    "validation_config_parse_ok": true,
+    "validation_scene_results_parse_ok": true,
+    "validation_events_parse_ok": true,
+    "validation_rule_matrix_parse_ok": true,
+    "validation_summary_parse_ok": true,
+    "validation_git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "target_and_negative_types_correct": true,
+    "truth_flags_false": true,
+    "candidate_rule_summary_present": true,
+    "recommended_rule_is_sphere_blob": true,
+    "recommended_rule_has_zero_teammate_fp": true,
+    "calibration_scene_results_complete": true,
+    "validation_recommended_rule_matches": true,
+    "fan_reliable_nonempty": true,
+    "conservative_reliable_distance_is_35m": true,
+    "validation_outputs_present": true,
+    "teammate_false_positive_zero": true,
+    "baseline_false_positive_zero": true,
+    "target_true_positive_exists": true,
+    "calibration_true_positive": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true,
+    "holo_py_compile_ok": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_any_hit",
+    "target_outcome_counts": {
+      "true_positive": 15
+    },
+    "teammate_outcome_counts": {
+      "true_negative": 15
+    },
+    "recommended_fan_reliable_distances_m": [
+      20.0,
+      35.0
+    ],
+    "validation_fan_reliable_distances_m": [
+      20.0,
+      35.0,
+      50.0
+    ],
+    "conservative_fan_reliable_distances_m": [
+      20.0,
+      35.0
+    ],
+    "conservative_max_fan_reliable_distance_m": 35.0,
+    "teammate_false_positive_scenes": []
+  },
+  "all_passed": true
+}

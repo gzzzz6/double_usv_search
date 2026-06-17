@@ -1,0 +1,548 @@
+[
+  {
+    "run_kind": "target",
+    "policy_step": 1,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            33.965628212478165,
+            -8.469012968085591,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          33.965628212478165,
+          -8.469012968085591,
+          0.0
+        ],
+        "target_position_error_m": 8.973245307482035,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": true,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 2,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            37.18506309574579,
+            -10.823473199141283,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          37.18506309574579,
+          -10.823473199141283,
+          0.0
+        ],
+        "target_position_error_m": 12.466057018595981,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 3,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 2,
+    "accepted_candidate_count": 2,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 2,
+        "reporter_usv_ids": [
+          "sv1"
+        ],
+        "positions": [
+          [
+            39.619321092646175,
+            6.0,
+            0.0
+          ],
+          [
+            41.108587399471126,
+            3.6208600746402335,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          40.363954246058654,
+          4.810430037320117,
+          0.0
+        ],
+        "target_position_error_m": 10.527291972118544,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 4,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            43.76037226817618,
+            -12.902470945982895,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          43.76037226817618,
+          -12.902470945982895,
+          0.0
+        ],
+        "target_position_error_m": 18.146648641949632,
+        "confirmed_static_target_candidate_for_audit": false
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "policy_step": 1,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            33.95683649329315,
+            -8.468243792324,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          33.95683649329315,
+          -8.468243792324,
+          0.0
+        ],
+        "target_position_error_m": 8.969617325967931,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": true,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "policy_step": 2,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            37.181225582319186,
+            -10.822796541985344,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          37.181225582319186,
+          -10.822796541985344,
+          0.0
+        ],
+        "target_position_error_m": 12.463565889773562,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "policy_step": 3,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 2,
+    "accepted_candidate_count": 2,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 2,
+        "reporter_usv_ids": [
+          "sv1"
+        ],
+        "positions": [
+          [
+            39.615550264399104,
+            6.0,
+            0.0
+          ],
+          [
+            41.128013925718705,
+            3.6191604738218817,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          40.371782095058904,
+          4.809580236910941,
+          0.0
+        ],
+        "target_position_error_m": 10.533867366383108,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "policy_step": 4,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 1,
+    "accepted_candidate_count": 1,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 1,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            43.75282597265829,
+            -12.90044892219303,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          43.75282597265829,
+          -12.90044892219303,
+          0.0
+        ],
+        "target_position_error_m": 18.139904979988714,
+        "confirmed_static_target_candidate_for_audit": false
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      true
+    ],
+    "run_find_times_after": [
+      1
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_positive",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "policy_step": 1,
+    "expected_target_present_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      false
+    ],
+    "run_find_times_after": [
+      null
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "policy_step": 2,
+    "expected_target_present_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      false
+    ],
+    "run_find_times_after": [
+      null
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "policy_step": 3,
+    "expected_target_present_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      false
+    ],
+    "run_find_times_after": [
+      null
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "policy_step": 4,
+    "expected_target_present_for_audit": false,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "run_found_mask_after": [
+      false
+    ],
+    "run_find_times_after": [
+      null
+    ],
+    "global_found_mask_after": [
+      true
+    ],
+    "global_find_times_after": [
+      1
+    ],
+    "shared_target_count_after": 1,
+    "outcome": "true_negative",
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  }
+]

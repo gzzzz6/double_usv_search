@@ -1,0 +1,1704 @@
+{
+  "phase_name": "phase5d1_surfacevessel_teammate_exclusion_validation",
+  "mode": "validation",
+  "purpose": "SurfaceVessel teammate exclusion stress validation for the fixed 5D-0 SphereAgent RGB/RangeFinder rule",
+  "target_agent_type": "SphereAgent",
+  "teammate_negative_agent_type": "SurfaceVessel",
+  "target_is_static": true,
+  "dynamic_target_tracking_enabled": false,
+  "same_model_teammate_and_target": false,
+  "found_rule": "sphere_blob_any_hit and any_rangefinder_hit",
+  "recommended_candidate_rule": {
+    "rule_id": "sphere_blob_any_hit",
+    "rule_name": "sphere_blob_any_hit",
+    "rule_family": "sphere_blob",
+    "target_overlap_min": null,
+    "rgb_changed_pixels_min": null,
+    "uses_rgb_signature": false,
+    "uses_sphere_blob": true,
+    "uses_rangefinder": true,
+    "recommended_for_holoocean_rerun": true,
+    "source_phase": "phase5d0_sphereagent_static_target_calibration",
+    "outcome_counts_all_scenes": {
+      "true_negative": 28,
+      "true_positive": 12,
+      "false_negative": 2
+    },
+    "target_true_positive_count": 11,
+    "target_false_negative_count": 2,
+    "target_only_true_positive_count": 10,
+    "target_only_false_negative_count": 0,
+    "target_with_teammate_true_positive_count": 1,
+    "target_with_teammate_false_negative_count": 2,
+    "teammate_false_positive_count": 0,
+    "teammate_true_negative_count": 27,
+    "baseline_false_positive_count": 0,
+    "calibration_true_positive": true,
+    "target_true_positive_scenes": [
+      "target_sphere_left_outer_20m",
+      "target_sphere_left_inner_20m",
+      "target_sphere_center_20m",
+      "target_sphere_right_inner_20m",
+      "target_sphere_right_outer_20m",
+      "target_sphere_left_outer_35m",
+      "target_sphere_left_inner_35m",
+      "target_sphere_center_35m",
+      "target_sphere_right_inner_35m",
+      "target_sphere_right_outer_35m",
+      "coexist_sphere_center_20m_teammate_left_inner_20m"
+    ],
+    "target_false_negative_scenes": [
+      "coexist_sphere_center_35m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_35m_teammate_right_outer_35m"
+    ],
+    "target_with_teammate_false_negative_scenes": [
+      "coexist_sphere_center_35m_teammate_right_inner_20m",
+      "coexist_sphere_left_inner_35m_teammate_right_outer_35m"
+    ],
+    "teammate_false_positive_scenes": [],
+    "baseline_false_positive_scenes": [],
+    "target_20m_true_positive_count": 5,
+    "target_20m_total": 5,
+    "target_35m_true_positive_count": 5,
+    "target_35m_total": 5,
+    "fan_reliable_distances_m": [
+      20.0,
+      35.0
+    ],
+    "max_fan_reliable_distance_m": 35.0,
+    "recommendation_reason": "Phase 5D-1 validates the Phase 5D-0 fixed SphereAgent sphere-blob + fan-RangeFinder rule against expanded SurfaceVessel teammate-only and coexistence scenes; it does not reselect the detector."
+  },
+  "target_distances_m": [
+    20.0,
+    35.0
+  ],
+  "teammate_single_distances_m": [
+    10.0,
+    15.0,
+    20.0,
+    35.0
+  ],
+  "teammate_edge_distances_m": [
+    15.0,
+    35.0
+  ],
+  "fan_test_angles": [
+    {
+      "label": "left_outer",
+      "angle_deg": 25.0
+    },
+    {
+      "label": "left_inner",
+      "angle_deg": 15.0
+    },
+    {
+      "label": "center",
+      "angle_deg": 0.0
+    },
+    {
+      "label": "right_inner",
+      "angle_deg": -15.0
+    },
+    {
+      "label": "right_outer",
+      "angle_deg": -25.0
+    }
+  ],
+  "teammate_edge_angles": [
+    {
+      "label": "left_edge",
+      "angle_deg": 30.0
+    },
+    {
+      "label": "right_edge",
+      "angle_deg": -30.0
+    }
+  ],
+  "rgb_signature_calibration_distance_m": 10.0,
+  "rgb_signature_calibration_scene": "calibration_sphere_front_center_10m",
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "rangefinder_mode": "yaw_rotated_single_ray_fan",
+  "horizontal_fan_sensor_count": 13,
+  "horizontal_fan_yaw_degrees": [
+    30.0,
+    25.0,
+    20.0,
+    15.0,
+    10.0,
+    5.0,
+    0.0,
+    -5.0,
+    -10.0,
+    -15.0,
+    -20.0,
+    -25.0,
+    -30.0
+  ],
+  "rgb_signature_detector": {
+    "diff_threshold": 28.0,
+    "quantization": 32,
+    "top_k": 24,
+    "target_overlap_min_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "rgb_changed_pixels_min_values": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      40,
+      80,
+      120,
+      200
+    ],
+    "baseline_source": "baseline",
+    "signature_calibration_source": "calibration_sphere_front_center_10m",
+    "sphere_blob_detector": {
+      "diff_threshold": 20.0,
+      "min_rgb": 180,
+      "neutral_tolerance": 35,
+      "min_area": 4,
+      "min_aspect": 0.5,
+      "max_aspect": 2.5,
+      "min_fill": 0.7,
+      "min_cy": 124.0,
+      "min_area_ratio": 0.6,
+      "close_kernel_wh": [
+        1,
+        3
+      ]
+    },
+    "target_overlap_min": null,
+    "rgb_changed_pixels_min": null
+  },
+  "holo_world": "OpenWater",
+  "holo_package": "Ocean",
+  "capture_ticks": 12,
+  "camera_width": 320,
+  "camera_height": 240,
+  "camera_hz": 5,
+  "camera_location": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "rangefinder_location": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "rangefinder_max_distance_m": 80.0,
+  "rgb_camera_name": "FrontRGBCamera",
+  "observer_world_location": [
+    -200.0,
+    170.0,
+    0.0
+  ],
+  "planned_scene_counts": {
+    "total": 42,
+    "baseline": 1,
+    "calibration": 1,
+    "target": 10,
+    "target_with_teammate": 3,
+    "teammate_only": 27
+  },
+  "scenes": [
+    {
+      "name": "baseline",
+      "role": "background_reference",
+      "scenario_kind": "baseline",
+      "target": null,
+      "teammates": [],
+      "include_target": false,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": null,
+      "angle_label": null,
+      "angle_deg": null,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "calibration_sphere_front_center_10m",
+      "role": "sphere_rgb_signature_calibration",
+      "scenario_kind": "calibration",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -190.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 10.0,
+        "lateral_m": 0.0,
+        "angle_deg": 0.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 10.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": true,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_left_outer_20m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          179.32615316309997,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": 9.326153163099972,
+        "angle_deg": 25.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 20.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_left_inner_20m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          175.35898384862244,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": 5.358983848622454,
+        "angle_deg": 15.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 20.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_center_20m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": 0.0,
+        "angle_deg": 0.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 20.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_right_inner_20m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          164.64101615137756,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": -5.358983848622454,
+        "angle_deg": -15.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 20.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_right_outer_20m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          160.67384683690003,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": -9.326153163099972,
+        "angle_deg": -25.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 20.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_left_outer_35m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          186.32076803542495,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 16.32076803542495,
+        "angle_deg": 25.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 35.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_left_inner_35m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          179.37822173508928,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 9.378221735089294,
+        "angle_deg": 15.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 35.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_center_35m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 0.0,
+        "angle_deg": 0.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 35.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_right_inner_35m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          160.62177826491072,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": -9.378221735089294,
+        "angle_deg": -15.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 35.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "target_sphere_right_outer_35m",
+      "role": "sphere_target_distance_boundary",
+      "scenario_kind": "target",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          153.67923196457505,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": -16.32076803542495,
+        "angle_deg": -25.0,
+        "z": 0.5
+      },
+      "teammates": [],
+      "include_target": true,
+      "include_teammate": false,
+      "teammate_count": 0,
+      "distance_m": 35.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_outer_10m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -190.0,
+            174.66307658154997,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 10.0,
+          "lateral_m": 4.663076581549986,
+          "angle_deg": 25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 10.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_inner_10m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -190.0,
+            172.67949192431124,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 10.0,
+          "lateral_m": 2.679491924311227,
+          "angle_deg": 15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 10.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_center_10m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -190.0,
+            170.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 10.0,
+          "lateral_m": 0.0,
+          "angle_deg": 0.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 10.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_inner_10m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -190.0,
+            167.32050807568876,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 10.0,
+          "lateral_m": -2.679491924311227,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 10.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_outer_10m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -190.0,
+            165.33692341845003,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 10.0,
+          "lateral_m": -4.663076581549986,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 10.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_outer_15m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            176.99461487232497,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": 6.994614872324979,
+          "angle_deg": 25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_inner_15m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            174.01923788646684,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": 4.019237886466841,
+          "angle_deg": 15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_center_15m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            170.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": 0.0,
+          "angle_deg": 0.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_inner_15m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            165.98076211353316,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": -4.019237886466841,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_outer_15m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            163.00538512767503,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": -6.994614872324979,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_outer_20m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            179.32615316309997,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 9.326153163099972,
+          "angle_deg": 25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_inner_20m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            175.35898384862244,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 5.358983848622454,
+          "angle_deg": 15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_center_20m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            170.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 0.0,
+          "angle_deg": 0.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_inner_20m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            164.64101615137756,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": -5.358983848622454,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_outer_20m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            160.67384683690003,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": -9.326153163099972,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_outer_35m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            186.32076803542495,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": 16.32076803542495,
+          "angle_deg": 25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "left_outer",
+      "angle_deg": 25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_inner_35m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            179.37822173508928,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": 9.378221735089294,
+          "angle_deg": 15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "left_inner",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_center_35m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            170.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": 0.0,
+          "angle_deg": 0.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "center",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_inner_35m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            160.62177826491072,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": -9.378221735089294,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "right_inner",
+      "angle_deg": -15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_outer_35m",
+      "role": "surfacevessel_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            153.67923196457505,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": -16.32076803542495,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "right_outer",
+      "angle_deg": -25.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_edge_15m",
+      "role": "surfacevessel_edge_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            178.6602540378444,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": 8.660254037844386,
+          "angle_deg": 30.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "left_edge",
+      "angle_deg": 30.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_edge_15m",
+      "role": "surfacevessel_edge_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -185.0,
+            161.3397459621556,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 15.0,
+          "lateral_m": -8.660254037844386,
+          "angle_deg": -30.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 15.0,
+      "angle_label": "right_edge",
+      "angle_deg": -30.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_left_edge_35m",
+      "role": "surfacevessel_edge_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            190.2072594216369,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": 20.207259421636902,
+          "angle_deg": 30.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "left_edge",
+      "angle_deg": 30.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_right_edge_35m",
+      "role": "surfacevessel_edge_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            149.7927405783631,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": -20.207259421636902,
+          "angle_deg": -30.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "right_edge",
+      "angle_deg": -30.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_pair_inner_20m",
+      "role": "surfacevessel_multi_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            175.35898384862244,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 5.358983848622454,
+          "angle_deg": 15.0,
+          "z": 0.0
+        },
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            164.64101615137756,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": -5.358983848622454,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 2,
+      "distance_m": 20.0,
+      "angle_label": "left_right_inner_pair",
+      "angle_deg": null,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_pair_outer_35m",
+      "role": "surfacevessel_multi_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            186.32076803542495,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": 16.32076803542495,
+          "angle_deg": 25.0,
+          "z": 0.0
+        },
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            153.67923196457505,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": -16.32076803542495,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 2,
+      "distance_m": 35.0,
+      "angle_label": "left_right_outer_pair",
+      "angle_deg": null,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "teammate_only_surfacevessel_triple_fan_20m",
+      "role": "surfacevessel_multi_teammate_negative",
+      "scenario_kind": "teammate_only",
+      "target": null,
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            170.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 0.0,
+          "angle_deg": 0.0,
+          "z": 0.0
+        },
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -178.0,
+            178.00734515385645,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 22.0,
+          "lateral_m": 8.007345153856452,
+          "angle_deg": 20.0,
+          "z": 0.0
+        },
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -178.0,
+            161.99265484614355,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 22.0,
+          "lateral_m": -8.007345153856452,
+          "angle_deg": -20.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": false,
+      "include_teammate": true,
+      "teammate_count": 3,
+      "distance_m": 20.0,
+      "angle_label": "center_plus_inner_pair",
+      "angle_deg": null,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": false
+    },
+    {
+      "name": "coexist_sphere_center_20m_teammate_left_inner_20m",
+      "role": "sphere_target_with_surfacevessel_teammate",
+      "scenario_kind": "target_with_teammate",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -180.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 20.0,
+        "lateral_m": 0.0,
+        "angle_deg": 0.0,
+        "z": 0.5
+      },
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            175.35898384862244,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": 5.358983848622454,
+          "angle_deg": 15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": true,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 20.0,
+      "angle_label": "target_center_teammate_left_inner",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "coexist_sphere_center_35m_teammate_right_inner_20m",
+      "role": "sphere_target_with_surfacevessel_teammate",
+      "scenario_kind": "target_with_teammate",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          170.0,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 0.0,
+        "angle_deg": 0.0,
+        "z": 0.5
+      },
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -180.0,
+            164.64101615137756,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 20.0,
+          "lateral_m": -5.358983848622454,
+          "angle_deg": -15.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": true,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "target_center_teammate_right_inner",
+      "angle_deg": 0.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    },
+    {
+      "name": "coexist_sphere_left_inner_35m_teammate_right_outer_35m",
+      "role": "sphere_target_with_surfacevessel_teammate",
+      "scenario_kind": "target_with_teammate",
+      "target": {
+        "agent_type": "SphereAgent",
+        "location": [
+          -165.0,
+          179.37822173508928,
+          0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "forward_m": 35.0,
+        "lateral_m": 9.378221735089294,
+        "angle_deg": 15.0,
+        "z": 0.5
+      },
+      "teammates": [
+        {
+          "agent_type": "SurfaceVessel",
+          "location": [
+            -165.0,
+            153.67923196457505,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forward_m": 35.0,
+          "lateral_m": -16.32076803542495,
+          "angle_deg": -25.0,
+          "z": 0.0
+        }
+      ],
+      "include_target": true,
+      "include_teammate": true,
+      "teammate_count": 1,
+      "distance_m": 35.0,
+      "angle_label": "target_left_inner_teammate_right_outer",
+      "angle_deg": 15.0,
+      "is_calibration_scene": false,
+      "expected_target_present_for_audit": true
+    }
+  ],
+  "map_npz": "baseline_GP\\holoocean_bridge\\maps\\openwater_open_res10_v1.npz",
+  "pre_git_status": [
+    " M .claude/settings.local.json",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4e_rgb_multiray_rangefinder_fan_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4f_distance_sweep_rgb_multiray_fan/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4g_front_far_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4h_fan_area_distance_boundary/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5c4i_direction_matched_distractor_rejection_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d0_sphereagent_static_target_calibration/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d1_surfacevessel_teammate_exclusion_validation/"
+  ]
+}
