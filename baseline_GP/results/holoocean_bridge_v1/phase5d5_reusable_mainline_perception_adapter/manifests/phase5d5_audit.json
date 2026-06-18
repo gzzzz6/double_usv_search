@@ -1,0 +1,44 @@
+{
+  "phase_name": "phase5d5_reusable_mainline_perception_adapter",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "api_contract_parse_ok": true,
+    "offline_replay_trace_parse_ok": true,
+    "mainline_wrapper_trace_parse_ok": true,
+    "mainline_runtime_results_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_audits_passed": true,
+    "api_contract_complete": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "offline_replay_reproduces_5d4_semantics": true,
+    "mainline_wrapper_reproduces_5d4_semantics": true,
+    "teammate_only_no_false_positive": true,
+    "duplicate_observation_fused": true,
+    "mainline_update_found_mask_original_called": true,
+    "adapter_outputs_are_reusable_api_outputs": true,
+    "truth_flags_false": true,
+    "reliable_distance_boundary_35m": true,
+    "no_semantic_or_sonar_detection": true,
+    "core_algorithm_files_not_modified_by_phase": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true
+  },
+  "metrics": {
+    "adapter_class": "ReusableMainlinePerceptionAdapter",
+    "offline_target_all_found_step": 1,
+    "mainline_target_time_to_all_found": 1,
+    "mainline_coexist_time_to_all_found": 1,
+    "mainline_teammate_false_positive_steps": [],
+    "mainline_duplicate_detected_steps": [
+      3
+    ],
+    "duplicate_observation_fused": true,
+    "offline_trace_count": 16,
+    "mainline_trace_count": 65
+  },
+  "all_passed": true
+}

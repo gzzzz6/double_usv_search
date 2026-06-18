@@ -1,0 +1,764 @@
+[
+  {
+    "run_kind": "target",
+    "policy_step": 1,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 2,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 3,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 4,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 5,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 6,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 7,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 8,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 9,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 10,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 11,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 12,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 13,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 14,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 15,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 16,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 17,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 18,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 0,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 19,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 44,
+    "accepted_candidate_count": 0,
+    "teammate_rejected_count": 44,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "shared_found_this_step": false,
+    "new_found_this_step": false,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "false_negative",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "policy_step": 20,
+    "expected_target_present_for_audit": true,
+    "raw_sensor_detection_count": 74,
+    "accepted_candidate_count": 57,
+    "teammate_rejected_count": 17,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 57,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            -270.3667201000856,
+            220.6189841168715,
+            0.0
+          ],
+          [
+            -270.2640431081425,
+            220.54503619072213,
+            0.0
+          ],
+          [
+            -270.1709102365767,
+            220.50620749654558,
+            0.0
+          ],
+          [
+            -270.0839809925393,
+            220.48821877080553,
+            0.0
+          ],
+          [
+            -270.00166184166244,
+            220.48559011820947,
+            0.0
+          ],
+          [
+            -269.92306038405303,
+            220.49589140140307,
+            0.0
+          ],
+          [
+            -269.84761762643245,
+            220.5183393852464,
+            0.0
+          ],
+          [
+            -269.774856003082,
+            220.55338411435687,
+            0.0
+          ],
+          [
+            -269.70444899982067,
+            220.60321439757064,
+            0.0
+          ],
+          [
+            -269.63628616379077,
+            220.6734698516257,
+            0.0
+          ],
+          [
+            -269.5704449058365,
+            220.78191056674956,
+            0.0
+          ],
+          [
+            -269.69469583827254,
+            220.61253167101827,
+            0.0
+          ],
+          [
+            -269.63372721624125,
+            220.6778054716314,
+            0.0
+          ],
+          [
+            -269.5745193194597,
+            220.7747616958408,
+            0.0
+          ],
+          [
+            -269.7159707248133,
+            220.59582108509554,
+            0.0
+          ],
+          [
+            -269.6622855171165,
+            220.64597166781107,
+            0.0
+          ],
+          [
+            -269.61002384632957,
+            220.71324686305115,
+            0.0
+          ],
+          [
+            -269.55896805915233,
+            220.81630712198702,
+            0.0
+          ],
+          [
+            -269.5739342148746,
+            220.86563593939115,
+            0.0
+          ],
+          [
+            -269.7267846772745,
+            220.63301309449878,
+            0.0
+          ],
+          [
+            -269.88888370640547,
+            220.55152044346573,
+            0.0
+          ],
+          [
+            -270.06711019911864,
+            220.54165599876228,
+            0.0
+          ],
+          [
+            -270.26270758100907,
+            220.6223917752254,
+            0.0
+          ],
+          [
+            -270.2236416830943,
+            220.6070511487449,
+            0.0
+          ],
+          [
+            -270.20218523474057,
+            220.60482942912137,
+            0.0
+          ],
+          [
+            -270.1979593566933,
+            220.61250858981833,
+            0.0
+          ],
+          [
+            -270.2102838296318,
+            220.63001095507417,
+            0.0
+          ],
+          [
+            -270.2383038316406,
+            220.66054888481946,
+            0.0
+          ],
+          [
+            -270.28084226355566,
+            220.71248418759245,
+            0.0
+          ],
+          [
+            -270.33595054304294,
+            220.81194475385752,
+            0.0
+          ],
+          [
+            -270.1484726522003,
+            220.647457320688,
+            0.0
+          ],
+          [
+            -270.2285415401779,
+            220.71287124279857,
+            0.0
+          ],
+          [
+            -270.3156080284616,
+            220.86600854768892,
+            0.0
+          ],
+          [
+            -270.15727739971504,
+            220.69261945002842,
+            0.0
+          ],
+          [
+            -270.2615199052476,
+            220.81280307199623,
+            0.0
+          ],
+          [
+            -270.11265349507687,
+            220.69715975464825,
+            0.0
+          ],
+          [
+            -270.2277061116928,
+            220.80765636170094,
+            0.0
+          ],
+          [
+            -270.0839821997366,
+            220.70922782316734,
+            0.0
+          ],
+          [
+            -270.20433053121536,
+            220.81342913044136,
+            0.0
+          ],
+          [
+            -269.7727502503596,
+            220.81497131560297,
+            0.0
+          ],
+          [
+            -270.1813229353842,
+            220.81266714463675,
+            0.0
+          ],
+          [
+            -270.03215828721005,
+            220.72555301560627,
+            0.0
+          ],
+          [
+            -270.14939143638657,
+            220.79423564590485,
+            0.0
+          ],
+          [
+            -269.98906307378786,
+            220.7250046398462,
+            0.0
+          ],
+          [
+            -270.0994859481699,
+            220.7601468033735,
+            0.0
+          ],
+          [
+            -270.19894068324277,
+            220.87829570728942,
+            0.0
+          ],
+          [
+            -270.02305652939884,
+            220.72530109442187,
+            0.0
+          ],
+          [
+            -270.1141110742392,
+            220.76246954353027,
+            0.0
+          ],
+          [
+            -270.19459128946147,
+            220.8501864534156,
+            0.0
+          ],
+          [
+            -269.99053415852035,
+            220.70549590014602,
+            0.0
+          ],
+          [
+            -270.05974329908685,
+            220.71649223876122,
+            0.0
+          ],
+          [
+            -270.119907944804,
+            220.74251160284282,
+            0.0
+          ],
+          [
+            -270.1713592495237,
+            220.78106448181822,
+            0.0
+          ],
+          [
+            -270.2141619858499,
+            220.83275571875896,
+            0.0
+          ],
+          [
+            -270.2477950608088,
+            220.9085914038993,
+            0.0
+          ],
+          [
+            -269.99112620474705,
+            220.66650483918477,
+            0.0
+          ],
+          [
+            -270.0141086333719,
+            220.66358474182505,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          -270.02292119144494,
+          220.69447986282336,
+          0.0
+        ],
+        "target_position_error_m": 0.3063787447550665,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "shared_found_this_step": true,
+    "new_found_this_step": true,
+    "found_mask_before": [
+      false
+    ],
+    "outcome": "true_positive",
+    "candidate_fusion_called": true,
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  }
+]

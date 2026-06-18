@@ -1,0 +1,13 @@
+run_kind,step_index,live_capture_provider_called,live_capture_primary_detection_source,replay_events_used_for_detection,per_agent_event_count,accepted_candidate_count,fused_candidate_count,shared_found_from_live_fusion,found_mask_before,known_teammate_count,truth_used_for_detection,actor_truth_used_for_detection,target_truth_used_for_detection,teammate_truth_used_for_detection
+target,1,True,True,False,24,1,1,True,[false],2,False,False,False,False
+target,2,True,True,False,24,1,1,True,[true],2,False,False,False,False
+target,3,True,True,False,24,2,1,True,[true],2,False,False,False,False
+target,4,True,True,False,24,1,1,True,[true],2,False,False,False,False
+coexist,1,True,True,False,24,1,1,True,[false],3,False,False,False,False
+coexist,2,True,True,False,24,1,1,True,[true],3,False,False,False,False
+coexist,3,True,True,False,24,2,1,True,[true],3,False,False,False,False
+coexist,4,True,True,False,24,1,1,True,[true],3,False,False,False,False
+teammate_only,1,True,True,False,24,0,0,False,[false],3,False,False,False,False
+teammate_only,2,True,True,False,24,0,0,False,[false],3,False,False,False,False
+teammate_only,3,True,True,False,24,0,0,False,[false],3,False,False,False,False
+teammate_only,4,True,True,False,24,0,0,False,[false],3,False,False,False,False

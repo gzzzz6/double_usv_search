@@ -1,0 +1,33 @@
+{
+  "phase_name": "phase5d11_live_target_rgb_range_sync_diagnostic",
+  "diagnostic_audit_only": true,
+  "checks": {
+    "required_paths_exist": true,
+    "summary_parse_ok": true,
+    "phase_name_matches": true,
+    "source_5d10_failed_as_expected": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "truth_flags_false": true,
+    "control_case_accepted": true,
+    "target_failure_static_replay_has_acceptance": true,
+    "target_failure_range_hit_cases_replay_accepted": true,
+    "visual_previews_exist": true,
+    "diagnostic_not_claiming_search_closure": true,
+    "core_runtime_and_search_algorithm_not_modified": true,
+    "py_compile_ok": true
+  },
+  "metrics": {
+    "case_count": 7,
+    "control_case_accepted": true,
+    "target_failure_case_count": 6,
+    "target_failure_static_replay_accepted_count": 3,
+    "target_failure_static_replay_accepted_cases": [
+      "target_range_hit_failure_1",
+      "target_range_hit_failure_2",
+      "target_range_hit_failure_3"
+    ],
+    "per_tick_row_count": 112
+  },
+  "all_passed": true
+}

@@ -1,0 +1,566 @@
+{
+  "phase_name": "phase5d15_multicamera_coverage_no_stop_scan",
+  "phase_completed": true,
+  "audit_conclusion": "live_rgb_range_sync_fix_closed_target_shared_found_update_found_mask_all_found",
+  "checks": {
+    "required_paths_exist": true,
+    "json_parse_ok": true,
+    "phase_name_matches": true,
+    "phase_goal_completed": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "live_planner_mainline_path": true,
+    "rgb_sync_fix_enabled_and_used": true,
+    "multicamera_coverage_enabled": true,
+    "no_stop_scan_used": true,
+    "target_accepted_candidates_from_rgb_sync": true,
+    "candidate_fusion_shared_found": true,
+    "adapter_returned_mainline_detected_mask": true,
+    "original_update_found_mask_closed_all_found": true,
+    "teammate_negative_clean": true,
+    "truth_flags_false": true,
+    "core_runtime_and_search_algorithm_not_modified": true,
+    "outputs_in_independent_phase_dir": true,
+    "py_compile_ok": true
+  },
+  "metrics": {
+    "phase_status": "live_planner_callback_continuous_rolling_no_stop_scan_all_found_closed",
+    "target_all_found_step": 20,
+    "target_completed_steps": 20,
+    "target_accepted_candidate_from_rgb_sync_count": 32,
+    "target_accepted_candidate_from_rgb_sync_steps": [
+      20
+    ],
+    "rgb_sync_window_ticks": 8,
+    "rgb_sync_max_abs_target_offset_ticks": 8,
+    "rgb_sync_max_abs_baseline_offset_ticks": 8,
+    "no_stop_scan_tick_audit_passed": true,
+    "post_arrival_stabilization_tick_count": 0,
+    "standoff_viewpoint_hold_tick_count": 0,
+    "scan_tick_count": 0,
+    "post_scan_recenter_tick_count": 0,
+    "target_accepted_candidate_from_transit": true,
+    "mainline_update_found_mask_called_count": 40,
+    "teammate_false_positive_steps": [],
+    "max_reliable_detection_distance_observed_m": 15.610623359680176,
+    "accepted_sync_events": [
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 17,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -3,
+        "rgb_sync_baseline_offset_ticks": -3,
+        "matched_range_m": 10.143362045288086,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 18,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -4,
+        "rgb_sync_baseline_offset_ticks": -4,
+        "matched_range_m": 10.108906745910645,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 19,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -5,
+        "rgb_sync_baseline_offset_ticks": -5,
+        "matched_range_m": 10.152933120727539,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 20,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -6,
+        "rgb_sync_baseline_offset_ticks": -6,
+        "matched_range_m": 10.408108711242676,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 21,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -7,
+        "rgb_sync_baseline_offset_ticks": -7,
+        "matched_range_m": 10.428203582763672,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 22,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 14,
+        "rgb_sync_baseline_tick": 14,
+        "rgb_sync_target_offset_ticks": -8,
+        "rgb_sync_baseline_offset_ticks": -8,
+        "matched_range_m": 10.678741455078125,
+        "rgb_changed_pixels": 2257,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 23,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": 3,
+        "rgb_sync_baseline_offset_ticks": 3,
+        "matched_range_m": 10.583329200744629,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 24,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": 2,
+        "rgb_sync_baseline_offset_ticks": 2,
+        "matched_range_m": 10.748978614807129,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 25,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": 1,
+        "rgb_sync_baseline_offset_ticks": 1,
+        "matched_range_m": 10.93226432800293,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 26,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": 0,
+        "rgb_sync_baseline_offset_ticks": 0,
+        "matched_range_m": 11.140250205993652,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 27,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -1,
+        "rgb_sync_baseline_offset_ticks": -1,
+        "matched_range_m": 11.398921012878418,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 28,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -2,
+        "rgb_sync_baseline_offset_ticks": -2,
+        "matched_range_m": 11.353952407836914,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 29,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -3,
+        "rgb_sync_baseline_offset_ticks": -3,
+        "matched_range_m": 11.561851501464844,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 30,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -4,
+        "rgb_sync_baseline_offset_ticks": -4,
+        "matched_range_m": 11.819519996643066,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 31,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -5,
+        "rgb_sync_baseline_offset_ticks": -5,
+        "matched_range_m": 11.746993064880371,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 32,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -6,
+        "rgb_sync_baseline_offset_ticks": -6,
+        "matched_range_m": 11.94034194946289,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 33,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 26,
+        "rgb_sync_baseline_tick": 26,
+        "rgb_sync_target_offset_ticks": -7,
+        "rgb_sync_baseline_offset_ticks": -7,
+        "matched_range_m": 12.161190032958984,
+        "rgb_changed_pixels": 2297,
+        "rangefinder_hit_beam_indices": [
+          0
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 55,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 50,
+        "rgb_sync_baseline_tick": 50,
+        "rgb_sync_target_offset_ticks": -5,
+        "rgb_sync_baseline_offset_ticks": -5,
+        "matched_range_m": 14.582013130187988,
+        "rgb_changed_pixels": 1870,
+        "rangefinder_hit_beam_indices": [
+          0
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 56,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 50,
+        "rgb_sync_baseline_tick": 50,
+        "rgb_sync_target_offset_ticks": -6,
+        "rgb_sync_baseline_offset_ticks": -6,
+        "matched_range_m": 14.562989234924316,
+        "rgb_changed_pixels": 1870,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 57,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 50,
+        "rgb_sync_baseline_tick": 50,
+        "rgb_sync_target_offset_ticks": -7,
+        "rgb_sync_baseline_offset_ticks": -7,
+        "matched_range_m": 14.621550559997559,
+        "rgb_changed_pixels": 1870,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 58,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 50,
+        "rgb_sync_baseline_tick": 50,
+        "rgb_sync_target_offset_ticks": -8,
+        "rgb_sync_baseline_offset_ticks": -8,
+        "matched_range_m": 14.786362648010254,
+        "rgb_changed_pixels": 1870,
+        "rangefinder_hit_beam_indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 59,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 56,
+        "rgb_sync_baseline_tick": 56,
+        "rgb_sync_target_offset_ticks": -3,
+        "rgb_sync_baseline_offset_ticks": -3,
+        "matched_range_m": 14.836250305175781,
+        "rgb_changed_pixels": 720,
+        "rangefinder_hit_beam_indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 60,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 8,
+        "rgb_sync_baseline_offset_ticks": 8,
+        "matched_range_m": 14.9497709274292,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 61,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 7,
+        "rgb_sync_baseline_offset_ticks": 7,
+        "matched_range_m": 15.01546859741211,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 62,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 6,
+        "rgb_sync_baseline_offset_ticks": 6,
+        "matched_range_m": 15.063834190368652,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 63,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 5,
+        "rgb_sync_baseline_offset_ticks": 5,
+        "matched_range_m": 15.026217460632324,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 64,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 4,
+        "rgb_sync_baseline_offset_ticks": 4,
+        "matched_range_m": 15.401668548583984,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 65,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 3,
+        "rgb_sync_baseline_offset_ticks": 3,
+        "matched_range_m": 15.194356918334961,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          8,
+          9
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 66,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 2,
+        "rgb_sync_baseline_offset_ticks": 2,
+        "matched_range_m": 15.323341369628906,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 67,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 1,
+        "rgb_sync_baseline_offset_ticks": 1,
+        "matched_range_m": 15.296852111816406,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 68,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": 0,
+        "rgb_sync_baseline_offset_ticks": 0,
+        "matched_range_m": 15.406368255615234,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          12,
+          13
+        ]
+      },
+      {
+        "policy_step": 20,
+        "tick_in_policy_step": 69,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 68,
+        "rgb_sync_baseline_tick": 68,
+        "rgb_sync_target_offset_ticks": -1,
+        "rgb_sync_baseline_offset_ticks": -1,
+        "matched_range_m": 15.610623359680176,
+        "rgb_changed_pixels": 1533,
+        "rangefinder_hit_beam_indices": [
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "closing_update_steps": [
+      20
+    ]
+  },
+  "all_passed": true
+}

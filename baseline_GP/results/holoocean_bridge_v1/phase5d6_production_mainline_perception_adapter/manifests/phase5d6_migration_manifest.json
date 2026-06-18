@@ -1,0 +1,24 @@
+{
+  "phase_name": "phase5d6_production_mainline_perception_adapter",
+  "migration_decision": "promote_5d5_phase_local_adapter_to_formal_holoocean_bridge_module",
+  "production_module_path": "baseline_GP/holoocean_bridge/mainline_perception_adapter.py",
+  "production_module_exists": true,
+  "production_init_path": "baseline_GP/holoocean_bridge/__init__.py",
+  "production_init_exports_adapter": true,
+  "production_init_exports_contract": true,
+  "direct_import_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+  "package_export_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+  "package_export_ok": true,
+  "source_5d5_adapter_class": "ReusableMainlinePerceptionAdapter",
+  "source_5d5_phase_local_only": true,
+  "source_5d5_production_module_created": false,
+  "production_adapter_class": "ReusableMainlinePerceptionAdapter",
+  "production_phase_local_only": false,
+  "production_module_created": true,
+  "module_contains_runtime_or_planner_rewrite": false,
+  "production_files_intentionally_changed": [
+    "baseline_GP/holoocean_bridge/mainline_perception_adapter.py",
+    "baseline_GP/holoocean_bridge/__init__.py"
+  ],
+  "truth_policy": "truth is audit-only and is not an adapter input needed for detection"
+}

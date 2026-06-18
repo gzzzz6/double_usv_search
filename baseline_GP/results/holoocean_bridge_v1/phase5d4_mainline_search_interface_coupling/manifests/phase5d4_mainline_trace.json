@@ -1,0 +1,424 @@
+[
+  {
+    "run_kind": "target",
+    "update_call_index": 1,
+    "mainline_step": 0,
+    "source_policy_step": 0,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "target",
+    "update_call_index": 2,
+    "mainline_step": 1,
+    "source_policy_step": 1,
+    "source_shared_found": true,
+    "source_accepted_candidate_count": 1,
+    "source_fused_candidate_count": 1,
+    "detected_mask": [
+      true
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      true
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      1
+    ],
+    "new_found_indices": [
+      0
+    ],
+    "shared_found": true,
+    "all_found_after_update": true,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "update_call_index": 1,
+    "mainline_step": 0,
+    "source_policy_step": 0,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "update_call_index": 2,
+    "mainline_step": 1,
+    "source_policy_step": 1,
+    "source_shared_found": true,
+    "source_accepted_candidate_count": 1,
+    "source_fused_candidate_count": 1,
+    "detected_mask": [
+      true
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      true
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      1
+    ],
+    "new_found_indices": [
+      0
+    ],
+    "shared_found": true,
+    "all_found_after_update": true,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "update_call_index": 1,
+    "mainline_step": 0,
+    "source_policy_step": 0,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "update_call_index": 2,
+    "mainline_step": 1,
+    "source_policy_step": 1,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "update_call_index": 3,
+    "mainline_step": 2,
+    "source_policy_step": 2,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "update_call_index": 4,
+    "mainline_step": 3,
+    "source_policy_step": 3,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "teammate_only",
+    "update_call_index": 5,
+    "mainline_step": 4,
+    "source_policy_step": 4,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "duplicate_replay",
+    "update_call_index": 1,
+    "mainline_step": 0,
+    "source_policy_step": 0,
+    "source_shared_found": false,
+    "source_accepted_candidate_count": 0,
+    "source_fused_candidate_count": 0,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "duplicate_replay",
+    "update_call_index": 2,
+    "mainline_step": 1,
+    "source_policy_step": 1,
+    "source_shared_found": true,
+    "source_accepted_candidate_count": 1,
+    "source_fused_candidate_count": 1,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "duplicate_replay",
+    "update_call_index": 3,
+    "mainline_step": 2,
+    "source_policy_step": 2,
+    "source_shared_found": true,
+    "source_accepted_candidate_count": 1,
+    "source_fused_candidate_count": 1,
+    "detected_mask": [
+      false
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      false
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      null
+    ],
+    "new_found_indices": [],
+    "shared_found": false,
+    "all_found_after_update": false,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "duplicate_replay",
+    "update_call_index": 4,
+    "mainline_step": 3,
+    "source_policy_step": 3,
+    "source_shared_found": true,
+    "source_accepted_candidate_count": 2,
+    "source_fused_candidate_count": 1,
+    "detected_mask": [
+      true
+    ],
+    "found_mask_before": [
+      false
+    ],
+    "found_mask_after": [
+      true
+    ],
+    "find_times_before": [
+      null
+    ],
+    "find_times_after": [
+      3
+    ],
+    "new_found_indices": [
+      0
+    ],
+    "shared_found": true,
+    "all_found_after_update": true,
+    "update_found_mask_original_called": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  }
+]

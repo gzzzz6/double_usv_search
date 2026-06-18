@@ -1,0 +1,35 @@
+{
+  "phase_name": "phase5d8b_live_planner_callback_scan_capture_search",
+  "pre_status": [
+    " M baseline_GP/holoocean_bridge/__init__.py",
+    " M baseline_GP/holoocean_bridge/__pycache__/__init__.cpython-313.pyc",
+    " M baseline_GP/holoocean_bridge/__pycache__/__init__.cpython-38.pyc",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/holoocean_bridge/__pycache__/mainline_perception_adapter.cpython-313.pyc",
+    "?? baseline_GP/holoocean_bridge/__pycache__/mainline_perception_adapter.cpython-38.pyc",
+    "?? baseline_GP/holoocean_bridge/mainline_perception_adapter.py",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d4_mainline_search_interface_coupling/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d5_reusable_mainline_perception_adapter/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d6_production_mainline_perception_adapter/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d7_live_capture_provider_coupling/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d8_live_planner_callback_continuous_search/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d8b_live_planner_callback_scan_capture_search/"
+  ],
+  "post_status": [
+    " M baseline_GP/holoocean_bridge/__init__.py",
+    " M baseline_GP/holoocean_bridge/__pycache__/__init__.cpython-313.pyc",
+    " M baseline_GP/holoocean_bridge/__pycache__/__init__.cpython-38.pyc",
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/holoocean_bridge/__pycache__/mainline_perception_adapter.cpython-313.pyc",
+    "?? baseline_GP/holoocean_bridge/__pycache__/mainline_perception_adapter.cpython-38.pyc",
+    "?? baseline_GP/holoocean_bridge/mainline_perception_adapter.py",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d4_mainline_search_interface_coupling/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d5_reusable_mainline_perception_adapter/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d6_production_mainline_perception_adapter/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d7_live_capture_provider_coupling/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d8_live_planner_callback_continuous_search/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d8b_live_planner_callback_scan_capture_search/"
+  ],
+  "outside_phase_new_or_changed": [],
+  "protected_core_path_status": []
+}

@@ -1,0 +1,113 @@
+case_name,case_source,tick,rgb_changed_pixels,rgb_change_bbox_xyxy,sphere_blob_candidate_count,sphere_blob_local_candidate_count,sphere_blob_white_neutral_changed_pixels,sphere_blob_largest,sphere_blob_local_best,local_range_scaled_blob_present,local_blob_area,local_blob_range_scaled_area,matched,blob_yaw_deg,matched_beam_index,matched_beam_yaw_deg,matched_range_m,beam_yaw_error_deg,rangefinder_hit_beam_indices,rangefinder_min_positive_range_m,roi_xyxy,diff_ge_threshold_roi_pixels,bright_roi_pixels,neutral_roi_pixels,diff_and_bright_roi_pixels,diff_and_neutral_roi_pixels,white_neutral_mask_pixels,max_diff_roi
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,1,23,"[27, 126, 162, 151]",0,1,16,"{""area"": 16, ""aspect"": 1.5, ""cx"": 159.5, ""cy"": 127.75, ""fill"": 0.6666666666666666, ""h"": 4, ""w"": 6, ""x"": 157, ""y"": 126}","{""area"": 16, ""aspect"": 1.5, ""cx"": 159.5, ""cy"": 127.75, ""fill"": 0.6666666666666666, ""h"": 4, ""w"": 6, ""x"": 157, ""y"": 126}",True,16,13973.88526863238,True,0.165625,30,0.0,29.552797317504883,0.165625,[30],29.552797317504883,"[25, 43, 294, 196]",41,41157,14679,41,16,16,57.0
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,2,0,,0,0,0,,,False,0,,False,,,,,,[30],29.562707901000977,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,3,0,,0,0,0,,,False,0,,False,,,,,,[30],29.573078155517578,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,4,0,,0,0,0,,,False,0,,False,,,,,,[30],29.582714080810547,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,5,0,,0,0,0,,,False,0,,False,,,,,,[30],29.59041976928711,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,6,0,,0,0,0,,,False,0,,False,,,,,,[30],29.59527015686035,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,7,91,"[27, 126, 293, 185]",1,1,22,"{""area"": 21, ""aspect"": 1.2, ""cx"": 159.42857142857142, ""cy"": 128.1904761904762, ""fill"": 0.7, ""h"": 5, ""w"": 6, ""x"": 157, ""y"": 126}","{""area"": 21, ""aspect"": 1.2, ""cx"": 159.42857142857142, ""cy"": 128.1904761904762, ""fill"": 0.7, ""h"": 5, ""w"": 6, ""x"": 157, ""y"": 126}",True,21,18395.21819331772,True,0.18928571428571833,30,0.0,29.596668243408203,0.18928571428571833,[30],29.596668243408203,"[25, 43, 294, 196]",284,41157,15150,284,22,22,68.0
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,8,0,,0,0,0,,,False,0,,False,,,,,,[30],29.594810485839844,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,9,0,,0,0,0,,,False,0,,False,,,,,,[30],29.590225219726562,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,10,0,,0,0,0,,,False,0,,False,,,,,,[30],29.583984375,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,11,0,,0,0,0,,,False,0,,False,,,,,,[30],29.576913833618164,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,12,0,,0,0,0,,,False,0,,False,,,,,,[30],29.570024490356445,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,13,42,"[43, 126, 256, 146]",0,0,29,"{""area"": 28, ""aspect"": 1.0, ""cx"": 160.0, ""cy"": 128.92857142857142, ""fill"": 0.5714285714285714, ""h"": 7, ""w"": 7, ""x"": 157, ""y"": 126}",,False,0,,False,,,,,,[30],29.563913345336914,"[25, 43, 294, 196]",80,41157,15913,80,26,26,75.0
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,14,0,,0,0,0,,,False,0,,False,,,,,,[30],29.558961868286133,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,15,0,,0,0,0,,,False,0,,False,,,,,,[30],29.55559730529785,,,,,,,,
+control_5d9_planner_front_center_30m,phase5d9_known_good_static_geometry,16,0,,0,0,0,,,False,0,,False,,,,,,[30],29.5539493560791,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,1,56,"[233, 129, 241, 136]",1,1,36,"{""area"": 36, ""aspect"": 1.3333333333333333, ""cx"": 237.19444444444446, ""cy"": 131.52777777777777, ""fill"": 0.75, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}","{""area"": 36, ""aspect"": 1.3333333333333333, ""cx"": 237.19444444444446, ""cy"": 131.52777777777777, ""fill"": 0.75, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}",True,36,18548.617629903034,True,-25.570659722222224,56,-26.0,22.698884963989258,0.4293402777777757,"[55, 56, 57]",22.698884963989258,"[25, 43, 294, 196]",62,41148,15389,53,35,35,116.0
+target_range_hit_failure_1,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.69891357421875,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698875427246094,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698780059814453,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698633193969727,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698511123657227,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,7,55,"[234, 129, 281, 150]",1,1,38,"{""area"": 38, ""aspect"": 1.3333333333333333, ""cx"": 237.1578947368421, ""cy"": 131.6578947368421, ""fill"": 0.7916666666666666, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}","{""area"": 38, ""aspect"": 1.3333333333333333, ""cx"": 237.1578947368421, ""cy"": 131.6578947368421, ""fill"": 0.7916666666666666, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}",True,38,19578.349474299786,True,-25.558552631578948,56,-26.0,22.69845199584961,0.44144736842105203,"[55, 56, 57]",22.69845199584961,"[25, 43, 294, 196]",67,41149,15757,59,37,37,114.0
+target_range_hit_failure_1,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698450088500977,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698495864868164,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698585510253906,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698684692382812,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698741912841797,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,13,56,"[234, 129, 291, 150]",1,1,38,"{""area"": 38, ""aspect"": 1.3333333333333333, ""cx"": 237.1578947368421, ""cy"": 131.6578947368421, ""fill"": 0.7916666666666666, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}","{""area"": 38, ""aspect"": 1.3333333333333333, ""cx"": 237.1578947368421, ""cy"": 131.6578947368421, ""fill"": 0.7916666666666666, ""h"": 6, ""w"": 8, ""x"": 234, ""y"": 129}",True,38,19578.839737055205,True,-25.558552631578948,56,-26.0,22.6987361907959,0.44144736842105203,"[55, 56, 57]",22.6987361907959,"[25, 43, 294, 196]",86,41149,16264,78,37,37,113.0
+target_range_hit_failure_1,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698667526245117,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.698579788208008,,,,,,,,
+target_range_hit_failure_1,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,"[55, 56, 57]",22.69851303100586,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,1,56,"[241, 129, 249, 136]",0,1,37,"{""area"": 37, ""aspect"": 1.5, ""cx"": 244.54054054054055, ""cy"": 131.45945945945945, ""fill"": 0.6851851851851852, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}","{""area"": 37, ""aspect"": 1.5, ""cx"": 244.54054054054055, ""cy"": 131.45945945945945, ""fill"": 0.6851851851851852, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}",True,37,19061.386953442663,True,-28.00405405405406,58,-28.0,22.69741439819336,0.004054054054059009,"[57, 58, 59]",22.69741439819336,"[25, 43, 294, 196]",63,41145,15711,51,36,36,121.0
+target_range_hit_failure_2,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.69739532470703,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697465896606445,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.69757843017578,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697729110717773,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697877883911133,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,7,55,"[241, 129, 249, 136]",1,1,38,"{""area"": 38, ""aspect"": 1.5, ""cx"": 244.52631578947367, ""cy"": 131.52631578947367, ""fill"": 0.7037037037037037, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}","{""area"": 38, ""aspect"": 1.5, ""cx"": 244.52631578947367, ""cy"": 131.52631578947367, ""fill"": 0.7037037037037037, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}",True,38,19577.54993143092,True,-27.999342105263157,58,-28.0,22.697988510131836,0.0006578947368431898,"[57, 58, 59]",22.697988510131836,"[25, 43, 294, 196]",58,41149,15958,50,37,37,120.0
+target_range_hit_failure_2,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.698060989379883,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.698102951049805,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.6981143951416,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.698101043701172,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.69806480407715,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,13,56,"[241, 129, 249, 136]",1,1,40,"{""area"": 40, ""aspect"": 1.5, ""cx"": 244.55, ""cy"": 131.65, ""fill"": 0.7407407407407407, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}","{""area"": 40, ""aspect"": 1.5, ""cx"": 244.55, ""cy"": 131.65, ""fill"": 0.7407407407407407, ""h"": 6, ""w"": 9, ""x"": 241, ""y"": 129}",True,40,20607.978467198554,True,-28.007187500000004,58,-28.0,22.69800567626953,0.007187500000004121,"[57, 58, 59]",22.69800567626953,"[25, 43, 294, 196]",60,41148,16430,51,39,39,118.0
+target_range_hit_failure_2,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697927474975586,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697832107543945,,,,,,,,
+target_range_hit_failure_2,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,"[57, 58, 59]",22.697721481323242,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,1,70,"[248, 129, 257, 137]",1,1,40,"{""area"": 40, ""aspect"": 1.5, ""cx"": 251.875, ""cy"": 131.725, ""fill"": 0.7407407407407407, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}","{""area"": 40, ""aspect"": 1.5, ""cx"": 251.875, ""cy"": 131.725, ""fill"": 0.7407407407407407, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}",True,40,20608.41832652819,True,-30.43359375,60,-30.0,22.6982479095459,0.43359375,[60],22.6982479095459,"[25, 43, 294, 196]",72,41136,15837,51,43,40,121.0
+target_range_hit_failure_3,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69833755493164,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698392868041992,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69841957092285,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69841766357422,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69839096069336,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,7,69,"[248, 129, 257, 137]",1,1,41,"{""area"": 41, ""aspect"": 1.5, ""cx"": 251.97560975609755, ""cy"": 131.7560975609756, ""fill"": 0.7592592592592593, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}","{""area"": 41, ""aspect"": 1.5, ""cx"": 251.97560975609755, ""cy"": 131.7560975609756, ""fill"": 0.7592592592592593, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}",True,41,21123.80273822049,True,-30.46692073170731,60,-30.0,22.698341369628906,0.46692073170731163,[60],22.698341369628906,"[25, 43, 294, 196]",72,41137,16166,52,44,41,120.0
+target_range_hit_failure_3,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698274612426758,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698225021362305,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698192596435547,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69817543029785,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69817352294922,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,13,68,"[248, 129, 256, 137]",1,1,42,"{""area"": 42, ""aspect"": 1.5, ""cx"": 251.88095238095238, ""cy"": 131.76190476190476, ""fill"": 0.7777777777777778, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}","{""area"": 42, ""aspect"": 1.5, ""cx"": 251.88095238095238, ""cy"": 131.76190476190476, ""fill"": 0.7777777777777778, ""h"": 6, ""w"": 9, ""x"": 248, ""y"": 129}",True,42,21638.72287015801,True,-30.435565476190476,60,-30.0,22.69818687438965,0.4355654761904759,[60],22.69818687438965,"[25, 43, 294, 196]",81,41137,16617,61,45,42,120.0
+target_range_hit_failure_3,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,[60],22.69820785522461,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698240280151367,,,,,,,,
+target_range_hit_failure_3,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,[60],22.698280334472656,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,1,87,"[25, 120, 291, 173]",0,0,2,"{""area"": 1, ""aspect"": 1.0, ""cx"": 270.0, ""cy"": 120.0, ""fill"": 1.0, ""h"": 1, ""w"": 1, ""x"": 270, ""y"": 120}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",381,41157,14899,381,2,2,46.0
+target_best_candidate_failure,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,7,0,,0,0,0,,,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",27,41157,15118,27,0,0,27.0
+target_best_candidate_failure,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,13,361,"[25, 127, 293, 181]",0,0,6,"{""area"": 3, ""aspect"": 3.0, ""cx"": 275.0, ""cy"": 120.0, ""fill"": 1.0, ""h"": 1, ""w"": 3, ""x"": 274, ""y"": 120}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",878,41157,15385,878,6,6,56.0
+target_best_candidate_failure,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_best_candidate_failure,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,1,0,,0,0,0,,,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",3,41157,14769,3,0,0,24.0
+target_large_diff_failure,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,7,9,"[26, 140, 251, 169]",0,0,0,,,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",91,41157,14974,91,0,0,36.0
+target_large_diff_failure,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,13,2,"[26, 153, 33, 178]",0,0,1,"{""area"": 1, ""aspect"": 1.0, ""cx"": 144.0, ""cy"": 131.0, ""fill"": 1.0, ""h"": 1, ""w"": 1, ""x"": 144, ""y"": 131}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",25,41157,15184,25,1,1,29.0
+target_large_diff_failure,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_large_diff_failure,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,1,7,"[36, 120, 270, 158]",0,0,1,"{""area"": 1, ""aspect"": 1.0, ""cx"": 270.0, ""cy"": 120.0, ""fill"": 1.0, ""h"": 1, ""w"": 1, ""x"": 270, ""y"": 120}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",87,41157,14896,87,1,1,37.0
+target_standoff_candidate_failure,phase5d10_target_event,2,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,3,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,4,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,5,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,6,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,7,93,"[26, 128, 293, 173]",0,0,4,"{""area"": 3, ""aspect"": 3.0, ""cx"": 174.0, ""cy"": 130.0, ""fill"": 1.0, ""h"": 1, ""w"": 3, ""x"": 173, ""y"": 130}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",351,41157,15127,351,4,4,50.0
+target_standoff_candidate_failure,phase5d10_target_event,8,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,9,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,10,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,11,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,12,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,13,65,"[25, 128, 293, 172]",0,0,3,"{""area"": 2, ""aspect"": 2.0, ""cx"": 274.5, ""cy"": 120.0, ""fill"": 1.0, ""h"": 1, ""w"": 2, ""x"": 274, ""y"": 120}",,False,0,,False,,,,,,[],,"[25, 43, 294, 196]",272,41157,15370,272,3,3,41.0
+target_standoff_candidate_failure,phase5d10_target_event,14,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,15,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,
+target_standoff_candidate_failure,phase5d10_target_event,16,0,,0,0,0,,,False,0,,False,,,,,,[],,,,,,,,,

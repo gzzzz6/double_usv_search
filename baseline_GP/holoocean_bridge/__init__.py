@@ -30,4 +30,9 @@ from baseline_GP.holoocean_bridge.single_usv_policy_adapter import (
     plan_next_policy_cell,
     finalize_policy_step_after_holoocean,
 )
-
+from baseline_GP.holoocean_bridge.mainline_perception_adapter import (
+    MainlineAdapterStepInput,
+    MainlineAdapterStepOutput,
+    ReusableMainlinePerceptionAdapter,
+    mainline_perception_adapter_contract,
+)

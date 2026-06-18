@@ -1,0 +1,73 @@
+{
+  "phase_name": "phase5d5_reusable_mainline_perception_adapter",
+  "phase_completed": true,
+  "source_5d3_audit_all_passed": true,
+  "source_5d4_audit_all_passed": true,
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "observer_count": 2,
+  "observer_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "observer_agent_type": "SurfaceVessel",
+  "target_agent_type": "SphereAgent",
+  "teammate_agent_type": "SurfaceVessel",
+  "same_model_teammate_and_target": false,
+  "target_is_static": true,
+  "dynamic_target_tracking_enabled": false,
+  "non_sphere_like_target_expansion_enabled": false,
+  "adapter_class": "ReusableMainlinePerceptionAdapter",
+  "api_methods": [
+    "reset_episode",
+    "observe_step",
+    "build_detected_mask",
+    "fusion_trace"
+  ],
+  "adapter_api_contract_written": true,
+  "offline_replay_case_count": 4,
+  "mainline_case_count": 4,
+  "offline_trace_count": 16,
+  "mainline_trace_count": 65,
+  "offline_target_all_found_step": 1,
+  "offline_coexist_all_found_step": 1,
+  "offline_teammate_false_positive_steps": [],
+  "offline_duplicate_all_found_step": 3,
+  "mainline_target_terminated_reason": "all_found",
+  "mainline_target_time_to_all_found": 1,
+  "mainline_coexist_terminated_reason": "all_found",
+  "mainline_coexist_time_to_all_found": 1,
+  "mainline_teammate_terminated_reason": "max_iters",
+  "mainline_teammate_find_times": [
+    null
+  ],
+  "mainline_teammate_false_positive_steps": [],
+  "mainline_duplicate_terminated_reason": "all_found",
+  "mainline_duplicate_time_to_all_found": 3,
+  "mainline_duplicate_detected_steps": [
+    3
+  ],
+  "mainline_duplicate_accepted_candidate_counts": [
+    2
+  ],
+  "mainline_duplicate_fused_candidate_counts": [
+    1
+  ],
+  "duplicate_observation_fused": true,
+  "mainline_update_found_mask_called": true,
+  "mainline_found_mask_updated_from_adapter": true,
+  "truth_flags_false": true,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "reliable_distance_limit_m": 35.0,
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "baseline_runtime_source_modified": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "production_module_created": false,
+  "wall_time_s": 1.977139,
+  "python_executable": "F:\\anaconda\\python.exe",
+  "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]"
+}

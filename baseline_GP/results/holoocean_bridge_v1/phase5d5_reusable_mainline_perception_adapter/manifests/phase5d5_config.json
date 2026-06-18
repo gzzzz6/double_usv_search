@@ -1,0 +1,68 @@
+{
+  "phase_name": "phase5d5_reusable_mainline_perception_adapter",
+  "phase_goal": "Make the Phase 5D-4 mainline perception adapter API explicit, reusable, and audited through offline replay plus mainline wrapper verification.",
+  "source_5d3_phase_name": "phase5d3_continuous_multistep_coop_search",
+  "source_5d3_audit_all_passed": true,
+  "source_5d3_event_count": 288,
+  "source_5d3_fusion_trace_count": 12,
+  "source_5d4_phase_name": "phase5d4_mainline_search_interface_coupling",
+  "source_5d4_audit_all_passed": true,
+  "source_5d4_target_time_to_all_found": 1,
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "observer_count": 2,
+  "observer_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "observer_agent_type": "SurfaceVessel",
+  "target_agent_type": "SphereAgent",
+  "teammate_agent_type": "SurfaceVessel",
+  "same_model_teammate_and_target": false,
+  "target_is_static": true,
+  "dynamic_target_tracking_enabled": false,
+  "non_sphere_like_target_expansion_enabled": false,
+  "mainline_runtime_module": "baseline_GP.marine_knownmap_runtime_2usv",
+  "mainline_policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "mainline_run_function": "run_episode_two_usv_search_knownmap",
+  "adapter_strategy": "explicit reusable phase-local adapter API plus mainline runtime wrapper verification",
+  "adapter_class": "ReusableMainlinePerceptionAdapter",
+  "api_methods": [
+    "reset_episode",
+    "observe_step",
+    "build_detected_mask",
+    "fusion_trace"
+  ],
+  "baseline_runtime_source_modified": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "core_search_policy_modified": false,
+  "core_execution_modified": false,
+  "core_targets_modified": false,
+  "core_intensity_modified": false,
+  "core_safe_nav_modified": false,
+  "production_module_created": false,
+  "reliable_distance_limit_m": 35.0,
+  "perception_sensors": [
+    "RGBCamera",
+    "RangeFinderSensor"
+  ],
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "truth_role": "audit_only",
+  "max_policy_steps": 4,
+  "run_cases": [
+    "target",
+    "coexist",
+    "teammate_only",
+    "duplicate_replay"
+  ],
+  "pre_git_status": [
+    " M \"readme/HoloOcean_Phase5C_\\351\\235\\231\\346\\200\\201\\347\\233\\256\\346\\240\\207\\346\\204\\237\\347\\237\\245\\351\\223\\276\\347\\273\\264\\346\\212\\244\\346\\226\\207\\346\\241\\243.md\"",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d4_mainline_search_interface_coupling/",
+    "?? baseline_GP/results/holoocean_bridge_v1/phase5d5_reusable_mainline_perception_adapter/"
+  ]
+}

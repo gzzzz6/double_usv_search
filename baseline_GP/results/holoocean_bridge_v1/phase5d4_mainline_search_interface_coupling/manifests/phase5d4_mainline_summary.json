@@ -1,0 +1,88 @@
+{
+  "phase_name": "phase5d4_mainline_search_interface_coupling",
+  "phase_completed": true,
+  "source_5d3_audit_all_passed": true,
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "observer_count": 2,
+  "observer_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "observer_agent_type": "SurfaceVessel",
+  "target_agent_type": "SphereAgent",
+  "teammate_agent_type": "SurfaceVessel",
+  "same_model_teammate_and_target": false,
+  "target_is_static": true,
+  "dynamic_target_tracking_enabled": false,
+  "non_sphere_like_target_expansion_enabled": false,
+  "mainline_runtime_module": "baseline_GP.marine_knownmap_runtime_2usv",
+  "mainline_policy_name": "marine_knownmap_path_v2_infosampled_2usv",
+  "mainline_run_function": "run_episode_two_usv_search_knownmap",
+  "mainline_detection_callable": "detect_targets",
+  "mainline_update_callable": "update_found_mask",
+  "adapter_strategy": "runtime detect_targets replacement plus update_found_mask trace wrapper",
+  "run_count": 4,
+  "adapter_trace_count": 26,
+  "mainline_trace_count": 13,
+  "all_runs_launch_ok": true,
+  "run_errors": {
+    "target": "",
+    "coexist": "",
+    "teammate_only": "",
+    "duplicate_replay": ""
+  },
+  "target_terminated_reason": "all_found",
+  "target_success_all_found": true,
+  "target_completed_steps": 1,
+  "target_find_times": [
+    1
+  ],
+  "target_time_to_all_found": 1,
+  "coexist_terminated_reason": "all_found",
+  "coexist_success_all_found": true,
+  "coexist_completed_steps": 1,
+  "coexist_find_times": [
+    1
+  ],
+  "teammate_only_terminated_reason": "max_iters",
+  "teammate_only_success_all_found": false,
+  "teammate_only_completed_steps": 4,
+  "teammate_only_find_times": [
+    null
+  ],
+  "teammate_false_positive_steps": [],
+  "duplicate_replay_terminated_reason": "all_found",
+  "duplicate_replay_success_all_found": true,
+  "duplicate_replay_completed_steps": 3,
+  "duplicate_replay_find_times": [
+    3
+  ],
+  "duplicate_replay_detected_steps": [
+    3
+  ],
+  "duplicate_replay_fused_candidate_counts": [
+    1
+  ],
+  "duplicate_replay_accepted_candidate_counts": [
+    2
+  ],
+  "duplicate_observation_fused": true,
+  "mainline_update_found_mask_called": true,
+  "mainline_found_mask_updated_from_adapter": true,
+  "mainline_all_found_driven_by_adapter": true,
+  "teammate_only_no_false_positive": true,
+  "truth_flags_false": true,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "reliable_distance_limit_m": 35.0,
+  "semantic_sensor_used_for_detection": false,
+  "sonar_used": false,
+  "baseline_runtime_source_modified": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "wall_time_s": 4.235297,
+  "python_executable": "F:\\anaconda\\python.exe",
+  "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]"
+}

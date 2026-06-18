@@ -1,0 +1,79 @@
+{
+  "module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+  "adapter_class": "ReusableMainlinePerceptionAdapter",
+  "input_dataclass": "MainlineAdapterStepInput",
+  "output_dataclass": "MainlineAdapterStepOutput",
+  "methods": [
+    {
+      "name": "reset_episode",
+      "inputs": [
+        "episode_id"
+      ],
+      "outputs": [],
+      "semantic": "clear per-episode adapter state"
+    },
+    {
+      "name": "observe_step",
+      "inputs": [
+        "run_kind",
+        "step_index",
+        "target_count",
+        "found_mask_before",
+        "per_agent_events",
+        "candidate_fusion_result",
+        "known_teammates",
+        "force_detect"
+      ],
+      "outputs": [
+        "MainlineAdapterStepOutput"
+      ],
+      "semantic": "convert per-agent events and fusion result into mainline detected_mask/shared_found fields"
+    },
+    {
+      "name": "build_detected_mask",
+      "inputs": [
+        "step_index",
+        "target_count"
+      ],
+      "outputs": [
+        "np.ndarray[bool]"
+      ],
+      "semantic": "return the detected_mask expected by baseline_GP mainline detect_targets"
+    },
+    {
+      "name": "fusion_trace",
+      "inputs": [],
+      "outputs": [
+        "list[dict]"
+      ],
+      "semantic": "return adapter output trace for audit"
+    }
+  ],
+  "adapter_input_fields": [
+    "per_agent_events",
+    "candidate_fusion_result",
+    "step_index",
+    "target_count",
+    "found_mask_before",
+    "known_teammates"
+  ],
+  "adapter_output_fields": [
+    "detected_mask",
+    "shared_found",
+    "new_found_candidate_count",
+    "found_update_trace",
+    "truth_used_for_detection"
+  ],
+  "truth_policy": "truth is audit-only and is not an adapter input needed for detection",
+  "target_agent_type": "SphereAgent",
+  "teammate_agent_type": "SurfaceVessel",
+  "observer_agent_type": "SurfaceVessel",
+  "observer_agent_names": [
+    "sv0",
+    "sv1"
+  ],
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "reliable_distance_limit_m": 35.0,
+  "production_module_created": true,
+  "phase_local_only": false
+}

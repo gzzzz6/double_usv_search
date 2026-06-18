@@ -1,0 +1,2345 @@
+[
+  {
+    "run_kind": "target",
+    "step_index": 1,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 1,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 600,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 1,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 2,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 2,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 888,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 2,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 3,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 3,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 704,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 3,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 4,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 4,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 544,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 4,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 5,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 5,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 720,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 5,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 6,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 6,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 720,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 6,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 7,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 7,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 552,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 7,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 8,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 8,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 808,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 8,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 9,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 9,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 680,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 9,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 10,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 10,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 552,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 10,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 11,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 11,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 784,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 11,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 12,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 12,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 672,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 12,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 13,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 13,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 664,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 13,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 14,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 14,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 664,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 14,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 15,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 15,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 592,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 15,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 16,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 16,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 728,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 16,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 17,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 17,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 704,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 17,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 18,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 18,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 576,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 18,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 19,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 19,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 45,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 45,
+      "source_per_agent_event_count": 696,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 19,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "target",
+    "step_index": 20,
+    "detected_mask": [
+      true
+    ],
+    "shared_found": true,
+    "accepted_candidate_count": 56,
+    "fused_candidate_count": 1,
+    "fused_candidates": [
+      {
+        "cluster_id": 0,
+        "candidate_count": 56,
+        "reporter_usv_ids": [
+          "sv0"
+        ],
+        "positions": [
+          [
+            -269.592635926372,
+            220.73505245508164,
+            0.0
+          ],
+          [
+            -269.66718300256974,
+            220.63654761230353,
+            0.0
+          ],
+          [
+            -269.5839865368068,
+            220.75168323105652,
+            0.0
+          ],
+          [
+            -269.66921593922405,
+            220.6350510471259,
+            0.0
+          ],
+          [
+            -269.5910415920285,
+            220.73957362589846,
+            0.0
+          ],
+          [
+            -269.6879027484108,
+            220.61750931982002,
+            0.0
+          ],
+          [
+            -269.61458417869244,
+            220.7025404263138,
+            0.0
+          ],
+          [
+            -269.5449326245682,
+            220.85334253778126,
+            0.0
+          ],
+          [
+            -269.65551481453343,
+            220.65128817611398,
+            0.0
+          ],
+          [
+            -269.5895129355352,
+            220.74463279524718,
+            0.0
+          ],
+          [
+            -269.52833968912927,
+            220.9643719605869,
+            0.0
+          ],
+          [
+            -269.6534542110302,
+            220.6548902208271,
+            0.0
+          ],
+          [
+            -269.59429629281635,
+            220.73796320162577,
+            0.0
+          ],
+          [
+            -269.5373189935678,
+            220.89379117701213,
+            0.0
+          ],
+          [
+            -269.6825554842931,
+            220.62634356009758,
+            0.0
+          ],
+          [
+            -269.6304910841517,
+            220.68546074206975,
+            0.0
+          ],
+          [
+            -269.57969298257416,
+            220.76931562381947,
+            0.0
+          ],
+          [
+            -269.57765897697493,
+            220.86569784418057,
+            0.0
+          ],
+          [
+            -269.7277984542961,
+            220.63692400859244,
+            0.0
+          ],
+          [
+            -269.8875138159592,
+            220.55587441521766,
+            0.0
+          ],
+          [
+            -270.0634555689386,
+            220.54525230434191,
+            0.0
+          ],
+          [
+            -270.2568879670171,
+            220.6238260738012,
+            0.0
+          ],
+          [
+            -270.21535342326774,
+            220.60848856852817,
+            0.0
+          ],
+          [
+            -270.19154412559755,
+            220.60647179423844,
+            0.0
+          ],
+          [
+            -270.185033747747,
+            220.61410730265447,
+            0.0
+          ],
+          [
+            -270.1952158313194,
+            220.63082558479664,
+            0.0
+          ],
+          [
+            -270.2213043684234,
+            220.6592366177636,
+            0.0
+          ],
+          [
+            -270.26207609483833,
+            220.70671272860517,
+            0.0
+          ],
+          [
+            -270.3158568347277,
+            220.7947726650102,
+            0.0
+          ],
+          [
+            -270.1259844039005,
+            220.64908844771577,
+            0.0
+          ],
+          [
+            -270.2049947901281,
+            220.70739709143726,
+            0.0
+          ],
+          [
+            -270.2918538929052,
+            220.83741607065875,
+            0.0
+          ],
+          [
+            -270.1311558822865,
+            220.69280275102736,
+            0.0
+          ],
+          [
+            -270.23532972581006,
+            220.79789741598253,
+            0.0
+          ],
+          [
+            -270.0846425103995,
+            220.70252735383934,
+            0.0
+          ],
+          [
+            -270.20011671021587,
+            220.79925310322992,
+            0.0
+          ],
+          [
+            -270.05488474699814,
+            220.7196860517092,
+            0.0
+          ],
+          [
+            -270.176049423997,
+            220.81073288166536,
+            0.0
+          ],
+          [
+            -270.0311370048524,
+            220.7352301083383,
+            0.0
+          ],
+          [
+            -270.1531939618312,
+            220.81473611310096,
+            0.0
+          ],
+          [
+            -270.00316320196674,
+            220.7440624557886,
+            0.0
+          ],
+          [
+            -270.1220854561666,
+            220.8004231868222,
+            0.0
+          ],
+          [
+            -269.96104902375686,
+            220.7476371710068,
+            0.0
+          ],
+          [
+            -270.0735308383379,
+            220.7712905057557,
+            0.0
+          ],
+          [
+            -270.1748496795471,
+            220.87833374872696,
+            0.0
+          ],
+          [
+            -269.9987170568611,
+            220.74240613743348,
+            0.0
+          ],
+          [
+            -270.09176804125775,
+            220.77203638201695,
+            0.0
+          ],
+          [
+            -270.1740591608086,
+            220.85377422317302,
+            0.0
+          ],
+          [
+            -269.9701495988043,
+            220.7227922069738,
+            0.0
+          ],
+          [
+            -270.0412814026116,
+            220.72918860723033,
+            0.0
+          ],
+          [
+            -270.1031772428969,
+            220.75288062035727,
+            0.0
+          ],
+          [
+            -270.1561655806704,
+            220.79123748892405,
+            0.0
+          ],
+          [
+            -270.2002317971349,
+            220.84608197240271,
+            0.0
+          ],
+          [
+            -270.23377278013834,
+            220.94283339031887,
+            0.0
+          ],
+          [
+            -269.97962150717893,
+            220.6839005894109,
+            0.0
+          ],
+          [
+            -270.00404358238814,
+            220.6810407881107,
+            0.0
+          ]
+        ],
+        "fused_world_position": [
+          -269.95498870087965,
+          220.73168275863696,
+          0.0
+        ],
+        "target_position_error_m": 0.27206646074290564,
+        "confirmed_static_target_candidate_for_audit": true
+      }
+    ],
+    "new_found_candidate_count": 1,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_target",
+      "episode_id": "phase5d15_target",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 20,
+      "source_shared_found": true,
+      "source_raw_sensor_detection_count": 74,
+      "source_accepted_candidate_count": 56,
+      "source_fused_candidate_count": 1,
+      "source_teammate_rejected_count": 18,
+      "source_per_agent_event_count": 736,
+      "source_accepted_event_count": 56,
+      "source_fused_world_position_first_cluster": [
+        -269.95498870087965,
+        220.73168275863696,
+        0.0
+      ],
+      "source_reporter_usv_ids_first_cluster": [
+        "sv0"
+      ],
+      "known_teammate_count": 2,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        true
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 20,
+    "detected_mask_returned_to_mainline": [
+      true
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 1,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 1,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 600,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 1,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 2,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 2,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 888,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 2,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 3,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 3,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 704,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 3,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 4,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 4,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 544,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 4,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 5,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 5,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 720,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 5,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 6,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 6,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 720,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 6,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 7,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 7,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 552,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 7,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 8,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 8,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 808,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 8,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 9,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 9,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 680,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 9,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 10,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 10,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 552,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 10,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 11,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 11,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 784,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 11,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 12,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 12,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 672,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 12,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 13,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 13,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 664,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 13,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 14,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 14,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 664,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 14,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 15,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 15,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 592,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 15,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 16,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 16,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 18,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 18,
+      "source_per_agent_event_count": 728,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 16,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 17,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 17,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 704,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 17,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 18,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 18,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 576,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 18,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 19,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 19,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 696,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 19,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  },
+  {
+    "run_kind": "teammate_only",
+    "step_index": 20,
+    "detected_mask": [
+      false
+    ],
+    "shared_found": false,
+    "accepted_candidate_count": 0,
+    "fused_candidate_count": 0,
+    "fused_candidates": [],
+    "new_found_candidate_count": 0,
+    "found_update_trace": {
+      "adapter_id": "phase5d15_teammate_only",
+      "episode_id": "phase5d15_teammate_only",
+      "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+      "source_policy_step": 20,
+      "source_shared_found": false,
+      "source_raw_sensor_detection_count": 0,
+      "source_accepted_candidate_count": 0,
+      "source_fused_candidate_count": 0,
+      "source_teammate_rejected_count": 0,
+      "source_per_agent_event_count": 736,
+      "source_accepted_event_count": 0,
+      "source_fused_world_position_first_cluster": null,
+      "source_reporter_usv_ids_first_cluster": [],
+      "known_teammate_count": 3,
+      "found_mask_before_adapter": [
+        false
+      ],
+      "detected_mask_from_adapter": [
+        false
+      ],
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "detection_source": "holoocean_sensor_event_candidate_fusion"
+    },
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false,
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "mainline_step": 20,
+    "detected_mask_returned_to_mainline": [
+      false
+    ],
+    "live_capture_primary_detection_source": true,
+    "replay_events_used_for_detection": false,
+    "planned_path_source": "baseline_GP_mainline_planner"
+  }
+]

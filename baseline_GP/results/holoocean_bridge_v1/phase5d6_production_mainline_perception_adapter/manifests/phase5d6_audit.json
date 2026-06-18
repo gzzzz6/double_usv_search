@@ -1,0 +1,53 @@
+{
+  "phase_name": "phase5d6_production_mainline_perception_adapter",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "production_contract_parse_ok": true,
+    "migration_manifest_parse_ok": true,
+    "offline_trace_parse_ok": true,
+    "mainline_trace_parse_ok": true,
+    "mainline_results_parse_ok": true,
+    "live_capture_eval_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_audits_passed": true,
+    "production_module_created_and_exported": true,
+    "production_import_path_used": true,
+    "api_contract_complete": true,
+    "production_module_is_adapter_only": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "offline_regression_preserves_5d5_semantics": true,
+    "mainline_wrapper_preserves_5d5_semantics": true,
+    "teammate_only_no_false_positive": true,
+    "duplicate_observation_fused": true,
+    "mainline_update_found_mask_original_called": true,
+    "adapter_outputs_are_mainline_ready": true,
+    "truth_flags_false": true,
+    "reliable_distance_boundary_35m": true,
+    "no_semantic_or_sonar_detection": true,
+    "core_runtime_and_search_algorithm_not_modified": true,
+    "production_bridge_changes_are_declared": true,
+    "live_capture_boundary_recorded": true,
+    "base_py_compile_ok": true
+  },
+  "metrics": {
+    "adapter_module": "baseline_GP.holoocean_bridge.mainline_perception_adapter",
+    "production_module_created": true,
+    "package_export_ok": true,
+    "offline_target_all_found_step": 1,
+    "mainline_target_time_to_all_found": 1,
+    "mainline_coexist_time_to_all_found": 1,
+    "mainline_teammate_false_positive_steps": [],
+    "mainline_duplicate_detected_steps": [
+      3
+    ],
+    "duplicate_observation_fused": true,
+    "offline_trace_count": 16,
+    "mainline_trace_count": 65,
+    "live_capture_long_term_callback_integrated": false
+  },
+  "all_passed": true
+}

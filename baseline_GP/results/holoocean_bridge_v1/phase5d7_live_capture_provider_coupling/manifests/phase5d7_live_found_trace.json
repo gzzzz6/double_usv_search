@@ -1,0 +1,38 @@
+[
+  {
+    "run_kind": "target",
+    "step_index": 1,
+    "new_found_indices": [
+      0
+    ],
+    "found_mask_after": [
+      true
+    ],
+    "find_times_after": [
+      1
+    ],
+    "all_found_after": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  },
+  {
+    "run_kind": "coexist",
+    "step_index": 1,
+    "new_found_indices": [
+      0
+    ],
+    "found_mask_after": [
+      true
+    ],
+    "find_times_after": [
+      1
+    ],
+    "all_found_after": true,
+    "truth_used_for_detection": false,
+    "actor_truth_used_for_detection": false,
+    "target_truth_used_for_detection": false,
+    "teammate_truth_used_for_detection": false
+  }
+]

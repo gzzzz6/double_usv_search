@@ -1,0 +1,31 @@
+{
+  "phase_name": "phase5d6_production_mainline_perception_adapter",
+  "phase_decision": "complete production adapter module first",
+  "long_term_live_capture_callback_integrated": false,
+  "live_capture_deferred_to_next_phase": true,
+  "adapter_ready_for_live_capture_provider": true,
+  "required_live_capture_provider_inputs": [
+    "run_kind",
+    "step_index",
+    "target_count",
+    "found_mask_before",
+    "per_agent_events",
+    "candidate_fusion_result",
+    "known_teammates"
+  ],
+  "required_callback_chain": [
+    "baseline_GP planner step",
+    "HoloOcean SurfaceVessel movement",
+    "HoloOcean live sensor capture",
+    "per-agent SphereAgent detection event",
+    "candidate fusion",
+    "ReusableMainlinePerceptionAdapter.observe_step",
+    "build_detected_mask",
+    "baseline_GP update_found_mask",
+    "found_mask/all_found termination"
+  ],
+  "current_regression_source": "phase5d3_recorded_per_agent_events_and_candidate_fusion",
+  "truth_policy": "truth audit-only; truth is not a live detection input",
+  "dynamic_target_tracking_enabled": false,
+  "non_sphere_like_target_expansion_enabled": false
+}

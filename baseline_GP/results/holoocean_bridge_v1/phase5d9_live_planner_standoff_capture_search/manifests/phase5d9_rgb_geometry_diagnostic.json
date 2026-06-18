@@ -1,0 +1,730 @@
+{
+  "phase_name": "phase5d9_live_planner_standoff_capture_search",
+  "diagnostic_name": "phase5d9_rgb_geometry_diagnostic",
+  "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+  "target_agent_type": "SphereAgent",
+  "observer_agent_type": "SurfaceVessel",
+  "target_is_static": true,
+  "dynamic_target_tracking_enabled": false,
+  "non_sphere_like_target_expansion_enabled": false,
+  "baseline_runtime_source_modified": false,
+  "search_decision_algorithm_modified": false,
+  "existing_holoocean_bridge_modified": false,
+  "truth_used_for_detection": false,
+  "actor_truth_used_for_detection": false,
+  "target_truth_used_for_detection": false,
+  "teammate_truth_used_for_detection": false,
+  "case_count": 7,
+  "accepted_case_names": [
+    "origin_5d7_sv0_like",
+    "origin_5d1a_front_30m",
+    "planner_translated_5d7_sv0_like",
+    "planner_front_center_30m",
+    "planner_front_center_20m",
+    "planner_front_center_10m",
+    "map_center_front_30m"
+  ],
+  "accepted_case_count": 7,
+  "origin_5d7_like_accepted": true,
+  "planner_translated_5d7_like_accepted": true,
+  "planner_front_center_30m_accepted": true,
+  "wall_time_s": 112.731458,
+  "python_executable": "C:\\Users\\32022\\.conda\\envs\\holo\\python.exe",
+  "python_version": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+  "rows": [
+    {
+      "case_name": "origin_5d7_sv0_like",
+      "case_role": "known_good_relative_geometry_near_origin",
+      "observer_world_location": [
+        2.0,
+        -6.0,
+        0.0
+      ],
+      "target_world_location": [
+        31.0,
+        0.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 29.61418578992169,
+      "nominal_target_bearing_deg": 11.689369175439193,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 13,
+      "rgb_changed_pixels": 18,
+      "rgb_change_bbox_xyxy": [
+        124,
+        127,
+        129,
+        132
+      ],
+      "sphere_blob_candidate_count": 1,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 19,
+      "sphere_blob_largest": {
+        "x": 124,
+        "y": 127,
+        "w": 6,
+        "h": 4,
+        "area": 19,
+        "aspect": 1.5,
+        "fill": 0.7916666666666666,
+        "cx": 126.42105263157895,
+        "cy": 128.52631578947367
+      },
+      "sphere_blob_local_best": {
+        "x": 124,
+        "y": 127,
+        "w": 6,
+        "h": 4,
+        "area": 19,
+        "aspect": 1.5,
+        "fill": 0.7916666666666666,
+        "cx": 126.42105263157895,
+        "cy": 128.52631578947367
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 19,
+      "local_blob_range_scaled_area": 16395.43711590259,
+      "matched": true,
+      "blob_yaw_deg": 11.123026315789474,
+      "matched_beam_index": 19,
+      "matched_beam_yaw_deg": 11.0,
+      "matched_range_m": 29.37546157836914,
+      "beam_yaw_error_deg": 0.12302631578947398,
+      "rangefinder_hit_beam_indices": [
+        18,
+        19
+      ],
+      "rangefinder_min_positive_range_m": 29.217336654663086,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 41,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 15150,
+      "diff_and_bright_roi_pixels": 41,
+      "diff_and_neutral_roi_pixels": 16,
+      "white_neutral_mask_pixels": 16,
+      "max_diff_roi": 54.0,
+      "mean_changed_rgb": [
+        228.65853658536585,
+        205.609756097561,
+        181.3170731707317
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d7_sv0_like_target_tick13.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d7_sv0_like_baseline_tick13.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d7_sv0_like_diff_tick13.png"
+    },
+    {
+      "case_name": "origin_5d1a_front_30m",
+      "case_role": "known_good_front_center_near_origin",
+      "observer_world_location": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "target_world_location": [
+        31.0,
+        0.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 30.0,
+      "nominal_target_bearing_deg": 0.0,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 7,
+      "rgb_changed_pixels": 18,
+      "rgb_change_bbox_xyxy": [
+        157,
+        126,
+        161,
+        131
+      ],
+      "sphere_blob_candidate_count": 0,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 19,
+      "sphere_blob_largest": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 19,
+        "aspect": 1.2,
+        "fill": 0.6333333333333333,
+        "cx": 159.42105263157896,
+        "cy": 128.21052631578948
+      },
+      "sphere_blob_local_best": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 19,
+        "aspect": 1.2,
+        "fill": 0.6333333333333333,
+        "cx": 159.42105263157896,
+        "cy": 128.21052631578948
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 19,
+      "local_blob_range_scaled_area": 16668.19421249586,
+      "matched": true,
+      "blob_yaw_deg": 0.19177631578946971,
+      "matched_beam_index": 30,
+      "matched_beam_yaw_deg": 0.0,
+      "matched_range_m": 29.61880111694336,
+      "beam_yaw_error_deg": 0.19177631578946971,
+      "rangefinder_hit_beam_indices": [
+        30
+      ],
+      "rangefinder_min_positive_range_m": 29.61880111694336,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 26,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 15280,
+      "diff_and_bright_roi_pixels": 26,
+      "diff_and_neutral_roi_pixels": 15,
+      "white_neutral_mask_pixels": 15,
+      "max_diff_roi": 52.0,
+      "mean_changed_rgb": [
+        221.84615384615384,
+        203.53846153846155,
+        184.65384615384616
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d1a_front_30m_target_tick7.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d1a_front_30m_baseline_tick7.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_origin_5d1a_front_30m_diff_tick7.png"
+    },
+    {
+      "case_name": "planner_translated_5d7_sv0_like",
+      "case_role": "same_relative_geometry_translated_to_phase5d8_target_area",
+      "observer_world_location": [
+        -299.0,
+        215.0,
+        0.0
+      ],
+      "target_world_location": [
+        -270.0,
+        221.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 29.61418578992169,
+      "nominal_target_bearing_deg": 11.689369175439193,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 13,
+      "rgb_changed_pixels": 25,
+      "rgb_change_bbox_xyxy": [
+        124,
+        127,
+        129,
+        131
+      ],
+      "sphere_blob_candidate_count": 1,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 20,
+      "sphere_blob_largest": {
+        "x": 124,
+        "y": 127,
+        "w": 6,
+        "h": 4,
+        "area": 20,
+        "aspect": 1.5,
+        "fill": 0.8333333333333334,
+        "cx": 126.3,
+        "cy": 128.5
+      },
+      "sphere_blob_local_best": {
+        "x": 124,
+        "y": 127,
+        "w": 6,
+        "h": 4,
+        "area": 20,
+        "aspect": 1.5,
+        "fill": 0.8333333333333334,
+        "cx": 126.3,
+        "cy": 128.5
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 20,
+      "local_blob_range_scaled_area": 17262.626792920055,
+      "matched": true,
+      "blob_yaw_deg": 11.163125,
+      "matched_beam_index": 19,
+      "matched_beam_yaw_deg": 11.0,
+      "matched_range_m": 29.37909698486328,
+      "beam_yaw_error_deg": 0.16312500000000085,
+      "rangefinder_hit_beam_indices": [
+        18,
+        19
+      ],
+      "rangefinder_min_positive_range_m": 29.219493865966797,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 29,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 15211,
+      "diff_and_bright_roi_pixels": 29,
+      "diff_and_neutral_roi_pixels": 20,
+      "white_neutral_mask_pixels": 20,
+      "max_diff_roi": 85.0,
+      "mean_changed_rgb": [
+        223.13793103448276,
+        208.48275862068965,
+        192.3793103448276
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_translated_5d7_sv0_like_target_tick13.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_translated_5d7_sv0_like_baseline_tick13.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_translated_5d7_sv0_like_diff_tick13.png"
+    },
+    {
+      "case_name": "planner_front_center_30m",
+      "case_role": "phase5d9_standoff_center_30m",
+      "observer_world_location": [
+        -300.0,
+        221.0,
+        0.0
+      ],
+      "target_world_location": [
+        -270.0,
+        221.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 30.0,
+      "nominal_target_bearing_deg": 0.0,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 7,
+      "rgb_changed_pixels": 347,
+      "rgb_change_bbox_xyxy": [
+        25,
+        126,
+        293,
+        191
+      ],
+      "sphere_blob_candidate_count": 1,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 28,
+      "sphere_blob_largest": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 22,
+        "aspect": 1.2,
+        "fill": 0.7333333333333333,
+        "cx": 159.5,
+        "cy": 128.27272727272728
+      },
+      "sphere_blob_local_best": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 22,
+        "aspect": 1.2,
+        "fill": 0.7333333333333333,
+        "cx": 159.5,
+        "cy": 128.27272727272728
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 22,
+      "local_blob_range_scaled_area": 19297.78473499373,
+      "matched": true,
+      "blob_yaw_deg": 0.165625,
+      "matched_beam_index": 30,
+      "matched_beam_yaw_deg": 0.0,
+      "matched_range_m": 29.617090225219727,
+      "beam_yaw_error_deg": 0.165625,
+      "rangefinder_hit_beam_indices": [
+        30
+      ],
+      "rangefinder_min_positive_range_m": 29.617090225219727,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 787,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 15502,
+      "diff_and_bright_roi_pixels": 787,
+      "diff_and_neutral_roi_pixels": 28,
+      "white_neutral_mask_pixels": 28,
+      "max_diff_roi": 73.0,
+      "mean_changed_rgb": [
+        236.58576874205846,
+        198.44726810673444,
+        159.80813214739518
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_30m_target_tick7.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_30m_baseline_tick7.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_30m_diff_tick7.png"
+    },
+    {
+      "case_name": "planner_front_center_20m",
+      "case_role": "phase5d9_standoff_center_20m",
+      "observer_world_location": [
+        -290.0,
+        221.0,
+        0.0
+      ],
+      "target_world_location": [
+        -270.0,
+        221.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 20.0,
+      "nominal_target_bearing_deg": 0.0,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 7,
+      "rgb_changed_pixels": 58,
+      "rgb_change_bbox_xyxy": [
+        156,
+        129,
+        163,
+        137
+      ],
+      "sphere_blob_candidate_count": 1,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 52,
+      "sphere_blob_largest": {
+        "x": 156,
+        "y": 129,
+        "w": 8,
+        "h": 8,
+        "area": 50,
+        "aspect": 1.0,
+        "fill": 0.78125,
+        "cx": 159.5,
+        "cy": 132.64
+      },
+      "sphere_blob_local_best": {
+        "x": 156,
+        "y": 129,
+        "w": 8,
+        "h": 8,
+        "area": 50,
+        "aspect": 1.0,
+        "fill": 0.78125,
+        "cx": 159.5,
+        "cy": 132.64
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 50,
+      "local_blob_range_scaled_area": 19225.593962346466,
+      "matched": true,
+      "blob_yaw_deg": 0.165625,
+      "matched_beam_index": 30,
+      "matched_beam_yaw_deg": 0.0,
+      "matched_range_m": 19.60897445678711,
+      "beam_yaw_error_deg": 0.165625,
+      "rangefinder_hit_beam_indices": [
+        29,
+        30,
+        31
+      ],
+      "rangefinder_min_positive_range_m": 19.60897445678711,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 66,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 15606,
+      "diff_and_bright_roi_pixels": 66,
+      "diff_and_neutral_roi_pixels": 52,
+      "white_neutral_mask_pixels": 52,
+      "max_diff_roi": 89.0,
+      "mean_changed_rgb": [
+        227.4090909090909,
+        215.03030303030303,
+        202.27272727272728
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_20m_target_tick7.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_20m_baseline_tick7.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_20m_diff_tick7.png"
+    },
+    {
+      "case_name": "planner_front_center_10m",
+      "case_role": "phase5d9_standoff_center_10m",
+      "observer_world_location": [
+        -280.0,
+        221.0,
+        0.0
+      ],
+      "target_world_location": [
+        -270.0,
+        221.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 10.0,
+      "nominal_target_bearing_deg": 0.0,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 13,
+      "rgb_changed_pixels": 338,
+      "rgb_change_bbox_xyxy": [
+        25,
+        129,
+        293,
+        171
+      ],
+      "sphere_blob_candidate_count": 1,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 201,
+      "sphere_blob_largest": {
+        "x": 152,
+        "y": 139,
+        "w": 16,
+        "h": 16,
+        "area": 199,
+        "aspect": 1.0,
+        "fill": 0.77734375,
+        "cx": 159.4824120603015,
+        "cy": 146.80402010050253
+      },
+      "sphere_blob_local_best": {
+        "x": 152,
+        "y": 139,
+        "w": 16,
+        "h": 16,
+        "area": 199,
+        "aspect": 1.0,
+        "fill": 0.77734375,
+        "cx": 159.4824120603015,
+        "cy": 146.80402010050253
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 199,
+      "local_blob_range_scaled_area": 18218.52206230651,
+      "matched": true,
+      "blob_yaw_deg": 0.17145100502512847,
+      "matched_beam_index": 30,
+      "matched_beam_yaw_deg": 0.0,
+      "matched_range_m": 9.568195343017578,
+      "beam_yaw_error_deg": 0.17145100502512847,
+      "rangefinder_hit_beam_indices": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "rangefinder_min_positive_range_m": 9.568195343017578,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 600,
+      "bright_roi_pixels": 41142,
+      "neutral_roi_pixels": 16306,
+      "diff_and_bright_roi_pixels": 585,
+      "diff_and_neutral_roi_pixels": 198,
+      "white_neutral_mask_pixels": 197,
+      "max_diff_roi": 93.0,
+      "mean_changed_rgb": [
+        231.53,
+        205.03833333333333,
+        179.07833333333335
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_10m_target_tick13.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_10m_baseline_tick13.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_planner_front_center_10m_diff_tick13.png"
+    },
+    {
+      "case_name": "map_center_front_30m",
+      "case_role": "world_midpoint_front_center_30m",
+      "observer_world_location": [
+        -30.0,
+        0.0,
+        0.0
+      ],
+      "target_world_location": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "observer_rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_control_scheme": 0,
+      "dense_fan": true,
+      "nominal_target_range_m": 30.0,
+      "nominal_target_bearing_deg": 0.0,
+      "baseline_launch_ok": true,
+      "target_launch_ok": true,
+      "baseline_error": "",
+      "target_error": "",
+      "truth_used_for_detection": false,
+      "actor_truth_used_for_detection": false,
+      "target_truth_used_for_detection": false,
+      "teammate_truth_used_for_detection": false,
+      "tick": 7,
+      "rgb_changed_pixels": 46,
+      "rgb_change_bbox_xyxy": [
+        64,
+        127,
+        292,
+        161
+      ],
+      "sphere_blob_candidate_count": 0,
+      "sphere_blob_local_candidate_count": 1,
+      "sphere_blob_white_neutral_changed_pixels": 20,
+      "sphere_blob_largest": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 19,
+        "aspect": 1.2,
+        "fill": 0.6333333333333333,
+        "cx": 159.47368421052633,
+        "cy": 128.0
+      },
+      "sphere_blob_local_best": {
+        "x": 157,
+        "y": 126,
+        "w": 6,
+        "h": 5,
+        "area": 19,
+        "aspect": 1.2,
+        "fill": 0.6333333333333333,
+        "cx": 159.47368421052633,
+        "cy": 128.0
+      },
+      "local_range_scaled_blob_present": true,
+      "local_blob_area": 19,
+      "local_blob_range_scaled_area": 16660.51188524933,
+      "matched": true,
+      "blob_yaw_deg": 0.17434210526315344,
+      "matched_beam_index": 30,
+      "matched_beam_yaw_deg": 0.0,
+      "matched_range_m": 29.611974716186523,
+      "beam_yaw_error_deg": 0.17434210526315344,
+      "rangefinder_hit_beam_indices": [
+        30
+      ],
+      "rangefinder_min_positive_range_m": 29.611974716186523,
+      "roi_xyxy": [
+        25,
+        43,
+        294,
+        196
+      ],
+      "diff_ge_threshold_roi_pixels": 132,
+      "bright_roi_pixels": 41157,
+      "neutral_roi_pixels": 14967,
+      "diff_and_bright_roi_pixels": 132,
+      "diff_and_neutral_roi_pixels": 20,
+      "white_neutral_mask_pixels": 20,
+      "max_diff_roi": 78.0,
+      "mean_changed_rgb": [
+        236.78030303030303,
+        207.9848484848485,
+        176.99242424242425
+      ],
+      "target_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_map_center_front_30m_target_tick7.png",
+      "baseline_rgb_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_map_center_front_30m_baseline_tick7.png",
+      "diff_preview_path": "baseline_GP\\results\\holoocean_bridge_v1\\phase5d9_live_planner_standoff_capture_search\\visuals\\phase5d9_rgb_diag_map_center_front_30m_diff_tick7.png"
+    }
+  ]
+}

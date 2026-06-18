@@ -1,0 +1,3 @@
+run_kind,step_index,new_found_indices,found_mask_after,find_times_after,all_found_after,truth_used_for_detection,actor_truth_used_for_detection,target_truth_used_for_detection,teammate_truth_used_for_detection
+target,1,[0],[true],[1],True,False,False,False,False
+coexist,1,[0],[true],[1],True,False,False,False,False

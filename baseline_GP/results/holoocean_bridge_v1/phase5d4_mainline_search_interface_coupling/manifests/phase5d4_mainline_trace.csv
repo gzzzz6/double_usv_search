@@ -1,0 +1,14 @@
+run_kind,update_call_index,mainline_step,source_policy_step,source_shared_found,source_accepted_candidate_count,source_fused_candidate_count,detected_mask,found_mask_before,found_mask_after,find_times_before,find_times_after,new_found_indices,shared_found,all_found_after_update,update_found_mask_original_called,truth_used_for_detection,actor_truth_used_for_detection,target_truth_used_for_detection,teammate_truth_used_for_detection
+target,1,0,0,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+target,2,1,1,True,1,1,[true],[false],[true],[null],[1],[0],True,True,True,False,False,False,False
+coexist,1,0,0,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+coexist,2,1,1,True,1,1,[true],[false],[true],[null],[1],[0],True,True,True,False,False,False,False
+teammate_only,1,0,0,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+teammate_only,2,1,1,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+teammate_only,3,2,2,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+teammate_only,4,3,3,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+teammate_only,5,4,4,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+duplicate_replay,1,0,0,False,0,0,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+duplicate_replay,2,1,1,True,1,1,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+duplicate_replay,3,2,2,True,1,1,[false],[false],[false],[null],[null],[],False,False,True,False,False,False,False
+duplicate_replay,4,3,3,True,2,1,[true],[false],[true],[null],[3],[0],True,True,True,False,False,False,False

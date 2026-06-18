@@ -1,0 +1,53 @@
+{
+  "phase_name": "phase5d4_mainline_search_interface_coupling",
+  "runtime_module_file": "F:\\pythonprojects\\baseline_GP\\marine_knownmap_runtime_2usv.py",
+  "core_update_function_module": "baseline_GP.core_targets",
+  "mainline_interface_points": [
+    {
+      "name": "state_initial_found_mask_and_find_times",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 1873,
+      "semantic": "mainline state initializes found_mask and find_times"
+    },
+    {
+      "name": "initial_team_detection_mask",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 1879,
+      "semantic": "initial per-USV detection masks are OR-ed into team_detected_mask"
+    },
+    {
+      "name": "initial_update_found_mask",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 1889,
+      "semantic": "initial team_detected_mask latches found targets through update_found_mask"
+    },
+    {
+      "name": "mainline_episode_loop",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 2964,
+      "semantic": "original planner/mainline loop"
+    },
+    {
+      "name": "mainline_step_team_detection_mask",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 3103,
+      "semantic": "per-step per-USV detections are OR-ed into team_detected_mask"
+    },
+    {
+      "name": "mainline_step_update_found_mask",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 3115,
+      "semantic": "mainline update_found_mask records new_found_indices and find_times"
+    },
+    {
+      "name": "mainline_all_found_termination",
+      "file": "baseline_GP/marine_knownmap_runtime_2usv.py",
+      "line": 2961,
+      "semantic": "np.all(found_mask) terminates the original mainline loop"
+    }
+  ],
+  "core_update_found_mask_source_contains_latch": true,
+  "adapter_strategy": "runtime detect_targets replacement plus update_found_mask trace wrapper",
+  "mainline_source_modified": false,
+  "truth_used_for_detection": false
+}

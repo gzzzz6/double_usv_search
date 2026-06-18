@@ -1,0 +1,87 @@
+{
+  "phase_name": "phase5d13_live_rgb_range_sync_fix",
+  "phase_completed": true,
+  "audit_conclusion": "live_rgb_range_sync_fix_closed_target_shared_found_update_found_mask_all_found",
+  "checks": {
+    "required_paths_exist": true,
+    "json_parse_ok": true,
+    "phase_name_matches": true,
+    "phase_goal_completed": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "live_planner_mainline_path": true,
+    "rgb_sync_fix_enabled_and_used": true,
+    "target_accepted_candidates_from_rgb_sync": true,
+    "candidate_fusion_shared_found": true,
+    "adapter_returned_mainline_detected_mask": true,
+    "original_update_found_mask_closed_all_found": true,
+    "teammate_negative_clean": true,
+    "truth_flags_false": true,
+    "core_runtime_and_search_algorithm_not_modified": true,
+    "outputs_in_independent_phase_dir": true,
+    "py_compile_ok": true
+  },
+  "metrics": {
+    "phase_status": "live_planner_callback_standoff_viewpoint_all_found_closed",
+    "target_all_found_step": 16,
+    "target_completed_steps": 16,
+    "target_accepted_candidate_from_rgb_sync_count": 3,
+    "target_accepted_candidate_from_rgb_sync_steps": [
+      16
+    ],
+    "rgb_sync_window_ticks": 8,
+    "rgb_sync_max_abs_target_offset_ticks": 8,
+    "rgb_sync_max_abs_baseline_offset_ticks": 8,
+    "mainline_update_found_mask_called_count": 36,
+    "teammate_false_positive_steps": [],
+    "max_reliable_detection_distance_observed_m": 23.052574157714844,
+    "accepted_sync_events": [
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 240,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 245,
+        "rgb_sync_baseline_tick": 245,
+        "rgb_sync_target_offset_ticks": 5,
+        "rgb_sync_baseline_offset_ticks": 5,
+        "matched_range_m": 23.052574157714844,
+        "rgb_changed_pixels": 81,
+        "rangefinder_hit_beam_indices": [
+          56
+        ]
+      },
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 241,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 245,
+        "rgb_sync_baseline_tick": 245,
+        "rgb_sync_target_offset_ticks": 4,
+        "rgb_sync_baseline_offset_ticks": 4,
+        "matched_range_m": 22.930021286010742,
+        "rgb_changed_pixels": 81,
+        "rangefinder_hit_beam_indices": [
+          58
+        ]
+      },
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 242,
+        "agent_id": "sv0",
+        "rgb_sync_target_tick": 245,
+        "rgb_sync_baseline_tick": 245,
+        "rgb_sync_target_offset_ticks": 3,
+        "rgb_sync_baseline_offset_ticks": 3,
+        "matched_range_m": 22.860334396362305,
+        "rgb_changed_pixels": 81,
+        "rangefinder_hit_beam_indices": [
+          60
+        ]
+      }
+    ],
+    "closing_update_steps": [
+      16
+    ]
+  },
+  "all_passed": true
+}

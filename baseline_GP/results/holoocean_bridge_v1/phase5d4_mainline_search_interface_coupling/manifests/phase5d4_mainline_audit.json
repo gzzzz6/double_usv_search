@@ -1,0 +1,47 @@
+{
+  "phase_name": "phase5d4_mainline_search_interface_coupling",
+  "checks": {
+    "required_paths_exist": true,
+    "config_parse_ok": true,
+    "interface_map_parse_ok": true,
+    "adapter_trace_parse_ok": true,
+    "mainline_trace_parse_ok": true,
+    "runtime_results_parse_ok": true,
+    "summary_parse_ok": true,
+    "git_status_parse_ok": true,
+    "phase_name_matches": true,
+    "source_5d3_audit_passed": true,
+    "target_and_teammate_types_correct": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "mainline_interface_mapped": true,
+    "adapter_strategy_is_runtime_only": true,
+    "all_runs_launch_ok": true,
+    "target_drives_mainline_all_found": true,
+    "coexist_drives_mainline_found": true,
+    "teammate_only_no_false_positive": true,
+    "duplicate_observation_fused_and_drives_mainline": true,
+    "mainline_update_found_mask_original_called": true,
+    "adapter_trace_uses_5d3_sensor_fusion": true,
+    "truth_flags_false": true,
+    "reliable_distance_boundary_35m": true,
+    "no_semantic_or_sonar_detection": true,
+    "core_algorithm_files_not_modified_by_phase": true,
+    "phase_limited_git_changes": true,
+    "base_py_compile_ok": true
+  },
+  "metrics": {
+    "recommended_rule_id": "sphere_blob_local_range_scaled_any_hit",
+    "target_terminated_reason": "all_found",
+    "target_time_to_all_found": 1,
+    "coexist_terminated_reason": "all_found",
+    "teammate_false_positive_steps": [],
+    "duplicate_replay_detected_steps": [
+      3
+    ],
+    "duplicate_observation_fused": true,
+    "adapter_trace_count": 26,
+    "mainline_trace_count": 13
+  },
+  "all_passed": true
+}

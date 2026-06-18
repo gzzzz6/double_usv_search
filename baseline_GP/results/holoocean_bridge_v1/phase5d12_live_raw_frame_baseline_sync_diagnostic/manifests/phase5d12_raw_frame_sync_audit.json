@@ -1,0 +1,97 @@
+{
+  "phase_name": "phase5d12_live_raw_frame_baseline_sync_diagnostic",
+  "diagnostic_name": "phase5d12_raw_frame_baseline_sync_diagnostic",
+  "diagnostic_audit_only": true,
+  "phase_completed": false,
+  "audit_conclusion": "rangefinder_hit_ticks_have_capture_containers_and_tight_baseline_pose_alignment_but_front_rgb_camera_frames_are_missing_on_target_and_baseline_sides",
+  "checks": {
+    "required_paths_exist": true,
+    "json_parse_ok": true,
+    "phase_name_matches": true,
+    "diagnostic_audit_only": true,
+    "phase_correctly_not_completed": true,
+    "scope_boundaries_ok": true,
+    "recommended_rule_reused": true,
+    "live_planner_callback_integrated": true,
+    "mainline_update_found_mask_called_but_not_updated": true,
+    "expected_range_hit_case_count": true,
+    "range_hit_rows_are_expected_ticks": true,
+    "range_hit_capture_containers_present": true,
+    "range_hit_rgb_frames_missing_on_both_sides": true,
+    "range_hit_recomputed_rgb_zero": true,
+    "range_hit_pose_alignment_tight": true,
+    "source_zero_rgb_not_recovered_by_recompute": true,
+    "rgb_positive_rows_have_visuals": true,
+    "teammate_negative_clean": true,
+    "truth_flags_false": true,
+    "core_runtime_and_search_algorithm_not_modified": true,
+    "summary_reports_core_unmodified": true,
+    "py_compile_ok": true
+  },
+  "metrics": {
+    "phase_status": "planner_live_callback_integrated_but_live_detection_all_found_not_closed",
+    "phase_completed": false,
+    "phase_goal_completed": false,
+    "raw_frame_sync_case_count": 11,
+    "raw_frame_sync_range_hit_case_count": 3,
+    "target_live_detection_success": false,
+    "target_all_found_step": null,
+    "mainline_update_found_mask_called_count": 40,
+    "mainline_found_mask_updated_from_live_adapter": false,
+    "teammate_false_positive_steps": [],
+    "range_hit_rows": [
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 240,
+        "tick_global": 5305,
+        "agent_id": "sv0",
+        "rangefinder_hit_beam_indices": [
+          56
+        ],
+        "target_capture_present": true,
+        "baseline_capture_present": true,
+        "exact_baseline_capture_present": true,
+        "target_rgb_present": false,
+        "baseline_rgb_present": false,
+        "target_vs_baseline_observer_distance_m": 0.0008793352987197211,
+        "rgb_changed_pixels_recomputed": 0,
+        "rangefinder_min_positive_range_m_recomputed": 23.03546142578125
+      },
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 241,
+        "tick_global": 5306,
+        "agent_id": "sv0",
+        "rangefinder_hit_beam_indices": [
+          58
+        ],
+        "target_capture_present": true,
+        "baseline_capture_present": true,
+        "exact_baseline_capture_present": true,
+        "target_rgb_present": false,
+        "baseline_rgb_present": false,
+        "target_vs_baseline_observer_distance_m": 0.0008793352987197211,
+        "rgb_changed_pixels_recomputed": 0,
+        "rangefinder_min_positive_range_m_recomputed": 22.922510147094727
+      },
+      {
+        "policy_step": 16,
+        "tick_in_policy_step": 242,
+        "tick_global": 5307,
+        "agent_id": "sv0",
+        "rangefinder_hit_beam_indices": [
+          60
+        ],
+        "target_capture_present": true,
+        "baseline_capture_present": true,
+        "exact_baseline_capture_present": true,
+        "target_rgb_present": false,
+        "baseline_rgb_present": false,
+        "target_vs_baseline_observer_distance_m": 0.0008793352987197211,
+        "rgb_changed_pixels_recomputed": 0,
+        "rangefinder_min_positive_range_m_recomputed": 22.854700088500977
+      }
+    ]
+  },
+  "all_passed": true
+}
