@@ -1,0 +1,44 @@
+# Phase 5E Bridge Clue Sensor Search Summary
+
+- Target-Only Demo: `False`
+- Audit Not Full: `False`
+- Target-Only Demo Goal Completed: `None`
+- Mainline Policy: `marine_knownmap_path_v2_infosampled_2usv`
+- Production Adapter Module: `baseline_GP.holoocean_bridge.mainline_perception_adapter`
+- Live Planner Callback Integrated: `True`
+- Bridge Clue Sensor Enabled: `True`
+- Bridge Clue Observation Count: `756`
+- Bridge Clue Rows Used For GP: `756`
+- Baseline Target-Induced Clue Used For GP: `False`
+- Clue Directly Updates Found Mask: `False`
+- RGB/RF Detection Updates Found Mask: `True`
+- RGB/RF Sync Fix Enabled: `True`
+- RGB/RF Sync Strategy: `multicamera_continuous_rolling_detector_scored_nearest_pair`
+- RGB Sync Window Ticks: `8`
+- RGB Sync Applied Count: `555`
+- Target Accepted Candidate From RGB Sync Count: `33`
+- Diagnostic Audit Only: `True`
+- Raw Frame Sync Case Count: `12`
+- Raw Frame Sync Range-Hit Case Count: `12`
+- Source-Zero RGB Recomputed-Positive Count: `0`
+- Planned Path Source: `baseline_GP_mainline_planner`
+- Preset Trajectory Used: `False`
+- Bridge Fan RangeFinder Sensor Count: `244`
+- Standoff Viewpoint Hold Enabled: `False`
+- Target Accepted Candidate From Standoff Hold: `False`
+- Post Arrival Scan Enabled: `False`
+- Target Accepted Candidate From Scan: `False`
+- Phase Status: `live_planner_callback_continuous_rolling_no_stop_scan_all_found_closed`
+- Phase Goal Completed: `True`
+- Target Initial Grid Cell: `[18, 13]`
+- Target Terminated Reason: `all_found`
+- Target All Found Step: `20`
+- Target Live Detection Success: `True`
+- Mainline Found Mask Updated From Live Adapter: `True`
+- Mainline All Found Driven By Live Adapter: `True`
+- Teammate False Positive Steps: `[]`
+- Update Found Mask Calls: `40`
+- Max Observed Detection Distance: `15.066311836242676`
+- Phase Stage Completion: `{'5E-0': {'status': 'completed', 'evidence': 'independent_phase_dir_and_protected_core_status'}, '5E-1': {'status': 'completed', 'evidence': 'bridge_clue_sensor_config_and_trace'}, '5E-2': {'status': 'completed', 'evidence': 'bridge_clue_observation_trace_and_summary_flags'}, '5E-3': {'status': 'completed', 'evidence': 'clue_trace_used_for_detection_false_and_rgb_rf_update_trace'}, '5E-4': {'status': 'pending_until_audit_script_runs', 'evidence': 'phase5e_audit_json_and_stage_report'}}`
+
+Phase 5E closed the static SphereAgent live search chain while GP clue came from HoloOcean bridge-local observations; rely on the separate audit before treating this as final evidence.

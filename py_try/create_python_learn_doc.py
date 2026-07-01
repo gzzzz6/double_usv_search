@@ -832,6 +832,358 @@ def build_doc():
         run = paragraph.add_run(question)
         set_font(run)
 
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第三阶段 · 第二节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：函数进阶：作用域、参数类型、模块化思维")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、作用域是什么")
+    add_body(doc, "作用域就是变量可以被访问的范围。变量定义在什么位置，决定了它能在哪些地方使用。")
+    add_code(doc, "x = 100\n\ndef test():\n    y = 200\n    print(x)\n    print(y)\n\ntest()")
+    add_body(doc, "这里 x 定义在函数外，是全局变量；y 定义在函数内，是局部变量。")
+    add_key(doc, "核心理解：函数内部可以读取外面的全局变量，但函数外面不能直接访问函数里的局部变量。")
+
+    add_heading(doc, "二、全局变量和局部变量")
+    add_body(doc, "定义在函数外的变量通常叫全局变量，定义在函数内的变量通常叫局部变量。")
+    add_code(doc, 'school = "清华大学"\n\ndef show_school():\n    print(school)\n\ndef test_local():\n    local_num = 100\n    print(local_num)\n\nshow_school()\ntest_local()')
+    add_body(doc, "show_school() 可以读取全局变量 school；test_local() 中的 local_num 只在这个函数内部有效。")
+    add_key(doc, "写函数时，尽量让函数内部自己处理局部变量；需要交给外部继续使用的结果，用 return 返回。")
+
+    add_heading(doc, "三、同名变量与遮蔽")
+    add_body(doc, "如果函数内部和函数外部有同名变量，函数内部会优先使用自己的局部变量。")
+    add_code(doc, 'name = "张三"\n\ndef show_name():\n    name = "李四"\n    print(name)\n\nshow_name()\nprint(name)')
+    add_body(doc, '运行后会先输出 "李四"，再输出 "张三"。说明函数内部的 name 不会直接修改外部的同名变量。')
+    add_key(doc, "可以先把它理解成：函数内部的同名变量会“遮住”外部变量。")
+
+    add_heading(doc, "四、位置参数")
+    add_body(doc, "位置参数就是按顺序传值。调用时第一个实参给第一个形参，第二个实参给第二个形参。")
+    add_code(doc, "def multiply(a, b):\n    return a * b\n\nprint(multiply(3, 4))")
+    add_body(doc, "这里 3 会传给 a，4 会传给 b。参数顺序写反，结果也可能变化。")
+
+    add_heading(doc, "五、默认参数")
+    add_body(doc, "默认参数就是参数先带一个默认值。调用时如果没传，就使用默认值。")
+    add_code(doc, "def power(num, exponent=2):\n    return num ** exponent\n\nprint(power(3))\nprint(power(2, 3))")
+    add_body(doc, "power(3) 相当于计算 3 的平方；power(2, 3) 则把 exponent 改成 3，计算 2 的 3 次方。")
+    add_key(doc, "默认参数很适合“多数时候用默认值，少数时候再改”的场景。")
+
+    add_heading(doc, "六、关键字参数")
+    add_body(doc, "关键字参数是在调用函数时明确写出参数名。这样代码更清楚，参数顺序也可以变化。")
+    add_code(doc, 'def show_student(name, age, city):\n    print(f"{name}，{age}，{city}")\n\nshow_student(age=18, city="北京", name="张三")')
+    add_body(doc, "调用时虽然顺序变了，但因为写了参数名，Python 仍然能正确对应。")
+    add_key(doc, "当参数较多时，关键字参数通常更容易读，也更不容易写错。")
+
+    add_heading(doc, "七、一个函数只做一件事")
+    add_body(doc, "写函数时，尽量让每个函数只负责一个明确任务。这样代码更容易理解、修改和复用。")
+    add_code(doc, "def calc_total(scores):\n    return sum(scores)\n\ndef calc_average(scores):\n    return sum(scores) / len(scores)\n\ndef count_pass(scores):\n    count = 0\n    for score in scores:\n        if score >= 60:\n            count = count + 1\n    return count")
+    add_body(doc, "这里三个函数分别负责总分、平均分、及格人数，每个函数的职责都很清楚。")
+    add_key(doc, "不要把很多不相干的逻辑都塞进同一个函数里。函数短一点、职责单一点，后面更好维护。")
+
+    add_heading(doc, "八、模块化思维")
+    add_body(doc, "模块化思维就是把一个大问题拆成多个小功能，每个小功能写成一个函数。")
+    add_code(doc, "scores = [88, 45, 92, 76, 59]\n\nprint(calc_total(scores))\nprint(calc_average(scores))\nprint(count_pass(scores))")
+    add_body(doc, "“成绩统计”本来是一个整体任务，但拆成多个小函数后，代码会更整齐，也更容易逐个检查。")
+    add_key(doc, "以后写稍微复杂一点的程序时，先想“这个任务能拆成几个小函数”。")
+
+    add_heading(doc, "九、函数之间可以配合")
+    add_body(doc, "函数不只是单独使用，它们还可以互相配合。一个函数可以调用另一个函数。")
+    add_code(doc, "def calc_total(scores):\n    return sum(scores)\n\ndef calc_average(scores):\n    total = calc_total(scores)\n    return total / len(scores)\n\nscores = [88, 92, 75]\nprint(calc_average(scores))")
+    add_body(doc, "calc_average() 先调用 calc_total() 得到总分，再继续计算平均分。这样可以减少重复代码。")
+    add_key(doc, "当一个小功能已经写好时，后面的函数可以直接复用它，而不是再重新写一遍。")
+
+    add_heading(doc, "十、常见错误")
+    add_body(doc, "1. 在函数外直接访问局部变量。")
+    add_code(doc, "def test_local():\n    local_num = 100\n    print(local_num)\n\nprint(local_num)  # 报错")
+    add_body(doc, "2. 忘记 return，导致函数结果拿不到外面继续使用。")
+    add_code(doc, "def multiply(a, b):\n    a * b\n\nresult = multiply(3, 4)\nprint(result)  # None")
+    add_body(doc, "3. 关键字参数把参数名写错。")
+    add_code(doc, 'def show_student(name, age, city):\n    print(name, age, city)\n\nshow_student(nam="张三", age=18, city="北京")')
+
+    add_heading(doc, "十一、本节小结")
+    for item in [
+        "作用域表示变量可以被访问的范围。",
+        "函数外定义的通常是全局变量，函数内定义的通常是局部变量。",
+        "函数内部可以读取全局变量，但函数外不能直接访问局部变量。",
+        "如果内外有同名变量，函数内部会优先使用自己的局部变量。",
+        "位置参数按顺序传值。",
+        "默认参数在没有传值时会使用默认值。",
+        "关键字参数可以明确指定参数名。",
+        "一个函数尽量只做一件事。",
+        "模块化思维就是把大任务拆成多个小函数。",
+        "函数之间可以互相调用，减少重复代码。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十二、复习题")
+    for question in [
+        "什么是作用域？",
+        "全局变量和局部变量有什么区别？",
+        "为什么函数外不能直接访问 local_num 这样的局部变量？",
+        "如果函数内外都有同名变量，程序会优先使用哪一个？",
+        "位置参数和关键字参数的区别是什么？",
+        "power(num, exponent=2) 中的 =2 表示什么？",
+        "为什么说一个函数尽量只做一件事？",
+        "“模块化思维”可以怎样帮助你组织代码？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第三阶段 · 第三节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：模块与 import")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、什么是模块")
+    add_body(doc, "在 Python 里，一个 .py 文件就可以看成一个模块。模块可以理解为“装着函数和代码的文件”。")
+    add_code(doc, "def add(a, b):\n    return a + b")
+    add_body(doc, "如果上面的代码写在 tools.py 中，那么 tools.py 就是一个模块，里面定义了 add() 函数。")
+    add_key(doc, "核心理解：模块就是用来组织和复用代码的 Python 文件。")
+
+    add_heading(doc, "二、为什么要使用模块")
+    add_body(doc, "当程序变大时，不适合把所有内容都写在一个文件里。可以把不同功能拆到不同模块中。")
+    add_code(doc, "# 成绩统计函数放一个文件\n# 字符串处理函数放一个文件\n# 主程序再放一个文件")
+    add_body(doc, "这样做以后，代码会更清楚，也更容易维护和复用。")
+    add_key(doc, "这就是前面学过的“模块化思维”在文件层面的应用。")
+
+    add_heading(doc, "三、import 是什么")
+    add_body(doc, "import 的作用是：把别的模块里的内容拿过来使用。")
+    add_code(doc, "import tools\n\nprint(tools.add(10, 20))")
+    add_body(doc, "这里 import tools 表示导入 tools 模块，tools.add(10, 20) 表示调用模块中的 add() 函数。")
+
+    add_heading(doc, "四、为什么调用时要写模块名")
+    add_body(doc, "写成 tools.add() 的好处是来源清楚。看到代码时，你能知道这个函数来自哪个模块。")
+    add_code(doc, "import tools\n\nresult = tools.add(3, 5)\nprint(result)")
+    add_body(doc, "如果多个模块里都有同名函数，带上模块名就不容易混乱。")
+    add_key(doc, "对初学者来说，import 模块名 再用 模块名.函数名 的写法更容易理解。")
+
+    add_heading(doc, "五、from ... import ...")
+    add_body(doc, "除了 import tools 这种写法，还可以只导入模块里的某个函数。")
+    add_code(doc, "from tools import add\n\nprint(add(10, 20))")
+    add_body(doc, "这样调用时可以直接写 add()，不需要再写 tools.。")
+    add_key(doc, "这种写法更短，但初学阶段更推荐先熟悉带模块名前缀的写法。")
+
+    add_heading(doc, "六、两种导入方式对比")
+    table = doc.add_table(rows=1, cols=3)
+    table.style = "Table Grid"
+    for i, text in enumerate(["写法", "示例", "特点"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("import 模块", "import tools", "来源清楚，调用时写 tools.add()"),
+        ("from 模块 import 函数", "from tools import add", "写法更短，可以直接写 add()"),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "七、标准库模块")
+    add_body(doc, "Python 自带很多现成模块，叫标准库。它们不需要自己写，直接 import 就可以使用。")
+    add_code(doc, "import math\n\nprint(math.sqrt(25))\nprint(math.pi)")
+    add_body(doc, "math.sqrt(25) 用来求平方根，math.pi 表示圆周率。")
+    add_code(doc, "import random\n\nprint(random.randint(1, 10))")
+    add_body(doc, "random.randint(1, 10) 表示随机生成 1 到 10 之间的整数。")
+    add_key(doc, "标准库就是 Python 已经帮你准备好的工具箱。")
+
+    add_heading(doc, "八、自己写模块")
+    add_body(doc, "你也可以自己创建模块，把常用函数放进去，然后在别的文件中导入使用。")
+    add_code(doc, 'def add(a, b):\n    return a + b\n\ndef subtract(a, b):\n    return a - b\n\ndef say_hello(name):\n    print(f"你好，{name}")')
+    add_body(doc, "比如把这些函数写在 my_tools.py 中，再在主程序文件里 import my_tools，就能重复使用这些函数。")
+    add_key(doc, "自己写模块，是把“写函数”进一步升级成“写可复用的工具文件”。")
+
+    add_heading(doc, "九、if __name__ == '__main__'")
+    add_body(doc, "以后你会经常看到 if __name__ == '__main__'。它常用来区分：当前文件是被直接运行，还是被别的文件导入。")
+    add_code(doc, 'def add(a, b):\n    return a + b\n\nif __name__ == "__main__":\n    print("主程序正在运行")\n    print(add(10, 20))')
+    add_body(doc, "直接运行这个文件时，这段代码会执行；如果这个文件只是被 import，这里的代码通常不会自动执行。")
+    add_key(doc, "现阶段先记住它的作用：放测试代码、主程序入口代码。")
+
+    add_heading(doc, "十、常见错误")
+    add_body(doc, "1. 模块名写错。")
+    add_code(doc, "import my_tool   # 实际文件名是 my_tools.py")
+    add_body(doc, "2. 使用 import tools 后，调用时忘了写模块名。")
+    add_code(doc, "import tools\n\nadd(10, 20)        # 错误\ntools.add(10, 20)  # 正确")
+    add_body(doc, "3. 对没有 return 的函数再套一层 print，导致输出 None。")
+    add_code(doc, 'print(my_tools.say_hello("张三"))   # 会多输出一个 None')
+
+    add_heading(doc, "十一、本节小结")
+    for item in [
+        "一个 .py 文件就可以看成一个模块。",
+        "模块可以帮助我们拆分、组织和复用代码。",
+        "import 的作用是导入模块。",
+        "import tools 后，调用函数要写 tools.add() 这样的形式。",
+        "from tools import add 可以直接使用 add()。",
+        "Python 自带很多标准库模块，例如 math 和 random。",
+        "自己也可以编写模块，比如 my_tools.py。",
+        "if __name__ == '__main__' 常用来放主程序入口或测试代码。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十二、复习题")
+    for question in [
+        "什么是模块？",
+        "为什么程序变大后要把代码拆到不同模块里？",
+        "import tools 和 from tools import add 有什么区别？",
+        "为什么 import tools 后，通常要写 tools.add()？",
+        "math.sqrt(25) 的作用是什么？",
+        "为什么 print(my_tools.say_hello('张三')) 会多输出一个 None？",
+        "if __name__ == '__main__' 一般用来做什么？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
+    doc.add_page_break()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run("Python 学习笔记：第四阶段 · 第一节")
+    set_font(run, size=20, color=(31, 78, 121), bold=True)
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run("主题：文件读写基础")
+    set_font(run, size=11, color=(89, 89, 89))
+
+    add_heading(doc, "一、什么是文件")
+    add_body(doc, "文件就是保存在电脑里的数据。文本文件、Python 文件、Word 文件都属于文件。")
+    add_code(doc, "study_note.txt\nhello.py\npython_learn.docx")
+    add_body(doc, "程序运行结束后，变量里的内容通常会消失；写进文件里的内容可以保留下来，下次还能继续读取。")
+    add_key(doc, "核心理解：文件让程序的数据可以长期保存，而不是只存在于运行过程里。")
+
+    add_heading(doc, "二、为什么要学文件读写")
+    add_body(doc, "很多程序都要把内容保存到磁盘中，或者从磁盘读取已有数据。")
+    add_code(doc, "# 保存学习记录\n# 保存学生成绩\n# 读取配置文件\n# 把程序结果写到文本里")
+    add_body(doc, "所以文件读写是 Python 非常基础也非常常用的能力。")
+
+    add_heading(doc, "三、open() 是什么")
+    add_body(doc, "open() 用来打开文件。打开后，程序就可以对文件进行读取、写入或追加。")
+    add_code(doc, 'file = open("test.txt", "r", encoding="utf-8")')
+    add_body(doc, "这里 test.txt 是文件名，r 是读取模式，encoding='utf-8' 表示按 UTF-8 编码处理文件。")
+    add_key(doc, "处理中文文件时，通常都要写 encoding='utf-8'。")
+
+    add_heading(doc, "四、推荐写法：with open(...)")
+    add_body(doc, "更推荐使用 with open(...) 这种写法。它会在用完文件后自动关闭文件。")
+    add_code(doc, 'with open("test.txt", "r", encoding="utf-8") as file:\n    content = file.read()\n    print(content)')
+    add_body(doc, "这种写法更安全，也更符合日常开发习惯。以后优先使用它。")
+    add_key(doc, "你可以先把 with open(...) 理解成“打开文件，用完自动收尾”。")
+
+    add_heading(doc, "五、三种最常用模式")
+    table = doc.add_table(rows=1, cols=3)
+    table.style = "Table Grid"
+    for i, text in enumerate(["模式", "作用", "特点"]):
+        paragraph = table.rows[0].cells[i].paragraphs[0]
+        run = paragraph.add_run(text)
+        set_font(run, color=(255, 255, 255), bold=True)
+        shade(paragraph, "4472C4")
+
+    rows = [
+        ("r", "读取", "文件必须已经存在"),
+        ("w", "写入", "不存在就创建，已存在会覆盖原内容"),
+        ("a", "追加", "不存在就创建，已存在就在末尾继续写"),
+    ]
+    for row in rows:
+        cells = table.add_row().cells
+        for i, text in enumerate(row):
+            run = cells[i].paragraphs[0].add_run(text)
+            set_font(run)
+
+    add_heading(doc, "六、读取整个文件：read()")
+    add_body(doc, "read() 会把整个文件内容一次性读出来。")
+    add_code(doc, 'with open("study_note.txt", "r", encoding="utf-8") as file:\n    content = file.read()\n    print(content)')
+    add_body(doc, "适合文件内容不大、想一次性查看完整文本时使用。")
+
+    add_heading(doc, "七、写入文件：write()")
+    add_body(doc, "write() 用来向文件写入内容。常和 w 或 a 模式一起使用。")
+    add_code(doc, 'with open("study_note.txt", "w", encoding="utf-8") as file:\n    file.write("Python 学习开始了\\n")\n    file.write("我正在学习文件读写\\n")')
+    add_body(doc, "如果使用 w 模式，原文件内容会被覆盖；如果文件不存在，则会自动创建。")
+    add_key(doc, "w 是重写，不是接着写。想保留原内容时，不要误用 w。")
+
+    add_heading(doc, "八、追加文件内容：a")
+    add_body(doc, "如果想在原文件末尾继续写，而不是覆盖原内容，就用 a 模式。")
+    add_code(doc, 'with open("study_note.txt", "a", encoding="utf-8") as file:\n    file.write("今天学习了 open 和 with\\n")')
+    add_body(doc, "a 可以理解为“append”，也就是追加。")
+
+    add_heading(doc, "九、按行读取：readlines()")
+    add_body(doc, "readlines() 会按行读取文件，并返回一个列表。列表中的每个元素就是文件的一行。")
+    add_code(doc, 'with open("scores.txt", "r", encoding="utf-8") as file:\n    lines = file.readlines()\n    print(lines)\n    print(len(lines))')
+    add_body(doc, "如果文件有 3 行，那么 lines 就会是一个长度为 3 的列表。")
+    add_key(doc, "readlines() 常用于“统计行数”或“逐行处理文本”。")
+
+    add_heading(doc, "十、处理换行符")
+    add_body(doc, "文本文件中的每一行末尾通常带有换行符 \\n。直接打印时，常会多出空行。")
+    add_code(doc, 'for line in lines:\n    print(line.strip())')
+    add_body(doc, "strip() 可以去掉首尾空白字符，包括行尾的 \\n。")
+    add_code(doc, 'file.write("第一行\\n")\nfile.write("第二行\\n")')
+    add_body(doc, "\\n 表示换行。写文件时，如果想让内容分成多行，通常要手动加上它。")
+
+    add_heading(doc, "十一、路径变量的作用")
+    add_body(doc, "写文件时，先把路径保存到变量里，会让代码更清楚，也更容易统一修改。")
+    add_code(doc, 'file_path = r"F:\\pythonprojects\\py_try\\study_note.txt"\n\nwith open(file_path, "w", encoding="utf-8") as file:\n    file.write("Python 学习开始了\\n")')
+    add_body(doc, "这样后面再次读取、写入、追加时，都可以重复使用同一个 file_path 变量。")
+    add_key(doc, "先定义路径变量，再统一使用，是一个很好的习惯。")
+
+    add_heading(doc, "十二、常见错误")
+    add_body(doc, "1. 用 r 读取一个不存在的文件。")
+    add_code(doc, 'with open("abc.txt", "r", encoding="utf-8") as file:\n    print(file.read())')
+    add_body(doc, "2. 把 w 当成追加，结果把原内容覆盖了。")
+    add_code(doc, 'with open("study_note.txt", "w", encoding="utf-8") as file:\n    file.write("新内容")')
+    add_body(doc, "3. 直接 print(line) 导致每行之间多空一行。")
+    add_code(doc, 'for line in lines:\n    print(line)         # 常会多空行\n    print(line.strip()) # 更常用')
+
+    add_heading(doc, "十三、本节小结")
+    for item in [
+        "文件用于把数据保存到磁盘中。",
+        "open() 用来打开文件。",
+        "更推荐使用 with open(...) 的写法。",
+        "r 表示读取，w 表示写入，a 表示追加。",
+        "w 会覆盖原内容，a 会在末尾继续写。",
+        "read() 可以一次性读取整个文件。",
+        "readlines() 会按行读取，并返回列表。",
+        "写多行内容时，通常要手动写 \\n。",
+        "逐行输出时，常用 strip() 去掉换行符。",
+        "先定义文件路径变量，再统一使用，会让代码更清楚。",
+    ]:
+        paragraph = doc.add_paragraph(style="List Bullet")
+        run = paragraph.add_run(item)
+        set_font(run)
+
+    add_heading(doc, "十四、复习题")
+    for question in [
+        "为什么程序需要文件，而不能只用变量？",
+        "open('test.txt', 'r', encoding='utf-8') 中 r 和 encoding 分别表示什么？",
+        "为什么更推荐使用 with open(...)？",
+        "w 和 a 的区别是什么？",
+        "read() 和 readlines() 的区别是什么？",
+        "为什么逐行 print(line) 时常会多出空行？",
+        "strip() 在这里的作用是什么？",
+        "为什么把文件路径先保存到变量里是个好习惯？",
+    ]:
+        paragraph = doc.add_paragraph(style="List Number")
+        run = paragraph.add_run(question)
+        set_font(run)
+
     section = doc.sections[0]
     section.top_margin = Pt(54)
     section.bottom_margin = Pt(54)

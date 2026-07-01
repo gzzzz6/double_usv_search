@@ -1,0 +1,21 @@
+run_kind,policy_step,expected_target_present_for_audit,raw_sensor_detection_count,accepted_candidate_count,teammate_rejected_count,fused_candidate_count,fused_candidates,shared_found_this_step,new_found_this_step,found_mask_before,outcome,candidate_fusion_called,live_capture_primary_detection_source,replay_events_used_for_detection,truth_used_for_detection,actor_truth_used_for_detection,target_truth_used_for_detection,teammate_truth_used_for_detection
+target,1,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,2,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,3,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,4,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,5,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,6,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,7,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,8,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,9,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,10,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,11,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,12,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,13,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,14,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,15,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,16,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,17,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,18,True,0,0,0,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,19,True,28,0,28,0,[],False,False,[false],false_negative,True,True,False,False,False,False,False
+target,20,True,55,31,24,1,"[{""candidate_count"": 31, ""cluster_id"": 0, ""confirmed_static_target_candidate_for_audit"": true, ""fused_world_position"": [-269.68930868387724, 221.05921739961553, 0.0], ""positions"": [[-269.53159240369666, 220.95920578734004, 0.0], [-269.52570059003807, 220.9975661199057, 0.0], [-269.5230965450115, 221.03862396781693, 0.0], [-269.524508518724, 221.08249705954344, 0.0], [-269.53076990872995, 221.12931644441593, 0.0], [-269.5431125596193, 221.1792997062761, 0.0], [-269.563386117491, 221.23282818327164, 0.0], [-269.5947649683053, 221.29059298855174, 0.0], [-269.6439391129667, 221.35419960028295, 0.0], [-269.73449496177443, 221.4299236616684, 0.0], [-269.597113333418, 220.91945281575673, 0.0], [-269.71045279656335, 221.25471656450895, 0.0], [-269.7979856114133, 220.6784063133687, 0.0], [-269.6264665032853, 221.00689221199303, 0.0], [-269.662178217713, 221.10989166591344, 0.0], [-269.746966875397, 221.2126612406014, 0.0], [-269.67780871889784, 221.07440628846922, 0.0], [-269.7434838124779, 221.16762085196996, 0.0], [-269.69163443264887, 221.01753142754862, 0.0], [-269.7294226244844, 220.8599712229232, 0.0], [-269.80767628374286, 221.1747984986174, 0.0], [-269.72545861887744, 221.00088614840465, 0.0], [-269.79750448291014, 220.81632149111365, 0.0], [-269.7710277929713, 220.86941759774572, 0.0], [-269.7630338305945, 220.91526548241987, 0.0], [-269.7661572357036, 220.95399147973427, 0.0], [-269.7765207717013, 220.98563827016244, 0.0], [-269.7910570636813, 221.01035400681718, 0.0], [-269.80758519298126, 221.02832468294713, 0.0], [-269.8244097680408, 221.03984609364235, 0.0], [-269.8392595463339, 221.04529151435005, 0.0]], ""reporter_usv_ids"": [""sv0""], ""target_position_error_m"": 0.31628435676036293}]",True,True,[false],true_positive,True,True,False,False,False,False,False
